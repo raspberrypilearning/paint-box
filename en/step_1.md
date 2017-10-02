@@ -1,11 +1,21 @@
 ## Introduction
 
-In this project, you will be making your own paint program!
+Make your own paint program!
+
+### What you will make
+Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
+
+### What you will learn
+
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+
 
 ### Additional information for club leaders
 
@@ -42,16 +52,13 @@ Make sure that each child has access to a copy of these resources.
 
 For club members that aren't able to access these project resources, there is a Scratch project with the external resources pre-loaded. This is available online at [jumpto.cc/paint-resources](http://jumpto.cc/paint-resources), or in the downloadable project materials, which contains:
 
-+ PaintBoxResources.sb2 
++ PaintBoxResources.sb2
 
 ## Learning Objectives
 + Importing images;
 + Relational and boolean operators (`>`{:class="blockoperators"} & `and`{:class="blockoperators"});
 + Broadcasting between sprites.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Challenges
 + "Shortcuts" - Using `key press`{:class="blocksensing"} events to broadcast messages;

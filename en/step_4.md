@@ -1,61 +1,76 @@
-## Making mistakes
+## Coloured pens
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser to your project!
+Let's add different colour pens to your project, and allow the user to choose between them!
 
 
 
-+ Let's add a button to clear the stage. To do this, add the 'X-block' letter sprite to the stage, and colour it in red.
++ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
 
-	![screenshot](images/paint-x.png)
+	![screenshot](images/paint-blue-duplicate.png)
 
-+ Add code to your new cancel button to clear the stage when it's clicked.
++ Rename your new costume 'pencil-green', and colour the pencil green.
+
+	![screenshot](images/paint-pencil-green.png)
+
++ Create two new sprites, which you will use to select the blue or green pencil.
+
+	![screenshot](images/paint-selectors.png)
+
++ When the green selector icon is clicked, you need to `broadcast`{:class="blockevents"} a message to the pencil sprite, telling it to change its costume and pencil colour.
+
+	To do this, first add this code to the green selector icon:
 
 	```blocks
 		when this sprite clicked
+		broadcast [green v]
+	```
+
+	To create the `broadcast`{:class="blockevents"} block, click the down arrow and select 'new message...'.
+
+	![screenshot](images/paint-broadcast.png)
+
+	You can then type 'green' to create your new message.
+
+	![screenshot](images/paint-green-message.png)
+
++ You now need to tell your pencil sprite what to do when it receives the message. Add this code to your pencil sprite:
+
+	```blocks
+		when I receive [green v]
+		switch costume to [pencil-green v]
+		set pen color to [#00ff00]
+	```
+
+	To set the pencil to colour to green, click the coloured box in the `set color`{:class="blockpen"} block, and click on the green selector icon to choose green as your pencil colour.
+
++ You can now do the same for the blue pencil icon, adding this code to the blue selector sprite:
+
+	```blocks
+		when this sprite clicked
+		broadcast [blue v]
+	```
+
+	...and adding this code to the pencil sprite:
+
+	```blocks
+		when I receive [blue v]
+		switch costume to [pencil-blue v]
+		set pen color to [#0000ff]
+	```
+
++ Finally, you need to tell your pencil sprite what costume and pencil colour to choose, as well as clearing the screen, when your project is started. Add this code to the beginning of the pencil's `when flag clicked`{:class="blockevents"} code (before the `forever`{:class="blockcontrol"} loop):
+
+	```blocks
 		clear
+		switch costume to [blue-pencil v]
+		set pen color to [#0000ff]
 	```
 
-	Notice that you don't need to send a message to clear the stage, as any sprite can do it!
+	If you prefer, you can start with a different colour pencil!
 
-+ You have probably noticed that your pencil sprite includes an eraser costume:
++ Test out your project. Can you switch between blue and green pens?
 
-	![screenshot](images/paint-eraser-costume.png)
-	
-
-+ Your project also includes an eraser selector sprite, right click on it and choose 'show'. This is how your stage should look:
-
-	![screenshot](images/paint-eraser-stage.png)
-
-+ You can then add code to the eraser selector sprite, to tell the pencil to switch to an eraser.
-
-	```blocks
-		when this sprite clicked
-		broadcast [eraser v]
-	```
-
-+ When the pencil receives this message, you can create an eraser by switching the pencil costume to the eraser, and switching the pencil colour to the same colour as the stage!
-
-	```blocks
-		when I receive [eraser v]
-		switch costume to [eraser v]
-		set pen color to [#FFFFFF]
-	```
-
-+ Test your project, to see if you can clear and erase on the stage.
-
-	![screenshot](images/paint-erase-test.png)
-
-+ There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
-
-	![screenshot](images/paint-draw-problem.png)
-
-	To fix this, you have to tell the pencil only to draw if the mouse is clicked _and_ if the y-position of the mouse is greater than -120 (`mouse y` statement to look like this:
-
-	![screenshot](images/pencil-gt-code.png)
-
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
-
-	![screenshot](images/paint-fixed.png)
+	![screenshot](images/paint-pens-test.png)
 
 
 
