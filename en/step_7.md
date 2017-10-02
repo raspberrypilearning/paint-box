@@ -1,5 +1,5 @@
 --- challenge ---
-## Challenge: Shortcuts
+## Challenge: shortcuts
 Can you create keyboard shortcuts for your commands? For example:
 
 + b = Switch to blue pen
@@ -7,9 +7,6 @@ Can you create keyboard shortcuts for your commands? For example:
 + e = switch to eraser
 + c = clear screen
 
-You could even allow the user to change the pen width with the arrow keys!
-
-
-
+You could even allow the user to change the pen width with the arrow keys.
 
 --- /challenge ---
