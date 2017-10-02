@@ -12,9 +12,9 @@ Click on the green flag to start. Use the mouse to move the pencil and hold down
 
 ### What you will learn
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 
 ### Additional information for club leaders
@@ -28,21 +28,21 @@ title: Club leader notes
 ---
 
 
-## Introduction:
+### Introduction:
 In this project, children will learn how to broadcast messages between sprites.
 
-## Resources
+### Resources
 For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
 The 'Project Materials' link for this project contains the following resources:
 
-##### Club leader Resources
+### Club leader Resources
 
 You can find a completed version of this project <a href="http://scratch.mit.edu/projects/63473366/#editor">online</a>, or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
 + PaintBox.sb2
 
-##### Project Resources
+### Project Resources
 
 For this project, club members can make use of external resources that aren't available in the Scratch library:
 
@@ -54,17 +54,17 @@ For club members that aren't able to access these project resources, there is a 
 
 + PaintBoxResources.sb2
 
-## Learning Objectives
+### Learning Objectives
 + Importing images;
 + Relational and boolean operators (`>`{:class="blockoperators"} & `and`{:class="blockoperators"});
 + Broadcasting between sprites.
 
 
-## Challenges
+### Challenges
 + "Shortcuts" - Using `key press`{:class="blocksensing"} events to broadcast messages;
 + "More pens" - Adding more pen colours, to consolidate the learning of broadcasting messages.
 
-## Frequently Asked Questions
+### Frequently Asked Questions
 + Changes in a sprite's 'costume center' isn't registered until another tab is clicked. Children should click on another costume, or on the 'Scripts' tab to finalise changes to the costume center.
 + The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil. If the crosshair is on the pencil then Scratch just thinks you are moving the sprite around in the editor. If the pencil doesn't draw correctly then the crosshair has probably been placed on the tip of the pencil (which does seem logical) and needs to be moved just below the pencil.  
 
@@ -76,12 +76,12 @@ For club members that aren't able to access these project resources, there is a 
 ---
 title: Project materials
 ---
-## Project resources
+### Project resources
 * [Online Scratch 2 project containing external resources](http://jumpto.cc/paint-resources)
 * [Downloadable Scratch 2 project containing external resources](resources/PaintBoxResources.sb2)
 * [eraser.svg](resources/eraser.svg)
 
-## Club leader resources
+### Club leader resources
 * [Online completed Scratch 2 project](http://scratch.mit.edu/projects/63473366/#editor)
 * [Downloadable completed Scratch 2 project](resources/PaintBox.sb2)
 
