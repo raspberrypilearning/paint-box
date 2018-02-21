@@ -1,36 +1,62 @@
-## Changing the pencil width
+## Making mistakes
 
-Let's allow the user to draw using a range of different pencil sizes.
+Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
 
++ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
 
+![screenshot](images/paint-x.png)
 
-+ First, add a new variable called 'width'. If you're not sure how to do this, the 'Ghostbusters' project will help you.
++ Add code to this sprite to clear the stage when it's clicked.
 
-+ Add this line _inside_ the `forever`{:class="blockcontrol"} loop of your pencil's code:
+![Clear stage](images/clear-stage.png)
 
-	```blocks
-		set pen size to (width)
-	```
+Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
 
-	Your pencil width will now repeatedly be set to the value of your 'width' variable.
+You have probably noticed that your pencil sprite includes an eraser costume:
 
-+ You can change the number stored in this variable by right-clicking on your variable (on the stage) and clicking 'slider'.
+![screenshot](images/paint-eraser-costume.png)
 
-	![screenshot](images/paint-slider.png)
++ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
 
-	You can now drag the slider below the variable to change its value.
+![screenshot](images/paint-eraser-stage.png)
 
-	![screenshot](images/paint-slider-change.png)
++ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
 
-+ Test your project, and see if you can modify the pencil width.
+![Broadcast eraser](images/broadcast-eraser.png)
 
-	![screenshot](images/paint-width-test.png)
+When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
 
-	If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on your variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
++ Add some code to create the eraser
 
-	![screenshot](images/paint-slider-max.png)
+--- hints ---
+--- hint ---
+Add some code to the pencil sprite:
+**When I receive** the **eraser** message
+**Switch to costume** eraser
+**Set pen color** to white
+--- /hint ---
+--- hint ---
+Here is how the code inside the pencil sprite should look:
+```blocks
+when I receive [eraser v]
+switch costume to [eraser v]
+set pen color to [#FFFFFF]
+```
+--- /hint ---
+--- /hints ---
 
-	Keep testing your 'width' variable until you're happy.
++ Test your project, to see if you can clear and erase on the stage.
 
+![screenshot](images/paint-erase-test.png)
 
+There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
 
+![screenshot](images/paint-draw-problem.png)
+
+To fix this, tell the pencil only to draw if the mouse is clicked _and_ if the y-position of the mouse is greater than -120:
+
+![screenshot](images/pencil-gt-code.png)
+
++ Test your project; you now shouldn't be able to draw near the selector blocks.
+
+![screenshot](images/paint-fixed.png)

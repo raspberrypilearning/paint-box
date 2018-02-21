@@ -1,61 +1,56 @@
-## Making mistakes
+## Coloured pencils
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser to your project!
+Let's add different coloured pencils to your project, and allow the user to choose between them.
 
++ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
 
+![screenshot](images/paint-blue-duplicate.png)
 
-+ Let's add a button to clear the stage. To do this, add the 'X-block' letter sprite to the stage, and colour it in red.
++ Rename your new costume 'pencil-green', and colour the pencil green.
 
-	![screenshot](images/paint-x.png)
+![screenshot](images/paint-pencil-green.png)
 
-+ Add code to your new cancel button to clear the stage when it's clicked.
+[[[generic-scratch-rename-sprite]]]
 
-	```blocks
-		when this sprite clicked
-		clear
-	```
++ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
 
-	Notice that you don't need to send a message to clear the stage, as any sprite can do it!
+![screenshot](images/paint-selectors.png)
 
-+ You have probably noticed that your pencil sprite includes an eraser costume:
++ Rename your sprites so that they are called 'blue' and 'green'
 
-	![screenshot](images/paint-eraser-costume.png)
-	
++ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
 
-+ Your project also includes an eraser selector sprite, right click on it and choose 'show'. This is how your stage should look:
+![Broadcast green](images/paint-broadcast-green.png)
 
-	![screenshot](images/paint-eraser-stage.png)
+[[[generic-scratch-broadcast-message]]]
 
-+ You can then add code to the eraser selector sprite, to tell the pencil to switch to an eraser.
++ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
 
-	```blocks
-		when this sprite clicked
-		broadcast [eraser v]
-	```
+![Broadcast green](images/broadcast-green.png)
 
-+ When the pencil receives this message, you can create an eraser by switching the pencil costume to the eraser, and switching the pencil colour to the same colour as the stage!
+To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
 
-	```blocks
-		when I receive [eraser v]
-		switch costume to [eraser v]
-		set pen color to [#FFFFFF]
-	```
++ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
 
-+ Test your project, to see if you can clear and erase on the stage.
+```blocks
+when this sprite clicked
+broadcast [blue v]
+```
 
-	![screenshot](images/paint-erase-test.png)
+...and add this code to the pencil sprite:
 
-+ There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+```blocks
+when I receive [blue v]
+switch costume to [pencil-blue v]
+set pen color to [#0000ff]
+```
 
-	![screenshot](images/paint-draw-problem.png)
++ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
 
-	To fix this, you have to tell the pencil only to draw if the mouse is clicked _and_ if the y-position of the mouse is greater than -120 (`mouse y` statement to look like this:
+![Start pencil](images/start-pencil.png)
 
-	![screenshot](images/pencil-gt-code.png)
+We chose to start with blue but if you prefer, you can start with a different colour pencil.
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
 
-	![screenshot](images/paint-fixed.png)
-
-
-
+![screenshot](images/paint-pens-test.png)

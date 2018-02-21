@@ -1,76 +1,44 @@
-## Coloured pens
+## Making a pencil
 
-Let's add different colour pens to your project, and allow the user to choose between them!
+Let's start by making a pencil that can be used to draw on the stage.
 
++ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from [http://jumpto.cc/paint-get](http://jumpto.cc/paint-get){:target="_blank"} and then open it if you are using the offline editor.
 
+You will see pencil and eraser sprites:
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
+![screenshot](images/paint-starter.png)
 
-	![screenshot](images/paint-blue-duplicate.png)
++ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
+```blocks
+	when flag clicked
+	forever
+	  go to [mouse pointer v]
+	end
+```
 
-	![screenshot](images/paint-pencil-green.png)
++ Click the flag and then move the mouse around the stage to test whether the code works.
 
-+ Create two new sprites, which you will use to select the blue or green pencil.
+Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
-	![screenshot](images/paint-selectors.png)
++ Add this code to your pencil sprite:
 
-+ When the green selector icon is clicked, you need to `broadcast`{:class="blockevents"} a message to the pencil sprite, telling it to change its costume and pencil colour.
+![screenshot](images/paint-pencil-draw-code.png)
 
-	To do this, first add this code to the green selector icon:
++ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
 
-	```blocks
-		when this sprite clicked
-		broadcast [green v]
-	```
+![screenshot](images/paint-draw.png)
 
-	To create the `broadcast`{:class="blockevents"} block, click the down arrow and select 'new message...'.
+--- collapse ---
+---
+title: If you're having problems...
+---
+If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
 
-	![screenshot](images/paint-broadcast.png)
+![Costume center](images/costume-center.png)
 
-	You can then type 'green' to create your new message.
+The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
 
-	![screenshot](images/paint-green-message.png)
+A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
 
-+ You now need to tell your pencil sprite what to do when it receives the message. Add this code to your pencil sprite:
-
-	```blocks
-		when I receive [green v]
-		switch costume to [pencil-green v]
-		set pen color to [#00ff00]
-	```
-
-	To set the pencil to colour to green, click the coloured box in the `set color`{:class="blockpen"} block, and click on the green selector icon to choose green as your pencil colour.
-
-+ You can now do the same for the blue pencil icon, adding this code to the blue selector sprite:
-
-	```blocks
-		when this sprite clicked
-		broadcast [blue v]
-	```
-
-	...and adding this code to the pencil sprite:
-
-	```blocks
-		when I receive [blue v]
-		switch costume to [pencil-blue v]
-		set pen color to [#0000ff]
-	```
-
-+ Finally, you need to tell your pencil sprite what costume and pencil colour to choose, as well as clearing the screen, when your project is started. Add this code to the beginning of the pencil's `when flag clicked`{:class="blockevents"} code (before the `forever`{:class="blockcontrol"} loop):
-
-	```blocks
-		clear
-		switch costume to [blue-pencil v]
-		set pen color to [#0000ff]
-	```
-
-	If you prefer, you can start with a different colour pencil!
-
-+ Test out your project. Can you switch between blue and green pens?
-
-	![screenshot](images/paint-pens-test.png)
-
-
-
+--- /collapse ---
