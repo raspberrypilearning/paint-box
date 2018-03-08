@@ -32,7 +32,7 @@ Per i soci del club che non sono in grado di accedere a queste risorse, esiste u
 
 ## Obiettivi di apprendimento
 + Importare immagini;
-+ Operatori relazionali e booleani (`>` {.blockoperators} & `e` {.blockoperators});
++ Operatori relazionali e booleani (`>`{:class="blockoperators"} & `e`{:class="blockoperators"});
 + Trasmettere tra gli sprite.
 
 Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
@@ -40,7 +40,7 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 + [Combinazione di costrutti di programmazione per la soluzione di problemi.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Sfide
-+ "Scorciatoie" - Usare gli eventi 'premere tasti' {.blocksensing} per trasmettere i messaggi;
++ "Scorciatoie" - Usare gli eventi `premere tasti`{:class="blocksensing"} per trasmettere i messaggi;
 + "Altre penne" - Aggiunge più prenne colorate per rafforzare l'apprendimento della trasmissione di messaggi.
 
 ## Domande frequenti
