@@ -1,9 +1,9 @@
-## What you will need
+## Τι θα χρειαστείτε
 
-### Hardware
+### Σκεύη, εξαρτήματα
 
-+ Computer capable of running Scratch 2.0
++ Υπολογιστής ικανός να τρέχει το Scratch 2.0
 
-### Software
+### Λογισμικό
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
++ Scratch 2.0 ( [online](https://scratch.mit.edu/projects/editor/){: target = "_ blank"} ή [offline](https://scratch.mit.edu/scratch2download/){: target = "_ blank"})
