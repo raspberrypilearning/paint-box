@@ -29,7 +29,7 @@ Um einen `sende an alle`{:class="blockevents"}-Block zu erstellen, klicke auf de
 
 Du kannst nun 'grün' eintippen, um Deine neue Nachricht zu erstellen.
 
-![screenshot](images/paint-grün-message.png)
+![screenshot](images/paint-green-message.png)
 
 + Du musst Deiner Bleistift-Figur nun mitteilen was zu tu ist, wenn sie diese Nachricht erhält. Füge Deiner Figur diesen Code hinzu:
 
