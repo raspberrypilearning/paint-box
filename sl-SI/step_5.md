@@ -1,55 +1,53 @@
-## Making mistakes
+## Napake
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Včasih se zgodi napaka, zato dodamo "jasen" gumb in izbirnik.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Dodaj sprite "X-block" - najdete ga v knjižnici v razdelku s črkami. Barva kostuma rdeče. To bo postalo "jasen" gumb.
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Dodajte kodo v ta sprite, da izbrišete fazo, ko jo kliknete.
 
-![Clear stage](images/clear-stage.png)
+![Jasna stopnja](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Upoštevajte, da vam ni treba poslati sporočila, da izbrišete oder, lahko uporabite čisti blok iz tega sprita.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Verjetno ste opazili, da vaš svinčnik za svinčnik vključuje kostum radirke:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Vaš projekt vsebuje tudi ločen sprite za radirke. Desni klik na ta sprite in izberite "show". Tukaj je, kako bi izgledal vaš oder:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Dodajte kodo v brisalko, da poveste svinčniku, da preklopi na radirko, ko se klikne sprite.
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![Radirka za oddajanje](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Ko svinčnik prejme sporočilo »eraser«, lahko kostum svinčnika preklopite na radirko in barvo svinčnika preklopite na belo - enako barvo kot na odru!
 
-+ Add some code to create the eraser
++ Dodajte nekaj kode, da ustvarite radirko
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- namige \--- \--- nasvet \--- Dodajte kodo v škatlo s svinčnikom: **Ko prejmem** **eraser** sporočilo **Preklopi na kostum** eraser **Nastavite barvo pisala** v beli \--- / namig \--- \--- namig \--- Tukaj je, kako naj bo koda v svinčniku svinčnika videti:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+ko prejmem [eraser v] preklopni kostum, na [eraser v] nastavite barvo peresa na [#FFFFFF]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / namig \--- \--- / namigi \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Preizkusite svoj projekt in preverite, ali lahko izbrišete in izbrišete na odru.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Obstaja še ena težava s svinčnikom - lahko si povlečete kjerkoli na odru, tudi v bližini ikon selektorja!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Če želite to popraviti, povejte svinčniku le, če kliknete miško *in* , če je položaj y-miške večji od -120:
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Preizkusite svoj projekt; zdaj ne bi smeli biti v bližini izbirnih blokov.
 
 ![screenshot](images/paint-fixed.png)
