@@ -1,44 +1,41 @@
-## Making a pencil
+## Izdelava svinčnika
 
-Let's start by making a pencil that can be used to draw on the stage.
+Začnimo z izdelavo svinčnika, ki se lahko uporabi za risanje na odru.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Odprite projekt »Paintbox« Scratch na spletu na naslovu [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} ali prenesete s <http://jumpto.cc/paint-get>{: target = "_ blank"} in nato odprite, če uporabljate urejevalnik brez povezave.
 
-You will see pencil and eraser sprites:
+Videli boste svinčnike in brisače:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Dodajte kodo k svinčniku svinčnika, da bo sledila miški `za vedno`{: class = "blockcontrol"}, tako da lahko narišete:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    ko kliknete zastavo, za vedno pojdite na [miškin kazalec v] konec
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Kliknite oznako in nato premaknite miško okrog odra, da preverite, ali koda deluje.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Nato naredimo vaš svinčnik samo pripravi `, če je miška kliknjena na`{: class = "blockcontrol"}.
 
-+ Add this code to your pencil sprite:
++ Dodajte to kodo na svojo pisalo s svinčnikom:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Ponovno preverite svojo kodo. Tokrat premaknite svinčnik okoli stopnice in držite tipko miške. Ali lahko narišete s svinčnikom?
 
 ![screenshot](images/paint-draw.png)
 
-## \--- collapse \---
+## \--- propad \---
 
-## title: If you're having problems...
+## naslov: če imate težave ...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Če vaš svinčnik zdi, da črta črto iz sredine svinčnika in ne konice, boste morali spremeniti svoj kostumski center.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Preboj za svinčnik je treba postaviti **tik pod** konico svinčnika, ne na vrhu svinčnika.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Spremembe kostumskega centra sprite niso registrirane, dokler ne kliknete drugega zavihka, zato kliknite na drug kostum ali na zavihku »Skripte«, da dokončate spremembe v kostumu.
 
-\--- /collapse \---
+\--- / kolaps \---
