@@ -56,7 +56,7 @@ Um die Stiftfarbe auf grün zu setzen, klicke die grün gefärbte Box in dem `se
       setze Stiftfarbe auf [#0000ff]
   ```
 
-+ Zuletzt musst Du Deiner Bleistift-Figur sowohl mitteilen, welches Kostüm und welche Stiftfarbe sie wählen soll, als auch den Bildschirm zu leeren, sobald ein neues Projekt begonnen wird. Füge diesen Code an den Anfang des `Wenn die grüne Flagge angeklickt` {:class="blockevents"}-Code des Bleistifts hinzu (vor die `wiederhole fortlaufend`{:class="blockcontrol"}-Schleife):
++ Zuletzt musst Du Deiner Bleistift-Figur sowohl mitteilen, welches Kostüm und welche Stiftfarbe sie wählen soll, als auch den Bildschirm zu leeren, sobald ein neues Projekt begonnen wird. Füge diesen Code an den Anfang des `Wenn die grüne Flagge angeklickt`{:class="blockevents"}-Code des Bleistifts hinzu (vor die `wiederhole fortlaufend`{:class="blockcontrol"}-Schleife):
 
 	```blocks
       wische Malspuren weg
