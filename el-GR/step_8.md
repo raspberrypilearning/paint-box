@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- πρόκληση \---
 
-## Challenge: more pencils
+## Πρόκληση: περισσότερα μολύβια
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+Μπορείτε να προσθέσετε κόκκινο, κίτρινο και μαύρο μολύβι στο πρόγραμμα βαφής σας; Ρίξτε μια ματιά στο βήμα 2 παραπάνω εάν έχετε ξεχάσει πώς να το κάνετε αυτό. Θυμηθείτε να προσθέσετε συντομεύσεις πληκτρολογίου για αυτά τα νέα μολύβια επίσης.
 
-Can you use your pencils to draw a picture?
+Μπορείτε να χρησιμοποιήσετε τα μολύβια σας για να σχεδιάσετε μια εικόνα;
 
 ![screenshot](images/paint-final.png)
 
-\--- /challenge \---
+\--- / πρόκληση \---
