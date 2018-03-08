@@ -16,7 +16,7 @@ Empezaremos por crear un lápiz, que puedes usar para dibujar en el escenario.
 
 	![screenshot](images/paint-pencil-blue.png)
 
-+ Como vas a usar el ratón para dibujar, querrás que tu lápiz siga al ratón “por siempre” {.blockcontrol}. Añade este código a tu objeto lápiz:
++ Como vas a usar el ratón para dibujar, querrás que tu lápiz siga al ratón `por siempre`{:class="blockcontrol"}. Añade este código a tu objeto lápiz:
 
 	```blocks
 		al presionar bandera verde
@@ -41,7 +41,7 @@ Empezaremos por crear un lápiz, que puedes usar para dibujar en el escenario.
 
 + Haz clic en la pestaña “Programas”, y luego prueba tu lápiz una vez más. ¿Funciona mejor que antes?
 
-+ Ahora haremos que el lápiz dibuje `si` {.blockcontrol} hacemos clic en el ratón. Añade este código al objeto lápiz:
++ Ahora haremos que el lápiz dibuje `si`{:class="blockcontrol"} hacemos clic en el ratón. Añade este código al objeto lápiz:
 
 	![screenshot](images/paint-pencil-draw-code.png)
 
