@@ -4,7 +4,7 @@ Facciamo in modo che l'utente possa disegnare usando una varietà di misure di m
 
 + Per prima cosa, aggiungiamo una nuova variabile chiamata 'larghezza'. Se non sai come si fa, il progetto 'Ghostbusters' ti sarà utile.
 
-+ Aggiungi questa linea_dentro_il loop `per sempre` {.blockcontrol} del codice della matita:
++ Aggiungi questa linea_dentro_il loop `per sempre`{:class="blockcontrol"} del codice della matita:
 
 	```blocks
 		usa penna di dimensione (larghezza)
