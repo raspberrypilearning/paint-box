@@ -25,11 +25,11 @@ Recursos del proyecto:
 
 ## Objetivos de aprendizaje
 + Importar imágenes;
-+ Operadores relacionales y booleanos (`>` {.blockoperators} & `y` {.blockoperators});
++ Operadores relacionales y booleanos (`>`{:class="blockoperators"} & `y`{:class="blockoperators"});
 + Envío de mensajes entre los objetos.
 
 ## Desafíos
-+ "Accesos directos" - Utilizar eventos `presionar tecla` {.blocksensing} para enviar mensajes;
++ "Accesos directos" - Utilizar eventos `presionar tecla`{:class="blocksensing"} para enviar mensajes;
 + "Más lápices" – Añadir más colores de lápices, para consolidar el aprendizaje del envío de mensajes.
 
 ## Preguntas frecuentes
