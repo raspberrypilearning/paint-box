@@ -27,12 +27,12 @@ Ressources de projet :
 ## Objectifs d'apprentissage
 
 + Images d'importation;
-+ Opérateurs relationnels et booléens ('>' {.blockoperators} et 'et' {.blockoperators});
++ Opérateurs relationnels et booléens (`>`{:class="blockoperators"} et `et`{:class="blockoperators"});
 + Radiodiffusion entre elfes.
 
 ## Défis
 
-+ "Les raccourcis" - Utilisant ` la touche appuyer ` {.blocksensing} des événements pour émettre des messages;
++ "Les raccourcis" - Utilisant `la touche appuyer`{:class="blocksensing"} des événements pour émettre des messages;
 + "Plus de stylos" - Ajoutant plus de couleurs de stylo, pour consolider l'apprentissage de messages diffusants.
 
 ## Questions fréquemment posées
