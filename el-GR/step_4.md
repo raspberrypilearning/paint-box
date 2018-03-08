@@ -1,56 +1,53 @@
-## Coloured pencils
+## Χρωματιστά μολύβια
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Ας προσθέσουμε διαφορετικά χρωματιστά μολύβια στο έργο σας και επιτρέψτε στο χρήστη να επιλέξει μεταξύ τους.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Κάντε κλικ στο στυλό μολυβιών σας, κάντε κλικ στο 'Κοστούμια' και αντιγράψτε το κοστούμι 'μολύβι-μπλε' σας.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Μετονομάστε τη νέα σας «μολύβι-πράσινη» και χρωματίστε το πράσινο μολύβι.
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Σχεδιάστε δύο νέους σπρίτες - ένα μπλε τετράγωνο και ένα πράσινο τετράγωνο. Θα χρησιμοποιήσετε αυτά για να επιλέξετε το μπλε ή πράσινο μολύβι.
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Μετονομάστε τα sprites σας έτσι ώστε να ονομάζονται 'μπλε' και 'πράσινα'
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ Προσθέστε κάποιο κώδικα στο πράσινο sprite, έτσι ώστε όταν κτυπηθεί, θα μεταδοθεί το μήνυμα "πράσινο" στο σκίτσο μολυβιών 123_7_0_321, λέγοντάς του να αλλάξει το χρώμα του κοστουμιού και του μολυβιού.
 
-![Broadcast green](images/paint-broadcast-green.png)
+![Μετάδοση πράσινου](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Μεταβείτε στο στυλό μολύβι σας. Προσθέστε κάποιον κώδικα έτσι ώστε όταν αυτό το σπάιτ θα λάβει την 123_7_0_321 μετάδοση</code>{: class = "blockevents"} πράσινο, θα πρέπει να μεταβεί στο πράσινο κοστούμι μολύβι και να αλλάξει το χρώμα του στυλό στο πράσινο.
 
-![Broadcast green](images/broadcast-green.png)
+![Μετάδοση πράσινου](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Για να ρυθμίσετε το μολύβι στο χρώμα σε πράσινο, κάντε κλικ στο έγχρωμο πλαίσιο στο μπλοκ 123_7_0_321 και στη συνέχεια κάντε κλικ στο πράσινο sprite για να επιλέξετε το ίδιο χρώμα πράσινο με το χρώμα του μολυβιού σας.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
-
-```blocks
-when this sprite clicked
-broadcast [blue v]
-```
-
-...and add this code to the pencil sprite:
++ Τώρα μπορείτε να κάνετε το ίδιο και για το μπλε εικονίδιο με το μολύβι: προσθέστε αυτόν τον κώδικα στο μπλε τετράγωνο σπάιτ:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+όταν αυτό το sprite clicked broadcast [μπλε v]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
+... και προσθέστε αυτόν τον κώδικα στο στυλό μολυβιού:
 
-![Start pencil](images/start-pencil.png)
+```blocks
+όταν λαμβάνω κοστούμι [μπλε v] διακόπτη σε [μολύβι-μπλε v] ορίσετε το στυλό χρώμα στο [# 0000ff]
+```
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
++ Τέλος, προσθέστε αυτόν τον κωδικό για να πείτε στο στυλό μολυβιού ποιο χρώμα πρέπει να ξεκινήσει και βεβαιωθείτε ότι η οθόνη είναι καθαρή.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
+![Ξεκινήστε το μολύβι](images/start-pencil.png)
+
+Επιλέξαμε να ξεκινήσετε με μπλε χρώμα, αλλά αν προτιμάτε, μπορείτε να ξεκινήσετε με ένα διαφορετικό μολύβι χρώματος.
+
++ Δοκιμάστε το έργο σας. Μπορείτε να μεταβείτε ανάμεσα σε μπλε και πράσινο στυλό κάνοντας κλικ στο μπλε ή πράσινο τετράγωνο sprites;
 
 ![screenshot](images/paint-pens-test.png)
