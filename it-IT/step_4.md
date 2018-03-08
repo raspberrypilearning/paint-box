@@ -47,7 +47,7 @@ A volte si può sbagliare, dunque aggiungiamo al tuo progetto il tasto 'ripulisc
 
 	![screenshot](images/paint-draw-problem.png)
 
-	Per risolverlo, devi comunicare alla matita di disegnare solo se il mouse è cliccato_e_se la posizione y del mouse è maggiore di -120 (`mouse y` {.blocksensing}`> -120' {.blockoperators}). Cambia l'affermazione `se` {.blockcontrol} della matita per farla diventare così:
+	Per risolverlo, devi comunicare alla matita di disegnare solo se il mouse è cliccato_e_se la posizione y del mouse è maggiore di -120 (`mouse y`{:class="blocksensing"}`> -120`{:class="blockoperators}). Cambia l'affermazione `se`{:class="blockcontrol"} della matita per farla diventare così:
 
 	![screenshot](images/pencil-gt-code.png)
 
