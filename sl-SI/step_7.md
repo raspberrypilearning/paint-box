@@ -1,14 +1,14 @@
-\--- challenge \---
+\--- izziv \---
 
-## Challenge: shortcuts
+## Izziv: bližnjice
 
-Can you create keyboard shortcuts for your commands? For example:
+Ali lahko ustvarite bližnjice na tipkovnici za svoje ukaze? Na primer:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = Preklopi na modri svinčnik
++ g = preklopi na zeleno pero
++ e = preklopi na radirko
++ c = jasen zaslon
 
-You could even allow the user to change the pen width with the arrow keys.
+Uporabniku lahko celo dovolite, da spremeni širino peresa s puščičnimi tipkami.
 
-\--- /challenge \---
+\--- / izziv \---
