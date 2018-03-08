@@ -1,31 +1,31 @@
 ---
-hero_image: images/banner.png
-theme: violet
+hero_image: images / banner.png
+theme: vijolična
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+curriculum: ustvarjalec, design-0, programiranje-2, fiz-comp-0, izdelava-0, skupnost-0
 title: Paint Box
-description: Learn how to make your own paint program.
+description: Naučite se, kako narediti svoj program barv.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: 'art&design'
-technologies: scratch
-site_areas: codeclub, scratch
+interests: 'umetnost in oblikovanje'
+technologies: praska
+site_areas: kodeklub, praska
 steps:
   - 
-    title: Introduction
+    title: Uvod
   - 
-    title: What you will need
+    title: Kaj boste potrebovali
   - 
-    title: Making a pencil
+    title: Izdelava svinčnika
   - 
-    title: Coloured pencils
+    title: Barvni svinčniki
   - 
-    title: Making mistakes
+    title: Napake
   - 
-    title: Changing the pencil width
+    title: Spreminjanje širine svinčnika
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Izziv: bližnjice'
   - 
-    title: 'Challenge: more pencils'
+    title: 'Izziv: več svinčnikov'
