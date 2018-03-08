@@ -18,10 +18,10 @@ Lass uns Deinem Projekt unterschiedlich farbige Bleistifte hinzufügen und es de
 
 Um dies zu tun, füge dem Grün-Auswahl-Symbol diesen Code hinzu:
 
-```blocks
-    Wenn ich angeklickt werde
-    sende [grün v] an alle
-```
+  ```blocks
+      Wenn ich angeklickt werde
+      sende [grün v] an alle
+  ```
   
 Um einen `sende an alle`{:class="blockevents"}-Block zu erstellen, klicke auf den nach unten zeigenden Pfeil und wähle 'Neue Nachricht...' aus.
 
@@ -50,11 +50,11 @@ Um die Stiftfarbe auf grün zu setzen, klicke die grün gefärbte Box in dem `se
 
 ...und indem Du diesen Code zu der Bleistift-Figur hinzufügst:
 
-```blocks
-    Wenn ich [blau v] empfange
-    wechsle zu Kostüm [Bleistift-blau v]
-    setze Stiftfarbe auf [#0000ff]
-```
+  ```blocks
+      Wenn ich [blau v] empfange
+      wechsle zu Kostüm [Bleistift-blau v]
+      setze Stiftfarbe auf [#0000ff]
+  ```
 
 + Zuletzt musst Du Deiner Bleistift-Figur sowohl mitteilen, welches Kostüm und welche Stiftfarbe sie wählen soll, als auch den Bildschirm zu leeren, sobald ein neues Projekt begonnen wird. Füge diesen Code an den Anfang des `Wenn die grüne Flagge angeklickt` {:class="blockevents"}-Code des Bleistifts hinzu (vor die `wiederhole fortlaufend`{:class="blockcontrol"}-Schleife):
 
