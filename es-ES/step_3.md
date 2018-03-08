@@ -14,7 +14,7 @@
 
 	![screenshot](images/paint-selectors.png)
 
-+ Al hacer clic en el selector verde, necesitas `enviar` {.blockevents} un mensaje al objeto lápiz, diciéndole que tiene que cambiar su disfraz y color de lápiz.
++ Al hacer clic en el selector verde, necesitas `enviar`{:class="blockevents"} un mensaje al objeto lápiz, diciéndole que tiene que cambiar su disfraz y color de lápiz.
 
 	Para hacer esto, primero añade este código al objeto selector verde:
 
@@ -23,7 +23,7 @@
 		enviar [Verde v]
 	```
 
-	Para crear el bloque `enviar` {.blockevents}, haz clic en la flecha hacia abajo y selecciona “nuevo mensaje…”.
+	Para crear el bloque `enviar`{:class="blockevents"}, haz clic en la flecha hacia abajo y selecciona “nuevo mensaje…”.
 
 	![screenshot](images/paint-broadcast.png)
 
@@ -39,7 +39,7 @@
 		fijar color de lápiz a [#00ff00]
 	```
 
-	Para hacer que el lápiz pinte de color verde, haz clic en el recuadro de color del bloque `fijar color` {.blockpen}, y haz clic en el icono selector verde para escoger el verde como el color para tu lápiz.
+	Para hacer que el lápiz pinte de color verde, haz clic en el recuadro de color del bloque `fijar color`{:class="blockpen"}, y haz clic en el icono selector verde para escoger el verde como el color para tu lápiz.
 
 + Ahora puedes hacer lo mismo para el lápiz azul, añadiendo este código al objeto selector azul:
 
@@ -56,7 +56,7 @@
 		fijar color de lápiz a [#0000ff]
 	```
 
-+ Por último, necesitas decirle al objeto lápiz qué disfraz y color de lápiz elegir, y limpiar la pantalla cuando empieza tu proyecto. Añade este código al objeto lápiz, al principio del código {.blockevents} `al presionar bandera verde`  (antes del bucle `por siempre` {.blockcontrol}):
++ Por último, necesitas decirle al objeto lápiz qué disfraz y color de lápiz elegir, y limpiar la pantalla cuando empieza tu proyecto. Añade este código al objeto lápiz, al principio del código `al presionar bandera verde`{:class="blockevents"} (antes del bucle `por siempre`{:class="blockcontrol"}):
 
 	```blocks
 		borrar
