@@ -14,7 +14,7 @@ Ajoutons des stylos de différentes couleurs à votre projet et permettons à l'
 
 	![screenshot](images/paint-selectors.png)
 
-+ Quand l'icône de sélecteur verte est cliquée, vous devrez `envoyer à tous` {.blockevents} un message au lutin de crayon en lui disant de changer son costume et la couleur du crayon.
++ Quand l'icône de sélecteur verte est cliquée, vous devrez `envoyer à tous`{:class="blockevents"} un message au lutin de crayon en lui disant de changer son costume et la couleur du crayon.
 
 	Pour faire cela, ajoutez ce code à l'icône de sélecteur verte:
 
@@ -23,7 +23,7 @@ Ajoutons des stylos de différentes couleurs à votre projet et permettons à l'
 		envoyer à tous [green v]
 	```
 
-	Afin de créer le bloc `envoyer à tous` {.blockevents}, cliquez sur la flèche du bas et séléctionnez ' nouveau message ... '.
+	Afin de créer le bloc `envoyer à tous`{:class="blockevents"}, cliquez sur la flèche du bas et séléctionnez ' nouveau message ... '.
 
 	![screenshot](images/paint-broadcast.png)
 
@@ -39,7 +39,7 @@ Ajoutons des stylos de différentes couleurs à votre projet et permettons à l'
 		mettre la couleur du stylo à [#00ff00]
 	```
 
-	Pour faire colorier le crayon en vert, cliquez sur la boîte colorée dans le bloc `choisir la couleur` {.blockpen}, cliquez sur l'icône de sélecteur verte pour choisir vert comme couleur de crayon.
+	Pour faire colorier le crayon en vert, cliquez sur la boîte colorée dans le bloc `choisir la couleur`{:class="blockpen"}, cliquez sur l'icône de sélecteur verte pour choisir vert comme couleur de crayon.
 
 + Vous pouvez maintenant faire la même chose pour l'icône du crayon bleu en ajoutant ce code au lutin de sélecteur bleu:
 
@@ -56,7 +56,7 @@ Ajoutons des stylos de différentes couleurs à votre projet et permettons à l'
 		mettre la couleur du stylo à [#0000ff]
 	```
 
-+ Quand votre projet est commencé, ajoutez ce code au début du crayon `Quand le drapeau pressé` {.blockevents} (avant la boucle 'répéter indéfiniment' {.blockcontrol}):
++ Quand votre projet est commencé, ajoutez ce code au début du crayon `Quand le drapeau pressé`{:class="blockevents"} (avant la boucle `répéter indéfiniment`{:class="blockcontrol"}):
 
 	```blocks
 		effacer tout
