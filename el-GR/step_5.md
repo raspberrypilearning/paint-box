@@ -1,55 +1,53 @@
-## Making mistakes
+## Κάνοντας λάθη
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Μερικές φορές συμβαίνουν λάθη, οπότε προσθέστε ένα κουμπί "ξεκάθαρο" και μια γόμα.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Προσθέστε τον sprite "X-block" - θα το βρείτε στη βιβλιοθήκη, στην ενότητα επιστολών. Χρωματίστε το κοστούμι με κόκκινο χρώμα. Αυτό θα γίνει το κουμπί "σαφές".
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Προσθέστε κώδικα σε αυτό το sprite για να καταργήσετε τη σκηνή όταν κάνετε κλικ.
 
-![Clear stage](images/clear-stage.png)
+![Καθαρή σκηνή](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Παρατηρήστε ότι δεν χρειάζεται να στείλετε ένα μήνυμα για να καθαρίσετε τη σκηνή, μπορείτε απλά να χρησιμοποιήσετε το σαφές μπλοκ από αυτό το sprite.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Ίσως έχετε παρατηρήσει ότι το στυλό μολυβιού σας περιλαμβάνει μια γόμα κοστούμι:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Το σχέδιό σας περιλαμβάνει επίσης ξεχωριστό sprite. Κάντε δεξί κλικ σε αυτό το sprite και επιλέξτε 'show'. Ακολουθεί ο τρόπος εμφάνισης της σκηνής σας:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Προσθέστε κώδικα στο σπάιτ γόμας, για να πείτε στο μολύβι να μεταβεί σε μια γόμα όταν πατηθεί το sprite.
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![Γόμα εκπομπής](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Όταν το μολύβι λάβει το μήνυμα "γόμα", μπορείτε να αλλάξετε το κοστούμι μολυβιών στη γόμα και να αλλάξετε το χρώμα του μολυβιού σε λευκό - το ίδιο χρώμα με το σκηνικό!
 
-+ Add some code to create the eraser
++ Προσθέστε κάποιο κωδικό για να δημιουργήσετε τη γόμα
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- συμβουλές \--- \--- υπαινιγμός \--- Προσθέστε κάποιο κωδικό στο στυλό μολυβιού: **Όταν λαμβάνω** το **σκουπάκι** μήνυμα **Αλλαγή στη φορεσιά** eraser **Ορισμός χρώματος στυλό** σε άσπρο \--- / υπαινιγμός \--- \--- υπαινιγμός \--- Εδώ είναι πώς ο κώδικας μέσα στο μολύβι σκίτσο θα πρέπει να εξετάσουμε:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+όταν λαμβάνω κοστούμι διακόπτη [γόμα v] στη [γόμα v] ορίστε το χρώμα της στυλό σε [#FFFFFF]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / υπαινιγμός \--- \--- / υπαινιγμοί \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Δοκιμάστε το έργο σας, για να δείτε εάν μπορείτε να καθαρίσετε και να διαγράψετε τη σκηνή.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Υπάρχει ένα ακόμα πρόβλημα με το μολύβι - μπορείτε να σχεδιάσετε οπουδήποτε στη σκηνή, συμπεριλαμβανομένων των εικονιδίων επιλογής!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Για να διορθώσετε αυτό, πείτε στο μολύβι μόνο να σχεδιάσετε εάν πατηθεί το ποντίκι *και* αν η θέση y του ποντικιού είναι μεγαλύτερη από -120:
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Δοκιμάστε το έργο σας. δεν θα πρέπει πλέον να μπορείτε να πλησιάζετε τα μπλοκ επιλογέα.
 
 ![screenshot](images/paint-fixed.png)
