@@ -1,44 +1,41 @@
-## Making a pencil
+## Κάνοντας ένα μολύβι
 
-Let's start by making a pencil that can be used to draw on the stage.
+Ας αρχίσουμε κάνοντας ένα μολύβι που μπορεί να χρησιμοποιηθεί για να σχεδιάσουμε τη σκηνή.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Ανοίξτε το πρόγραμμα Scratch 'Paintbox' online στο [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} ή κάντε λήψη από <http://jumpto.cc/paint-get>{: target = "_ blank"} και στη συνέχεια ανοίξτε το αν χρησιμοποιείτε τον επεξεργαστή εκτός σύνδεσης.
 
-You will see pencil and eraser sprites:
+Θα δείτε sprites μολυβιού και γόμας:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Προσθέστε κάποιο κώδικα στο στυλό μολυβιού για να το ακολουθήσετε `για πάντα`{: class = "blockcontrol"}, ώστε να μπορείτε να σχεδιάσετε:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    όταν πατηθεί η σημαία για πάντα, πηγαίνετε στο [δείκτης ποντικιού v]
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Κάντε κλικ στη σημαία και, στη συνέχεια, μετακινήστε το ποντίκι γύρω από τη σκηνή για να ελέγξετε αν λειτουργεί ο κώδικας.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Στη συνέχεια, ας κάνουμε το μολύβι σας μόνο να σχεδιάσετε `εάν`{: class = "blockcontrol"} το ποντίκι έχει πατηθεί.
 
-+ Add this code to your pencil sprite:
++ Προσθέστε αυτόν τον κώδικα στο στυλό μολυβιού:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Δοκιμάστε ξανά τον κωδικό σας. Αυτή τη φορά, μετακινήστε το μολύβι γύρω από τη σκηνή και κρατήστε πατημένο το κουμπί του ποντικιού. Μπορείτε να σχεδιάσετε με το μολύβι σας;
 
 ![screenshot](images/paint-draw.png)
 
-## \--- collapse \---
+## \--- κατάρρευση \---
 
-## title: If you're having problems...
+## title: Εάν αντιμετωπίζετε προβλήματα ...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Εάν το μολύβι σας φαίνεται να τραβάει τη γραμμή από τη μέση του μολυβιού αντί της μύτης, θα χρειαστεί να αλλάξετε το κέντρο κοστουμιών σας.
 
-![Costume center](images/costume-center.png)
+![Κέντρο κοστουμιών](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Το κορδόνι για το μολύβι πρέπει να τοποθετηθεί **ακριβώς κάτω από το** το άκρο του μολυβιού, όχι στην άκρη του μολυβιού.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Οι αλλαγές στο 'κέντρο κοστουμιών' ενός sprite δεν έχουν καταχωριστεί μέχρι να γίνει κλικ σε άλλη καρτέλα, οπότε κάντε κλικ σε μια άλλη φορεσιά ή στην καρτέλα 'Scripts' για να ολοκληρώσετε τις αλλαγές στο κέντρο ενδυμασίας.
 
-\--- /collapse \---
+\--- /κατάρρευση \---
