@@ -48,7 +48,7 @@ Parfois, les erreurs arrivent. Ajoutons le boutton 'Nettoyer' et une gomme à ef
 
 	![screenshot](images/paint-draw-problem.png)
 
-	Pour cela, vous devez dire au crayon de dessiner seulement si la souris est cliquée et si la position 'y' de la souris est plus grande que -110 (`souris y`{.blocksensing}`> -120` {.blockoperators}). Changez votre crayon `si` {.blockcontrol} la déclaration est comme celle-ci :
+	Pour cela, vous devez dire au crayon de dessiner seulement si la souris est cliquée et si la position 'y' de la souris est plus grande que -110 (`souris y`{:class="blocksensing"}`> -120`{:class="blockoperators"}). Changez votre crayon `si`{:class="blockcontrol"} la déclaration est comme celle-ci :
 
 	![screenshot](images/pencil-gt-code.png)
 
