@@ -25,11 +25,11 @@ Project-Ressourcen:
 
 ## Lernziele
 + Bilder importieren
-+ Boolesche- und Vergleichsoperatoren (`>` {.blockoperators} & `and` {.blockoperators});
++ Boolesche- und Vergleichsoperatoren (`>`{:class="blockoperators"} & `and`{:class="blockoperators"});
 + Verbreitung zwischen Figuren
 
 ## Herausforderungen
-+ "Tastenkürzel" - Gebrauch von "Tastendruck" {.blocksensing}-Ereignissen, um Nachrichten zu verbreiten
++ "Tastenkürzel" - Gebrauch von `Tastendruck`{:class="blocksensing"}-Ereignissen, um Nachrichten zu verbreiten
 + "Mehr Stifte" - Mehr Stiftfarben hinzufügen, um den Lernerfolg der Verbreitung von Nachrichten zu festigen
 
 ## Häufig gestellte Fragen
