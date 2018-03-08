@@ -1,14 +1,14 @@
-\--- challenge \---
+\--- πρόκληση \---
 
-## Challenge: shortcuts
+## Πρόκληση: συντομεύσεις
 
-Can you create keyboard shortcuts for your commands? For example:
+Μπορείτε να δημιουργήσετε συντομεύσεις πληκτρολογίου για τις εντολές σας; Για παράδειγμα:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = Αλλαγή σε μπλε στυλό
++ g = μετάβαση σε πράσινο στυλό
++ e = μετάβαση στη γόμα
++ c = καθαρή οθόνη
 
-You could even allow the user to change the pen width with the arrow keys.
+Μπορείτε ακόμη και να επιτρέψετε στο χρήστη να αλλάξει το πλάτος του στυλό με τα πλήκτρα βέλους.
 
-\--- /challenge \---
+\--- / πρόκληση \---
