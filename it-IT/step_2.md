@@ -8,7 +8,7 @@ Iniziamo a creare una matita che può essere usata per disegnare sul quadro.
 
 	![screenshot](images/paint-starter.png)
 
-+ Siccome userai il mouse per disegnare, vorrai che la matita segua il mouse `per sempre` {.blockcontrol}. Aggiungi questo codice allo sprite della tua matita:
++ Siccome userai il mouse per disegnare, vorrai che la matita segua il mouse `per sempre`{:class="blockcontrol"}. Aggiungi questo codice allo sprite della tua matita:
 
 	```blocks
 		quando si clicca sulla bandiera verde
@@ -19,7 +19,7 @@ Iniziamo a creare una matita che può essere usata per disegnare sul quadro.
 
 + Prova questo codice cliccando la bandiera e muovendo poi il mouse attorno al quadro.
 
-+ Poi, facciamo in modo che la tua matita disegni `se` {.blockcontrol} il mouse è stato cliccato. Aggiungi questo codice allo sprite della tua matita:
++ Poi, facciamo in modo che la tua matita disegni `se`{:class="blockcontrol"} il mouse è stato cliccato. Aggiungi questo codice allo sprite della tua matita:
 
 	![screenshot](images/paint-pencil-draw-code.png)
 
