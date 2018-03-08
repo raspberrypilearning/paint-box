@@ -4,7 +4,7 @@ Vamos a hacer que el usuario pueda dibujar utilizando diferentes tamaños de lá
 
 + Primero, añade una nueva variable que se llame "grosor". Si no recuerdas cómo hacerlo, el Proyecto “Globos” te puede ayudar.
 
-+ Añade esta línea _dentro_ del bucle de código `por siempre` {.blockcontrol} de tu lápiz:
++ Añade esta línea _dentro_ del bucle de código `por siempre`{:class="blockcontrol"} de tu lápiz:
 
 	```blocks
 		fijar tamaño de lápiz a (grosor)
@@ -22,7 +22,7 @@ Vamos a hacer que el usuario pueda dibujar utilizando diferentes tamaños de lá
 
 + Prueba tu proyecto, y comprueba si puedes modificar el grosor de tu lápiz.
 
-	![screenshot](paint-width-test.png)
+	![screenshot](images/paint-width-test.png)
 
 	Si lo prefieres, puedes fijar el valor mínimo y máximo del “grosor” permitido. Para hacerlo, haz clic de nuevo con el botón derecho sobre la variable y selecciona “fijar rango del deslizador”. Fija los valores mínimos y máximos de tu variable a algo un poco más coherente, como 1 y 20.
 
