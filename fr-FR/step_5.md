@@ -4,7 +4,7 @@ Permettons à l'utilisateur de dessiner grâce à l'utilisation d'une gamme de t
 
 +  D'abord, ajoutez une nouvelle variable appelée 'Largeur'. Si vous ne savez pas comment faire cela, le projet 'Ballons' vous aidera.
 
-+ Ajoutez cette ligne à l'intérieur de la boucle `répéter indéfiniment` {.blockcontrol} du code de votre crayon :
++ Ajoutez cette ligne à l'intérieur de la boucle `répéter indéfiniment`{:class="blockcontrol"} du code de votre crayon :
 
 	```blocks
 		choisir la taille (width) pour le stylo
@@ -18,7 +18,7 @@ Permettons à l'utilisateur de dessiner grâce à l'utilisation d'une gamme de t
 
 Vous pouvez maintenant bouger le curseur au-dessous de la variable pour changer sa valeur.
 
-	![screenshot](images/paint-slider-change.png)
+  ![screenshot](images/paint-slider-change.png)
 
 + Testez votre projet et regardez si vous pouvez modifier la largeur de votre crayon.
 
