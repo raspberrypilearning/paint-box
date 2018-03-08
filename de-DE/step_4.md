@@ -46,9 +46,9 @@ Manchmal passieren Fehler. Lass uns also unserem Projekt einen 'wische Malspuren
 
 + Es gibt noch ein kleines Problem mit dem Sift: Du kannst überall auf der Bühne malen, auch neben den Auswahl-Symbolen.
 
-	![screenshot](paint-draw-problem.png)
+	![screenshot](images/paint-draw-problem.png)
 
-	Um dieses Problem zu lösen, musst Du dem Stift sagen nur dann zu malen, wenn die Maus angeklickt wird _und_ wenn die y-Position der Maus größer als -110 (`Maus y-Position`{.blocksensing}`> -120` {.blockoperators}) ist. Ändere die `wenn` {.blockcontrol}-Aussage Deines Stifts zu:
+	Um dieses Problem zu lösen, musst Du dem Stift sagen nur dann zu malen, wenn die Maus angeklickt wird _und_ wenn die y-Position der Maus größer als -110 (`Maus y-Position`{:class="blocksensing"}`> -120`{:class="blockoperators"}) ist. Ändere die `wenn`{:class="blockcontrol"}-Aussage Deines Stifts zu:
 
 	![screenshot](images/pencil-gt-code.png)
 
