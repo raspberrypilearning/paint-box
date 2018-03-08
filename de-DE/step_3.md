@@ -21,15 +21,15 @@ Um dies zu tun, füge dem Grün-Auswahl-Symbol diesen Code hinzu:
 	```blocks
         Wenn ich angeklickt werde
         sende [grün v] an alle
-	```
+  ```
 
 Um einen `sende an alle`{:class="blockevents"}-Block zu erstellen, klicke auf den nach unten zeigenden Pfeil und wähle 'Neue Nachricht...' aus.
 
-![screenshot](paint-broadcast.png)
+![screenshot](images/paint-broadcast.png)
 
 Du kannst nun 'grün' eintippen, um Deine neue Nachricht zu erstellen.
 
-![screenshot](paint-grün-message.png)
+![screenshot](images/paint-grün-message.png)
 
 + Du musst Deiner Bleistift-Figur nun mitteilen was zu tu ist, wenn sie diese Nachricht erhält. Füge Deiner Figur diesen Code hinzu:
 
