@@ -16,7 +16,7 @@ Commençons par créer un crayon qui peut être utilisé pour dessiner sur la sc
 
 	![screenshot](images/paint-pencil-blue.png)
 
-+ Comme vous utiliserez la souris pour dessiner, vous voudrez que le crayon suive la souris `répéter indéfiniment` {.blockcontrol}. Ajoutez ce code à votre lutin de crayons :
++ Comme vous utiliserez la souris pour dessiner, vous voudrez que le crayon suive la souris `répéter indéfiniment`{:class="blockcontrol"}. Ajoutez ce code à votre lutin de crayons :
 
 	```blocks
 		quand le drapeau vert pressé
@@ -41,7 +41,7 @@ Commençons par créer un crayon qui peut être utilisé pour dessiner sur la sc
 
 + Cliquez sur l'onglet ' Scripts ' et testez ensuite votre crayon de nouveau - fonctionne-t-il mieux qu'auparavant ?
 
-+ Ensuite, dessinons avec votre crayon `si` {.blockcontrol} la souris a été cliquée. Ajoutez ce code à votre lutin de crayon :
++ Ensuite, dessinons avec votre crayon `si`{:class="blockcontrol"} la souris a été cliquée. Ajoutez ce code à votre lutin de crayon :
 
 	![screenshot](images/paint-pencil-draw-code.png)
 
