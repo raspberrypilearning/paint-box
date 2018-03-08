@@ -16,7 +16,7 @@ Lass uns damit starten, dass wir einen Bleistift entwerfen, mit dem man auf der 
 
 	![screenshot](images/paint-pencil-blue.png)
 
-+ Da Du die Maus zum Zeichnen benutzen wirst, möchtest Du, dass der Stift immer bzw. `wiederhole fortlaufend` {.blockcontrol} der Maus folgt. Füge Deiner Bleistift-Figur diesen Code hinzu:
++ Da Du die Maus zum Zeichnen benutzen wirst, möchtest Du, dass der Stift immer bzw. `wiederhole fortlaufend`{:class="blockcontrol"} der Maus folgt. Füge Deiner Bleistift-Figur diesen Code hinzu:
 
 	```blocks
       Wenn die grüne Flagge angeklickt
@@ -33,7 +33,7 @@ Lass uns damit starten, dass wir einen Bleistift entwerfen, mit dem man auf der 
 
 	Um dies zu ändern, klicke auf das 'Bleistift-blau'-Kostüm Deiner Bleistift-Figur und dann auf das 'Drehpunkt des Kostüms'-Symbol.
 
-	![screenshot](paint-center-icon.png)
+	![screenshot](images/paint-center-icon.png)
 
 + Du solltest feststellen, dass ein Kreuz erscheint. Du kannst nun knapp unter die Spitze des Bleistiftes klicken, um diese Stelle als das Zentrum der Figur zu definieren (Achtung: Nicht direkt auf die Bleistiftspitze klicken, da der Bleistift so nicht korrekt zeichnen wird).
 
@@ -41,7 +41,7 @@ Lass uns damit starten, dass wir einen Bleistift entwerfen, mit dem man auf der 
 
 + Klicke auf den Skripte-Reiter und teste erneut Deinen Bleistift. Funktioniert es nun besser als zuvor?
 
-+ Als nächstes, lass uns Deinen Bleistift zeichnen lassen, `wenn` {.blockcontrol} die Maus geklickt wird. Füge diesen Code Deiner Bleistift-Figur hinzu:
++ Als nächstes, lass uns Deinen Bleistift zeichnen lassen, `wenn`{:class="blockcontrol"} die Maus geklickt wird. Füge diesen Code Deiner Bleistift-Figur hinzu:
 
 	![screenshot](images/paint-pencil-draw-code.png)
 
