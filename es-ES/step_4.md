@@ -48,7 +48,7 @@
 
 	![screenshot](images/paint-draw-problem.png)
 
-	Para arreglar esto, tienes que decir al lápiz que sólo dibuje si se hace clic en el ratón _y_ si la posición y del ratón es mayor a -110 (`mouse y`{.blocksensing}`> -120` {.blockoperators}). Cambia la instrucción `si` {.blockcontrol} de tu lápiz para que sea como ésta:
+	Para arreglar esto, tienes que decir al lápiz que sólo dibuje si se hace clic en el ratón _y_ si la posición y del ratón es mayor a -110 (`mouse y`{:class="blocksensing"}`> -120`{:class="blockoperators"}). Cambia la instrucción `si`{:class="blockcontrol"} de tu lápiz para que sea como ésta:
 
 	![screenshot](images/pencil-gt-code.png)
 
