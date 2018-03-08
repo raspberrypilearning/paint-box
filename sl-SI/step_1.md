@@ -1,24 +1,24 @@
-## Introduction
+## Uvod
 
-Make your own paint program!
+Izdelajte svoj program barv!
 
-### What you will make
+### Kaj boš naredil
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+Za začetek kliknite zeleno zastavo. Uporabite miško, da premaknete svinčnik in držite levi gumb miške, da narišete. Kliknite barvo, da spremenite svinčnike ali kliknete gumo in jo uporabite za brisanje vašega dela. Če želite počistiti stran, kliknite križec.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### Kaj boste izvedeli
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ta projekt zajema elemente iz naslednjih smernic [učnega načrta za izdelavo digitalnega digitalnega fotoaparata](http://rpf.io/curriculum){: target = "_ blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Združite programske konstrukte za reševanje problema.](https://www.raspberrypi.org/curriculum/programming/builder){: cilj = "_ prazno"}
 
-### Additional information for educators
+### Dodatne informacije za vzgojitelje
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Če želite natisniti ta projekt, uporabite [tiskalnik prijazno različico](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Uporabite povezavo v nogi za dostop do GitHub repo za ta projekt, ki vsebuje vse vire (vključno s končnim projektom primera) v mapi "en / resources".
