@@ -4,7 +4,7 @@ Lass es uns dem Nutzer erlauben eine Vielzahl an unterschiedlichen Stiftdicken z
 
 + Füge als Erstes eine neue Variable 'Stiftdicke' hinzu. Wenn Du Dir unsicher bist, wie das geht, wird Dir das Ballons-Projekt auf die Sprünge helfen.
 
-+ Füge diese Code-Linie _innerhalb_ die `wiederhole fortlaufend` {.blockcontrol}-Schleife Deines Stift-Codes hinzu:
++ Füge diese Code-Linie _innerhalb_ die `wiederhole fortlaufend`{:class="blockcontrol"}-Schleife Deines Stift-Codes hinzu:
 
 	```blocks
     setze Stiftdicke auf (Stiftdicke)
