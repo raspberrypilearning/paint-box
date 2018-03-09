@@ -1,43 +1,43 @@
-## Making a pencil
+## Creare una matita
 
-Let's start by making a pencil that can be used to draw on the stage.
+Iniziamo creando una matita che può essere usata per disegnare sul quadro.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Apri il progetto Scratch 'Scatola a Colori' online su [jumpto.cc/paint-go](http://jumpto.cc/paint-go), o scaricalo da <http://jumpto.cc/paint-get> per usarlo con l'editor offline.
 
-You will see pencil and eraser sprites:
+Vedrai gli sprite della matita e della gomma:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Aggiungi dei codici allo sprite della matita per far sì che segua il mouse `per sempre`{:class="blockcontrol"}, in modo da permetterti disegnare:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    quando si clicca su ⚑
+per sempre
+   raggiungi puntatore del mouse
+fine
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Fai click sulla bandierina e muovi il mouse sul quadro per verificare se il codice funzioni.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Ora facciamo in modo che la matita disegni solo `se`{:class="blockcontrol"} il mouse è stato cliccato.
 
-+ Add this code to your pencil sprite:
++ Aggiungi questo codice allo sprite della tua matita:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Prova di nuovo il tuo codice. Questa volta, muovi la matita nel quadro e tieni premuto il tasto sinistro del mouse. Riesci a disegnare con la tua matita?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Se stai avendo problemi...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Se sembra che il disegno parta dal centro della matita, invece che dalla punta, hai bisogno di modificare il centro del tuo costume.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Il mirino della matita deve essere posizionato **appena sotto** la punta della matita, non sulla punta della matita.
 
 A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
 
