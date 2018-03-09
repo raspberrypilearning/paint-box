@@ -17,8 +17,8 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 + [Combinare i costrutti di un linguaggio di programmazione per risolvere un problema.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Additional information for educators
+### Ulteriori informazioni per gli organizzatori dei club
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/paint-box/print){:target = "_ blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Cliccare il link a piè di pagina per accedere alla repository di GitHub relativa a questo progetto, che contiene tutte le risorse necessarie (incluso un esempio di progetto completo) nella cartella 'en/resources'.
