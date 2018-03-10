@@ -2,9 +2,9 @@
 
 ## Desafío: más colores
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+¿Puedes añadir los colores rojo, amarillo y negro a tu programa para pintar? Mira el paso 2 arriba si has olvidado como hacer esto. Recuerda añadir atajos de teclado para estos nuevos colores también.
 
-Can you use your pencils to draw a picture?
+¿Puedes usar tus nuevos colors para hacer un dibujo?
 
 ![screenshot](images/paint-final.png)
 
