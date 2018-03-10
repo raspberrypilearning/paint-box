@@ -8,7 +8,7 @@ A volte si può sbagliare, dunque aggiungiamo al tuo progetto il tasto ‘ripuli
 
 + Aggiungi un codice al tuo nuovo tasto 'ripulisci' per ripulire il quadro quando viene cliccato.
 
-![Clear stage](images/clear-stage.png)
+![Ripulisci il quadro](images/clear-stage.png)
 
 Noterai che non è necessario mandare un messaggio per ripulire il quadro, perché puoi farlo da qualsiasi sprite!
 
@@ -16,40 +16,40 @@ Avrai probabilmente notato che lo sprite della matita include un costume da gomm
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Il tuo progetto include anche uno sprite per selezionare la gomma. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Il tuo progetto include anche uno sprite per selezionare la gomma. Cliccalo col tasto destro e scegli ‘mostra’. Il tuo quadro dovrebbe apparire così:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Aggiungi un codice allo sprite della gomma per comunicare alla matita di diventare gomma quando si clicca su questo sprite.
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![Invia a tutti gomma](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Quando la matita riceve questo messaggio, puoi creare una gomma passando dal costume matita a quello di gomma, e cambiando il colore della matita per farlo diventare bianco: lo stesso colore del quadro!
 
-+ Add some code to create the eraser
++ Aggiungi dei codici per creare la gomma
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Aggiungi dei codici allo sprite della matita: **Quando ricevo** il messaggio **gomma** **Passa al costume** gomma **Usa penna di colore** bianco \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il codice all'interno dello sprite della matita:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+quando ricevo [gomma v]
+passa al costume [gomma v] 
+usa penna di colore [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Prova il tuo progetto per verificare se puoi cancellare i disegni nel quadro.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+C’è un altro problema con la matita - puoi disegnare dappertutto sul quadro, anche vicino alle icone selezionatrici!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Per risolvere questo problema, devi comunicare alla matita di disegnare solo se il mouse è cliccato *e* se la posizione y del mouse è maggiore di -120:
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Prova il tuo progetto; ora non dovresti poter disegnare vicino ai blocchi selettori.
 
 ![screenshot](images/paint-fixed.png)
