@@ -1,4 +1,4 @@
-## Changing the pencil width
+## Cambiare lo spessore della matita
 
 Let's allow the user to draw using a range of different pencil sizes.
 
