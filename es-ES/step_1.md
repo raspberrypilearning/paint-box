@@ -1,4 +1,4 @@
-## Introduction
+## Introducción
 
 Make your own paint program!
 
