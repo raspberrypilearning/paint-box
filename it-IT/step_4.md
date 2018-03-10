@@ -20,37 +20,37 @@ Aggiungiamo delle matite colorate al tuo progetto, e permettiamo all’utente di
 
 + Aggiungi dei codici allo sprite 'verde' per far sì che quando vi si clicca sopra `invii a tutti`{:class="blockevents"} il messaggio "verde", comunicando così allo sprite della matita di cambiare costume e colore.
 
-![Broadcast green](images/paint-broadcast-green.png)
+![Invia a tutti verde](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
 + Cambia sprite. Aggiungi dei codici per fare in modo che quando lo sprite riceve il messaggio `invia a tutti`{:class="blockevents"} "verde", il costume della matita e quello della penna diventino verdi.
 
-![Broadcast green](images/broadcast-green.png)
+![Invia a tutti verde](images/broadcast-green.png)
 
 Per fare in modo che quando disegni la linea sia verde, clicca la casella colorata nel blocco `imposta colore`, e clicca sull’icona verde per scegliere il verde come colore della matita.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Ora puoi fare la stessa cosa per l’icona della matita blu, aggiungendo questo codice allo sprite del quadrato blu:
 
 ```blocks
-when this sprite clicked
-broadcast [blue v]
+quando si clicca su questo sprite 
+invia a tutti [blu v]
 ```
 
-...and add this code to the pencil sprite:
+…e aggiungi questo codice allo sprite della tua matita:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+quando ricevo [blu v]
+passa al costume [matita-blu v] 
+usa penna di colore [#0000ff]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ Infine, dovrai dire allo sprite della tua matita quale costume e quale colore di matita scegliere a inizio progetto, e anche di ripulire la schermata.
 
-![Start pencil](images/start-pencil.png)
+![Matita di partenza](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+Abbiamo deciso di partire dal blu, ma se preferisci, puoi iniziare con una matita di colore diverso.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Prova il tuo progetto. Puoi intercambiare le matite blu e verde cliccando sugli sprite dei quadrati blu e verde?
 
 ![screenshot](images/paint-pens-test.png)
