@@ -2,9 +2,9 @@
 
 ## Sfida: Più matite
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+Puoi aggiungere una matita rossa, una gialla e una nera al tuo programma di disegno? Dai un’occhiata al passo 2 se non ti ricordi come si fa. Ricordati di aggiungere delle scorciatoie a queste nuove penne.
 
-Can you use your pencils to draw a picture?
+Puoi usare le tue matite per fare un disegno?
 
 ![screenshot](images/paint-final.png)
 
