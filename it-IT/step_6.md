@@ -1,33 +1,33 @@
 ## Cambiare lo spessore della matita
 
-Let's allow the user to draw using a range of different pencil sizes.
+Facciamo in modo che l’utente possa disegnare usando matite di spessore diverso.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Per prima cosa, aggiungiamo una nuova variabile chiamata `larghezza`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Aggiungi questa riga *dentro* il ciclo `per sempre`{:class="blockcontrol"} del codice della matita:
 
 ```blocks
-    set pen size to (width)
+    usa penna di dimensione (larghezza)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+Lo spessore della matita ora verrà costantemente regolato in base al valore della variabile ‘larghezza’.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Fai click col pulsante destro del mouse sulla tua variabile nel quadro e clicca la barra di regolazione ('slider').
 
 ![screenshot](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Ora puoi trascinare la barra sotto la variabile per cambiarne il valore.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ Prova il tuo progetto e vedi se riesci a modificare lo spessore della matita.
 
 ![screenshot](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Se preferisci, puoi impostare il valore massimo e minimo permesso per la ‘larghezza’. Per fare ciò, clicca di nuovo col pulsante destro sulla tua variabile e clicca ‘imposta slider minimo e massimo’. Imposta il valore minimo e massimo della tua variabile a 1 e 20.
 
 ![screenshot](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Continua a provare la tua variabile ‘larghezza’ fino a raggiungere il valore desiderato.
