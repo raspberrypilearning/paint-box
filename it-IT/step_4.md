@@ -1,34 +1,34 @@
 ## Matite colorate
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Aggiungiamo delle matite colorate al tuo progetto, e permettiamo all’utente di scegliere quella che preferisce.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Clicca sullo sprite della matita, clicca ‘Costumi’ e duplica il costume ‘matita-blu’.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Rinomina il tuo nuovo costume ‘matita-verde’, e colora la matita di verde.
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Crea due nuovi sprite: un quadrato blu e un quadrato verde. Userai questi sprite per selezionare la matita blu o quella verde.
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Rinomina i tuoi sprite 'blu' e 'verde'
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ Aggiungi dei codici allo sprite 'verde' per far sì che quando vi si clicca sopra `invii a tutti`{:class="blockevents"} il messaggio "verde", comunicando così allo sprite della matita di cambiare costume e colore.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Cambia sprite. Aggiungi dei codici per fare in modo che quando lo sprite riceve il messaggio `invia a tutti`{:class="blockevents"} "verde", il costume della matita e quello della penna diventino verdi.
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Per fare in modo che quando disegni la linea sia verde, clicca la casella colorata nel blocco `imposta colore`, e clicca sull’icona verde per scegliere il verde come colore della matita.
 
 + You can now do the same for the blue pencil icon: add this code to the blue square sprite:
 
