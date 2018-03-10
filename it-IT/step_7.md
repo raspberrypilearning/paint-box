@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## Sfida: Scorciatoie
 
-Can you create keyboard shortcuts for your commands? For example:
+Puoi creare dei tasti di scelta rapida per i tuoi comandi? Per esempio:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = passa a penna blu
++ g = passa a penna verde
++ e = passa a gomma
++ c = ripulisci schermo
 
-You could even allow the user to change the pen width with the arrow keys.
+Puoi perfino permettere all’utente di cambiare lo spessore della penna con i tasti freccia.
 
 \--- /challenge \---
