@@ -35,10 +35,10 @@ Ora facciamo in modo che la matita disegni solo `se`{:class="blockcontrol"} il m
 
 Se sembra che il disegno parta dal centro della matita, invece che dalla punta, hai bisogno di modificare il centro del tuo costume.
 
-![Costume center](images/costume-center.png)
+![Centro del costume](images/costume-center.png)
 
 Il mirino della matita deve essere posizionato **appena sotto** la punta della matita, non sulla punta della matita.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Le modifiche apportate al 'centro del costume' di uno sprite saranno applicate solo dopo aver cliccato su un'altra scheda: clicca su un altro costume o sulla scheda 'Script' per rendere valide le tue modifiche.
 
 \--- /collapse \---
