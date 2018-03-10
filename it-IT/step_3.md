@@ -13,7 +13,7 @@ Vedrai gli sprite della matita e della gomma:
 ```blocks
     quando si clicca su ⚑
 per sempre
-   raggiungi puntatore del mouse
+   raggiungi [puntatore del mouse v]
 fine
 ```
 
