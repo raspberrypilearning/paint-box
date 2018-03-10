@@ -1,6 +1,6 @@
-## Changing the pencil width
+## Cambiamos el grosor del lápiz
 
-Let's allow the user to draw using a range of different pencil sizes.
+Vamos a permitir al usuario dibujar usando diferentes tamaños de lápiz.
 
 + First, add a new variable called `width`{:class="blockvariable"}.
 
