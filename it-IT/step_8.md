@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: more pencils
+## Sfida: Più matite
 
 Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
 
