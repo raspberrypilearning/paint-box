@@ -10,8 +10,8 @@ title: Paint Box
 description: Μάθετε πώς να φτιάξετε το δικό σας πρόγραμμα χρωμάτων.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
 interests: 'καλλιτεχνικό σχέδιο'
-technologies: γρατσουνιά
-site_areas: κωδικος κωδικων, γρατσουνι
+technologies: scratch
+site_areas: codeclub, scratch
 steps:
   - 
     title: Εισαγωγή
