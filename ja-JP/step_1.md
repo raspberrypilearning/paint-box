@@ -1,10 +1,10 @@
-## Introduction
+## まえがき
 
-Make your own paint program!
+このプロジェクトでは、お絵かきができるプログラムを作ります！
 
-### What you will make
+### これから作るもの
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+緑の旗をクリックしてスタートします。 マウスを使ってえんぴつを動かし、マウスの左ボタンを押して絵を描きます。 Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
