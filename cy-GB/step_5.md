@@ -4,11 +4,9 @@ Rydym eisiau gadael i'r defnyddiwr i dynnu llun yn defnyddio amrywiaeth o feinti
 
 + Yn gyntaf, ychwanega newidyn newydd o'r enw 'lled'.  Os nad wyt ti'n siwr sut i wneud hyn, bydd y prosiect 'Ghostbusters' yn gymorth.
 
-+ Ychwanega'r llinell yma _tu fewn_ y ddolen 'am byth' {.blockcontrol} yn nghôd y pensil:
++ Ychwanega'r llinell yma _tu fewn_ y ddolen `am byth`{:class="blockcontrol"} yn nghôd y pensil:
 
-	```blocks
-		gosod maint pin i (lled)
-	```
+	![screenshot](images/screenshot10.png)
 
 	Bydd lled dy bensil nawr yn cael ei osod i gyfanswm 'lled' y newidyn.
 
