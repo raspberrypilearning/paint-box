@@ -7,11 +7,8 @@ Weithiau mae camgymeriadau yn digwydd, felly fe wnawn ni ychwanegu botwm 'clirio
 	![screenshot](images/paint-x.png)
 
 + Ychwanega côd i'r botwm dileu i glirio'r llwyfan pan mae'n cael ei glicio.
-
-	```blocks
-		pan caiff y cymeriad ei glicio
-		clirio
-	```
+	
+  ![screenshot](images/screenshot7.png)
 
 	Sylwa nad oes angen i ti anfon neges i glirio'r llwyfan, gan fod unrhyw giplun yn gallu gwneud!
 
@@ -25,20 +22,12 @@ Weithiau mae camgymeriadau yn digwydd, felly fe wnawn ni ychwanegu botwm 'clirio
 	![screenshot](images/paint-eraser-stage.png)
 
 + Mae modd i ti nawr ychwanegu côd i'r ciplun dileuwr, i ddweud wrth y pensil i newid i'r dileuwr.
-
-	```blocks
-		pan caiff y cymeriad ei glicio
-		darlledu [eraser v]
-	```
+	
+  ![screenshot](images/screenshot8.png)
 
 + Pan mae'r pensil yn derbyn y neges yma, alli di greu dileuwr trwy newid gwisg y pensil i fod yn ddileuwr, a newid lliw y pensil i fod yr un lliw â'r llwyfan!
 
-	```blocks
-		pan fyddaf yn derbyn [eraser v]
-		newid i wisg [eraser v]
-		gosod lliw pin i [#FFFFFF]
-
-	```
+  ![screenshot](images/screenshot9.png)
 
 + Profa dy brosiect, i weld os wyt ti'n gallu clirio a dileu y llwyfan.
 
@@ -48,8 +37,8 @@ Weithiau mae camgymeriadau yn digwydd, felly fe wnawn ni ychwanegu botwm 'clirio
 
 	![screenshot](images/paint-draw-problem.png)
 
-	I ddatrys hyn, mae angen i ti ddweud wrth y pensil i dynnu llun os yw'r llygoden wedi clicio _ac_os mae y-position y llygoden yn fwy na -120 (`llygoden y`{.blocksensing}`> -120` {.blockoperators}).
-	Newida datganiad 'os' {.blockcontrol} y pensil i edrych fel hyn:
+	I ddatrys hyn, mae angen i ti ddweud wrth y pensil i dynnu llun os yw'r llygoden wedi clicio _ac_os mae y-position y llygoden yn fwy na -120 (`llygoden y`{:class="blocksensing"}`> -120`{:class="blockoperators"}).
+	Newida datganiad `os`{:class="blockcontrol"} y pensil i edrych fel hyn:
 
 	![screenshot](images/pencil-gt-code.png)
 
