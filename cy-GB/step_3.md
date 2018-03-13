@@ -14,16 +14,13 @@ Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i'r defnyddi
 
 	![screenshot](images/paint-selectors.png)
 
-+ Pan mae'r eicon gwyrdd wedi ei ddewis, bydd angen i ti 'ddarlledu' {.blockevents} neges i'r ciplun pensil, yn dweud wrtho i newid ei wisg a'r lliw pensil.
++ Pan mae'r eicon gwyrdd wedi ei ddewis, bydd angen i ti `ddarlledu`{:class="blockevents"} neges i'r ciplun pensil, yn dweud wrtho i newid ei wisg a'r lliw pensil.
 
 	I wneud hyn, yn gyntaf ychwanega y côd yma i'r eicon gwyrdd:
 
-	```blocks
-		pan caiff y cymeriad ei glicio
-		darlledu [gwyrdd v]
-	```
+	![screenshot](images/screenshot2.png)
 
-	I greu y bloc 'darlledu' {.blockevents}, clicia'r saeth lawr a dewisa 'neges newydd...'
+	I greu y bloc `darlledu`{:class="blockevents"}, clicia'r saeth lawr a dewisa 'neges newydd...'
 
 	![screenshot](images/paint-broadcast.png)
 
@@ -33,38 +30,21 @@ Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i'r defnyddi
 
 + Mae angen i ti nawr ddweud wrth y ciplun pensil beth i wneud pan mae'n derbyn y neges. Ychwanega'r côd yma i dy giplun pensil:
 
-	```blocks
-		pan fyddaf yn derbyn [gwyrdd v]
-		newid i wisg [pensil-gwyrdd v]
-		gosod lliw pin i [#00ff00]
+	![screenshot](images/screenshot3.png)
 
-	```
-
-	I osod dy bensil i liwio yn wyrdd, clicia'r bocs lliw yn y bloc 'gosod lliw' {.blockpen}, a clicia ar yr eicon dewisydd gwyrdd.
+	I osod dy bensil i liwio yn wyrdd, clicia'r bocs lliw yn y bloc `gosod lliw`{:class="blockpen"}, a clicia ar yr eicon dewisydd gwyrdd.
 
 + Cer ati i wneud yr un peth ar gyfer yr eicon pensil glas, gan ychwanegu'r côd yma i dy giplun dewisydd glas:
-
-	```blocks
-		pan caiff y cymeriad ei glicio
-		darlledu [glas v]
-
-	```
+	
+  ![screenshot](images/screenshot4.png)
+  
 	...ac ychwanegu'r côd yma i'r ciplun pensil: 
 
-	```blocks
-		pan fyddaf yn derbyn [glas v]
-		newid i wisg [pensil-glas v]
-		gosod lliw pin i [#0000ff]
-	```
+  ![screenshot](images/screenshot5.png)
 
-+ Yn olaf, mae angen i ti ddweud wrth ciplun dy bensil pa wisg a lliw pensil i ddewis, ac i glirio'r sgrin pan mae'r prosiect wedi cychwyn. Ychwanega'r côd yma i ddechrau côd y pensil 'pan mae baner wedi ei glicio' {.blockevents} (cyn y ddolen 'am byth' {.blockcontrol}):
++ Yn olaf, mae angen i ti ddweud wrth ciplun dy bensil pa wisg a lliw pensil i ddewis, ac i glirio'r sgrin pan mae'r prosiect wedi cychwyn. Ychwanega'r côd yma i ddechrau côd y pensil `pan mae baner wedi ei glicio`{:class="blockevents"} (cyn y ddolen `am byth`{:class="blockcontrol"}):
 
-	```blocks
-		clirio
-		newid i wisg [pensil-glas v]
-		gosod lliw pin i [#0000ff]
-
-	```
+  ![screenshot](images/screenshot6.png)
 
 	Os oes well gyda ti, galli di ddechrau gyda phensil lliw gwahanol!
 
