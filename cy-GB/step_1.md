@@ -12,13 +12,13 @@ Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 
 
 Mae'r ddolen 'Adnoddau'r Prosiect' yn cynnwys yr adnoddau canlynol:
 
-####Adnoddau Gwirfoddolwyr
+#### Adnoddau Gwirfoddolwyr
 
 Mae modd gweld y prosiect wedi ei gwblhau yma <a href="http://scratch.mit.edu/projects/63473366/#editor">online</a>, neu mae modd ei lawrlwytho wrth glicio ar ddolen 'Adnoddau'r Prosiect' ar gyfer y prosiect yma, sydd yn cynnwys:
 
 + PaintBox.sb2
 
-####Adnoddau'r Prosiect
+#### Adnoddau'r Prosiect
 
 Ar gyfer y prosiect yma, mae aelodau'r clwb yn defnyddio adnoddau allanol nad ydynt ar gael trwy lyfrgell Scratch:
 
@@ -32,7 +32,7 @@ Ar gyfer aelodau'r clwb nad ydynt yn gallu cael mynediad i adnoddau'r prosiect, 
 
 ## Nodau Dysgu
 + Mewnforio lluniau;
-+ Gweithredwyr perthynol a 'boolean'(`>` {.blockoperators} & `and` {.blockoperators});
++ Gweithredwyr perthynol a 'boolean'(`>`{:class="blockoperators"} & `and`{:class="blockoperators"});
 + Darlledu rhwng cipluniau.
 
 Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llafur Gwneud Digidol Raspberry Pi](http://rpf.io/curriculum):
@@ -40,7 +40,7 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + [Cyfuno adeiladwaith rhaglenni i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Heriau
-+ "Llwybrau Byr" - defnyddio yr ar allweddell {.blocksensing} i ddarlledu negeseuon;
++ "Llwybrau Byr" - defnyddio yr ar allweddell i ddarlledu negeseuon;
 + "Mwy o bensiliau" - Ychwanegu mwy o liwiau, i atgyfnerthu dysgu darlledu negeseuon.
 
 ## Cwestiynau a Ofynir yn Aml
