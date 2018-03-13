@@ -1,4 +1,4 @@
-## Making a pencil
+## えんぴつを作る
 
 Let's start by making a pencil that can be used to draw on the stage.
 
