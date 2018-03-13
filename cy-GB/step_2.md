@@ -8,18 +8,13 @@ Fe wnawn ni ddechrau trwy greu pensil mae modd defnyddio i arlunio ar y llwyfan.
 
 	![screenshot](images/paint-starter.png)	
 
-+ Gan y byddi di'n defnyddio'r llygoden i dynnu llun, fyddi di eisiau i'r pensil ddilyn y llygoden 'am byth' {.blockcontrol}.  Ychwanega'r côd yma i'r ciplun pensil:
++ Gan y byddi di'n defnyddio'r llygoden i dynnu llun, fyddi di eisiau i'r pensil ddilyn y llygoden `am byth`{:class="blockcontrol"}.  Ychwanega'r côd yma i'r ciplun pensil:
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-		am byth
-   		mynd i [pwyntydd llygoden v]
-		end
-	```
+	![screenshot](images/screenshot1.png)	
 
 + Profa'r côd yma trwy glicio ar y faner a symud y llygoden o gwmpas y llwyfan.
 
-+ Nesaf, fe wnawn ni wneud i'r pensil dynnu llun 'os' {.blockcontrol} yw'r llygoden wedi ei glicio. Ychwanega'r côd yma i giplun dy bensil:
++ Nesaf, fe wnawn ni wneud i'r pensil dynnu llun `os`{:class="blockcontrol"} yw'r llygoden wedi ei glicio. Ychwanega'r côd yma i giplun dy bensil:
 
 	![screenshot](images/paint-pencil-draw-code.png)	
 
