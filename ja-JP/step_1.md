@@ -4,21 +4,21 @@
 
 ### これから作るもの
 
-緑の旗をクリックしてスタートします。 マウスを使ってえんぴつを動かし、マウスの左ボタンを押して絵を描きます。 Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+緑の旗をクリックしてスタートします。 マウスを使ってえんぴつを動かし、マウスの左ボタンを押して絵を描きます。 色をクリックしてえんぴつを変え、クリックした消しゴムを使って絵を消します。 ☓印をクリックしてページをクリアします。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### 学習すること
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+このプロジェクトは、[ラズベリーパイデジタルメイクカリキュラムの以下の要素をカバーします](http://rpf.io/curriculum) ：
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [基本的なプログラミング構造を使用して簡単なプログラムを作成する](https://www.raspberrypi.org/curriculum/programming/builder){：target = "_ blank"}
 
-### Additional information for educators
+### 教育者のための追加情報
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/paint-box/print){：target = "_ blank"}を使用してください。
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+フッターのリンクから、このプロジェクトのGitHubリポジトリにアクセスできます。このリポジトリには、 'en / resources'フォルダ内のすべてのリソース (プロジェクトの完成例を含む) が含まれています。
