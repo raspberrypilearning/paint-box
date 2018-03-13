@@ -11,26 +11,26 @@
 + えんぴつスプライトにコードを追加して、マウスに`ずっと`{:class="blockcontrol"}ついていって絵が描けるようにします。
 
 ```blocks
-    旗がクリックされた時
+    ⚑がクリックされた時
 　ずっと
 　　マウスポインターへ行く
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ フラグ⚑ボタンをクリックして、ステージの中でマウスをぐるぐる動かしてみましょう。
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+次に、`もし`{:class="blockcontrol"}マウスが押された状態であればえんぴつで線を書けるようにしてみましょう。
 
-+ Add this code to your pencil sprite:
++ えんぴつスプライトにこのコードを足しましょう。
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ もう一度テストしてみましょう。 今度は、マウスを押しながらえんぴつをステージの中で動かします。 うまく絵がかけましたか？
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: 問題がある場合...
 
 If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
 
