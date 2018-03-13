@@ -2,19 +2,18 @@
 
 まず、ステージでお絵かきをするえんぴつを作ります。
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ 「お絵かきの箱」という名前のスクラッチ・プロジェクトを開きます。オンラインで開く場合はこちら[jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} から、オフラインエディターを使う場合はこちら<http://jumpto.cc/paint-get>{:target="_blank"}からダウンロードして、プロジェクトを開きます。
 
-You will see pencil and eraser sprites:
+えんぴつと消しゴムのスプライトが出てきます。
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ えんぴつスプライトにコードを追加して、マウスに`ずっと`{:class="blockcontrol"}ついていって絵が描けるようにします。
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    旗がクリックされた時
+　ずっと
+　　マウスポインターへ行く
 ```
 
 + Click the flag and then move the mouse around the stage to test whether the code works.
