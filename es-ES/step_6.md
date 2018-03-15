@@ -2,7 +2,7 @@
 
 Vamos a permitir al usuario dibujar usando diferentes tamaños de lápiz.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Primero añade una nueva variable llamada `ancho`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
