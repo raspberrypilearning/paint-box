@@ -1,8 +1,8 @@
-## Making mistakes
+## Cometiendo errores
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+A veces nos equivocamos así que vamos a añadir un botón "limpiar" y un borrador.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Añade el sprite 'X-blick' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz en rojo. This will become the 'clear' button.
 
 ![screenshot](images/paint-x.png)
 
