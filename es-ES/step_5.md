@@ -2,11 +2,11 @@
 
 A veces nos equivocamos así que vamos a añadir un botón "limpiar" y un borrador.
 
-+ Añade el sprite 'X-blick' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz en rojo. This will become the 'clear' button.
++ Añade el sprite 'X-blick' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz en rojo. Esto se convertirá en el botón de "limpiar".
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Añade código a este sprite para que cuando lo cliques limpie el escenario.
 
 ![Clear stage](images/clear-stage.png)
 
