@@ -4,21 +4,21 @@ Mach dein eigenes Malprogramm!
 
 ### Was du machen wirst
 
-Klicke zum Starten auf die grüne Flagge. Verwende die Maus, um den Stift zu bewegen und halte die linke Maustaste gedrückt, um zu zeichnen. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+Klicke zum Starten auf die grüne Flagge. Verwende die Maus, um den Stift zu bewegen und halte die linke Maustaste gedrückt, um zu zeichnen. Klicke auf eine Farbe, um den Stift zu wechseln oder klicke auf den Radiergummi, um etwas weg zu radieren. Um die Seite zu löschen, klicke auf das Kreuz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### Was du lernen wirst
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Verwende grundlegende Programmierkonstrukte, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Additional information for educators
+### Zusätzliche Informationen für Pädagogen
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Wenn Sie dieses Projekt ausdrucken möchten, verwenden Sie die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Verwenden Sie den Link in der Fußzeile, um auf das GitHub-Repo für dieses Projekt zuzugreifen. Dieses enthält alle Ressourcen (einschließlich eines Beispiels für ein abgeschlossenes Projekt) im Ordner "en/resources".
