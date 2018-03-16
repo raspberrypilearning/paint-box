@@ -25,7 +25,7 @@ Als nächstes versuchen wir, der Stift nur dann zeichnen zu lasse, `wenn`{:class
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Teste deinen Code nochmals. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Teste deinen Code nochmals. Halte diesmal die Maustaste gedrückt, wenn du die Maus über die Bühne bewegst. Kannst du mit deinem Stift zeichnen?
 
 ![screenshot](images/paint-draw.png)
 
@@ -33,11 +33,11 @@ Als nächstes versuchen wir, der Stift nur dann zeichnen zu lasse, `wenn`{:class
 
 ## title: If you're having problems...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Wenn dein Stift nicht von der Spitze zu zeichnen scheint, sondern von der Mitte, dann musst du Kostüm-Mitte ändern.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Du musst das Fadenkreuz für den Stift **knapp unter** der Spitze des Stifts platzieren, nicht genau auf der Spitze.
 
 A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
 
