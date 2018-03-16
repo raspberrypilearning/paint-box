@@ -2,7 +2,7 @@
 
 Beginnen wir mit einem Stift, mit dem wir auf der Bühne zeichnen können.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Scratch kann entweder online bei [jumpto.cc/paint-go{:target="_blank"}](http://jumpto.cc/paint-go) verwendet werden, oder unter [http://jumpto.cc/paint-get{:target="_blank"}](http://jumpto.cc/paint-get) heruntergeladen und offline benutzt werden.
 
 You will see pencil and eraser sprites:
 
