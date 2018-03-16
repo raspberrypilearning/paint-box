@@ -1,8 +1,8 @@
-## What you will need
+## Was du brauchen wirst
 
 ### Hardware
 
-+ Computer capable of running Scratch 2.0
++ Computer, der Scratch 2.0 ausführen kann
 
 ### Software
 
