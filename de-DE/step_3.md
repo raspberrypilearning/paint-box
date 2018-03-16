@@ -39,6 +39,6 @@ Wenn dein Stift nicht von der Spitze zu zeichnen scheint, sondern von der Mitte,
 
 Du musst das Fadenkreuz für den Stift **knapp unter** der Spitze des Stifts platzieren, nicht genau auf der Spitze.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Die Änderungen der Kostüm-Mitte einer Figurwerden erst wirksam, wenn etwas Anderes angeklickt wird. Klicke also auf ein anderes Kostüm oder auf den 'Skripte'-Reiter um deine Änderungen abzuschließen.
 
 \--- /collapse \---
