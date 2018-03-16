@@ -8,7 +8,7 @@ Bei den Figuren siehst du einen Stift und einen Radierer:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Füge dem Stift folgenden Code hinzu, damit er der Maus `ständig`{:class="blockcontrol"} folgt:
 
 ```blocks
     when flag clicked
