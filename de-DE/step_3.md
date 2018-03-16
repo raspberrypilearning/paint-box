@@ -17,15 +17,15 @@ Bei den Figuren siehst du einen Stift und einen Radierer:
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Klicke auf die Flagge und sieh, ob der Code richtig arbeitet.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Als nächstes versuchen wir, der Stift nur dann zeichnen zu lasse, `wenn`{:class="blockcontrol"} die Maus geklickt wird.
 
-+ Add this code to your pencil sprite:
++ Füge diesen Code deiner Stift-Figur hinzu:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Teste deinen Code nochmals. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
 
