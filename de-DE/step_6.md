@@ -1,8 +1,8 @@
-## Changing the pencil width
+## Stiftbreite ändern
 
-Let's allow the user to draw using a range of different pencil sizes.
+Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Füge zuerst eine neue Variable namens `Dicke`{:class='blockvariable':} hinzu.
 
 [[[generic-scratch-add-variable]]]
 
