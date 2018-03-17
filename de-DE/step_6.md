@@ -22,12 +22,12 @@ Jetzt kannst du den Schieberegler unter der Variablen ziehen, um den Wert zu ver
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ Teste dein Projekt und sieh, ob du die Stift-Dicke verändern kannst.
 
 ![screenshot](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Wenn du möchtest, kannst du die erlaubten Mindest- und Maximal-Werte festlegen. Dazu klickst du nochmals rechts auf die Variable und klickst auf 'Reglerbereich festlegen'. Setze die Mindest- und Maximal-Werte auf passendere wie 1 und 20.
 
 ![screenshot](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Teste deine Dicken-Variable bis du zufrieden bist.
