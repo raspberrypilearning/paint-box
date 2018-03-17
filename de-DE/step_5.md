@@ -28,7 +28,7 @@ Wenn der Stift die "radieren"-Nachricht erhält, musst du das Stift-Kostüm zu "
 
 + Füge code hinzu um den Radierer zu schaffen
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Füge der Stift-Figur folgenden Code hinzu: **Wen Ich** die Nachricht **radieren empfange** **wechsle zu Kostüm** RadierStift **Setze Stiftfarbe auf** weiß \--- /hint \--- \--- hint \--- So sollte der Code der Stift-Figur aussehen:
 
 ```blocks
 when I receive [eraser v]
@@ -38,15 +38,15 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Teste dein Projekt uns schau, ob do radieren kannst und die Bühne löschen kannst.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Es gibt noch ein Problem mit dem Stift - du kannst auf der ganzen Bühne zeichnen, auch im Bereich der Auswahlsymbole!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Um das zu beheben, sag dem Stift, er darf nur dann zeichnen, wenn die Maustaste gedrückt ist *und* wenn die y-Position größer als -120 ist:
 
 ![screenshot](images/pencil-gt-code.png)
 
