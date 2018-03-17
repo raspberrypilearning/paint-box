@@ -51,6 +51,6 @@ set pen color to [#0000ff]
 
 Wir haben hier blau gewählt, aber du kannst mit einer anderen Stiftfarbe beginnen, wenn du es lieber hast.
 
-+ Teste nun dein Projekt. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Teste nun dein Projekt. Kannst du zwischen den blauen und grünen Stiften umschalten, indem du das blaue bzw. grüne Quadrat anklickst?
 
 ![screenshot](images/paint-pens-test.png)
