@@ -6,13 +6,13 @@ Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Füge diese Zeile *innerhalb* der `wiederhole fortlaufend`{:class='blockcontrol':} Schleife ein:
 
 ```blocks
-    set pen size to (width)
+    set pen size to (Dicke)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+Die Stift-Dicke wird nun immer wieder auf den Wert der 'Dicke'-Variablen gesetzt.
 
 + Right click on the variable display on the stage and click 'slider'.
 
