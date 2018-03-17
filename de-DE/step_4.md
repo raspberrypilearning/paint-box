@@ -45,12 +45,12 @@ switch costume to [pencil-blue v]
 set pen color to [#0000ff]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ Zum Schluß fügst du noch Code ein, um festzulegen mit welcher Farbe du beginnst und dass die Bühne gelöscht wird.
 
 ![Start pencil](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+Wir haben hier blau gewählt, aber du kannst mit einer anderen Stiftfarbe beginnen, wenn du es lieber hast.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Teste nun dein Projekt. Can you switch between blue and green pens by clicking on the blue or green square sprites?
 
 ![screenshot](images/paint-pens-test.png)
