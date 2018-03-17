@@ -24,9 +24,9 @@ Du hast vielleicht schon bemerkt, dass die Stift-Figur auch ein Radier-Kostüm e
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Wenn der Stift die "radieren"-Nachricht erhält, musst du das Stift-Kostüm zu "Radier-Stift" ändern und die Stiftfarbe auf weiß ändern - die Farbe der Bühne!
 
-+ Add some code to create the eraser
++ Füge code hinzu um den Radierer zu schaffen
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
