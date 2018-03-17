@@ -50,6 +50,6 @@ Um das zu beheben, sag dem Stift, er darf nur dann zeichnen, wenn die Maustaste 
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Teste dein Projekt; du solltest nicht mehr in der Nähe der Auswahlsymbole zeichnen können.
 
 ![screenshot](images/paint-fixed.png)
