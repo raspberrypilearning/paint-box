@@ -1,6 +1,6 @@
-## Coloured pencils
+## Buntstifte
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Laß uns deinem Projekt verschieden Buntstifte hinzufügen, und den Anwender aus ihnen auswählen.
 
 + Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
 
