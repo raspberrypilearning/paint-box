@@ -16,11 +16,11 @@ Du hast vielleicht schon bemerkt, dass die Stift-Figur auch ein Radier-Kostüm e
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Dein Projekt enthält auch eine eigene Radier-Figur. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Dein Projekt enthält auch eine eigene Radier-Figur. Klicke rechts auf diese Figur und wähle 'zeige dich'. Du kannst die Figur auch zu 'Radierer' umbenennen. So sollte deine Bühne jetzt aussehen:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Füge der Radierer-Figur Code hinzu, um den Stift auf radieren umzuschalten.
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
