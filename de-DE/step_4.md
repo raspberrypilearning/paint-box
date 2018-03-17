@@ -2,7 +2,7 @@
 
 Laß uns deinem Projekt verschieden Buntstifte hinzufügen, und den Anwender aus ihnen auswählen.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Klicke auf deine Stift-Figur, dann auf Kostüme und dupliziere dein 'blaues Stift-Kostüm'.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
