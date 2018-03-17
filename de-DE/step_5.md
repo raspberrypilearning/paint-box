@@ -10,9 +10,9 @@ Manchmal passieren Fehler, lass uns also einen 'Löschen'-Knopf und einen Radier
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Beachte, dass du gar keine Nachricht senden musst um die Bühne zu löschen, es genügt der Block "wische Malspuren weg" der Figur.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Du hast vielleicht schon bemerkt, dass die Stift-Figur auch ein Radier-Kostüm enthält:
 
 ![screenshot](images/paint-eraser-costume.png)
 
