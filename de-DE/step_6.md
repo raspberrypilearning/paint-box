@@ -14,11 +14,11 @@ Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
 
 Die Stift-Dicke wird nun immer wieder auf den Wert der 'Dicke'-Variablen gesetzt.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Klicke auf die Variablen-Anzeige auf der Bühne und klicke auf 'Schieberegler'.
 
 ![screenshot](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Jetzt kannst du den Schieberegler unter der Variablen ziehen, um den Wert zu verändern.
 
 ![screenshot](images/paint-slider-change.png)
 
