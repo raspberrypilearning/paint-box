@@ -24,20 +24,20 @@ Laß uns deinem Projekt verschieden Buntstifte hinzufügen, und den Anwender aus
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Schalte zu deiner Stift-Figur. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie die Nachricht "grün" `an alle`{:class='blockevents':} empfängt, zum grünen Stift-Kostüm wechselt und die Stiftfarbe zu grün ändert.
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Kästchen in `setze Stiftfarbe auf`{:class='blockpen':} und klicke dann auf das grüne Quadrat.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Nun kannst du das gleiche für das blaue Symbol machen: füge diesen Coden zum blauen Quadrat:
 
 ```blocks
 when this sprite clicked
 broadcast [blue v]
 ```
 
-...and add this code to the pencil sprite:
+...und diesen Code zur Stift-Figur:
 
 ```blocks
 when I receive [blue v]
