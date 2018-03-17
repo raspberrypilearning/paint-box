@@ -31,7 +31,7 @@ Als nächstes versuchen wir, der Stift nur dann zeichnen zu lasse, `wenn`{:class
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Wenn du Probleme hast...
 
 Wenn dein Stift nicht von der Spitze zu zeichnen scheint, sondern von der Mitte, dann musst du Kostüm-Mitte ändern.
 
