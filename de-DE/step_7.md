@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## Zusatzaufgabe: Tastenkürzel
 
-Can you create keyboard shortcuts for your commands? For example:
+Kannst du Tasten-Kürzel für deine Befehle anlegen? Zum Beispiel:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = nimm den blauen Stift
++ g = nimm den grünen Stift
++ r = Radierer
++ l = Bühne löschen
 
-You could even allow the user to change the pen width with the arrow keys.
+Du könntest es dem Anwender erlauben, den Stift mit den Pfeil-Tasten zu wechseln.
 
 \--- /challenge \---
