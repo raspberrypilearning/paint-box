@@ -6,17 +6,17 @@ Laß uns deinem Projekt verschieden Buntstifte hinzufügen, und den Anwender aus
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Benenne dein neues Kostum um zu "Stift grün" und das alte zu "Stift blau".
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Zeichne zwei neue Figuren - ein blaues und ein grünes Quadrat. Diese verwendest du um die Stiftfarbe umzuschalten.
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Benenne die neuen Figuren 'blau' und 'grün'
 
 + Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
 
