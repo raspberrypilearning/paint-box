@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: more pencils
+## Zusatzaufgabe: mehr Stifte
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+Kannst du rote, gelbe und schwarze Stifte zu deinem Mal-Programm hinzufügen? Sieh nochmals bei Schritt 2 nach, wenn du vergessen hast, wie das geht. Vergiss nicht, für diese neuen Farbstifte ebenfalls Tastenkürzel anzulegen.
 
-Can you use your pencils to draw a picture?
+Kannst du mit deinen Stiften ein Bild malen?
 
 ![screenshot](images/paint-final.png)
 
