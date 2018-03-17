@@ -16,7 +16,7 @@ Du hast vielleicht schon bemerkt, dass die Stift-Figur auch ein Radier-Kostüm e
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Dein Projekt enthält auch eine eigene Radier-Figur. Right click on this sprite and choose 'show'. Here is how your stage should look:
 
 ![screenshot](images/paint-eraser-stage.png)
 
