@@ -1,12 +1,12 @@
-## Making mistakes
+## Fehler machen
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Manchmal passieren Fehler, lass uns also einen 'Löschen'-Knopf und einen Radiergummi hinzufügen.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Füge die 'X-block'-Figur hinzu - du findest sie in der Bibliothek, in der Kategorie Buchstaben. Färbe das Kostüm rot. Das wird der 'Löschen'-Knopf.
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Füge Code zu dieser Figur hinzu, um die Bühne zu löschen, wenn sie geklickt wird.
 
 ![Clear stage](images/clear-stage.png)
 
