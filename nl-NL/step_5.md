@@ -1,12 +1,12 @@
-## Making mistakes
+## Fouten maken
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Voeg de sprite 'X-block' toe - je vindt het in de bibliotheek, in het gedeelte met letters. Kleur het uiterlijk rood. Dit wordt de knop 'alles wissen'.
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Voeg code aan deze sprite toe om het speelveld te wissen als erop geklikt wordt.
 
 ![Clear stage](images/clear-stage.png)
 
