@@ -11,34 +11,34 @@ Je zult potlood- en gumsprites zien:
 + Voeg wat code toe aan de potloodsprite om ervoor te zorgen dat deze de muis altijd volgt (` herhaal blok`) {: class = "blockcontrol"}, zodat je kunt tekenen:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    wanneer vlag wordt aangeklikt
+    herhaal
+      ga naar [muisaanwijzer]
+    einde
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Klik op de vlag en beweeg de muis over het werkgebied om te testen of de code werkt.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Laat vervolgens je potlood alleen tekenen ` als ` {: class = "blockcontrol"} er op de muis wordt geklikt.
 
-+ Add this code to your pencil sprite:
++ Voeg deze code toe aan je potlood sprite:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Als je problemen hebt...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Als je potlood de lijn lijkt te trekken vanuit het midden van het potlood in plaats vanuit de punt, moet je het centrum van je uiterlijk wijzigen.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Het draadkruis voor het potlood moet ** net onder ** de punt van het potlood worden geplaatst, niet op het puntje van het potlood.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Een wijziging in het 'uiterlijk-centrum' van een sprite wordt niet uitgevoerd totdat op een ander tabblad wordt geklikt, dus klik op een ander uiterlijk of op het tabblad 'Scripts' om de wijzigingen in het uiterlijk-centrum te voltooien.
 
 \--- /collapse \---
