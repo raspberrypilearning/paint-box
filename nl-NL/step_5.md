@@ -10,25 +10,25 @@ Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Merk op dat je geen bericht hoeft te sturen om het speelveld te wissen, je kunt gewoon het wis alles-blok voor deze sprite gebruiken.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Je hebt waarschijnlijk gemerkt dat je potloodsprite een gum aan het uiteinde bevat:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Je project bevat ook een afzonderlijke gumsprite. Klik met de rechtermuisknop op deze sprite en kies 'verschijn'. Hier is hoe je speelveld eruit zou moeten zien:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Voeg code toe aan de gumsprite om het potlood te laten overschakelen naar een gum wanneer op de sprite wordt geklikt.
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Wanneer het potlood de "gum"-boodschap ontvangt, kunt je het potloodkostuum in de gum veranderen en de potloodkleur in wit veranderen - dezelfde kleur als het podium!
 
-+ Add some code to create the eraser
++ Voeg een code toe om de gum te maken
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Voeg deze code toe aan de potloodsprite: **wanneer ik signaal** **gum ontvang** **verander uiterlijk naar** gum **maak penkleur ** wit \--- /hint \--- \--- hint \--- Zo zou je code in de potloodsprite eruit moet zien:
 
 ```blocks
 when I receive [eraser v]
