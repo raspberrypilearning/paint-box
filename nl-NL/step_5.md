@@ -31,25 +31,25 @@ Wanneer het potlood de "gum"-boodschap ontvangt, kunt je het potloodkostuum in d
 \--- hints \--- \--- hint \--- Voeg deze code toe aan de potloodsprite: **wanneer ik signaal** **gum ontvang** **verander uiterlijk naar** gum **maak penkleur ** wit \--- /hint \--- \--- hint \--- Zo zou je code in de potloodsprite eruit moet zien:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+wanneer ik signaal [gum] ontvang
+verander uiterlijk naar [gum]
+maak penkleur [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Test je project, om te zien of je kunt wissen en het hele speelveld kan wissen.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, ook in de buurt van de kleur selectie-pictogrammen!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Om dit te verhelpen, vertel het potlood alleen om te tekenen als op de muis wordt geklikt* en * als de y-positie van de muis groter is dan -120:
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Test je project; je zou nu niet in staat moeten zijn om in de buurt van de kleur selectie-blokken te tekenen.
 
 ![screenshot](images/paint-fixed.png)
