@@ -24,20 +24,20 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Schakel over op je potloodsprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Schakel over op je potloodsprite. Voeg wat code toe zodat wanneer deze sprite het ` zend signaal ` {: class = "blockevents"} groen ontvangt, deze moet overschakelen naar het groene potlooduiterlijk en de potloodkleur moet veranderen in groen.
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Als je het potlood op groen wilt zetten, klik je op het gekleurde vak van het groene blok ` penkleur instellen ` {: class = "blockpen"} en klik je op de groene sprite om dezelfde kleur groen te kiezen als je potlood kleur.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Je kunt nu hetzelfde doen voor het blauwe potloodpictogram: voeg deze code toe aan de blauwe vierkante sprite:
 
 ```blocks
-when this sprite clicked
-broadcast [blue v]
+wanneer op deze sprite wordt geklikt
+zend signaal [blauw]
 ```
 
-...and add this code to the pencil sprite:
+... en voeg deze code toe aan de potloodsprite:
 
 ```blocks
 when I receive [blue v]
