@@ -40,17 +40,17 @@ zend signaal [blauw]
 ... en voeg deze code toe aan de potloodsprite:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+wanneer ik signaal [blauw] ontvang
+verander uiterlijk naar [potlood-blauw]
+maak penkleur [# 0000ff]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ Voeg ten slotte deze code toe om de sprite van het potlood te vertellen om met welke kleur te beginnen en zorg ervoor dat het scherm schoon is.
 
 ![Start pencil](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+We hebben ervoor gekozen om met blauw te beginnen, maar als je wilt, kunt je met een ander kleurpotlood beginnen.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Test je project. Kun je schakelen tussen blauwe en groene potloden door op de blauwe of groene vierkante sprites te klikken?
 
 ![screenshot](images/paint-pens-test.png)
