@@ -1,14 +1,14 @@
-## Making a pencil
+## Een potlood maken
 
-Let's start by making a pencil that can be used to draw on the stage.
+Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op het speelveld te tekenen.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Open het 'Paintbox' Scratch-project online op [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {: target = "_ blank"} of download van [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {: target = "_ blank"} en open het als je de offline-editor gebruikt.
 
-You will see pencil and eraser sprites:
+Je zult potlood- en gumsprites zien:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Voeg wat code toe aan de potloodsprite om ervoor te zorgen dat deze de muis altijd volgt (` herhaal blok`) {: class = "blockcontrol"}, zodat je kunt tekenen:
 
 ```blocks
     when flag clicked
