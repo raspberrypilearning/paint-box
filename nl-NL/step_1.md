@@ -13,12 +13,12 @@ Klik op de groene vlag om te starten. Gebruik de muis om het potlood te verplaat
 
 ### Wat ga je leren
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dit project behandelt elementen uit de volgende onderdelen van de[Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [ Combineer programma lussen om een probleem op te lossen. ](https://www.raspberrypi.org/curriculum/programming/builder) {: target = "_ blank"}
 
-### Additional information for educators
+### Aanvullende informatie voor clubleiders
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_ blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Gebruik de link in de voettekst om toegang te krijgen tot de GitHub-repo voor dit project, deze bevat alle bestanden (inclusief een voltooid projectvoorbeeld) in de map 'nl / bestanden'.
