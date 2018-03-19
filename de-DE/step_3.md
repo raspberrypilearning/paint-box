@@ -11,10 +11,10 @@ Bei den Figuren siehst du einen Stift und einen Radierer:
 + Füge dem Stift folgenden Code hinzu, damit er der Maus `ständig`{:class="blockcontrol"} folgt:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    Wenn die grüne Flagge angeklickt
+   wiederhole fortlaufend
+      gehe zu [mouse pointer v]
+   Ende
 ```
 
 + Klicke auf die Flagge und sieh, ob der Code richtig arbeitet.
