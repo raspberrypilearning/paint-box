@@ -13,7 +13,7 @@ Bei den Figuren siehst du einen Stift und einen Radierer:
 ```blocks
     Wenn die grüne Flagge angeklickt
    wiederhole fortlaufend
-      gehe zu [mouse pointer v]
+      go to [Mauszeiger v]
    Ende
 ```
 
