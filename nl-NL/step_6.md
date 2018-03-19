@@ -1,15 +1,15 @@
-## Changing the pencil width
+## De potlooddikte wijzigen
 
-Let's allow the user to draw using a range of different pencil sizes.
+Laten we het mogelijk maken dat de gebruiker kan kiezen uit een reeks verschillende potlooddiktes.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Voeg eerst een nieuwe variabele toe met de naam ` breedte ` {: class = "blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Voeg deze regel * toe * aan het ` herhaal ` {: class = "blockcontrol"} blok van de potloodcode:
 
 ```blocks
-    set pen size to (width)
+    maak pendikte (breedte)
 ```
 
 The pencil width will now repeatedly be set to the value of the 'width' variable.
