@@ -31,9 +31,9 @@ Wenn der Stift die "radieren"-Nachricht erhält, musst du das Stift-Kostüm zu "
 \--- hints \--- \--- hint \--- Füge der Stift-Figur folgenden Code hinzu: **Wen Ich** die Nachricht **radieren empfange** **wechsle zu Kostüm** RadierStift **Setze Stiftfarbe auf** weiß \--- /hint \--- \--- hint \--- So sollte der Code der Stift-Figur aussehen:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+Wenn ich [radieren v] empfange
+wechsle zu Kostüm [RadierStift v]
+setze Stiftfarbe auf [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
