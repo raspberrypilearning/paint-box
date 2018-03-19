@@ -33,16 +33,16 @@ Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke 
 + Nun kannst du das gleiche für das blaue Symbol machen: füge diesen Coden zum blauen Quadrat:
 
 ```blocks
-when this sprite clicked
-broadcast [blue v]
+Wenn ich angeklickt werde
+sende [blau v] an alle
 ```
 
 ...und diesen Code zur Stift-Figur:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+Wenn ich [blau v] empfange
+wechsle zu Kostüm [Stift-blau v]
+setze Stiftfarbe auf [#0000ff]
 ```
 
 + Zum Schluß fügst du noch Code ein, um festzulegen mit welcher Farbe du beginnst und dass die Bühne gelöscht wird.
