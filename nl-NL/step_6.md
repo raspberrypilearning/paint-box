@@ -12,22 +12,22 @@ Laten we het mogelijk maken dat de gebruiker kan kiezen uit een reeks verschille
     maak pendikte (breedte)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+De potloodbreedte wordt nu steeds ingesteld op de waarde van de variabele 'breedte'.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Klik in het speelveld met de rechtermuisknop op de weergave van de breedte en klik op 'schuif'.
 
 ![screenshot](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Je kunt nu de schuifregelaar onder de variabele verslepen om de waarde te wijzigen.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ Test je project en kijk of je de potloodbreedte kunt wijzigen.
 
 ![screenshot](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Als je wilt, kunt je de minimum- en maximumwaarde van 'breedte' instellen. Klik hiertoe met de rechtermuisknop op de variabele en klik op 'stel min en max van schuif in'. Stel de minimum- en maximumwaarden van je variabele in op iets dat beter is, zoals 1 en 20.
 
 ![screenshot](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Blijf je variabele 'breedte' testen totdat je tevreden bent.
