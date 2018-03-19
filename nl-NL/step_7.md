@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## Challenge: snelkoppelingen
 
-Can you create keyboard shortcuts for your commands? For example:
+Kun je sneltoetsen maken voor je commando's? Bijvoorbeeld:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = Overschakelen naar blauwe pen
++ g = Overschakelen naar groene pen
++ e = overschakelen naar gum
++ w = wis alles
 
-You could even allow the user to change the pen width with the arrow keys.
+Je kunt zelfs instellen dat de gebruiker de penbreedte wijzigt met de pijltjestoetsen.
 
 \--- /challenge \---
