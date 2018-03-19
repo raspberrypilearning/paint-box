@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: more pencils
+## Challenge: meer potloden
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+Kun je rode, gele en zwarte potloden toevoegen aan je tekenprogramma? Bekijk stap 2 hierboven als je bent vergeten hoe je dit moet doen. Vergeet niet om sneltoetsen voor deze nieuwe potloden toe te voegen.
 
-Can you use your pencils to draw a picture?
+Kun jij je potloden gebruiken om een foto na te tekenen?
 
 ![screenshot](images/paint-final.png)
 
