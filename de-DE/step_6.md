@@ -9,7 +9,7 @@ Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
 + Füge diese Zeile *innerhalb* der `wiederhole fortlaufend`{:class='blockcontrol':} Schleife ein:
 
 ```blocks
-    set pen size to (Dicke)
+    setze Stiftdicke auf (Dicke)
 ```
 
 Die Stift-Dicke wird nun immer wieder auf den Wert der 'Dicke'-Variablen gesetzt.
