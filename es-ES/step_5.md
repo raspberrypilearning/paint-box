@@ -2,7 +2,7 @@
 
 A veces nos equivocamos así que vamos a añadir un botón "limpiar" y un borrador.
 
-+ Añade el sprite 'X-blick' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz en rojo. Esto se convertirá en el botón de "limpiar".
++ Añade el sprite 'X-block' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz a rojo. Esto se convertirá en el botón de "limpiar".
 
 ![screenshot](images/paint-x.png)
 
