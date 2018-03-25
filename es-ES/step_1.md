@@ -15,7 +15,7 @@ Haz clic en la bandera verde para empezar. Usa el ratón para mover el lápiz y 
 
 Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Usa estructuras de programación básicos para crear programas simples](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Usa estructuras de programación básicas para crear programas simples](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### Información adicional para los líderes del club
 
