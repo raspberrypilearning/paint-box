@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Desafío: atajos
+## Challenge: atajos
 
 ¿Puedes crear un atajo de teclado para tus comandos? Por ejemplo:
 
@@ -9,6 +9,6 @@
 + e = Cambiar a la goma de borrar
 + c = limpiar la pantalla
 
-Puedes incluso permitir al usuario cambiar el color del lápiz con las flechas del tecado.
+Puedes incluso permitir al usuario cambiar el ancho del lápiz con las flechas del tecado.
 
 \--- /challenge \---
