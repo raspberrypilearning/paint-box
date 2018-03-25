@@ -9,7 +9,7 @@ Vamos a permitir al usuario dibujar usando diferentes tamaños de lápiz.
 + Añade esta linea *dentro* del bucle `por siempre`{:class="blockcontrol"} del código del lápiz:
 
 ```blocks
-    fijar tamaño de lápiz a (ancho)
+    fija tamaño de lápiz a (ancho)
 ```
 
 La anchura del lápiz se fijará ahora con el valor de la variable 'ancho'.
@@ -18,7 +18,7 @@ La anchura del lápiz se fijará ahora con el valor de la variable 'ancho'.
 
 ![screenshot](images/paint-slider.png)
 
-Ahora puedes arrastrar el deslizador más abajo de la variable para cambiar su valor.
+Ahora puedes arrastrar el deslizador debajo de la variable para cambiar su valor.
 
 ![screenshot](images/paint-slider-change.png)
 
@@ -26,7 +26,7 @@ Ahora puedes arrastrar el deslizador más abajo de la variable para cambiar su v
 
 ![screenshot](images/paint-width-test.png)
 
-Si lo prefieres puedes fijar el valor mínimo y máximo permitido de 'ancho'. Para conseguirlo haz clic con el botón derecho en la variable de nuevo y clic de nuevo en "Fijar rango del deslizador". Fija el valor mínimo y máximo de tu variable a algo más sensible, como 1 y 20.
+Si lo prefieres puedes fijar el valor mínimo y máximo permitido de 'ancho'. Para conseguirlo haz clic con el botón derecho en la variable de nuevo y haz clic en "Fijar rango del deslizador". Fija el valor mínimo y máximo de tu variable a algo más normal, como 1 y 20.
 
 ![screenshot](images/paint-slider-max.png)
 
