@@ -7,18 +7,23 @@ Yn y prosiect yma, bydd plant yn dysgu sut i ddarlledu negeseuon rhwng cipluniau
   <img src="images/paint-final.png">
 </div>
 
+--- collapse ---
+---
+title: Nodiadau i Wirfoddolwyr
+---
+
 ## Adnoddau
 Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
 
 Mae'r ddolen 'Adnoddau'r Prosiect' yn cynnwys yr adnoddau canlynol:
 
-#### Adnoddau Gwirfoddolwyr
+## Adnoddau Gwirfoddolwyr
 
 Mae modd gweld y prosiect wedi ei gwblhau yma <a href="http://scratch.mit.edu/projects/63473366/#editor">online</a>, neu mae modd ei lawrlwytho wrth glicio ar ddolen 'Adnoddau'r Prosiect' ar gyfer y prosiect yma, sydd yn cynnwys:
 
 + PaintBox.sb2
 
-#### Adnoddau'r Prosiect
+## Adnoddau'r Prosiect
 
 Ar gyfer y prosiect yma, mae aelodau'r clwb yn defnyddio adnoddau allanol nad ydynt ar gael trwy lyfrgell Scratch:
 
@@ -45,3 +50,5 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 
 ## Cwestiynau a Ofynir yn Aml
 + Mae newidiadau i 'wisgoedd' y ciplun ddim yn cael eu cadw nes bod tab arall yn cael ei glicio. Fe ddylai'r plant glicio ar wisg arall, neu ar y tab 'Sgriptiau' i gadarnhau'r newidiadau i'r wisg.
+
+--- /collapse ---
