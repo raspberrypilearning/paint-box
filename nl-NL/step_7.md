@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: snelkoppelingen
+## Uitdaging: snelkoppelingen
 
 Kun je sneltoetsen maken voor je commando's? Bijvoorbeeld:
 
