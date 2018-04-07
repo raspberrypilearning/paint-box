@@ -2,11 +2,11 @@
 
 Laten we het mogelijk maken dat de gebruiker kan kiezen uit een reeks verschillende potlooddiktes.
 
-+ Voeg eerst een nieuwe variabele toe met de naam ` breedte ` {: class = "blockvariable"}.
++ Voeg eerst een nieuwe variabele toe met de naam ` breedte ` {:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Voeg deze regel * toe * aan het ` herhaal ` {: class = "blockcontrol"} blok van de potloodcode:
++ Voeg deze regel * toe * aan het ` herhaal ` {:class="blockcontrol"} blok van de potloodcode:
 
 ```blocks
     maak pendikte (breedte)
