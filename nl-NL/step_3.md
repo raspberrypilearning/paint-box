@@ -8,7 +8,7 @@ Je zult potlood- en gumsprites zien:
 
 ![screenshot](images/paint-starter.png)
 
-+ Voeg wat code toe aan de potloodsprite om ervoor te zorgen dat deze de muis altijd volgt (` herhaal blok`) {: class = "blockcontrol"}, zodat je kunt tekenen:
++ Voeg wat code toe aan de potloodsprite om ervoor te zorgen dat deze de muis altijd volgt met een ` herhaal blok` {:class="blockcontrol"}, zodat je kunt tekenen:
 
 ```blocks
     wanneer vlag wordt aangeklikt
@@ -19,7 +19,7 @@ Je zult potlood- en gumsprites zien:
 
 + Klik op de vlag en beweeg de muis over het werkgebied om te testen of de code werkt.
 
-Laat vervolgens je potlood alleen tekenen ` als ` {: class = "blockcontrol"} er op de muis wordt geklikt.
+Laat vervolgens je potlood alleen tekenen ` als ` {:class="blockcontrol"} er op de muis wordt geklikt.
 
 + Voeg deze code toe aan je potlood sprite:
 
