@@ -15,7 +15,7 @@ Klik op de groene vlag om te starten. Gebruik de muis om het potlood te verplaat
 
 Dit project behandelt elementen uit de volgende onderdelen van de[Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [ Combineer programma lussen om een probleem op te lossen. ](https://www.raspberrypi.org/curriculum/programming/builder) {: target = "_ blank"}
++ [ Combineer programma lussen om een probleem op te lossen. ](https://www.raspberrypi.org/curriculum/programming/builder) {: target="_ blank"}
 
 ### Aanvullende informatie voor clubleiders
 
