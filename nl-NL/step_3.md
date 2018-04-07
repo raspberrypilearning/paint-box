@@ -2,7 +2,7 @@
 
 Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op het speelveld te tekenen.
 
-+ Open het 'Paintbox' Scratch-project online op [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {: target = "_ blank"} of download van [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {: target = "_ blank"} en open het als je de offline-editor gebruikt.
++ Open het 'Paintbox' Scratch-project online op [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {:target="_ blank"} of download van [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {:target="_ blank"} en open het als je de offline-editor gebruikt.
 
 Je zult potlood- en gumsprites zien:
 
