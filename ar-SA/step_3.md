@@ -39,7 +39,7 @@
 		when I receive [green v]
 		switch costume to [pencil-green v]
 		set pen color to [#00ff00]
-	```
+```
 
 	لتعيين لون خط القلم إلى اللون الأخضر، انقر فوق الخانة الملوَّنة في القالب `عيِّن لون القلم`{:class="blockpen"}، ثم انقر فوق أيقونة محدد اللون الأخضر لاختيار اللون الأخضر كلَون لخط القلم.
 
@@ -48,7 +48,7 @@
 ```blocks
 		when this sprite clicked
 		broadcast [blue v]
-	```
+```
 
 	...ثم إضافة هذه التعليمة البرمجية إلى كائن القلم الرصاص:
 
@@ -56,14 +56,14 @@
 		when I receive [blue v]
 		switch costume to [pencil-blue v]
 		set pen color to [#0000ff]
-	```
+```
 + وأخيرًا، تحتاج إلى أن تأمر كائن القلم الرصاص باختيار المظهر ولون القلم المناسبَين، وكذا مسح الشاشة، عند بدء المشروع. أضف هذه التعليمة البرمجية إلى بداية التعليمة البرمجية `عند النقر فوق العلم`{:class="blockevents"} الخاصة بالقلم الرصاص (قبل حلقة `كرِّر باستمرار`{:class="blockcontrol"}):
 
-	```blocks
+```blocks
 		clear
 		switch costume to [blue-pencil v]
 		set pen color to [#0000ff]
-	```
+```
 
 	يمكنك البدء بقلم لون مختلف إذا أردتَ!
 
