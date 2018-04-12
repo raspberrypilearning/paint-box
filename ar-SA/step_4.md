@@ -35,7 +35,7 @@
 
 + عندما يتلقى القلم هذه الرسالة، يمكنك إنشاء ممحاة بتحويل مظهر القلم إلى ممحاة، وتحويل لون القلم إلى لون المنصة نفسه!
 
-```blocks
+  ```blocks
 		when I receive [eraser v]
 		switch costume to [eraser v]
 		set pen color to [#FFFFFF]
