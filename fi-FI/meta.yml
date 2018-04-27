@@ -1,0 +1,35 @@
+---
+hero_image: Kuvien / banner.png
+theme: violetti
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, ohjelmointi-1, phys-comp-0, valmistus-0, yhteisö-0
+title: Maali laatikko
+description: Opi tekemään oma maalausohjelma.
+original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
+interests: taide
+technologies: naarmu
+site_areas: hankkeet
+hardware: ''
+software: naarmu
+version: 3
+last_tested: 01.1.2017
+steps:
+  - 
+    title: esittely
+  - 
+    title: Mitä tarvitset
+  - 
+    title: Kynän valmistaminen
+  - 
+    title: Värikynät
+  - 
+    title: Tekee virheitä
+  - 
+    title: Kynän leveyden muuttaminen
+  - 
+    title: 'Haaste: pikakuvakkeet'
+  - 
+    title: 'Haaste: enemmän lyijykynät'
