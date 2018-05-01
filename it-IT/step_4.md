@@ -1,59 +1,56 @@
-## Fare errori
+## Matite colorate
 
-A volte si può sbagliare, dunque aggiungiamo al tuo progetto il tasto 'ripulisci' e una gomma!
+Aggiungiamo delle matite colorate al tuo progetto, e permettiamo all’utente di scegliere quella che preferisce.
 
-+ Aggiungiamo un tasto per ripulire il quadro. Per fare ciò, aggiungi al quadro lo sprite della lettera 'X-block' e coloralo in rosso.
++ Clicca sullo sprite della matita, clicca ‘Costumi’ e duplica il costume ‘matita-blu’.
 
-	![screenshot](images/paint-x.png)
+![screenshot](images/paint-blue-duplicate.png)
 
-+ Aggiungi il codice al tuo nuovo tasto cancella per ripulire il quadro quando viene cliccato.
++ Rinomina il tuo nuovo costume ‘matita-verde’, e colora la matita di verde.
 
-	```blocks
-		quando si clicca questo sprite
-		pulisci
-	```
+![screenshot](images/paint-pencil-green.png)
 
-	Nota che non è necessario mandare un messaggio per ripulire il quadro, perché può farlo qualsiasi sprite!
+[[[generic-scratch-rename-sprite]]]
 
-+ Avrai probabilmente notato che lo sprite della matita include un costume da gomma:
++ Crea due nuovi sprite: un quadrato blu e un quadrato verde. Userai questi sprite per selezionare la matita blu o quella verde.
 
-	![screenshot](images/paint-eraser-costume.png)
+![screenshot](images/paint-selectors.png)
 
++ Rinomina i tuoi sprite 'blu' e 'verde'
 
-+ Il tuo progetto include anche uno sprite per selezionare la gomma, cliccalo col tasto destro e scegli 'mostra'. Il tuo quadro dovrebbe essere così:
++ Aggiungi dei codici allo sprite 'verde' per far sì che quando vi si clicca sopra `invii a tutti`{:class="blockevents"} il messaggio "verde", comunicando così allo sprite della matita di cambiare costume e colore.
 
-	![screenshot](images/paint-eraser-stage.png)
+![Invia a tutti verde](images/paint-broadcast-green.png)
 
-+ Ora puoi aggiunger un codice allo sprite selezionatore della gomma, per comunicare alla matita di diventare gomma.
+[[[generic-scratch-broadcast-message]]]
 
-	```blocks
-		quando si clicca questo sprite
-		invia a tutti [gomma v]
-	```
++ Cambia sprite. Aggiungi dei codici per fare in modo che quando lo sprite riceve il messaggio `invia a tutti`{:class="blockevents"} "verde", il costume della matita e quello della penna diventino verdi.
 
-+ Quando la matita riceve questo messaggio, puoi creare una gomma passando dall'costume matita a quello di gomma, e cambiando il colore della matita con lo stesso colore del quadro!
+![Invia a tutti verde](images/broadcast-green.png)
 
-	```blocks
-		quando ricevo [gomma v]
-		passa al costume [gomma v]
-		usa penna di colore [#FFFFFF]
-	```
+Per fare in modo che quando disegni la linea sia verde, clicca la casella colorata nel blocco `imposta colore`, e clicca sull’icona verde per scegliere il verde come colore della matita.
 
-+ Prova il tuo progetto per vedere se puoi cancellare sul quadro.
++ Ora puoi fare la stessa cosa per l’icona della matita blu, aggiungendo questo codice allo sprite del quadrato blu:
 
-	![screenshot](images/paint-erase-test.png)
+```blocks
+quando si clicca su questo sprite 
+invia a tutti [blu v]
+```
 
-+ C'è un altro problema con la matita - puoi disegnare dappertutto sul quadro, anche vicino alle icone selezionatrici!
+…e aggiungi questo codice allo sprite della tua matita:
 
-	![screenshot](images/paint-draw-problem.png)
+```blocks
+quando ricevo [blu v]
+passa al costume [matita-blu v] 
+usa penna di colore [#0000ff]
+```
 
-	Per risolverlo, devi comunicare alla matita di disegnare solo se il mouse è cliccato_e_se la posizione y del mouse è maggiore di -120 (`mouse y`{:class="blocksensing"}`> -120`{:class="blockoperators}). Cambia l'affermazione `se`{:class="blockcontrol"} della matita per farla diventare così:
++ Infine, dovrai dire allo sprite della tua matita quale costume e quale colore di matita scegliere a inizio progetto, e anche di ripulire la schermata.
 
-	![screenshot](images/pencil-gt-code.png)
+![Matita di partenza](images/start-pencil.png)
 
-+ Prova il tuo progetto; ora dovresti essere in grado di disegnare vicino ai blocchi selettori.
+Abbiamo deciso di partire dal blu, ma se preferisci, puoi iniziare con una matita di colore diverso.
 
-	![screenshot](images/paint-fixed.png)
++ Prova il tuo progetto. Puoi intercambiare le matite blu e verde cliccando sugli sprite dei quadrati blu e verde?
 
-
-
+![screenshot](images/paint-pens-test.png)

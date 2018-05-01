@@ -1,33 +1,55 @@
-## Cambiare la larghezza della matita
+## Fare errori
 
-Facciamo in modo che l'utente possa disegnare usando una varietà di misure di matita diverse.
+A volte si può sbagliare, dunque aggiungiamo al tuo progetto il tasto ‘ripulisci’ e una gomma.
 
-+ Per prima cosa, aggiungiamo una nuova variabile chiamata 'larghezza'. Se non sai come si fa, il progetto 'Ghostbusters' ti sarà utile.
++ Aggiungi al quadro lo sprite della lettera ‘X-block’. Lo trovi nella libreria, nella sezione "Lettere". Colora il costume di rosso. Ecco il tuo tasto 'ripulisci'.
 
-+ Aggiungi questa linea_dentro_il loop `per sempre`{:class="blockcontrol"} del codice della matita:
+![screenshot](images/paint-x.png)
 
-	```blocks
-		usa penna di dimensione (larghezza)
-	```
++ Aggiungi un codice al tuo nuovo tasto 'ripulisci' per ripulire il quadro quando viene cliccato.
 
-	La larghezza della matita ora verrà costantemente regolata al valore della tua variabile 'larghezza'.
+![Ripulisci il quadro](images/clear-stage.png)
 
-+ Puoi cambiare il numero conservato in questa variabile facendo clic col pulsante destro sulla tua variabile (sul quadro) e cliccando la barra di regolazione (SLIDER in inglese).
+Noterai che non è necessario mandare un messaggio per ripulire il quadro, perché puoi farlo da qualsiasi sprite!
 
-	![screenshot](images/paint-slider.png)
+Avrai probabilmente notato che lo sprite della matita include un costume da gomma:
 
-	Puoi ora trascinare lo slider sotto la variabile per cambiarne il valore.
+![screenshot](images/paint-eraser-costume.png)
 
-	![screenshot](images/paint-slider-change.png)
++ Il tuo progetto include anche uno sprite per selezionare la gomma. Cliccalo col tasto destro e scegli ‘mostra’. Il tuo quadro dovrebbe apparire così:
 
-+ Prova il tuo progetto e vedi se riesci a modificare la larghezza della matita.
+![screenshot](images/paint-eraser-stage.png)
 
-	![screenshot](images/paint-width-test.png)
++ Aggiungi un codice allo sprite della gomma per comunicare alla matita di diventare gomma quando si clicca su questo sprite.
 
-	Se preferisci, puoi impostare il valore massimo e minimo permesso per la 'larghezza'. Per fare ciò, clicca di nuovo col pulsante destro sulla tua variabile e clicca 'imposta slider minimo e massimo'. Regola il valore minimo e massimo della tua variabile per qualcosa di più sensibile, come 1 e 20.
+![Invia a tutti gomma](images/broadcast-eraser.png)
 
-	![screenshot](images/paint-slider-max.png)
+Quando la matita riceve questo messaggio, puoi creare una gomma passando dal costume matita a quello di gomma, e cambiando il colore della matita per farlo diventare bianco: lo stesso colore del quadro!
 
-	Continua a provare la tua variabile 'larghezza' fino a raggiungere il valore desiderato.
++ Aggiungi dei codici per creare la gomma
 
+--- hints --- --- hint --- Aggiungi dei codici allo sprite della matita: **Quando ricevo** il messaggio **gomma** **Passa al costume** gomma **Usa penna di colore** bianco --- /hint --- --- hint --- Ecco come dovrebbe apparire il codice all'interno dello sprite della matita:
 
+```blocks
+quando ricevo [gomma v]
+passa al costume [gomma v] 
+usa penna di colore [#FFFFFF]
+```
+
+--- /hint --- --- /hints ---
+
++ Prova il tuo progetto per verificare se puoi cancellare i disegni nel quadro.
+
+![screenshot](images/paint-erase-test.png)
+
+C’è un altro problema con la matita - puoi disegnare dappertutto sul quadro, anche vicino alle icone selezionatrici!
+
+![screenshot](images/paint-draw-problem.png)
+
+Per risolvere questo problema, devi comunicare alla matita di disegnare solo se il mouse è cliccato *e* se la posizione y del mouse è maggiore di -120:
+
+![screenshot](images/pencil-gt-code.png)
+
++ Prova il tuo progetto; ora non dovresti poter disegnare vicino ai blocchi selettori.
+
+![screenshot](images/paint-fixed.png)
