@@ -9,9 +9,9 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Paint Box
 description: Leer hoe je je eigen tekenprogramma maakt.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: kunst
+interests: art
 technologies: scratch
-site_areas: projecten
+site_areas: projects
 hardware: ''
 software: scratch
 version: 3
