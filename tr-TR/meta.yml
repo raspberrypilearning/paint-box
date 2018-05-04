@@ -1,0 +1,35 @@
+---
+hero_image: images / banner.png
+theme: menekşe
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, tasarım-0, programlama-1, fiz-comp-0, üretim-0, topluluk-0
+title: Boya Kutusu
+description: Kendi boya programınızı nasıl yapacağınızı öğrenin.
+original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
+interests: Sanat
+technologies: çizik
+site_areas: projeler
+hardware: ''
+software: çizik
+version: 3
+last_tested: 2017/01/01
+steps:
+  - 
+    title: Giriş
+  - 
+    title: Neye ihtiyacınız olacak?
+  - 
+    title: Bir kalem yapmak
+  - 
+    title: Renkli kalemler
+  - 
+    title: Hata yapmak
+  - 
+    title: Kalem genişliğini değiştirme
+  - 
+    title: 'Zorluk: kısayollar'
+  - 
+    title: 'Meydan okuma: daha fazla kalem'
