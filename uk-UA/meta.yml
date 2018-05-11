@@ -1,6 +1,6 @@
 ---
 hero_image: images/banner.png
-theme: violet
+theme: фіолетовий
 duration: 2
 listed: true
 ingredient: false
@@ -9,20 +9,20 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Paint Box
 description: Learn how to make your own paint program.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
+interests: мистецтво
 technologies: scratch
-site_areas: projects
+site_areas: проекти
 hardware: ''
 software: scratch
 version: 3
-last_tested: 2017-01-01
+last_tested: 01.01.2017
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: What you will need
+    title: Що вам знадобиться
   - 
-    title: Making a pencil
+    title: Беремо олівець
   - 
     title: Coloured pencils
   - 
