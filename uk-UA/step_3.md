@@ -6,7 +6,7 @@
     
     Ви побачите олівець і гумку:
     
-    ![screenshot](images/paint-starter.png)
+    ![скріншот](images/paint-starter.png)
     
     + Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
     
@@ -23,11 +23,11 @@ Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has
 
 + Add this code to your pencil sprite:
 
-![screenshot](images/paint-pencil-draw-code.png)
+![скріншот](images/paint-pencil-draw-code.png)
 
 + Перевірте свій код ще раз. На цей раз, перемістіть олівець навколо сцени і утримуйте кнопку миші. Чи можете ви малювати олівцем?
 
-![screenshot](images/paint-draw.png)
+![скріншот](images/paint-draw.png)
 
 ## \--- collapse \---
 
