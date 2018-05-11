@@ -1,10 +1,10 @@
 ## Introduction
 
-Make your own paint program!
+Створи власну програму для малювання!
 
-### What you will make
+### Що вам знадобиться
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+Нажміть на зелений прапорець, щоб почати. Використовуйте мишку, щоб перемістити олівець та утримуйте ліву кнопку, щоб малювати. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
