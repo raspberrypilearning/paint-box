@@ -1,24 +1,24 @@
-## Introduction
+## Ознайомлення
 
 Створи власну програму для малювання!
 
 ### Що вам знадобиться
 
-Нажміть на зелений прапорець, щоб почати. Використовуйте мишку, щоб перемістити олівець та утримуйте ліву кнопку, щоб малювати. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+Нажміть на зелений прапорець, щоб почати. Використовуйте мишку, щоб перемістити олівець та утримуйте ліву кнопку, щоб малювати. Натисніть на колір, щоб змінити олівці або клацніть на гумку та використовуйте її, щоб стерти свою роботу. Щоб очистити сторінку, натисніть на хрестик.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### Що ви дізнаєтесь
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Цей проект охоплює елементи з наступними стандартами оформлення навчального плану [Raspberry Pi](http://rpf.io/curriculum)"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
-
-### Additional information for educators
-
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
-
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
++  Об'єднати конструктор програмування для вирішення проблеми. </ 0> (: target = "_ blank")<0></li> </ul> 
+    
+    ### Додаткова інформація для вчителів
+    
+    Якщо вам потрібно роздрукувати цей проект, скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/paint-box/print) {: target = "_ blank"}.
+    
+    Скористайтеся посиланням у нижньому колонтитулі, щоб отримати доступ до сховища GitHub для даного проекту, який містить усі ресурси (включаючи приклад готового проекту) в папці en / resources.
