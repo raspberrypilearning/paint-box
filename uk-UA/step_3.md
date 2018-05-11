@@ -1,16 +1,16 @@
-## Making a pencil
+## Створюємо олівець
 
-Let's start by making a pencil that can be used to draw on the stage.
+Почнемо з того, що створимо олівець, який можна використати, щоб намалювати сцену.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
-
-You will see pencil and eraser sprites:
-
-![screenshot](images/paint-starter.png)
-
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
-
-```blocks
++ Відкрийте проект "Scratch" "Paintbox" в Інтернеті на  jumpto.cc/paint-go </ 0> (: target = "_ blank") або завантажте з  http://jumpto.cc/paint-get </ 1> {: target = "_ blank"}, а потім відкрийте його, якщо ви користуєтесь редактором в режимі офлайн.</li> </ul> 
+    
+    You will see pencil and eraser sprites:
+    
+    ![screenshot](images/paint-starter.png)
+    
+    + Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
+    
+    ```blocks
     when flag clicked
     forever
       go to [mouse pointer v]
