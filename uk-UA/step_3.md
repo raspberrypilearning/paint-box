@@ -4,7 +4,7 @@
 
 + Відкрийте проект "Scratch" "Paintbox" в Інтернеті на  jumpto.cc/paint-go </ 0> (: target = "_ blank") або завантажте з  http://jumpto.cc/paint-get </ 1> {: target = "_ blank"}, а потім відкрийте його, якщо ви користуєтесь редактором в режимі офлайн.</li> </ul> 
     
-    You will see pencil and eraser sprites:
+    Ви побачите олівець і гумку:
     
     ![screenshot](images/paint-starter.png)
     
@@ -17,7 +17,7 @@
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Натисніть на прапорець, а потім перемістіть курсор миші на сцену, щоб перевірити, чи працює код.
 
 Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
@@ -25,13 +25,13 @@ Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Перевірте свій код ще раз. На цей раз, перемістіть олівець навколо сцени і утримуйте кнопку миші. Чи можете ви малювати олівцем?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## заголовок: Якщо у вас виникли проблеми...
 
 If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
 
