@@ -9,6 +9,6 @@ Kannst du Tasten-Kürzel für deine Befehle anlegen? Zum Beispiel:
 + r = Radierer
 + l = Bühne löschen
 
-Du könntest es dem Anwender erlauben, den Stift mit den Pfeil-Tasten zu wechseln.
+Du könntest es dem Anwender sogar erlauben, die Dicke vom Stift mit den Pfeil-Tasten zu ändern.
 
 \--- /challenge \---
