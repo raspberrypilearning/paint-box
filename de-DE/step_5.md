@@ -22,7 +22,7 @@ Du hast vielleicht schon bemerkt, dass die Stift-Figur auch ein Radier-Kostüm e
 
 + Füge der Radierer-Figur Code hinzu, um den Stift auf radieren umzuschalten.
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![Sende Radierer](images/broadcast-eraser.png)
 
 Wenn der Stift die "radieren"-Nachricht erhält, musst du das Stift-Kostüm zu "Radier-Stift" ändern und die Stiftfarbe auf weiß ändern - die Farbe der Bühne!
 
