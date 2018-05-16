@@ -8,7 +8,7 @@ Manchmal passieren Fehler, lass uns also einen 'Löschen'-Knopf und einen Radier
 
 + Füge Code zu dieser Figur hinzu, um die Bühne zu löschen, wenn sie geklickt wird.
 
-![Clear stage](images/clear-stage.png)
+![Bühne löschen](images/clear-stage.png)
 
 Beachte, dass du gar keine Nachricht senden musst um die Bühne zu löschen, es genügt der Block "wische Malspuren weg" der Figur.
 
