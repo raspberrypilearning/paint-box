@@ -12,14 +12,14 @@ Bei den Figuren siehst du einen Stift und einen Radierer:
 
 ```blocks
     Wenn die grüne Flagge angeklickt
-   wiederhole fortlaufend
-      go to [Mauszeiger v]
-   Ende
+wiederhole fortlaufend 
+  gehe zu [mouse pointer v]
+end
 ```
 
-+ Klicke auf die Flagge und sieh, ob der Code richtig arbeitet.
++ Klicke auf die Flagge und bewege die Maus über die Bühne. Sieh, ob der Code richtig arbeitet.
 
-Als nächstes versuchen wir, der Stift nur dann zeichnen zu lasse, `wenn`{:class="blockcontrol"} die Maus geklickt wird.
+Als nächstes versuchen wir, der Stift nur dann zeichnen zu lassen, `wenn`{:class="blockcontrol"} die Maus geklickt wird.
 
 + Füge diesen Code deiner Stift-Figur hinzu:
 
@@ -33,7 +33,7 @@ Als nächstes versuchen wir, der Stift nur dann zeichnen zu lasse, `wenn`{:class
 
 ## title: Wenn du Probleme hast...
 
-Wenn dein Stift nicht von der Spitze zu zeichnen scheint, sondern von der Mitte, dann musst du Kostüm-Mitte ändern.
+Wenn dein Stift nicht mit der Spitze zu zeichnen scheint, sondern mit der Mitte, dann musst du die Kostüm-Mitte ändern.
 
 ![Costume center](images/costume-center.png)
 
