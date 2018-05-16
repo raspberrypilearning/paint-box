@@ -1,6 +1,6 @@
 ## Buntstifte
 
-Laß uns deinem Projekt verschieden Buntstifte hinzufügen, und den Anwender aus ihnen auswählen.
+Laß uns deinem Projekt verschieden Buntstifte hinzufügen, die der Anwender dann auswählen kann.
 
 + Klicke auf deine Stift-Figur, dann auf Kostüme und dupliziere dein 'blaues Stift-Kostüm'.
 
@@ -18,7 +18,7 @@ Laß uns deinem Projekt verschieden Buntstifte hinzufügen, und den Anwender aus
 
 + Benenne die neuen Figuren 'blau' und 'grün'
 
-+ Füge nun Code zur 'grün'-Figur hinzu so dasssie, wenn sie geklickt wird, die Nachricht "grün" `an alle schickt`{:class='blockevents':}. Dadurch ändert der Stift sein Kostüm und seine Farbe.
++ Füge nun Code zur 'grün'-Figur hinzu so dass sie, wenn sie geklickt wird, die Nachricht "grün" `an alle schickt`{:class='blockevents':}. Dadurch sagst du dem Stift dass er sein Kostüm und seine Farbe ändern soll.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
