@@ -28,7 +28,7 @@ Wenn der Stift die "radieren"-Nachricht erhält, musst du das Stift-Kostüm zu "
 
 + Füge code hinzu um den Radierer zu schaffen
 
-\--- hints \--- \--- hint \--- Füge der Stift-Figur folgenden Code hinzu: **Wen Ich** die Nachricht **radieren empfange** **wechsle zu Kostüm** RadierStift **Setze Stiftfarbe auf** weiß \--- /hint \--- \--- hint \--- So sollte der Code der Stift-Figur aussehen:
+\--- hints \--- \--- hint \--- Füge der Stift-Figur folgenden Code hinzu: **Wenn Ich** die Nachricht **radieren** empfange **wechsle zu Kostüm** RadierStift **Setze Stiftfarbe auf** weiß \--- /hint \--- \--- hint \--- So sollte der Code der Stift-Figur aussehen:
 
 ```blocks
 Wenn ich [radieren v] empfange
@@ -38,7 +38,7 @@ setze Stiftfarbe auf [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Teste dein Projekt uns schau, ob do radieren kannst und die Bühne löschen kannst.
++ Teste dein Projekt und schau, ob du radieren kannst und die Bühne löschen kannst.
 
 ![screenshot](images/paint-erase-test.png)
 
@@ -50,6 +50,6 @@ Um das zu beheben, sag dem Stift, er darf nur dann zeichnen, wenn die Maustaste 
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Teste dein Projekt; du solltest nicht mehr in der Nähe der Auswahlsymbole zeichnen können.
++ Teste dein Projekt; du solltest jetzt nicht mehr in der Nähe der Auswahlsymbole zeichnen können.
 
 ![screenshot](images/paint-fixed.png)
