@@ -2,13 +2,13 @@
 
 Beginnen wir mit einem Stift, mit dem wir auf der Bühne zeichnen können.
 
-+ Scratch kann entweder online bei [jumpto.cc/paint-go{:target="_blank"}](http://jumpto.cc/paint-go) verwendet werden, oder unter [http://jumpto.cc/paint-get{:target="_blank"}](http://jumpto.cc/paint-get) heruntergeladen und offline benutzt werden.
++ Scratch kann entweder online bei [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} verwendet werden, oder unter <http://jumpto.cc/paint-get>{:target="_blank"} heruntergeladen und offline benutzt werden.
 
 Bei den Figuren siehst du einen Stift und einen Radierer:
 
 ![screenshot](images/paint-starter.png)
 
-+ Füge dem Stift folgenden Code hinzu, damit er der Maus `ständig`{:class="blockcontrol"} folgt:
++ Füge dem Stift folgenden Code hinzu, damit er der Maus `ständig`{:class="blockcontrol"} folgt und du mit ihm malen kannst:
 
 ```blocks
     Wenn die grüne Flagge angeklickt
