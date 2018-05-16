@@ -30,7 +30,7 @@ Laß uns deinem Projekt verschieden Buntstifte hinzufügen, die der Anwender dan
 
 Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Kästchen in `setze Stiftfarbe auf`{:class='blockpen':} und klicke dann auf das grüne Quadrat.
 
-+ Nun kannst du das gleiche für das blaue Symbol machen: füge diesen Coden zum blauen Quadrat hinzu:
++ Nun kannst du das gleiche für das blaue Symbol machen: füge diesen Code zum blauen Quadrat hinzu:
 
 ```blocks
 Wenn ich angeklickt werde
@@ -45,9 +45,9 @@ wechsle zu Kostüm [Stift-blau v]
 setze Stiftfarbe auf [#0000ff]
 ```
 
-+ Zum Schluß fügst du noch Code ein, um festzulegen mit welcher Farbe du beginnst und um die Bühne zu löschen.
++ Zum Schluß fügst du noch Code ein, um die Bühne zu löschen und um festzulegen mit welcher Farbe du beginnst.
 
-![Start pencil](images/start-pencil.png)
+![Stift starten](images/start-pencil.png)
 
 Wir haben hier blau gewählt, aber du kannst mit einer anderen Stiftfarbe beginnen, wenn du es lieber hast.
 
