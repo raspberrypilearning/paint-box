@@ -26,7 +26,7 @@ Laß uns deinem Projekt verschieden Buntstifte hinzufügen, die der Anwender dan
 
 + Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie die Nachricht "grün" `an alle`{:class='blockevents':} empfängt, zum grünen Stift-Kostüm wechselt und die Stiftfarbe zu grün ändert.
 
-![Broadcast green](images/broadcast-green.png)
+![Sende grün](images/broadcast-green.png)
 
 Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Kästchen in `setze Stiftfarbe auf`{:class='blockpen':} und klicke dann auf das grüne Quadrat.
 
