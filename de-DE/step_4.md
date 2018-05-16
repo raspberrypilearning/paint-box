@@ -20,7 +20,7 @@ Laß uns deinem Projekt verschieden Buntstifte hinzufügen, die der Anwender dan
 
 + Füge nun Code zur 'grün'-Figur hinzu so dass sie, wenn sie geklickt wird, die Nachricht "grün" `an alle schickt`{:class='blockevents':}. Dadurch sagst du dem Stift dass er sein Kostüm und seine Farbe ändern soll.
 
-![Broadcast green](images/paint-broadcast-green.png)
+![Sende grün](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
@@ -30,14 +30,14 @@ Laß uns deinem Projekt verschieden Buntstifte hinzufügen, die der Anwender dan
 
 Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Kästchen in `setze Stiftfarbe auf`{:class='blockpen':} und klicke dann auf das grüne Quadrat.
 
-+ Nun kannst du das gleiche für das blaue Symbol machen: füge diesen Coden zum blauen Quadrat:
++ Nun kannst du das gleiche für das blaue Symbol machen: füge diesen Coden zum blauen Quadrat hinzu:
 
 ```blocks
 Wenn ich angeklickt werde
 sende [blau v] an alle
 ```
 
-...und diesen Code zur Stift-Figur:
+...und diesen Code zur Stift-Figur hinzu:
 
 ```blocks
 Wenn ich [blau v] empfange
@@ -45,7 +45,7 @@ wechsle zu Kostüm [Stift-blau v]
 setze Stiftfarbe auf [#0000ff]
 ```
 
-+ Zum Schluß fügst du noch Code ein, um festzulegen mit welcher Farbe du beginnst und dass die Bühne gelöscht wird.
++ Zum Schluß fügst du noch Code ein, um festzulegen mit welcher Farbe du beginnst und um die Bühne zu löschen.
 
 ![Start pencil](images/start-pencil.png)
 
