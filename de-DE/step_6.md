@@ -6,7 +6,7 @@ Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
 
 [[[generic-scratch-add-variable]]]
 
-+ Füge diese Zeile *innerhalb* der `wiederhole fortlaufend`{:class='blockcontrol':} Schleife ein:
++ Füge diese Zeile *innerhalb* der `wiederhole fortlaufend`{:class='blockcontrol':} Schleife vom Stift ein:
 
 ```blocks
     setze Stiftdicke auf (Dicke)
@@ -14,7 +14,7 @@ Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
 
 Die Stift-Dicke wird nun immer wieder auf den Wert der 'Dicke'-Variablen gesetzt.
 
-+ Klicke auf die Variablen-Anzeige auf der Bühne und klicke auf 'Schieberegler'.
++ Klicke mit der rechten Maustaste auf die Variablen-Anzeige auf der Bühne und klicke auf 'Schieberegler'.
 
 ![screenshot](images/paint-slider.png)
 
@@ -26,7 +26,7 @@ Jetzt kannst du den Schieberegler unter der Variablen ziehen, um den Wert zu ver
 
 ![screenshot](images/paint-width-test.png)
 
-Wenn du möchtest, kannst du die erlaubten Mindest- und Maximal-Werte festlegen. Dazu klickst du nochmals rechts auf die Variable und klickst auf 'Reglerbereich festlegen'. Setze die Mindest- und Maximal-Werte auf passendere wie 1 und 20.
+Wenn du möchtest, kannst du die erlaubten Mindest- und Maximal-Werte für 'Dicke' festlegen. Dazu klickst du nochmals mit der rechten Maustaste auf die Variable und klickst auf 'Reglerbereich festlegen'. Setze die Mindest- und Maximal-Werte auf etwas passenderes, wie 1 und 20.
 
 ![screenshot](images/paint-slider-max.png)
 
