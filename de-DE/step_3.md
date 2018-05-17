@@ -39,6 +39,6 @@ Wenn dein Stift nicht mit der Spitze zu zeichnen scheint, sondern mit der Mitte,
 
 Du musst das Fadenkreuz für den Stift **knapp unter** der Spitze des Stifts platzieren, nicht genau auf der Spitze.
 
-Die Änderungen der Kostüm-Mitte einer Figurwerden erst wirksam, wenn etwas Anderes angeklickt wird. Klicke also auf ein anderes Kostüm oder auf den 'Skripte'-Reiter um deine Änderungen abzuschließen.
+Die Änderungen der Kostüm-Mitte einer Figur werden erst wirksam, wenn etwas Anderes angeklickt wird. Klicke also auf ein anderes Kostüm oder auf den 'Skripte'-Reiter um deine Änderungen abzuschließen.
 
 \--- /collapse \---
