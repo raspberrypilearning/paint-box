@@ -26,7 +26,7 @@ Du hast vielleicht schon bemerkt, dass die Stift-Figur auch ein Radier-Kostüm e
 
 Wenn der Stift die "radieren"-Nachricht erhält, musst du das Stift-Kostüm zu "Radier-Stift" ändern und die Stiftfarbe auf weiß ändern - die Farbe der Bühne!
 
-+ Füge code hinzu um den Radierer zu schaffen
++ Füge Code hinzu um den Radierer zu schaffen
 
 \--- hints \--- \--- hint \--- Füge der Stift-Figur folgenden Code hinzu: **Wenn Ich** die Nachricht **radieren** empfange **wechsle zu Kostüm** RadierStift **Setze Stiftfarbe auf** weiß \--- /hint \--- \--- hint \--- So sollte der Code der Stift-Figur aussehen:
 
