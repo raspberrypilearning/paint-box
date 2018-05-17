@@ -2,7 +2,7 @@
 
 Beginnen wir mit einem Stift, mit dem wir auf der Bühne zeichnen können.
 
-+ Scratch kann entweder online bei [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} verwendet werden, oder unter <http://jumpto.cc/paint-get>{:target="_blank"} heruntergeladen und offline benutzt werden.
++ Öffne das 'Painbox'-Projekt in Scratch entweder online bei [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} oder lade es unter <http://jumpto.cc/paint-get>{:target="_blank"} herunter wenn du den Offline-Editor benutzt.
 
 Bei den Figuren siehst du einen Stift und einen Radierer:
 
@@ -19,7 +19,7 @@ end
 
 + Klicke auf die Flagge und bewege die Maus über die Bühne. Sieh, ob der Code richtig arbeitet.
 
-Als nächstes versuchen wir, der Stift nur dann zeichnen zu lassen, `wenn`{:class="blockcontrol"} die Maus geklickt wird.
+Als nächstes versuchen wir, den Stift nur dann zeichnen zu lassen, `wenn`{:class="blockcontrol"} die Maus geklickt wird.
 
 + Füge diesen Code deiner Stift-Figur hinzu:
 
