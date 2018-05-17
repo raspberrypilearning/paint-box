@@ -1,12 +1,12 @@
 ## Buntstifte
 
-Laß uns deinem Projekt verschieden Buntstifte hinzufügen, die der Anwender dann auswählen kann.
+Laß uns deinem Projekt verschiedene Buntstifte hinzufügen, die der Anwender dann auswählen kann.
 
 + Klicke auf deine Stift-Figur, dann auf Kostüme und dupliziere dein 'blaues Stift-Kostüm'.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Benenne dein neues Kostum um zu "Stift grün" und das alte zu "Stift blau".
++ Benenne dein neues Kostüm um zu "Stift grün" und das alte zu "Stift-blau".
 
 ![screenshot](images/paint-pencil-green.png)
 
