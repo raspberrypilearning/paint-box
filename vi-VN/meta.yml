@@ -1,0 +1,35 @@
+---
+hero_image: images / banner.png
+theme: màu tím
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, thiết kế-0, lập trình-1, phys-comp-0, sản xuất-0, cộng đồng-0
+title: Hộp sơn
+description: Tìm hiểu cách tạo chương trình sơn của riêng bạn.
+original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
+interests: nghệ thuật
+technologies: vết trầy
+site_areas: dự án
+hardware: ''
+software: vết trầy
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Giới thiệu
+  - 
+    title: Những gì bạn sẽ cần
+  - 
+    title: Tạo bút chì
+  - 
+    title: Bút chì màu
+  - 
+    title: Mắc lỗi
+  - 
+    title: Thay đổi chiều rộng bút chì
+  - 
+    title: 'Thách thức: phím tắt'
+  - 
+    title: 'Thách thức: bút chì nhiều hơn'
