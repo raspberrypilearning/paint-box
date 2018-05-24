@@ -1,44 +1,41 @@
-## Making a pencil
+## Membuat pensil
 
-Let's start by making a pencil that can be used to draw on the stage.
+Mari kita mulai dengan membuat pensil yang bisa digunakan untuk menggambar di atas panggung.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Buka proyek Scratch 'Paintbox' secara online di [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} atau unduh dari <http://jumpto.cc/paint-get>{: target = "_ blank"} lalu buka jika Anda menggunakan editor luring.
 
-You will see pencil and eraser sprites:
+Anda akan melihat sprite pensil dan penghapus:
 
-![screenshot](images/paint-starter.png)
+![tangkapan layar](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Tambahkan beberapa kode ke sprite pensil untuk membuatnya mengikuti mouse `selamanya`{: class = "blockcontrol"} sehingga Anda dapat menggambar:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    ketika flag diklik selamanya pergi ke [mouse pointer v] end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Klik bendera dan gerakkan mouse di sekitar panggung untuk menguji apakah kode berfungsi.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Selanjutnya, mari kita buat pensil Anda hanya menggambar `jika`{: class = "blockcontrol"} mouse telah diklik.
 
-+ Add this code to your pencil sprite:
++ Tambahkan kode ini ke sprite pensil Anda:
 
-![screenshot](images/paint-pencil-draw-code.png)
+![tangkapan layar](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Uji kode Anda lagi. Kali ini, pindahkan pensil di sekitar panggung dan tahan tombol mouse. Bisakah kamu menggambar dengan pensilmu?
 
-![screenshot](images/paint-draw.png)
+![tangkapan layar](images/paint-draw.png)
 
-## \--- collapse \---
+## \--- jatuh \---
 
-## title: If you're having problems...
+## title: Jika Anda mengalami masalah ...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Jika pensil Anda tampaknya menggambar garis dari tengah pensil daripada ujungnya, Anda harus mengubah pusat kostum Anda.
 
-![Costume center](images/costume-center.png)
+![Pusat kostum](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Crosshair untuk pensil harus ditempatkan **tepat di bawah** ujung pensil, bukan di ujung pensil.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Perubahan dalam 'pusat kostum' sprite tidak terdaftar sampai tab lain diklik, jadi klik pada kostum lain, atau pada tab 'Skrip' untuk menyelesaikan perubahan Anda ke pusat kostum.
 
-\--- /collapse \---
+\--- /jatuh \---
