@@ -1,11 +1,11 @@
-\--- challenge \---
+\--- tantangan \---
 
-## Challenge: more pencils
+## Tantangan: lebih banyak pensil
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+Dapatkah Anda menambahkan pensil merah, kuning dan hitam ke program cat Anda? Lihatlah langkah 2 di atas jika Anda lupa cara melakukan ini. Ingat untuk menambahkan pintasan keyboard untuk pensil baru ini juga.
 
-Can you use your pencils to draw a picture?
+Dapatkah Anda menggunakan pensil Anda untuk menggambar?
 
-![screenshot](images/paint-final.png)
+![tangkapan layar](images/paint-final.png)
 
-\--- /challenge \---
+\--- / tantangan \---
