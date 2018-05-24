@@ -1,55 +1,53 @@
-## Making mistakes
+## Membuat kesalahan
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Terkadang kesalahan terjadi, jadi mari tambahkan tombol 'hapus' dan penghapus.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Tambahkan sprite 'X-block' - Anda akan menemukannya di perpustakaan, di bagian huruf. Warnai kostum dengan warna merah. Ini akan menjadi tombol 'bersih'.
 
-![screenshot](images/paint-x.png)
+![tangkapan layar](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Tambahkan kode ke sprite ini untuk membersihkan panggung saat diklik.
 
-![Clear stage](images/clear-stage.png)
+![Bersihkan panggung](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Perhatikan bahwa Anda tidak perlu mengirim pesan untuk membersihkan panggung, Anda bisa menggunakan blok bersih dari sprite ini.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Anda mungkin memperhatikan bahwa sprite pensil Anda termasuk kostum penghapus:
 
-![screenshot](images/paint-eraser-costume.png)
+![tangkapan layar](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Proyek Anda juga mencakup sprite penghapus terpisah. Klik kanan pada sprite ini dan pilih 'show'. Beginilah tampilan panggung Anda:
 
-![screenshot](images/paint-eraser-stage.png)
+![tangkapan layar](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Tambahkan kode ke sprite penghapus, untuk memberi tahu pensil untuk beralih ke penghapus saat sprite diklik.
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![Penghapus siaran](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Ketika pensil menerima pesan "penghapus", Anda dapat mengalihkan kostum pensil ke penghapus, dan mengganti warna pensil menjadi putih - warna yang sama dengan panggung!
 
-+ Add some code to create the eraser
++ Tambahkan beberapa kode untuk membuat penghapus
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- petunjuk \--- \--- petunjuk \--- Tambahkan beberapa kode ke sprite pensil: **Ketika saya menerima** **penghapus** pesan **Beralih ke kostum** penghapus **Set warna pena** hingga putih \--- / petunjuk \--- \--- petunjuk \--- Di sini adalah bagaimana kode di dalam sprite pensil harus terlihat:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+ketika saya menerima kostum [penghapus v] untuk [penghapus v] set warna pena ke [#FFFFFF]
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / petunjuk \--- \--- / petunjuk \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Uji proyek Anda, untuk melihat apakah Anda dapat menghapus dan menghapus di atas panggung.
 
-![screenshot](images/paint-erase-test.png)
+![tangkapan layar](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Ada satu lagi masalah dengan pensil - Anda dapat menggambar di mana saja di atas panggung, termasuk di dekat ikon pemilih!
 
-![screenshot](images/paint-draw-problem.png)
+![tangkapan layar](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Untuk memperbaikinya, beri tahu pensil hanya untuk menggambar jika mouse diklik *dan* jika posisi-y mouse lebih besar dari -120:
 
-![screenshot](images/pencil-gt-code.png)
+![tangkapan layar](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Uji proyek Anda; Anda sekarang seharusnya tidak dapat mendekati blok pemilih.
 
-![screenshot](images/paint-fixed.png)
+![tangkapan layar](images/paint-fixed.png)
