@@ -1,14 +1,14 @@
-\--- challenge \---
+\--- tantangan \---
 
-## Challenge: shortcuts
+## Tantangan: pintas
 
-Can you create keyboard shortcuts for your commands? For example:
+Bisakah Anda membuat pintasan keyboard untuk perintah Anda? Sebagai contoh:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = Beralih ke pena biru
++ g = beralih ke pena hijau
++ e = beralih ke penghapus
++ c = bersih layar
 
-You could even allow the user to change the pen width with the arrow keys.
+Anda bahkan dapat mengizinkan pengguna untuk mengubah lebar pena dengan tombol panah.
 
-\--- /challenge \---
+\--- / tantangan \---
