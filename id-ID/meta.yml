@@ -1,35 +1,35 @@
 ---
-hero_image: images/banner.png
-theme: violet
+hero_image: images / banner.png
+theme: ungu
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Paint Box
-description: Learn how to make your own paint program.
+curriculum: 1, desain-0, pemrograman-1, phys-comp-0, manufacture-0, community-0
+title: Kotak Cat
+description: Pelajari cara membuat program cat Anda sendiri.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
+interests: seni
+technologies: menggaruk
+site_areas: proyek
 hardware: ''
-software: scratch
+software: menggaruk
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: pengantar
   - 
-    title: What you will need
+    title: Apa yang Anda butuhkan
   - 
-    title: Making a pencil
+    title: Membuat pensil
   - 
-    title: Coloured pencils
+    title: Pensil warna
   - 
-    title: Making mistakes
+    title: Membuat kesalahan
   - 
-    title: Changing the pencil width
+    title: Mengubah lebar pensil
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Tantangan: pintas'
   - 
-    title: 'Challenge: more pencils'
+    title: 'Tantangan: lebih banyak pensil'
