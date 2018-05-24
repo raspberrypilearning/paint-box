@@ -1,33 +1,33 @@
-## Changing the pencil width
+## Mengubah lebar pensil
 
-Let's allow the user to draw using a range of different pencil sizes.
+Mari izinkan pengguna menggambar menggunakan berbagai ukuran pensil yang berbeda.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Pertama, tambahkan variabel baru yang disebut `lebar`{: class = "blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Tambahkan baris ini *di dalam* `selamanya`{: class = "blockcontrol"} lingkaran kode pensil:
 
 ```blocks
-    set pen size to (width)
+    mengatur ukuran pena ke (lebar)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+Lebar pensil sekarang akan berulang kali diatur ke nilai variabel 'lebar'.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Klik kanan pada tampilan variabel di atas panggung dan klik 'slider'.
 
-![screenshot](images/paint-slider.png)
+![tangkapan layar](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Anda sekarang dapat menyeret penggeser di bawah variabel untuk mengubah nilainya.
 
-![screenshot](images/paint-slider-change.png)
+![tangkapan layar](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ Uji proyek Anda, dan lihat apakah Anda dapat memodifikasi lebar pensil.
 
-![screenshot](images/paint-width-test.png)
+![tangkapan layar](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Jika Anda suka, Anda dapat mengatur nilai minimum dan maksimum 'lebar' yang diizinkan. Untuk melakukan ini, klik kanan pada variabel lagi dan klik 'set slider min dan max'. Tetapkan nilai minimum dan maksimum dari variabel Anda ke sesuatu yang lebih masuk akal, seperti 1 dan 20.
 
-![screenshot](images/paint-slider-max.png)
+![tangkapan layar](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Terus uji variabel 'lebar' Anda sampai Anda puas.
