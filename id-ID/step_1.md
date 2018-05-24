@@ -1,24 +1,24 @@
-## Introduction
+## pengantar
 
-Make your own paint program!
+Buat program cat Anda sendiri!
 
-### What you will make
+### Apa yang akan Anda buat
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+Klik pada bendera hijau untuk memulai. Gunakan mouse untuk memindahkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik pada warna untuk mengganti pensil atau klik karet dan gunakan untuk menghapus pekerjaan Anda. Untuk menghapus halaman, klik tanda silang.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### Apa yang akan Anda pelajari
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Proyek ini mencakup elemen dari untaian berikut dari [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Gabungkan konstruksi pemrograman untuk memecahkan masalah.](https://www.raspberrypi.org/curriculum/programming/builder){: target = "_ blank"}
 
-### Additional information for educators
+### Informasi tambahan untuk pendidik
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Jika Anda perlu mencetak proyek ini, silakan gunakan versi ramah printer [](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Gunakan tautan di footer untuk mengakses repo GitHub untuk proyek ini, yang berisi semua sumber daya (termasuk contoh proyek selesai) di folder 'en / resources'.
