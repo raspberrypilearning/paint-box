@@ -6,7 +6,7 @@ Let's allow the user to draw using a range of different pencil sizes.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Додайте цей рядок *inside* the `forever`{:class="blockcontrol"} цикл коду олівця:
 
 ```blocks
     set pen size to (width)
@@ -22,7 +22,7 @@ You can now drag the slider below the variable to change its value.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ Перевірте свій проект та подивіться, чи можна змінити ширину олівця.
 
 ![screenshot](images/paint-width-test.png)
 
