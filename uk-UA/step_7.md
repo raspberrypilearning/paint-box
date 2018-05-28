@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## Завдання: клавіші швидкого доступу
 
-Can you create keyboard shortcuts for your commands? For example:
+Чи можете ви створювати комбінації клавіш для своїх команд? Наприклад:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
++ b = переключити на синю ручку
++ g = переключитися на зелену ручку
 + e = switch to eraser
 + c = clear screen
 
