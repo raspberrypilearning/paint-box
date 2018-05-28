@@ -26,7 +26,7 @@ You can now drag the slider below the variable to change its value.
 
 ![screenshot](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Якщо ви забажаєте, ви можете встановити мінімальне та максимальне значення ширини, яке дозволено. Для цього клацніть правою кнопкою миші на змінну і натисніть "встановити слайдер міні та макс". Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
 
 ![screenshot](images/paint-slider-max.png)
 
