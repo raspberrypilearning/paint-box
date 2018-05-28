@@ -9,6 +9,6 @@
 + e = switch to eraser
 + c = clear screen
 
-You could even allow the user to change the pen width with the arrow keys.
+Ви навіть можете дозволити користувачеві змінити ширину ручки за допомогою клавіш зі стрілками.
 
 \--- /challenge \---
