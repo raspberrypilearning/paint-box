@@ -1,8 +1,8 @@
-## Changing the pencil width
+## Зміна ширини олівця
 
 Let's allow the user to draw using a range of different pencil sizes.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Спершу, створіть список, який називається ` width` {: class = "blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
