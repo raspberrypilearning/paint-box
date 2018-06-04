@@ -1,0 +1,35 @@
+---
+hero_image: images / banner.png
+theme: गर्द जांभळा रंग
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, डिझाइन -1, प्रोग्रामिंग -1, फेज- comp-0, उत्पादन 0, समुदाय-0
+title: पेंट बॉक्स
+description: 'आपले स्वत: चे पेंट प्रोग्राम कसे करावे ते जाणून घ्या'
+original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
+interests: कला
+technologies: सुरवातीपासून
+site_areas: प्रकल्प
+hardware: ''
+software: सुरवातीपासून
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: परिचय
+  - 
+    title: आपल्याला कशाची आवश्यकता लागेल
+  - 
+    title: पेन्सिल तयार करणे
+  - 
+    title: रंगीत पेन्सिल
+  - 
+    title: चुका करणे
+  - 
+    title: पेन्सिल रूंदी बदलत आहे
+  - 
+    title: 'आव्हान: शॉर्टकट'
+  - 
+    title: 'आव्हान: अधिक पेन्सिल'
