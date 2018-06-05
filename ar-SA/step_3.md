@@ -1,14 +1,14 @@
-## Making a pencil
+## إنشاء قلم رصاص
 
-Let's start by making a pencil that can be used to draw on the stage.
+لنبدأ بإنشاء قلم رصاص يمكن استخدامه للرسم على المنصة.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ افتح مشروع 'علبة الألوان' لبرنامج Scratch عبر الإنترنت على at jumpto.cc/paint-go أو يمكنك تنزيله من jumpto.cc/paint-get ثم فتحه إذا كنت تستخدم محرِّر الرسم الموجود على الجهاز.
 
-You will see pencil and eraser sprites:
+سترى قلم رصاص وممحاة:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ لأنك ستستخدم الماوس للرسم، ستحتاج إلى برمجة القلم الرصاص ليتبع الماوس في حلقة كرِّر باستمرار{:class="blockcontrol"}. أضف هذه التعليمة البرمجية إلى كائن القلم الرصاص:
 
 ```blocks
     when flag clicked
