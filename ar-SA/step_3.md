@@ -6,7 +6,7 @@
 
 سترى قلم رصاص وممحاة:
 
-![screenshot](images/paint-starter.png)
+![لقطة الشاشة](images/paint-starter.png)
 
 + لأنك ستستخدم الماوس للرسم، ستحتاج إلى برمجة القلم الرصاص ليتبع الماوس في حلقة كرِّر باستمرار{:class="blockcontrol"}. أضف هذه التعليمة البرمجية إلى كائن القلم الرصاص:
 
@@ -17,28 +17,28 @@
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ اختبر هذه التعليمة البرمجية بالنقر فوق العلم ثم تحريك الماوس في كل مكان على المنصة.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+بعد ذلك، لنجعل قلم الرصاص يرسم إذا{:class="blockcontrol"} تم النقر فوق الماوس. أضف هذه التعليمة البرمجية إلى كائن قلم الرصاص.
 
-+ Add this code to your pencil sprite:
++ أضف هذا الرمز إلى قائمة رموزك المتحركة:
 
-![screenshot](images/paint-pencil-draw-code.png)
+![لقطة الشاشة](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ اختبر شفرتك مرة أخرى. في هذه المرة ، حرِّك القلم الرصاص حول الجزء الرئيسي واضغط باستمرار على زر الماوس. هل يمكنك الرسم بقلم الرصاص؟
 
-![screenshot](images/paint-draw.png)
+![لقطة الشاشة](images/paint-draw.png)
 
-## \--- collapse \---
+## المختصر
 
-## title: If you're having problems...
+## العنوان: إذا كنت تواجه مشاكل...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+إذا كان قلمك يبدو وكأنه يرسم الخط من منتصف قلم الرصاص بدلاً من الطرف ، فسوف تحتاج إلى تغيير مركز الزي الخاص بك.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+يجب وضع التقاطع الخاص بالقلم الرصاص ** أسفله مباشرةً ** رأس القلم ، وليس على طرف قلم الرصاص.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+لا يتم تسجيل أي تغيير في "مركز الزي" الخاص بـ sprite حتى يتم النقر فوق علامة تبويب أخرى ، لذلك انقر فوق زي آخر ، أو على علامة التبويب "Scripts" لوضع اللمسات الأخيرة على تغييراتك في مركز الملابس.
 
-\--- /collapse \---
+المختصر
