@@ -4,17 +4,17 @@ Let's add different coloured pencils to your project, and allow the user to choo
 
 + Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
 
-![screenshot](images/paint-blue-duplicate.png)
+![скріншот](images/paint-blue-duplicate.png)
 
 + Rename your new costume 'pencil-green', and colour the pencil green.
 
-![screenshot](images/paint-pencil-green.png)
+![скріншот](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
 + Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
 
-![screenshot](images/paint-selectors.png)
+![скріншот](images/paint-selectors.png)
 
 + Rename your sprites so that they are called 'blue' and 'green'
 
@@ -49,8 +49,8 @@ set pen color to [#0000ff]
 
 ![Start pencil](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+Ми вирішили розпочати з синього кольору, але, якщо захочете, ви можете почати з іншого кольору.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Перевірте ваш проект. Ви можете переключитися між синім та зеленим ручками, натискаючи сині або зелені квадратні спрайти.
 
 ![screenshot](images/paint-pens-test.png)
