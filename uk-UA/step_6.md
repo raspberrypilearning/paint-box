@@ -1,6 +1,6 @@
 ## Зміна ширини олівця
 
-Let's allow the user to draw using a range of different pencil sizes.
+Надаємо доступ користувачеві малювати за допомогою діапазону різних розмірів олівця.
 
 + Спершу, створіть список, який називається ` width` {: class = "blockvariable"}.
 
@@ -9,16 +9,16 @@ Let's allow the user to draw using a range of different pencil sizes.
 + Додайте цей рядок *inside* the `forever`{:class="blockcontrol"} цикл коду олівця:
 
 ```blocks
-    set pen size to (width)
+    встановити розмір ручки до (ширина)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+Ширина олівця буде тепер неодноразово налаштована на значення змінної "ширини".
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Клікніть правою кнопкою миші на змінному екрані на платформі та клацніть на "повзунок".
 
 ![screenshot](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Тепер ви можете перетягувати слайдер нижче змінної, щоб змінити його значення.
 
 ![screenshot](images/paint-slider-change.png)
 
