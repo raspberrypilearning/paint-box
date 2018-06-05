@@ -16,18 +16,18 @@
 
 + Клікніть правою кнопкою миші на змінному екрані на платформі та клацніть на "повзунок".
 
-![screenshot](images/paint-slider.png)
+![скріншот](images/paint-slider.png)
 
 Тепер ви можете перетягувати слайдер нижче змінної, щоб змінити його значення.
 
-![screenshot](images/paint-slider-change.png)
+![скріншот](images/paint-slider-change.png)
 
 + Перевірте свій проект та подивіться, чи можна змінити ширину олівця.
 
-![screenshot](images/paint-width-test.png)
+![скріншот](images/paint-width-test.png)
 
 Якщо ви забажаєте, ви можете встановити мінімальне та максимальне значення ширини, яке дозволено. Для цього клацніть правою кнопкою миші на змінну і натисніть "встановити слайдер міні та макс". Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
 
 ![screenshot](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Продовжуйте протестувати вашу змінну "ширина", поки не досягнете бажаного результату.
