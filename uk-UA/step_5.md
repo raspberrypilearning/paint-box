@@ -1,4 +1,4 @@
-## Making mistakes
+## Помилки
 
 Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
 
