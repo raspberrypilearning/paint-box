@@ -16,7 +16,7 @@ You have probably noticed that your pencil sprite includes an eraser costume:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Your project also includes a separate eraser sprite. Клацніть правою кнопкою миші на цьому спрайті і виберіть 'Показати'. Ось як повинна виглядати ваша сцена:
 
 ![screenshot](images/paint-eraser-stage.png)
 
@@ -26,7 +26,7 @@ You have probably noticed that your pencil sprite includes an eraser costume:
 
 When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
 
-+ Add some code to create the eraser
++ Додайте деякі коду для створення гумки
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
@@ -38,7 +38,7 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Перевірте свій проект, щоб побачити, чи можна очистити та стерти платформу.
 
 ![screenshot](images/paint-erase-test.png)
 
