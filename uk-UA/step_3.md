@@ -41,4 +41,4 @@
     
     A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
     
-    \--- /collapse \---
+    \---collapse\---
