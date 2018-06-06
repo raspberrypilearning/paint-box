@@ -11,9 +11,9 @@ Vedrai gli sprite della matita e della gomma:
 + Aggiungi dei codici allo sprite della matita per far sì che segua il mouse `per sempre`{:class="blockcontrol"}, in modo da permetterti disegnare:
 
 ```blocks
-    quando si clicca su ⚑
-per sempre
-   raggiungi [puntatore del mouse v]
+quando si clicca sulla bandiera verde
+per sempre 
+  raggiungi [puntatore del mouse v]
 fine
 ```
 
