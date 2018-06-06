@@ -28,7 +28,7 @@ Wanneer het potlood de "gum"-boodschap ontvangt, kunt je het potloodkostuum in d
 
 + Voeg een code toe om de gum te maken
 
---- hints --- --- hint --- Voeg deze code toe aan de potloodsprite: **wanneer ik signaal** **gum ontvang** **verander uiterlijk naar** gum **maak penkleur ** wit --- /hint --- --- hint --- Zo zou je code in de potloodsprite eruit moet zien:
+--- hints --- --- hint --- Voeg deze code toe aan de potloodsprite: **wanneer ik signaal** **gum ontvang** **verander uiterlijk naar** gum **maak penkleur** wit --- /hint --- --- hint --- Zo zou je code in de potloodsprite eruit moet zien:
 
 ```blocks
 wanneer ik signaal [gum] ontvang
