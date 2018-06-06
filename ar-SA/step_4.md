@@ -18,34 +18,32 @@
 
 + اعد تسمية الكائنين الخاصين بك بالتسمية التالية: "ازرق" و "أخضر"
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ أضف رمزا الى الكائن الأخضر بحيث عند النقر عليه سيطلق البث.الرسالة "اخضر" ستقول بتغيير قلم الرصاص ولونه: لقلم الرصاص
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ التبديل إلى كائن قلم الرصاص الخاص بك عند النقر فوق أيقونة محدد اللون الأخضر، ستحتاج إلى بث{:class="blockevents"} رسالة إلى القلم الرصاص لتأمره بتغيير مظهره ولون خطه.
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+لتعيين القلم الرصاص على اللون إلى اللون الأخضر ، انقر فوق المربع الملون في ` لون القلم المحدد ` {: class = "blockpen"} block ، وانقر على رمز الكائن الأخضر لاختيار اللون الأخضر نفسه الذي يظهر فيه لون قلمك.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ يمكنك الآن عمل نفس الإجراء لرمز القلم الأزرق: أضف هذا الرمز إلى رمز مربع أزرق اللون:
 
 ```blocks
 when this sprite clicked
 broadcast [blue v]
 ```
 
-...and add this code to the pencil sprite:
+...أضف هذا الرمز إلى قائمة رموزك المتحركة:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+أخيرًا، تحتاج إلى أن تأمر كائن القلم الرصاص باختيار المظهر ولون القلم المناسبَين، وكذا مسح الشاشة، عند بدء المشروع. أضف هذه التعليمة البرمجية إلى بداية التعليمة البرمجية عند النقر فوق العلم{:class="blockevents"} الخاصة بالقلم الرصاص (قبل حلقة كرِّر باستمرار{:class="blockcontrol"})
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ أخيرا، أضف التعليمات البرمجية لإخبار قلم رصاص أي اللونين تبدأ به، وتأكد من أن الشاشة واضحة.
 
 ![Start pencil](images/start-pencil.png)
 
