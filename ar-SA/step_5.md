@@ -1,22 +1,22 @@
-## Making mistakes
+## أخطاء الرسم
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+لأنه أحيانًا ما تحدث أخطاء أثناء الرسم، سنضيف زر 'مسح' وممحاة إلى المشروع.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ أضِف زرًا لمسح المنصة. لتفعل ذلك، أضف كائن الحرف 'X-block' إلى المنصة. لوِّنه باللون الأحمر. سيصبح هذا الزر" مسح".
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ أضف تعليمة برمجية إلى زر الإلغاء الجديد لمسح المنصة عند النقر عليه.
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+لاحظ أنك لا تحتاج إلى إرسال رسالة لمسح المنصة، لأن أي كائن يمكن أن يفعل ذلك!
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+ربما لاحظتَ أن كائن القلم الرصاص يشتمل على مظهر لممحاة:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ يحتوي مشروعك على كائن محدد الممحاة. Right click on this sprite and choose 'show'. Here is how your stage should look:
 
 ![screenshot](images/paint-eraser-stage.png)
 
