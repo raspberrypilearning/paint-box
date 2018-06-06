@@ -1,13 +1,14 @@
-hero_image: images/paint-box.png
+---
+hero_image: images/banner.png
 theme: violet
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Farbkasten
-description: In diesem Projekt wirst Du Dein eigenes Zeichen-Programm entwickeln!
-original_url: https://projects.raspberrypi.org/en/projects/paint-box
+title: Malkasten
+description: Lerne dein eigenes Malprogramm zu machen.
+original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
 interests: art
 technologies: scratch
 site_areas: projects
@@ -15,11 +16,12 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Einführung
-- title: Einen Bleistift entwerfen
-- title: Farbige Stifte
-- title: Fehler machen
-- title: Die Stift-Dicke ändern
-- title: "Herausforderung: Tastenkürzel"
-- title: "Herausforderung: Mehr Stifte"
+steps:
+  - title: Einleitung
+  - title: Was du brauchen wirst
+  - title: Einen Stift machen
+  - title: Buntstifte
+  - title: Fehler machen
+  - title: Die Stiftdicke ändern
+  - title: 'Zusatzaufgabe: Tastenkürzel'
+  - title: 'Zusatzaufgabe: mehr Stifte'

@@ -1,74 +1,44 @@
-## Penne colorate
+## Creare una matita
 
-Aggiungiamo diverse penne colorate al tuo progetto, e permettiamo all'utente di scegliere quella che preferisce!
+Iniziamo creando una matita che può essere usata per disegnare sul quadro.
 
-+ Clicca sullo sprite della matita, clicca 'Costumi' e duplica il tuo costume 'matita-blu'.
++ Apri il progetto Scratch 'Scatola a Colori' online su [jumpto.cc/paint-go-it-IT](https://jumpto.cc/paint-go-it-IT), o scaricalo da [http://jumpto.cc/paint-get-it-IT](https://github.com/raspberrypilearning/paint-box/raw/master/it-IT/resources/PaintBox.sb2) per usarlo con l'editor offline.
 
-	![screenshot](images/paint-blue-duplicate.png)
+Vedrai gli sprite della matita e della gomma:
 
-+ Rinomina il tuo nuovo costume 'matita-verde' e colora la matita verde.
+![screenshot](images/paint-starter.png)
 
-	![screenshot](images/paint-pencil-green.png)
++ Aggiungi dei codici allo sprite della matita per far sì che segua il mouse `per sempre`{:class="blockcontrol"}, in modo da permetterti disegnare:
 
-+ Crea due nuovi sprite, che userai per selezionare la matita blu o verde.
+```blocks
+quando si clicca sulla bandiera verde
+per sempre 
+  raggiungi [puntatore del mouse v]
+fine
+```
 
-	![screenshot](images/paint-selectors.png)
++ Fai click sulla bandierina e muovi il mouse sul quadro per verificare se il codice funzioni.
 
-+ Quando l'icona verde è cliccata, dovrai `invia a tutti`{:class="blockevents"} un messaggio allo sprite della matita, dicendo di cambiare costume e colore di matita.
+Ora facciamo in modo che la matita disegni solo `se`{:class="blockcontrol"} il mouse è stato cliccato.
 
-	Per fare ciò, aggiungi prima questo codice all'icona verde.
++ Aggiungi questo codice allo sprite della tua matita:
 
-	```blocks
-		quando si clicca questo sprite
-		invia a tutti [verde v]
-	```
+![screenshot](images/paint-pencil-draw-code.png)
 
-	Per creare il blocco `invia a tutti`{:class="blockevents"}, clicca la freccia in basso e seleziona 'nuovo messaggio...'.
++ Prova di nuovo il tuo codice. Questa volta, muovi la matita nel quadro e tieni premuto il tasto sinistro del mouse. Riesci a disegnare con la tua matita?
 
-	![screenshot](images/paint-broadcast.png)
+![screenshot](images/paint-draw.png)
 
-	Puoi dunque digitare 'verde' per creare il tuo nuovo messaggio.
+--- collapse ---
+---
+title: Se stai avendo problemi...
+---
+Se sembra che il disegno parta dal centro della matita, invece che dalla punta, hai bisogno di modificare il centro del tuo costume.
 
-	![screenshot](images/paint-green-message.png)
+![Centro del costume](images/costume-center.png)
 
-+ Ora dovrai dire allo sprite della matita cosa fare quando riceve il messaggio. Aggiungi questo codice allo sprite della tua matita:
+Il mirino della matita deve essere posizionato **appena sotto** la punta della matita, non sulla punta della matita.
 
-	```blocks
-		quando ricevo [verde v]
-		passa al costume [matita-verde v]
-		usa penna di colore [#00ff00]
-	```
+Le modifiche apportate al 'centro del costume' di uno sprite saranno applicate solo dopo aver cliccato su un'altra scheda: clicca su un altro costume o sulla scheda 'Script' per rendere valide le tue modifiche.
 
-	Per fare in modo che la matita colori verde, clicca la casella colorata nel blocco `imposta colore`{:class="blockpen"}, e clicca sull'icona verde per scegliere il verde come colore della matita.
-
-+ Ora puoi fare la stessa cosa per l'icona della matita blu, aggiungendo questo codice allo sprite selezionatore blu:
-
-	```blocks
-		quando si clicca questo sprite
-		invia a tutti [blu v]
-	```
-
-	...e aggiungi questo codice allo sprite della tua matita:
-
-	```blocks
-		quando ricevo [blu v]
-		passa al costume [matita-blu v]
-		usa penna di colore [#0000ff]
-	```
-
-+ Infine, dovrai dire allo sprite della tua matita quale costume e quale colore di matita scegliere quando il progetto è iniziato, e anche di ripulire la schermata. Aggiungi questo codice all'inizio del codice della matita `quando si clicca la bandiera`{:class="blockevents"} (prima del loop `per sempre`{:class="blockcontrol"}:
-
-	```blocks
-		pulisci
-		passa al costume [matita-blu v]
-		usa penna di colore [#0000ff]	
-  ```
-
-Se preferisci, puoi iniziare con una matita colorata diversa!
-
-+ Prova il tuo progetto. Puoi intercambiare le penne blu e verde?
-
-	![screenshot](images/paint-pens-test.png)
-
-
-
+--- /collapse ---

@@ -1,10 +1,14 @@
 --- challenge ---
-## Herausforderung: Mehr Stifte
-Kannst Du rote, gelbe und schwarze Stifte zu dem Zeichen-Programm hinzufügen? Die Bilder, die Du hierfür brauchst, findest Du in dem Ressourcen-Ordner. Vergesse nicht Tastenkürzel für die Stifte hinzuzufügen!
 
-Kannst Du mit den Stiften ein Bild malen?
+## Zusatzaufgabe: Tastenkürzel
 
-![screenshot](images/paint-final.png)
+Kannst du Tasten-Kürzel für deine Befehle anlegen? Zum Beispiel:
 
++ b = nimm den blauen Stift
++ g = nimm den grünen Stift
++ r = Radierer
++ l = Bühne löschen
+
+Du könntest es dem Anwender sogar erlauben, die Dicke vom Stift mit den Pfeil-Tasten zu ändern.
 
 --- /challenge ---
