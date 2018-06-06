@@ -11,9 +11,9 @@ Je zult potlood- en gumsprites zien:
 + Voeg wat code toe aan de potloodsprite om ervoor te zorgen dat deze de muis altijd volgt met een `herhaal blok`{:class="blockcontrol"}, zodat je kunt tekenen:
 
 ```blocks
-    wanneer vlag wordt aangeklikt
-    herhaal
-      ga naar [muisaanwijzer]
+    wanneer groene vlag wordt aangeklikt
+    herhaal 
+    ga naar [muisaanwijzer v]
     einde
 ```
 
