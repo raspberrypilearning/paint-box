@@ -33,7 +33,7 @@ Per fare in modo che quando disegni la linea sia verde, clicca la casella colora
 + Ora puoi fare la stessa cosa per l’icona della matita blu, aggiungendo questo codice allo sprite del quadrato blu:
 
 ```blocks
-quando si clicca su questo sprite 
+quando si clicca questo sprite
 invia a tutti [blu v]
 ```
 
