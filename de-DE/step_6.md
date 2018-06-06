@@ -1,4 +1,4 @@
-## Stiftbreite ändern
+## Die Stiftdicke ändern
 
 Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
 
