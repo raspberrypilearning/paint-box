@@ -4,29 +4,29 @@
 
 + أضِف زرًا لمسح المنصة. لتفعل ذلك، أضف كائن الحرف 'X-block' إلى المنصة. لوِّنه باللون الأحمر. سيصبح هذا الزر" مسح".
 
-![screenshot](images/paint-x.png)
+![لقطة الشاشة](images/paint-x.png)
 
 + أضف تعليمة برمجية إلى زر الإلغاء الجديد لمسح المنصة عند النقر عليه.
 
-![Clear stage](images/clear-stage.png)
+![مرحلة المسح](images/clear-stage.png)
 
 لاحظ أنك لا تحتاج إلى إرسال رسالة لمسح المنصة، لأن أي كائن يمكن أن يفعل ذلك!
 
 ربما لاحظتَ أن كائن القلم الرصاص يشتمل على مظهر لممحاة:
 
-![screenshot](images/paint-eraser-costume.png)
+![لقطة الشاشة](images/paint-eraser-costume.png)
 
-+ يحتوي مشروعك على كائن محدد الممحاة. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ يحتوي مشروعك على كائن محدد الممحاة. انقر عليه بزر الفأرة الأيمن واختر "إظهار". سيكون شكل المنصة كما يلي:
 
-![screenshot](images/paint-eraser-stage.png)
+![لقطة الشاشة](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ يمكنك عندئذٍ إضافة تعليمة برمجية إلى كائن محدد الممحاة لتأمر القلم الرصاص بالتحول إلى ممحاة.
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![بث الممحاة](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+عندما يتلقى القلم هذه الرسالة، يمكنك إنشاء ممحاة بتحويل مظهر القلم إلى ممحاة، وتحويل لون القلم إلى لون المنصة نفسه!
 
-+ Add some code to create the eraser
++ أضف رمزًا لإنشاء الممحاة
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
@@ -38,18 +38,18 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ اختبر مشروعك لتعرف هل يمكنك مسح المنصة ومحو ما رسمته أم لا.
 
-![screenshot](images/paint-erase-test.png)
+![لقطة الشاشة](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+توجد مشكلة واحدة أخرى بالنسبة إلى القلم - حيث يمكنك أن ترسم في أي مكان على المنصة حتى بالقرب من الأيقونات المحدِّدة!
 
-![screenshot](images/paint-draw-problem.png)
+![لقطة الشاشة](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+لإصلاح هذا الخطأ، يمكنك أن تأمر القلم بألا يرسم إلّا إذا تم النقر فوق الماوس و إذا كانت قيمة موقع y للماوس أكبر من 120- (بحيث تكون عبارة y الماوس كما يلي:
 
-![screenshot](images/pencil-gt-code.png)
+![لقطة الشاشة](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ اختبر مشروعك؛ من المفترض الآن أنك لن تستطيع الرسم بالقرب من الأيقونات المحدِّدة.
 
-![screenshot](images/paint-fixed.png)
+![لقطة الشاشة](images/paint-fixed.png)
