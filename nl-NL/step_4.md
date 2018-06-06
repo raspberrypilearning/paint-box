@@ -18,7 +18,7 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 
 + Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
-+ Voeg wat code toe aan de 'groene' sprite, zodat wanneer er op geklikt wordt, het ` zend signaal`{:class="blockevents"} het bericht "groen" naar de potloodsprite zal gaan, zeggend dat het zijn uiterlijk en de potloodkleur moet veranderen.
++ Voeg wat code toe aan de 'groene' sprite, zodat wanneer er op geklikt wordt, het `zend signaal`{:class="blockevents"} het bericht "groen" naar de potloodsprite zal gaan, zeggend dat het zijn uiterlijk en de potloodkleur moet veranderen.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 

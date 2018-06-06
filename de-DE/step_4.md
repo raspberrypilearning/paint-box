@@ -1,59 +1,56 @@
-## Fehler machen
+## Buntstifte
 
-Manchmal passieren Fehler. Lass uns also unserem Projekt einen 'wische Malspuren weg'-Knopf hinzufügen!
+Laß uns deinem Projekt verschiedene Buntstifte hinzufügen, die der Anwender dann auswählen kann.
 
-+ Lass uns einen Knopf hinzufügen und die Bühne leeren. Um dies zu tun, füge die 'X-block'´-Buchstaben-Figur zu der Bühne hinzu und färbe sie rot.
++ Klicke auf deine Stift-Figur, dann auf Kostüme und dupliziere dein 'blaues Stift-Kostüm'.
 
-	![screenshot](images/paint-x.png)
+![screenshot](images/paint-blue-duplicate.png)
 
-+ Füge Deinem 'wische Malspuren weg'-Knopf diesen Code hinzu, damit die Bühne geleert wird, sobald dieser angeklickt wird:
++ Benenne dein neues Kostüm um zu "Stift grün" und das alte zu "Stift-blau".
 
-	```blocks
-      Wenn ich angeklickt werde
-      wische Malspuren weg
-	```
+![screenshot](images/paint-pencil-green.png)
 
-	Bemerke, dass Du keine Nachricht versenden musst, um die Bühne zu leeren, da jede Figur diese Fähigkeit besitzt.
+[[[generic-scratch-rename-sprite]]]
 
-+ Du kannst auch einen Radiergummi erstellen. Wenn der Club-Leiter euch einen 'Resources'-Ordner gegeben hat, klicke auf 'Figur aus einer Datei laden' und füge das 'eraser.svg'-Bild hinzu.
++ Zeichne zwei neue Figuren - ein blaues und ein grünes Quadrat. Diese verwendest du um die Stiftfarbe umzuschalten.
 
-	![screenshot](images/paint-eraser-costume.png)
+![screenshot](images/paint-selectors.png)
 
-	Wenn Du das 'eraser.svg'-Bild nicht hast, erstelle stattdessen einfach einen neuen weißen Stift.
++ Benenne die neuen Figuren 'blau' und 'grün'
 
-+ Du solltest das Radiergummi-Bild auch als eine neue Auswahl-Figur hinzufügen. So sollte Deine Bühne nun aussehen:
++ Füge nun Code zur 'grün'-Figur hinzu so dass sie, wenn sie geklickt wird, die Nachricht "grün" `an alle schickt`{:class="blockevents"}. Dadurch sagst du dem Stift dass er sein Kostüm und seine Farbe ändern soll.
 
-	![screenshot](images/paint-eraser-stage.png)
+![Sende grün](images/paint-broadcast-green.png)
 
-+ Du kannst die Radiergummi-Auswahl-Figur von 'eraser' zu 'Radiergummi' umbenennen, den Drehpunkt des Radiergummis kurz vor die Radiergummi-Spitze setzen (wie beim Bleistift) und dem Radiergummi diesen Code hinzufügen, um dem Stift mitzuteilen, zum Radiergummi zu wechseln:
+[[[generic-scratch-broadcast-message]]]
 
-	```blocks
-  Wenn ich angeklickt werde
-  sende [Radiergummi v] an alle
-	```
++ Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie die Nachricht "grün" `an alle`{:class="blockevents"} empfängt, zum grünen Stift-Kostüm wechselt und die Stiftfarbe zu grün ändert.
 
-+ Damit, sobald der Stift die Nachricht erhält, er zum Radiergummi wechselt und die Stiftfarbe ändert, füge ihm diesen Code hinzu:
+![Sende grün](images/broadcast-green.png)
 
-	```blocks
-  Wenn ich [Radiergummi v] empfange
-  wechsle zu Kostüm [Radiergummi v]
-  setze Stiftfarbe auf [#FFFFFF]
-	```
+Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Kästchen in `setze Stiftfarbe auf`{:class="blockpen"} und klicke dann auf das grüne Quadrat.
 
-+ Teste Dein Projekt, um zu sehen, ob Du die Bühne leeren und radieren kannst.
++ Nun kannst du das gleiche für das blaue Symbol machen: füge diesen Code zum blauen Quadrat hinzu:
 
-	![screenshot](images/paint-erase-test.png)
+```blocks
+Wenn ich angeklickt werde
+sende [blau v] an alle
+```
 
-+ Es gibt noch ein kleines Problem mit dem Sift: Du kannst überall auf der Bühne malen, auch neben den Auswahl-Symbolen.
+...und diesen Code zur Stift-Figur hinzu:
 
-	![screenshot](images/paint-draw-problem.png)
+```blocks
+Wenn ich [blau v] empfange
+wechsle zu Kostüm [Stift-blau v]
+setze Stiftfarbe auf [#0000ff]
+```
 
-	Um dieses Problem zu lösen, musst Du dem Stift sagen nur dann zu malen, wenn die Maus angeklickt wird _und_ wenn die y-Position der Maus größer als -110 (`Maus y-Position`{:class="blocksensing"}`> -120`{:class="blockoperators"}) ist. Ändere die `wenn`{:class="blockcontrol"}-Aussage Deines Stifts zu:
++ Zum Schluß fügst du noch Code ein, um die Bühne zu löschen und um festzulegen mit welcher Farbe du beginnst.
 
-	![screenshot](images/pencil-gt-code.png)
+![Stift starten](images/start-pencil.png)
 
-+ Teste Dein Projekt. Es sollte nun nicht mehr möglich sein in unmittelbarer Nähe der Auswahl-Blöcke zu malen.
+Wir haben hier blau gewählt, aber du kannst mit einer anderen Stiftfarbe beginnen, wenn du es lieber hast.
 
-	![screenshot](images/paint-fixed.png)
++ Teste nun dein Projekt. Kannst du zwischen den blauen und grünen Stiften umschalten, indem du das blaue bzw. grüne Quadrat anklickst?
 
-
+![screenshot](images/paint-pens-test.png)

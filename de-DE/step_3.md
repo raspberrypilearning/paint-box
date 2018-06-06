@@ -1,74 +1,44 @@
-## Farbige Stifte
+## Einen Stift machen
 
-Lass uns Deinem Projekt unterschiedlich farbige Bleistifte hinzufügen und es dem Nutzer so erlauben zwischen Ihnen zu wechseln.
+Beginnen wir mit einem Stift, mit dem wir auf der Bühne zeichnen können.
 
-+ Klicke auf Deine Bleistift-Figur, klicke dann auf 'Kostüme' und dupliziere das 'Bleistift-blau'-Kostüm.
++ Öffne das 'Painbox'-Projekt in Scratch entweder online bei [jumpto.cc/paint-go-de-DE](https://scratch.mit.edu/projects/227798520/#editor){:target="_blank"} oder lade es unter [http://jumpto.cc/paint-get-de-DE](https://github.com/raspberrypilearning/paint-box/raw/master/de-DE/resources/PaintBox.sb2) herunter wenn du den Offline-Editor benutzt.
 
-	![screenshot](images/paint-blue-duplicate.png)
+Bei den Figuren siehst du einen Stift und einen Radierer:
 
-+ Benenne Dein Kostüm in 'Bleistift-grün' um und füge ihm grün als Farbe hinzu.
+![screenshot](images/paint-starter.png)
 
-	![screenshot](images/paint-pencil-green.png)
++ Füge dem Stift folgenden Code hinzu, damit er der Maus `ständig`{:class="blockcontrol"} folgt und du mit ihm malen kannst:
 
-+ Erstelle zwei neue Figuren, welche Du benutzen wirst, um eine Farbe auszuwählen.
+```blocks
+    Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  gehe zu [mouse pointer v]
+end
+```
 
-	![screenshot](images/paint-selectors.png)
++ Klicke auf die Flagge und bewege die Maus über die Bühne. Sieh, ob der Code richtig arbeitet.
 
-+ Wenn das Grün-Auswahl-Symbol angeklickt ist, musst Du der Bleistift-Figur die Nachricht senden (`sende an alle`{:class="blockevents"}), die ihm mitteilt die Bleistiftfarbe in grün umzuwandeln.
+Als nächstes versuchen wir, den Stift nur dann zeichnen zu lassen, `wenn`{:class="blockcontrol"} die Maus geklickt wird.
 
-Um dies zu tun, füge dem Grün-Auswahl-Symbol diesen Code hinzu:
++ Füge diesen Code deiner Stift-Figur hinzu:
 
-  ```blocks
-      Wenn ich angeklickt werde
-      sende [grün v] an alle
-  ```
-  
-Um einen `sende an alle`{:class="blockevents"}-Block zu erstellen, klicke auf den nach unten zeigenden Pfeil und wähle 'Neue Nachricht...' aus.
+![screenshot](images/paint-pencil-draw-code.png)
 
-![screenshot](images/paint-broadcast.png)
++ Teste deinen Code nochmals. Halte diesmal die Maustaste gedrückt, wenn du die Maus über die Bühne bewegst. Kannst du mit deinem Stift zeichnen?
 
-Du kannst nun 'grün' eintippen, um Deine neue Nachricht zu erstellen.
+![screenshot](images/paint-draw.png)
 
-![screenshot](images/paint-green-message.png)
+--- collapse ---
+---
+title: Wenn du Probleme hast...
+---
+Wenn dein Stift nicht mit der Spitze zu zeichnen scheint, sondern mit der Mitte, dann musst du die Kostüm-Mitte ändern.
 
-+ Du musst Deiner Bleistift-Figur nun mitteilen was zu tu ist, wenn sie diese Nachricht erhält. Füge Deiner Figur diesen Code hinzu:
+![Kostüm-Mitte](images/costume-center.png)
 
-	```blocks
-      Wenn ich [grün v] empfange
-      wechsle zu Kostüm [Bleistift-grün v]
-      setze Stiftfarbe auf [#00ff00]
-	```
+Du musst das Fadenkreuz für den Stift **knapp unter** der Spitze des Stifts platzieren, nicht genau auf der Spitze.
 
-Um die Stiftfarbe auf grün zu setzen, klicke die grün gefärbte Box in dem `setze Schriftfarbe auf`{:class="blockpen"}-Block an und klicke anschließend auf das Grün-Auswahl-Symbol.
+Die Änderungen der Kostüm-Mitte einer Figur werden erst wirksam, wenn etwas Anderes angeklickt wird. Klicke also auf ein anderes Kostüm oder auf den 'Skripte'-Reiter um deine Änderungen abzuschließen.
 
-+ Du kannst nun das Gleiche mit dem blauen Bleistift-Symbol tun, indem Du diesen Code zu der Blau-Auswahl-Figur hinzufügst:
-
-	```blocks
-      Wenn ich angeklickt werde
-      sende [blau v] an alle
-	```
-
-...und indem Du diesen Code zu der Bleistift-Figur hinzufügst:
-
-  ```blocks
-      Wenn ich [blau v] empfange
-      wechsle zu Kostüm [Bleistift-blau v]
-      setze Stiftfarbe auf [#0000ff]
-  ```
-
-+ Zuletzt musst Du Deiner Bleistift-Figur sowohl mitteilen, welches Kostüm und welche Stiftfarbe sie wählen soll, als auch den Bildschirm zu leeren, sobald ein neues Projekt begonnen wird. Füge diesen Code an den Anfang des `Wenn die grüne Flagge angeklickt`{:class="blockevents"}-Code des Bleistifts hinzu (vor die `wiederhole fortlaufend`{:class="blockcontrol"}-Schleife):
-
-	```blocks
-      wische Malspuren weg
-      wechsle zu Kostüm [blau-Bleistift v]
-      setze Stiftfarbe auf [#0000ff]
-	```
-
-Wenn Du magst, kannst Du auch mit einer anderen Farbe anfangen!
-
-+ Teste Dein Projekt. Kannst Du zwischen dem grünen und dem blauen Stift hin und her wechseln?
-
-	![screenshot](images/paint-pens-test.png)
-
-
-
+--- /collapse ---

@@ -19,6 +19,6 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 ### Ulteriori informazioni per gli organizzatori dei club
 
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/paint-box/print){:target = "_ blank"}.
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/paint-box/print){:target="_blank"}.
 
 Cliccare il link a piè di pagina per accedere alla repository di GitHub relativa a questo progetto, che contiene tutte le risorse necessarie (incluso un esempio di progetto completo) nella cartella 'it-IT/resources'.

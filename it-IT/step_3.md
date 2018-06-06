@@ -2,7 +2,7 @@
 
 Iniziamo creando una matita che può essere usata per disegnare sul quadro.
 
-+ Apri il progetto Scratch 'Scatola a Colori' online su [jumpto.cc/paint-go](https://scratch.mit.edu/projects/219860225/#editor), o scaricalo da <http://jumpto.cc/paint-get> per usarlo con l'editor offline.
++ Apri il progetto Scratch 'Scatola a Colori' online su [jumpto.cc/paint-go-it-IT](https://jumpto.cc/paint-go-it-IT), o scaricalo da [http://jumpto.cc/paint-get-it-IT](https://github.com/raspberrypilearning/paint-box/raw/master/it-IT/resources/PaintBox.sb2) per usarlo con l'editor offline.
 
 Vedrai gli sprite della matita e della gomma:
 
@@ -11,7 +11,7 @@ Vedrai gli sprite della matita e della gomma:
 + Aggiungi dei codici allo sprite della matita per far sì che segua il mouse `per sempre`{:class="blockcontrol"}, in modo da permetterti disegnare:
 
 ```blocks
-    quando si clicca sulla bandiera verde
+    quando si clicca su ⚑
 per sempre
    raggiungi [puntatore del mouse v]
 fine

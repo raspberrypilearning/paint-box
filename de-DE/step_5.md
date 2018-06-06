@@ -1,34 +1,55 @@
-## Die Stift-Dicke ändern
+## Fehler machen
 
-Lass es uns dem Nutzer erlauben eine Vielzahl an unterschiedlichen Stiftdicken zu nutzen.
+Manchmal passieren Fehler, lass uns also einen 'Löschen'-Knopf und einen Radiergummi hinzufügen.
 
-+ Füge als Erstes eine neue Variable 'Stiftdicke' hinzu. Wenn Du Dir unsicher bist, wie das geht, wird Dir das Ballons-Projekt auf die Sprünge helfen.
++ Füge die 'X-block'-Figur hinzu - du findest sie in der Bibliothek, in der Kategorie Buchstaben. Färbe das Kostüm rot. Das wird der 'Löschen'-Knopf.
 
-+ Füge diese Code-Linie _innerhalb_ die `wiederhole fortlaufend`{:class="blockcontrol"}-Schleife Deines Stift-Codes hinzu:
+![screenshot](images/paint-x.png)
 
-	```blocks
-    setze Stiftdicke auf (Stiftdicke)
-	```
++ Füge Code zu dieser Figur hinzu, um die Bühne zu löschen, wenn sie geklickt wird.
 
-	Die Dicke des Stiftes wird nun auf den Wert Deiner 'Stiftdicke'-Variable gesetzt.
+![Bühne löschen](images/clear-stage.png)
 
-+ Du kannst die vorgegebene Nummer der Variable mit einem Rechtsklick auf die Variable (auf der Bühne) und mit einem Klick auf 'Schieberegler' ändern.
+Beachte, dass du gar keine Nachricht senden musst um die Bühne zu löschen, es genügt der Block "wische Malspuren weg" der Figur.
 
-	![screenshot](images/paint-slider.png)
+Du hast vielleicht schon bemerkt, dass die Stift-Figur auch ein Radier-Kostüm enthält:
 
-	Du kannst nun den Schieberegler unter die Variable ziehen, um deren Wert zu ändern.
+![screenshot](images/paint-eraser-costume.png)
 
-	![screenshot](images/paint-slider-change.png)
++ Dein Projekt enthält auch eine eigene Radier-Figur. Klicke rechts auf diese Figur und wähle 'zeige dich'. Du kannst die Figur auch zu 'Radierer' umbenennen. So sollte deine Bühne jetzt aussehen:
 
-+ Teste Dein Projekt und siehe, ob Du die Stiftdicke verändern kannst.
+![screenshot](images/paint-eraser-stage.png)
 
-	![screenshot](images/paint-width-test.png)
++ Füge der Radierer-Figur Code hinzu, um den Stift auf radieren umzuschalten.
 
-	Wenn Du möchtest, kannst Du die Minimum- und Maximumdicke, die erlaubt ist, festlegen. Um dies zu tun, führe wieder einen Rechtsklick auf die Variable aus und wähle 'Regelbereich festlegen'. Setze den Minimum- und Maximumwert der Variable zu etwas sinnvollem wie 1 und 20.
+![Sende Radierer](images/broadcast-eraser.png)
 
-	![screenshot](images/paint-slider-max.png)
+Wenn der Stift die "radieren"-Nachricht erhält, musst du das Stift-Kostüm zu "Radier-Stift" ändern und die Stiftfarbe auf weiß ändern - die Farbe der Bühne!
 
-	Teste solange weiter, bis Du mit der 'Stiftdicke'-Variable zufrieden bist.
++ Füge Code hinzu um den Radierer zu schaffen
 
+--- hints --- --- hint --- Füge der Stift-Figur folgenden Code hinzu: **Wenn Ich** die Nachricht **radieren** empfange **wechsle zu Kostüm** RadierStift **Setze Stiftfarbe auf** weiß --- /hint --- --- hint --- So sollte der Code der Stift-Figur aussehen:
 
+```blocks
+Wenn ich [radieren v] empfange
+wechsle zu Kostüm [RadierStift v]
+setze Stiftfarbe auf [#FFFFFF]
+```
 
+--- /hint --- --- /hints ---
+
++ Teste dein Projekt und schau, ob du radieren kannst und die Bühne löschen kannst.
+
+![screenshot](images/paint-erase-test.png)
+
+Es gibt noch ein Problem mit dem Stift - du kannst auf der ganzen Bühne zeichnen, auch im Bereich der Auswahlsymbole!
+
+![screenshot](images/paint-draw-problem.png)
+
+Um das zu beheben, sag dem Stift, er darf nur dann zeichnen, wenn die Maustaste gedrückt ist *und* wenn die y-Position größer als -120 ist:
+
+![screenshot](images/pencil-gt-code.png)
+
++ Teste dein Projekt; du solltest jetzt nicht mehr in der Nähe der Auswahlsymbole zeichnen können.
+
+![screenshot](images/paint-fixed.png)

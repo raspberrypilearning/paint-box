@@ -15,10 +15,10 @@ Klik op de groene vlag om te starten. Gebruik de muis om het potlood te verplaat
 
 Dit project behandelt elementen uit de volgende onderdelen van de[Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [ Combineer programma lussen om een probleem op te lossen. ](https://www.raspberrypi.org/curriculum/programming/builder){:target="_ blank"}
++ [Combineer programma lussen om een probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### Aanvullende informatie voor clubleiders
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/nl-NL/projects/paint-box/print){:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/paint-box/print){:target="_ blank"}.
 
 Gebruik de link in de voettekst om toegang te krijgen tot de GitHub-repo voor dit project, deze bevat alle bestanden (inclusief een voltooid projectvoorbeeld) in de map 'nl-NL/resources'.
