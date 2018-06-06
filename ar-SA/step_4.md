@@ -4,11 +4,11 @@
 
 + انقر فوق كائن القلم الرصاص، ثم انقر فوق 'المظاهر' وضاعف المظهر 'قلم أزرق'.
 
-![screenshot](images/paint-blue-duplicate.png)
+![لقطة الشاشة](images/paint-blue-duplicate.png)
 
 + غيِّر اسم المظهر الجديد إلى 'قلم أخضر'، ولوِّن قلم الرصاص باللون الأخضر.
 
-![screenshot](images/paint-pencil-green.png)
+![لقطة الشاشة](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
@@ -47,8 +47,8 @@ broadcast [blue v]
 
 ![Start pencil](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+لقد اخترنا البدء باللون الأزرق ولكن إذا كنت لا تفضل ذلك ، فيمكنك البدء بقلم رصاص مختلف.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ اختبر مشروعك. هل يمكنك التحويل بين القلمين الأزرق والأخضر؟
 
 ![screenshot](images/paint-pens-test.png)
