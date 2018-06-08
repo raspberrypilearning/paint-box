@@ -1,8 +1,8 @@
 ## Помилки
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Іноді помилки трапляються, так що давайте додамо кнопку 'очистити' та гумку.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Додайте 'X-block' спрайт - ви зможете знайти його в бібліотеці, в розділі букв. Змініть колір костюма на червоний. This will become the 'clear' button.
 
 ![screenshot](images/paint-x.png)
 
