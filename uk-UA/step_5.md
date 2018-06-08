@@ -2,23 +2,23 @@
 
 Іноді помилки трапляються, так що давайте додамо кнопку 'очистити' та гумку.
 
-+ Додайте 'X-block' спрайт - ви зможете знайти його в бібліотеці, в розділі букв. Змініть колір костюма на червоний. This will become the 'clear' button.
++ Додайте 'X-block' спрайт - ви зможете знайти його в бібліотеці, в розділі букв. Змініть колір костюма на червоний. Це буде кнопка «Очистити».
 
-![screenshot](images/paint-x.png)
+![скріншот](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Додайте код до цього спрайта, щоб очистити сцену, коли вона натиснута.
 
-![Clear stage](images/clear-stage.png)
+![Очистити сцену](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Зверніть увагу, що вам не потрібно надсилати повідомлення, щоб очистити сцену, ви можете просто використовувати чіткий блок із цього спрайту.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Мабуть, ви помітили, що олівець спрайт включає в себе гумку-костюм:
 
-![screenshot](images/paint-eraser-costume.png)
+![скріншот](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Клацніть правою кнопкою миші на цьому спрайті і виберіть 'Показати'. Ось як повинна виглядати ваша сцена:
++ Ваш проект також включає в себе окрему гумку-спрайт. Клацніть правою кнопкою миші на цьому спрайті і виберіть 'Показати'. Ось як повинна виглядати ваша сцена:
 
-![screenshot](images/paint-eraser-stage.png)
+![скріншот](images/paint-eraser-stage.png)
 
 + Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
 
