@@ -40,16 +40,16 @@ set pen color to [#FFFFFF]
 
 + Перевірте свій проект, щоб побачити, чи можна очистити та стерти платформу.
 
-![screenshot](images/paint-erase-test.png)
+![скріншот](images/paint-erase-test.png)
 
 There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
 
-![screenshot](images/paint-draw-problem.png)
+![скріншот](images/paint-draw-problem.png)
 
 To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
 
-![screenshot](images/pencil-gt-code.png)
+![скріншот](images/pencil-gt-code.png)
 
 + Test your project; you now shouldn't be able to draw near the selector blocks.
 
-![screenshot](images/paint-fixed.png)
+![скріншот](images/paint-fixed.png)
