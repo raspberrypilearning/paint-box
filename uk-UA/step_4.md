@@ -6,25 +6,25 @@
 
 ![скріншот](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Перейменуйте ваш новий образ «зелений олівець» і замалюйте олівцем такого самого кольору.
 
 ![скріншот](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Намалюйте два нових олівця- один блакитний квадрат і один зелений. Ви використовуватимете їх для вибору синього або зеленого олівця.
 
 ![скріншот](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Перейменуйте свої олівця так, щоб оди називався "голубий", а інший "зелений",
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ Додайте код до "зелений олівець" зправа так, щоб, коли його натиснули, він передав` перейшов на` (: class = "blockevents") повідомлення "зелений" до олівця,таким чином, змінюючи образ та колір олівця.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Переключіться на ваш олівець. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
 
 ![Broadcast green](images/broadcast-green.png)
 
