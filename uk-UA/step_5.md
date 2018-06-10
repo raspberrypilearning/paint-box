@@ -28,12 +28,12 @@ When the pencil receives the "eraser" message, you can switch the pencil costume
 
 + Додайте деякі коду для створення гумки
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Додайте код до олівця: ** Коли я отримую** гумка ** повідомлення ** ** Перемикання на обзор ** <0> Встановити колір ручки ** білий \--- hints \--- \--- hint \--- Ось як повинен виглядати код олівця:</p> 
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+коли я отримую [ гумка]
+перехід тла на [гумка v]
+встановити колір ручки [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
