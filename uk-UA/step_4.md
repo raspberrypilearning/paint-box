@@ -20,37 +20,37 @@
 
 + Додайте код до "зелений олівець" зправа так, щоб, коли його натиснули, він передав` перейшов на` (: class = "blockevents") повідомлення "зелений" до олівця,таким чином, змінюючи образ та колір олівця.
 
-![Broadcast green](images/paint-broadcast-green.png)
+![Перехід на зелений колір](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Переключіться на ваш олівець. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Переключіться на ваш олівець. Додайте код, таким чином,щоб, коли цей олівець перейшов на `broadcast`{:class="blockevents"}, він змінював колір олівця на зелений.
 
-![Broadcast green](images/broadcast-green.png)
+![Перехід на зелений колір](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Щоб намалювати олівець зеленим кольором, натисніть кольоровий квадрат у наборі кольорів </code>{:class="blockpen"} і нажміть на зелений спрайт, щоб вибрати цей колір для олівця.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
-
-```blocks
-when this sprite clicked
-broadcast [blue v]
-```
-
-...and add this code to the pencil sprite:
++ Тепер ви можете робити таке ж саме і для піктограми блакитного олівця: додати цей код до синій квадратних спрайтів:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+коли цей спрайт натиснуто
+перехід [синій v]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
+...додайте цей код до вашого олівця:
 
-![Start pencil](images/start-pencil.png)
+```blocks
+коли я отримую [голубий v]
+Перехід обзору на [голубий олівець]
+встановити ручку кольору [# 0000ff]
+```
+
++ Накінець, додайте цей код, щоб повідомити про те, з якого кольору слід розпочинати, і переконайтеся, що екран чистий.
+
+![Початок олівця](images/start-pencil.png)
 
 Ми вирішили розпочати з синього кольору, але, якщо захочете, ви можете почати з іншого кольору.
 
 + Перевірте ваш проект. Ви можете переключитися між синім та зеленим ручками, натискаючи сині або зелені квадратні спрайти.
 
-![screenshot](images/paint-pens-test.png)
+![скріншот](images/paint-pens-test.png)
