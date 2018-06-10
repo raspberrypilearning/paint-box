@@ -8,7 +8,7 @@
     
     ![скріншот](images/paint-starter.png)
     
-    + Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
+    + Додайте код олівця, щоб при натисканні миші ви могли малювати `назавжди`{:class="blockcontrol"}:
     
     ```blocks
         коли натиснуто прапорець
@@ -35,7 +35,7 @@
     
     Якщо ви помітили, що олівець малює лінію з середини, а не кінчика, вам доведеться змінити центр.
     
-    ![Costume center](images/costume-center.png)
+    ![Центр образів](images/costume-center.png)
     
     Перетин олівця слід розмістити ** трохи нижче ** кінчика олівця, але не на самому кінці.
     
