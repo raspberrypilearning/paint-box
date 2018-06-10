@@ -39,6 +39,6 @@
     
     Перетин олівця слід розмістити ** трохи нижче ** кінчика олівця, але не на самому кінці.
     
-    A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+    Зміни в центрі спрайта будуть не збережені, доки не натискатиметься інша вкладка, тому натисніть інший обзор або у вкладці "Скрипти", щоб завершити зміни.
     
     \---collapse\---
