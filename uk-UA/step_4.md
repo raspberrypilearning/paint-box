@@ -1,8 +1,8 @@
 ## Кольорові олівці
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Давайте додамо до вашого проекту різні кольорові олівці та дозволимо користувачеві обирати палітру.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Натисніть на свій олівець "Образи" та скопіюйте "олівець-синій".
 
 ![скріншот](images/paint-blue-duplicate.png)
 
