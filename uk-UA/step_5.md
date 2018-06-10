@@ -20,11 +20,11 @@
 
 ![скріншот](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Додайте код до гумки, щоб вказати, як олівець переключатиметься на неї, під час натискання спрайту.
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Коли олівець отримує повідомлення від «гумка», ви можете переключити обзор на гумку і змінити колір олівця в білий - такий самий колір, що і на сцені!
 
 + Додайте деякі коду для створення гумки
 
@@ -42,7 +42,7 @@ When the pencil receives the "eraser" message, you can switch the pencil costume
 
 ![скріншот](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Є ще одна проблема з олівцем - ви можете малювати в будь-якому місці на сцені, в тому числі біля піктограми селектора!
 
 ![скріншот](images/paint-draw-problem.png)
 
