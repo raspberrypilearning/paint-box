@@ -46,10 +46,10 @@
 
 ![скріншот](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Щоб виправити цю проблему, повідомте олівцеві для малювання, при натисканні мишки *і* якщо y-позиція миші перевищує -120:
 
 ![скріншот](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Протестуйте свій проект; тепер ви не зможете малювати поблизу селекторних блоків.
 
 ![скріншот](images/paint-fixed.png)
