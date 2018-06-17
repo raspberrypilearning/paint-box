@@ -1,12 +1,12 @@
-\--- challenge \---
+\---challenge \---
 
-## Challenge: shortcuts
+## 挑战: 快捷方式
 
-Can you create keyboard shortcuts for your commands? For example:
+你能为你的命令创建键盘快捷方式吗？ 例如：
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
++ b = 切换到蓝色
++ g = 切换到绿色
++ e = 切换到橡皮
 + c = clear screen
 
 You could even allow the user to change the pen width with the arrow keys.
