@@ -11,33 +11,33 @@
 + 向铅笔中添加代码让它`永远`{:class="blockcontrol"} 跟随鼠标移动，这样你就可以画画了：
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
+    点击绿旗时
+    重复无限次 
+      定位到 [mouse pointer v] 位置
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ 点击绿旗然后在舞台上移动鼠标测试代码是否正常工作。
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+接下来，我们让铅笔仅在`如果`{:class="blockcontrol"}鼠标点击的情况下绘画。
 
-+ Add this code to your pencil sprite:
++ 将下面的代码添加到铅笔角色中：
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ 再次测试代码。 这次，在舞台上按住鼠标左键并移动鼠标。 你能用铅笔画画吗？
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: 如果你遇到了困难...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+如果你的铅笔看上去像是用铅笔中断在划线而不是铅笔尖划线，你需要修改造型的中心。
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+铅笔的中心十字线必须放置在笔尖的**正下方**，不要放置在笔尖上。
 
 A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
 
