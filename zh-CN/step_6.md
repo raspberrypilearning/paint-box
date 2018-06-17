@@ -14,20 +14,20 @@
 
 现在铅笔的宽度会不断地被设置为变量“宽度”的值。
 
-+ Right click on the variable display on the stage and click 'slider'.
++ 右键点击显示在舞台上的变量然后点击“滑杆”。
 
-![screenshot](images/paint-slider.png)
+![截屏](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+你可以拉动滑杆改变变量的值。
 
-![screenshot](images/paint-slider-change.png)
+![截屏](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ 测试你的项目，看能否改变铅笔宽度。
 
-![screenshot](images/paint-width-test.png)
+![截屏](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+如果你愿意，你可以设置笔尖“宽度”允许的最大最小值。 要设置最大最小值，右键点击变量并点击“设置滑杆最小值和最大值”。 将最小值和最大值设置得更加合理一些，比如1和20。
 
-![screenshot](images/paint-slider-max.png)
+![截屏](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+反复测试宽度变量直到你满意为止。
