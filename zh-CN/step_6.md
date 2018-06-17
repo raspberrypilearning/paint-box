@@ -6,13 +6,13 @@
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ 将这行代码添加到铅笔代码的`重复执行`{:class="blockcontrol"} 循环*内*：
 
 ```blocks
-    set pen size to (width)
+    笔迹宽度设为 (宽度)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+现在铅笔的宽度会不断地被设置为变量“宽度”的值。
 
 + Right click on the variable display on the stage and click 'slider'.
 
