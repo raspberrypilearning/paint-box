@@ -1,22 +1,22 @@
-## Coloured pencils
+## 彩色铅笔
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+让我们向项目中国添加其他颜色的铅笔，让用户可以选择不用颜色的铅笔。
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ 点击铅笔角色，点击“造型”然后复制“蓝色铅笔”造型。
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ 将新造型命名为“绿色铅笔”，并将它变成绿色。
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ 绘制2个新角色 -- 一个蓝色方块，一个绿色方块。 你将用这2个方块来选择蓝色或绿色铅笔。
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ 将角色重命名为“蓝色”和“绿色”
 
 + Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
 
