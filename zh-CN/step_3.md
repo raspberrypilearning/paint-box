@@ -6,7 +6,7 @@
 
 你将会看到铅笔和橡皮：
 
-![screenshot](images/paint-starter.png)
+![截屏](images/paint-starter.png)
 
 + 向铅笔中添加代码让它`永远`{:class="blockcontrol"} 跟随鼠标移动，这样你就可以画画了：
 
@@ -23,11 +23,11 @@
 
 + 将下面的代码添加到铅笔角色中：
 
-![screenshot](images/paint-pencil-draw-code.png)
+![截屏](images/paint-pencil-draw-code.png)
 
 + 再次测试代码。 这次，在舞台上按住鼠标左键并移动鼠标。 你能用铅笔画画吗？
 
-![screenshot](images/paint-draw.png)
+![截屏](images/paint-draw.png)
 
 ## \--- collapse \---
 
@@ -35,10 +35,10 @@
 
 如果你的铅笔看上去像是用铅笔中断在划线而不是铅笔尖划线，你需要修改造型的中心。
 
-![Costume center](images/costume-center.png)
+![造型中心](images/costume-center.png)
 
 铅笔的中心十字线必须放置在笔尖的**正下方**，不要放置在笔尖上。
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+在点击其他选项卡前，修改角色的“造型中心”是不会生效的。所以我们需要点击另一个造型，或者点击“脚本”选项卡来让修改造型中心生效。
 
 \--- /collapse \---
