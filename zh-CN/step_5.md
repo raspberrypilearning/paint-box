@@ -1,6 +1,6 @@
-## Making mistakes
+## 孰能无过
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+有时我们会画错，所以让我们加入“清屏”按钮和橡皮。
 
 + Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
 
