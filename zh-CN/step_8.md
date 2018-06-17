@@ -1,11 +1,11 @@
-\--- challenge \---
+\---challenge \---
 
-## Challenge: more pencils
+## 挑战: 更多铅笔
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+你能为你的程序添加红色、黄色和黑色铅笔吗？ 如果你忘了怎么实现，请回看上面的第2步。 记得为新铅笔加上键盘快捷方式。
 
-Can you use your pencils to draw a picture?
+你能用你的程序画出一副画吗？
 
-![screenshot](images/paint-final.png)
+![截屏](images/paint-final.png)
 
 \--- /challenge \---
