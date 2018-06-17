@@ -4,52 +4,52 @@
 
 + 添加‘X-block'角色 -- 你可以在角色库的字母分类中找到它。 将造型改为红色。 这样就变为了“清除”按钮。
 
-![screenshot](images/paint-x.png)
+![截屏](images/paint-x.png)
 
 + 向清除按钮中添加代码，让它被点击时清空舞台上的内容。
 
-![Clear stage](images/clear-stage.png)
+![清空舞台](images/clear-stage.png)
 
 注意你不需要通过发送消息来清空舞台，你可以直接在角色中使用清空代码块。
 
 你可能已经发现铅笔角色包含来一个橡皮造型：
 
-![screenshot](images/paint-eraser-costume.png)
+![截屏](images/paint-eraser-costume.png)
 
 + 项目中还包含一个单独的橡皮角色。 右键点击这个角色并选择“显示”。 你的舞台应该跟下图一样：
 
-![screenshot](images/paint-eraser-stage.png)
+![截屏](images/paint-eraser-stage.png)
 
 + 向橡皮角色中添加代码，当橡皮被点击时告诉铅笔切换到橡皮。
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![广播变橡皮](images/broadcast-eraser.png)
 
 当铅笔接收到“变橡皮”消息时，你可以将铅笔造型切换为橡皮，并将画笔颜色设为白色 -- 与舞台颜色一致！
 
 + 为橡皮添加如下代码
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- 为铅笔角色添加如下代码： **当收到** **变橡皮**消息时 **造型换成**橡皮 **笔迹颜色设为**白色 \--- /hint \--- \--- hint \--- 下面是铅笔角色内的代码：
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+当收到消息 [变橡皮 v]
+造型换成 [橡皮 v]
+笔迹颜色设为 [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ 测试你的项目，看你是否能够清空和擦除舞台上的内容。
 
-![screenshot](images/paint-erase-test.png)
+![截屏](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+你的铅笔还有一点小问题 -- 你可以在舞台的任意地方绘制，包括选择图标区域！
 
-![screenshot](images/paint-draw-problem.png)
+![截屏](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+要修复这个问题，只需要告诉铅笔只能在鼠标按下*并且*y坐标大于-120时才绘图：
 
-![screenshot](images/pencil-gt-code.png)
+![截屏](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ 测试你的项目；现在你应该不能绘制到选择图标区域了。
 
-![screenshot](images/paint-fixed.png)
+![截屏](images/paint-fixed.png)
