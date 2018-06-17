@@ -7,8 +7,8 @@
 + b = 切换到蓝色
 + g = 切换到绿色
 + e = 切换到橡皮
-+ c = clear screen
++ c = 清空屏幕
 
-You could even allow the user to change the pen width with the arrow keys.
+你甚至可以让用户通过键盘方向键改变画笔宽度。
 
 \--- /challenge \---
