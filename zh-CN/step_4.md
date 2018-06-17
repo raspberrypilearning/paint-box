@@ -18,26 +18,26 @@
 
 + 将角色重命名为“蓝色”和“绿色”
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ 向“绿色”角色添加代码，让它被点击时`广播`{:class="blockevents"}消息“变绿色”给铅笔角色，告诉铅笔改变造型和颜色。
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ 切换到铅笔角色。 添加代码让它在接收到`广播`{:class="blockevents"}变绿色时，切换到绿色铅笔造型并改变画笔的颜色为绿色。
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+要将铅笔的颜色设为绿色，点击`将画笔颜色设置为`{:class="blockpen"} 代码块中的颜色块，然后点击绿色方块角色，为画笔选择与绿色方块相同的绿色。
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ 现在你可以对蓝色图标做相同的操作：添加如下代码到蓝色方块角色：
 
 ```blocks
-when this sprite clicked
-broadcast [blue v]
+当角色被点击
+广播消息 [变蓝色 v]
 ```
 
-...and add this code to the pencil sprite:
+...并将如下代码加入铅笔角色：
 
 ```blocks
 when I receive [blue v]
