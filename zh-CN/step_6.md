@@ -1,8 +1,8 @@
-## Changing the pencil width
+## 改变铅笔宽度
 
-Let's allow the user to draw using a range of different pencil sizes.
+让我们允许用户使用不同粗细的铅笔来绘图。
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ 首先，新建一个名为`宽度`{:class="blockvariable"}的变量。
 
 [[[generic-scratch-add-variable]]]
 
