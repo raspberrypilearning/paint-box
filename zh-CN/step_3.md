@@ -1,8 +1,8 @@
-## Making a pencil
+## 创建铅笔
 
-Let's start by making a pencil that can be used to draw on the stage.
+让我们从创建一支能在舞台上绘画的铅笔开始。
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ 在线打开“颜色盒”工程[jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} 或者从 <http://jumpto.cc/paint-get>{:target="_blank"}下载离线项目用离线编辑器打开。
 
 You will see pencil and eraser sprites:
 
