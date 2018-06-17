@@ -1,22 +1,22 @@
 ## 孰能无过
 
-有时我们会画错，所以让我们加入“清屏”按钮和橡皮。
+有时我们会画错，所以让我们加入“清除”按钮和橡皮。
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ 添加‘X-block'角色 -- 你可以在角色库的字母分类中找到它。 将造型改为红色。 这样就变为了“清除”按钮。
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ 向清除按钮中添加代码，让它被点击时清空舞台上的内容。
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+注意你不需要通过发送消息来清空舞台，你可以直接在角色中使用清空代码块。
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+你可能已经发现铅笔角色包含来一个橡皮造型：
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ 项目中还包含一个单独的橡皮角色。 Right click on this sprite and choose 'show'. Here is how your stage should look:
 
 ![screenshot](images/paint-eraser-stage.png)
 
