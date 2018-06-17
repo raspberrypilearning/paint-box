@@ -16,17 +16,17 @@
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ 项目中还包含一个单独的橡皮角色。 Right click on this sprite and choose 'show'. Here is how your stage should look:
++ 项目中还包含一个单独的橡皮角色。 右键点击这个角色并选择“显示”。 你的舞台应该跟下图一样：
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ 向橡皮角色中添加代码，当橡皮被点击时告诉铅笔切换到橡皮。
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+当铅笔接收到“变橡皮”消息时，你可以将铅笔造型切换为橡皮，并将画笔颜色设为白色 -- 与舞台颜色一致！
 
-+ Add some code to create the eraser
++ 为橡皮添加如下代码
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
