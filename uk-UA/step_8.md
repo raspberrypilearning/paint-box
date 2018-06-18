@@ -8,4 +8,4 @@
 
 ![скріншот](images/paint-final.png)
 
-\--- / виклик \---
+\--- /challenge \---
