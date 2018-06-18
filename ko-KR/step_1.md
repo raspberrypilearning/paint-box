@@ -1,8 +1,8 @@
-## Introduction
+## 들어가며
 
 Make your own paint program!
 
-### What you will make
+### 만들게 될 것
 
 Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
 
@@ -11,11 +11,11 @@ Click on the green flag to start. Use the mouse to move the pencil and hold down
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### 배우게 될 것
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [문제를 해결하기 위해 프로그래밍 구문 조합하기](https://www.raspberrypi.org/curriculum/programming/builder) {: target = "_ blank"}
 
 ### 교육자를 위한 추가 정보
 
