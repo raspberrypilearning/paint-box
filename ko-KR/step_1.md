@@ -1,10 +1,10 @@
 ## 들어가며
 
-Make your own paint program!
+자신만의 색칠하기 프로그램을 만들어봐요!
 
 ### 만들게 될 것
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+녹색 깃발을 눌러 시작합니다. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
