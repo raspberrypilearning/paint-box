@@ -4,7 +4,7 @@
 
 ### 만들게 될 것
 
-녹색 깃발을 눌러 시작합니다. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. 페이지를 지우려면 X표시를 클릭 해 보세요.
+녹색 깃발을 눌러 시작합니다. 마우스를 사용하여 연필을 이동하고 마우스 왼쪽 버튼을 누른 상태로 그립니다. 색상을 클릭하여 연필색을 바꾸거나 지우개를 클릭하여 그림을 지울 수 있습니다. 페이지를 지우려면 X표시를 클릭 해 보세요.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
