@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: more pencils
+## 도전과제: 더 많은 연필들
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+빨간색, 노란색, 검은색 연필들을 추가 할 수 있을까요? 어떻게 하는지 잘 모르겠다면, 두번째 단계를 다시 한번 살펴보세요. 새 연필들에도 키보드 단축키를 추가하는 걸 잊지 마세요.
 
-Can you use your pencils to draw a picture?
+새 연필들을 사용해서 그림을 그릴 수 있나요?
 
 ![screenshot](images/paint-final.png)
 
