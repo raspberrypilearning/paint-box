@@ -21,17 +21,17 @@ Let's start by making a pencil that can be used to draw on the stage.
 
 Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
-+ Add this code to your pencil sprite:
++ 이 코드를 연필 스트라이트에 추가 해 보세요:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ 코드를 다시 테스트 해 보세요. 이번엔, 스테이지 주변으로 연필을 이동면서 마우스 버튼을 누르고 있어 보세요. 연필로 그림을 그릴 수 있나요?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: 만약 문제가 생겼다면...
 
 If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
 
