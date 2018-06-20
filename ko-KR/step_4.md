@@ -12,45 +12,45 @@
 
 [[[generic-scratch-rename-sprite]]]
 
-+ 새로운 사각형 스프라이트 두 개를 그려주세요. 파란색 하나, 초록색 하나. 어떤 색의 색연필을 사용할 지 선택할 때 이 스프라이트를 사용할 것입니다.
++ 새로운 사각형 스프라이트 두 개를 그려주세요. 파란색 하나, 녹색 하나. 어떤 색의 색연필을 사용할 지 선택할 때 이 스프라이트를 사용할 것입니다.
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ 새 스프라이트의 이름을 'blue'와 'green'으로 바꿔 주세요.
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ 'green' 스프라이트가 클릭되면, green `방송하기`{:class="blockevents"} 를 연필 스트라이트에게 보내서 모양과 색을 바꿀 수 있도록 코드를 추가 해 주세요.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ 연필 스프라이트로 돌아가세요. 이 스프라이트가 green `수신하기`{:class="blockevents"} 이벤트를 받으면, 녹색 연필 모양으로 바뀌고 연필 색깔을 녹색으로 바꾸는 코드를 추가 하세요.
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+연필 색을 녹색으로 정하기 위해서, `펜 색깔을 정하기`{:class="blockpen"} 블록의 색깔 박스를 클릭하고, 녹색 스프라이트를 클릭해서 연필이 녹색 스프라이트와 같은 색이 되도록 선택합니다.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
-
-```blocks
-when this sprite clicked
-broadcast [blue v]
-```
-
-...and add this code to the pencil sprite:
++ 이제 파란 연필 아이콘에도 해 봅시다: 다음의 코드를 파란색 사각형 스프라이트에 추가 해 주세요.
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+이 스프라이트를 클릭할 때
+[blue v] 방송하기
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
+.. 그리고 이 코드를 연필 스프라이트에 추가 해 주세요
+
+```blocks
+[blue v] 수신할 때
+모양을 [pencil-blue v]로 바꾸기
+펜 색깔을 [#0000ff]로 정하기
+```
+
++ 마지막으로, 연필 스프라이트가 어떤 색으로 시작하게 될지 알려주고 시작할 때 화면이 비어있는지 확인할 수 있도록 이 코드를 추가 하세요.
 
 ![Start pencil](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+우리는 파란색으로 시작하도록 선택했지만, 원한다면 다른 색으로 시작해도 됩니다.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ 우리의 프로젝트를 테스트 해 보세요. 파란색 사각형과 녹색 사각형을 클릭해서 연필의 색을 바꿀 수 있나요?
 
 ![screenshot](images/paint-pens-test.png)
