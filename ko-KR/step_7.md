@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## 도전과제: 단축키
 
-Can you create keyboard shortcuts for your commands? For example:
+명령에 대한 단축키를 만들 수 있나요? 예를 들면 :
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = 파란색 펜으로 전환
++ g = 녹색 펜으로 전환
++ e = 지우개로 전환
++ c = 화면 지우기
 
-You could even allow the user to change the pen width with the arrow keys.
+방향키로 펜의 두께를 조절할 수 있도록 만들어 줄 수도 있겠죠!
 
 \--- /challenge \---
