@@ -1,18 +1,18 @@
-## Coloured pencils
+## 색연필
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+다른 색의 연필들을 추가해서 사용자가 색을 고를 수 있도록 해 봐요.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ 연필 스프라이트를 클릭하고, '모양' 탭을 누른 후 'pencil-blue' 모양을 복사 해 주세요.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ 새 모양의 이름을 ’pencil-green’으로 바꾸고, 녹색으로 칠해주세요.
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ 새로운 사각형 스프라이트 두 개를 그려주세요. 파란색 하나, 초록색 하나. 어떤 색의 색연필을 사용할 지 선택할 때 이 스프라이트를 사용할 것입니다.
 
 ![screenshot](images/paint-selectors.png)
 
