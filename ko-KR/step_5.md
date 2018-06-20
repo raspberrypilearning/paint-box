@@ -16,7 +16,7 @@
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ 프로젝트에는 별도의 지우개 스프라이트가 포함되어있습니다. 이 스프라이트를 우클릭하고 '보이기'를 선택합니다. 이제 스테이지는 다음처럼 보여야 합니다:
 
 ![screenshot](images/paint-eraser-stage.png)
 
@@ -28,12 +28,12 @@
 
 + 지우개를 만들기 위해 몇가지 코드 추가하기
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- 연필 스프라이트에 몇가지 코드를 더 추가합시다: **eraser** **수신할 때** **모양을** eraser로 바꾸기 **펜 색깔을** white 로 정하기 \--- /hint \--- \--- hint \--- 이제 연필 스프라이트의 코드는 다음과 같이 보여야 합니다:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+[eraser v] 수신할 때
+모양을 [eraser v]로 바꾸기
+펜 색깔을 [#FFFFFF] 로 정하기
 ```
 
 \--- /hint \--- \--- /hints \---
