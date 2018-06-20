@@ -1,14 +1,14 @@
-## Making a pencil
+## 연필 만들기
 
 Let's start by making a pencil that can be used to draw on the stage.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ 'Paintbox' 스크래치 프로젝트를 온라인 [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} 에서 열거나 <http://jumpto.cc/paint-get>{:target="_black"} 을 다운로드 받아 오프라인 에디터에서 사용할 수 있는 프로젝트를 엽니다.
 
-You will see pencil and eraser sprites:
+연필과 지우개 스프라이트를 볼 수 있습니다:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ 그림을 그릴 수 있도록 연필 스프라이트가 마우스를 `무한반복하기` 로 따라다닐 수 있도록 몇개의 코드를 추가합니다:
 
 ```blocks
     when flag clicked
