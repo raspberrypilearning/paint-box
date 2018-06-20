@@ -26,7 +26,7 @@
 
 ![screenshot](images/paint-width-test.png)
 
-원한다면, 'width'의 최소값과 최대값을 정해 둘 수 있습니다. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+원한다면, 'width'의 최소값과 최대값을 정해 둘 수 있습니다. 그러려면, 변수를 다시 우클릭 한 후 '슬라이더 최대값과 최소값 설정하기'를 눌러주세요. 최소값과 최대값을 1에서 20같이 좀더 그럴싸한 값으로 바꿔주세요.
 
 ![screenshot](images/paint-slider-max.png)
 
