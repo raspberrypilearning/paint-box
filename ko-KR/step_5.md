@@ -1,18 +1,18 @@
-## Making mistakes
+## 실수 해보기
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+언제든 실수는 할 수 있죠, 그러니 '다 지우기' 버튼과 지우개를 추가 해 봅시다.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ 'X-block' 스프라이트를 추가하세요. 저장소의 글자들 섹션에서 찾을 수 있습니다. 모양을 빨간색으로 바꿔 주세요. 이게 '다 지우기' 버튼이 될 것입니다.
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ 이 버튼을 누르면 스테이지를 전부 지우도록 코드를 추가 해 봅시다.
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+스테이지를 지우기 위해 메세지를 보낼 필요는 없어요. 그냥 '지우기' 블럭을 사용하면 됩니다.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+아마도 연필 스프라이트가 지우개 모양을 포함하고 있음을 눈치 챘을거에요.
 
 ![screenshot](images/paint-eraser-costume.png)
 
@@ -20,13 +20,13 @@ You have probably noticed that your pencil sprite includes an eraser costume:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ 지우개 스프라이트가 클릭되면 연필이 지우개로 바뀔 수 있도록 코드를 추가합시다.
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+연필이 "지우개" 메세지를 받으면, 연필의 모양을 지우개로 바꾸고, 연필의 색을 스테이지 색과 똑같이 흰색으로 바꿔줍시다.
 
-+ Add some code to create the eraser
++ 지우개를 만들기 위해 몇가지 코드 추가하기
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
@@ -38,18 +38,18 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ '다 지우기'와 지우개가 잘 동작하는지 프로젝트를 테스트 해 봅시다.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+연필에 관련 된 문제가 하나 더 있어요! 스테이지의 어디든 그릴 수 있기 때문에, 색깔 선택 아이콘 근처에도 그릴 수 있습니다.
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+이걸 해결하려면, 마우스 버튼이 눌려있고, *그리고* 만약 마우스의 y-위치가 -120보다 클 때만 그리도록 하면 됩니다.
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ 프로젝트를 테스트 해 보세요. 이제는 색깔 선택 위치 근처에는 그릴 수 없어야 합니다.
 
 ![screenshot](images/paint-fixed.png)
