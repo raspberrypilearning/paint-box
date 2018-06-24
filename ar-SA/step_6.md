@@ -1,32 +1,32 @@
 ## تغيير عرض قلم الرصاص
 
-Let's allow the user to draw using a range of different pencil sizes.
+نسمح للمستخدم بالرسم باستخدام مجموعة مختلفة الأحجام من الاقلام.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ أولا ، إضافة متغير جديد يسمى ` العرض ` {: فئة = "blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ أضف هذا السطر داخل * * و ` إلى الأبد ` {: class = "blockcontrol"} حلقة من رمز القلم الرصاص:
 
 ```blocks
-    set pen size to (width)
+    تعيين حجم القلم (عرض)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+سيتم الآن تعيين عرض القلم الرصاص مراراً وتكراراً إلى قيمة المتغير 'العرض'.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ انقر بزر الماوس الأيمن على الشاشة المتغيرة على المسرح وانقر فوق "شريط التمرير".
 
 ![screenshot](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+يمكنك الآن سحب شريط التمرير أسفل المتغير لتغيير قيمته.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ اختبر المشروع الخاص بك، وانظر إذا كان يمكنك تعديل عرض القلم.
 
 ![screenshot](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+إذا كنت تفضل، يمكنك تعيين قيمة الحد الأدنى والحد الأقصى من 'العرض' المسموح به. للقيام بهذا، انقر بالزر الأيمن على المتغير مرة أخرى وانقر فوق 'تعيين شريط التمرير min و max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
 
 ![screenshot](images/paint-slider-max.png)
 
