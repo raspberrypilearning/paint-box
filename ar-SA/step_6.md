@@ -1,4 +1,4 @@
-## Changing the pencil width
+## تغيير عرض قلم الرصاص
 
 Let's allow the user to draw using a range of different pencil sizes.
 
