@@ -16,18 +16,18 @@
 
 + انقر بزر الماوس الأيمن على الشاشة المتغيرة على المسرح وانقر فوق "شريط التمرير".
 
-![screenshot](images/paint-slider.png)
+![لقطة الشاشة](images/paint-slider.png)
 
 يمكنك الآن سحب شريط التمرير أسفل المتغير لتغيير قيمته.
 
-![screenshot](images/paint-slider-change.png)
+![لقطة الشاشة](images/paint-slider-change.png)
 
 + اختبر المشروع الخاص بك، وانظر إذا كان يمكنك تعديل عرض القلم.
 
-![screenshot](images/paint-width-test.png)
+![لقطة الشاشة](images/paint-width-test.png)
 
-إذا كنت تفضل، يمكنك تعيين قيمة الحد الأدنى والحد الأقصى من 'العرض' المسموح به. للقيام بهذا، انقر بالزر الأيمن على المتغير مرة أخرى وانقر فوق 'تعيين شريط التمرير min و max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+إذا كنت تفضل، يمكنك تعيين قيمة الحد الأدنى والحد الأقصى من 'العرض' المسموح به. للقيام بهذا، انقر بالزر الأيمن على المتغير مرة أخرى وانقر فوق 'تعيين شريط التمرير min و max'. عيّن الحد الأدنى والحد الأقصى لقيم المتغير الخاص بك إلى شيء أكثر منطقية ، مثل 1 و 20.
 
-![screenshot](images/paint-slider-max.png)
+![لقطة الشاشة](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+استمر في اختبار متغير "العرض" حتى تصبح سعيدًا.
