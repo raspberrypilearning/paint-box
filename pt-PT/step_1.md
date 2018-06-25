@@ -1,8 +1,8 @@
-## Introduction
+## Introdução
 
-Make your own paint program!
+Faz o teu próprio programa de pintura!
 
-### What you will make
+### O que vais fazer
 
 Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
 
