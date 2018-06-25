@@ -4,20 +4,20 @@ Commençons par faire un crayon qui peut être utilisé pour dessiner sur la sc�
 
 + Ouvrez le projet Scratch 'Paintbox' en ligne sur [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {: target = "_ blank"} ou téléchargez-le depuis [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {: target = "_ blank"}, puis ouvrez-le si vous utilisez l'éditeur hors ligne.
 
-You will see pencil and eraser sprites:
+Vous verrez les lutins du crayon et de la gomme :
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Ajoutez du code au lutin du crayon pour lui faire suivre la souris ` pour toujours ` {: class = "blockcontrol"} pour que vous puissiez dessiner :
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    quand le drapeau vert pressé
+répéter indéfiniment
+   aller à [mouse pointer v]
+fin
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Cliquez sur le drapeau vert, puis déplacez la souris sur la scène pour tester si le code fonctionne.
 
 Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
