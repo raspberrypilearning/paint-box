@@ -35,7 +35,7 @@ Ensuite, faisons en sorte que votre crayon ne dessine que ` si ` {: class = "blo
 
 Si votre crayon semble dessiner depuis son milieu plutôt que de sa pointe, vous devrez changer le centre du costume.
 
-![Costume center](images/costume-center.png)
+![Centre de costume](images/costume-center.png)
 
 Le réticule du crayon doit être placé ** juste en dessous ** de la pointe du crayon, pas sur la pointe du crayon.
 
