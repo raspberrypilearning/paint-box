@@ -15,9 +15,9 @@ Cliquez sur le drapeau vert pour démarrer. Utilisez la souris pour bouger le cr
 
 Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Combiner des éléments de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Additional information for educators
+### Informations supplémentaires pour les éducateurs
 
 If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
