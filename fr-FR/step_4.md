@@ -6,7 +6,7 @@ Ajoutons des crayons de couleurs différentes à votre projet, et permettons à 
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Renommez votre nouveau costume «pencil-green» et colorez le crayon vert.
 
 ![screenshot](images/paint-pencil-green.png)
 
