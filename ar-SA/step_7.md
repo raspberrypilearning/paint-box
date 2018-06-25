@@ -1,10 +1,10 @@
-\--- challenge \---
+التحدي
 
 ## Challenge: shortcuts
 
-Can you create keyboard shortcuts for your commands? For example:
+هل يمكنك إنشاء اختصارات لوحة المفاتيح لأوامرك؟ مثال:
 
-+ b = Switch to blue pen
++ ب = التبديل إلى القلم الأزرق
 + g = switch to green pen
 + e = switch to eraser
 + c = clear screen
