@@ -1,8 +1,8 @@
 ## Crayons de couleurs
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Ajoutons des crayons de couleurs différentes à votre projet, et permettons à l'utilisateur de choisir entre eux.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Cliquez sur votre lutin crayon, cliquez sur «Costumes» et dupliquez votre costume «pencil-blue».
 
 ![screenshot](images/paint-blue-duplicate.png)
 
