@@ -6,7 +6,7 @@ Commençons par faire un crayon qui peut être utilisé pour dessiner sur la sc�
 
 Vous verrez les lutins du crayon et de la gomme :
 
-![screenshot](images/paint-starter.png)
+![capture d'écran](images/paint-starter.png)
 
 + Ajoutez du code au lutin du crayon pour lui faire suivre la souris ` pour toujours ` {: class = "blockcontrol"} pour que vous puissiez dessiner :
 
@@ -19,26 +19,26 @@ fin
 
 + Cliquez sur le drapeau vert, puis déplacez la souris sur la scène pour tester si le code fonctionne.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Ensuite, faisons en sorte que votre crayon ne dessine que ` si ` {: class = "blockcontrol"} le bouton gauche de la souris est enfoncé.
 
-+ Add this code to your pencil sprite:
++ Ajoutez ce code à votre lutin de crayon :
 
-![screenshot](images/paint-pencil-draw-code.png)
+![capture d'écran](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Testez votre code à nouveau. Cette fois, déplacez le crayon sur la scène et maintenez le bouton gauche de la souris enfoncé. Pouvez-vous dessiner avec votre crayon ?
 
-![screenshot](images/paint-draw.png)
+![capture d'écran](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Si vous avez des problèmes ...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Si votre crayon semble dessiner depuis son milieu plutôt que de sa pointe, vous devrez changer le centre du costume.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Le réticule du crayon doit être placé ** juste en dessous ** de la pointe du crayon, pas sur la pointe du crayon.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Un changement dans le centre du costume d'un sprite n'est pas enregistré tant qu'un autre onglet n'est pas cliqué, alors cliquez sur un autre costume, ou sur l'onglet 'Scripts' pour finaliser vos changements de centre de costume.
 
 \--- /collapse \---
