@@ -1,8 +1,8 @@
-## Making a pencil
+## Faire un crayon
 
-Let's start by making a pencil that can be used to draw on the stage.
+Commençons par faire un crayon qui peut être utilisé pour dessiner sur la scène.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Ouvrez le projet Scratch 'Paintbox' en ligne sur [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {: target = "_ blank"} ou téléchargez-le depuis [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {: target = "_ blank"}, puis ouvrez-le si vous utilisez l'éditeur hors ligne.
 
 You will see pencil and eraser sprites:
 
