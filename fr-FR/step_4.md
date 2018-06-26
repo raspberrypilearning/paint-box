@@ -4,17 +4,17 @@ Ajoutons des crayons de couleurs différentes à votre projet, et permettons à 
 
 + Cliquez sur votre lutin crayon, cliquez sur «Costumes» et dupliquez votre costume «pencil-blue».
 
-![screenshot](images/paint-blue-duplicate.png)
+![capture d'écran](images/paint-blue-duplicate.png)
 
 + Renommez votre nouveau costume «pencil-green» et colorez le crayon vert.
 
-![screenshot](images/paint-pencil-green.png)
+![capture d'écran](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
 + Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
 
-![screenshot](images/paint-selectors.png)
+![capture d'écran](images/paint-selectors.png)
 
 + Rename your sprites so that they are called 'blue' and 'green'
 
@@ -53,4 +53,4 @@ We chose to start with blue but if you prefer, you can start with a different co
 
 + Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
 
-![screenshot](images/paint-pens-test.png)
+![capture d'écran](images/paint-pens-test.png)
