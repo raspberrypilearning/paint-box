@@ -1,8 +1,8 @@
-\--- challenge \---
+التحدي
 
-## Challenge: more pencils
+## التحدي: المزيد من أقلام الرصاص
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+هل يمكنك إضافة أقلام الرصاص الحمراء والصفراء والسوداء إلى برنامج الطلاء الخاص بك؟ Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
 
 Can you use your pencils to draw a picture?
 
