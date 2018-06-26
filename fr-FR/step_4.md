@@ -20,13 +20,13 @@ Ajoutons des crayons de couleurs différentes à votre projet, et permettons à 
 
 + Ajoutez du code au lutin "vert" de sorte que lorsque vous cliquez dessus, il ` diffusera ` {: class = "blockevents"} le message "vert" au lutin crayon, lui disant de changer sa couleur de costume et de stylo.
 
-![Broadcast green](images/paint-broadcast-green.png)
+![Diffuser le message "green"](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
 + Passez à votre lutin crayon. Ajoutez du code afin que lorsque ce lutin reçoit le message ` ` {: class = "blockevents"} vert, il passe au costume vert et change la couleur du stylo au vert.
 
-![Broadcast green](images/broadcast-green.png)
+![Diffuser le message "green"](images/broadcast-green.png)
 
 Pour mettre le stylo du lutin crayon en vert, cliquez sur la case de couleur dans la ` mettre la couleur du stylo ` {: class = "blockpen"} bloc, et cliquez sur le lutin vert pour choisir la même couleur verte que la couleur de votre crayon.
 
@@ -45,12 +45,12 @@ quand je reçois [vert v]
  mettre la couleur du stylo à [#00ff00
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ Enfin, ajoutez ce code pour indiquer au lutin crayon la couleur de départ et s'assurer que l'écran est vide.
 
-![Start pencil](images/start-pencil.png)
+![Crayon de début](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+Nous avons choisi de commencer avec le bleu mais si vous préférez, vous pouvez commencer avec un crayon de couleur différente.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Testez votre projet. Pouvez-vous basculer entre les crayons bleus et verts en cliquant sur les lutins carrés bleus ou verts ?
 
 ![capture d'écran](images/paint-pens-test.png)
