@@ -6,7 +6,7 @@ Ajoutons des crayons de couleurs différentes à votre projet, et permettons à 
 
 ![capture d'écran](images/paint-blue-duplicate.png)
 
-+ Renommez votre nouveau costume «pencil-green» et colorez le crayon vert.
++ Renommez votre nouveau costume «crayon-vert» et colorez le crayon en vert.
 
 ![capture d'écran](images/paint-pencil-green.png)
 
@@ -18,13 +18,13 @@ Ajoutons des crayons de couleurs différentes à votre projet, et permettons à 
 
 + Renommez vos lutins pour qu'ils soient appelés "bleu" et "vert"
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ Ajoutez du code au lutin "vert" de sorte que lorsque vous cliquez dessus, il ` diffusera ` {: class = "blockevents"} le message "vert" au lutin crayon, lui disant de changer sa couleur de costume et de stylo.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Passez à votre lutin crayon. Ajoutez du code afin que lorsque ce lutin reçoit le message ` ` {: class = "blockevents"} vert, il passe au costume vert et change la couleur du stylo au vert.
 
 ![Broadcast green](images/broadcast-green.png)
 
