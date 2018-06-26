@@ -1,19 +1,19 @@
 ---
 hero_image: images/banner.png
-theme: violet
+theme: بنفسجي
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1، 0-التصميم، 1-البرمجة، 0-فيزياء-شركات، 0-تصنيع، 0-المجتمع
 title: مربع الطلاء
 description: تعلَّم كيف تصنع برنامج رسم من ابتكارك.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
+interests: فن
+technologies: البداية
 site_areas: المشاريع
 hardware: ''
-software: scratch
+software: البداية
 version: 3
 last_tested: 2017-01-01
 steps:
