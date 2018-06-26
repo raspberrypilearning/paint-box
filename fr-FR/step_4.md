@@ -12,11 +12,11 @@ Ajoutons des crayons de couleurs différentes à votre projet, et permettons à 
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Dessinez deux nouveaux lutins - un carré bleu et un carré vert. Vous les utiliserez pour sélectionner le crayon bleu ou le crayon vert.
 
 ![capture d'écran](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Renommez vos lutins pour qu'ils soient appelés "bleu" et "vert"
 
 + Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
 
