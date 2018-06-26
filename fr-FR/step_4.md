@@ -28,21 +28,21 @@ Ajoutons des crayons de couleurs différentes à votre projet, et permettons à 
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Pour mettre le stylo du lutin crayon en vert, cliquez sur la case de couleur dans la ` mettre la couleur du stylo ` {: class = "blockpen"} bloc, et cliquez sur le lutin vert pour choisir la même couleur verte que la couleur de votre crayon.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Vous pouvez maintenant faire la même chose pour le message bleu. Ajoutez ce code au lutin bleu :
 
 ```blocks
-when this sprite clicked
-broadcast [blue v]
+quand ce lutin est cliqué
+ envoyer à tous [bleu v]
 ```
 
-...and add this code to the pencil sprite:
+ajoutez ce code à votre lutin crayon :
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+quand je reçois [vert v]
+ basculer sur costume [crayon-vert v]
+ mettre la couleur du stylo à [#00ff00
 ```
 
 + Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
