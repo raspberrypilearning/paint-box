@@ -1,12 +1,12 @@
-## Making mistakes
+## Réparer les erreurs
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Parfois, des erreurs se produisent, alors ajoutons un bouton "effacer" et une gomme.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Ajoutez le luttin 'X-block' - vous le trouverez dans la bibliothèque, dans la catégorie "Lettres". Colorez le costume en rouge. Cela deviendra le bouton "effacer".
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Ajoutez du code à ce lutin pour effacer la scène lorsqu'il est cliqué.
 
 ![Clear stage](images/clear-stage.png)
 
