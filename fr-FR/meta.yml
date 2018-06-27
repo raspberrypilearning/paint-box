@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Paint Box
-description: Learn how to make your own paint program.
+title: Boîte de peinture
+description: Apprenez à faire votre propre programme de dessin.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
 interests: art
 technologies: scratch
@@ -20,16 +20,16 @@ steps:
   - 
     title: Introduction
   - 
-    title: What you will need
+    title: Ce dont vous aurez besoin
   - 
-    title: Making a pencil
+    title: Faire un crayon
   - 
-    title: Coloured pencils
+    title: Crayons de couleurs
   - 
-    title: Making mistakes
+    title: Réparer les erreurs
   - 
-    title: Changing the pencil width
+    title: Changer l'épaisseur du trait
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Défi : raccourcis'
   - 
-    title: 'Challenge: more pencils'
+    title: 'Défi : plus de crayons'
