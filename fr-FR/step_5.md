@@ -26,7 +26,7 @@ Vous avez probablement remarqué que votre lutin crayon comprend un costume de g
 
 Lorsque le crayon reçoit le message "gomme", vous pouvez passer du costume crayon au costume gomme, et passer la couleur de crayon à blanc - la même couleur que la scène !
 
-+ Add some code to create the eraser
++ Ajoutez du code pour créer la gomme
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
