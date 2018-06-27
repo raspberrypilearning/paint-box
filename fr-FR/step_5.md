@@ -22,7 +22,7 @@ Vous avez probablement remarqué que votre lutin crayon comprend un costume de g
 
 + Ajoutez du code au lutin de la gomme, pour indiquer au crayon de passer au costume gomme lorsque le lutin gomme est cliqué.
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![Envoyer à tous "gomme"](images/broadcast-eraser.png)
 
 Lorsque le crayon reçoit le message "gomme", vous pouvez passer du costume crayon au costume gomme, et passer la couleur de crayon à blanc - la même couleur que la scène !
 
@@ -40,16 +40,16 @@ mettre la couleur du stylo à [#ffffff]
 
 + Testez votre projet, pour voir si vous pouvez gommer sur la scène et même effacer toute la scène.
 
-![screenshot](images/paint-erase-test.png)
+![capture d'écran](images/paint-erase-test.png)
 
 Il y a encore un problème avec le crayon - vous pouvez dessiner n'importe où sur la scène, y compris près des lutins de sélection !
 
-![screenshot](images/paint-draw-problem.png)
+![capture d'écran](images/paint-draw-problem.png)
 
 Pour résoudre ce problème, dites au crayon de ne dessiner que si vous cliquez sur la souris * et * si la position y de la souris est supérieure à -120 :
 
-![screenshot](images/pencil-gt-code.png)
+![capture d'écran](images/pencil-gt-code.png)
 
 + Testez votre projet ; vous ne devriez plus être en mesure de vous rapprocher des lutins de sélection.
 
-![screenshot](images/paint-fixed.png)
+![capture d'écran](images/paint-fixed.png)
