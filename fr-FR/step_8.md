@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: more pencils
+## Défi : plus de crayons
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+Pouvez-vous ajouter des crayons rouges, jaunes et noirs à votre programme de peinture ? Jetez un œil à l'étape 2 ci-dessus si vous avez oublié comment faire. N'oubliez pas d'ajouter des raccourcis clavier pour ces nouveaux crayons aussi.
 
 Can you use your pencils to draw a picture?
 
