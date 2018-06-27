@@ -12,19 +12,19 @@ Parfois, des erreurs se produisent, alors ajoutons un bouton "effacer" et une go
 
 Notez que vous n'avez pas besoin d'envoyer un message pour effacer la scène, vous pouvez simplement utiliser le bloc "effacer tout" de ce lutin.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Vous avez probablement remarqué que votre lutin crayon comprend un costume de gomme :
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Votre projet comprend également un lutin gomme distinct. Faites un clic droit sur ce lutin et choisissez "Montrer". Voici à quoi votre scène devrait ressembler :
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Ajoutez du code au lutin de la gomme, pour indiquer au crayon de passer au costume gomme lorsque le lutin gomme est cliqué.
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Lorsque le crayon reçoit le message "gomme", vous pouvez passer du costume crayon au costume gomme, et passer la couleur de crayon à blanc - la même couleur que la scène !
 
 + Add some code to create the eraser
 
