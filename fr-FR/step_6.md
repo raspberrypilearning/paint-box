@@ -6,13 +6,13 @@ Permettons à l'utilisateur de dessiner en utilisant une gamme de largeurs de tr
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Ajoutez cette ligne *à l'intérieur* de la boucle `pour toujours ` {: class = "blockcontrol"} du code du lutin crayon :
 
 ```blocks
-    set pen size to (width)
+    mettre la taille du stylo à (largeur)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+L'épaisseur du trait du stylo sera maintenant toujours liée à la valeur de la variable 'largeur'.
 
 + Right click on the variable display on the stage and click 'slider'.
 
