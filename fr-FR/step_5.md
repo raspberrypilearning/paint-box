@@ -4,21 +4,21 @@ Parfois, des erreurs se produisent, alors ajoutons un bouton "effacer" et une go
 
 + Ajoutez le luttin 'X-block' - vous le trouverez dans la bibliothèque, dans la catégorie "Lettres". Colorez le costume en rouge. Cela deviendra le bouton "effacer".
 
-![screenshot](images/paint-x.png)
+![capture d'écran](images/paint-x.png)
 
 + Ajoutez du code à ce lutin pour effacer la scène lorsqu'il est cliqué.
 
-![Clear stage](images/clear-stage.png)
+![Effacer la scène](images/clear-stage.png)
 
 Notez que vous n'avez pas besoin d'envoyer un message pour effacer la scène, vous pouvez simplement utiliser le bloc "effacer tout" de ce lutin.
 
 Vous avez probablement remarqué que votre lutin crayon comprend un costume de gomme :
 
-![screenshot](images/paint-eraser-costume.png)
+![capture d'écran](images/paint-eraser-costume.png)
 
 + Votre projet comprend également un lutin gomme distinct. Faites un clic droit sur ce lutin et choisissez "Montrer". Voici à quoi votre scène devrait ressembler :
 
-![screenshot](images/paint-eraser-stage.png)
+![capture d'écran](images/paint-eraser-stage.png)
 
 + Ajoutez du code au lutin de la gomme, pour indiquer au crayon de passer au costume gomme lorsque le lutin gomme est cliqué.
 
@@ -28,28 +28,28 @@ Lorsque le crayon reçoit le message "gomme", vous pouvez passer du costume cray
 
 + Ajoutez du code pour créer la gomme
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Ajoutons un peu de code au lutin crayon : **Quand je reçois ** **gomme** **Basculer sur le costume** gomme **Mettre la couleur du stylo à** blanc \--- /hint \--- \--- hint \--- Voici à quoi devrait ressembler le code du lutin crayon :
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+quand je reçois [gomme v]
+basculer sur le costume [gomme v]
+mettre la couleur du stylo à [#ffffff]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Testez votre projet, pour voir si vous pouvez gommer sur la scène et même effacer toute la scène.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Il y a encore un problème avec le crayon - vous pouvez dessiner n'importe où sur la scène, y compris près des lutins de sélection !
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Pour résoudre ce problème, dites au crayon de ne dessiner que si vous cliquez sur la souris * et * si la position y de la souris est supérieure à -120 :
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Testez votre projet ; vous ne devriez plus être en mesure de vous rapprocher des lutins de sélection.
 
 ![screenshot](images/paint-fixed.png)
