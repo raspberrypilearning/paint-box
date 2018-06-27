@@ -1,8 +1,8 @@
-## Changing the pencil width
+## Changer l'épaisseur du trait
 
-Let's allow the user to draw using a range of different pencil sizes.
+Permettons à l'utilisateur de dessiner en utilisant une gamme de largeurs de traits différentes.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ D'abord, ajoutez une nouvelle variable appelée `largeur` {:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
