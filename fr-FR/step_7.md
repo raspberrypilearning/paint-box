@@ -1,14 +1,14 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## Défi : raccourcis
 
-Can you create keyboard shortcuts for your commands? For example:
+Pouvez-vous créer des raccourcis clavier pour vos commandes ? Par exemple :
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = Passer au crayon bleu
++ v = Passer au crayon vert
++ g = Passer à la gomme
++ e = Effacer la scène
 
-You could even allow the user to change the pen width with the arrow keys.
+Vous pouvez même permettre à l'utilisateur de changer l'épaisseur du trait du crayon avec les flèches du clavier.
 
 \--- /challenge \---
