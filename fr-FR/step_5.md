@@ -10,7 +10,7 @@ Parfois, des erreurs se produisent, alors ajoutons un bouton "effacer" et une go
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Notez que vous n'avez pas besoin d'envoyer un message pour effacer la scène, vous pouvez simplement utiliser le bloc "effacer tout" de ce lutin.
 
 You have probably noticed that your pencil sprite includes an eraser costume:
 
