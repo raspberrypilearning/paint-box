@@ -2,7 +2,7 @@
 
 Ajoutons des crayons de couleurs différentes à votre projet, et permettons à l'utilisateur de choisir entre eux.
 
-+ Cliquez sur votre lutin crayon, cliquez sur «Costumes» et dupliquez votre costume «pencil-blue».
++ Cliquez sur votre lutin crayon, cliquez sur «Costumes» et dupliquez votre costume «crayon-bleu».
 
 ![capture d'écran](images/paint-blue-duplicate.png)
 
