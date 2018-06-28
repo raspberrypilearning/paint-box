@@ -1,16 +1,16 @@
 ---
 hero_image: images/banner.png
-theme: بنفسجي
+theme: violet
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1، 0-التصميم، 1-البرمجة، 0-فيزياء-شركات، 0-تصنيع، 0-المجتمع
-title: مربع الطلاء
+title: علبة الألوان
 description: تعلَّم كيف تصنع برنامج رسم من ابتكارك.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
 interests: فن
-technologies: البداية
+technologies: scratch
 site_areas: المشاريع
 hardware: ''
 software: البداية
@@ -22,7 +22,7 @@ steps:
   - 
     title: ما ستحتاج إليه
   - 
-    title: صنع قلم رصاص
+    title: إنشاء قلم رصاص
   - 
     title: أقلام ملونة
   - 
