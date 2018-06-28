@@ -12,8 +12,8 @@ Vous verrez les lutins du crayon et de la gomme :
 
 ```blocks
     quand le drapeau vert pressé
-répéter indéfiniment
-   aller à [mouse pointer v]
+pour toujours
+   aller à [pointeur de souris v]
 fin
 ```
 
