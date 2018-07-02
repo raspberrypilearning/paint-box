@@ -1,14 +1,14 @@
-## Making a pencil
+## Fazendo um lápis
 
-Let's start by making a pencil that can be used to draw on the stage.
+Vamos começar fazendo um lápis que pode ser usado para desenhar no palco.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Abra o projeto 'Paintbox' no Scratch (versão online) em [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_ blank"} ou faça o download de <http://jumpto.cc/paint-get>{:target="_ blank"} e depois abra no editor Scratch versão off-line.
 
-You will see pencil and eraser sprites:
+Você verá atores de lápis e borracha:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Adicione algum código ao ator lápis para que ele siga o mouse `sempre`{:class= "blockcontrol"} para que você possa desenhar:
 
 ```blocks
     when flag clicked
@@ -25,13 +25,13 @@ Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Teste seu código novamente. This time, move the pencil around the stage and hold down the mouse button. Você pode desenhar com o seu lápis?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Se você tiver problemas...
 
 If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
 
