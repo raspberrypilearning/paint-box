@@ -1,24 +1,24 @@
-## Introduction
+## Introdução
 
-Make your own paint program!
+Faça o seu próprio programa de pintura!
 
-### What you will make
+### O que você vai fazer
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+Clique na bandeira verde para começar. Use o mouse para mover o lápis e segure o botão esquerdo do mouse para desenhar. Clique em uma cor para trocar de lápis ou clique na borracha e use-a para apagar seu trabalho. Para limpar a página, clique na cruz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### O que você vai aprender
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Currículo de Criação Digital](http://rpf.io/curriculum){:target="_ blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Use construções básicas de programação para criar programas simples](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Additional information for educators
+### Informações adicionais para educadores
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Use o link no rodapé para acessar o projeto no repositório do GitHub. Tal repositório contém todos os recursos (incluindo um exemplo de projeto concluído) na pasta 'en / resources'.
