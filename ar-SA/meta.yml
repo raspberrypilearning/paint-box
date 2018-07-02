@@ -5,7 +5,7 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1، 0-التصميم، 1-البرمجة، 0-فيزياء-شركات، 0-تصنيع، 0-المجتمع
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: علبة الألوان
 description: تعلَّم كيف تصنع برنامج رسم من ابتكارك.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
