@@ -8,7 +8,7 @@ Você verá atores de lápis e borracha:
 
 ![screenshot](images/paint-starter.png)
 
-+ Adicione algum código ao ator lápis para que ele siga o mouse `sempre`{:class= "blockcontrol"} para que você possa desenhar:
++ Adicione algum código ao ator lápis para que ele siga o mouse `sempre`{:class="blockcontrol"} para que você possa desenhar:
 
 ```blocks
     when flag clicked
@@ -21,11 +21,11 @@ Você verá atores de lápis e borracha:
 
 Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
-+ Add this code to your pencil sprite:
++ Adicione este código ao seu pincel (ator):
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Teste seu código novamente. This time, move the pencil around the stage and hold down the mouse button. Você pode desenhar com o seu lápis?
++ Teste seu código novamente. Desta vez, mova o lápis ao redor do palco e segure o botão do mouse. Você pode desenhar com o seu lápis?
 
 ![screenshot](images/paint-draw.png)
 
@@ -33,12 +33,12 @@ Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has
 
 ## title: Se você tiver problemas...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Se o seu lápis parece estar desenhando a linha do meio do lápis, não da ponta, você precisará mudar o centro da sua fantasia.
 
-![Costume center](images/costume-center.png)
+![Centro de fantasia](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+A cruz para o lápis deve ser colocada **logo abaixo** da ponta do lápis, não na ponta do lápis.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+As mudanças no 'centro das fantasias' de um ator não são registradas até que outra aba seja clicada, então clique em outra fantasia, ou na aba 'Scripts' para finalizar suas mudanças.
 
 \--- /collapse \---
