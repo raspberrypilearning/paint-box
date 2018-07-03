@@ -35,7 +35,7 @@ Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has
 
 Se o seu lápis parece estar desenhando a linha do meio do lápis, não da ponta, você precisará mudar o centro da sua fantasia.
 
-![Centro de fantasia](images/costume-center.png)
+![Centro da fantasia](images/costume-center.png)
 
 A cruz para o lápis deve ser colocada **logo abaixo** da ponta do lápis, não na ponta do lápis.
 
