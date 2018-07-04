@@ -1,6 +1,6 @@
 ---
 hero_image: images/banner.png
-theme: بنفسجي
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -30,6 +30,6 @@ steps:
   - 
     title: تغيير عرض قلم الرصاص
   - 
-    title: '''التحدي: الاختصارات'''
+    title: 'التحدي: الإختصارات'
   - 
     title: 'التحدي: مزيد من أقلام الرصاص'
