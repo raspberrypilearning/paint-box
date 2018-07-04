@@ -2,13 +2,13 @@
 
 لنبدأ بإنشاء قلم رصاص يمكن استخدامه للرسم على المنصة.
 
-+ افتح مشروع البداية "Paintbox" عبر الإنترنت على [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {: target = "_ blank"} أو تنزيل من [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {: target = "_ blank"} ثم افتحه إذا كنت تستخدم المحرر دون اتصال.
++ افتح مشروع Scratch التالي "Paintbox" عبر الإنترنت على [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} أو تحميله من <http://jumpto.cc/paint-get>{:target="_blank"} ثم افتحه إذا كنت تستخدم المحرر دون اتصال.
 
 سترى قلم رصاص وممحاة:
 
 ![لقطة الشاشة](images/paint-starter.png)
 
-+ إضافة بعض التعليمات البرمجية إلى قلم الكتابة بالقلم الرصاص لتجعله يتبع الماوس ` للأبد ` {: class = "blockcontrol"} بحيث يمكنك رسم:
++ إضافة بعض التعليمات البرمجية إلى كائن قلم الرصاص لتجعله يتبع الماوس `للأبد`{:class="blockcontrol"} بحيث يمكنك الرسم:
 
 ```blocks
     عند النقر على العلم
