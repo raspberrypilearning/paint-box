@@ -28,12 +28,12 @@
 
 + أضف رمزًا لإنشاء الممحاة
 
-\--- تلميح \---:
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+عندما تستقبل [eraser v]
+غيّر المظهر إلى [eraser v]
+اجعل لون القلم مساوياً [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
