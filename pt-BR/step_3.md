@@ -4,7 +4,7 @@ Vamos começar fazendo um lápis que pode ser usado para desenhar no palco.
 
 + Abra o projeto 'Paintbox' no Scratch (versão online) em [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_ blank"} ou faça o download de <http://jumpto.cc/paint-get>{:target="_ blank"} e depois abra no editor Scratch versão off-line.
 
-Você verá atores de lápis e borracha:
+Você verá os atores lápis e borracha:
 
 ![screenshot](images/paint-starter.png)
 
