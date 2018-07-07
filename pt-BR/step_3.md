@@ -11,10 +11,10 @@ Você verá os atores lápis e borracha:
 + Adicione algum código ao ator lápis para que ele siga o mouse `sempre`{:class="blockcontrol"} para que você possa desenhar:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    quando clicar em bandeira
+    sempre
+      vá para [ponteiro do mouse v]
+    fim
 ```
 
 + Clique na bandeira e, em seguida, mova o mouse pelo palco para testar se o código funciona.
