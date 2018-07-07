@@ -17,9 +17,9 @@ Você verá os atores lápis e borracha:
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Clique na bandeira e, em seguida, mova o mouse pelo palco para testar se o código funciona.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Em seguida, vamos fazer o seu lápis desenhar apenas `se`{:class="blockcontrol"} o mouse foi clicado.
 
 + Adicione este código ao seu pincel (ator):
 
