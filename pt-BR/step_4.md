@@ -20,24 +20,24 @@ Vamos adicionar lápis de cor diferentes ao seu projeto e permitir que o usuári
 
 + Adicione algum código ao ator 'verde' para que quando ele for clicado, seja `transmitido`{:class="blockevents"} a mensagem "verde" para o ator lápis, dizendo para mudar a fantasia do lápis e sua cor.
 
-![Broadcast green](images/paint-broadcast-green.png)
+![Transmissão verde](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Selecione o ator lápis. Adicione algum código para que quando este ator receber a `transmissão`{:class="blockevents"} verde, ele deve mudar para a fantasia de lápis verde e mudar a cor do lápis para verde.
 
-![Broadcast green](images/broadcast-green.png)
+![Transmissão verde](images/broadcast-green.png)
 
 To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Agora você pode fazer o mesmo com o ícone do lápis azul: adicione este código ao ator quadrado azul:
 
 ```blocks
 when this sprite clicked
 broadcast [blue v]
 ```
 
-...and add this code to the pencil sprite:
+adicione este código ao seu pincel (ator):
 
 ```blocks
 when I receive [blue v]
@@ -45,12 +45,12 @@ switch costume to [pencil-blue v]
 set pen color to [#0000ff]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ Por fim, adicione esse código para informar ao ator lápis que cor começar a usar e verifique se a tela está clara.
 
-![Start pencil](images/start-pencil.png)
+![Lápis inicial](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+Escolhemos começar com o azul, mas, se preferir, pode começar com um lápis de cor diferente.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Teste seu projeto. Você pode alternar entre lápis azuis e verdes clicando nos quadrados azuis ou verdes (atores)?
 
 ![screenshot](images/paint-pens-test.png)
