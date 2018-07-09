@@ -1,6 +1,6 @@
 ## 연필 만들기
 
-무대에 그림을 그리는 데 사용되는 연필을 만드는것으로 시작 해 봅시다.
+무대에 그림을 그리는 데 사용되는 연필을 만드는 것으로 시작해 봅시다.
 
 + 'Paintbox' 스크래치 프로젝트를 온라인 [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} 에서 열거나 <http://jumpto.cc/paint-get>{:target="_black"} 을 다운로드 받아 오프라인 에디터에서 사용할 수 있는 프로젝트를 엽니다.
 
