@@ -1,0 +1,19 @@
+hero_image: images/banner.png
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Kolorowe kredki
+description: Naucz się, jak przygotować własny program do rysowania!
+original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
+interests: art
+technologies: scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps: 
+- title: Kolorowe kredki
