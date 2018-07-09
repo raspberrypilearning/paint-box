@@ -1,24 +1,24 @@
-## Coloured pencils
+## Lápis coloridos
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Vamos adicionar lápis de cor diferentes ao seu projeto e permitir que o usuário escolha entre eles.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Clique no seu lápis (ator), clique em 'Fantasias' e duplique sua fantasia de 'lápis azul'.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Renomeie seu nova fantasia como 'lápis verde' e pinte de verde o lápis.
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Desenhe dois novos atores - um quadrado azul e um quadrado verde. Você os usará para selecionar o lápis azul ou verde.
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Renomeie seus atores para que eles sejam chamados de "azuis" e "verdes"
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ Adicione algum código ao ator 'verde' para que quando ele for clicado, seja `transmitido`{:class="blockevents"} a mensagem "verde" para o ator lápis, dizendo para mudar a fantasia do lápis e sua cor.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
