@@ -2,13 +2,13 @@
 
 Commençons par faire un crayon qui peut être utilisé pour dessiner sur la scène.
 
-+ Ouvrez le projet Scratch 'Paintbox' en ligne sur [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {: target = "_ blank"} ou téléchargez-le depuis [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {: target = "_ blank"}, puis ouvrez-le si vous utilisez l'éditeur hors ligne.
++ Ouvre le projet Scratch 'Paintbox' en ligne sur [jumpto.cc/paint-go](http://jumpto.cc/paint-go) {:target="_blank"} ou télécharge-le depuis <http://jumpto.cc/paint-get> {:target="_blank"}, puis ouvre-le si tu utilises l'éditeur hors ligne.
 
-Vous verrez les lutins du crayon et de la gomme :
+Tu verras les lutins du crayon et de la gomme :
 
 ![capture d'écran](images/paint-starter.png)
 
-+ Ajoutez du code au lutin du crayon pour lui faire suivre la souris ` pour toujours ` {: class = "blockcontrol"} pour que vous puissiez dessiner :
++ Ajoute du code au lutin du crayon pour lui faire suivre la souris `pour toujours` {:class="blockcontrol"} pour que tu puisses dessiner :
 
 ```blocks
     quand le drapeau vert pressé
