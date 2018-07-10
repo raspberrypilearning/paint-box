@@ -2,9 +2,9 @@
 
 ## Défi : plus de crayons
 
-Pouvez-vous ajouter des crayons rouges, jaunes et noirs à votre programme de peinture ? Jetez un œil à l'étape 2 ci-dessus si vous avez oublié comment faire. N'oubliez pas d'ajouter des raccourcis clavier pour ces nouveaux crayons aussi.
+Peux-tu ajouter des crayons rouges, jaunes et noirs à ton programme de peinture ? Jette un œil à l'étape 2 ci-dessus si tu as oublié comment faire. N'oublie pas d'ajouter des raccourcis clavier pour ces nouveaux crayons aussi.
 
-Pouvez-vous utiliser vos crayons pour faire un dessin ?
+Peux-tu utiliser tes crayons pour faire un dessin ?
 
 ![capture d'écran](images/paint-final.png)
 
