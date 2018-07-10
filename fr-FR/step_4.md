@@ -45,12 +45,12 @@ quand je reçois [vert v]
  mettre la couleur du stylo à [#00ff00
 ```
 
-+ Enfin, ajoutez ce code pour indiquer au lutin crayon la couleur de départ et s'assurer que l'écran est vide.
++ Enfin, ajoute ce code pour indiquer au lutin crayon la couleur de départ et s'assurer que l'écran est vide.
 
 ![Crayon de début](images/start-pencil.png)
 
-Nous avons choisi de commencer avec le bleu mais si vous préférez, vous pouvez commencer avec un crayon de couleur différente.
+Nous avons choisi de commencer avec le bleu mais si tu préfères, Tu peux commencer avec un crayon de couleur différente.
 
-+ Testez votre projet. Pouvez-vous basculer entre les crayons bleus et verts en cliquant sur les lutins carrés bleus ou verts ?
++ Teste ton projet. Peux-tu basculer entre les crayons bleus et verts en cliquant sur les lutins carrés bleus ou verts ?
 
 ![capture d'écran](images/paint-pens-test.png)
