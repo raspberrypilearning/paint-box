@@ -2,11 +2,11 @@
 
 Permettons à l'utilisateur de dessiner en utilisant une gamme de largeurs de traits différentes.
 
-+ D'abord, ajoutez une nouvelle variable appelée `largeur` {:class="blockvariable"}.
++ D'abord, ajoute une nouvelle variable appelée `largeur` {:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Ajoutez cette ligne *à l'intérieur* de la boucle `pour toujours ` {: class = "blockcontrol"} du code du lutin crayon :
++ Ajoute cette ligne *à l'intérieur* de la boucle `pour toujours `{:class="blockcontrol"} du code du lutin crayon :
 
 ```blocks
     mettre la taille du stylo à (largeur)
