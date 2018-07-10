@@ -1,19 +1,19 @@
 ## Introduction
 
-Dans ce projet, vous allez créer votre propre programme de peinture !
+Dans ce projet, Tu vas créer ton propre programme de peinture !
 
-### Qu'allez-vous faire
+### Ce que tu feras
 
-Cliquez sur le drapeau vert pour démarrer. Utilisez la souris pour bouger le crayon et maintenez le bouton gauche enfoncé pour dessiner. Cliquez sur une couleur pour changer de crayon ou cliquez sur la gomme et utilisez la pour effacer votre travail. Pour effacer la page, cliquez sur la croix.
+Clique sur le drapeau vert pour démarrer. Utilise la souris pour bouger le crayon et maintiens le bouton gauche de la souris enfoncé pour dessiner. Clique sur une couleur pour changer de crayon ou clique sur la gomme et utilise la pour effacer ton travail. Pour effacer la page, clique sur la croix.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### Qu'allez-vous apprendre
+### Ce que tu vas apprendre
 
-Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
+Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Combiner des éléments de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
