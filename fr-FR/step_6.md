@@ -14,20 +14,20 @@ Permettons à l'utilisateur de dessiner en utilisant une gamme de largeurs de tr
 
 L'épaisseur du trait du stylo sera maintenant toujours liée à la valeur de la variable 'largeur'.
 
-+ Faites un clic droit sur l'affichage de la variable "largeur" sur la scène et cliquez sur "potentiomètre".
++ Fais un clic droit sur l'affichage de la variable "largeur" sur la scène et clique sur "potentiomètre".
 
 ![capture d'écran](images/paint-slider.png)
 
-Vous pouvez maintenant faire glisser le curseur sous la variable pour changer sa valeur.
+Tu peux maintenant faire glisser le curseur sous la variable pour changer sa valeur.
 
 ![capture d'écran](images/paint-slider-change.png)
 
-+ Testez votre projet et voyez si vous pouvez modifier l'épaisseur du trait du crayon.
++ Teste ton projet et vois si tu peux modifier l'épaisseur du trait du crayon.
 
 ![capture d'écran](images/paint-width-test.png)
 
-Si vous préférez, vous pouvez définir la valeur minimale et maximale de «largeur» autorisée. Pour ce faire, cliquez à nouveau sur la variable avec le bouton droit de la souris et cliquez sur "Définir le min et le max du curseur". Définissez les valeurs minimum et maximum de votre variable à quelque chose de plus judicieux, comme 1 et 20.
+Si tu préfères, tu peux définir la valeur minimale et maximale de «largeur» autorisée. Pour ce faire, clique à nouveau sur la variable avec le bouton droit de la souris et clique sur "Définir le min et le max du curseur". Définissez les valeurs minimum et maximum de votre variable à quelque chose de plus judicieux, comme 1 et 20.
 
 ![screenshot](images/paint-slider-max.png)
 
-Continuez à tester votre variable "largeur" ​​jusqu'à ce que vous soyez satisfait.
+Continue à tester ta variable "largeur" ​​jusqu'à ce que tu sois satisfait.
