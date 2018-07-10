@@ -5,9 +5,9 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programmation-1, phys-comp-0, fabrication-0, communauté-0
 title: Boîte de peinture
-description: Apprenez à faire votre propre programme de dessin.
+description: Apprend à faire ton propre programme de dessin.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
 interests: art
 technologies: scratch
@@ -20,13 +20,13 @@ steps:
   - 
     title: Introduction
   - 
-    title: Ce dont vous aurez besoin
+    title: Ce dont tu auras besoin
   - 
     title: Faire un crayon
   - 
     title: Crayons de couleurs
   - 
-    title: Réparer les erreurs
+    title: Faire des erreurs
   - 
     title: Changer l'épaisseur du trait
   - 
