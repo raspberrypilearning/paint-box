@@ -8,37 +8,37 @@ Tu verras les lutins du crayon et de la gomme :
 
 ![capture d'écran](images/paint-starter.png)
 
-+ Ajoute du code au lutin du crayon pour lui faire suivre la souris `pour toujours` {:class="blockcontrol"} pour que tu puisses dessiner :
++ Ajoute du code au lutin du crayon pour lui faire suivre la souris `pour toujours`{:class="blockcontrol"} pour que tu puisses dessiner :
 
 ```blocks
-    quand le drapeau vert pressé
-pour toujours
+    quand le drapeau vert cliqué
+répéter indéfiniment
    aller à [pointeur de souris v]
 fin
 ```
 
-+ Cliquez sur le drapeau vert, puis déplacez la souris sur la scène pour tester si le code fonctionne.
++ Clique sur le drapeau vert, puis déplace la souris sur la scène pour tester si le code fonctionne.
 
-Ensuite, faisons en sorte que votre crayon ne dessine que ` si ` {: class = "blockcontrol"} le bouton gauche de la souris est enfoncé.
+Ensuite, faisons en sorte que ton crayon ne dessine que `si`{:class="blockcontrol"} le bouton gauche de la souris est enfoncé.
 
-+ Ajoutez ce code à votre lutin de crayon :
++ Ajoute ce code à ton lutin de crayon :
 
 ![capture d'écran](images/paint-pencil-draw-code.png)
 
-+ Testez votre code à nouveau. Cette fois, déplacez le crayon sur la scène et maintenez le bouton gauche de la souris enfoncé. Pouvez-vous dessiner avec votre crayon ?
++ Teste ton code à nouveau. Cette fois, déplace le crayon sur la scène et maintiens le bouton gauche de la souris enfoncé. Peux-tu dessiner avec ton crayon ?
 
 ![capture d'écran](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: Si vous avez des problèmes ...
+## title: Si tu as des problèmes ...
 
-Si votre crayon semble dessiner depuis son milieu plutôt que de sa pointe, vous devrez changer le centre du costume.
+Si ton crayon semble dessiner depuis son milieu plutôt que de sa pointe, tu devrais changer le centre du costume.
 
 ![Centre de costume](images/costume-center.png)
 
-Le réticule du crayon doit être placé ** juste en dessous ** de la pointe du crayon, pas sur la pointe du crayon.
+Le pointeur du crayon doit être placé **juste en dessous** de la pointe du crayon, pas sur la pointe du crayon.
 
-Un changement dans le centre du costume d'un sprite n'est pas enregistré tant qu'un autre onglet n'est pas cliqué, alors cliquez sur un autre costume, ou sur l'onglet 'Scripts' pour finaliser vos changements de centre de costume.
+Un changement dans le centre du costume d'un lutin n'est pas enregistré tant qu'un autre onglet n'est pas cliqué, alors clique sur un autre costume, ou sur l'onglet 'Scripts' pour finaliser tes changements de centre de costume.
 
 \--- /collapse \---
