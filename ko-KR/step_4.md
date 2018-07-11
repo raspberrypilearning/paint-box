@@ -2,11 +2,11 @@
 
 다른 색의 연필들을 추가해서 사용자가 색을 고를 수 있도록 해 봐요.
 
-+ 연필 스프라이트를 클릭하고, '모양' 탭을 누른 후 'pencil-blue' 모양을 복사 해 주세요.
++ 연필 스프라이트를 클릭하고, '모양' 탭을 누른 후 '파란색 연필' 모양을 복사 해 주세요.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ 새 모양의 이름을 ’pencil-green’으로 바꾸고, 녹색으로 칠해주세요.
++ 새 모양의 이름을 ’녹색 연필’으로 바꾸고, 녹색으로 칠해주세요.
 
 ![screenshot](images/paint-pencil-green.png)
 
@@ -16,7 +16,7 @@
 
 ![screenshot](images/paint-selectors.png)
 
-+ 새 스프라이트의 이름을 'blue'와 'green'으로 바꿔 주세요.
++ 새 스프라이트의 이름을 '파랑'와 '초록'으로 바꿔 주세요.
 
 + 'green' 스프라이트가 클릭되면, green `방송하기`{:class="blockevents"} 를 연필 스트라이트에게 보내서 모양과 색을 바꿀 수 있도록 코드를 추가 해 주세요.
 
