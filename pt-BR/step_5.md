@@ -1,22 +1,22 @@
 ## Making mistakes
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Às vezes, erros acontecem, então vamos adicionar um botão 'limpar' e uma borracha.
 
 + Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Adicione o código a este ator para limpar o palco quando for clicado.
 
-![Clear stage](images/clear-stage.png)
+![Limpar palco](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Observe que você não precisa enviar uma mensagem para limpar o palco, você pode simplesmente usar o bloco limpo dele.
 
 You have probably noticed that your pencil sprite includes an eraser costume:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Aqui está como seu palco deve ficar:
 
 ![screenshot](images/paint-eraser-stage.png)
 
@@ -36,7 +36,7 @@ switch costume to [eraser v]
 set pen color to [#FFFFFF]
 ```
 
-\--- /hint \--- \--- /hints \---
+\---/hints \--- \--- /hint \---
 
 + Test your project, to see if you can clear and erase on the stage.
 
