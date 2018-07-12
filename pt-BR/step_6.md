@@ -1,8 +1,8 @@
-## Changing the pencil width
+## Alterando a espessura do lápis
 
-Let's allow the user to draw using a range of different pencil sizes.
+Vamos permitir que o usuário desenhe usando uma variedade de tamanhos de lápis.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Primeiro, crie uma nova variável chamada `espessura`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
