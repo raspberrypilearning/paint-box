@@ -42,7 +42,7 @@ set pen color to [#FFFFFF]
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Há mais um problema com o lápis - você pode desenhar em qualquer lugar do palco, inclusive perto dos ícones de seleção!
 
 ![screenshot](images/paint-draw-problem.png)
 
@@ -50,6 +50,6 @@ To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Teste seu projeto; agora você não deve conseguir desenhar perto dos blocos de seleção.
 
 ![screenshot](images/paint-fixed.png)
