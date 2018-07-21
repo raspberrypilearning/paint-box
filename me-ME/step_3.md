@@ -4,7 +4,7 @@ Počnimo tako što ćemo napraviti olovku koja se može koristiti za crtanje na 
 
 + Otvori online Scratch projekat 'Paintbox' na [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} ili ga preuzmi sa <http://jumpto.cc/paint-get>{:target="_blank"}, a zatim otvori ako koristiš offline editor.
 
-Vidjećeš likove olovke i gumice:
+Vidjećeš likove (sprites) olovke i gumice:
 
 ![screenshot](images/paint-starter.png)
 
@@ -19,19 +19,19 @@ Vidjećeš likove olovke i gumice:
 
 + Klikni na zastavicu, a zatim pomjeraj miša po pozornici da isprobaš da li kôd funkcioniše.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Nakon toga, napravimo da tvoja olovka crta `ako je`{:class="blockcontrol"} (if) pritisnut taster miša.
 
-+ Add this code to your pencil sprite:
++ Dodaj ovaj kôd liku olovke:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Isprobaj svoj kôd još jednom. Ovog puta pomjeraj olovku po pozornici držeći pritisnut taster miša. Možeš li da crtaš svojom olovkom?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Ako imaš problema...
 
 If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
 
