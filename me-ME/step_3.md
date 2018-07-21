@@ -33,11 +33,11 @@ Nakon toga, napravimo da tvoja olovka crta `ako je`{:class="blockcontrol"} (if) 
 
 ## title: Ako imaš problema...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Ako tvoja olovka crta liniju od sredine olovke umjesto vrhom, treba da promijeniš centar svog kostima.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Krstić za olovku treba da bude postavljen **tačno ispod** vrha olovke, a ne na vrhu olovke.
 
 A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
 
