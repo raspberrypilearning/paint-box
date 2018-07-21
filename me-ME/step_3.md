@@ -2,13 +2,13 @@
 
 Počnimo tako što ćemo napraviti olovku koja se može koristiti za crtanje na pozornici.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Otvori online Scratch projekat 'Paintbox' na [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} ili ga preuzmi sa <http://jumpto.cc/paint-get>{:target="_blank"}, a zatim otvori ako koristiš offline editor.
 
-You will see pencil and eraser sprites:
+Vidjećeš likove olovke i gumice:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Dodaj kôd liku olovke da napraviš da `uvijek`{:class="blockcontrol"} (forever) prati strelicu miša, tako da možeš da crtaš:
 
 ```blocks
     when flag clicked
@@ -17,7 +17,7 @@ You will see pencil and eraser sprites:
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Klikni na zastavicu, a zatim pomjeraj miša po pozornici da isprobaš da li kôd funkcioniše.
 
 Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
