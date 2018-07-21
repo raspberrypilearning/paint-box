@@ -1,6 +1,6 @@
-## Making a pencil
+## Pravljenje olovke
 
-Let's start by making a pencil that can be used to draw on the stage.
+Počnimo tako što ćemo napraviti olovku koja se može koristiti za crtanje na pozornici.
 
 + Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
 
