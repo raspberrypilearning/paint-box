@@ -30,22 +30,22 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 Da bismo postavili da olovka boji zelenom bojom, klikni na obojeno polje u bloku `set pen color`{:class="blockpen"} (postavi boju olovke), a zatim klikni na zeleni lik da izabereš zelenu boju za svoju olovku.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Sada možeš da uradiš isto sa ikonom za izbor plave olovke: dodaj ovaj kôd liku plavog kvadrata:
 
 ```blocks
 when this sprite clicked
-broadcast [blue v]
+broadcast [plava v]
 ```
 
-...and add this code to the pencil sprite:
+...i dodaj sljedeći kôd liku olovke:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
+when I receive [plava v]
+switch costume to [olovka-plava v]
 set pen color to [#0000ff]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ Na kraju, dodaj sljedeći kôd da kažeš liku olovke sa kojom bojom da započne, kao i da obezbijediš da je ekran očišćen.
 
 ![Start pencil](images/start-pencil.png)
 
