@@ -45,9 +45,9 @@ switch costume to [olovka-plava v]
 set pen color to [#0000ff]
 ```
 
-+ Na kraju, dodaj sljedeći kôd da kažeš liku olovke sa kojom bojom da započne, kao i da obezbijediš da je ekran očišćen.
++ Na kraju, dodaj sljedeći kôd da kažeš liku olovke koju boju da izabere na početku projekta, i pobrini se da je ekran čist.
 
-![Započni olovku](images/start-pencil.png)
+![Početna olovka](images/start-pencil.png)
 
 Izabrali smo da započnemo sa plavom bojom, ali možeš da počneš i sa olovkom neke druge boje ako želiš.
 
