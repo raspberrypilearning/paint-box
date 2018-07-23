@@ -1,8 +1,8 @@
-## Making mistakes
+## Greške
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Ponekad se dešavaju greške, pa ćemo u tvoj projekat dodati dugme 'obriši' i gumicu.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Dodaj lik 'X-block' - naći češ ga u biblioteci (library), u odjeljku Slova (letters). Oboji kostim u crveno. To će biti dugme 'obriši'.
 
 ![screenshot](images/paint-x.png)
 
