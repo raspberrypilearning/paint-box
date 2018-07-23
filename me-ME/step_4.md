@@ -24,11 +24,11 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Vrati se na lik olovke. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Pređi na lik olovke. Dodaj ovom liku kôd tako da, kada primi `poruku`{:class="blockevents"} zelena, pređe na kostim zelene olovke i promijeni boju olovke u zelenu.
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Da bismo postavili da olovka boji zelenom bojom, klikni na obojeno polje u bloku `set pen color`{:class="blockpen"} (postavi boju olovke), a zatim klikni na zeleni lik da izabereš zelenu boju za svoju olovku.
 
 + You can now do the same for the blue pencil icon: add this code to the blue square sprite:
 
