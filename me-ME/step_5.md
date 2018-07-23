@@ -28,21 +28,21 @@ Kada olovka dobije poruku "gumica", možeš kostim olovke zamijeniti kostimom gu
 
 + Dodaj kôd za keiranje gumice
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Dodaj kôd liku olovke: **Kada dobijem** (when I receive) poruku **gumica** **Promijeni kostim** (switch to costume) u gumica **Postavi boju olovke** (set pen color) u bijela \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda kôd u liku olovke:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
+when I receive [gumica v]
+switch costume to [gumica v]
 set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Isprobaj svoj projekat da provjeriš da li možeš da brišeš na pozornici.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Postoji još jedan problem sa olovkom - možeš da crtaš bilo gdje na pozornici, uključujući i dio sa ikonama za izbor!
 
 ![screenshot](images/paint-draw-problem.png)
 
