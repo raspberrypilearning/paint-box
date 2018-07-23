@@ -50,6 +50,6 @@ Da bismo to popravili, treba da kažeš olovci da crta samo ako se klikne mišem
 
 ![snimak ekrana](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Isprobaj svoj projekat; sada ne bi trebalo da možeš da crtaš u blizini blokova za izbor.
 
 ![snimak ekrana](images/paint-fixed.png)
