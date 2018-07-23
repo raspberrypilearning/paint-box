@@ -2,13 +2,13 @@
 
 ## Izazov: prečice
 
-Can you create keyboard shortcuts for your commands? Na primjer:
+Da li možeš da napraviš prečice sa tastature za svoje naredbe? Na primjer:
 
 + b = Promijeni u plavu olovku
 + g = promijeni u zelenu olovku
-+ e = switch to eraser
-+ c = clear screen
++ e = promijeni u gumicu
++ c = očisti ekran
 
-You could even allow the user to change the pen width with the arrow keys.
+Možeš čak i da omogućiš korisniku da mijenja debljinu olovke koristeći tastere sa strelicama.
 
 \--- /challenge \---
