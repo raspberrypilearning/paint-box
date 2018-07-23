@@ -1,18 +1,18 @@
 ## Promjena debljine olovke
 
-Let's allow the user to draw using a range of different pencil sizes.
+Omogućimo korisniku da crta koristeći olovke različitih debljina.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Prvo dodaj novu promjenljivu pod nazivom `debljina`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Dodaj ovaj red *unutar* petlje `ponavljaj` (forever) u kôdu za olovku:
 
 ```blocks
-    set pen size to (width)
+    set pen size to (debljina)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+Debljina olovke sada će biti stalno postavljena na vrijednost promjenljive 'debljina'.
 
 + Right click on the variable display on the stage and click 'slider'.
 
