@@ -14,20 +14,20 @@ Omogućimo korisniku da crta koristeći olovke različitih debljina.
 
 Debljina olovke sada će biti stalno postavljena na vrijednost promjenljive 'debljina'.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Klikni desnim tasterom miša na prikaz promjenljive na pozornici i klikni na 'slider' (klizač).
 
-![screenshot](images/paint-slider.png)
+![snimak ekrana](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Sada možeš da povlačiš klizač koji se nalazi ispod promjenljive da promijeniš njenu vrijednost.
 
-![screenshot](images/paint-slider-change.png)
+![snimak ekrana](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ Isprobaj svoj projekat i provjeri da li možeš da promijeniš debljinu olovke.
 
-![screenshot](images/paint-width-test.png)
+![snimak ekrana](images/paint-width-test.png)
 
-If you prefer, you can set the minimum and maximum value of 'width' that's allowed. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Ako želiš, možeš da postaviš najmanju i najveću dozvoljenu vrijednost 'debljine'. To ćeš postići tako što ćeš još jednom kliknuti desnim tasterom miša na promjenljivu i kliknuti na 'set slider min and max' (postavi klizač na min i max). Postavi najmanju i najveću vrijednost promjenljive koje imaju smisla, na primjer 1 i 20.
 
-![screenshot](images/paint-slider-max.png)
+![snimak ekrana](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Nastavi da isprobavaš promjenljivu 'debljina' sve dok ne budeš zadovoljan/zadovoljna.
