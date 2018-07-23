@@ -6,17 +6,17 @@ Ponekad se dešavaju greške, pa ćemo u tvoj projekat dodati dugme 'obriši' i 
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Dodaj kôd ovom liku da očisti pozornicu kada se na njega klikne.
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Primijeti da nije potrebno slati poruku za čišćenje pozornice, pošto možeš da koristiš blok očisti (clear) ovog lika.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Vjerovatno primjećuješ da tvoj lik olovke ima kostim gumice:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Tvoj projekat takođe ima poseban lik gumice. Right click on this sprite and choose 'show'. Here is how your stage should look:
 
 ![screenshot](images/paint-eraser-stage.png)
 
