@@ -8,7 +8,7 @@ Ponekad se dešavaju greške, pa ćemo dodati dugme 'obriši' i gumicu.
 
 + Dodaj kôd ovom liku da obriše pozornicu kada se na njega klikne.
 
-![Čista pozornica](images/clear-stage.png)
+![Brisanje pozornice](images/clear-stage.png)
 
 Obrati pažnju da nije potrebno da šalješ poruku za brisanje pozornice, pošto možeš da koristiš blok obriši (clear) ovog lika.
 
