@@ -1,6 +1,6 @@
 ## Greške
 
-Ponekad se dešavaju greške, pa ćemo u tvoj projekat dodati dugme 'obriši' i gumicu.
+Ponekad se dešavaju greške, pa ćemo dodati dugme 'obriši' i gumicu.
 
 + Dodaj lik 'X-block' - naći češ ga u biblioteci (library), u odjeljku Slova (letters). Oboji kostim u crveno. To će biti dugme 'obriši'.
 
