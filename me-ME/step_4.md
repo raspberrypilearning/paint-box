@@ -24,13 +24,13 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Pređi na lik olovke. Dodaj ovom liku kôd tako da, kada primi `poruku`{:class="blockevents"} zelena, pređe na kostim zelene olovke i promijeni boju olovke u zelenu.
++ Pređi na lik olovke. Dodaj ovom liku kôd tako da, kada primi `poruku`{:class="blockevents"} zelena, promijeni kostim u olovka-zelena i boju olovke u zelenu.
 
 ![Pošalji poruku zelena](images/broadcast-green.png)
 
-Da bismo postavili da olovka boji zelenom bojom, klikni na obojeno polje u bloku `set pen color`{:class="blockpen"} (postavi boju olovke), a zatim klikni na zeleni lik da izabereš zelenu boju za svoju olovku.
+Da bismo postavili da olovka boji zelenom bojom, klikni na obojeno polje u bloku `set pen color`{:class="blockpen"} (postavi boju olovke), a zatim klikni na zelenu ikonu da izabereš zelenu boju za svoju olovku.
 
-+ Sada možeš da uradiš isto sa ikonom za izbor plave olovke: dodaj ovaj kôd liku plavog kvadrata:
++ Sada možeš da uradiš isto sa ikonom za plavu olovku: dodaj ovaj kôd liku plavog kvadrata:
 
 ```blocks
 when this sprite clicked
