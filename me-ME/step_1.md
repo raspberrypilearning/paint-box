@@ -1,6 +1,6 @@
 ## Uvod
 
-Napravi sopstveni program za crtanje!
+Napravi sopstveni program za bojenje!
 
 ### Šta ćeš napraviti
 
