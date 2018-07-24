@@ -10,7 +10,7 @@ Ponekad se dešavaju greške, pa ćemo dodati dugme 'obriši' i gumicu.
 
 ![Čista pozornica](images/clear-stage.png)
 
-Primijeti da nije potrebno slati poruku za čišćenje pozornice, pošto možeš da koristiš blok očisti (clear) ovog lika.
+Obrati pažnju da nije potrebno da šalješ poruku za brisanje pozornice, pošto možeš da koristiš blok obriši (clear) ovog lika.
 
 Vjerovatno primjećuješ da tvoj lik olovke ima kostim gumice:
 
@@ -20,7 +20,7 @@ Vjerovatno primjećuješ da tvoj lik olovke ima kostim gumice:
 
 ![snimak ekrana](images/paint-eraser-stage.png)
 
-+ Dodaj kôd liku gumice koji će olovci reći da se zamijeni sa gumicom kada se klikne na lik.
++ Dodaj kôd liku gumice koji će olovci reći da se zamijeni sa gumicom kada se klikne na ovaj lik.
 
 ![Poruka za gumicu](images/broadcast-eraser.png)
 
