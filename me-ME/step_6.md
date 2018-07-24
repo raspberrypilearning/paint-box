@@ -2,7 +2,7 @@
 
 Omogućimo korisniku da crta koristeći olovke različitih debljina.
 
-+ Prvo dodaj novu promjenljivu pod nazivom `debljina`{:class="blockvariable"}.
++ Prvo dodaj novu promjenljivu (variable) pod nazivom `debljina`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
