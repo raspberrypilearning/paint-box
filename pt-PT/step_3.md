@@ -25,13 +25,13 @@ Em seguida, vamos fazer o teu lápis apenas desenhar ` se ` {: class = "blockcon
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Testa o teu código outra vez. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Testa o teu código outra vez. Desta vez, move o lápis ao redor do palco enquanto clicas o botão do rato. Podes desenhar com o teu lápis?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Se estás com dificuldades ...
 
 If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
 
