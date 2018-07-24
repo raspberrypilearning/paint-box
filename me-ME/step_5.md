@@ -22,7 +22,7 @@ Vjerovatno primjećuješ da tvoj lik olovke ima kostim gumice:
 
 + Dodaj kôd liku gumice koji će olovci reći da se zamijeni sa gumicom kada se klikne na ovaj lik.
 
-![Poruka za gumicu](images/broadcast-eraser.png)
+![Slanje poruke za gumicu](images/broadcast-eraser.png)
 
 Kada olovka dobije poruku "gumica", kostim olovke možeš zamijeniti kostimom gumice, a boju olovke promijeniti u bijelu - boju jednaku boji pozornice!
 
