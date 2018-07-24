@@ -2,14 +2,14 @@
 
 Omogućimo korisniku da crta koristeći olovke različitih debljina.
 
-+ Prvo dodaj novu promjenljivu (variable) pod nazivom `debljina`{:class="blockvariable"}.
++ Prvo dodaj novu promjenljivu (variable) pod nazivom `širina`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
 + Dodaj ovaj red *unutar* petlje `ponavljaj` (forever) u kôdu za olovku:
 
 ```blocks
-    set pen size to (debljina)
+    set pen size to (širina)
 ```
 
 Debljina olovke sada će biti stalno postavljena na vrijednost promjenljive 'debljina'.
