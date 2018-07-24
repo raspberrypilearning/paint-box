@@ -11,21 +11,21 @@ Verás os actores lápis e borracha:
 + Adiciona código ao actor lápis para que ele siga o rato ` para sempre ` {: class = "blockcontrol"} para que possas desenhar:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    Quando alguém  clicar em "bandeira"
+    repete para sempre
+         vai para [o ponteiro do rato v] 
+    fim
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Clica na bandeira e em seguida, move o rato pelo palco para testares se o código funciona.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Em seguida, vamos fazer o teu lápis apenas desenhar ` se ` {: class = "blockcontrol"} o rato for clicado.
 
-+ Add this code to your pencil sprite:
++ Adiciona este código ao teu actor lápis:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Testa o teu código outra vez. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
 
