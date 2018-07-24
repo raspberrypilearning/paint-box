@@ -1,6 +1,6 @@
-## Making a pencil
+## Criar um lápis
 
-Let's start by making a pencil that can be used to draw on the stage.
+Vamos começar por criar um lápis que pode ser usado para desenhar no palco.
 
 + Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
 
