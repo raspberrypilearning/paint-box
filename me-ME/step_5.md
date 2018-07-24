@@ -2,11 +2,11 @@
 
 Ponekad se dešavaju greške, pa ćemo dodati dugme 'obriši' i gumicu.
 
-+ Dodaj lik 'X-block' - naći češ ga u biblioteci (library), u odjeljku Slova (letters). Oboji kostim u crveno. To će biti dugme 'obriši'.
++ Dodaj lik 'X-block' - naći ćeš ga u biblioteci (library), u odjeljku 'Letters' (Slova). Oboji kostim u crveno. To će biti dugme 'obriši'.
 
 ![snimak ekrana](images/paint-x.png)
 
-+ Dodaj kôd ovom liku da očisti pozornicu kada se na njega klikne.
++ Dodaj kôd ovom liku da obriše pozornicu kada se na njega klikne.
 
 ![Čista pozornica](images/clear-stage.png)
 
