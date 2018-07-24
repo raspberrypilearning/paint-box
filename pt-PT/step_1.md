@@ -4,14 +4,14 @@ Faz o teu próprio programa de pintura!
 
 ### O que vais fazer
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+Clica na bandeira verde para começar. Use o rato para mover o lápis e mantem pressionado o botão esquerdo do rato para desenhar. Clica numa cor para trocar de lápis ou clica na borracha e usa-a para apagar o teu trabalho. Para limpar a página, clica na cruz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### O que vais aprender
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
