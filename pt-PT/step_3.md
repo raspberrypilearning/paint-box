@@ -2,13 +2,13 @@
 
 Vamos começar por criar um lápis que pode ser usado para desenhar no palco.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Abre o projeto Scratch 'Paintbox' online em [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {: target = "_ blank"} ou faz o download de [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {: target = "_ blank"} e depois abre-o se estiveres a usar o editor off-line.
 
-You will see pencil and eraser sprites:
+Verás os actores lápis e borracha:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Adiciona código ao actor lápis para que ele siga o rato ` para sempre ` {: class = "blockcontrol"} para que possas desenhar:
 
 ```blocks
     when flag clicked
