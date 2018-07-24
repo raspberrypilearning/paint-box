@@ -15,10 +15,10 @@ Clica na bandeira verde para começar. Use o rato para mover o lápis e mantem p
 
 Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry Pi Digital Making](http://rpf.io/curriculum){: target = "_ blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [ Combine construções de programação para resolver um problema. ](https://www.raspberrypi.org/curriculum/programming/builder) {: target = "_ blank"}
 
-### Additional information for educators
+### Informações adicionais para educadores
 
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Se precisar imprimir este projeto, por favor use a [versão para impressão](https://projects.raspberrypi.org/en/projects/paint-box/print) {: target = blank"}.
 
 Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
