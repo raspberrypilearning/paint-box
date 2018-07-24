@@ -12,7 +12,7 @@ Omogućimo korisniku da crta koristeći olovke različitih debljina.
     set pen size to (širina)
 ```
 
-Debljina olovke sada će biti stalno postavljena na vrijednost promjenljive 'debljina'.
+Debljina olovke sada će biti stalno prilagođena vrijednosti promjenljive 'širina'.
 
 + Klikni desnim tasterom miša na prikaz promjenljive na pozornici i klikni na 'slider' (klizač).
 
