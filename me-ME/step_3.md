@@ -19,7 +19,7 @@ Vidjećeš likove (sprites) olovke i gumice:
 
 + Klikni na zastavicu, a zatim pomjeraj miša po pozornici da isprobaš da li kôd funkcioniše.
 
-Nakon toga, napravimo da tvoja olovka crta `ako je`{:class="blockcontrol"} (if) pritisnut taster miša.
+Nakon toga, napravimo da tvoja olovka crta samo `ako je`{:class="blockcontrol"} (if) pritisnut taster miša.
 
 + Dodaj ovaj kôd liku olovke:
 
