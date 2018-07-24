@@ -12,7 +12,7 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Nacrtaj dva nova lika - plavi kvadrat i zeleni kvadrat. Koristićeš ih da odabereš plavu ili zelenu olovku.
++ Napravi dva nova lika - plavi kvadrat i zeleni kvadrat. Koristićeš ih da odabereš plavu ili zelenu olovku.
 
 ![snimak ekrana](images/paint-selectors.png)
 
