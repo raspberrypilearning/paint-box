@@ -33,7 +33,7 @@ Nakon toga, napravimo da tvoja olovka crta samo `ako je`{:class="blockcontrol"} 
 
 ## title: Ako imaš problema...
 
-Ako tvoja olovka crta liniju od sredine olovke umjesto vrhom, treba da promijeniš centar svog kostima.
+Ako tvoja olovka crta liniju svojom sredinom umjesto vrhom, treba da promijeniš centar kostima (costume center).
 
 ![Centar kostima](images/costume-center.png)
 
