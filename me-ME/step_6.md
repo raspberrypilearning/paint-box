@@ -30,4 +30,4 @@ Ako želiš, možeš da postaviš najmanju i najveću dozvoljenu vrijednost 'ši
 
 ![snimak ekrana](images/paint-slider-max.png)
 
-Nastavi da isprobavaš promjenljivu 'debljina' sve dok ne budeš zadovoljan/zadovoljna.
+Nastavi da isprobavaš promjenljivu 'širina' sve dok ne budeš zadovoljan/zadovoljna.
