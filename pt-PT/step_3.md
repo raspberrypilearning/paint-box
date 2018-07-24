@@ -33,7 +33,7 @@ Em seguida, vamos fazer o teu lápis apenas desenhar ` se ` {: class = "blockcon
 
 ## title: Se estás com dificuldades ...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Se o teu lápis estiver a desenhar a linha a partir do meio do lápis em vez da ponta, precisas mudar o centro do teu traje.
 
 ![Costume center](images/costume-center.png)
 
