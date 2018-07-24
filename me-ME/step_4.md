@@ -20,7 +20,7 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 + Dodaj kôd liku 'zelena' tako da, kada se klikne na njega, `pošalje`{:class="blockevents"} (broadcast) poruku "zelena" liku olovke, govoreći mu da promijeni svoj kostim i boju.
 
-![Pošalji poruku plava](images/paint-broadcast-green.png)
+![Pošalji poruku zelena](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
