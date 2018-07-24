@@ -21,4 +21,4 @@ Este projeto abrange elementos das seguintes vertentes do [Currículo Raspberry 
 
 Se precisar imprimir este projeto, por favor use a [versão para impressão](https://projects.raspberrypi.org/en/projects/paint-box/print) {: target = blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Use o atalho no rodapé para acessar o repositório do GitHub para este projeto, que contém todos os recursos (incluindo um exemplo de projeto concluído) na pasta 'en / resources'.
