@@ -39,6 +39,6 @@ Se o teu lápis estiver a desenhar a linha a partir do meio do lápis em vez da 
 
 A cruz para centrar o lápis deve ser colocada ** logo abaixo ** da ponta do lápis, não na ponta do lápis.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+As mudanças no 'centro de trajes' de um actor não são registadas até que outra aba seja clicada. Clica noutro traje, ou na aba 'Guiões' para finalizar suas mudanças no centro de trajes.
 
 \--- /collapse \---
