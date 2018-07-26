@@ -1,12 +1,12 @@
-## Coloured pencils
+## Lápis coloridos
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador escolher entre eles.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Clica no teu actor 'lápis', clica em 'Trajes' e duplica o teu traje de 'lápis-azul'.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Muda o nome to teu novo traje para 'lápis-verde' e pinta o lápis de verde.
 
 ![screenshot](images/paint-pencil-green.png)
 
