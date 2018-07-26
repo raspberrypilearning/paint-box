@@ -24,9 +24,9 @@ Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Muda para o teu actor de lápis. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Muda para o teu actor de lápis. Adiciona código para que quando este actor receber a `difusão da mensagem ` {: class = "blockevents"} verde, ele mude para o traje de lápis verde e mude a cor da caneta para verde.
 
-![Broadcast green](images/broadcast-green.png)
+![Difundir verde](images/broadcast-green.png)
 
 To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
 
