@@ -6,13 +6,13 @@ Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Muda o nome to teu novo traje para 'lápis-verde' e pinta o lápis de verde.
++ Renomeia o teu novo traje para 'lápis-verde' e pinta o lápis de verde.
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Desenha dois novos actores - um quadrado azul e um quadrado verde. Vais usá-los para selecionar o lápis azul ou verde.
 
 ![screenshot](images/paint-selectors.png)
 
