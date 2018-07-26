@@ -40,9 +40,9 @@ difunde a mensagem [azul v]
 ... e adiciona este código ao actor lápis:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+quando receberes a mensagem [azul v] 
+muda o teu o traje para [lápis-azul v] 
+altera a cor da tua caneta para [# 0000ff]
 ```
 
 + Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
