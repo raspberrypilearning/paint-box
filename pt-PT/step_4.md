@@ -33,11 +33,11 @@ Para definir o lápis de cor para verde, clica na caixa colorida no bloco ` alte
 + Podes agora fazer o mesmo com o ícone do lápis azul: adiciona este código ao actor quadrado azul:
 
 ```blocks
-when this sprite clicked
-broadcast [blue v]
+quando alguém clicar em ti
+difunde a mensagem [azul v]
 ```
 
-...and add this code to the pencil sprite:
+... e adiciona este código ao actor lápis:
 
 ```blocks
 when I receive [blue v]
