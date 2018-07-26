@@ -35,7 +35,7 @@ Em seguida, vamos fazer o teu lápis apenas desenhar ` se ` {: class = "blockcon
 
 Se o teu lápis estiver a desenhar a linha a partir do meio do lápis em vez da ponta, precisas mudar o centro do teu traje.
 
-![Costume center](images/costume-center.png)
+![Centro de trajes](images/costume-center.png)
 
 A cruz para centrar o lápis deve ser colocada ** logo abaixo ** da ponta do lápis, não na ponta do lápis.
 
