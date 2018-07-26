@@ -28,9 +28,9 @@ Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador
 
 ![Difundir verde](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Para definir o lápis de cor para verde, clica na caixa colorida no bloco ` altera a cor da tua caneta para ` {: class = "blockpen"}, e clica no actor verde para escolher a mesma cor verde como a cor do teu lápis.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Podes agora fazer o mesmo com o ícone do lápis azul: adiciona este código ao actor quadrado azul:
 
 ```blocks
 when this sprite clicked
