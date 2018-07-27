@@ -1,8 +1,8 @@
-## Making mistakes
+## Cometer erros
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Às vezes, erros acontecem, então vamos adicionar um botão 'limpar' e uma borracha.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Adiciona o actor 'X-block' - podes encontrá-lo na biblioteca, na seção de letras. Pinta o traje de vermelho. Este actor vai ser o botão 'limpar'.
 
 ![screenshot](images/paint-x.png)
 
