@@ -20,13 +20,13 @@ Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador
 
 + Adiciona algum código ao actor 'verde' para que quando ele for clicado, seja ` difundida a mensagem` {: class = "blockevents"} "verde" para o actor lápis, dizendo-lhe para mudar as cores de traje e lápis.
 
-![Difundir verde](images/paint-broadcast-green.png)
+![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
 + Muda para o teu actor de lápis. Adiciona código para que quando este actor receber a `difusão da mensagem ` {: class = "blockevents"} verde, ele mude para o traje de lápis verde e mude a cor da caneta para verde.
 
-![Difundir verde](images/broadcast-green.png)
+![Broadcast green](images/broadcast-green.png)
 
 Para definir o lápis de cor para verde, clica na caixa colorida no bloco ` altera a cor da tua caneta para ` {: class = "blockpen"}, e clica no actor verde para escolher a mesma cor verde como a cor do teu lápis.
 
