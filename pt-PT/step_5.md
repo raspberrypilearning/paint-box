@@ -6,11 +6,11 @@
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ Adiciona código a este actor para limpar o palco quando for clicado.
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Toma nota de que não precisas de difundir uma mensagem para limpar o palco, podes simplesmente usar o bloco 'apaga tudo palco' deste actor.
 
 You have probably noticed that your pencil sprite includes an eraser costume:
 
