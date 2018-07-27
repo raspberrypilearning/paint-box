@@ -16,17 +16,17 @@ Provavelmente notaste que o teu actor de lápis inclui um traje de borracha:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ O teu projeto também inclui separadamente um actor borracha. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ O teu projeto também inclui separadamente um actor borracha. Clica com o botão direito neste actor e escolhe "mostra-te". Aqui está como o teu palco deve ficar:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Adicione código ao actor borracha para dizer ao lápis para mudar para uma borracha quando o actor for clicado.
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Quando o lápis recebe a mensagem "borracha", podes trocar o traje de lápis para a borracha e mudar a cor do lápis para branco - a mesma cor do palco!
 
-+ Add some code to create the eraser
++ Adiciona algum código para criar a borracha
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
