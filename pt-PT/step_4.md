@@ -45,12 +45,12 @@ muda o teu o traje para [lápis-azul v]
 altera a cor da tua caneta para [# 0000ff]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ Por fim, adiciona este código para informar ao actor lápis com que cor começar e assegurar que a tela está limpa.
 
 ![Start pencil](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+Escolhemos começar com o azul, mas se preferires, podes começar com um lápis de cor diferente.
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ Testa o teu projeto. Consegues alternar entre canetas azuis e verdes clicando nos actores quadrado azul ou verde?
 
 ![screenshot](images/paint-pens-test.png)
