@@ -1,6 +1,6 @@
 ## Cometer erros
 
-Às vezes, erros acontecem, então vamos adicionar um botão 'limpar' e uma borracha.
+Às vezes acontecem erros, então vamos adicionar um botão 'limpar' e uma borracha.
 
 + Adiciona o actor 'X-block' - podes encontrá-lo na biblioteca, na seção de letras. Pinta o traje de vermelho. Este actor vai ser o botão 'limpar'.
 
@@ -12,11 +12,11 @@
 
 Toma nota de que não precisas de difundir uma mensagem para limpar o palco, podes simplesmente usar o bloco 'apaga tudo palco' deste actor.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Provavelmente notaste que o teu actor de lápis inclui um traje de borracha:
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ O teu projeto também inclui separadamente um actor borracha. Right click on this sprite and choose 'show'. Here is how your stage should look:
 
 ![screenshot](images/paint-eraser-stage.png)
 
