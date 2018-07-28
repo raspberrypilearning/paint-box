@@ -13,7 +13,7 @@
 
 ### ما الذي ستتعلمه
 
-يتناول هذا المشروع عناصر من المعايير التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
 + [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
