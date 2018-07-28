@@ -26,7 +26,7 @@ Vjerovatno primjećuješ da tvoj lik olovke ima kostim gumice:
 
 Kada olovka dobije poruku "gumica", kostim olovke možeš zamijeniti kostimom gumice, a boju olovke promijeniti u bijelu - boju jednaku boji pozornice!
 
-+ Dodaj kôd za keiranje gumice
++ Dodaj kôd za kreiranje gumice
 
 \--- hints \--- \--- hint \--- Dodaj kôd liku olovke: **Kada dobijem** (when I receive) poruku **gumica** **Promijeni kostim** (switch to costume) u gumica **Postavi boju olovke** (set pen color) u bijelu \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda kôd unutar lika olovke:
 
