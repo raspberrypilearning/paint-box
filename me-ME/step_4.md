@@ -16,7 +16,7 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 ![screenshot](images/paint-selectors.png)
 
-+ Preimenuj svoje likove i daj im imena 'plava' i 'zelena'.
++ Promijeni nazive svojih likova u 'plava' i 'zelena'.
 
 + Dodaj kôd liku 'zelena' tako da, kada se klikne na njega, `pošalje`{:class="blockevents"} (broadcast) poruku "zelena" liku olovke, govoreći mu da promijeni svoj kostim i boju.
 
