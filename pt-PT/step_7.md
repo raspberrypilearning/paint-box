@@ -1,13 +1,13 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## Desafio: atalhos
 
-Can you create keyboard shortcuts for your commands? For example:
+Pode criar atalhos do teclado para os teus comandos? Por exemplo:
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
++ b = Mudar para caneta azul
++ g = Mudar para caneta verde
++ e = Mudar para borracha
++ c = Limpar a tela
 
 You could even allow the user to change the pen width with the arrow keys.
 
