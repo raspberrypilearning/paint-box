@@ -8,7 +8,7 @@ Vidjećeš likove (sprites) olovke i gumice:
 
 ![snimak ekrana](images/paint-starter.png)
 
-+ Dodaj kôd liku olovke da napraviš da `uvijek`{:class="blockcontrol"} (forever) prati strelicu miša, tako da možeš da crtaš:
++ Dodaj kôd liku olovke da `uvijek`{:class="blockcontrol"} (forever) prati strelicu miša, tako da možeš da crtaš:
 
 ```blocks
     when flag clicked
