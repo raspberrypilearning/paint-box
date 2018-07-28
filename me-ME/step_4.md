@@ -4,17 +4,17 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 + Klikni na lik olovke, zatim klikni na 'Costumes' (Kostimi) i umnoži (duplicate) kostim 'olovka-plava'.
 
-![snimak ekrana](images/paint-blue-duplicate.png)
+![screenshot](images/paint-blue-duplicate.png)
 
 + Preimenuj novi kostim u 'olovka-zelena' i oboji olovku u zeleno.
 
-![snimak ekrana](images/paint-pencil-green.png)
+![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
 + Napravi dva nova lika - plavi kvadrat i zeleni kvadrat. Koristićeš ih da odabereš plavu ili zelenu olovku.
 
-![snimak ekrana](images/paint-selectors.png)
+![screenshot](images/paint-selectors.png)
 
 + Preimenuj svoje likove i daj im imena 'plava' i 'zelena'.
 
@@ -53,4 +53,4 @@ Izabrali smo da započnemo sa plavom bojom, ali možeš da počneš i sa olovkom
 
 + Isprobaj svoj projekat. Možeš li da zamjenjuješ plavu i zelenu olovku kada klikneš na likove plavog i zelenog kvadrata?
 
-![snimak ekrana](images/paint-pens-test.png)
+![screenshot](images/paint-pens-test.png)
