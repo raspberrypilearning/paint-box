@@ -28,7 +28,7 @@ Quando o lápis recebe a mensagem "borracha", podes trocar o traje de lápis par
 
 + Adiciona algum código para criar a borracha
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Adiciona algum código ao actor lápis: **Quando receberes a mensagem ** 'borracha' **Muda o teu traje para** 'borracha' **Altera a cor da tua caneta ** para 'branco' \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
 ```blocks
 when I receive [eraser v]
