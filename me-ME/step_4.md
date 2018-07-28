@@ -18,7 +18,7 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 + Promijeni nazive svojih likova u 'plava' i 'zelena'.
 
-+ Dodaj kôd liku 'zelena' tako da, kada se klikne na njega, `pošalje`{:class="blockevents"} (broadcast) poruku "zelena" liku olovke, govoreći mu da promijeni svoj kostim i boju.
++ Dodaj kôd liku 'zelena' tako da, kada se klikne na njega, `pošalje`{:class="blockevents"} (broadcast) poruku "zelena" liku olovke, govoreći mu da promijeni svoj kostim i boju olovke.
 
 ![Pošalji zelena](images/paint-broadcast-green.png)
 
@@ -45,7 +45,7 @@ switch costume to [olovka-plava v]
 set pen color to [#0000ff]
 ```
 
-+ Na kraju, dodaj sljedeći kôd da kažeš liku olovke koju boju da izabere na početku projekta i da ekran bude obrisan.
++ Na kraju, dodaj sljedeći kôd da kažeš liku olovke sa kojom bojom da započne i da ekran bude obrisan.
 
 ![Početna olovka](images/start-pencil.png)
 
