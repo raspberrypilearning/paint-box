@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: more pencils
+## Desafio: Mais lápis
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+Consegues juntar lápis vermelho, amarelo e preto ao teu programa de pintura? Dá uma olhada no passo 2 acima se esqueceste como fazer isso. Lembra-te de adicionar também atalhos de teclado para esses novos lápis.
 
-Can you use your pencils to draw a picture?
+Pode usar os lápis para desenhar uma imagem?
 
 ![screenshot](images/paint-final.png)
 
