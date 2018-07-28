@@ -6,19 +6,19 @@ Vamos permitir que o utilizador desenhe usando uma variedade de tamanhos de láp
 
 [[[generic-scratch-add-variable]]]
 
-+ Adiciona esta linha * dentro * do bloco ` repete para sempre ` {: class = "blockcontrol"} do código do lápis:
++ Adiciona esta linha * dentro * do bloco` repete para sempre ` {: class = "blockcontrol"} do código do lápis:
 
 ```blocks
     altera a espessura da tua caneta para (grossura)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+A grossura do lápis será agora definida repetidamente para o valor da variável 'grossura'.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Clica com o botão direito do rato na tela da variável no palco e clica em 'deslizador'.
 
 ![screenshot](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Agora podes arrastar o controle deslizante abaixo da variável para alterar o seu valor.
 
 ![screenshot](images/paint-slider-change.png)
 
