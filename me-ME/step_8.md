@@ -6,6 +6,6 @@ Da li u svoj program za crtanje možeš da dodaš crvenu, žutu i crnu olovku? A
 
 Da li možeš da upotrijebiš svoje olovke da napraviš crtež? 
 
-![snimak ekrana](images/paint-final.png)
+![screenshot](images/paint-final.png)
 
 \--- /challenge \---
