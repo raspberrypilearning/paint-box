@@ -6,7 +6,7 @@ Počnimo tako što ćemo napraviti olovku koja se može koristiti za crtanje na 
 
 Vidjećeš likove (sprites) olovke i gumice:
 
-![snimak ekrana](images/paint-starter.png)
+![screenshot](images/paint-starter.png)
 
 + Dodaj kôd liku olovke da `uvijek`{:class="blockcontrol"} (forever) prati strelicu miša, tako da možeš da crtaš:
 
@@ -23,11 +23,11 @@ Nakon toga, napravimo da tvoja olovka crta samo `ako je`{:class="blockcontrol"} 
 
 + Dodaj ovaj kôd liku olovke:
 
-![snimak ekrana](images/paint-pencil-draw-code.png)
+![screenshot](images/paint-pencil-draw-code.png)
 
 + Isprobaj svoj kôd još jednom. Ovog puta pomjeraj olovku po pozornici držeći pritisnut taster miša. Možeš li da crtaš svojom olovkom?
 
-![snimak ekrana](images/paint-draw.png)
+![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
