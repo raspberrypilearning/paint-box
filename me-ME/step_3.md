@@ -37,7 +37,7 @@ Ako tvoja olovka crta liniju svojom sredinom umjesto vrhom, treba da promijeniš
 
 ![Centar kostima](images/costume-center.png)
 
-Nišan za olovku treba da bude postavljen **tačno ispod** vrha olovke, a ne na vrhu olovke.
+Krst za centriranje olovke treba da bude postavljen **malo ispod** vrha olovke, a ne na njenom vrhu.
 
 Izmjene u 'centru kostima' lika (costume center) nisu registrovane sve dok se ne klikne na drugu karticu. Klikni na drugi kostim ili na karticu 'Scripts' (Skripte) da dovršiš svoje izmjene u centru kostima.
 
