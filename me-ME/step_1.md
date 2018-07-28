@@ -4,7 +4,7 @@ Napravi sopstveni program za bojenje!
 
 ### Šta ćeš napraviti
 
-Klikni na zelenu zastavicu da započneš projekat. Koristi miša da pomjeraš olovku i drži pritisnut lijevi taster miša da crtaš. Klikni na boju da promijeniš olovku ili klikni na gumicu ako treba nešto da izbrišeš. Da očistiš stranicu, klikni na krstić.
+Klikni na zelenu zastavicu da započneš projekat. Koristi miša da pomjeraš olovku i drži pritisnut lijevi taster miša da crtaš. Klikni na boju da promijeniš olovku ili klikni na gumicu ako treba nešto da izbrišeš. Da obrišeš stranicu, klikni na krstić.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
