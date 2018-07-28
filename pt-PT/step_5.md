@@ -50,6 +50,6 @@ Para corrigir isso, diz ao lápis para apenas desenhar se o rato for clicado * e
 
 ![screenshot](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Testa o teu projeto; agora já nāo deves conseguir desenhar perto dos blocos de seleção.
 
 ![screenshot](images/paint-fixed.png)
