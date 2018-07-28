@@ -20,7 +20,7 @@ Vjerovatno primjećuješ da tvoj lik olovke ima kostim gumice:
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Dodaj kôd liku gumice koji će olovci reći da se zamijeni sa gumicom kada se klikne na ovaj lik.
++ Dodaj liku gumice kôd koji će olovci reći da se zamijeni sa gumicom kada se klikne na ovaj lik.
 
 ![Pošalji gumica](images/broadcast-eraser.png)
 
