@@ -1,6 +1,6 @@
 ## Cometer erros
 
-Às vezes acontecem erros, então vamos adicionar um botão 'limpar' e uma borracha.
+Às vezes erros acontecem, vamos então adicionar um botão 'limpar' e uma borracha.
 
 + Adiciona o actor 'X-block' - podes encontrá-lo na biblioteca, na seção de letras. Pinta o traje de vermelho. Este actor vai ser o botão 'limpar'.
 
@@ -10,7 +10,7 @@
 
 ![Clear stage](images/clear-stage.png)
 
-Toma nota de que não precisas de difundir uma mensagem para limpar o palco, podes simplesmente usar o bloco 'apaga tudo palco' deste actor.
+Toma nota de que não precisas de difundir uma mensagem para limpar o palco, podes simplesmente usar o bloco 'apaga tudo do palco' deste actor.
 
 Provavelmente notaste que o teu actor de lápis inclui um traje de borracha:
 
@@ -28,25 +28,25 @@ Quando o lápis recebe a mensagem "borracha", podes trocar o traje de lápis par
 
 + Adiciona algum código para criar a borracha
 
-\--- hints \--- \--- hint \--- Adiciona algum código ao actor lápis: **Quando receberes a mensagem ** 'borracha' **Muda o teu traje para** 'borracha' **Altera a cor da tua caneta ** para 'branco' \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- Adiciona algum código ao actor lápis: **Quando receberes a mensagem ** 'borracha' **Muda o teu traje para** 'borracha' **Altera a cor da tua caneta ** para 'branco' \--- /hint \--- \--- hint \--- Aqui está como o código dentro to actor lápis deve ficar:
 
 ```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
+quando receberes a mensagem [borracha v] 
+muda o teu o traje para [borrachal v] 
+altera a cor da tua caneta para [# FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Testa o teu projeto, para ver se podes limpar e apagar no palco.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Há mais um problema com o lápis - podes desenhar em qualquer lugar do palco, inclusive perto dos ícones de seleção!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Para corrigir isso, diz ao lápis para apenas desenhar se o rato for clicado * e * se a posição y do rato for maior que -120:
 
 ![screenshot](images/pencil-gt-code.png)
 
