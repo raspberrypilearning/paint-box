@@ -49,8 +49,8 @@ set pen color to [#0000ff]
 
 ![Početna olovka](images/start-pencil.png)
 
-Izabrali smo da započnemo sa plavom bojom, ali možeš da počneš i sa olovkom neke druge boje ako želiš.
+Izabrali smo da započnemo sa plavom bojom, ali ako želiš, možeš da počneš i sa olovkom neke druge boje.
 
-+ Isprobaj svoj projekat. Možeš li da zamjenjuješ plavu i zelenu olovku kada klikneš na likove plavog i zelenog kvadrata?
++ Isprobaj svoj projekat. Možeš li da zamjenjuješ plavu i zelenu olovku kada klikneš na likove plavog ili zelenog kvadrata?
 
 ![screenshot](images/paint-pens-test.png)
