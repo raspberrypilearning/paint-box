@@ -31,7 +31,7 @@ Nakon toga, napravimo da tvoja olovka crta samo `ako je`{:class="blockcontrol"} 
 
 ## \--- collapse \---
 
-## title: Ako imaš problema...
+## title: Ako imaš probleme...
 
 Ako tvoja olovka crta liniju svojom sredinom umjesto vrhom, treba da promijeniš centar kostima (costume center).
 
