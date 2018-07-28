@@ -26,7 +26,7 @@ Agora podes arrastar o controle deslizante abaixo da variável para alterar o se
 
 ![screenshot](images/paint-width-test.png)
 
-Se preferires, podes definir o valor mínimo e máximo de 'grossura' permitido. Para isso, clica novamente com o botão direito na variável e clica em 'definir mínimo e máximo do deslizador'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Se preferires, podes definir o valor mínimo e máximo de 'grossura' permitido. Para isso, clica novamente com o botão direito na variável e clica em 'definir mínimo e máximo do deslizador'. Define os valores mínimos e máximos da tua variável para algo mais sensato, como 1 e 20.
 
 ![screenshot](images/paint-slider-max.png)
 
