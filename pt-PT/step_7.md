@@ -9,6 +9,6 @@ Pode criar atalhos do teclado para os teus comandos? Por exemplo:
 + e = Mudar para borracha
 + c = Limpar a tela
 
-You could even allow the user to change the pen width with the arrow keys.
+Podes até permitir que o utilizador altere a grossura da caneta com as teclas de seta.
 
 \--- /challenge \---
