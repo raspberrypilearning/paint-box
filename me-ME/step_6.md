@@ -12,22 +12,22 @@ Omogućimo korisniku da crta koristeći olovke različitih debljina.
     set pen size to (širina)
 ```
 
-Debljina olovke sada će biti stalno usklađena sa vrijednošću promjenljive 'širina'.
+Debljina olovke sada će biti stalno postavljena na vrijednost promjenljive 'širina'.
 
 + Klikni desnim tasterom miša na prikaz promjenljive na pozornici i klikni na 'slider' (klizač).
 
-![snimak ekrana](images/paint-slider.png)
+![screenshot](images/paint-slider.png)
 
 Sada možeš da povlačiš klizač ispod promjenljive da promijeniš njenu vrijednost.
 
-![snimak ekrana](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
 + Isprobaj svoj projekat i provjeri da li možeš da promijeniš debljinu olovke.
 
-![snimak ekrana](images/paint-width-test.png)
+![screenshot](images/paint-width-test.png)
 
 Ako želiš, možeš da postaviš najmanju i najveću dozvoljenu vrijednost 'širine'. To ćeš uraditi tako što ćeš ponovo kliknuti desnim tasterom miša na promjenljivu i kliknuti na 'set slider min and max' (postavi klizač na min i max). Postavi najmanju i najveću vrijednost promjenljive koje imaju smisla, na primjer 1 i 20.
 
-![snimak ekrana](images/paint-slider-max.png)
+![screenshot](images/paint-slider-max.png)
 
 Nastavi da isprobavaš promjenljivu 'širina' sve dok ne budeš zadovoljan/zadovoljna.
