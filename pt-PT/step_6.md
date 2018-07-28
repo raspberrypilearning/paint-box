@@ -30,4 +30,4 @@ Se preferires, podes definir o valor mínimo e máximo de 'grossura' permitido. 
 
 ![screenshot](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Continua a testar a tua variável 'grossura' até que estejas satisfeito.
