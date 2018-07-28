@@ -20,13 +20,13 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 + Dodaj kôd liku 'zelena' tako da, kada se klikne na njega, `pošalje`{:class="blockevents"} (broadcast) poruku "zelena" liku olovke, govoreći mu da promijeni svoj kostim i boju.
 
-![Pošalji poruku zelena](images/paint-broadcast-green.png)
+![Pošalji zelena](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
 + Pređi na lik olovke. Dodaj ovom liku kôd tako da, kada primi `poruku`{:class="blockevents"} zelena, promijeni kostim u olovka-zelena i boju olovke u zelenu.
 
-![Pošalji poruku zelena](images/broadcast-green.png)
+![Pošalji zelena](images/broadcast-green.png)
 
 Da bismo postavili da olovka boji zelenom bojom, klikni na obojeno polje u bloku `set pen color`{:class="blockpen"} (postavi boju olovke), a zatim klikni na zelenu ikonu da izabereš zelenu boju za svoju olovku.
 
