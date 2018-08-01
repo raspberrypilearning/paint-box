@@ -6,7 +6,7 @@ Omogućimo korisniku da crta koristeći olovke različitih debljina.
 
 [[[generic-scratch-add-variable]]]
 
-+ Dodaj ovaj red *unutar* petlje `ponavljaj` (forever) u kôdu za olovku:
++ Dodaj ovaj red *unutar* petlje `forever`{:class="blockcontrol"} (ponavljaj) u kôdu za olovku:
 
 ```blocks
     set pen size to (širina)
