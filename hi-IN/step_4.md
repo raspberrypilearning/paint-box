@@ -4,23 +4,23 @@
 
 + अपने पेंसिल स्प्राइट पर क्लिक करें, 'पोशाक' पर क्लिक करें और अपनी 'पेंसिल-नीली' पोशाक की नकल(duplicate) बनाएँ।
 
-![screenshot](images/paint-blue-duplicate.png)
+![स्क्रीनशॉट](images/paint-blue-duplicate.png)
 
 + अपनी नई पोशाक 'पेंसिल-हरी' को नया नाम दें, और पेंसिल को हरे रंग में रंग दें।
 
-![screenshot](images/paint-pencil-green.png)
+![स्क्रीनशॉट](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
 + दो नई स्प्राइट बनाएँ - एक नीला वर्ग(square) और एक हरा वर्ग। आप इनका उपयोग नीली या हरी पेंसिल चुनने के लिए करेंगे।
 
-![screenshot](images/paint-selectors.png)
+![स्क्रीनशॉट](images/paint-selectors.png)
 
 + अपने sprites का पुनः नाम रखें ताकि उन्हें 'नीला' और 'हरा' कहा जाए।
 
 + 'हरे' स्प्राइट में कुछ कोड जोड़ें ताकि जब इसे क्लिक किया जाए, तो यह पेंसिल स्प्राइट को संदेश "हरा" `प्रसारित` {: class = "blockevents"} करें, उसे अपनी पोशाक और पेंसिल का रंग बदलने के लिए बताएं।
 
-![Broadcast green](images/paint-broadcast-green.png)
+![हरा प्रसारण करें](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
@@ -45,12 +45,12 @@
 पेन का रंग [#0000ff] सेट करें
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ अंततः,पेंसिल स्प्राइट को किसके साथ चालू होना है बताने के लिए इस कोड को जोड़े, और सुनिश्चित करें कि स्क्रीन साफ़ हो।
 
 ![Start pencil](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+हमने नीले रंग से शुरू करना चुना है लेकिन यदि आप चाहें, तो आप एक अलग रंगीन पेंसिल से शुरू कर सकते हैं।
 
-+ Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
++ अपनी प्रोजेक्ट का परीक्षण करें। क्या आप नीले या हरे रंग के वर्ग(square) पर क्लिक करके नीले और हरे रंग के पेन बदल सकते हैं?
 
 ![screenshot](images/paint-pens-test.png)
