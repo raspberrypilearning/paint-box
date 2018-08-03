@@ -20,7 +20,7 @@
 
 ![screenshot](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ स्प्राइट क्लिक होने पर पेंसिल को रबड़ होने के लिए रबड़ स्प्राइट में कोड जोड़ें।
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
