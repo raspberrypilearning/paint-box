@@ -1,6 +1,6 @@
-## Making a pencil
+## पेंसिल बनाना
 
-Let's start by making a pencil that can be used to draw on the stage.
+आइए एक पेंसिल बनाकर शुरू करें जिसका उपयोग स्टेज पर खीचनें(draw) के लिए किया जा सकता है।
 
 + Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
 
