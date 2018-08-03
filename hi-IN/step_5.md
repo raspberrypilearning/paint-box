@@ -16,7 +16,7 @@
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ आपके प्रोजेक्ट में एक अलग से रबड़ स्प्राइट भी शामिल है। Right click on this sprite and choose 'show'. Here is how your stage should look:
 
 ![screenshot](images/paint-eraser-stage.png)
 
