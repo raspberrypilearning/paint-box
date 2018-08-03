@@ -16,7 +16,7 @@
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ आपके प्रोजेक्ट में एक अलग से रबड़ स्प्राइट भी शामिल है। इस स्प्राइट पर राइट क्लिक करें और 'दिखाए(show)' चुनें। Here is how your stage should look:
++ आपके प्रोजेक्ट में एक अलग से रबड़ स्प्राइट भी शामिल है। इस स्प्राइट पर राइट क्लिक करें और 'दिखाए(show)' चुनें। यहाँ है : कि कैसा आपका स्टेज दिखेगा:
 
 ![screenshot](images/paint-eraser-stage.png)
 
