@@ -25,15 +25,15 @@
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ अपने कोड का फिर से परीक्षण करें। इस बार, स्टेज के चारों ओर पेंसिल को ले जाएं और माउस बटन दबाए रखें। Can you draw with your pencil?
++ अपने कोड का फिर से परीक्षण करें। इस बार, स्टेज के चारों ओर पेंसिल को ले जाएं और माउस बटन दबाए रखें। क्या आप अपने पेंसिल से खींच कर बना सकते हैं?
 
 ![screenshot](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: अगर आपको समस्या आ रही हैं...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+यदि आपकी पेंसिल नोक के बजाए पेंसिल के बीच से रेखा खींच रही है, तो आपको अपना पोशाक केंद्र बदलना होगा।
 
 ![Costume center](images/costume-center.png)
 
