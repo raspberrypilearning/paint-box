@@ -33,11 +33,11 @@
 + नीले पेंसिल आइकन के साथ भी ऐसा कर सकते हैं: इस कोड को नीले वर्ग(square) स्प्राइट से जोड़े:
 
 ```blocks
-when this sprite clicked
-broadcast [blue v]
+जब यह स्प्राइट क्लिक किया जाए
+प्रसारण करें [blue v]
 ```
 
-...and add this code to the pencil sprite:
+...और इस कोड को अपने पेंसिल स्प्राइट में जोड़ें:
 
 ```blocks
 when I receive [blue v]
