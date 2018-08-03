@@ -12,7 +12,7 @@
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ दो नई स्प्राइट बनाएँ - एक नीला वर्ग(square) और एक हरा वर्ग। आप इनका उपयोग नीली या हरी पेंसिल चुनने के लिए करेंगे।
 
 ![screenshot](images/paint-selectors.png)
 
