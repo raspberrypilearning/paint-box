@@ -17,7 +17,7 @@
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ झंडे पर क्लिक करें और, फिर माउस को स्टेज के चारों ओर ले जाएं यह जांचने के लिए की कोड काम करता है या नहीं।
 
 Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
