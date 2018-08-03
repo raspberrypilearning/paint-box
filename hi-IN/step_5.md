@@ -24,9 +24,9 @@
 
 ![Broadcast eraser](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+जब पेंसिल को "रबड़(eraser)" संदेश प्राप्त होता है, तो आप पेंसिल पोशाक को रबड़ में बदल सकते हैं, और पेंसिल रंग को सफेद बदल सकते हैं - स्टेज के समान रंग!
 
-+ Add some code to create the eraser
++ रबड़ बनाने के लिए कुछ कोड जोड़ें
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
 
