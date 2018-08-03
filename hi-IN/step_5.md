@@ -1,6 +1,6 @@
 ## गलतियाँ करना
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+कभी-कभी गलती हो जाती है, तो चलिए अपने प्रोजेक्ट में 'साफ़ करें' बटन और रबड़ जोड़ें!
 
 + Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
 
