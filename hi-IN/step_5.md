@@ -6,13 +6,13 @@
 
 ![screenshot](images/paint-x.png)
 
-+ Add code to this sprite to clear the stage when it's clicked.
++ इस स्प्राइट में कोड जोड़ें ताकि जब यह क्लिक किया जाए तो स्टेज साफ हो जाए।
 
 ![Clear stage](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+ध्यान दें कि आपको स्टेज को क्लियर करने के लिए संदेश नहीं भेजना होगा, आप इस स्प्राइट से 'साफ़' ब्लॉक का उपयोग कर सकते हैं।
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+शायद आपने ध्यान दिया होगा कि आपके पेंसिल स्प्राइट में रबड़ पोशाक शामिल है:
 
 ![screenshot](images/paint-eraser-costume.png)
 
