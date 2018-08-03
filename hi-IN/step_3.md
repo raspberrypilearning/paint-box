@@ -19,13 +19,13 @@
 
 + झंडे पर क्लिक करें और, फिर माउस को स्टेज के चारों ओर ले जाएं यह जांचने के लिए की कोड काम करता है या नहीं।
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+इसके बाद, चलो पेंसिल को ऐसा बनाए कि `जब` {: class = "blockcontrol"} माउस को क्लिक किया जाए तभी खींचने पर बनाए।
 
-+ Add this code to your pencil sprite:
++ इस कोड को अपने पेंसिल स्प्राइट में जोड़ें:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ अपने कोड का फिर से परीक्षण करें। इस बार, स्टेज के चारों ओर पेंसिल को ले जाएं और माउस बटन दबाए रखें। Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
 
