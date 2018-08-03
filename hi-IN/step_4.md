@@ -28,9 +28,9 @@
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+पेंसिल को हरे रंग करने पर सेट करने के लिए, `रंग सेट करें`{:class="blockpen"} ब्लॉक में रंगीन बॉक्स पर क्लिक करें, और अपने पेंसिल रंग के समान रंग का चयन करने के लिए हरे रंग के स्प्राइट पर क्लिक करें।
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ नीले पेंसिल आइकन के साथ भी ऐसा कर सकते हैं: इस कोड को नीले वर्ग(square) स्प्राइट से जोड़े:
 
 ```blocks
 when this sprite clicked
