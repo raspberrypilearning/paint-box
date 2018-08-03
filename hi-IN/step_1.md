@@ -4,14 +4,14 @@
 
 ### आप क्या बनाएँगे
 
-प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । Use the mouse to move the pencil and hold down the left mouse button to draw. पेंसिल बदलने के लिए रंग(colour) पर क्लिक करें या रबड़(rubber) पर क्लिक करके रबड़ का उपयोग अपने काम को मिटाने के लिए करें। पृष्ठ(page) को साफ़ करने के लिए क्रॉस पर क्लिक करें।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### आप क्या सीखेंगे
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
