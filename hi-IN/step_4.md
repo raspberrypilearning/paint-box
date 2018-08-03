@@ -37,12 +37,12 @@
 प्रसारण करें [blue v]
 ```
 
-...और इस कोड को अपने पेंसिल स्प्राइट में जोड़ें:
+...और इस कोड को अपने पेंसिल स्प्राइट से जोड़ें:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+मुझे [blue v] प्राप्त हो
+पोशाक बदल कर [pencil-blue v] करें
+पेन का रंग [#0000ff] सेट करें
 ```
 
 + Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
