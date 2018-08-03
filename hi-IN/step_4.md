@@ -1,12 +1,12 @@
 ## रंगीन पेंसिलें
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+चलिए अपने प्रोजेक्ट में विभिन्न रंगों के पेंसिल जोड़ें, और उपयोगकर्ता को उनके बीच चुनने की अनुमति दें!
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ अपने पेंसिल स्प्राइट पर क्लिक करें, 'पोशाक' पर क्लिक करें और अपनी 'पेंसिल-नीली' पोशाक की नकल(duplicate) बनाएँ।
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ अपनी नई पोशाक 'पेंसिल-हरी' को नया नाम दें, और पेंसिल को हरे रंग में रंग दें।
 
 ![screenshot](images/paint-pencil-green.png)
 
