@@ -6,7 +6,7 @@
 
 आप पेंसिल और रबड़ स्प्राइट्स देखेंगे:
 
-![screenshot](images/paint-starter.png)
+![स्क्रीनशॉट](images/paint-starter.png)
 
 + `हमेशा के लिए(forever)` {: class = "blockcontrol"} पालन करने के लिए पेंसिल स्प्राइट में कुछ कोड जोड़ें ताकि आप खींच कर बना(draw) सकें:
 
@@ -23,11 +23,11 @@
 
 + इस कोड को अपने पेंसिल स्प्राइट में जोड़ें:
 
-![screenshot](images/paint-pencil-draw-code.png)
+![स्क्रीनशॉट](images/paint-pencil-draw-code.png)
 
 + अपने कोड का फिर से परीक्षण करें। इस बार, स्टेज के चारों ओर पेंसिल को ले जाएं और माउस बटन दबाए रखें। क्या आप अपने पेंसिल से खींच कर बना सकते हैं?
 
-![screenshot](images/paint-draw.png)
+![स्क्रीनशॉट](images/paint-draw.png)
 
 ## \--- collapse \---
 
@@ -35,10 +35,10 @@
 
 यदि आपकी पेंसिल नोक के बजाए पेंसिल के बीच से रेखा खींच रही है, तो आपको अपना पोशाक केंद्र बदलना होगा।
 
-![Costume center](images/costume-center.png)
+![पोशाक केंद्र](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+पेंसिल के लिए क्रॉसहेयर नोक के **ठीक नीचे** रखा जाना चाहिए, पेंसिल के नोक पर नहीं ।
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+स्प्राइट के 'पोशाक केंद्र' में परिवर्तन तब तक पंजीकृत नहीं होता, जब तक दूसरे टैब पर क्लिक न किया जाए। इसलिए पोशाक केंद्र के परिवर्तनों को अंतिम रूप देने के लिए, अन्य पोशाक, या 'Scripts' टैब पर क्लिक करें।
 
 \--- /collapse \---
