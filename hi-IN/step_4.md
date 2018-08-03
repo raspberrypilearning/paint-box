@@ -18,13 +18,13 @@
 
 + अपने sprites का पुनः नाम रखें ताकि उन्हें 'नीला' और 'हरा' कहा जाए।
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ 'हरे' स्प्राइट में कुछ कोड जोड़ें ताकि जब इसे क्लिक किया जाए, तो यह पेंसिल स्प्राइट को संदेश "हरा" `प्रसारित` {: class = "blockevents"} करें, उसे अपनी पोशाक और पेंसिल का रंग बदलने के लिए बताएं।
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ अपने पेंसिल स्प्राइट पर जाए। Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
 
 ![Broadcast green](images/broadcast-green.png)
 
