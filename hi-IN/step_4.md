@@ -16,7 +16,7 @@
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ अपने sprites का पुनः नाम रखें ताकि उन्हें 'नीला' और 'हरा' कहा जाए।
 
 + Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
 
