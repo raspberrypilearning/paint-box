@@ -24,7 +24,7 @@
 
 [[[generic-scratch-broadcast-message]]]
 
-+ अपने पेंसिल स्प्राइट पर जाए। Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ अपने पेंसिल स्प्राइट पर जाए। कुछ कोड जोड़ें ताकि जब इस स्प्राइट को हरा(green) `प्रसारण`{: class = "blockevents"} प्राप्त हो, तो उसका पेंसिल पोशाक और कलम का रंग हरा हो जाए।
 
 ![Broadcast green](images/broadcast-green.png)
 
