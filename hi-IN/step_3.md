@@ -2,9 +2,9 @@
 
 आइए एक पेंसिल बनाकर शुरू करें जिसका उपयोग स्टेज पर खीचनें(draw) के लिए किया जा सकता है।
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ 'पेंटबॉक्स' स्क्रैच प्रोजेक्ट को ऑनलाइन इससे [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} खोलें या इससे डाउनलोड करें <http://jumpto.cc/paint-get>{:target="_blank"} और फिर यदि आप ऑफ़लाइन संपादक का उपयोग कर रहे हैं तो इसे खोलें।
 
-You will see pencil and eraser sprites:
+आप पेंसिल और रबड़ स्प्राइट्स देखेंगे:
 
 ![screenshot](images/paint-starter.png)
 
