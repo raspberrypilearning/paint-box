@@ -1,6 +1,6 @@
 ## पेंसिल बनाना
 
-आइए एक पेंसिल बनाकर शुरू करें जिसका उपयोग स्टेज पर खीचनें(draw) के लिए किया जा सकता है।
+आइए एक पेंसिल बनाकर शुरू करें जिसका उपयोग स्टेज पर खींच कर बनाने(draw) के लिए किया जा सकता है।
 
 + 'पेंटबॉक्स' स्क्रैच प्रोजेक्ट को ऑनलाइन इससे [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} खोलें या इससे डाउनलोड करें <http://jumpto.cc/paint-get>{:target="_blank"} और फिर यदि आप ऑफ़लाइन संपादक का उपयोग कर रहे हैं तो इसे खोलें।
 
@@ -8,10 +8,10 @@
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ `हमेशा के लिए(forever)` {: class = "blockcontrol"} पालन करने के लिए पेंसिल स्प्राइट में कुछ कोड जोड़ें ताकि आप खींच कर बना(draw) सकें:
 
 ```blocks
-    when flag clicked
+    जब झंडा क्लिक किया जाए
     forever
       go to [mouse pointer v]
     end
