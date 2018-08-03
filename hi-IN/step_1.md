@@ -1,10 +1,10 @@
-## Introduction
+## परिचय
 
-Make your own paint program!
+अपना खुद का पेंट प्रोग्राम बनाएं!
 
-### What you will make
+### आप क्या बनाएँगे
 
-Click on the green flag to start. Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
+प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । Use the mouse to move the pencil and hold down the left mouse button to draw. Click on a colour to change pencils or click the rubber and use it to erase your work. To clear the page click the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
