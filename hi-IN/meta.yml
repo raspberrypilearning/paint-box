@@ -6,30 +6,30 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Paint Box
-description: Learn how to make your own paint program.
+title: पेंट बॉक्स
+description: सीखें कि अपना खुद का पेंट प्रोग्राम कैसे बनाएं।
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
+interests: कला
 technologies: scratch
-site_areas: projects
+site_areas: codeclub, scratch
 hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: What you will need
+    title: आपको किन चीजों की आवश्यकता होगी
   - 
-    title: Making a pencil
+    title: पेंसिल बनाना
   - 
-    title: Coloured pencils
+    title: रंगीन पेंसिलें
   - 
-    title: Making mistakes
+    title: गलतियाँ करना
   - 
-    title: Changing the pencil width
+    title: पेंसिल की चौड़ाई बदलना
   - 
-    title: 'Challenge: shortcuts'
+    title: 'चुनौती: शॉर्टकट्स'
   - 
     title: 'Challenge: more pencils'
