@@ -1,8 +1,8 @@
-## Changing the pencil width
+## पेंसिल की चौड़ाई बदलना
 
 Let's allow the user to draw using a range of different pencil sizes.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ पहले, `चौड़ाई`{:class="blockvariable"} नामक नया वेरिएबल जोड़े।
 
 [[[generic-scratch-add-variable]]]
 
