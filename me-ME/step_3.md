@@ -2,7 +2,7 @@
 
 Počnimo tako što ćemo napraviti olovku koja se može koristiti za crtanje na pozornici.
 
-+ Otvori online Scratch projekat 'Paintbox' na [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} ili ga preuzmi sa <http://jumpto.cc/paint-get>{:target="_blank"}, a zatim otvori ako koristiš offline editor.
++ Otvori Scratch projekat 'Paintbox' online na [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} ili ga preuzmi sa <http://jumpto.cc/paint-get>{:target="_blank"}, a zatim otvori ako koristiš offline editor.
 
 Vidjećeš likove (sprites) olovke i gumice:
 
