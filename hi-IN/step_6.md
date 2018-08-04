@@ -6,10 +6,10 @@ Let's allow the user to draw using a range of different pencil sizes.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ इस लाइन को अपनी पेंसिल के कोड `हमेशा के लिए(forever)`{:class="blockcontrol"} लूप के*अंदर* जोड़ें:
 
 ```blocks
-    set pen size to (width)
+    पेन का अाकार (चौड़ाई) पर सेट करे
 ```
 
 The pencil width will now repeatedly be set to the value of the 'width' variable.
