@@ -14,15 +14,15 @@ Let's allow the user to draw using a range of different pencil sizes.
 
 पेंसिल की चौड़ाई अब बार-बार 'चौड़ाई' वेरिएबल(variable) के मान पर सेट की जाएगी।
 
-+ Right click on the variable display on the stage and click 'slider'.
++ स्टेज पर वेरिएबल प्रदर्शक(display) पर राइट क्लिक करें और 'स्लाइडर' पर क्लिक करें।
 
 ![screenshot](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+अब आप वेरिएबल के नीचे स्लाइडर को मान बदलने के लिए खींच सकते हैं।
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test your project, and see if you can modify the pencil width.
++ अपने प्रोजेक्ट का परीक्षण करें, और देखें कि क्या आप पेंसिल की चौड़ाई बदल सकते हैं।
 
 ![screenshot](images/paint-width-test.png)
 
