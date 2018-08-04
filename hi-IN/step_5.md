@@ -28,7 +28,7 @@
 
 + रबड़ बनाने के लिए कुछ कोड जोड़ें
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- hints \--- \--- hint \--- पेंसिल स्प्राइट में कुछ कोड जोड़ें: **जब मुझे** **रबड़** संदेश प्राप्त हो **पोषक बदल जाए** रबड़ में **पेन बदल जाए** सफेद रंग में \--- /hint \--- \--- hint \--- यहाँ बताया गया है कि पेंसिल स्प्राइट के अंदर कोड कैसे दिखना चाहिए::
 
 ```blocks
 when I receive [eraser v]
