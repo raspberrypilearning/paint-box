@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: more pencils
+## चुनौती: अधिक पेंसिल
 
-Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
+क्या आप अपने पेंट प्रोग्राम में लाल, पीले और काले पेंसिल जोड़ सकते हैं? यदि आप भूल गए हैं कि यह कैसे करना है, तो उपर्युक्त चरण 2(step 2) पर एक नज़र डालें। इन नए पेंसिल के लिए कीबोर्ड शॉर्टकट भी जोड़ना याद रखें।
 
-Can you use your pencils to draw a picture?
+क्या आप चित्र खींचने के लिए अपने पेंसिल का उपयोग कर पा रहें हैं?
 
 ![screenshot](images/paint-final.png)
 
