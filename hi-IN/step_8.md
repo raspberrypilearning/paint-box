@@ -6,6 +6,6 @@
 
 क्या आप चित्र खींचने के लिए अपने पेंसिल का उपयोग कर पा रहें हैं?
 
-![screenshot](images/paint-final.png)
+![स्क्रीनशॉट](images/paint-final.png)
 
 \--- /challenge \---
