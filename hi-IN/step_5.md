@@ -46,7 +46,7 @@
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+इसे ठीक करने के लिए, पेंसिल को बताए कि केवल तभी चित्र बनाए जब माउस पर क्लिक किया जाए और जब माउस की y-स्थिति -120 से अधिक हो
 
 ![screenshot](images/pencil-gt-code.png)
 
