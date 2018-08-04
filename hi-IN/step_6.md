@@ -26,7 +26,7 @@ Let's allow the user to draw using a range of different pencil sizes.
 
 ![screenshot](images/paint-width-test.png)
 
-यदि आप चाहें, तो आप 'चौड़ाई' के न्यूनतम और अधिकतम मान को सेट कर सकते हैं जिसकी अनुमति है। To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+यदि आप चाहें, तो आप 'चौड़ाई' के न्यूनतम और अधिकतम मान को सेट कर सकते हैं जिसकी अनुमति है। ऐसा करने के लिए, फिर से वेरिएबल पर राइट-क्लिक करें और 'स्लाइडर न्यूनतम और अधिकतम सेट करें' पर क्लिक करें। Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
 
 ![screenshot](images/paint-slider-max.png)
 
