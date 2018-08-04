@@ -9,6 +9,6 @@
 + e = बदल(switch) कर रबड़ हो जाए
 + c = चित्रपट साफ हो जाए
 
-You could even allow the user to change the pen width with the arrow keys.
+आप उपयोगकर्ता को तीर बटन(arrow keys) द्वारा भी पेन की चौड़ाई बदलने की अनुमति दे सकते हैं!
 
 \--- /challenge \---
