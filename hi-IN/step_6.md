@@ -12,7 +12,7 @@ Let's allow the user to draw using a range of different pencil sizes.
     पेन का अाकार (चौड़ाई) पर सेट करे
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+पेंसिल की चौड़ाई अब बार-बार 'चौड़ाई' वेरिएबल(variable) के मान पर सेट की जाएगी।
 
 + Right click on the variable display on the stage and click 'slider'.
 
