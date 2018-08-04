@@ -38,11 +38,11 @@
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ यह देखने के लिए कि क्या आप स्टेज को साफ़ और मिटा पा रहे हैं, अपने प्रोजेकट का परीक्षण करें।
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+पेंसिल में एक और समस्या है – आप चुननेवाले(selector) आइकन्स सहित, कहीं भी चित्र बना सकते हैं!
 
 ![screenshot](images/paint-draw-problem.png)
 
