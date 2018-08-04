@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## चुनौती: शॉर्टकट्स
 
-Can you create keyboard shortcuts for your commands? For example:
+क्या आप अपने कमांड्स(commands) के लिए कीबोर्ड शॉर्टकट्स बना सकते हैं? उदाहरण के लिए:
 
 + b = Switch to blue pen
 + g = switch to green pen
