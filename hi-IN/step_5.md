@@ -4,25 +4,25 @@
 
 + 'X-block' स्प्राइट जोड़ें - आप इसे अक्षर अनुभाग के लाइब्रेरी में पाएंगे। पोशाक को लाल में रंगे। यह 'साफ' बटन बन जाएगा।
 
-![screenshot](images/paint-x.png)
+![स्क्रीनशॉट](images/paint-x.png)
 
 + इस स्प्राइट में कोड जोड़ें ताकि जब यह क्लिक किया जाए तो स्टेज साफ हो जाए।
 
-![Clear stage](images/clear-stage.png)
+![साफ़ स्टेज](images/clear-stage.png)
 
 ध्यान दें कि आपको स्टेज को साफ करने के लिए संदेश नहीं भेजना होगा, आप इस स्प्राइट से 'साफ' ब्लॉक का उपयोग कर सकते हैं।
 
 शायद आपने ध्यान दिया होगा कि आपके पेंसिल स्प्राइट में रबड़ पोशाक शामिल है:
 
-![screenshot](images/paint-eraser-costume.png)
+![स्क्रीनशॉट](images/paint-eraser-costume.png)
 
 + आपके प्रोजेक्ट में एक अलग से रबड़ स्प्राइट भी शामिल है। इस स्प्राइट पर राइट क्लिक करें और 'दिखाए(show)' चुनें। यहाँ दिखाया गया है कि कैसा आपका स्टेज दिखना चाहिए:
 
-![screenshot](images/paint-eraser-stage.png)
+![स्क्रीनशॉट](images/paint-eraser-stage.png)
 
 + स्प्राइट क्लिक होने पर पेंसिल को रबड़ होने के लिए रबड़ स्प्राइट में कोड जोड़ें।
 
-![Broadcast eraser](images/broadcast-eraser.png)
+![रबड़ प्रसारण करें](images/broadcast-eraser.png)
 
 जब पेंसिल को "रबड़(eraser)" संदेश प्राप्त होता है, तो आप पेंसिल पोशाक को रबड़ में बदल सकते हैं, और पेंसिल रंग को सफेद बदल सकते हैं - स्टेज के समान रंग!
 
@@ -40,16 +40,16 @@
 
 + यह देखने के लिए कि क्या आप स्टेज को साफ़ और मिटा पा रहे हैं, अपने प्रोजेकट का परीक्षण करें।
 
-![screenshot](images/paint-erase-test.png)
+![स्क्रीनशॉट](images/paint-erase-test.png)
 
 पेंसिल में एक और समस्या है – आप चुननेवाले(selector) आइकन्स सहित, कहीं भी चित्र बना सकते हैं!
 
-![screenshot](images/paint-draw-problem.png)
+![स्क्रीनशॉट](images/paint-draw-problem.png)
 
 इसे ठीक करने के लिए, पेंसिल को बताए कि केवल तभी चित्र बनाए जब माउस पर क्लिक किया जाए और जब माउस की y-स्थिति -120 से अधिक हो
 
-![screenshot](images/pencil-gt-code.png)
+![स्क्रीनशॉट](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ अब आप चुनने वाले ब्लॉक(selector blocks) के पास चित्र बनाने में सक्षम नहीं होंगे।
 
-![screenshot](images/paint-fixed.png)
+![स्क्रीनशॉट](images/paint-fixed.png)
