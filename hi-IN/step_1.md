@@ -13,7 +13,7 @@
 
 ### आप क्या सीखेंगे
 
-यह प्रोजेक्ट [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum)में से निम्नलिखित तत्वों को पूरा करता है{:target="_blank"}:
+यह प्रोजेक्ट [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित तत्वों को पूरा करता है{:target="_blank"}:
 
 + [ किसी समस्या को हल करने के लिए प्रोग्रामिंग संरचनाओं को संयोजित करें।](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
