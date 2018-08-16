@@ -1,8 +1,8 @@
 ## Introducción
 
-Make your own paint program!
+¡Haz tu propio programa de dibujo!
 
-### Lo que crearás
+### Lo que harás
 
 Haz clic en la bandera verde para empezar. Usa el ratón para mover el lápiz y presiona el botón izquierdo del ratón para dibujar. Haz clic en un color para cambiar el color o haz clic en la goma para borrar. Para borrar la página haz clic en la cruz.
 
@@ -15,9 +15,9 @@ Haz clic en la bandera verde para empezar. Usa el ratón para mover el lápiz y 
 
 Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Usa estructuras de programación básicas para crear programas simples](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Combinar estructuras de programación básicas para resolver un problema](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Información adicional para los líderes del club
+### Información adicional para los educadores
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
