@@ -38,15 +38,15 @@ fijar color de lápiz a [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Prueba tu proyecto para ver si puedes borrar en el escenario y limpiarlo del todo.
 
 ![screenshot](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Hay un problema más con el lápiz - ¡puedes dibujar en cualquier lugar del escenario, incluso cerca de los iconos de selección!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Para arreglar esto, dile al lápiz que solo dibuje si haces clic con el ratón *y* la posición y del ratón es mayor que -120:
 
 ![screenshot](images/pencil-gt-code.png)
 
