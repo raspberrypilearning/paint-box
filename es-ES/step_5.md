@@ -24,14 +24,14 @@ Habrás visto que el objeto lápiz incluye un disfraz de goma de borrar:
 
 ![Envía borrar](images/broadcast-eraser.png)
 
-Cuando el lápiz recibe el mensaje 'borrar', puedes cambiar el disfraz del lápiz por el de la goma de borrar y cambiar el color de dibujo del lápiz a blanco - ¡el mismo color que el escenario!
+Cuando el lápiz recibe el mensaje 'gomadeborrar', puedes cambiar el disfraz del lápiz por el de la goma de borrar y cambiar el color de dibujo del lápiz a blanco - ¡el mismo color que el escenario!
 
 + Añade código para definir la goma de borrar
 
 \--- hints \--- \--- hint \--- Añade código al objeto lápiz: **al recibir** el mensaje **borrar** **cambiar disfraz a** gomadeborrar **fijar color de lápiz a** blanco \--- /hint \--- \--- hint \--- El código para el objeto lápiz debería quedar así:
 
 ```blocks
-al recibir [borrar v]
+al recibir [gomadeborrar v]
 cambiar disfraz a [gomadeborrar v]
 fijar color de lápiz a [#FFFFFF]
 ```
