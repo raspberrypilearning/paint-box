@@ -18,13 +18,13 @@ Vamos a añadir diferentes lápices de colores a tu proyecto y a permitir al usu
 
 + Renombra tus objetos para que se llamen 'azul' y 'verde'
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ Añade código al objeto 'verde' de forma que cuando hagas clic encima `envíe`{:class="blockevents"} el mensaje 'verde' al objeto lápiz, indicándole que cambie su disfraz y su color.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Cambia al objeto lápiz. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
 
 ![Broadcast green](images/broadcast-green.png)
 
