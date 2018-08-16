@@ -2,11 +2,11 @@
 
 A veces nos equivocamos así que vamos a añadir un botón 'Limpiar' y una goma de borrar.
 
-+ Añade el sprite 'X-block' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz a rojo. Esto se convertirá en el botón de "limpiar".
++ Añade el objeto 'X-block' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz a rojo. Esto se convertirá en el botón de "limpiar".
 
 ![screenshot](images/paint-x.png)
 
-+ Añade código a este sprite para que cuando lo cliques limpie el escenario.
++ Añade código a este objeto para que cuando lo cliques limpie el escenario.
 
 ![Clear stage](images/clear-stage.png)
 
