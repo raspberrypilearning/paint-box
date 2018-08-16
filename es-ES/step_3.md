@@ -8,7 +8,7 @@ Verás objetos lápiz y goma de borrar:
 
 ![captura de pantalla](images/paint-starter.png)
 
-+ Añade algo de código a la figura del lápiz para que siga el movimiento del ratón `por siempre`{:class="blockcontrol"} para que puedas dibujar:
++ Añade algo de código al objeto del lápiz para que siga el movimiento del ratón `por siempre`{:class="blockcontrol"} para que puedas dibujar:
 
 ```blocks
     al presionar bandera verde
@@ -21,7 +21,7 @@ end
 
 Ahora vamos a hacer que tu lápiz solo dibuje `si`{:class="blockcontrol"} haces clic con el ratón.
 
-+ Añade este código a la figura de tu lápiz:
++ Añade este código a tu objeto lápiz:
 
 ![captura de pantalla](images/paint-pencil-draw-code.png)
 
