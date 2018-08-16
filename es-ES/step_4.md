@@ -24,11 +24,11 @@ Vamos a añadir diferentes lápices de colores a tu proyecto y a permitir al usu
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Cambia al objeto lápiz. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Cambia al objeto lápiz. Añade código para que cuando este objeto reciba el mensaje `enviar`{:class="blockevents"} verde, cambie al disfraz de lápiz verde y cambie el color con el que dibuja el lápiz a verde.
 
 ![Broadcast green](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Para ajustar el color con el que dibuja el lápiz a verde, haz clic en el cuadrado de color del bloque `fijar color del lápiz a`{:class="blockpen"}, y luego haz clic en el objeto verde para elegir el mismo color verde que el de tu lápiz.
 
 + You can now do the same for the blue pencil icon: add this code to the blue square sprite:
 
