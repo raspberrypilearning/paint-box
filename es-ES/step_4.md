@@ -1,18 +1,18 @@
-## Coloured pencils
+## Lápices de colores
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Vamos a añadir diferentes lápices de colores a tu proyecto y a permitir al usuario elegir entre ellos.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Haz clic en la figura de tu lápiz, luego clica en 'Disfraces' y duplica el disfraz 'lápiz azul'.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Cambia el nombre de tu nuevo disfraz a 'lápiz verde' y cambia el color del lápiz a verde.
 
 ![screenshot](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Dibuja dos figuras más - un cuadrado azul y un cuadrado verde. You will use these to select the blue or green pencil.
 
 ![screenshot](images/paint-selectors.png)
 
