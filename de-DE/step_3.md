@@ -2,7 +2,7 @@
 
 Beginnen wir mit einem Stift, mit dem wir auf der Bühne zeichnen können.
 
-+ Öffne das 'Painbox'-Projekt in Scratch entweder online bei [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} oder lade es unter <http://jumpto.cc/paint-get>{:target="_blank"} herunter wenn du den Offline-Editor benutzt.
++ Öffne das 'Paintbox'-Projekt in Scratch entweder online bei [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} oder lade es unter <http://jumpto.cc/paint-get>{:target="_blank"} herunter wenn du den Offline-Editor benutzt.
 
 Bei den Figuren siehst du einen Stift und einen Radierer:
 
