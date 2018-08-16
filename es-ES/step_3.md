@@ -6,7 +6,7 @@ Comencemos haciendo un lápiz que se pueda usar para dibujar en el escenario.
 
 Verás objetos lápiz y goma de borrar:
 
-![captura de pantalla](images/paint-starter.png)
+![Captura de pantalla](images/paint-starter.png)
 
 + Añade algo de código al objeto del lápiz para que siga el movimiento del ratón `por siempre`{:class="blockcontrol"} para que puedas dibujar:
 
@@ -23,11 +23,11 @@ Ahora vamos a hacer que tu lápiz solo dibuje `si`{:class="blockcontrol"} haces 
 
 + Añade este código a tu objeto lápiz:
 
-![captura de pantalla](images/paint-pencil-draw-code.png)
+![Captura de pantalla](images/paint-pencil-draw-code.png)
 
 + Vuelve a probar tu código. Esta vez, mueve el lápiz por el escenario y mantén presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
 
-![captura de pantalla](images/paint-draw.png)
+![Captura de pantalla](images/paint-draw.png)
 
 ## \--- collapse \---
 
