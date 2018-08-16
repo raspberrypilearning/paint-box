@@ -4,17 +4,17 @@ Vamos a añadir diferentes lápices de colores a tu proyecto y a permitir al usu
 
 + Haz clic en tu objeto lápiz, luego haz clic en 'Disfraces' y duplica el disfraz 'lápiz-azul'.
 
-![captura de pantalla](images/paint-blue-duplicate.png)
+![Captura de pantalla](images/paint-blue-duplicate.png)
 
 + Cambia el nombre de tu nuevo disfraz a 'lápiz-verde' y cambia el color del lápiz a verde.
 
-![captura de pantalla](images/paint-pencil-green.png)
+![Captura de pantalla](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
 + Dibuja dos objetos más - un cuadrado azul y un cuadrado verde. Los usarás para seleccionar el lápiz de color azul o el lápiz de color verde.
 
-![captura de pantalla](images/paint-selectors.png)
+![Captura de pantalla](images/paint-selectors.png)
 
 + Renombra tus objetos para que se llamen 'azul' y 'verde'
 
@@ -53,4 +53,4 @@ Hemos elegido el color azul para empezar, pero si quieres, puedes cambiarlo por 
 
 + Prueba tu proyecto. Puedes cambiar entre los objetos lápiz azul y verde haciendo clic encima de los objetos cuadrado azul y verde?
 
-![captura de pantalla](images/paint-pens-test.png)
+![Captura de pantalla](images/paint-pens-test.png)
