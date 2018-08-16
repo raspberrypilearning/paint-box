@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: más colores
+## Desafío: más colores
 
-¿Puedes añadir los colores rojo, amarillo y negro a tu programa para pintar? Mira el paso 2 arriba si has olvidado cómo hacerlo. Recuerda añadir atajos de teclado para estos nuevos colores también.
+¿Puedes añadir los colores rojo, amarillo y negro a tu programa para dibujar? Mira el paso 2 anterior si has olvidado cómo hacerlo. Recuerda añadir atajos de teclado para estos nuevos colores también.
 
 ¿Puedes usar tus nuevos colores para hacer un dibujo?
 
-![screenshot](images/paint-final.png)
+![Captura de pantalla](images/paint-final.png)
 
 \--- /challenge \---
