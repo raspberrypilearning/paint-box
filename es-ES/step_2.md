@@ -6,4 +6,4 @@
 
 ### Software
 
-+ Scratch 2.0 (tanto [online](https://scratch.mit.edu/projects/editor/) como [offline](https://scratch.mit.edu/scratch2download/)"})
++ Scratch 2.0 ( bien [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} o bien [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
