@@ -2,7 +2,7 @@
 
 Vamos a añadir diferentes lápices de colores a tu proyecto y a permitir al usuario elegir entre ellos.
 
-+ Haz clic en la figura de tu lápiz, luego clica en 'Disfraces' y duplica el disfraz 'lápiz azul'.
++ Haz clic en tu objeto lápiz lápiz, luego haz clic en 'Disfraces' y duplica el disfraz 'lápiz azul'.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
@@ -12,11 +12,11 @@ Vamos a añadir diferentes lápices de colores a tu proyecto y a permitir al usu
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Dibuja dos figuras más - un cuadrado azul y un cuadrado verde. You will use these to select the blue or green pencil.
++ Dibuja dos objetos más - un cuadrado azul y un cuadrado verde. Los usarás para seleccionar el lápiz de color azul o el lápiz de color verde.
 
 ![screenshot](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Renombra tus objetos para que se llamen 'azul' y 'verde'
 
 + Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
 
