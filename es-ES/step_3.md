@@ -1,23 +1,23 @@
-## Making a pencil
+## Hacer un lápiz
 
-Let's start by making a pencil that can be used to draw on the stage.
+Comencemos haciendo un lápiz que se pueda usar para dibujar en el escenario.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Abre el projecto 'Paintbox' de Scratch online en [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} o descárgalo primero de <http://jumpto.cc/paint-get>{:target="_blank"} y ábrelo luego en tu editor offline.
 
-You will see pencil and eraser sprites:
+Verás figuras de lápiz y de goma de borrar:
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Añade algo de código a la figura del lápiz para que siga el movimiento del ratón `por siempre`{:class="blockcontrol"} para que puedas dibujar:
 
 ```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
+    al presionar bandera verde
+por siempre 
+  ir a [puntero del ratón v]
+end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Haz clic en la bandera y luego mueve el ratón por el escenario para comprobar si el código funciona.
 
 Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
 
