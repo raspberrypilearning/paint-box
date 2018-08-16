@@ -4,7 +4,7 @@
 
 ### Lo que harás
 
-Haz clic en la bandera verde para empezar. Usa el ratón para mover el lápiz y presiona el botón izquierdo del ratón para dibujar. Haz clic en un color para cambiar el color o haz clic en la goma para borrar. Para borrar la página haz clic en la cruz.
+Haz clic en la bandera verde para empezar. Usa el ratón para mover el lápiz y presiona el botón izquierdo del ratón para dibujar. Haz clic en un color para cambiar el color o haz clic en la goma para borrar. Para borrar la página haz clic en la equis.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
