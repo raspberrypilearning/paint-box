@@ -16,7 +16,7 @@ Habrás visto que el objeto lápiz incluye un disfraz de goma de borrar:
 
 ![Captura de pantalla](images/paint-eraser-costume.png)
 
-+ Tu proyecto también incluye un objeto goma de borrar aparte. Haz clic con el botón derecho encima de este objeto y elige 'mostrar'. El escenario debería verse así:
++ Tu proyecto también incluye un objeto goma de borrar aparte. Haz clic con el botón derecho encima de este objeto y elige 'mostrar'. El escenario debería quedar así:
 
 ![Captura de pantalla](images/paint-eraser-stage.png)
 
