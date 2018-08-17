@@ -28,9 +28,9 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 ![Pošalji zelena](images/broadcast-green.png)
 
-Da bismo postavili da olovka boji zelenom bojom, klikni na obojeno polje u bloku `set pen color`{:class="blockpen"} (postavi boju olovke), a zatim klikni na zeleni lik da izabereš istu zelenu boju kao što je boja olovke.
+Da bismo postavili da olovka crta zelenom bojom, klikni na obojeno polje u bloku `set pen color`{:class="blockpen"} (postavi boju olovke), a zatim klikni na zeleni lik da izabereš istu zelenu boju kao što je boja olovke.
 
-+ Sada možeš da uradiš isto za ikonu za plavu olovku. Dodaj ovaj kôd liku plavog kvadrata:
++ Sada možeš da uradiš isto za ikonu plave olovke. Dodaj ovaj kôd liku plavog kvadrata:
 
 ```blocks
 when this sprite clicked
