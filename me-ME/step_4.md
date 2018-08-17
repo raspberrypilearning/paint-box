@@ -24,7 +24,7 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Pređi na lik olovke. Dodaj ovom liku kôd tako da, kada primi `poruku`{:class="blockevents"} zelena, promijeni kostim u olovka-zelena i boju olovke u zelenu.
++ Pređi na lik olovke. Dodaj kôd da ovaj lik, kada primi `poruku`{:class="blockevents"} zelena, promijeni kostim u olovka-zelena i boju olovke u zelenu.
 
 ![Pošalji zelena](images/broadcast-green.png)
 
