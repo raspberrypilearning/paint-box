@@ -31,7 +31,7 @@ Ahora vamos a hacer que tu lápiz solo dibuje `si`{:class="blockcontrol"} haces 
 
 ## \--- collapse \---
 
-## title: Si tienes problemas ...
+## title: Si tienes problemas...
 
 Si parece que el lápiz está dibujando la línea con el centro del lápiz en vez de con la punta, tienes que cambiar el centro del disfraz.
 
