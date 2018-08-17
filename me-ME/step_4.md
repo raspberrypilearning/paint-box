@@ -18,13 +18,13 @@ Dodajmo u tvoj projekat olovke različitih boja i omogućimo korisniku da izaber
 
 + Promijeni nazive svojih likova u 'plava' i 'zelena'.
 
-+ Dodaj kôd liku 'zelena' tako da, kada se klikne na njega, `pošalje`{:class="blockevents"} (broadcast) poruku "zelena" liku olovke, govoreći mu da promijeni svoj kostim i boju kojom crta olovka.
++ Dodaj kôd liku 'zelena' tako da, kada se klikne na njega, `pošalje`{:class="blockevents"} (broadcast) poruku "zelena" liku olovke, govoreći mu da promijeni svoj kostim i boju olovke.
 
 ![Pošalji zelena](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Pređi na lik olovke. Dodaj kôd da ovaj lik, kada primi `poruku`{:class="blockevents"} zelena, promijeni kostim u olovka-zelena i boju olovke u zelenu.
++ Pređi na lik olovke. Dodaj kôd da ovaj lik, kada primi `poruku`{:class="blockevents"} zelena, promijeni kostim u olovka-zelena i boju kojom crta olovka u zelenu.
 
 ![Pošalji zelena](images/broadcast-green.png)
 
