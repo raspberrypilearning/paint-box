@@ -2,7 +2,7 @@
 
 Comencemos haciendo un lápiz que se pueda usar para dibujar en el escenario.
 
-+ Abre el projecto 'Paintbox' de Scratch online en [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} o descárgalo primero de <http://jumpto.cc/paint-get>{:target="_blank"} y ábrelo luego en tu editor offline.
++ Abre el proyecto 'Paintbox' de Scratch online en [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} o descárgalo primero de <http://jumpto.cc/paint-get>{:target="_blank"} y ábrelo luego en tu editor offline.
 
 Verás objetos lápiz y goma de borrar:
 
