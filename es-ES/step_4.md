@@ -45,12 +45,12 @@ cambiar disfraz a [lápiz-azul v]
 fijar color de lápiz a [#0000ff]
 ```
 
-+ Para acabar, añade este codigo para decirle al objeto lápiz el color que tiene al inicio y para realizar un borrado de la pantalla.
++ Para acabar, añade este código para decirle al objeto lápiz el color que tiene al inicio y para realizar un borrado de la pantalla.
 
 ![Lápiz inicial](images/start-pencil.png)
 
 Hemos elegido el color azul para empezar, pero si quieres, puedes cambiarlo por un color de lápiz distinto.
 
-+ Prueba tu proyecto. Puedes cambiar entre los objetos lápiz azul y verde haciendo clic encima de los objetos cuadrado azul y verde?
++ Prueba tu proyecto. ¿Puedes cambiar entre los objetos lápiz azul y verde haciendo clic encima de los objetos cuadrado azul y verde?
 
 ![Captura de pantalla](images/paint-pens-test.png)
