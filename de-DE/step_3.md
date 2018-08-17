@@ -2,7 +2,7 @@
 
 Beginnen wir mit einem Stift, mit dem wir auf der Bühne zeichnen können.
 
-+ Öffne das 'Painbox'-Projekt in Scratch entweder online bei [jumpto.cc/paint-go-de-DE](https://scratch.mit.edu/projects/227798520/#editor){:target="_blank"} oder lade es unter [http://jumpto.cc/paint-get-de-DE](https://github.com/raspberrypilearning/paint-box/raw/master/de-DE/resources/PaintBox.sb2) herunter wenn du den Offline-Editor benutzt.
++ Öffne das 'Paintbox'-Projekt in Scratch entweder online bei [jumpto.cc/paint-go-de-DE](https://scratch.mit.edu/projects/227798520/#editor){:target="_blank"} oder lade es unter [http://jumpto.cc/paint-get-de-DE](https://github.com/raspberrypilearning/paint-box/raw/master/de-DE/resources/PaintBox.sb2) herunter wenn du den Offline-Editor benutzt.
 
 Bei den Figuren siehst du einen Stift und einen Radierer:
 
