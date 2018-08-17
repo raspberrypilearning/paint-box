@@ -2,7 +2,7 @@
 
 ## Izazov: prečice
 
-Da li možeš da napraviš prečice na tastaturi za svoje naredbe? Na primjer:
+Da li možeš da napraviš prečice na tastaturi za svoje komande? Na primjer:
 
 + b = promijeni u plavu olovku
 + g = promijeni u zelenu olovku
