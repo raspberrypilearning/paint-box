@@ -28,7 +28,7 @@ Kada olovka dobije poruku "gumica", kostim olovke možeš zamijeniti kostimom gu
 
 + Dodaj kôd za kreiranje gumice
 
-\--- hints \--- \--- hint \--- Dodaj kôd liku olovke: **Kada dobijem** (when I receive) poruku **gumica** **Promijeni kostim** (switch to costume) u gumica **Postavi boju olovke** (set pen color) u bijelu \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda kôd unutar lika olovke:
+\--- hints \--- \--- hint \--- Dodaj kôd liku olovke: **Kada dobijem** (when I receive) poruku **gumica** **Promijeni kostim** (switch costume) u gumica **Postavi boju olovke** (set pen color) u bijelu \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda kôd unutar lika olovke:
 
 ```blocks
 when I receive [gumica v]
