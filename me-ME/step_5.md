@@ -10,7 +10,7 @@ Ponekad se dešavaju greške, pa ćemo dodati dugme 'obriši' i gumicu.
 
 ![Obriši pozornicu](images/clear-stage.png)
 
-Obrati pažnju da nije potrebno da šalješ poruku za brisanje pozornice, pošto možeš da koristiš blok obriši (clear) ovog lika.
+Obrati pažnju da nije potrebno da šalješ poruku za brisanje pozornice, pošto možeš da koristiš blok clear (obriši) ovog lika.
 
 Vjerovatno primjećuješ da tvoj lik olovke ima kostim gumice:
 
