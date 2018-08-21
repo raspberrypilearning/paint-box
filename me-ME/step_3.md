@@ -2,7 +2,7 @@
 
 Počnimo tako što ćemo napraviti olovku koja se može koristiti za crtanje na pozornici.
 
-+ Otvori Scratch projekat 'Paintbox' online na [scratch.mit.edu/projects/239832642/](https://scratch.mit.edu/projects/239832642/#editor){:target="_blank"} ili ga preuzmi sa <http://jumpto.cc/paint-get-me-ME>(https://github.com/raspberrypilearning/paint-box/raw/master/me-ME/resources/PaintBox.sb2), a zatim otvori ako koristiš offline editor.
++ Otvori Scratch projekat 'Paintbox' online na [scratch.mit.edu/projects/239832642/](https://scratch.mit.edu/projects/239832642/#editor){:target="_blank"} ili ga preuzmi sa [jumpto.cc/paint-get-me-ME](https://github.com/raspberrypilearning/paint-box/raw/master/me-ME/resources/PaintBox.sb2), a zatim otvori ako koristiš offline editor.
 
 Vidjećeš likove (sprites) olovke i gumice:
 
