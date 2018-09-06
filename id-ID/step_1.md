@@ -4,16 +4,16 @@ Buatlah program lukis kamu sendiri!
 
 ### Apa yang kamu akan buat
 
-Klik pada bendera hijau untuk memulai. Gunakan mouse untuk menggerakkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik pada warna untuk mengganti pensil atau klik karet dan gunakan untuk menghapus pekerjaan Anda. Untuk menghapus halaman, klik tanda silang.
+Klik pada bendera hijau untuk memulai. Gunakan mouse untuk menggerakkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik pada satu warna untuk mengganti pensil atau klik karet dan gunakan untuk menghapus karya kamu. Untuk membersihkan halaman, klik tanda silang.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### Apa yang akan Anda pelajari
+### Apa yang akan kamu pelajari
 
-Proyek ini mencakup elemen dari untaian berikut dari [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
+Proyek ini mencakup unsur-unsur dari rangkaian [Kurikulum Digital Making Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Gabungkan konstruksi pemrograman untuk memecahkan masalah.](https://www.raspberrypi.org/curriculum/programming/builder){: target = "_ blank"}
 
