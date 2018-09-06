@@ -15,10 +15,10 @@ Klik pada bendera hijau untuk memulai. Gunakan mouse untuk menggerakkan pensil d
 
 Proyek ini mencakup unsur-unsur dari rangkaian [Kurikulum Digital Making Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Gabungkan konstruksi pemrograman untuk memecahkan masalah.](https://www.raspberrypi.org/curriculum/programming/builder){: target = "_ blank"}
++ [Gabungkan konstruksi pemrograman untuk memecahkan masalah.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### Informasi tambahan untuk pendidik
 
-Jika Anda perlu mencetak proyek ini, silakan gunakan versi ramah printer [](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
+Jika kamu perlu mencetak proyek ini, silakan gunakan [versi cetak](https://projects.raspberrypi.org/en/projects/paint-box/print){: target="_blank"}.
 
-Gunakan tautan di footer untuk mengakses repo GitHub untuk proyek ini, yang berisi semua sumber daya (termasuk contoh proyek selesai) di folder 'en / resources'.
+Gunakan tautan di bawah untuk mengakses repo GitHub yang berisi semua sumber daya untuk proyek ini (termasuk contoh proyek selesai) di folder 'en/resources'.
