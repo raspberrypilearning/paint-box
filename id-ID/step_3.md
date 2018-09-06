@@ -1,6 +1,6 @@
 ## Membuat pensil
 
-Mari kita mulai dengan membuat pensil yang bisa digunakan untuk menggambar di atas panggung.
+Mari kita mulai dengan membuat pensil yang bisa digunakan untuk menggambar pada stage.
 
 + Buka proyek Scratch 'Paintbox' secara online di [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} atau unduh dari <http://jumpto.cc/paint-get>{: target = "_ blank"} lalu buka jika Anda menggunakan editor luring.
 
