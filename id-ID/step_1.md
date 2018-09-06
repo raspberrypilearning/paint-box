@@ -1,10 +1,10 @@
-## pengantar
+## Pengantar
 
-Buat program cat Anda sendiri!
+Buatlah program lukis kamu sendiri!
 
-### Apa yang akan Anda buat
+### Apa yang kamu akan buat
 
-Klik pada bendera hijau untuk memulai. Gunakan mouse untuk memindahkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik pada warna untuk mengganti pensil atau klik karet dan gunakan untuk menghapus pekerjaan Anda. Untuk menghapus halaman, klik tanda silang.
+Klik pada bendera hijau untuk memulai. Gunakan mouse untuk menggerakkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik pada warna untuk mengganti pensil atau klik karet dan gunakan untuk menghapus pekerjaan Anda. Untuk menghapus halaman, klik tanda silang.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
