@@ -8,7 +8,7 @@ Terkadang kesalahan terjadi, jadi mari kita tambahkan tombol 'bersihkan' dan pen
 
 + Tambahkan kode ke sprite ini untuk membersihkan stage saat diklik.
 
-![Bersihkan panggung](images/clear-stage.png)
+![Bersihkan stage](images/clear-stage.png)
 
 Perhatikan bahwa kamu tidak perlu mengirim pesan untuk membersihkan stage, kamu dapat menggunakan blok 'bersihkan' dari sprite ini.
 
@@ -22,7 +22,7 @@ Kamu mungkin memperhatikan bahwa sprite pensil kamu memiliki kostum penghapus:
 
 + Tambahkan kode ke sprite penghapus, untuk memberi tahu pensil untuk beralih ke penghapus ketika sprite diklik.
 
-![Penghapus siaran](images/broadcast-eraser.png)
+![Siarkan penghapus](images/broadcast-eraser.png)
 
 Ketika pensil menerima pesan "penghapus", kamu dapat mengalihkan kostum pensil ke penghapus, dan mengganti warna pensil menjadi putih - warna yang sama dengan stage!
 
@@ -50,6 +50,6 @@ Untuk memperbaikinya, beri tahu pensil hanya untuk menggambar jika mouse diklik 
 
 ![tangkapan layar](images/pencil-gt-code.png)
 
-+ Uji proyek Anda; Anda sekarang seharusnya tidak dapat mendekati blok pemilih.
++ Uji proyek kamu; kamu sekarang seharusnya tidak dapat menggambar di dekat blok pemilih.
 
 ![tangkapan layar](images/paint-fixed.png)
