@@ -1,8 +1,8 @@
 ## Mengubah lebar pensil
 
-Mari izinkan pengguna menggambar menggunakan berbagai ukuran pensil yang berbeda.
+Mari kita ijinkan pengguna untuk menggambar dengan beragam ukuran pensil yang berbeda.
 
-+ Pertama, tambahkan variabel baru yang disebut `lebar`{: class = "blockvariable"}.
++ Pertama, tambahkan variabel baru bernama `lebar`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
