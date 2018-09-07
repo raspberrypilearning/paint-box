@@ -20,13 +20,13 @@ Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna un
 
 + Tambahkan beberapa kode ke sprite 'hijau' sehingga ketika diklik, pesan "hijau" akan di-`siarkan`{: class = "blockevents"} ke sprite pensil, memberitahu dia untuk mengubah kostum dan warnanya.
 
-![Siaran hijau](images/paint-broadcast-green.png)
+![Siarkan hijau](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
 + Beralih ke sprite pensil kamu. Tambahkan beberapa kode sehingga ketika sprite ini `menerima`{: class = "blockevents"} pesan "hijau", dia harus beralih ke kostum pensil hijau dan mengubah warna menjadi hijau.
 
-![Siaran hijau](images/broadcast-green.png)
+![Siarkan hijau](images/broadcast-green.png)
 
 Untuk mengatur pensil ke warna hijau, klik kotak berwarna di blok `atur warna pena`{: class = "blockpen"}, dan klik pada sprite hijau untuk memilih warna hijau tersebut sebagai warna pensil kamu.
 
@@ -40,15 +40,17 @@ siarkan pesan [biru v]
 ...dan tambahkan kode ini ke sprite pensil:
 
 ```blocks
-ketika saya menerima kostum [blue v] switch ke [pensil-biru v] tetapkan warna pena ke [# 0000ff]
+ketika aku menerima [biru v]
+ganti kostum ke [pensil-biru v]
+atur warna pena ke [#0000ff]
 ```
 
-+ Terakhir, tambahkan kode ini untuk memberi tahu sprite pensil yang warnanya dimulai, dan pastikan bahwa layarnya bersih.
++ Terakhir, tambahkan kode ini untuk memberi tahu sprite pensil yang mana warna awalnya, dan pastikan bahwa layarnya bersih.
 
 ![Mulai pensil](images/start-pencil.png)
 
-Kami memilih untuk memulai dengan warna biru tetapi jika Anda lebih suka, Anda dapat mulai dengan pensil warna yang berbeda.
+Kami memilih untuk memulai dengan warna biru tapi jika kamu suka, kamu dapat memulai dengan pensil warna lain.
 
-+ Uji proyek Anda. Dapatkah Anda beralih antara pena biru dan hijau dengan mengklik sprite persegi biru atau hijau?
++ Uji proyek Anda. Dapatkah Anda beralih antara pena biru dan hijau dengan mengklik sprite kotak biru atau hijau?
 
 ![tangkapan layar](images/paint-pens-test.png)
