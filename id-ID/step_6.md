@@ -30,4 +30,4 @@ Jika kamu suka, kamu dapat mengatur nilai terkecil dan terbesar dari 'lebar' yan
 
 ![tangkapan layar](images/paint-slider-max.png)
 
-Terus uji variabel 'lebar' Anda sampai Anda puas.
+Terus uji variabel 'lebar' kamu sampai puas.
