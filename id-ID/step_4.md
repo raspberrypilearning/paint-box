@@ -24,11 +24,11 @@ Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna un
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Beralih ke sprite pensil kamu. Tambahkan beberapa kode sehingga ketika sprite ini `menerima`{: class = "blockevents"} pesan "hijau", dia harus beralih ke kostum pensil hijau dan mengubah warna menjadi hijau.
++ Beralih ke sprite pensil kamu. Tambahkan beberapa kode sehingga ketika sprite ini `menerima`{:class="blockevents"} pesan "hijau", dia harus beralih ke kostum pensil hijau dan mengubah warna menjadi hijau.
 
 ![Siarkan hijau](images/broadcast-green.png)
 
-Untuk mengatur pensil ke warna hijau, klik kotak berwarna di blok `atur warna pena`{: class = "blockpen"}, dan klik pada sprite hijau untuk memilih warna hijau tersebut sebagai warna pensil kamu.
+Untuk mengatur pensil ke warna hijau, klik kotak berwarna di blok `atur warna pena`{:class="blockpen"}, dan klik pada sprite hijau untuk memilih warna hijau tersebut sebagai warna pensil kamu.
 
 + Kamu sekarang dapat melakukan hal yang sama untuk ikon pensil biru: tambahkan kode ini ke sprite kotak biru:
 
