@@ -6,17 +6,17 @@ Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna un
 
 ![tangkapan layar](images/paint-blue-duplicate.png)
 
-+ Ubah nama kostum baru Anda 'hijau-pensil', dan warnai pensil hijau.
++ Ganti nama kostum baru menjadi 'hijau-pensil', dan warnai pensil sebagai hijau.
 
 ![tangkapan layar](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Gambar dua sprite baru - satu kotak biru dan satu persegi hijau. Anda akan menggunakan ini untuk memilih pensil biru atau hijau.
++ Gambar dua sprite baru - satu kotak biru dan satu kotak hijau. Kamu akan menggunakan mereka untuk memilih pensil biru atau hijau.
 
 ![tangkapan layar](images/paint-selectors.png)
 
-+ Ubah nama sprite Anda sehingga mereka disebut 'biru' dan 'hijau'
++ Ganti nama sprite kamu sehingga mereka disebut 'biru' dan 'hijau'
 
 + Tambahkan beberapa kode ke sprite 'hijau' sehingga ketika diklik, ia akan `menyiarkan`{: class = "blockevents"} pesan "hijau" ke sprite pensil, memberitahukannya untuk mengubah kostum dan warna pensilnya.
 
