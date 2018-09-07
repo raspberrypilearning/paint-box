@@ -10,7 +10,7 @@ Terkadang kesalahan terjadi, jadi mari kita tambahkan tombol 'bersihkan' dan pen
 
 ![Bersihkan panggung](images/clear-stage.png)
 
-Perhatikan bahwa Anda tidak perlu mengirim pesan untuk membersihkan panggung, Anda bisa menggunakan blok bersih dari sprite ini.
+Perhatikan bahwa kamu tidak perlu mengirim pesan untuk membersihkan stage, kamu dapat menggunakan blok 'bersihkan' dari sprite ini.
 
 Anda mungkin memperhatikan bahwa sprite pensil Anda termasuk kostum penghapus:
 
