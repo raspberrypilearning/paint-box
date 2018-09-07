@@ -2,13 +2,13 @@
 
 Mari kita mulai dengan membuat pensil yang bisa digunakan untuk menggambar pada stage.
 
-+ Buka proyek Scratch 'Paintbox' secara online di [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} atau unduh dari <http://jumpto.cc/paint-get>{: target = "_ blank"} lalu buka jika Anda menggunakan editor luring.
++ Buka proyek Scratch 'Paintbox' secara online di [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} atau unduh dari <http://jumpto.cc/paint-get>{:target="_blank"} kemudian buka menggunakan editor offline.
 
-Anda akan melihat sprite pensil dan penghapus:
+Kamu akan melihat sprite pensil dan penghapus:
 
 ![tangkapan layar](images/paint-starter.png)
 
-+ Tambahkan beberapa kode ke sprite pensil untuk membuatnya mengikuti mouse `selamanya`{: class = "blockcontrol"} sehingga Anda dapat menggambar:
++ Tambahkan beberapa code ke sprite pensil untuk membuatnya mengikuti mouse `selamanya`{:class="blockcontrol"} sehingga kamu dapat menggambar:
 
 ```blocks
     ketika flag diklik selamanya pergi ke [mouse pointer v] end
