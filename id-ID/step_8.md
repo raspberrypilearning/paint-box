@@ -1,11 +1,11 @@
-\--- tantangan \---
+\--- challenge \---
 
-## Tantangan: lebih banyak pensil
+## Tantangan: pensil tambahan
 
-Dapatkah Anda menambahkan pensil merah, kuning dan hitam ke program cat Anda? Lihatlah langkah 2 di atas jika Anda lupa cara melakukan ini. Ingat untuk menambahkan pintasan keyboard untuk pensil baru ini juga.
+Dapatkah kamu menambahkan pensil merah, kuning dan hitam ke program lukis kamu? Lihatlah langkah 2 di atas jika kamu lupa cara melakukannya. Ingatlah untuk menambahkan pintasan keyboard untuk pensil baru ini juga.
 
-Dapatkah Anda menggunakan pensil Anda untuk menggambar?
+Dapatkah kamu menggunakan pensil-pensil kamu untuk menggambar satu lukisan?
 
 ![tangkapan layar](images/paint-final.png)
 
-\--- / tantangan \---
+\--- /challenge \---
