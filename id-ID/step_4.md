@@ -28,15 +28,16 @@ Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna un
 
 ![Siaran hijau](images/broadcast-green.png)
 
-Untuk mengatur pensil ke warna hijau, klik kotak berwarna di blok `atur warna pena`{: class = "blockpen"}, dan klik pada sprite hijau untuk memilih warna hijau yang sama dengan warna pensil kamu.
+Untuk mengatur pensil ke warna hijau, klik kotak berwarna di blok `atur warna pena`{: class = "blockpen"}, dan klik pada sprite hijau untuk memilih warna hijau tersebut sebagai warna pensil kamu.
 
-+ Anda sekarang dapat melakukan hal yang sama untuk ikon pensil biru: tambahkan kode ini ke sprite persegi biru:
++ Kamu sekarang dapat melakukan hal yang sama untuk ikon pensil biru: tambahkan kode ini ke sprite kotak biru:
 
 ```blocks
-ketika sprite ini mengklik siaran [blue v]
+ketika sprite ini diklik
+siarkan pesan [biru v]
 ```
 
-... dan tambahkan kode ini ke sprite pensil:
+...dan tambahkan kode ini ke sprite pensil:
 
 ```blocks
 ketika saya menerima kostum [blue v] switch ke [pensil-biru v] tetapkan warna pena ke [# 0000ff]
