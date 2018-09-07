@@ -1,12 +1,12 @@
 ## Membuat kesalahan
 
-Terkadang kesalahan terjadi, jadi mari tambahkan tombol 'hapus' dan penghapus.
+Terkadang kesalahan terjadi, jadi mari kita tambahkan tombol 'bersihkan' dan penghapus.
 
-+ Tambahkan sprite 'X-block' - Anda akan menemukannya di perpustakaan, di bagian huruf. Warnai kostum dengan warna merah. Ini akan menjadi tombol 'bersih'.
++ Tambahkan sprite 'X-block' - kamu akan menemukannya di pustaka, pada bagian huruf. Warnai kostum dengan warna merah. Ini akan menjadi tombol 'bersihkan'.
 
 ![tangkapan layar](images/paint-x.png)
 
-+ Tambahkan kode ke sprite ini untuk membersihkan panggung saat diklik.
++ Tambahkan kode ke sprite ini untuk membersihkan stage saat diklik.
 
 ![Bersihkan panggung](images/clear-stage.png)
 
