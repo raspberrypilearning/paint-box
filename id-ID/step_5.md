@@ -16,27 +16,29 @@ Kamu mungkin memperhatikan bahwa sprite pensil kamu memiliki kostum penghapus:
 
 ![tangkapan layar](images/paint-eraser-costume.png)
 
-+ Proyek kamu juga memiliki sprite penghapus terpisah. Klik kanan pada sprite ini dan pilih 'tampilkan'. Beginilah tampilan panggung Anda:
++ Proyek kamu juga memiliki sprite penghapus terpisah. Klik kanan pada sprite ini dan pilih 'tampilkan'. Berikut bagaimana stage kamu seharusnya tampak:
 
 ![tangkapan layar](images/paint-eraser-stage.png)
 
-+ Tambahkan kode ke sprite penghapus, untuk memberi tahu pensil untuk beralih ke penghapus saat sprite diklik.
++ Tambahkan kode ke sprite penghapus, untuk memberi tahu pensil untuk beralih ke penghapus ketika sprite diklik.
 
 ![Penghapus siaran](images/broadcast-eraser.png)
 
-Ketika pensil menerima pesan "penghapus", Anda dapat mengalihkan kostum pensil ke penghapus, dan mengganti warna pensil menjadi putih - warna yang sama dengan panggung!
+Ketika pensil menerima pesan "penghapus", kamu dapat mengalihkan kostum pensil ke penghapus, dan mengganti warna pensil menjadi putih - warna yang sama dengan stage!
 
 + Tambahkan beberapa kode untuk membuat penghapus
 
-\--- petunjuk \--- \--- petunjuk \--- Tambahkan beberapa kode ke sprite pensil: **Ketika saya menerima** **penghapus** pesan **Beralih ke kostum** penghapus **Set warna pena** hingga putih \--- / petunjuk \--- \--- petunjuk \--- Di sini adalah bagaimana kode di dalam sprite pensil harus terlihat:
+\--- hints \--- \--- hint \--- Tambahkan beberapa kode ke sprite pensil: **Ketika aku menerima** pesan **penghapus** **Ganti kostum ke** penghapus **Atur warna pena ke** putih \--- /hint \--- \--- hint \--- Berikut bagaimana kode pada sprite pensil seharusnya tampak:
 
 ```blocks
-ketika saya menerima kostum [penghapus v] untuk [penghapus v] set warna pena ke [#FFFFFF]
+ketika saya menerima [penghapus v]
+ganti kostum ke [penghapus v]
+atur warna pena ke [#FFFFFF]
 ```
 
-\--- / petunjuk \--- \--- / petunjuk \---
+\--- /hint \--- \--- /hints \---
 
-+ Uji proyek Anda, untuk melihat apakah Anda dapat menghapus dan menghapus di atas panggung.
++ Uji proyek kamu untuk melihat jika kamu dapat membersihkan dan menghapus pada stage.
 
 ![tangkapan layar](images/paint-erase-test.png)
 
