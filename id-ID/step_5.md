@@ -42,7 +42,7 @@ atur warna pena ke [#FFFFFF]
 
 ![tangkapan layar](images/paint-erase-test.png)
 
-Ada satu lagi masalah dengan pensil - Anda dapat menggambar di mana saja di atas panggung, termasuk di dekat ikon pemilih!
+Ada satu lagi masalah dengan pensil - kamu dapat menggambar di mana saja pada stage, termasuk di dekat ikon pemilih!
 
 ![tangkapan layar](images/paint-draw-problem.png)
 
