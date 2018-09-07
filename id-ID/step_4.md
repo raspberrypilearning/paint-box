@@ -2,7 +2,7 @@
 
 Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna untuk memilih di antara mereka.
 
-+ Klik sprite pensil Anda, klik 'Kostum' dan gandakan kostum 'pensil biru' Anda.
++ Klik sprite pensil kamu, klik 'Kostum' dan gandakan kostum 'pensil biru' kamu.
 
 ![tangkapan layar](images/paint-blue-duplicate.png)
 
