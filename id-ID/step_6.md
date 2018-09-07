@@ -9,7 +9,7 @@ Mari kita ijinkan pengguna untuk menggambar dengan beragam ukuran pensil yang be
 + Tambahkan baris ini *di dalam* pengulangan `selamanya`{:class="blockcontrol"} pada kode pensil:
 
 ```blocks
-    mengatur ukuran pena ke (lebar)
+    atur ukuran pena ke (lebar)
 ```
 
 Lebar pensil sekarang akan berulang kali diatur ke nilai variabel 'lebar'.
