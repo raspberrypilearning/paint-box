@@ -1,6 +1,6 @@
-## Pensil warna
+## Pensil berwarna
 
-Mari tambahkan pensil warna yang berbeda ke proyek Anda, dan izinkan pengguna untuk memilih di antara mereka.
+Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna untuk memilih di antara mereka.
 
 + Klik sprite pensil Anda, klik 'Kostum' dan gandakan kostum 'pensil biru' Anda.
 
