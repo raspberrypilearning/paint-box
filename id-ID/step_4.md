@@ -18,13 +18,13 @@ Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna un
 
 + Ganti nama sprite kamu sehingga mereka disebut 'biru' dan 'hijau'
 
-+ Tambahkan beberapa kode ke sprite 'hijau' sehingga ketika diklik, ia akan `menyiarkan`{: class = "blockevents"} pesan "hijau" ke sprite pensil, memberitahukannya untuk mengubah kostum dan warna pensilnya.
++ Tambahkan beberapa kode ke sprite 'hijau' sehingga ketika diklik, pesan "hijau" akan di-`siarkan`{: class = "blockevents"} ke sprite pensil, memberitahu dia untuk mengubah kostum dan warnanya.
 
 ![Siaran hijau](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Beralih ke sprite pensil Anda. Tambahkan beberapa kode sehingga ketika sprite ini menerima `broadcast`{: class = "blockevents"} hijau, itu harus beralih ke kostum pensil hijau dan mengubah warna pena menjadi hijau.
++ Beralih ke sprite pensil kamu. Tambahkan beberapa kode sehingga ketika sprite ini `menerima`{: class = "blockevents"} pesan "hijau", dia harus beralih ke kostum pensil hijau dan mengubah warna menjadi hijau.
 
 ![Siaran hijau](images/broadcast-green.png)
 
