@@ -37,8 +37,8 @@ Jika pensil kamu tampaknya menggambar garis dari tengah daripada ujung pensil, k
 
 ![Pusat kostum](images/costume-center.png)
 
-Crosshair untuk pensil harus ditempatkan **tepat di bawah** ujung pensil, bukan di ujung pensil.
+Bidik silang untuk pensil harus ditempatkan **sedikit di bawah** ujung pensil, bukan tepat di ujung pensil.
 
-Perubahan dalam 'pusat kostum' sprite tidak terdaftar sampai tab lain diklik, jadi klik pada kostum lain, atau pada tab 'Skrip' untuk menyelesaikan perubahan Anda ke pusat kostum.
+Perubahan pada 'pusat kostum' sprite tidak tersimpan sampai tab lain diklik, jadi klik pada kostum lain, atau pada tab 'Skrip' untuk menyimpan perubahan kamu pada pusat kostum.
 
-\--- /jatuh \---
+\--- /collapse \---
