@@ -11,26 +11,29 @@ Kamu akan melihat sprite pensil dan penghapus:
 + Tambahkan beberapa code ke sprite pensil untuk membuatnya mengikuti mouse `selamanya`{:class="blockcontrol"} sehingga kamu dapat menggambar:
 
 ```blocks
-    ketika flag diklik selamanya pergi ke [mouse pointer v] end
+    ketika ⚑ diklik
+    selamanya
+      pergi ke [penunjuk-mouse v]
+    end
 ```
 
-+ Klik bendera dan gerakkan mouse di sekitar panggung untuk menguji apakah kode berfungsi.
++ Klik bendera dan gerakkan mouse di sekitar stage untuk menguji apakah kode berfungsi.
 
-Selanjutnya, mari kita buat pensil Anda hanya menggambar `jika`{: class = "blockcontrol"} mouse telah diklik.
+Selanjutnya, mari kita buat pensil kamu hanya menggambar `jika`{: class = "blockcontrol"} mouse telah diklik.
 
-+ Tambahkan kode ini ke sprite pensil Anda:
++ Tambahkan kode ini ke sprite pensil kamu:
 
 ![tangkapan layar](images/paint-pencil-draw-code.png)
 
-+ Uji kode Anda lagi. Kali ini, pindahkan pensil di sekitar panggung dan tahan tombol mouse. Bisakah kamu menggambar dengan pensilmu?
++ Uji kode kamu lagi. Kali ini, gerakkan pensil di sekitar stage dan tahan tombol mouse. Dapatkah kamu menggambar dengan pensilmu?
 
 ![tangkapan layar](images/paint-draw.png)
 
-## \--- jatuh \---
+## \--- collapse \---
 
-## title: Jika Anda mengalami masalah ...
+## title: Jika kamu mengalami masalah...
 
-Jika pensil Anda tampaknya menggambar garis dari tengah pensil daripada ujungnya, Anda harus mengubah pusat kostum Anda.
+Jika pensil kamu tampaknya menggambar garis dari tengah daripada ujung pensil, kamu harus mengubah pusat kostum kamu.
 
 ![Pusat kostum](images/costume-center.png)
 
