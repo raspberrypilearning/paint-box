@@ -12,11 +12,11 @@ Terkadang kesalahan terjadi, jadi mari kita tambahkan tombol 'bersihkan' dan pen
 
 Perhatikan bahwa kamu tidak perlu mengirim pesan untuk membersihkan stage, kamu dapat menggunakan blok 'bersihkan' dari sprite ini.
 
-Anda mungkin memperhatikan bahwa sprite pensil Anda termasuk kostum penghapus:
+Kamu mungkin memperhatikan bahwa sprite pensil kamu memiliki kostum penghapus:
 
 ![tangkapan layar](images/paint-eraser-costume.png)
 
-+ Proyek Anda juga mencakup sprite penghapus terpisah. Klik kanan pada sprite ini dan pilih 'show'. Beginilah tampilan panggung Anda:
++ Proyek kamu juga memiliki sprite penghapus terpisah. Klik kanan pada sprite ini dan pilih 'tampilkan'. Beginilah tampilan panggung Anda:
 
 ![tangkapan layar](images/paint-eraser-stage.png)
 
