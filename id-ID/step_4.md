@@ -18,7 +18,7 @@ Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna un
 
 + Ganti nama sprite kamu sehingga mereka disebut 'biru' dan 'hijau'
 
-+ Tambahkan beberapa kode ke sprite 'hijau' sehingga ketika diklik, pesan "hijau" akan di-`siarkan`{: class = "blockevents"} ke sprite pensil, memberitahu dia untuk mengubah kostum dan warnanya.
++ Tambahkan beberapa kode ke sprite 'hijau' sehingga ketika diklik, pesan "hijau" akan di-`siarkan`{:class="blockevents"} ke sprite pensil, memberitahu dia untuk mengubah kostum dan warnanya.
 
 ![Siarkan hijau](images/paint-broadcast-green.png)
 
