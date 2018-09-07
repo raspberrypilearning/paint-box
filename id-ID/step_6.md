@@ -6,7 +6,7 @@ Mari kita ijinkan pengguna untuk menggambar dengan beragam ukuran pensil yang be
 
 [[[generic-scratch-add-variable]]]
 
-+ Tambahkan baris ini *di dalam* `selamanya`{: class = "blockcontrol"} lingkaran kode pensil:
++ Tambahkan baris ini *di dalam* pengulangan `selamanya`{:class="blockcontrol"} pada kode pensil:
 
 ```blocks
     mengatur ukuran pena ke (lebar)
