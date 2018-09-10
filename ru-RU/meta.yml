@@ -1,0 +1,35 @@
+---
+hero_image: Изображения / banner.png
+theme: Фиолетовый
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, production-0, community-0
+title: Paint Box
+description: Узнайте, как сделать свою собственную программу рисования.
+original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
+interests: Изобразительное искусство
+technologies: царапина
+site_areas: проектов
+hardware: ''
+software: царапина
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Введение
+  - 
+    title: Что тебе понадобится
+  - 
+    title: Изготовление карандаша
+  - 
+    title: Цветные карандаши
+  - 
+    title: Ошибаясь
+  - 
+    title: Изменение ширины карандаша
+  - 
+    title: 'Задача: ярлыки'
+  - 
+    title: 'Задача: больше карандашей'
