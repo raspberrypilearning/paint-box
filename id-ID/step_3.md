@@ -2,7 +2,7 @@
 
 Mari kita mulai dengan membuat pensil yang bisa digunakan untuk menggambar pada stage.
 
-+ Buka proyek Scratch 'Kotak Lukis' secara online di [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} atau unduh dari <http://jumpto.cc/paint-get>{:target="_blank"} kemudian buka menggunakan editor offline.
++ Buka proyek Scratch 'Paintbox' secara online di [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} atau unduh dari <http://jumpto.cc/paint-get>{:target="_blank"} kemudian buka menggunakan editor offline.
 
 Kamu akan melihat sprite pensil dan penghapus:
 
