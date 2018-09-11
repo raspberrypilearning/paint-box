@@ -2,11 +2,11 @@
 
 Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan ijinkan pengguna untuk memilih di antara mereka.
 
-+ Klik sprite pensil kamu, klik 'Kostum' dan gandakan kostum 'pensil biru' kamu.
++ Klik sprite pensil kamu, klik 'Kostum' dan gandakan kostum 'pensil-biru' kamu.
 
 ![tangkapan layar](images/paint-blue-duplicate.png)
 
-+ Ganti nama kostum baru menjadi 'hijau-pensil', dan warnai pensil sebagai hijau.
++ Ganti nama kostum baru menjadi 'pensil-hijau', dan warnai pensil hijau.
 
 ![tangkapan layar](images/paint-pencil-green.png)
 
