@@ -4,7 +4,7 @@ Buatlah program lukis kamu sendiri!
 
 ### Apa yang kamu akan buat
 
-Klik pada bendera hijau untuk memulai. Gunakan mouse untuk menggerakkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik pada satu warna untuk mengganti pensil atau klik karet dan gunakan untuk menghapus karya kamu. Untuk membersihkan halaman, klik tanda silang.
+Klik pada bendera hijau untuk memulai. Gunakan mouse untuk menggerakkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik pada satu warna untuk mengganti pensil atau klik penghapus dan gunakan itu untuk menghapus karyamu. Untuk membersihkan halaman, klik tanda silang.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
