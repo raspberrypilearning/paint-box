@@ -19,7 +19,7 @@ Kamu akan melihat sprite pensil dan penghapus:
 
 + Klik bendera dan gerakkan mouse di sekitar stage untuk menguji apakah kode berfungsi.
 
-Selanjutnya, mari kita buat pensil kamu hanya menggambar `jika`{: class = "blockcontrol"} mouse telah diklik.
+Selanjutnya, mari kita buat pensil kamu hanya menggambar `jika`{:class="blockcontrol"} mouse telah diklik.
 
 + Tambahkan kode ini ke sprite pensil kamu:
 
