@@ -11,10 +11,10 @@ Kamu akan melihat sprite pensil dan penghapus:
 + Tambahkan beberapa code ke sprite pensil untuk membuatnya mengikuti mouse `selamanya`{:class="blockcontrol"} sehingga kamu dapat menggambar:
 
 ```blocks
-    ketika ⚑ diklik
+    ketika bendera diklik
     selamanya
       pergi ke [penunjuk-mouse v]
-    end
+    akhiri
 ```
 
 + Klik bendera dan gerakkan mouse di sekitar stage untuk menguji apakah kode berfungsi.
