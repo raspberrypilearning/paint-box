@@ -51,6 +51,6 @@ atur warna pena ke [#0000ff]
 
 Kami memilih untuk memulai dengan warna biru tapi jika kamu suka, kamu dapat memulai dengan pensil warna lain.
 
-+ Uji proyek Anda. Dapatkah Anda beralih antara pena biru dan hijau dengan mengklik sprite kotak biru atau hijau?
++ Uji proyek Kamu. Dapatkah Anda beralih antara pena biru dan hijau dengan mengklik sprite kotak biru atau hijau?
 
 ![tangkapan layar](images/paint-pens-test.png)
