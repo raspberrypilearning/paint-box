@@ -24,7 +24,7 @@ Mari kita tambahkan pensil berwarna lain ke proyek kamu, dan bolehkan pengguna u
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Beralih ke sprite pensil kamu. Tambahkan beberapa kode sehingga ketika sprite ini `menerima`{:class="blockevents"} pesan "hijau", dia harus beralih ke kostum pensil hijau dan mengubah warna menjadi hijau.
++ Beralih ke sprite pensil kamu. Tambahkan beberapa kode sehingga ketika sprite ini menerima `siarkan`{:class="blockevents"} hijau, dia harus beralih ke kostum pensil hijau dan mengubah warnanya menjadi hijau.
 
 ![Siarkan hijau](images/broadcast-green.png)
 
