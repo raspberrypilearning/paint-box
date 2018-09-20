@@ -9,6 +9,6 @@ Dapatkah kamu membuat pintasan keyboard untuk perintah kamu? Sebagai contoh:
 + e = beralih ke penghapus
 + c = bersihkan layar
 
-Anda bahkan dapat mengijinkan pengguna untuk mengubah lebar pena dengan tombol panah.
+Kamu bahkan dapat membolehkan pengguna untuk mengubah lebar pena dengan tombol panah.
 
 \--- /challenge \---
