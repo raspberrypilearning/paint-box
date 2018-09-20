@@ -45,12 +45,12 @@ ganti kostum ke [pensil-biru v]
 atur warna pena ke [#0000ff]
 ```
 
-+ Terakhir, tambahkan kode ini untuk memberi tahu sprite pensil yang mana warna awalnya, dan pastikan bahwa layarnya bersih.
++ Terakhir, tambahkan kode ini untuk memberi tahu sprite pensil soal warna mana yang akan digunakan untuk memulai, dan pastikan layarnya bersih.
 
 ![Mulai pensil](images/start-pencil.png)
 
-Kami memilih untuk memulai dengan warna biru tapi jika kamu suka, kamu dapat memulai dengan pensil warna lain.
+Kita memilih untuk memulai dengan warna biru tapi jika kamu suka, kamu dapat memulai dengan pensil berwarna lain.
 
-+ Uji proyek Kamu. Dapatkah Anda beralih antara pena biru dan hijau dengan mengklik sprite kotak biru atau hijau?
++ Uji proyek Kamu. Dapatkah Kamu beralih antara pena biru dan hijau dengan mengklik sprite kotak biru atau hijau?
 
 ![tangkapan layar](images/paint-pens-test.png)
