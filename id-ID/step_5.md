@@ -38,7 +38,7 @@ atur warna pena ke [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Uji proyek kamu untuk melihat jika kamu dapat membersihkan dan menghapus pada stage.
++ Uji proyek kamu untuk melihat dapatkah kamu membersihkan dan menghapus pada stage.
 
 ![tangkapan layar](images/paint-erase-test.png)
 
