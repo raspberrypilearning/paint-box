@@ -22,11 +22,11 @@ Kamu sekarang dapat menyeret slider di bawah variabel untuk mengubah nilainya.
 
 ![tangkapan layar](images/paint-slider-change.png)
 
-+ Uji proyek kamu, dan lihat jika kamu dapat mengubah lebar pensil.
++ Uji proyek kamu, dan lihat apakah kamu dapat mengubah lebar pensil.
 
 ![tangkapan layar](images/paint-width-test.png)
 
-Jika kamu suka, kamu dapat mengatur nilai terkecil dan terbesar dari 'lebar' yang diijinkan. Untuk melakukan ini, klik kanan lagi pada tampilan variabel dan klik 'set min dan max slider'. Atur nilai terkecil dan terbesar dari variabel kamu ke sesuatu yang lebih masuk akal, seperti 1 dan 20.
+Jika kamu suka, kamu dapat mengatur nilai terkecil dan terbesar dari 'lebar' yang dibolehkan. Untuk melakukan ini, klik kanan lagi pada tampilan variabel dan klik 'set min dan max slider'. Atur nilai terkecil dan terbesar dari variabel kamu ke sesuatu yang lebih masuk akal, seperti 1 dan 20.
 
 ![tangkapan layar](images/paint-slider-max.png)
 
