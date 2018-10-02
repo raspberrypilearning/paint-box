@@ -19,6 +19,6 @@ Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital 
 
 ### Informations supplémentaires pour les éducateurs
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [ Version imprimable ](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_blank"}.
+Si tu as besoin d'imprimer ce projet, merci d'utiliser la [ Version imprimable ](https://projects.raspberrypi.org/fr-FR/projects/paint-box/print){:target="_blank"}.
 
 Utilise le lien en pied de page pour accéder au dépot GitHub de ce projet, qui contient toutes les ressources (y compris un exemple du projet terminé) dans le dossier 'fr-FR/resources'.

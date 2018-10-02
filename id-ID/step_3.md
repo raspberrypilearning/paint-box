@@ -14,7 +14,6 @@ Kamu akan melihat sprite pensil dan penghapus:
     ketika bendera diklik
     selamanya
       pergi ke [penunjuk-mouse v]
-    akhiri
 ```
 
 + Klik bendera dan gerakkan mouse di sekitar stage untuk menguji apakah kode berfungsi.

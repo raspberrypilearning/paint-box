@@ -9,7 +9,7 @@ Vamos a permitir al usuario dibujar usando diferentes tamaños de lápiz.
 + Añade esta linea *dentro* del bucle `por siempre`{:class="blockcontrol"} del código del lápiz:
 
 ```blocks
-    fija tamaño de lápiz a (ancho)
+    fijar tamaño de lápiz a (ancho)
 ```
 
 La anchura del lápiz se establecerá ahora con el valor de la variable 'ancho'.

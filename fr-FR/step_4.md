@@ -41,7 +41,7 @@ quand ce lutin est cliqué
 
 ```blocks
 quand je reçois [vert v]
- basculer sur costume [crayon-vert v]
+ basculer sur le costume [crayon-vert v]
  mettre la couleur du stylo à [#00ff00
 ```
 

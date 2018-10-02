@@ -31,7 +31,7 @@ Ketika pensil menerima pesan "penghapus", kamu dapat mengalihkan kostum pensil k
 --- hints --- --- hint --- Tambahkan beberapa kode ke sprite pensil: **Ketika aku menerima** pesan **penghapus** **Ganti kostum ke** penghapus **Atur warna pena ke** putih --- /hint --- --- hint --- Berikut bagaimana kode pada sprite pensil seharusnya tampak:
 
 ```blocks
-ketika saya menerima [penghapus v]
+ketika aku menerima [penghapus v]
 ganti kostum ke [penghapus v]
 atur warna pena ke [#FFFFFF]
 ```

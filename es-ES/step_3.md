@@ -11,7 +11,7 @@ Verás objetos lápiz y goma de borrar:
 + Añade algo de código al objeto del lápiz para que siga el movimiento del ratón `por siempre`{:class="blockcontrol"} para que puedas dibujar:
 
 ```blocks
-    al presionar la bandera verde
+    al presionar bandera verde
 por siempre 
   ir a [puntero del ratón v]
 fin

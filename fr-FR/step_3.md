@@ -11,7 +11,7 @@ Tu verras les lutins du crayon et de la gomme :
 + Ajoute du code au lutin du crayon pour lui faire suivre la souris `pour toujours`{:class="blockcontrol"} pour que tu puisses dessiner :
 
 ```blocks
-    quand le drapeau vert cliqué
+    quand le drapeau vert pressé
 répéter indéfiniment
    aller à [pointeur de souris v]
 fin

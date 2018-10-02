@@ -19,6 +19,6 @@ Proyek ini mencakup unsur-unsur dari rangkaian [Kurikulum Digital Making Raspber
 
 ### Informasi tambahan untuk pendidik
 
-Jika kamu perlu mencetak proyek ini, silakan gunakan [versi cetak](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Jika kamu perlu mencetak proyek ini, silakan gunakan [versi cetak](https://projects.raspberrypi.org/id-ID/projects/paint-box/print){:target="_blank"}.
 
 Gunakan tautan di bawah untuk mengakses repo GitHub yang berisi semua sumber daya untuk proyek ini (termasuk contoh proyek selesai) di folder 'id-ID/resources'.

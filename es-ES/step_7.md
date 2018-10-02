@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Desafío: atajos
+## Desafío: atajos de teclado
 
 ¿Puedes crear un atajo de teclado para tus comandos? Por ejemplo:
 
