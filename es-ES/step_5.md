@@ -1,34 +1,55 @@
-## Cambiar el grosor del lápiz
+## Cometiendo errores
 
-Vamos a hacer que el usuario pueda dibujar utilizando diferentes tamaños de lápices.
+A veces nos equivocamos así que vamos a añadir un botón 'Limpiar' y una goma de borrar.
 
-+ Primero, añade una nueva variable que se llame "grosor". Si no recuerdas cómo hacerlo, el Proyecto “Globos” te puede ayudar.
++ Añade el objeto 'X-block' que encontrarás en la biblioteca, en la sección de letras. Cambia el color del disfraz a rojo. Esto se convertirá en el botón de "limpiar".
 
-+ Añade esta línea _dentro_ del bucle de código `por siempre`{:class="blockcontrol"} de tu lápiz:
+![Captura de pantalla](images/paint-x.png)
 
-	```blocks
-		fijar tamaño de lápiz a (grosor)
-	```
++ Añade código a este objeto para que cuando lo cliques limpie el escenario.
 
-	Ahora el grosor de tu lápiz se fijará repetidamente al valor de la variable “grosor”.
+![Limpia el escenario](images/clear-stage.png)
 
-+ Puedes cambiar el valor guardado en esta variable haciendo clic con el botón derecho sobre la variable (en el escenario) y seleccionando “deslizador”.
+Date cuenta que no necesitas enviar un mensaje para limpiar el escenario, puedes usar directamente el bloque 'borrar' con este objeto.
 
-	![screenshot](images/paint-slider.png)
+Habrás visto que el objeto lápiz incluye un disfraz de goma de borrar:
 
-	Ahora puedes arrastrar el deslizador que hay debajo de la variable para cambiar su valor.
+![Captura de pantalla](images/paint-eraser-costume.png)
 
-	![screenshot](images/paint-slider-change.png)
++ Tu proyecto también incluye un objeto goma de borrar aparte. Haz clic con el botón derecho encima de este objeto y elige 'mostrar'. El escenario debería quedar así:
 
-+ Prueba tu proyecto, y comprueba si puedes modificar el grosor de tu lápiz.
+![Captura de pantalla](images/paint-eraser-stage.png)
 
-	![screenshot](images/paint-width-test.png)
++ Añade código al objeto 'goma de borrar' para decirle al lápiz que cambie a la goma de borrar cuando se haga clic en el objeto.
 
-	Si lo prefieres, puedes fijar el valor mínimo y máximo del “grosor” permitido. Para hacerlo, haz clic de nuevo con el botón derecho sobre la variable y selecciona “fijar rango del deslizador”. Fija los valores mínimos y máximos de tu variable a algo un poco más coherente, como 1 y 20.
+![Envía borrar](images/broadcast-eraser.png)
 
-	![screenshot](images/paint-slider-max.png)
+Cuando el lápiz recibe el mensaje 'gomadeborrar', puedes cambiar el disfraz del lápiz por el de la goma de borrar y cambiar el color de dibujo del lápiz a blanco - ¡el mismo color que el escenario!
 
-	Sigue probando tu variable “grosor” hasta que estés conforme.
++ Añade código para definir la goma de borrar
 
+--- hints --- --- hint --- Añade código al objeto lápiz: **al recibir** el mensaje **borrar** **cambiar disfraz a** gomadeborrar **fijar color de lápiz a** blanco --- /hint --- --- hint --- El código para el objeto lápiz debería quedar así:
 
+```blocks
+al recibir [gomadeborrar v]
+cambiar disfraz a [gomadeborrar v]
+fijar color de lápiz a [#FFFFFF]
+```
 
+--- /hint --- --- /hints ---
+
++ Prueba tu proyecto para ver si puedes borrar en el escenario y limpiarlo del todo.
+
+![Captura de pantalla](images/paint-erase-test.png)
+
+Hay un problema más con el lápiz - ¡puedes dibujar en cualquier lugar del escenario, incluso cerca de los iconos de selección!
+
+![Captura de pantalla](images/paint-draw-problem.png)
+
+Para arreglar esto, dile al lápiz que solo dibuje si haces clic con el ratón *y* la posición y del ratón es mayor que -120:
+
+![Captura de pantalla](images/pencil-gt-code.png)
+
++ Prueba tu proyecto; ahora no deberías poder dibujar cerca de los bloques de selección.
+
+![Captura de pantalla](images/paint-fixed.png)

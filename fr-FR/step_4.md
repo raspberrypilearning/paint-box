@@ -1,59 +1,56 @@
-## Erreurs de fabrication
+## Crayons de couleurs
 
-Parfois, les erreurs arrivent. Ajoutons le boutton 'Nettoyer' et une gomme à effacer à notre projet!
+Ajoutons des crayons de couleurs différentes à ton projet, et permettons à l'utilisateur de choisir entre eux.
 
-+ Ajoutons un bouton pour annuler l'étape. Pour faire cela, ajoutez le lutin 'X-block' à l'étape et coloriez-le en rouge.
++ Clique sur ton lutin crayon, clique sur «Costumes» et duplique ton costume «crayon-bleu».
 
-	![screenshot](images/paint-x.png)
+![capture d'écran](images/paint-blue-duplicate.png)
 
-+ Ajoutez ce code à votre nouveau bouton pour annuler l'étape lorsqu'il est cliqué.
++ Renomme ton nouveau costume «crayon-vert» et colore le crayon en vert.
 
-	```blocks
-		quand ce lutin est cliqué
-		effacer tout
-	```
+![capture d'écran](images/paint-pencil-green.png)
 
-	Remarquez que vous ne devez pas envoyer un message pour approuver l'étape comme pour n'importe quel lutin!
+[[[generic-scratch-rename-sprite]]]
 
-+ Vous pouvez aussi créer une gomme à effacer. Si votre leader de club vous a donné une 'Ressource', cliquez 'importer le lutin depuis un fichier' et ajoutez l'image.
++ Dessine deux nouveaux lutins - un carré bleu et un carré vert. Tu les utiliseras pour sélectionner le crayon bleu ou le crayon vert.
 
-	![screenshot](images/paint-eraser-costume.png)
+![capture d'écran](images/paint-selectors.png)
 
-	Si vous n'avez pas l'image de gomme, vous devez simplement créer un nouveau stylo blanc!
++ Renomme tes lutins pour qu'ils soient appelés "bleu" et "vert"
 
-	+ Vous devriez aussi ajouter l'image de la gomme comme nouveau lutin de séléction. Votre étape sera comme suit :
++ Ajoute du code au lutin "vert" de sorte que lorsque tu cliques dessus, il `diffuse`{:class="blockevents"} le message "vert" au lutin crayon, lui disant de changer sa couleur de costume et de stylo.
 
-	![screenshot](images/paint-eraser-stage.png)
+![Diffuser le message "green"](images/paint-broadcast-green.png)
 
-+ Vous pouvez alors ajouter le code à ce lutin de séléction de gomme et dire au crayon de se changer en gomme.
+[[[generic-scratch-broadcast-message]]]
 
-	```blocks
-		quand ce lutin est cliqué
-		envoyer à tous  [eraser v]
-	```
++ Passe à ton lutin crayon. Ajoute du code afin que lorsque ce lutin reçoit le `message`{:class="blockevents"} vert, il passe au costume vert et change la couleur du stylo au vert.
 
-+ Quand le crayon reçoit ce message, vous pouvez créer une gomme à effacer en changeant le costume de crayon à la gomme et en changeant la couleur de crayon à la même couleur que l'étape (blanc)!
+![Diffuser le message "vert"](images/broadcast-green.png)
 
-	```blocks
-		quand je reçois [eraser v]
-		basculer sur costume [eraser v]
-		mettre la couleur du stylo à [#FFFFFF]
-	```
+Pour mettre le stylo du lutin crayon en vert, clique sur la case de couleur dans la `mettre la couleur du stylo`{:class="blockpen"} bloc, et clique sur le lutin vert pour choisir la même couleur verte que la couleur de votre crayon.
 
-+ Testez votre projet, regardez si vous pouvez annuler et effacer sur l'étape.
++ Tu peux maintenant faire la même chose pour le message bleu. Ajoute ce code au lutin bleu :
 
-	![screenshot](images/paint-erase-test.png)
+```blocks
+quand ce lutin est cliqué
+ envoyer à tous [bleu v]
+```
 
-+ Il y a encore un problème avec le crayon - vous pouvez dessiner n'importe où sur l'étape, y compris près des icônes de séléction!
+... et ajoute ce code à ton lutin crayon :
 
-	![screenshot](images/paint-draw-problem.png)
+```blocks
+quand je reçois [vert v]
+ basculer sur costume [crayon-vert v]
+ mettre la couleur du stylo à [#00ff00
+```
 
-	Pour cela, vous devez dire au crayon de dessiner seulement si la souris est cliquée et si la position 'y' de la souris est plus grande que -110 (`souris y`{:class="blocksensing"}`> -120`{:class="blockoperators"}). Changez votre crayon `si`{:class="blockcontrol"} la déclaration est comme celle-ci :
++ Enfin, ajoute ce code pour indiquer au lutin crayon la couleur de départ et s'assurer que l'écran est vide.
 
-	![screenshot](images/pencil-gt-code.png)
+![Crayon de début](images/start-pencil.png)
 
-+ Testez votre projet. Maintenant, vous ne devriez pas pouvoir vous approcher des blocs de séléction.
+Nous avons choisi de commencer avec le bleu mais si tu préfères, Tu peux commencer avec un crayon de couleur différente.
 
-	![screenshot](images/paint-fixed.png)
++ Teste ton projet. Peux-tu basculer entre les crayons bleus et verts en cliquant sur les lutins carrés bleus ou verts ?
 
-
+![capture d'écran](images/paint-pens-test.png)

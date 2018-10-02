@@ -1,10 +1,14 @@
 --- challenge ---
-## Défi : Plus de stylos 
-Pouvez-vous ajouter des stylos rouges, jaunes et noirs à votre programme de peinture ? Vous trouverez toutes les images dont vous avez besoin dans votre dossier 'de Ressources' afin d'ajouter des raccourcis sur le clavier pour ces nouveaux stylos!
 
-Pouvez-vous utiliser vos stylos pour faire un dessin ?
+## Défi : raccourcis
 
-![screenshot](images/paint-final.png)
+Peux-tu créer des raccourcis clavier pour tes commandes ? Par exemple :
 
++ b = Passer au crayon bleu
++ v = Passer au crayon vert
++ g = Passer à la gomme
++ e = Effacer la scène
+
+Tu peux même permettre à l'utilisateur de changer l'épaisseur du trait du crayon avec les flèches du clavier.
 
 --- /challenge ---
