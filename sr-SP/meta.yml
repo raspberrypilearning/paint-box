@@ -6,7 +6,7 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Paint Box
+title: Програм за цртање
 description: Learn how to make your own paint program.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
 interests: art
@@ -18,9 +18,9 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Увод
   - 
-    title: What you will need
+    title: Шта ће ти требати
   - 
     title: Making a pencil
   - 
@@ -30,6 +30,6 @@ steps:
   - 
     title: Changing the pencil width
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Изазов: Пречице'
   - 
-    title: 'Challenge: more pencils'
+    title: 'Изазов: Више оловака'
