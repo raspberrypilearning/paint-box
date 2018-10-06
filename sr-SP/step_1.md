@@ -1,4 +1,4 @@
-## Introduction
+## Увод
 
 Make your own paint program!
 
@@ -11,9 +11,9 @@ Click on the green flag to start. Use the mouse to move the pencil and hold down
   <img src="images/paint-final.png">
 </div>
 
-### What you will learn
+### Шта ћеш научити
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Овај пројекат обухвата елементе из следећих делова наставног програма [Raspberry Pi Курикулум Дигиталног стваралаштва](http://rpf.io/curriculum){:target="_blank"}:
 
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
