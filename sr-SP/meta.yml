@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Програм за цртање
-description: Learn how to make your own paint program.
+description: Научи како да направиш сопствени програм за цртање.
 original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
 interests: art
 technologies: scratch
@@ -22,13 +22,13 @@ steps:
   - 
     title: Шта ће ти требати
   - 
-    title: Making a pencil
+    title: Направи оловку
   - 
-    title: Coloured pencils
+    title: Бојица
   - 
-    title: Making mistakes
+    title: Грешке
   - 
-    title: Changing the pencil width
+    title: Промена дебљине оловке
   - 
     title: 'Изазов: Пречице'
   - 
