@@ -1,8 +1,8 @@
-## Making a pencil
+## Направи оловку
 
-Let's start by making a pencil that can be used to draw on the stage.
+Почнимо тако што ћемо направити оловку која се може користити за цртање на позорници.
 
-+ Open the 'Paintbox' Scratch project online at [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} or download from <http://jumpto.cc/paint-get>{:target="_blank"} and then open it if you are using the offline editor.
++ Отвори Скреч пројекат 'Програм за цртање' на мрежи на [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} или га преузми са <http://jumpto.cc/paint-get>{:target="_blank"}, а затим отвори ако користиш едитор ван мреже.
 
 You will see pencil and eraser sprites:
 
