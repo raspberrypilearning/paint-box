@@ -4,7 +4,7 @@
 
 + Отвори Скреч пројекат 'Програм за цртање' на мрежи на [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} или га преузми са <http://jumpto.cc/paint-get>{:target="_blank"}, а затим отвори ако користиш едитор ван мреже.
 
-You will see pencil and eraser sprites:
+Видећеш ликове оловке и гумице:
 
 ![screenshot](images/paint-starter.png)
 
