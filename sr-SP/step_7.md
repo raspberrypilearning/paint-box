@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: shortcuts
+## Изазов: Пречице
 
-Can you create keyboard shortcuts for your commands? For example:
+Can you create keyboard shortcuts for your commands? На пример:
 
 + b = Switch to blue pen
 + g = switch to green pen
