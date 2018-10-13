@@ -17,15 +17,15 @@
     end
 ```
 
-+ Click the flag and then move the mouse around the stage to test whether the code works.
++ Кликни на заставицу, а затим померај миш по позорници да провериш да ли код функционише.
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Затим, хајде да направимо да твоја оловка црта `ако је`{:class="blockcontrol"} притиснут тастер миша.
 
-+ Add this code to your pencil sprite:
++ Додај овај код лику оловке:
 
 ![screenshot](images/paint-pencil-draw-code.png)
 
-+ Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Поново испробај код. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
 
