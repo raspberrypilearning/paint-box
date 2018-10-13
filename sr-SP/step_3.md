@@ -8,7 +8,7 @@
 
 ![screenshot](images/paint-starter.png)
 
-+ Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
++ Додај код лику оловке да `увек`{:class="blockcontrol"} прати стрелицу миша, тако да можеш да црташ:
 
 ```blocks
     when flag clicked
