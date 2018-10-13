@@ -6,7 +6,7 @@
 
 Видећеш ликове оловке и гумице:
 
-![screenshot](images/paint-starter.png)
+![слика екрана](images/paint-starter.png)
 
 + Додај код лику оловке да `увек`{:class="blockcontrol"} прати стрелицу миша, тако да можеш да црташ:
 
@@ -23,17 +23,17 @@
 
 + Додај овај код лику оловке:
 
-![screenshot](images/paint-pencil-draw-code.png)
+![слика екрана](images/paint-pencil-draw-code.png)
 
-+ Поново испробај код. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
++ Поново испробај код. Овај пут померај оловку по позорници док држиш тастер миша. Можеш ли да црташ својом оловком?
 
-![screenshot](images/paint-draw.png)
+![слика екрана](images/paint-draw.png)
 
 ## \--- collapse \---
 
-## title: If you're having problems...
+## title: Ако имаш проблеме...
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+Ако твоја оловка црта линију са своје средине уместо са врха, требаш да промениш центар костима.
 
 ![Costume center](images/costume-center.png)
 
