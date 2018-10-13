@@ -37,7 +37,7 @@
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+Крст за одређивање центра оловке треба да буде постављен **тачно испод** врха оловке, а не на средину.
 
 A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
 
