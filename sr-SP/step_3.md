@@ -39,6 +39,6 @@
 
 Крст за одређивање центра оловке треба да буде постављен **тачно испод** врха оловке, а не на средину.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+Измене у 'центру костима' лика неће бити направљене док се не кликне на другу картицу. Кликни на други костим или картицу 'Програми' да довршиш своје измене у центру костима.
 
 \--- /collapse \---
