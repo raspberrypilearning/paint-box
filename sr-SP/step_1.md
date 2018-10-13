@@ -4,7 +4,7 @@
 
 ### Шта ћеш направити
 
-Кликни на зелену заставицу да почнеш. Користи миш да помераш оловку и држи притиснут леви тастер миша да црташ. Кликни на боју да промениш бојицу или кликни на гумицу да нешто избришеш. To clear the page click the cross.
+Кликни на зелену заставицу да почнеш. Користи миш да помераш оловку и држи притиснут леви тастер миша да црташ. Кликни на боју да промениш бојицу или кликни на гумицу да нешто избришеш. Да обришеш страницу, кликни на крстић.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
@@ -15,7 +15,7 @@
 
 Овај пројекат обухвата елементе из следећих делова наставног програма [Raspberry Pi Курикулум Дигиталног стваралаштва](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Комбинујте основе програмирања за решавање проблема.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### Додатне информације за наставнике
 
