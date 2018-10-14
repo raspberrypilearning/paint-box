@@ -30,19 +30,19 @@
 
 To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
 
-+ You can now do the same for the blue pencil icon: add this code to the blue square sprite:
++ Сада можеш да урадиш исто и за икону плаве бојице. Додај овај код лику плавог квадрата:
 
 ```blocks
 када је кликнуто на овај лик
 разгласи [плава v]
 ```
 
-...and add this code to the pencil sprite:
+...и додај овај код лику бојице:
 
 ```blocks
-when I receive [blue v]
-switch costume to [pencil-blue v]
-set pen color to [#0000ff]
+када примим [плава v]
+замени костим са [бојица-плава v]
+нека боја оловке буде [#0000ff]
 ```
 
 + Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
