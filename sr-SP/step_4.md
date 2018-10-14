@@ -1,6 +1,6 @@
 ## Бојице
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Хајде да у твој пројекат додамо бојице различитих боја и омогућимо кориснику да изабере ону коју жели.
 
 + Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
 
