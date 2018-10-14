@@ -45,11 +45,11 @@ To set the pencil to colour to green, click the coloured box in the `set pen col
 нека боја оловке буде [#0000ff]
 ```
 
-+ Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
++ На крају, додај овај код да кажеш лику бојице са којом бојом да почне и да екран буде обрисан.
 
 ![Почетна оловка](images/start-pencil.png)
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+Изабрали смо да започнемо са плавом, али ако желиш. можеш да почнеш и са бојицом друге боје.
 
 + Испробај свој пројекат. Можеш ли да мењаш између плаве и зелене бојице када кликнеш на ликове плавог или зеленог квадрата?
 
