@@ -24,7 +24,7 @@
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
++ Врати се на лик оловке. Додај код, тако да, када овај лик прими `разглас`{:class="blockevents"} зелена, промени костим у бојица-зелена и боју бојице у зелену.
 
 ![Broadcast green](images/broadcast-green.png)
 
