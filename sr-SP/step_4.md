@@ -16,9 +16,9 @@
 
 ![слика екрана](images/paint-selectors.png)
 
-+ Rename your sprites so that they are called 'blue' and 'green'
++ Преименуј их тако да се зову 'плава' и 'зелена'.
 
-+ Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
++ Додај код лику 'зелена' тако да, када се кликне на њега он `разгласи`{:class="blockevents"} поруку "зелена" лику бојице, говорећи му да промени свој костим и боју бојице.
 
 ![Broadcast green](images/paint-broadcast-green.png)
 
