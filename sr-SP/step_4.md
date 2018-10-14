@@ -2,17 +2,17 @@
 
 Хајде да у твој пројекат додамо бојице различитих боја и омогућимо кориснику да изабере ону коју жели.
 
-+ Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
++ Кликни на лик оловке, затим кликни на 'Костими' и умножи костим 'бојица-плава'.
 
 ![слика екрана](images/paint-blue-duplicate.png)
 
-+ Rename your new costume 'pencil-green', and colour the pencil green.
++ Преименуј нови костим у 'бојица-зелена' и обоји бојицу у зелено.
 
 ![слика екрана](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
++ Нацртај два нова лика: плави квадрат и зелени квадрат. Користићеш их да одабереш плаву или зелену бојицу.
 
 ![слика екрана](images/paint-selectors.png)
 
