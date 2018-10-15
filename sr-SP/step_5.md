@@ -12,11 +12,11 @@
 
 Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+Вероватно си приметио/ла да твој лик оловке има костим гумице:
 
 ![слика екрана](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
++ Твој пројекат такође има посебан лик гумице. Кликни десним тастером миша на њега и изабери 'прикажи'. Твоја позорница би требало да изгледа овако:
 
 ![слика екрана](images/paint-eraser-stage.png)
 
