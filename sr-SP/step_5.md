@@ -1,8 +1,8 @@
 ## Грешке
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Понекад се дешавају грешке, па хајде да додамо дугме 'обриши' и гумицу.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
++ Додај лик 'Х-блок'. Наћи ћеш га у библиотеци, у одељку "Слова". Colour the costume in red. This will become the 'clear' button.
 
 ![слика екрана](images/paint-x.png)
 
