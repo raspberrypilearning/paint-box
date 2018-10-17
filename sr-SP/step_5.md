@@ -42,14 +42,14 @@ When the pencil receives the "eraser" message, you can switch the pencil costume
 
 ![слика екрана](images/paint-erase-test.png)
 
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+Постоји још један проблем са оловком - можеш да црташ било где на позорници, укључујући и близу икона за избор!
 
 ![слика екрана](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+Да то поправиш, мораш да кажеш оловци да црта само ако је миш кликнут *и* ако је y-координата миша већа од -120:
 
 ![слика екрана](images/pencil-gt-code.png)
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
++ Испробај пројекат; сада не би требало да можеш да црташ близу блокова за избор.
 
 ![слика екрана](images/paint-fixed.png)
