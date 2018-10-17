@@ -38,7 +38,7 @@ When the pencil receives the "eraser" message, you can switch the pencil costume
 
 \--- /hint \--- \--- /hints \---
 
-+ Test your project, to see if you can clear and erase on the stage.
++ Испробај свој пројекат да провериш да ли можеш да бришеш на позорници.
 
 ![слика екрана](images/paint-erase-test.png)
 
