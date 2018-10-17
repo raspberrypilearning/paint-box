@@ -1,15 +1,15 @@
 ## Промена дебљине оловке
 
-Let's allow the user to draw using a range of different pencil sizes.
+Хајде да омогућимо кориснику да црта користећи оловке различитих дебљина.
 
-+ First, add a new variable called `width`{:class="blockvariable"}.
++ Прво додај нову променљиву која ће се звати `дебљина`{:class="blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
 + Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
 
 ```blocks
-    set pen size to (width)
+    нека дебљина оловке буде (дебљина)
 ```
 
 The pencil width will now repeatedly be set to the value of the 'width' variable.
@@ -30,4 +30,4 @@ If you prefer, you can set the minimum and maximum value of 'width' that's allow
 
 ![слика екрана](images/paint-slider-max.png)
 
-Keep testing your 'width' variable until you're happy.
+Настави да испробаваш променљиву 'дебљина' док не будеш задовољан/а.
