@@ -20,13 +20,13 @@ Notice that you don't need to send a message to clear the stage, you can just us
 
 ![слика екрана](images/paint-eraser-stage.png)
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
++ Додај код лику гумице који ће рећи оловци да се замени са гумицом када се кликне на лик гумице.
 
 ![Разгласи гумица](images/broadcast-eraser.png)
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+Када оловка прими поруку "гумица", можеш да замениш костим оловке са костимом гумице, а боју бојице у белу - исту боју као боју позорнице!
 
-+ Add some code to create the eraser
++ Додај код за креирање гумице
 
 \--- hints \--- \--- hint \--- Додај код лику оловке: **Када примим** поруку **гумица** **Замени костим са** гумица **Нека боја оловке буде** бела \--- /hint \--- \--- hint \--- Ево како би требало да изгледа код унутар лика оловке:
 
