@@ -6,6 +6,6 @@ Can you add red, yellow and black pencils to your paint program? Take a look at 
 
 Can you use your pencils to draw a picture?
 
-![screenshot](images/paint-final.png)
+![слика екрана](images/paint-final.png)
 
 \--- /challenge \---
