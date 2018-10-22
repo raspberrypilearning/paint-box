@@ -28,7 +28,7 @@
 
 ![Разгласи зелена](images/broadcast-green.png)
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+Да подесиш да бојица боји зелено, кликни на обојено поље у блоку `нека боја оловке буде`{:class="blockpen"}, а затим кликни на зелени лик да одабереш исту зелену боју као што је боја бојице.
 
 + Сада можеш да урадиш исто и за икону плаве бојице. Додај овај код лику плавог квадрата:
 
