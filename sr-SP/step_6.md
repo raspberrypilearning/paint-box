@@ -26,7 +26,7 @@
 
 ![слика екрана](images/paint-width-test.png)
 
-Ако желиш, можеш да поставиш најмању и највећу дозвољену вредност 'дебљине'. To do this, right-click on the variable again and click 'set slider min and max'. Set the minimum and maximum values of your variable to something more sensible, like 1 and 20.
+Ако желиш, можеш да поставиш најмању и највећу дозвољену вредност 'дебљине'. Да би то урадио, поново кликни десним тастером миша на променљиву, а затим кликни на 'подешавање граничних вредности клизача'. Подеси најмању и највећу вредност променљиве, на пример 1 и 20.
 
 ![слика екрана](images/paint-slider-max.png)
 
