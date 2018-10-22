@@ -6,19 +6,19 @@
 
 [[[generic-scratch-add-variable]]]
 
-+ Add this line *inside* the `forever`{:class="blockcontrol"} loop of the pencil's code:
++ Додај ову наредбу *унутар* петље `понављај`{:class="blockcontrol"} у коду оловке:
 
 ```blocks
     нека дебљина оловке буде (дебљина)
 ```
 
-The pencil width will now repeatedly be set to the value of the 'width' variable.
+Дебљина оловке сада ће бити увек постављена на вредност променљиве 'дебљина'.
 
-+ Right click on the variable display on the stage and click 'slider'.
++ Кликни десним тастером миша на променљиву приказану на позорници и кликни на 'клизач'.
 
 ![слика екрана](images/paint-slider.png)
 
-You can now drag the slider below the variable to change its value.
+Сада можеш да помераш клизач испод променљиве да промениш њену вредност.
 
 ![слика екрана](images/paint-slider-change.png)
 
