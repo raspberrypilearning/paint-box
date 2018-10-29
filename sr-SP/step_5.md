@@ -10,7 +10,7 @@
 
 ![Обриши позорницу](images/clear-stage.png)
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+Обрати пажњу да није потребно да пошаљеш поруку да обришеш позорницу, јер можеш да користиш блок обриши овог лика.
 
 Вероватно си приметио/ла да твој лик оловке има костим гумице:
 
