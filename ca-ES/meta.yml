@@ -1,0 +1,35 @@
+---
+hero_image: imatges / banner.png
+theme: violeta
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, disseny-0, programació-1, phys-comp-0, fabricació-0, comunitat-0
+title: Caixa de pintura
+description: Aprèn a fer el teu propi programa de pintura.
+original_url: https://codeclubprojects.org/ca-GB/scratch/paint-box
+interests: art
+technologies: rascar
+site_areas: projectes
+hardware: ''
+software: rascar
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Introducció
+  - 
+    title: El que necessitaràs
+  - 
+    title: Fer un llapis
+  - 
+    title: Llapis de colors
+  - 
+    title: Cometre errors
+  - 
+    title: Canvi de l'amplada del llapis
+  - 
+    title: 'Desafiament: accessos directes'
+  - 
+    title: 'Desafiament: més llapis'
