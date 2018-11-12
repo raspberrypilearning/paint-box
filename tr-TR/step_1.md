@@ -4,7 +4,7 @@ Kendi boya programınızı yapın!
 
 ### Ne yapacaksın
 
-Başlamak için yeşil bayrağı tıklayın. Kalemi hareket ettirmek için fareyi kullanın ve çizmek için sol fare tuşunu basılı tutun. Kalem değiştirmek için bir rengi tıklayın ya da lastiği tıklayın ve işinizi silmek için kullanın. Sayfayı temizlemek için çapraz tıklayın.
+Başlamak için yeşil bayrağa tıklayın. Kalemi hareket ettirmek için fareyi kullanın ve çizmek için sol fare tuşuna basılı tutun. Kalemin rengini değiştirmek için renklere tıklayın ya da çiziminizi silmek için silgiye tıklayın. Sayfayı temizlemek için çarpı işaretine tıklayın.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
