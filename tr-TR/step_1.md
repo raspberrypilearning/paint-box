@@ -21,4 +21,4 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){@ t
 
 Bu projeyi yazdırmanız gerekiyorsa, lütfen [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"} kullanın.
 
-Bütün kaynakları içeren (bitmiş bir proje örneği de dahil) Github deposuna erişebilmek için altbilgide bulunan bağlantıyı kullanın.
+'en/resources' klasöründe, bütün kaynakları içeren (bitmiş bir proje örneği de dahil) Github deposuna erişebilmek için altbilgide bulunan bağlantıyı kullanın.
