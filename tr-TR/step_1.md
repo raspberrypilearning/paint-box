@@ -2,7 +2,7 @@
 
 Kendi boya programınızı yapın!
 
-### Nasıl bir proje yapacağız
+### Nasıl bir proje yapacaksın
 
 Başlamak için yeşil bayrağa tıklayın. Fareyi kullanarak kalemi hareket ettirin ve karalamak için sol fare tuşuna basılı tutun. Kalemin rengini değiştirmek için renklere tıklayın ya da çiziminizi silebilmek için silgiye tıklayın. Sayfayı temizlemek için çarpı işaretine tıklayın.
 
@@ -11,7 +11,7 @@ Başlamak için yeşil bayrağa tıklayın. Fareyi kullanarak kalemi hareket ett
   <img src="images/paint-final.png">
 </div>
 
-### Ne öğreneceksin
+### Neler öğreneceksin
 
 Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){@ target = "_ blank"} 'nın aşağıdaki bölümünden bilgiler kapsamaktadır:
 
@@ -21,4 +21,4 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){@ t
 
 Bu projeyi yazdırmanız gerekiyorsa, lütfen [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"} kullanın.
 
-'En / resources' klasöründeki tüm kaynakları (örnek bir proje de dahil olmak üzere) içeren bu proje için GitHub repo'ya erişmek için altbilgideki bağlantıyı kullanın.
+Bütün kaynakları içeren (bitmiş bir proje örneği de dahil) Github deposuna erişebilmek için altbilgide bulunan bağlantıyı kullanın.
