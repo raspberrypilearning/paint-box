@@ -15,10 +15,10 @@ Başlamak için yeşil bayrağa tıklayın. Kalemi hareket ettirmek için fareyi
 
 Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){@ target = "_ blank"} 'nın aşağıdaki bölümünden bilgiler kapsamaktadır:
 
-+ [Bir problemi çözmek için programlama yapılarını birleştirin.](https://www.raspberrypi.org/curriculum/programming/builder){: hedef = "_ blank"}
++ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### Eğitimciler için ek bilgi
 
-Bu projeyi yazdırmanız gerekiyorsa, lütfen [yazıcı dostu sürüm](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"} kullanın.
+Bu projeyi yazdırmanız gerekiyorsa, lütfen [printer friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"} kullanın.
 
 'En / resources' klasöründeki tüm kaynakları (örnek bir proje de dahil olmak üzere) içeren bu proje için GitHub repo'ya erişmek için altbilgideki bağlantıyı kullanın.
