@@ -2,9 +2,9 @@
 
 Kendi boya programınızı yapın!
 
-### Ne yapacaksın
+### Nasıl bir proje yapacağız
 
-Başlamak için yeşil bayrağa tıklayın. Kalemi hareket ettirmek için fareyi kullanın ve çizmek için sol fare tuşuna basılı tutun. Kalemin rengini değiştirmek için renklere tıklayın ya da çiziminizi silmek için silgiye tıklayın. Sayfayı temizlemek için çarpı işaretine tıklayın.
+Başlamak için yeşil bayrağa tıklayın. Fareyi kullanarak kalemi hareket ettirin ve karalamak için sol fare tuşuna basılı tutun. Kalemin rengini değiştirmek için renklere tıklayın ya da çiziminizi silebilmek için silgiye tıklayın. Sayfayı temizlemek için çarpı işaretine tıklayın.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
