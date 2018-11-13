@@ -17,9 +17,9 @@ sürekli tekrarla
 end
 ```
 
-+ Bayrağa tıklayın ve ardından kodun çalışıp çalışmadığını test etmek için fareyi sahnenin etrafında hareket ettirin.
++ Bayrağa tıklayın ve ardından kodun çalışıp çalışmadığını test etmek için fareyi çizim ekranında hareket ettirin.
 
-Sonra, senin kalem sadece çizmek yapalım `ise`fare tıklandığında: {class = "blockcontrol"}.
+Sonra, sadece fareye tıklanmış `ise`{:class = "blockcontrol"} kalemin ekranda çizim yapmasını sağlayalım.
 
 + Bu kodu kalem hareketli grafiğe ekle:
 
