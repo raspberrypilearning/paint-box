@@ -13,7 +13,7 @@ Başlamak için yeşil bayrağı tıklayın. Fareyi kullanarak kalemi hareket et
 
 ### Neler öğreneceksin
 
-Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){@ target = "_ blank"} 'nın aşağıdaki bölümünden bilgiler kapsamaktadır:
+Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){@ target = "_ blank"} 'un aşağıdaki bölümünden bilgiler kapsamaktadır:
 
 + [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
