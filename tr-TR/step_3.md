@@ -2,7 +2,7 @@
 
 Ekranda çizim yapmak için kullanılabilecek bir kalem yaparak başlayalım.
 
-+ 'Paintbox' Scratch projesini çevrimiçi olarak [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} adresinden açın veya <http://jumpto.cc/paint-get>{: target = "_ blank"} 'dan indirin. ve çevrimdışı düzenleyiciyi kullanıyorsanız açın.
++ 'Paintbox' Scratch projesini çevrimiçi olarak [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} adresinden açın veya <http://jumpto.cc/paint-get>{: target = "_ blank"} adresinden indirerek, çevrimdışı düzenleyiciyi ile açın.
 
 Kalem ve silgi spriteları göreceksiniz:
 
