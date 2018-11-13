@@ -8,7 +8,7 @@ Kalem ve silgi kuklalarını göreceksiniz:
 
 ![ekran görüntüsü](images/paint-starter.png)
 
-+ O fareyi izlemesini sağlamak için kalem sprite bazı kodlar ekle `sonsuza`{: class = "blockcontrol"} çizmek böylece:
++ Kalem kuklasına bazı kodlar ekleyerek, fareyi `sonsuza`{: class = "blockcontrol"} kadar izlemesini sağlayalım. Böylece kalemle çizim yapabiliriz:
 
 ```blocks
     bayrak sonsuza dek tıklandığında [fare işaretçisi v] sonuna git
