@@ -21,7 +21,7 @@ end
 
 Sonra, sadece fareye tıklanmış `ise`{:class = "blockcontrol"} kalemin ekranda çizim yapmasını sağlayalım.
 
-+ Bu kodu kalem hareketli grafiğe ekle:
++ Kalem kuklasına bu kodu ekle:
 
 ![ekran görüntüsü](images/paint-pencil-draw-code.png)
 
