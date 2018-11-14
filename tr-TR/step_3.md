@@ -19,21 +19,21 @@ end
 
 + Bayrağa tıklayın ve ardından kodun çalışıp çalışmadığını test etmek için fareyi çizim ekranında hareket ettirin.
 
-Sonra, sadece fareye tıklanmış `ise`{:class = "blockcontrol"} kalemin ekranda çizim yapmasını sağlayalım.
+Şimdi, sadece fareye tıklanmış `ise`{:class = "blockcontrol"} kalemin ekranda çizim yapmasını sağlayalım.
 
 + Kalem kuklasına bu kodu ekle:
 
 ![ekran görüntüsü](images/paint-pencil-draw-code.png)
 
-+ Kodunuzu tekrar test edin. Bu kez, kalemi sahnenin etrafında hareket ettirin ve fare düğmesini basılı tutun. Kaleminle çizebilir misin?
++ Kodunuzu tekrar test edin. Bu kez, kalemi çizim ekranında hareket ettirirken fare düğmesini basılı tutun. Kalemin çalışıyor mu?
 
 ![ekran görüntüsü](images/paint-draw.png)
 
-## \--- çöküş \---
+## \--- collapse \---
 
-## başlık: Sorun yaşıyorsanız ...
+## title: Sorun yaşıyorsanız...
 
-Kaleminiz çizginin ucundan ziyade kalemin ortasından çiziyor gibi görünüyorsa, kostüm merkezinizi değiştirmeniz gerekecektir.
+Kaleminiz çizginin ucundan ziyade kalemin ortasından çiziyor gibi görünüyorsa, kılık merkezinizi değiştirmeniz gerekecektir.
 
 ![Kostüm merkezi](images/costume-center.png)
 
