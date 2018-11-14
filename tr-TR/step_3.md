@@ -37,7 +37,7 @@ Kaleminiz çizginin ucundan ziyade kalemin ortasından çiziyor gibi görünüyo
 
 ![Kostüm merkezi](images/costume-center.png)
 
-Kalem Artı yerleştirilmelidir **hemen altında** değil kalem ucu üzerine, kalem ucu.
+Artı işareti, kalem ucunun **hemen altında** olmalıdır. Kalemin ucunda değil.
 
 Bir sprite'ın "kostüm merkezi" ndeki değişiklikler, başka bir sekme tıklanıncaya kadar kayıtlı değil, bu nedenle kostüm merkezinde değişikliklerinizi sonuçlandırmak için başka bir kostüm veya "Scripts" sekmesinde tıklayın.
 
