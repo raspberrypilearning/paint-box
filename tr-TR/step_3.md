@@ -25,7 +25,7 @@ end
 
 ![ekran görüntüsü](images/paint-pencil-draw-code.png)
 
-+ Kodunuzu tekrar test edin. Bu kez, kalemi çizim ekranında hareket ettirirken fare düğmesini basılı tutun. Kalemin çalışıyor mu?
++ Kodunuzu tekrar test edin. Bu kez, kalemi çizim ekranında hareket ettirirken fare düğmesini basılı tutun. Kaleminle çizim yapabiliyor musun?
 
 ![ekran görüntüsü](images/paint-draw.png)
 
