@@ -35,10 +35,10 @@ end
 
 Kaleminiz çizginin ucundan ziyade kalemin ortasından çiziyor gibi görünüyorsa, kılık merkezinizi değiştirmeniz gerekecektir.
 
-![Kostüm merkezi](images/costume-center.png)
+![Kukla merkezi](images/costume-center.png)
 
 Artı işareti, kalem ucunun **hemen altında** olmalıdır. Kalemin ucunda değil.
 
-Bir sprite'ın "kostüm merkezi" ndeki değişiklikler, başka bir sekme tıklanıncaya kadar kayıtlı değil, bu nedenle kostüm merkezinde değişikliklerinizi sonuçlandırmak için başka bir kostüm veya "Scripts" sekmesinde tıklayın.
+Bir kukla'ın 'kılık merkezi' ndeki değişiklikler, başka bir sekme tıklanıncaya kadar kayıt edilmez, bu nedenle başka bir kılığa veya 'Diziler' sekmesinde tıklayarak kılık merkezindeki değişikliklerinizi kaydedin.
 
-\--- /çöküş \---
+\--- /collapse \---
