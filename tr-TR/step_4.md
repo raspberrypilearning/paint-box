@@ -2,17 +2,17 @@
 
 Projenize farklı renkli kalemler ekleyelim ve kullanıcının aralarında seçim yapmasına izin verelim.
 
-+ Kalem hareketli grafiğinizi tıklayın, 'Kostümler'i tıklayın ve' kalem-mavisi 'kostümünüzü kopyalayın.
++ Kalem kukla'nıza tıklayın, 'Kılık'ı tıklayın ve 'kalem-mavi' kostümünüzü kopyalayın.
 
 ![ekran görüntüsü](images/paint-blue-duplicate.png)
 
-+ Yeni kostümünüzü 'kurşun kalem-yeşil' olarak adlandırın ve yeşil kalemle renklendirin.
++ Yeni kılığınızı 'kalem-yeşil' olarak adlandırın ve yeşil kalemle renklendirin.
 
 ![ekran görüntüsü](images/paint-pencil-green.png)
 
 [[[generic-scratch-rename-sprite]]]
 
-+ İki yeni sprite çizin - bir mavi kare ve bir yeşil kare. Mavi veya yeşil kalem seçmek için bunları kullanacaksınız.
++ İki yeni kukla çizin - bir mavi kare ve bir yeşil kare. Mavi veya yeşil kalem seçmek için bunları kullanacaksınız.
 
 ![ekran görüntüsü](images/paint-selectors.png)
 
