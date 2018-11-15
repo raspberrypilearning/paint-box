@@ -16,7 +16,7 @@ Projenize farklı renkli kalemler ekleyelim ve kullanıcının aralarında seçi
 
 ![ekran görüntüsü](images/paint-selectors.png)
 
-+ Sprite'larınızı 'mavi' ve 'yeşil' olarak adlandırılacak şekilde yeniden adlandırın.
++ Kuklalarınızın isimlerini değiştirin. Bu sayede 'mavi' ve 'yeşil' olarak seçebiliriz.
 
 + 'Yeşil' sprite bazı kodu ekleyin böylece tıklandığında, bu olacak `yayını`{: class = "blockevents"} bunu söylüyorum kalem sprite mesaj "yeşil", onun kılık ve kalem rengini değiştirmek için.
 
