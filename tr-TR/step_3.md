@@ -1,6 +1,6 @@
 ## Bir kalem yapmak
 
-Haydi ekranda çizim yapmak için kullanılabilecek bir kalem yaparak başlayalım.
+Sahnede çizim yapmak için kullanılabilecek bir kalem yaparak başlayalım.
 
 + 'Paintbox' Scratch projesini çevrimiçi olarak [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} adresinden açın veya <http://jumpto.cc/paint-get>{: target = "_ blank"} adresinden indirerek, çevrimdışı düzenleyiciyi ile açın.
 
