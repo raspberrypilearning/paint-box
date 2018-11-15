@@ -1,6 +1,6 @@
 ## Renkli kalemler
 
-Projenize farklı renkli kalemler ekleyelim ve kullanıcının aralarında seçim yapmasına izin verin.
+Projenize farklı renkli kalemler ekleyelim ve kullanıcının aralarında seçim yapmasına izin verelim.
 
 + Kalem hareketli grafiğinizi tıklayın, 'Kostümler'i tıklayın ve' kalem-mavisi 'kostümünüzü kopyalayın.
 
