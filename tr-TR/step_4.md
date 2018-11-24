@@ -18,13 +18,13 @@ Projenize farklı renkli kalemler ekleyelim ve kullanıcının aralarında seçi
 
 + Kuklalarınızın isimlerini değiştirin. Bu sayede 'mavi' ve 'yeşil' olarak seçebiliriz.
 
-+ 'Yeşil' sprite bazı kodu ekleyin böylece tıklandığında, bu olacak `yayını`{: class = "blockevents"} bunu söylüyorum kalem sprite mesaj "yeşil", onun kılık ve kalem rengini değiştirmek için.
++ 'yeşil' kuklasına bazı kodlar ekleyelim. Böylece tıklandığında, kalem kuklasının kılığını ve kalem rengini değiştirmesi anlamına gelen "yeşil" mesajını `yayınlasın`{:class="blockevents"}.
 
 ![Yeşil yayın](images/paint-broadcast-green.png)
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Kurşun kaleminize geçin. Bu kod yazımı `yayın`{: class = "blockevents"} yeşili aldığında, yeşil kalem kılığına geçmeli ve kalem rengini yeşile çevirmelidir.
++ Kalem kuklanıza geçin. Bu kod yazımı `yayın`{: class = "blockevents"} yeşili aldığında, yeşil kalem kılığına geçmeli ve kalem rengini yeşile çevirmelidir.
 
 ![Yeşil yayın](images/broadcast-green.png)
 
