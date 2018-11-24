@@ -24,7 +24,7 @@ Projenize farklı renkli kalemler ekleyelim ve kullanıcının aralarında seçi
 
 [[[generic-scratch-broadcast-message]]]
 
-+ Kalem kuklanıza geçin. Bu kod yazımı `yayın`{: class = "blockevents"} yeşili aldığında, yeşil kalem kılığına geçmeli ve kalem rengini yeşile çevirmelidir.
++ Kalem kuklanıza geçin. Bazı kodlar ekleyelim. Böylece `yayınlanan`{:class="blockevents"} yeşil mesajını alan kukla, yeşil kalem kılığına geçsin ve kalemin rengini yeşil yapsın.
 
 ![Yeşil yayın](images/broadcast-green.png)
 
