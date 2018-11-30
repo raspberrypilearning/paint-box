@@ -1,9 +1,65 @@
-## What you will need
+## Making a pencil
 
-### Hardware
+Let's start by making a pencil that can be used to draw on the stage.
 
-+ Computer capable of running Scratch 2.0
+--- task ---
+Open the 'Paintbox' Scratch project online at [rpf.io/painbt-box-on](http://rpf.io/paint-box-on){:target="_blank"} or download from [http://jumpto.cc/paint-get](http://jumpto.cc/paint-get){:target="_blank"} and then open it if you are using the offline editor.
 
-### Software
+You will see pencil and eraser sprites:
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
+![screenshot](images/paint-starter.png)
+--- /task ---
+
+--- task ---
+Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
+
+![pencil](images/pencil.png)
+```blocks
+when flag clicked
+forever
+  go to [mouse pointer v]
+end
+```
+
+--- /task ---
+
+--- task ---
+Click the flag and then move the mouse around the stage to test whether the code works.
+--- /task ---
+
+Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+
+--- task ---
+Add this code to your pencil sprite:
+
+```blocks
+when flag clicked
+forever
+  go to [mouse pointer v]
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
+```
+--- /task ---
+
+--- task ---
+Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+--- /task ---p
+
+--- collapse ---
+---
+title: If you're having problems...
+---
+If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+
+![Costume center](images/costume-center.png)
+
+The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+
+A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+
+--- /collapse ---

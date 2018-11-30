@@ -1,12 +1,10 @@
 --- challenge ---
-## Challenge: shortcuts
-Can you create keyboard shortcuts for your commands? For example:
+## Challenge: more pencils
+Can you add red, yellow and black pencils to your paint program? Take a look at step 2 above if you've forgotten how to do this. Remember to add keyboard shortcuts for these new pencils too.
 
-+ b = Switch to blue pen
-+ g = switch to green pen
-+ e = switch to eraser
-+ c = clear screen
+Can you use your pencils to draw a picture?
 
-You could even allow the user to change the pen width with the arrow keys.
+![screenshot](images/paint-final.png)
+
 
 --- /challenge ---
