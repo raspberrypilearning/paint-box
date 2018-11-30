@@ -94,6 +94,6 @@ We chose to start with blue but if you prefer, you can start with a different co
 --- task ---
 Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
 
-![screenshot](images/paint-pens-test.png)
+![screenshot](images/paint-pens-test.png)xs
 --- /task ---
 
