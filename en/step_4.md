@@ -88,6 +88,7 @@ There's one more problem with the pencil - you can draw anywhere on the stage, i
 --- task ---
 To fix this, change the code so that the pencil only draws if the mouse is clicked _and_ if the y-position of the mouse is greater than -120:
 
+![pencil](images/pencil.png)
 ```blocks
 when flag clicked
 clear

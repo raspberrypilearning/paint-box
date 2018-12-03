@@ -11,4 +11,6 @@ steps:
 - title: Making mistakes
 - title: Changing the pencil width
 - title: 'Challenge: shortcuts'
+  challenge: true
 - title: 'Challenge: more pencils'
+  challenge: true
