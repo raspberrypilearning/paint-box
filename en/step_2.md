@@ -48,7 +48,7 @@ end
 Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
---- /task ---p
+--- /task ---
 
 --- collapse ---
 ---
