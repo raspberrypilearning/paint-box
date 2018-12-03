@@ -46,7 +46,7 @@ Switch to your pencil sprite. Add some code so that when this sprite receives th
 ```blocks
 when I receive [green v]
 switch costume to [pencil-green v]
-set pen color to [#00CC44]p
+set pen color to [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.

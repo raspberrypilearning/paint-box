@@ -3,7 +3,7 @@
 Let's start by making a pencil that can be used to draw on the stage.
 
 --- task ---
-Open the 'Paintbox' Scratch project online at [rpf.io/painbt-box-on](http://rpf.io/paint-box-on){:target="_blank"} or download from [http://jumpto.cc/paint-get](http://jumpto.cc/paint-get){:target="_blank"} and then open it if you are using the offline editor.
+Open the 'Paintbox' Scratch project online at [rpf.io/painbt-box-on](http://rpf.io/paint-box-on){:target="_blank"} or download from [Offline starter project](http://rpf.io/p/paint-box-go){:target="_blank"} and then open it if you are using the offline editor.
 
 You will see pencil and eraser sprites:
 

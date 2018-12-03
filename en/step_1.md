@@ -41,7 +41,7 @@ title: What you will need
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Offline starter project](httfp://rpf.io/p/paint-box-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
