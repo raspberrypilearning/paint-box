@@ -19,7 +19,7 @@ set pen color to [#0035FF]
 forever
 go to [mouse pointer v]
 +set pen size to (width)
-if <<mouse down?> and <(mouse y) > [120]>> then 
+if <<mouse down?> and <(mouse y) > [-120]>> then 
   pen down
   else
   pen up
