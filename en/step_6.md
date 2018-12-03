@@ -3,7 +3,7 @@
 Let's allow the user to draw using a range of different pencil sizes.
 
 --- task ---
-First, add a new variable called `width`{:class="blockvariable"}.
+First, add a new variable called `width`{:class="blockdata"}.
 
 [[[generic-scratch-add-variable]]]
 --- /task ---
