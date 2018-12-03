@@ -1,4 +1,3 @@
---- challenge ---
 ## Challenge: shortcuts
 Can you create keyboard shortcuts for your commands? For example:
 
@@ -9,4 +8,3 @@ Can you create keyboard shortcuts for your commands? For example:
 
 You could even allow the user to change the pen width with the arrow keys.
 
---- /challenge ---
