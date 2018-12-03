@@ -3,7 +3,7 @@
 Let's start by making a pencil that can be used to draw on the stage.
 
 --- task ---
-Open a new Scratch project.
+Open the Scratch starter project.
 
 **Online**: open a new online Scratch project at [rpf.io/painbt-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
