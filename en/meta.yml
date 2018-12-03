@@ -9,8 +9,9 @@ steps:
 - title: Making a pencil
 - title: Coloured pencils
 - title: Making mistakes
-- title: Changing the pencil width
 - title: 'Challenge: shortcuts'
   challenge: true
+- title: Changing the pencil width
 - title: 'Challenge: more pencils'
   challenge: true
+- title: 'What next?'
