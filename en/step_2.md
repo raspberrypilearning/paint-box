@@ -5,11 +5,11 @@ Let's start by making a pencil that can be used to draw on the stage.
 --- task ---
 Open the Scratch starter project.
 
-**Online**: open a new online Scratch project at [rpf.io/painbt-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: open a new online Scratch project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: open [Offline starter project](http://rpf.io/p/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: open [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](rpf.io/scratchoff)
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff)
 
 You will see pencil and eraser sprites:
 

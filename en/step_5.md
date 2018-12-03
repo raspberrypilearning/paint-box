@@ -3,7 +3,7 @@
 Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
 
 --- task ---
-Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
+Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red and make it a little smaller. This will become the 'clear' button.
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -75,7 +75,7 @@ set pen color to [#FFFFFF]
 --- /task ---
 
 --- task ---
-Test your project, to see if you can clear and erase on the stage.
+Test your project, to see if you can clear and erase on the stage. The eraser line will be a little thin at the moment, but this will be fixed in the next step.
 
 ![screenshot](images/paint-erase-test.png)
 --- /task ---

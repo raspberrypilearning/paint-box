@@ -13,7 +13,6 @@ Rename your new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
-[[[generic-scratch-rename-sprite]]]
 --- /task ---
 
 --- task ---
@@ -24,6 +23,9 @@ Draw two new sprites - one blue square and one green square. You will use these 
 
 --- task ---
 Rename your sprites so that they are called 'blue' and 'green'
+
+[[[generic-scratch-rename-sprite]]]
+
 --- /task ---
 
 --- task ---
@@ -92,7 +94,7 @@ end
 We chose to start with blue but if you prefer, you can start with a different colour pencil.
 
 --- task ---
-Test out your project. Can you switch between blue and green pens by clicking on the blue or green square sprites?
+Test out your project. Can you switch between blue and green pencils by clicking on the blue or green square sprites?
 
 ![screenshot](images/paint-pens-test.png)
 --- /task ---
