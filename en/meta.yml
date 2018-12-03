@@ -6,7 +6,6 @@ version: 4.0.0
 last_tested: 2018-11-30
 steps: 
 - title: Introduction
-- title: What you will need
 - title: Making a pencil
 - title: Coloured pencils
 - title: Making mistakes
