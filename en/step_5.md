@@ -18,7 +18,6 @@ Add code to this sprite to clear the stage when it's clicked.
 when this sprite clicked
 clear
 ```
-![Clear stage](images/clear-stage.png)
 --- /task ---
 
 Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
@@ -76,7 +75,7 @@ set pen color to [#FFFFFF]
 --- /task ---
 
 --- task ---
-+ Test your project, to see if you can clear and erase on the stage.
+Test your project, to see if you can clear and erase on the stage.
 
 ![screenshot](images/paint-erase-test.png)
 --- /task ---

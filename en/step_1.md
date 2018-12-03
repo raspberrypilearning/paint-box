@@ -23,7 +23,6 @@ You will be able to click on the green flag to start, and use the mouse to move 
 ---
 title: What you will learn
 ---
-
 - 
 - 
 - 
