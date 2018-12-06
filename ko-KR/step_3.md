@@ -29,7 +29,7 @@ end
 
 ![screenshot](images/paint-draw.png)
 
-## \--- collapse \---
+## \--- 붕괴 \---
 
 ## title: 만약 문제가 생겼다면...
 
