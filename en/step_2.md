@@ -1,23 +1,24 @@
-## Making a pencil
+## Make a pencil
 
-Let's start by making a pencil that can be used to draw on the stage.
+Start by making a pencil that you can use to draw on the Stage.
 
 --- task ---
-Open the Scratch starter project.
+Open the 'Paint box' Scratch starter project.
 
-**Online**: open a new online Scratch project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: open [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff)
 
-You will see pencil and eraser sprites:
+In the starter project, you should see pencil and eraser sprites:
 
 ![screenshot](images/paint-starter.png)
 --- /task ---
 
 --- task ---
-Add some code to the pencil sprite to make it follow the mouse `forever`{:class="blockcontrol"} so that you can draw:
+
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="blockcontrol"} so that you can draw:
 
 ![pencil](images/pencil.png)
 ```blocks
@@ -30,10 +31,10 @@ end
 --- /task ---
 
 --- task ---
-Click the flag and then move the mouse around the stage to test whether the code works.
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 --- /task ---
 
-Next, let's make your pencil only draw `if`{:class="blockcontrol"} the mouse has been clicked.
+Next, make your pencil only draw `if`{:class="blockcontrol"} the mouse button is being clicked.
 
 --- task ---
 Add this code to your pencil sprite:
@@ -51,21 +52,23 @@ end
 --- /task ---
 
 --- task ---
-Test your code again. This time, move the pencil around the stage and hold down the mouse button. Can you draw with your pencil?
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
 --- /task ---
 
 --- collapse ---
 ---
-title: If you're having problems...
+title: Does your pencil not draw from its tip?
 ---
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's costume centre.
 
 ![Costume center](images/costume-center.png)
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+The crosshair for the pencil costume needs to be **just below** the tip of the pencil, not directly on the tip of the pencil.
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+After moving the crosshair to change the costume's centre, click on another costume or on the Scripts tab. Doing this tells Scratch that your changes to the costume centre are complete.
+
+Now move the pencil around in the Stage and draw with it. It should now draw a line from its tip.
 
 --- /collapse ---
