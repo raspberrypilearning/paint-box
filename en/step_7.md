@@ -4,6 +4,6 @@ Can you add code so that, instead of clicking on the coloured squares or buttons
 + <kbd>b</kbd> = Switch to blue pencil
 + <kbd>g</kbd> = switch to green pencil
 + <kbd>e</kbd> = switch to eraser
-+ c<kbd>b</kbd> = clear screen
++ <kbd>c</kbd> = clear screen
 
 If you want to, you can also add code so that pressing the arrow keys changes the pen width.
