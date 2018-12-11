@@ -1,17 +1,17 @@
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Learn how to make your own paint program.
+description: Make your own paint program
 version: 4.0.0
 last_tested: 2018-11-30
 steps: 
 - title: Introduction
-- title: Making a pencil
+- title: Make a pencil
 - title: Coloured pencils
 - title: 'Challenge: shortcuts'
   challenge: true
-- title: Making mistakes
-- title: Changing the pencil width
+- title: Undo mistakes
+- title: Change the pencil width
 - title: 'Challenge: more pencils'
   challenge: true
 - title: 'What next?'
