@@ -1,35 +1,35 @@
 ## Coloured pencils
 
-Let's add different coloured pencils to your project, and allow the user to choose between them.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 --- task ---
-Click on your pencil sprite, click 'Costumes' and duplicate your 'pencil-blue' costume.
+Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
 ![screenshot](images/paint-blue-duplicate.png)
 --- /task ---
 
 --- task ---
-Rename your new costume 'pencil-green', and colour the pencil green.
+Name the new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
 --- /task ---
 
 --- task ---
-Draw two new sprites - one blue square and one green square. You will use these to select the blue or green pencil.
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
 ![screenshot](images/paint-selectors.png)
 --- /task ---
 
 --- task ---
-Rename your sprites so that they are called 'blue' and 'green'
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch-rename-sprite]]]
 
 --- /task ---
 
 --- task ---
-Add some code to the 'green' sprite so that when it is clicked, it will `broadcast`{:class="blockevents"} the message "green" to the pencil sprite, telling it to change its costume and pencil colour.
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="blockevents"} the message "green".
 
 ![green square](images/green_square.png)
 ```blocks
@@ -40,8 +40,10 @@ broadcast [green v]
 [[[generic-scratch-broadcast-message]]]
 --- /task ---
 
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+
 --- task ---
-Switch to your pencil sprite. Add some code so that when this sprite receives the `broadcast`{:class="blockevents"} green, it should switch to the green pencil costume and change the pen colour to green.
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="blockevents"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
 ![pencil](images/pencil.png)
 
@@ -51,11 +53,13 @@ switch costume to [pencil-green v]
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured box in the `set pen color`{:class="blockpen"} block, and click on the green sprite to choose the same colour green as your pencil colour.
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="blockpen"} block, and then click on the green square sprite.
 --- /task ---
 
+Then to a similar thing so that you can switch the pencil colour to blue.
+
 --- task ---
-You can now do the same for the blue pencil icon: add this code to the blue square sprite:
+Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 ```blocks
@@ -63,7 +67,7 @@ when this sprite clicked
 broadcast [blue v]
 ```
 
-...and add this code to the pencil sprite:
+Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
 ```blocks
 when I receive [blue v]
@@ -73,7 +77,7 @@ set pen color to [#0000ff]
 --- /task --- 
 
 --- task ---
-Finally, add this code to tell the pencil sprite which colour to start with, and make sure that the screen is clear.
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your prom starts.
 
 ![pencil](images/pencil.png)
 ```blocks
@@ -91,10 +95,10 @@ end
 ```
 --- /task ---
 
-We chose to start with blue but if you prefer, you can start with a different colour pencil.
+If you prefer, you can start with a different colour pencil.
 
 --- task ---
-Test out your project. Can you switch between blue and green pencils by clicking on the blue or green square sprites?
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
 ![screenshot](images/paint-pens-test.png)
 --- /task ---
