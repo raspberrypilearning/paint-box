@@ -77,12 +77,12 @@ set pen color to [#0000ff]
 --- /task --- 
 
 --- task ---
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your prom starts.
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
 ![pencil](images/pencil.png)
 ```blocks3
 when flag clicked
-+clear
++erase all
 +switch costume to [pencil-blue v]
 +set pen color to [#0035FF]
 forever

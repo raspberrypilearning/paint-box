@@ -13,7 +13,7 @@ Add this line __inside__ the `forever`{:class="block3control"} loop of the penci
 
 ```blocks3
 when flag clicked
-clear
+erase all
 switch costume to [pencil-blue v]
 set pen color to [#0035FF]
 forever

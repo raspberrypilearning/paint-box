@@ -16,11 +16,11 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 ```blocks3
 when this sprite clicked
-clear
+erase all
 ```
 --- /task ---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `clear`{:class="block3extensions"} block does that job.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
 Do you see that the pencil sprite includes an eraser costume?
 
@@ -67,6 +67,7 @@ switch costume to [eraser v]
 --- /hint ---
 --- hint ---
 Here is what the code should look like:
+![pencil](images/pencil.png)
 ```blocks3
 when I receive [eraser v]
 switch costume to [eraser v]
@@ -92,12 +93,12 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 ```blocks3
 when flag clicked
-clear
+erase all
 switch costume to [pencil-blue v]
 set pen color to [#0035FF]
 forever
   go to [mouse pointer v]
-+if <<mouse down?> and <(mouse y) > [120]>> then 
++if <<mouse down?> and <(mouse y) > [-120]>> then 
   pen down
   else
   pen up

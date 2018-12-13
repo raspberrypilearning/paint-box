@@ -39,6 +39,7 @@ Next, make your pencil only draw `if`{:class="block3control"} the mouse button i
 --- task ---
 Add this code to your pencil sprite:
 
+![pencil](images/pencil.png)
 ```blocks3
 when flag clicked
 forever
