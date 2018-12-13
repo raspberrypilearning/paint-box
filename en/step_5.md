@@ -5,7 +5,7 @@ Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 --- task ---
 Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-[[[generic-scratch-sprite-from-library]]]
+[[[generic-scratch3-sprite-from-library]]]
 
 ![screenshot](images/paint-x.png)
 --- /task ---
@@ -14,13 +14,13 @@ Add the 'X-block' sprite from the library's letters section. Colour the sprite's
 Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
 ![cross](images/cross.png)
-```blocks
+```blocks3
 when this sprite clicked
 clear
 ```
 --- /task ---
 
-You don't need to use a `broadcast`{:class="blockevents"} to clear the Stage, because the `clear`{:class="blockpen"} block does that job.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `clear`{:class="block3extensions"} block does that job.
 
 Do you see that the pencil sprite includes an eraser costume?
 
@@ -35,10 +35,10 @@ Right-click on this eraser sprite and then click on **show**. Here is how your S
 --- /task ---
 
 --- task ---
-Add code to the eraser sprite to send an `'eraser' broadcast`{:class="blockevents"} when the eraser sprite is clicked.
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
 ![eraser](images/eraser.png)
-```blocks
+```blocks3
 when this sprite clicked
 broadcast [eraser v]
 ```
@@ -52,13 +52,13 @@ Add some code to create the eraser.
 --- hints ---
 --- hint ---
 Add some code to the pencil sprite:
-`When I receive`{:class="blockevents"} the `eraser`{:class="blockevents"} message
-`Switch to costume eraser`{:class="blocklooks"} 
-`Set pen color`{:class="blockpen"} to white
+`When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message
+`Switch to costume eraser`{:class="block3looks"} 
+`Set pen color`{:class="block3extensions"} to white
 --- /hint ---
 --- hint ---
 Here are all the blocks you need:
-```blocks
+```blocks3
 set pen color to [#FFFFFF]
 when I receive [eraser v]
 
@@ -67,7 +67,7 @@ switch costume to [eraser v]
 --- /hint ---
 --- hint ---
 Here is what the code should look like:
-```blocks
+```blocks3
 when I receive [eraser v]
 switch costume to [eraser v]
 set pen color to [#FFFFFF]
@@ -90,7 +90,7 @@ There's one more problem with the pencil: you can draw anywhere on the Stage, in
 To fix this, change the code so that the pen is only down if the mouse is clicked __and__ the `y` position of the mouse pointer is greater than `-120`:
 
 ![pencil](images/pencil.png)
-```blocks
+```blocks3
 when flag clicked
 clear
 switch costume to [pencil-blue v]

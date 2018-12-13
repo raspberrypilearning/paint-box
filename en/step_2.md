@@ -18,10 +18,10 @@ In the starter project, you should see pencil and eraser sprites:
 
 --- task ---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="blockcontrol"} so that you can draw:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
 ![pencil](images/pencil.png)
-```blocks
+```blocks3
 when flag clicked
 forever
   go to [mouse pointer v]
@@ -34,12 +34,12 @@ end
 Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 --- /task ---
 
-Next, make your pencil only draw `if`{:class="blockcontrol"} the mouse button is being clicked.
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
 --- task ---
 Add this code to your pencil sprite:
 
-```blocks
+```blocks3
 when flag clicked
 forever
   go to [mouse pointer v]

@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 Make your own paint program!
@@ -34,10 +40,10 @@ title: What you will need
 ---
 
 ### Hardware
-- A computer capable of running Scratch 2.0
+- A computer capable of running Scratch 3
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}

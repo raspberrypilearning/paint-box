@@ -24,36 +24,36 @@ Draw two new sprites: one blue square and one green square. These are for choosi
 --- task ---
 Rename the new sprites so that they are called 'blue' and 'green'
 
-[[[generic-scratch-rename-sprite]]]
+[[[generic-scratch3-rename-sprite]]]
 
 --- /task ---
 
 --- task ---
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="blockevents"} the message "green".
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
 ![green square](images/green_square.png)
-```blocks
+```blocks3
 when this sprite clicked
 broadcast [green v]
 ```
 
-[[[generic-scratch-broadcast-message]]]
+[[[generic-scratch3-broadcast-message]]]
 --- /task ---
 
 The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
 --- task ---
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="blockevents"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
 ![pencil](images/pencil.png)
 
-```blocks
+```blocks3
 when I receive [green v]
 switch costume to [pencil-green v]
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="blockpen"} block, and then click on the green square sprite.
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 --- /task ---
 
 Then to a similar thing so that you can switch the pencil colour to blue.
@@ -62,14 +62,14 @@ Then to a similar thing so that you can switch the pencil colour to blue.
 Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
-```blocks
+```blocks3
 when this sprite clicked
 broadcast [blue v]
 ```
 
 Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
-```blocks
+```blocks3
 when I receive [blue v]
 switch costume to [pencil-blue v]
 set pen color to [#0000ff]
@@ -80,7 +80,7 @@ set pen color to [#0000ff]
 Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your prom starts.
 
 ![pencil](images/pencil.png)
-```blocks
+```blocks3
 when flag clicked
 +clear
 +switch costume to [pencil-blue v]
