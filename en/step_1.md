@@ -29,7 +29,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 ---
 title: What you will learn
 ---
-- How to use the Pen tool in Scratch 2
+- How to use the Pen extension in Scratch
 - How to use broadcasts to communicate between sprites
 - How to detect mouse events
 --- /collapse ---

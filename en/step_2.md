@@ -67,7 +67,7 @@ Click on the pencil sprite, and then click on the **Costumes** tab.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Costume center](images/costume-center.png)
+![Costume center](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 

@@ -44,5 +44,3 @@ Test your project and see if you can add code to adjust the pen width.
 
 ![screenshot](images/paint-width-test.png)
 --- /task ---
-
-Keep testing your `width`{:class="block3variables"} variable until you're happy with how much you can adjust the pen width.
