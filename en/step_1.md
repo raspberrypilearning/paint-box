@@ -40,7 +40,7 @@ title: What you will need
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Offline starter project](http://rpf.io/p/paint-box-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -51,6 +51,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/paint-box-get){:target="_blank"}.
+You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
 --- /collapse ---
 
