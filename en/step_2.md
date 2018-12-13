@@ -61,15 +61,13 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 ---
 title: Does your pencil not draw from its tip?
 ---
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's costume centre.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is in the centre.
 
 Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Use the crosshair tool and move the costume's centre to be **just below** the tip of the pencil, not directly on the tip of the pencil.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
 ![Costume center](images/costume-center.png)
-
-After moving the crosshair to change the costume's centre, click on another costume or on the Scripts tab. Doing this tells Scratch that your changes to the costume's centre are complete.
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 

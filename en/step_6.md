@@ -45,8 +45,4 @@ Test your project and see if you can add code to adjust the pen width.
 ![screenshot](images/paint-width-test.png)
 --- /task ---
 
-If you prefer, you can set a minimum and maximum value of `width`{:class="block3variables"}. To do this, right-click on the variable again and click on **set slider min and max**. Set the minimum and maximum values to something around 1 and 20.
-
-![screenshot](images/paint-slider-max.png)
-
 Keep testing your `width`{:class="block3variables"} variable until you're happy with how much you can adjust the pen width.
