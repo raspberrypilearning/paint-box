@@ -62,7 +62,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 ---
 title: Does your pencil not draw from its tip?
 ---
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is in the centre.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
 Click on the pencil sprite, and then click on the **Costumes** tab.
 
