@@ -24,7 +24,7 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ```blocks3
 when flag clicked
 forever
-  go to [mouse pointer v]
+  go to (mouse pointer v)
 end
 ```
 
@@ -43,7 +43,7 @@ Add this code to your pencil sprite:
 ```blocks3
 when flag clicked
 forever
-  go to [mouse pointer v]
+  go to (mouse pointer v)
 + if <mouse down?> then
   pen down
   else

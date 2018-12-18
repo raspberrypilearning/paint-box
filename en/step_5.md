@@ -62,7 +62,7 @@ Here are all the blocks you need:
 set pen color to [#FFFFFF]
 when I receive [eraser v]
 
-switch costume to [eraser v]
+switch costume to (eraser v)
 ```
 --- /hint ---
 --- hint ---
@@ -70,7 +70,7 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 ```blocks3
 when I receive [eraser v]
-switch costume to [eraser v]
+switch costume to (eraser v)
 set pen color to [#FFFFFF]
 ```
 --- /hint ---
@@ -94,10 +94,10 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ```blocks3
 when flag clicked
 erase all
-switch costume to [pencil-blue v]
+switch costume to (pencil-blue v)
 set pen color to [#0035FF]
 forever
-  go to [mouse pointer v]
+  go to (mouse pointer v)
 +if <<mouse down?> and <(mouse y) > [-120]>> then 
   pen down
   else
