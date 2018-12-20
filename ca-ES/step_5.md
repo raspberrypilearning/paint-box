@@ -1,42 +1,42 @@
 ## Cometre errors
 
-De vegades es produeixen errors, així que afegim un botó "clar" i una goma d'esborrar.
+De vegades es produeixen errors, així que afegirem un botó "esborrar tot" i una goma d'esborrar.
 
-+ Afegiu el sprite 'X-block': la trobaràs a la biblioteca, a la secció de lletres. Coloreu el vestit en vermell. Això es convertirà en el botó "clar".
++ Afegeix l'sprite 'X-block': el trobaràs a la biblioteca, a la secció de lletres. Pinta el vestit de vermell. Això es convertirà en el botó "esborrar tot".
 
 ![captura de pantalla](images/paint-x.png)
 
-+ Afegiu codi a aquest sprite per esborrar l'etapa quan es fa clic.
++ Afegeix codi a aquest sprite per esborrar l'etapa quan es fa clic.
 
-![Esborra clara](images/clear-stage.png)
+![Esborra pantalla](images/clear-stage.png)
 
-Tingueu en compte que no necessiteu enviar un missatge per esborrar l'escenari, només podeu utilitzar el bloc clar d'aquest sprite.
+Tingues en compte que no necessites enviar un missatge per esborrar l'escenari, simplement pots utilitzar el botó "esborrar tot" d'aquest sprite.
 
-Probablement hàgiu notat que el vostre sprite de llapis inclou un vestit d'esborrany:
+Probablement hagis notat que el teu sprite de llapis inclou un vestit de goma d'esborrar:
 
 ![captura de pantalla](images/paint-eraser-costume.png)
 
-+ El vostre projecte també inclou un sprite d'esborrany separat. Feu clic dret sobre aquest sprite i seleccioneu "mostrar". Així és com s'hauria de veure la vostra etapa:
++ El teu projecte també inclou un sprite de goma d'esborrar. Fes clic amb el botó dret sobre aquest sprite i selecciona "mostrar". Així és com s'hauria de veure el teu escenari:
 
 ![captura de pantalla](images/paint-eraser-stage.png)
 
-+ Afegiu codi al sprite d'esborrany, per indicar-li al llapis que canviï a un esborrany quan es faci clic al sprite.
++ Afegeix codi a l'sprite d'esborrar per indicar-li al llapis que canviï a una goma d'esborrar quan es faci clic a l'sprite.
 
 ![Goma d'emissió de difusió](images/broadcast-eraser.png)
 
-Quan el llapis rep el missatge "goma", podeu canviar el llapis a la goma d'esborrar i canviar el color del llapis a blanc, el mateix color que l'escenari.
+Quan el llapis rep el missatge "goma d'esborrar", podeu canviar el llapis a la goma d'esborrar i canviar el color del llapis a blanc, el mateix color que l'escenari!
 
-+ Afegiu un codi per crear l'esborrany
++ Afegeix codi per crear la goma d'esborrar
 
-\--- consells \--- \--- suggeriment \--- Afegeix un codi al llapis sprite: **Quan rebo** el **goma d'esborrar** missatge **Canvi al vestit** goma d'esborrar **Configura el color de la ploma de** a blanc \--- / indici \--- \--- indici \--- Així és com hauria de veure el codi dins del sprite de llapis:
+\--- hints \--- \--- hint \--- Afegeix codi l'sprite de llapis: **Quan rebo** el missatge de**goma d'esborrar** **Canviar al vestit** goma d'esborrar **Configura el color del llapis** a blanc \--- /hint \--- \--- hint \--- Així és com s'hauria de veure el codi dins l'sprite de llapis:
 
 ```blocks
 quan rebo [goma d'esborrar v]
 canvia el vestit a [goma d'esborrar v]
-estableix el color de la ploma a [#FFFFFF]
+estableix el color del llapis a [#FFFFFF]
 ```
 
-\--- / indici \--- \--- / indicacions \---
+\--- /hint \--- \--- /hints \---
 
 + Proveu el vostre projecte per veure si podeu esborrar i esborrar a l'escenari.
 
