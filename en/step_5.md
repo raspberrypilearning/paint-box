@@ -14,10 +14,7 @@ Add the 'X-block' sprite from the library's letters section. Colour the sprite's
 Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
 ![cross](images/cross.png)
-```blocks3
-when this sprite clicked
-erase all
-```
+![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png)
 --- /task ---
 
 You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
@@ -38,10 +35,7 @@ Right-click on this eraser sprite and then click on **show**. Here is how your S
 Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
 ![eraser](images/eraser.png)
-```blocks3
-when this sprite clicked
-broadcast [eraser v]
-```
+![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png)
 --- /task ---
 
 When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
@@ -58,21 +52,12 @@ Add some code to the pencil sprite:
 --- /hint ---
 --- hint ---
 Here are all the blocks you need:
-```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
-
-switch costume to (eraser v)
-```
+![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png)
 --- /hint ---
 --- hint ---
 Here is what the code should look like:
 ![pencil](images/pencil.png)
-```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
-```
+![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png)
 --- /hint ---
 --- /hints ---
 --- /task ---
@@ -91,19 +76,7 @@ There's one more problem with the pencil: you can draw anywhere on the Stage, in
 To fix this, change the code so that the pen is only down if the mouse is clicked __and__ the `y` position of the mouse pointer is greater than `-120`:
 
 ![pencil](images/pencil.png)
-```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
-```
+![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png)
 --- /task ---
 
 --- task ---
