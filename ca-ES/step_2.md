@@ -1,4 +1,4 @@
-## El que necessitaràs
+## Què necessitaràs
 
 ### Maquinari
 
