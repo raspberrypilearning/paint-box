@@ -10,17 +10,17 @@ title: Caixa de pintura
 description: Aprèn a fer el teu propi programa de pintura.
 original_url: https://codeclubprojects.org/ca-GB/scratch/paint-box
 interests: art
-technologies: rascar
+technologies: scratch
 site_areas: projectes
 hardware: ''
-software: rascar
+software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
     title: Introducció
   - 
-    title: El que necessitaràs
+    title: Què necessitaràs
   - 
     title: Fer un llapis
   - 
@@ -28,8 +28,8 @@ steps:
   - 
     title: Cometre errors
   - 
-    title: Canvi de l'amplada del llapis
+    title: Canviar l'amplada del llapis
   - 
-    title: 'Desafiament: accessos directes'
+    title: 'Repte: dreceres'
   - 
-    title: 'Desafiament: més llapis'
+    title: 'Repte: més llapis'
