@@ -38,18 +38,18 @@ estableix el color del llapis a [#FFFFFF]
 
 \--- /hint \--- \--- /hints \---
 
-+ Proveu el vostre projecte per veure si podeu esborrar i esborrar a l'escenari.
++ Prova el teu projecte per veure si pots netejar i esborrar a l'escenari.
 
 ![captura de pantalla](images/paint-erase-test.png)
 
-Hi ha un problema més amb el llapis: podeu dibuixar en qualsevol lloc de l'escenari, incloent-hi prop de les icones del selector.
+Hi ha un problema més amb el llapis: pots dibuixar en qualsevol lloc de l'escenari, també a prop de les icones del selector!
 
 ![captura de pantalla](images/paint-draw-problem.png)
 
-Per solucionar-ho, digueu-li només al llapis si es fa clic al ratolí *i* si la posició del mouse és superior a -120:
+Per solucionar-ho, digues al llapis que només dibuixi si es fa clic al ratolí *i* si la posició y del ratolí és superior a -120:
 
 ![captura de pantalla](images/pencil-gt-code.png)
 
-+ Prova el teu projecte; ara no hauríeu de poder acostar-vos als blocs del selector.
++ Prova el teu projecte; ara no hauríes de poder acostar-te als blocs del selector.
 
 ![captura de pantalla](images/paint-fixed.png)
