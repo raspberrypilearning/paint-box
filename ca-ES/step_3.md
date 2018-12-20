@@ -38,6 +38,6 @@ Si el teu llapis sembla dibuixar la línia des del centre del llapis en lloc de 
 
 El punt de mira del llapis s'ha de posar **just per sota** la punta del llapis, no a la punta del llapis.
 
-Els canvis en el "centre de vestimenta" d'un sprite no es registren fins que es fa clic a una altra pestanya, feu clic a un altre vestit o a la pestanya "Scripts" per finalitzar els canvis al centre de vestuari.
+Els canvis en el "centre de rotació" d'un sprite no es registren fins que es fa clic a una altra pestanya, llavors fes clic a un altre vestuari o a la pestanya "Scripts" per finalitzar els canvis al centre de vestuari.
 
-\--- / col · lapse \---
+\--- /collapse \---
