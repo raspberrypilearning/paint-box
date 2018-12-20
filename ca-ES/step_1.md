@@ -2,23 +2,23 @@
 
 Fes el teu propi programa de pintura!
 
-### El que faràs
+### Què faràs
 
-Feu clic a la bandera verda per començar. Utilitzeu el ratolí per moure el llapis i mantingueu premut el botó esquerre del ratolí per dibuixar. Feu clic en un color per canviar els llapis o feu clic al cautxú i utilitzeu-lo per esborrar el vostre treball. Per esborrar la pàgina, feu clic a la creu.
+Fes clic a la bandera verda per començar. Utilitza el ratolí per moure el llapis i mantingues apretat el botó esquerre del ratolí per dibuixar. Fes clic en un color per canviar els llapis o fes clic a la goma i utilitza-la per esborrar el teu treball. Per esborrar la pàgina, fes clic a la creu.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### El que aprendràs
+### Què aprendràs
 
-Aquest projecte abasta elements de les següents línies del [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){: target = "_ blank"}:
+Aquest projecte abasta elements de les següents línies del [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target = "_ blank"}:
 
-+ [Combineu les construccions de programació per resoldre un problema.](https://www.raspberrypi.org/curriculum/programming/builder)(: target = "_ blank")
++ [Combina les construccions de programació per resoldre un problema.](https://www.raspberrypi.org/curriculum/programming/builder)(: target = "_ blank")
 
 ### Informació addicional per als educadors
 
-Si necessita imprimir aquest projecte, si us plau utilitzeu el [per imprimir Versió](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
+Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Utilitzeu l'enllaç al peu de pàgina per accedir a la reposició GitHub d'aquest projecte, que conté tots els recursos (incloent un projecte acabat d'exemple) a la carpeta 'en / recursos'.
+Utilitza l'enllaç del peu de pàgina per accedir al repositori de GitHub per a aquest programa, el qual conté tots els recursos (incloent-hi un exemple d'un projecte complet) a la carpeta Recursos.
