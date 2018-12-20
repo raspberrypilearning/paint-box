@@ -16,27 +16,27 @@ Veuràs els sprites de llapis i de goma d'esborrar:
     final
 ```
 
-+ Feu clic a la bandera i, a continuació, moveu el ratolí a l'escenari per comprovar si funciona el codi.
++ Fes clic a la bandera i, a continuació, mou el ratolí per l'escenari per comprovar si funciona el codi.
 
-A continuació, fem que el llapis només dibuixi `si`{: class = "blockcontrol"} s'ha fet clic al mouse.
+A continuació, fem que el llapis només dibuixi `si`{: class = "blockcontrol"} s'ha fet clic al ratolí.
 
-+ Afegiu aquest codi al vostre sprite de llapis:
++ Afegeix aquest codi al teu sprite de llapis:
 
 ![captura de pantalla](images/paint-pencil-draw-code.png)
 
-+ Torneu a provar el codi. Aquesta vegada, moveu el llapis al voltant de l'escenari i manteniu premut el botó del ratolí. Es pot dibuixar amb el llapis?
++ Torna a provar el codi. Aquesta vegada, mou el llapis per l'escenari i manté premut el botó del ratolí. Es pot dibuixar amb el teu llapis?
 
 ![captura de pantalla](images/paint-draw.png)
 
-## \--- col·lapsar \---
+## \--- collapse \---
 
-## títol: si teniu problemes ...
+## títol: si tens problemes...
 
-Si el vostre llapis sembla dibuixar la línia des del centre del llapis en lloc de la punta, haureu de canviar el vostre centre de disfresses.
+Si el teu llapis sembla dibuixar la línia des del centre del llapis en lloc de la punta, hauràs de canviar el centre de rotació de l'sprite.
 
-![Centre de disfresses](images/costume-center.png)
+![Centre de rotació](images/costume-center.png)
 
-L'encaix per al llapis s'ha de col·locar **just per sota** la punta del llapis, no a la punta del llapis.
+El punt de mira del llapis s'ha de posar **just per sota** la punta del llapis, no a la punta del llapis.
 
 Els canvis en el "centre de vestimenta" d'un sprite no es registren fins que es fa clic a una altra pestanya, feu clic a un altre vestit o a la pestanya "Scripts" per finalitzar els canvis al centre de vestuari.
 
