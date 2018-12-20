@@ -1,19 +1,18 @@
 ## Fer un llapis
 
-Comencem fent un llapis que es pot utilitzar per dibuixar l'escenari.
+Comencem fent un llapis que es pot utilitzar per dibuixar a l'escenari.
 
 + Obriu el projecte Scratch 'Paintbox' en línia a [jumpto.cc/paint-go](http://jumpto.cc/paint-go)(: target = "_ blank"} o descarregueu-lo a partir de <http://jumpto.cc/paint-get>(: target = "_ blank") i obriu-lo si feu servir l'editor fora de línia.
 
-Veureu llapis i esborranys sprites:
+Veuràs els sprites de llapis i de goma d'esborrar:
 
 ![captura de pantalla](images/paint-starter.png)
 
-+ Afegiu-hi un codi al sprite del llapis per fer-lo seguir el ratolí `per sempre`{: class = "blockcontrol"} perquè pugueu dibuixar:
++ Afeeix una mica de codi a l'sprite del llapis per fer-lo seguir el ratolí `per sempre`{: class = "blockcontrol"} perquè puguis dibuixar:
 
 ```blocks
-    quan l'indicador ha fet clic
-    per sempre
-      aneu al punter del ratolí v
+    quan es fa clic per sempre a la bandera
+      ves al final del [punter del ratolí v]
     final
 ```
 
