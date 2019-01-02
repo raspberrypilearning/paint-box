@@ -7,8 +7,8 @@ Pots crear dreceres de teclat per als teus comandaments? Per exemple:
 + b = Canviar al pinzell blau
 + g = canviar al pinzell verd
 + e = canviar a goma d'esborrar
-+ c = pantalla clara
++ c = pantalla en blanc
 
-Fins i tot podeu permetre a l'usuari canviar l'amplada de la ploma amb les tecles de fletxa.
+Fins i tot pots permetre a l'usuari canviar l'amplada del pinzell amb les tecles de fletxa.
 
-\--- /desafiament \---
+\--- /challenge \---
