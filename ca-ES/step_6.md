@@ -18,16 +18,16 @@ L'amplada del llapis s'establirà repetidament al valor de la variable "amplada"
 
 ![captura de pantalla](images/paint-slider.png)
 
-Ara podeu arrossegar el control lliscant per sota de la variable per canviar el seu valor.
+Ara pots arrossegar el control lliscant per sota de la variable per canviar el seu valor.
 
 ![captura de pantalla](images/paint-slider-change.png)
 
-+ Proveu el vostre projecte i vegeu si podeu modificar l'amplada del llapis.
++ Prova el teu projecte i prova de modificar l'amplada del llapis.
 
 ![captura de pantalla](images/paint-width-test.png)
 
-Si ho preferiu, podeu establir el valor mínim i màxim de "amplada" que està permès. Per fer-ho, feu clic amb el botó dret a la variable de nou i feu clic a "Configura el control lliscant mínim i màxim". Establiu els valors mínims i màxims de la variable a una cosa més sensible, com ara l'1 i la 20.
+Si ho prefereixes, pots establir el valor mínim i màxim de "amplada". Per fer-ho, fes clic amb el botó dret a la variable de nou i fes clic a "Configura el control lliscant mínim i màxim". Estableix els valors mínims i màxims de la variable a una cosa més sensible, com ara 1 i 20.
 
 ![captura de pantalla](images/paint-slider-max.png)
 
-Continueu provant la vostra variable "ample" fins que estigueu contents.
+Continua provant la teva variable "ample" fins que estiguis satisfet.
