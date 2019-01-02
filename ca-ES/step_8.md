@@ -1,11 +1,11 @@
-\--- desafiament \---
+\--- challenge \---
 
-## Desafiament: més llapis
+## Repte: més llapis
 
-Podeu afegir llapis vermells, grocs i negres al vostre programa de pintura? Feu un cop d'ull al pas 2 anterior si heu oblidat com fer-ho. Recordeu-vos d'afegir també dreceres de teclat per a aquests nous llapis.
+Pots afegir llapis vermells, grocs i negres al teu programa de pintura? Fes un cop d'ull al pas 2 més amunt si has oblidat com fer-ho. Recorda afegir dreceres de teclat per a aquests nous llapis.
 
-Es pot utilitzar els llapis per dibuixar una foto?
+Es pot utilitzar els llapis per fer un dibuix?
 
 ![captura de pantalla](images/paint-final.png)
 
-\--- /desafiament \---
+\--- /challenge \---
