@@ -1,20 +1,20 @@
-## Canvi de l'amplada del llapis
+## Canviar l'amplada del llapis
 
-Permetem que l'usuari dibuixi amb un rang de diferents mides de llapis.
+Fem que l'usuari pugui dibuixar amb diferents mides de llapis.
 
-+ Primer, afegiu una nova variable anomenada `amplada`{: class = "blockvariable"}.
++ Primer, afegeix una nova variable anomenada `amplada`{:class = "blockvariable"}.
 
 [[[generic-scratch-add-variable]]]
 
-+ Afegiu aquesta línia *dins de l'* el `per sempre`{: class = "blockcontrol"} loop del codi del llapis:
++ Afegiu aquesta línia *dins * del loop `per sempre`{:class = "blockcontrol"} del codi del llapis:
 
 ```blocks
-    estableix la mida de la ploma a (ample)
+    estableix la mida del llapis a (amplada)
 ```
 
 L'amplada del llapis s'establirà repetidament al valor de la variable "amplada".
 
-+ Feu clic amb el botó dret a la visualització de la variable a l'escenari i feu clic a "control lliscant".
++ Fes clic amb el botó dret a la visualització de la variable a l'escenari i fes clic a "control lliscant".
 
 ![captura de pantalla](images/paint-slider.png)
 
