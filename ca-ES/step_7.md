@@ -1,11 +1,11 @@
-\--- desafiament \---
+\--- challenge \---
 
-## Desafiament: accessos directes
+## Repte: dreceres
 
-Podeu crear dreceres de teclat per als vostres comandaments? Per exemple:
+Pots crear dreceres de teclat per als teus comandaments? Per exemple:
 
-+ b = Canvia a la ploma blau
-+ g = canviar a la ploma verda
++ b = Canviar al pinzell blau
++ g = canviar al pinzell verd
 + e = canviar a goma d'esborrar
 + c = pantalla clara
 
