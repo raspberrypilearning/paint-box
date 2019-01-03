@@ -1,55 +1,51 @@
-## Помилки
+## Undo mistakes
 
-Іноді помилки трапляються, так що давайте додамо кнопку 'очистити' та гумку.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ Додайте 'X-block' спрайт - ви зможете знайти його в бібліотеці, в розділі букв. Змініть колір костюма на червоний. Це буде кнопка «Очистити».
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![скріншот](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Додайте код до цього спрайта, щоб очистити сцену, коли вона натиснута.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Очистити сцену](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-Зверніть увагу, що вам не потрібно надсилати повідомлення, щоб очистити сцену, ви можете просто використовувати чіткий блок із цього спрайту.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-Мабуть, ви помітили, що олівець спрайт включає в себе гумку-костюм:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![скріншот](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ Ваш проект також включає в себе окрему гумку-спрайт. Клацніть правою кнопкою миші на цьому спрайті і виберіть 'Показати'. Ось як повинна виглядати ваша сцена:
+![screenshot](images/paint-eraser-costume.png)
 
-![скріншот](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ Додайте код до гумки, щоб вказати, як олівець переключатиметься на неї, під час натискання спрайту.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![Перехід на гумку](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-Коли олівець отримує повідомлення від «гумка», ви можете переключити обзор на гумку і змінити колір олівця в білий - такий самий колір, що і на сцені!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ Додати деякі коду для створення гумки
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- hints \--- \--- hint \--- Додайте код до олівця: ** Коли я отримую** гумка ** повідомлення ** ** Перемикання на обзор ** <0> Встановити колір ручки ** білий \--- hints \--- \--- hint \--- Ось як повинен виглядати код олівця:</p> 
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-коли я отримую [ гумка]
-перехід тла на [гумка v]
-встановити колір ручки [#FFFFFF]
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ Перевірте свій проект, щоб побачити, чи можна очистити та стерти платформу.
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![скріншот](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-Є ще одна проблема з олівцем - ви можете малювати в будь-якому місці на сцені, в тому числі біля піктограми селектора!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![скріншот](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-Щоб виправити цю проблему, повідомте олівцеві для малювання, при натисканні мишки *і* якщо y-позиція миші перевищує -120:
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![скріншот](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ Протестуйте свій проект; тепер ви не зможете малювати поблизу селекторних блоків.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![скріншот](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
