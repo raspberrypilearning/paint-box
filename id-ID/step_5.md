@@ -1,55 +1,51 @@
-## Membuat kesalahan
+## Undo mistakes
 
-Terkadang kesalahan terjadi, jadi mari kita tambahkan tombol 'bersihkan' dan penghapus.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ Tambahkan sprite 'X-block' - kamu akan menemukannya di pustaka, pada bagian huruf. Warnai kostum dengan warna merah. Ini akan menjadi tombol 'bersihkan'.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![tangkapan layar](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Tambahkan kode ke sprite ini untuk membersihkan stage saat diklik.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Bersihkan stage](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-Perhatikan bahwa kamu tidak perlu mengirim pesan untuk membersihkan stage, kamu dapat menggunakan blok 'bersihkan' dari sprite ini.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-Kamu mungkin memperhatikan bahwa sprite pensil kamu memiliki kostum penghapus:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![tangkapan layar](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ Proyek kamu juga memiliki sprite penghapus terpisah. Klik kanan pada sprite ini dan pilih 'tampilkan'. Berikut bagaimana stage kamu seharusnya tampak:
+![screenshot](images/paint-eraser-costume.png)
 
-![tangkapan layar](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ Tambahkan kode ke sprite penghapus, untuk memberi tahu pensil untuk beralih ke penghapus ketika sprite diklik.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![Siarkan penghapus](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-Ketika pensil menerima pesan "penghapus", kamu dapat mengalihkan kostum pensil ke penghapus, dan mengganti warna pensil menjadi putih - warna yang sama dengan stage!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ Tambahkan beberapa kode untuk membuat penghapus
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- hints \--- \--- hint \--- Tambahkan beberapa kode ke sprite pensil: **Ketika aku menerima** pesan **penghapus** **Ganti kostum ke** penghapus **Atur warna pena ke** putih \--- /hint \--- \--- hint \--- Berikut bagaimana kode pada sprite pensil seharusnya tampak:
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-ketika saya menerima [penghapus v]
-ganti kostum ke [penghapus v]
-atur warna pena ke [#FFFFFF]
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ Uji proyek kamu untuk melihat dapatkah kamu membersihkan dan menghapus pada stage.
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![tangkapan layar](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-Ada satu lagi masalah dengan pensil - kamu dapat menggambar di mana saja pada stage, termasuk di dekat ikon pemilih!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![tangkapan layar](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-Untuk memperbaikinya, beri tahu pensil hanya untuk menggambar jika mouse diklik *dan* jika posisi-y mouse lebih besar dari -120:
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![tangkapan layar](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ Uji proyek kamu; kamu sekarang seharusnya tidak dapat menggambar di dekat blok pemilih.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![tangkapan layar](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
