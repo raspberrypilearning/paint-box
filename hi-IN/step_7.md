@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## चुनौती: शॉर्टकट्स
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-क्या आप अपने कमांड्स(commands) के लिए कीबोर्ड शॉर्टकट्स बना सकते हैं? उदाहरण के लिए:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = बदल कर नीली कलम हो जाए
-+ g = बदल कर हरी कलम हो जाए
-+ e = बदल कर रबड़ हो जाए
-+ c = चित्रपट साफ हो जाए
-
-आप उपयोगकर्ता को तीर बटन(arrow keys) द्वारा भी पेन की चौड़ाई बदलने की अनुमति दे सकते हैं!
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
