@@ -1,44 +1,57 @@
-## Pravljenje olovke
+## Coloured pencils
 
-Počnimo tako što ćemo napraviti olovku koja se može koristiti za crtanje na pozornici.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ Otvori Scratch projekat 'Paintbox' online na [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} ili ga preuzmi sa <http://jumpto.cc/paint-get>{:target="_blank"}, a zatim otvori ako koristiš offline editor.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-Vidjećeš likove (sprites) olovke i gumice:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![screenshot](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ Dodaj kôd liku olovke da `uvijek`{:class="blockcontrol"} (forever) prati strelicu miša, tako da možeš da crtaš:
+![screenshot](images/paint-pencil-green.png)
 
-```blocks
-    when flag clicked
-    forever
-      go to [mouse pointer v]
-    end
-```
+\--- /task \---
 
-+ Klikni na zastavicu, a zatim pomjeraj miša po pozornici da isprobaš da li kôd funkcioniše.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-Nakon toga, napravimo da tvoja olovka crta samo `ako je`{:class="blockcontrol"} (if) pritisnut taster miša.
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ Dodaj ovaj kôd liku olovke:
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![screenshot](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ Isprobaj svoj kôd još jednom. Ovog puta pomjeraj olovku po pozornici držeći pritisnut taster miša. Možeš li da crtaš svojom olovkom?
+\--- /task \---
 
-![screenshot](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- collapse \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## title: Ako imaš probleme...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-Ako tvoja olovka crta liniju svojom sredinom umjesto vrhom, treba da promijeniš centar kostima (costume center).
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![Centar kostima](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-Krst za centriranje olovke treba da bude postavljen **malo ispod** vrha olovke, a ne na njenom vrhu.
+![pencil](images/pencil.png)
 
-Izmjene u 'centru kostima' lika neće biti registrovane dok se ne klikne na drugu karticu. Klikni na drugi kostim ili na karticu 'Scripts' (Skripte) da dovršiš svoje izmjene u centru kostima.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- /collapse \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
