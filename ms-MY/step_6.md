@@ -1,33 +1,25 @@
-## Menukar lebar pensel
+## Change the pen width
 
-Mari izinkan pengguna untuk menarik menggunakan pelbagai saiz pensel yang berbeza.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Pertama, tambahkan pembolehubah baru yang dipanggil `width`{: class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Tambahkan baris ini *di dalam* `selama`{{class = "blockcontrol"} gelung kod pensel:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    tetapkan saiz pen kepada (lebar)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Lebar pensel kini akan berulang kali ditetapkan kepada nilai pembolehubah 'lebar'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Klik kanan pada paparan variabel di panggung dan klik 'slider'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![tangkapan skrin](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Anda kini boleh menyeret slider di bawah pembolehubah untuk menukar nilainya.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![tangkapan skrin](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Uji projek anda, dan lihat jika anda boleh mengubah lebar pensil.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![tangkapan skrin](images/paint-width-test.png)
-
-Jika anda lebih suka, anda boleh menetapkan nilai maksimum dan maksimum 'lebar' yang dibenarkan. Untuk melakukan ini, klik kanan pada pembolehubah sekali lagi dan klik 'set slider min and max'. Tetapkan nilai minimum dan maksimum pemboleh ubah anda kepada sesuatu yang lebih masuk akal, seperti 1 dan 20.
-
-![tangkapan skrin](images/paint-slider-max.png)
-
-Teruskan menguji pembolehubah 'lebar' anda sehingga anda gembira.
+![screenshot](images/paint-width-test.png) \--- /task \---
