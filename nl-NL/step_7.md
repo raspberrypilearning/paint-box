@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## Uitdaging: snelkoppelingen
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Kun je sneltoetsen maken voor je commando's? Bijvoorbeeld:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = Overschakelen naar blauwe pen
-+ g = Overschakelen naar groene pen
-+ e = overschakelen naar gum
-+ w = wis alles
-
-Je kunt zelfs instellen dat de gebruiker de penbreedte wijzigt met de pijltjestoetsen.
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
