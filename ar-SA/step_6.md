@@ -1,33 +1,25 @@
-## تغيير عرض قلم الرصاص
+## Change the pen width
 
-نسمح للمستخدم بالرسم باستخدام مجموعة مختلفة الأحجام من الاقلام.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ أولا ، إضافة متغير جديد يسمى `العرض`{:class="blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ أضف هذا السطر *داخل* و `إلى الأبد`{:class="blockcontrol"} حلقة من رمز قلم الرصاص:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    تعيين حجم القلم (عرض)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-سيتم الآن تعيين عرض القلم الرصاص مراراً وتكراراً إلى قيمة المتغير 'العرض'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ انقر بزر الماوس الأيمن على الشاشة المتغيرة على المسرح وانقر فوق "شريط التمرير".
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![لقطة الشاشة](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-يمكنك الآن سحب شريط التمرير أسفل المتغير لتغيير قيمته.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![لقطة الشاشة](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ اختبر المشروع الخاص بك، وانظر إذا كان يمكنك تعديل عرض القلم.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![لقطة الشاشة](images/paint-width-test.png)
-
-إذا كنت تفضل، يمكنك تعيين قيمة الحد الأدنى والحد الأقصى من 'العرض' المسموح به. للقيام بهذا، انقر بالزر الأيمن على المتغير مرة أخرى وانقر فوق 'تعيين شريط التمرير min و max'. عيّن الحد الأدنى والحد الأقصى لقيم المتغير الخاص بك إلى شيء أكثر منطقية ، مثل 1 و 20.
-
-![لقطة الشاشة](images/paint-slider-max.png)
-
-استمر في اختبار متغير "العرض" حتى تصبح سعيدًا.
+![screenshot](images/paint-width-test.png) \--- /task \---
