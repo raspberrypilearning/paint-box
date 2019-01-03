@@ -1,33 +1,25 @@
-## Mengubah lebar pensil
+## Change the pen width
 
-Mari kita ijinkan pengguna untuk menggambar dengan beragam ukuran pensil yang berbeda.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Pertama, tambahkan variabel baru bernama `lebar`{:class="blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Tambahkan baris ini *di dalam* pengulangan `selamanya`{:class="blockcontrol"} pada kode pensil:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    atur ukuran pena ke (lebar)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Lebar pensil sekarang akan berulang kali diatur ke nilai variabel 'lebar'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Klik kanan pada tampilan variabel di stage dan klik 'slider'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![tangkapan layar](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Kamu sekarang dapat menyeret slider di bawah variabel untuk mengubah nilainya.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![tangkapan layar](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Uji proyek kamu, dan lihat apakah kamu dapat mengubah lebar pensil.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![tangkapan layar](images/paint-width-test.png)
-
-Jika kamu suka, kamu dapat mengatur nilai terkecil dan terbesar dari 'lebar' yang dibolehkan. Untuk melakukan ini, klik kanan lagi pada tampilan variabel dan klik 'set min dan max slider'. Atur nilai terkecil dan terbesar dari variabel kamu ke sesuatu yang lebih masuk akal, seperti 1 dan 20.
-
-![tangkapan layar](images/paint-slider-max.png)
-
-Terus uji variabel 'lebar' sampai kamu puas.
+![screenshot](images/paint-width-test.png) \--- /task \---
