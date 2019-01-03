@@ -1,33 +1,25 @@
-## Cambiamos el grosor del lápiz
+## Change the pen width
 
-Vamos a permitir al usuario dibujar usando diferentes tamaños de lápiz.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Primero añade una nueva variable llamada `ancho`{:class="blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Añade esta linea *dentro* del bucle `por siempre`{:class="blockcontrol"} del código del lápiz:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    fija tamaño de lápiz a (ancho)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-La anchura del lápiz se establecerá ahora con el valor de la variable 'ancho'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Haz clic con el botón derecho en la esquina del escenario donde aparece la variable y haz clic en 'deslizador'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![Captura de pantalla](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Ahora puedes arrastrar el deslizador debajo de la variable para cambiar su valor.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![Captura de pantalla](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Prueba tu proyecto y comprueba si puedes modificar el ancho del lápiz.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![Captura de pantalla](images/paint-width-test.png)
-
-Si lo prefieres puedes fijar el valor mínimo y máximo permitido de 'ancho'. Para conseguirlo, vuelve a hacer clic con el botón derecho en la variable y luego haz clic en "Fijar rango del deslizador". Fija el valor mínimo y máximo de tu variable a algo más normal, como 1 y 20.
-
-![Captura de pantalla](images/paint-slider-max.png)
-
-Sigue probando tu variable 'ancho' hasta dejarlo como tu quieras.
+![screenshot](images/paint-width-test.png) \--- /task \---
