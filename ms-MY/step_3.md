@@ -1,41 +1,57 @@
-## Membuat pensil
+## Coloured pencils
 
-Mari kita mulakan dengan membuat pensil yang boleh digunakan untuk menarik di panggung.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ Buka projek Scratch 'Paintbox' dalam talian di [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} atau muat turun dari <http://jumpto.cc/paint-get>{: target = "_ blank"} dan kemudian buka jika anda menggunakan editor luar talian.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-Anda akan melihat pensil dan pensel pemadam:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![tangkapan skrin](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ Tambah beberapa kod pada sprit pensil untuk membuat ia mengikuti mouse `selama`{: class = "blockcontrol"} supaya anda dapat menarik:
+![tangkapan skrin](images/paint-pencil-green.png)
 
-```blocks
-    apabila bendera diklik selamanya pergi ke [penunjuk tetikus v] akhir
-```
+\--- /task \---
 
-+ Klik bendera dan kemudian gerakkan tetikus di sekitar panggung untuk menguji sama ada kod tersebut berfungsi.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-Seterusnya, mari buat pensil anda hanya menggambar `jika`{: class = "blockcontrol"} tetikus telah diklik.
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ Tambahkan kod ini pada sprit pensil anda:
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![tangkapan skrin](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ Uji kod anda sekali lagi. Kali ini, gerakkan pensil di sekitar panggung dan tahan butang tetikus. Bolehkah anda menarik dengan pensil anda?
+\--- /task \---
 
-![tangkapan skrin](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- runtuh \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## tajuk: Jika anda menghadapi masalah ...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-Jika pensil anda kelihatan menarik garis dari tengah pensil dan bukan hujungnya, anda perlu mengubah pusat pakaian anda.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![Pusat pakaian](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-Crosshair untuk pensil mesti diletakkan **tepat di bawah** ujung pensil, bukan di ujung pensil.
+![pencil](images/pencil.png)
 
-Perubahan dalam 'pakaian kostum' sprite tidak didaftarkan sehingga tab lain diklik, jadi klik pada pakaian lain, atau pada tab 'Skrip' untuk memuktamadkan perubahan anda pada pusat pakaian.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- / runtuh \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
