@@ -1,9 +1,51 @@
-## നിങ്ങൾക്ക് എന്ത് വേണം
+## Make a pencil
 
-### ഹാർഡ്വെയർ
+Start by making a pencil that you can use to draw on the Stage.
 
-+ സ്ക്രാച്ച് 2.0 പ്രവർത്തിപ്പിക്കാനുള്ള കമ്പ്യൂട്ടർ
+\--- task \--- Open the 'Paint box' Scratch starter project.
 
-### സോഫ്റ്റ്വെയർ
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-+ സ്ക്രാച്ച് 2.0 ( [ഓൺ](https://scratch.mit.edu/projects/editor/){: target = "_ blank"} അല്ലെങ്കിൽ [ഓഫ്ലൈൻ](https://scratch.mit.edu/scratch2download/){: target = "_ blank"})
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff)
+
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png) \--- /task \---
+
+\--- task \---
+
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+
+![pencil](images/pencil.png) ![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
+
+\--- /task \---
+
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+
+\--- task \--- Add this code to your pencil sprite:
+
+![pencil](images/pencil.png) ![blocks_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
+
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png) \--- /task \---
+
+## \--- collapse \---
+
+## title: Does your pencil not draw from its tip?
+
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+
+Click on the pencil sprite, and then click on the **Costumes** tab.
+
+Move the costume's so the tip of the pencil is **just above** the centre.
+
+![Costume center](images/costume-center-annotated.png)
+
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+
+\--- /collapse \---
