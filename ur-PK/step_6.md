@@ -1,33 +1,25 @@
-## پینسل چوڑائی کو تبدیل کرنا
+## Change the pen width
 
-چلو صارفین کو مختلف پنسل سائز کی حد تک استعمال کرنے کی اجازت دیتے ہیں.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ سب سے پہلے `چوڑائی`: کلاس = "blockvariable" نامی نئی متغیر شامل کریں.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ اس لائن میں شامل کریں *کے اندر* `ہمیشہ کے لئے`{: کلاس = "blockcontrol"} پنسل کے کوڈ کا لوپ:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    قلم قلم سائز (چوڑائی)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-پینسل چوڑائی بار بار 'چوڑائی' متغیر کی قیمت پر مقرر کیا جائے گا.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ مرحلے پر متغیر ڈسپلے پر دائیں کلک کریں اور 'سلائیڈر' پر کلک کریں.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![اسکرین شاٹ](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-اب آپ اپنی قدر کو تبدیل کرنے کے لئے متغیر ذیل سلائیڈر کو گھسیٹ سکتے ہیں.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![اسکرین شاٹ](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ آپ کے منصوبے کی جانچ پڑتال کریں، اور دیکھیں کہ آپ پینسل چوڑائی میں ترمیم کرسکتے ہیں.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![اسکرین شاٹ](images/paint-width-test.png)
-
-اگر آپ ترجیح دیتے ہیں تو، آپ کی اجازت دی گئی 'چوڑائی' کا کم از کم اور زیادہ سے زیادہ قیمت مقرر کر سکتے ہیں. ایسا کرنے کے لئے، متغیر پر دوبارہ کلک کریں اور 'سیٹ سلائیڈر منٹ اور زیادہ سے زیادہ' پر کلک کریں. اپنے متغیر کی کم از کم اور زیادہ سے زیادہ قیمتوں کو زیادہ سمجھدار کچھ، جیسے 1 اور 20 کی طرح مقرر کریں.
-
-![اسکرین شاٹ](images/paint-slider-max.png)
-
-جب آپ خوش ہوں تو اپنی 'چوڑائی' متغیر کی جانچ رکھیں.
+![screenshot](images/paint-width-test.png) \--- /task \---
