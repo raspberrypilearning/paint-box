@@ -1,44 +1,57 @@
-## 创建铅笔
+## Coloured pencils
 
-让我们从创建一支能在舞台上绘画的铅笔开始。
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ 在线打开“颜色盒”工程[jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} 或者从 <http://jumpto.cc/paint-get>{:target="_blank"}下载离线项目用离线编辑器打开。
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-你将会看到铅笔和橡皮：
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![截屏](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ 向铅笔中添加代码让它`永远`{:class="blockcontrol"} 跟随鼠标移动，这样你就可以画画了：
+![截屏](images/paint-pencil-green.png)
 
-```blocks
-    点击绿旗时
-    重复无限次 
-      定位到 [mouse pointer v] 位置
-    end
-```
+\--- /task \---
 
-+ 点击绿旗然后在舞台上移动鼠标测试代码是否正常工作。
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-接下来，我们让铅笔仅在`如果`{:class="blockcontrol"}鼠标点击的情况下绘画。
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ 将下面的代码添加到铅笔角色中：
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![截屏](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ 再次测试代码。 这次，在舞台上按住鼠标左键并移动鼠标。 你能用铅笔画画吗？
+\--- /task \---
 
-![截屏](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- collapse \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## title: 如果你遇到了困难...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-如果你的铅笔看上去像是用铅笔中断在划线而不是铅笔尖划线，你需要修改造型的中心。
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![造型中心](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-铅笔的中心十字线必须放置在笔尖的**正下方**，不要放置在笔尖上。
+![pencil](images/pencil.png)
 
-在点击其他选项卡前，修改角色的“造型中心”是不会生效的。所以我们需要点击另一个造型，或者点击“脚本”选项卡来让修改造型中心生效。
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- /collapse \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
