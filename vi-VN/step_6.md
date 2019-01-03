@@ -1,33 +1,25 @@
-## Thay đổi chiều rộng bút chì
+## Change the pen width
 
-Hãy cho phép người dùng vẽ bằng cách sử dụng một loạt các kích thước bút chì khác nhau.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Đầu tiên, thêm một biến mới gọi là `width`{: class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Thêm dòng này *bên trong* vòng lặp `mãi mãi`{: class = "blockcontrol"} của mã của bút chì:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    đặt kích thước bút thành (chiều rộng)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Chiều rộng bút chì bây giờ sẽ được đặt thành giá trị của biến 'chiều rộng'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Nhấp chuột phải vào hiển thị biến trên sân khấu và nhấp vào 'thanh trượt'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![ảnh chụp màn hình](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Bây giờ bạn có thể kéo thanh trượt bên dưới biến để thay đổi giá trị của nó.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![ảnh chụp màn hình](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Kiểm tra dự án của bạn và xem liệu bạn có thể sửa đổi chiều rộng bút chì hay không.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![ảnh chụp màn hình](images/paint-width-test.png)
-
-Nếu bạn thích, bạn có thể đặt giá trị tối thiểu và tối đa của 'chiều rộng' được cho phép. Để làm điều này, nhấp chuột phải vào biến một lần nữa và nhấp vào 'đặt thanh trượt tối thiểu và tối đa'. Đặt giá trị tối thiểu và tối đa của biến của bạn thành biến hợp lý hơn, như 1 và 20.
-
-![ảnh chụp màn hình](images/paint-slider-max.png)
-
-Tiếp tục kiểm tra biến 'chiều rộng' của bạn cho đến khi bạn hài lòng.
+![screenshot](images/paint-width-test.png) \--- /task \---
