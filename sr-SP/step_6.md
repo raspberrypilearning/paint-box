@@ -1,33 +1,25 @@
-## Промена дебљине оловке
+## Change the pen width
 
-Хајде да омогућимо кориснику да црта користећи оловке различитих дебљина.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Прво додај нову променљиву која ће се звати `дебљина`{:class="blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Додај ову наредбу *унутар* петље `понављај`{:class="blockcontrol"} у коду оловке:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    нека дебљина оловке буде (дебљина)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Дебљина оловке сада ће бити увек постављена на вредност променљиве 'дебљина'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Кликни десним тастером миша на променљиву приказану на позорници и кликни на 'клизач'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![слика екрана](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Сада можеш да помераш клизач испод променљиве да промениш њену вредност.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![слика екрана](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Испробај пројекат и провери да ли можеш да промениш дебљину бојице.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![слика екрана](images/paint-width-test.png)
-
-Ако желиш, можеш да поставиш најмању и највећу дозвољену вредност 'дебљине'. Да би то урадио, поново кликни десним тастером миша на променљиву, а затим кликни на 'подешавање граничних вредности клизача'. Подеси најмању и највећу вредност променљиве, на пример 1 и 20.
-
-![слика екрана](images/paint-slider-max.png)
-
-Настави да испробаваш променљиву 'дебљина' док не будеш задовољан/а.
+![screenshot](images/paint-width-test.png) \--- /task \---
