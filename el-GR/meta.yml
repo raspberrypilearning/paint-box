@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: images/banner.png
-theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Κουτί χρωμάτων
-description: Μάθε πώς να φτιάξεις το δικό σου πρόγραμμα χρωμάτων.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: τέχνη
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: Εισαγωγή
   - 
-    title: Τι θα χρειαστείς
+    title: Make a pencil
   - 
-    title: Κάνοντας ένα μολύβι
+    title: Coloured pencils
   - 
-    title: Χρωματιστά μολύβια
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: Κάνοντας λάθη
+    title: Undo mistakes
   - 
-    title: Αλλαγή του πλάτους του μολυβιού
+    title: Change the pencil width
   - 
-    title: 'Πρόκληση: συντομεύσεις'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'Πρόκληση: περισσότερα μολύβια'
+    title: 'What next?'
