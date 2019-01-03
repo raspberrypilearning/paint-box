@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: images/banner.png
-theme: بنفسجي
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: مربع الطلاء
-description: تعلَّم كيف تصنع برنامج رسم من ابتكارك.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: فن
-technologies: scratch
-site_areas: مشاريع
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: المقدمة
   - 
-    title: ما ستحتاج إليه
+    title: Make a pencil
   - 
-    title: إنشاء قلم رصاص
+    title: Coloured pencils
   - 
-    title: أقلام ملونة
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: الوقوع في الأخطاء
+    title: Undo mistakes
   - 
-    title: تغيير عرض قلم الرصاص
+    title: Change the pencil width
   - 
-    title: 'التحدي: الإختصارات'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'التحدي: مزيد من أقلام الرصاص'
+    title: 'What next?'
