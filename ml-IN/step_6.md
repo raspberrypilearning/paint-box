@@ -1,32 +1,25 @@
-## പെൻസിൽ വീതി മാറ്റുന്നു
+## Change the pen width
 
-വിവിധ പെൻസിൽ അളവുകളുടെ ഒരു പരിധി ഉപയോഗിക്കുന്നതിനായി ഉപയോക്താവിനെ അനുവദിക്കുക.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ ആദ്യം, `വീതി`{class = "blockvariable"} എന്ന പുതിയ വേരിയബിള് ചേര്ക്കുക.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ പെൻസിൽ കോഡിന്റെ</code>{: class = "blockcontrol"} ലൂപ്പിന്</em> `എന്നതിന്റെ എല്ലായ്പ്പോഴും ഈ വരി <em>ഇടുക.</li>
-</ul>
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-<pre><code class="blocks">    പെൻ സൈറ്റിലേക്ക് (വീതി)
-`</pre> 
-    പെൻസിൽ വീതി ഇപ്പോൾ 'വീതി' വേരിയബിളിൻറെ മൂല്യത്തിലേക്ക് ആവർത്തിച്ചു സജ്ജമാക്കും.
-    
-    + സ്റ്റേജിലെ വേരിയബിൾ ഡിസ്പ്ലേയിൽ റൈറ്റ് ക്ലിക്ക് ചെയ്ത് 'സ്ലൈഡർ' ക്ലിക്കുചെയ്യുക.
-    
-    ![സ്ക്രീൻഷോട്ട്](images/paint-slider.png)
-    
-    നിങ്ങൾക്ക് അതിന്റെ മൂല്യത്തെ മാറ്റാൻ വേരിയബിളിന് താഴെയുള്ള സ്ലൈഡർ ഇഴയ്ക്കാം.
-    
-    ![സ്ക്രീൻഷോട്ട്](images/paint-slider-change.png)
-    
-    + നിങ്ങളുടെ പ്രോജക്റ്റ് പരിശോധിക്കുക, പെൻസിൽ വീതിയിൽ മാറ്റം വരുത്താനാകുമോ എന്ന് നോക്കുക.
-    
-    ![സ്ക്രീൻഷോട്ട്](images/paint-width-test.png)
-    
-    നിങ്ങൾ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, അനുവദനീയമായ 'വീതി' എന്നതിന്റെ ഏറ്റവും കുറഞ്ഞതും കൂടിയതുമായ മൂല്യം നിങ്ങൾക്ക് സജ്ജമാക്കാൻ കഴിയും. ഇതിനായി വേരിയബിളില് റൈറ്റ് ക്ലിക്ക് ചെയ്ത് 'സെലക്ട് മിനും മാക്സും' ക്ലിക്ക് ചെയ്യുക. നിങ്ങളുടെ വേരിയബിളിന്റെ പരമാവധി പരമാവധി മൂല്യങ്ങൾ 1, 20 എന്നിവ പോലെ കൂടുതൽ ബുദ്ധിപൂർവ്വമായ ഒന്ന് ക്രമീകരിക്കുക.
-    
-    ![സ്ക്രീൻഷോട്ട്](images/paint-slider-max.png)
-    
-    നിങ്ങൾ സന്തോഷവാനാകുന്നതുവരെ നിങ്ങളുടെ 'വീതി' വേരിയബിൾ പരീക്ഷിക്കുക.
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
+
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+
+![screenshot](images/paint-slider.png) \--- /task \---
+
+You can now drag the slider that is visible below the variable to change the variable's value.
+
+![screenshot](images/paint-slider-change.png)
+
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png) \--- /task \---
