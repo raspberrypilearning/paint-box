@@ -1,43 +1,57 @@
-## えんぴつを作る
+## Coloured pencils
 
-まず、ステージでお絵かきをするえんぴつを作ります。
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ 「お絵かきの箱」という名前のスクラッチ・プロジェクトを開きます。オンラインで開く場合はこちら[jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} から、オフラインエディターを使う場合はこちら<http://jumpto.cc/paint-get>{:target="_blank"}からダウンロードして、プロジェクトを開きます。
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-えんぴつと消しゴムのスプライトが出てきます。
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![screenshot](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ えんぴつスプライトにコードを追加して、マウスに`ずっと`{:class="blockcontrol"}ついていって絵が描けるようにします。
+![screenshot](images/paint-pencil-green.png)
 
-```blocks
-    ⚑がクリックされた時
-　ずっと
-　　マウスポインターへ行く
-```
+\--- /task \---
 
-+ フラグ⚑ボタンをクリックして、ステージの中でマウスをぐるぐる動かしてみましょう。
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-次に、`もし`{:class="blockcontrol"}マウスが押された状態であればえんぴつで線を書けるようにしてみましょう。
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ えんぴつスプライトにこのコードを足しましょう。
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![screenshot](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ もう一度テストしてみましょう。 今度は、マウスを押しながらえんぴつをステージの中で動かします。 うまく絵がかけましたか？
+\--- /task \---
 
-![screenshot](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- collapse \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## title: 問題がある場合...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-If your pencil seems to be drawing the line from the middle of the pencil rather than the tip, you will need to change your costume center.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![Costume center](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-The crosshair for the pencil must be placed **just below** the tip of the pencil, not on the tip of the pencil.
+![pencil](images/pencil.png)
 
-A changes in a sprite's 'costume center' isn't registered until another tab is clicked, so click on another costume, or on the 'Scripts' tab to finalise your changes to the costume center.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- /collapse \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
