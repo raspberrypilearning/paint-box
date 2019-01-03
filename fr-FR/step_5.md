@@ -1,55 +1,51 @@
-## Faire des erreurs
+## Undo mistakes
 
-Parfois, des erreurs se produisent, alors ajoutons un bouton "effacer" et une gomme.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ Ajoute le luttin 'X-block' - tu le trouveras dans la bibliothèque, dans la catégorie "Lettres". Colore le costume en rouge. Cela deviendra le bouton "effacer".
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![capture d'écran](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Ajoute du code à ce lutin pour effacer la scène lorsqu'il est cliqué.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Effacer la scène](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-Note que tu n'as pas besoin d'envoyer un message pour effacer la scène, tu peux simplement utiliser le bloc "effacer tout" de ce lutin.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-Tu as probablement remarqué que votre lutin crayon comprend un costume de gomme :
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![capture d'écran](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ Ton projet comprend également un lutin gomme distinct. Fais un clic droit sur ce lutin et choisis "Montrer". Voici à quoi ta scène devrait ressembler :
+![screenshot](images/paint-eraser-costume.png)
 
-![capture d'écran](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ Ajoute du code au lutin de la gomme, pour indiquer au crayon de passer au costume gomme lorsque le lutin gomme est cliqué.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![Envoyer à tous "gomme"](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-Lorsque le crayon reçoit le message "gomme", tu peux passer du costume crayon au costume gomme, et passer la couleur de crayon à blanc - la même couleur que la scène !
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ Ajoute du code pour créer la gomme
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- hints \--- \--- hint \--- Ajoutons un peu de code au lutin crayon : **Quand je reçois ** **gomme** **Basculer sur le costume** gomme **Mettre la couleur du stylo à** blanc \--- /hint \--- \--- hint \--- Voici à quoi devrait ressembler le code du lutin crayon :
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-quand je reçois [gomme v]
-basculer sur le costume [gomme v]
-mettre la couleur du stylo à [#ffffff]
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ Teste ton projet, pour voir si tu peux gommer sur la scène et même effacer toute la scène.
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![capture d'écran](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-Il y a encore un problème avec le crayon - tu peux dessiner n'importe où sur la scène, y compris près des lutins de sélection !
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![capture d'écran](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-Pour résoudre ce problème, dis au crayon de ne dessiner que si tu cliques sur la souris *et* si la position y de la souris est supérieure à -120 :
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![capture d'écran](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ Teste ton projet ; tu ne devrais plus être en mesure de te rapprocher des lutins de sélection.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![capture d'écran](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
