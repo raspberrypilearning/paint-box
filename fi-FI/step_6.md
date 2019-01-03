@@ -1,33 +1,25 @@
-## Kynän leveyden muuttaminen
+## Change the pen width
 
-Sallikaa, että käyttäjä voi piirtää useita erilaisia ​​kynäkokoja.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Lisää uusi muuttuja `leveys`{: class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Lisää tämä rivi *sisältä* `ikuisesti`{: class = "blockcontrol"} kynän koodin silmukka:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    asettaa kynän koko (leveys)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Kynän leveys asetetaan toistuvasti "leveys" -muuttujan arvoon.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Napsauta hiiren kakkospainikkeella näytössä olevaa muuttuvaa näyttöä ja napsauta "liukusäädintä".
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![kuvakaappaus](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Voit nyt siirtää muuttujan alla olevaa liukusäädintä sen arvon muuttamiseksi.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![kuvakaappaus](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Testaa projekti ja katso, voitko muuttaa lyijyn leveyttä.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![kuvakaappaus](images/paint-width-test.png)
-
-Jos haluat, voit asettaa sallitun "leveyden" minimi- ja maksimiarvon. Voit tehdä tämän napsauttamalla muuttujaa uudelleen hiiren kakkospainikkeella ja napsauttamalla "aseta liukusäädintä min ja max". Aseta muuttujan minimi- ja maksimiarvot jotain järkevämpää, kuten 1 ja 20.
-
-![kuvakaappaus](images/paint-slider-max.png)
-
-Pidä testaamassa leveysmuuttujasi kunnes olet onnellinen.
+![screenshot](images/paint-width-test.png) \--- /task \---
