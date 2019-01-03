@@ -1,44 +1,57 @@
-## إنشاء قلم رصاص
+## Coloured pencils
 
-لنبدأ بإنشاء قلم رصاص يمكن استخدامه للرسم على المنصة.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ افتح مشروع Scratch التالي "Paintbox" عبر الإنترنت على [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} أو تحميله من <http://jumpto.cc/paint-get>{:target="_blank"} ثم افتحه إذا كنت تستخدم المحرر دون اتصال.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-سترى قلم رصاص وممحاة:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![لقطة الشاشة](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ إضافة بعض التعليمات البرمجية إلى كائن قلم الرصاص لتجعله يتبع الماوس `للأبد`{:class="blockcontrol"} بحيث يمكنك الرسم:
+![لقطة الشاشة](images/paint-pencil-green.png)
 
-```blocks
-    عند نقر العلم
-كرر باستمرار 
-  اذهب إلى [مؤشر الماوس V]
-النهايه
-```
+\--- /task \---
 
-+ لتختبر هذه التعليمة البرمجية انقر فوق العلم ثم قم بتحريك الماوس في كل مكان على المنصة.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-بعد ذلك، لنجعل قلم الرصاص يرسم فقط `إذا`{:class="blockcontrol"} تم النقر فوق الماوس. أضف هذه التعليمة البرمجية إلى كائن قلم الرصاص.
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ أضف هذا الرمز إلى قائمة رموزك المتحركة:
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![لقطة الشاشة](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ اختبر شفرتك مرة أخرى. في هذه المرة ، حرِّك القلم الرصاص حول الجزء الرئيسي واضغط باستمرار على زر الماوس. هل يمكنك الرسم بقلم الرصاص؟
+\--- /task \---
 
-![لقطة الشاشة](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- collapse \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## title: إذا كنت تواجه مشاكل...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-إذا كان قلمك يبدو وكأنه يرسم الخط من منتصف قلم الرصاص بدلاً من الطرف ، فسوف تحتاج إلى تغيير مركز قلم الرصاص.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![مركز المظهر](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-يجب وضع التقاطع الخاص بقلم الرصاص **أسفل** رأس القلم مباشرةً، وليس على طرف قلم الرصاص.
+![pencil](images/pencil.png)
 
-لا يتم تسجيل أي تغيير في "مركز الزي" الخاص بـ sprite حتى يتم النقر فوق علامة تبويب أخرى ، لذلك انقر فوق زي آخر ، أو على علامة التبويب "Scripts" لوضع اللمسات الأخيرة على تغييراتك في مركز الملابس.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- /collapse \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
