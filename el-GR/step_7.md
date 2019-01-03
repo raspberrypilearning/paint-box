@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## Πρόκληση: συντομεύσεις
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Μπορείς να δημιουργήσεις συντομεύσεις πληκτρολογίου για τις εντολές σου; Για παράδειγμα:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = Αλλαγή σε μπλε μολύβι
-+ g = αλλαγή σε πράσινο μολύβι
-+ e = αλλαγή σε γόμα
-+ c = καθαρισμός οθόνης
-
-Μπορείς ακόμη και να επιτρέψεις στο χρήστη να αλλάζει το πλάτος του μολυβιού με τα πλήκτρα βέλους.
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
