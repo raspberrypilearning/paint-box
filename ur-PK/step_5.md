@@ -1,53 +1,51 @@
-## غلطیاں کرنا
+## Undo mistakes
 
-بعض اوقات غلطیاں ہوتی ہیں، لہذا ہمیں 'واضح' بٹن اور کٹور شامل کریں.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ 'ایکس - بلاک' سپرائٹ شامل کریں - آپ اس خط میں سیکشن میں لائبریری میں تلاش کریں گے. سرخ رنگ میں کپڑے. یہ 'واضح' بٹن بن جائے گا.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![اسکرین شاٹ](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ جب اس پر کلک کیا جاتا ہے اس مرحلے کو صاف کرنے کے لئے اس سپرے میں کوڈ شامل کریں.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![مرحلے صاف کریں](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-یاد رکھیں کہ آپ کو مرحلے کو صاف کرنے کے لئے ایک پیغام بھیجنے کی ضرورت نہیں ہے، آپ اس سپرے سے صاف بلاک استعمال کرسکتے ہیں.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-آپ نے شاید محسوس کیا ہے کہ آپ کے پنسل سپرے میں صافی کا لباس بھی شامل ہے:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![اسکرین شاٹ](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ آپ کے منصوبے میں ایک علیحدہ صافی سپرے بھی شامل ہے. اس سپرے پر صحیح کلک کریں اور 'شو' کا انتخاب کریں. یہاں یہ ہے کہ آپ کا مرحلہ کیسے نظر آتا ہے:
+![screenshot](images/paint-eraser-costume.png)
 
-![اسکرین شاٹ](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ ایکرر سپرے میں کوڈ شامل کریں، اسپانسائٹ پر کلک کریں جب پنسل کو صاف کرنے کے لئے سوئچ کو بتانا.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![ایجاد نشر کریں](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-جب پنسل "eraser" پیغام حاصل کرتا ہے تو، آپ کو پنسل کے کپڑے کو صاف کرنے کے لۓ سوئچ کر سکتے ہیں اور پینسل رنگ سفید میں تبدیل کر سکتے ہیں - اس مرحلے کے طور پر ایک ہی رنگ!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ صاف کرنے کے لئے کچھ کوڈ شامل کریں
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- اشارہ \--- \--- اشارہ \--- پنسل سپرے کرنے کے لئے کچھ کوڈ شامل کریں: **جب میں** کو **ریزورٹ** پیغام **وصول کرتا ہوں تو کپڑے** صاف کرنے کے لئے سوئچ **سیٹ قلم کا رنگ** / سفید \--- \--- اشارہ \--- یہاں ہے کہ پنسل سپرے کے اندر کوڈ کس طرح نظر آنا چاہئے:
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-جب [eraser v] سوئچ کا لباس [eraser v] پر [#FFFFFF] کو قلم رنگ مقرر کیا جاتا ہے
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- / اشارہ \--- \--- / اشارہ \--- \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ اپنے منصوبے کی جانچ کریں، یہ دیکھنے کے لئے کہ آپ اس مرحلے پر صاف اور ختم کر سکتے ہیں.
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![اسکرین شاٹ](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-پینسل کے ساتھ ایک اور مسئلہ ہے - آپ اس مرحلے پر کہیں بھی اپنی طرف متوجہ کرسکتے ہیں، بشمول انتخاب والے شبیہیں کے قریب!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![اسکرین شاٹ](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-اس کو درست کرنے کے لئے، پنسل کو صرف یہ کہنے کے لۓ کہ اگر ماؤس پر کلک کیا جائے تو *اور* اگر ماؤس کی ی پوزیشن -120 سے زائد ہے.
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![اسکرین شاٹ](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ اپنے منصوبے کی جانچ کرو اب آپ کو منتخب کرنے والے بلاکس کے نزدیک اپنی طرف متوجہ نہیں ہونا چاہئے.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![اسکرین شاٹ](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
