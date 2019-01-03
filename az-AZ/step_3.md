@@ -1,45 +1,57 @@
-## Qələm edilməsi
+## Coloured pencils
 
-Səhnəyə çəkmək üçün istifadə edilə biləcək bir qələm quraraq başlayalım.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} səhifəsində "Paintbox" Scratch layihəsini onlayn açın və ya [-dan endirin: http://jumpto.cc/paint-get](http://jumpto.cc/paint-get){: target = "_ blank"} və offline redaktoru istifadə edərkən açın.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-Qələm və pozan spritləri görəcəksiniz:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![ekran görüntüsü](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ `səbətinə baxın`{: class = "blockcontrol"} siçanla təqib etmək üçün qələm sprite əlavə edin:
+![ekran görüntüsü](images/paint-pencil-green.png)
 
-```blocks
-    bayrağın sonsuza qədər tıklandığında [siçan pointer v] sonuna gedin
-```
+\--- /task \---
 
-+ Kodun işləməyəcəyini test etmək üçün bayraqı basın və sonra səhnənin ətrafında hərəkət edin.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-Daha sonra, siçan tıklandığında</code>{: class = "blockcontrol"} əgər qələmi yalnız cəlb edək.</p>
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-<ul>
-<li>Bu kodu qələmi sprite əlavə edin:</li>
-</ul>
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-<p><img src="images/paint-pencil-draw-code.png" alt="ekran görüntüsü" /></p>
+[[[generic-scratch3-rename-sprite]]]
 
-<ul>
-<li>Kodunuzu yenidən sınayın. Bu dəfə, qələmləri səhnəyə aparın və siçan düyməsini basıb saxlayın. Qələmi ilə çəkə bilərsinizmi?</li>
-</ul>
+\--- /task \---
 
-<p><img src="images/paint-draw.png" alt="ekran görüntüsü" /></p>
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-<h2>--- çökmə ---</h2>
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-<h2>title: Əgər probleminiz varsa ...</h2>
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-<p>Qələminiz xəttini ucdan çox qələmin ortasından çəkmək kimi görünsə, kostyum mərkəzinizi dəyişməlisiniz.</p>
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-<p><img src="images/costume-center.png" alt="Kostyum mərkəzi" /></p>
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-<p>Qələm üçün crosshair qələm ucunda deyil, qələm ucu <strong>-in ən aşağıda</strong> -də yerləşdirilməlidir.</p>
+![pencil](images/pencil.png)
 
-<p>Sprite-nin "kostyum mərkəzində" dəyişikliklər başqa bir sekmeye tıklanıncaya qədər qeydə alınmır, belə ki, kostyum mərkəzinə dəyişikliklərinizi yekunlaşdırmaq üçün başqa bir kostyuma və ya "Komediya" seksiyasına vurun.</p>
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-<p>--- / çökmə ---</p>
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
