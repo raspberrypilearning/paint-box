@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: ചിത്രങ്ങൾ / banner.png
-theme: വയലറ്റ്
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, ഡിസൈൻ -0, പ്രോഗ്രാമിങ് -1, phys-comp-0, ഉൽപ്പാദനം 0, കമ്മ്യൂണിറ്റി-0
-title: പെയിന്റ് പെട്ടി
-description: നിങ്ങളുടെ സ്വന്തം ചായം പ്രോഗ്രാം എങ്ങനെ ഉണ്ടാക്കാമെന്ന് അറിയുക.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: കല
-technologies: സ്ക്രാച്ച്
-site_areas: പ്രോജക്ടുകൾ
-hardware: ''
-software: സ്ക്രാച്ച്
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: ആമുഖം
   - 
-    title: നിങ്ങൾക്ക് എന്ത് വേണം
+    title: Make a pencil
   - 
-    title: ഒരു പെൻസിൽ ഉണ്ടാക്കുന്നു
+    title: Coloured pencils
   - 
-    title: നിറമുള്ള പെൻസിലുകൾ
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: തെറ്റുകൾ വരുത്തുന്നു
+    title: Undo mistakes
   - 
-    title: പെൻസിൽ വീതി മാറ്റുന്നു
+    title: Change the pencil width
   - 
-    title: 'വെല്ലുവിളി: കുറുക്കുവഴികൾ'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'വെല്ലുവിളി: കൂടുതൽ പെൻസിലുകൾ'
+    title: 'What next?'
