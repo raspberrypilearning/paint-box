@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: images/banner.png
-theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Програм за цртање
-description: Научи како да направиш сопствени програм за цртање.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: Увод
   - 
-    title: Шта ће ти требати
+    title: Make a pencil
   - 
-    title: Направи оловку
+    title: Coloured pencils
   - 
-    title: Бојице
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: Грешке
+    title: Undo mistakes
   - 
-    title: Промена дебљине оловке
+    title: Change the pencil width
   - 
-    title: 'Изазов: Пречице'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'Изазов: Више бојица'
+    title: 'What next?'
