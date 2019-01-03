@@ -1,33 +1,25 @@
-## Spreminjanje širine svinčnika
+## Change the pen width
 
-Omogočimo uporabniku, da črpa z različnimi velikostmi svinčnikov.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Najprej dodajte novo spremenljivko, imenovano `širino`{: class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Dodajte to vrstico *znotraj* `za vedno`{: class = "blockcontrol"} zanko kode svinčnika:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    nastavite velikost pisala na (širino)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Širina svinčnika se zdaj večkrat nastavi na vrednost spremenljivke "width".
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Z desno miškino tipko kliknite spremenljivko na zaslonu in kliknite »drsnik«.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Sedaj lahko drsnik pod spremenljivko povlečete, da spremenite njegovo vrednost.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Preizkusite svoj projekt in preverite, ali lahko spreminjate širino svinčnika.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png)
-
-Če želite, lahko nastavite najnižjo in največjo vrednost, ki je dovoljena za 'širino'. Če želite to narediti, z desno miškino tipko miške kliknite spremenljivko in kliknite »Nastavite drsnik min in max«. Najnižje in najvišje vrednosti vaše spremenljivke nastavite na nekaj bolj smiselno, na primer 1 in 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Preizkusite svojo spremenljivko »širina«, dokler ne boste zadovoljni.
+![screenshot](images/paint-width-test.png) \--- /task \---
