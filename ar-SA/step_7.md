@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## التحدي: الإختصارات
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-هل يمكنك إنشاء اختصارات لوحة المفاتيح لأوامرك؟ مثال:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ ز = التبديل إلى القلم الأزرق
-+ خ = التبديل إلى القلم الأخضر
-+ م = التبديل إلى الممحاة
-+ ش = شاشة واضحة
-
-يمكنك حتى السماح للمستخدم بتغيير عرض القلم باستخدام مفاتيح الأسهم.
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
