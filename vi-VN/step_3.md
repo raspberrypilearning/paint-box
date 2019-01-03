@@ -1,41 +1,57 @@
-## Tạo bút chì
+## Coloured pencils
 
-Hãy bắt đầu bằng cách tạo ra một cây bút chì có thể được sử dụng để vẽ trên sân khấu.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ Mở dự án Scratch 'Paintbox' trực tuyến tại [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} hoặc tải xuống từ <http://jumpto.cc/paint-get>{: target = "_ blank"} và sau đó mở nó nếu bạn đang sử dụng trình soạn thảo ngoại tuyến.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-Bạn sẽ thấy các họa tiết bút chì và tẩy:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![ảnh chụp màn hình](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ Thêm một số mã vào bút chì để làm cho nó theo con chuột `mãi mãi`{: class = "blockcontrol"} để bạn có thể vẽ:
+![ảnh chụp màn hình](images/paint-pencil-green.png)
 
-```blocks
-    khi cờ được nhấp mãi mãi, hãy đi đến đầu [con trỏ chuột v]
-```
+\--- /task \---
 
-+ Nhấp vào cờ và sau đó di chuyển chuột xung quanh sân khấu để kiểm tra xem mã có hoạt động hay không.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-Tiếp theo, hãy tạo bút chì của bạn chỉ vẽ `nếu`{: class = "blockcontrol"} chuột đã được nhấp.
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ Thêm mã này vào bút chì của bạn:
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![ảnh chụp màn hình](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ Kiểm tra lại mã của bạn. Lần này, di chuyển bút chì quanh sân khấu và giữ nút chuột. Bạn có thể vẽ bằng bút chì không?
+\--- /task \---
 
-![ảnh chụp màn hình](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- sự sụp đổ \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## title: Nếu bạn gặp sự cố ...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-Nếu bút chì của bạn dường như đang vẽ đường từ giữa bút chì chứ không phải là đầu, bạn sẽ cần phải thay đổi trung tâm trang phục của bạn.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![Trung tâm trang phục](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-Chữ thập cho bút chì phải được đặt **ngay dưới** đầu bút chì, không phải trên đầu bút chì.
+![pencil](images/pencil.png)
 
-Một thay đổi trong 'trung tâm trang phục' của một sprite không được đăng ký cho đến khi một tab khác được nhấp vào, vì vậy hãy nhấp vào một trang phục khác hoặc trên tab 'Tập lệnh' để hoàn thành thay đổi của bạn đối với trung tâm trang phục.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- /sự sụp đổ \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
