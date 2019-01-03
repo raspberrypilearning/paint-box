@@ -1,14 +1,10 @@
-\--- چیلنج \--- \---
+## Challenge: keyboard commands
 
-## چیلنج: شارٹ کٹس
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-کیا آپ اپنے حکم کے لۓ کی بورڈ شارٹ کٹ بنا سکتے ہیں؟ مثال کے طور پر:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ ب = نیلے قلم میں سوئچ کریں
-+ جی = سبز قلم پر سوئچ کریں
-+ e = eraser کرنے کے لئے سوئچ
-+ سی = واضح اسکرین
-
-آپ کو صارف کو تیر کی چابیاں کے ساتھ قلم کی چوڑائی کو تبدیل کرنے کی بھی اجازت دے سکتی ہے.
-
-\--- / چیلنج \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
