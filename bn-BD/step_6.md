@@ -1,33 +1,25 @@
-## পেন্সিল প্রস্থ পরিবর্তন
+## Change the pen width
 
-চলুন শুরু করা যাক ব্যবহারকারী বিভিন্ন পেন্সিল মাপের পরিসর ব্যবহার করে আঁকুন।
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ প্রথমে, `প্রস্থ`{: class = "blockwariable"} নামক একটি নতুন পরিবর্তন যোগ করুন।
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ এই লাইন ** এর মধ্যে `টি চিরতরে`{: class = "blockcontrol"} পেন্সিলের কোডের লুপ যুক্ত করুন:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    সেট আপ কলম আকার (প্রস্থ)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-পেন্সিল প্রস্থ এখন বারবার 'প্রস্থ' ভেরিয়েবলের মান সেট করা হবে
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ স্ট্যাটাসে ভেরিয়েবল ডিসপ্লেতে ডান ক্লিক করুন এবং 'স্লাইডার' এ ক্লিক করুন।
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![স্ক্রিনশট](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-আপনি এখন ভেরিয়েবলের নিচে স্লাইডারকে তার মান পরিবর্তন করতে টেনে আনতে পারেন।
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![স্ক্রিনশট](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ আপনার প্রকল্পের পরীক্ষা করুন, এবং দেখুন আপনি পেন্সিল প্রস্থ পরিবর্তন করতে পারেন কিনা।
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![স্ক্রিনশট](images/paint-width-test.png)
-
-আপনি যদি পছন্দ করেন তবে আপনি 'width' এর সর্বনিম্ন এবং সর্বোচ্চ মান সেট করতে পারেন যা অনুমোদিত। এটি করার জন্য, আবার ভেরিয়েবলের উপর ডান-ক্লিক করুন এবং 'সেট করুন স্লাইডার মিনিট এবং সর্বোচ্চ' ক্লিক করুন আপনার ভেরিয়েবলের ন্যূনতম এবং সর্বাধিক মানগুলি আরো বিশিষ্ট কিছু, যেমন 1 এবং ২0, সেট করুন।
-
-![স্ক্রিনশট](images/paint-slider-max.png)
-
-আপনার 'প্রস্থ' ভেরিয়েবল পরীক্ষা করে রাখুন যতক্ষণ না আপনি খুশি হন।
+![screenshot](images/paint-width-test.png) \--- /task \---
