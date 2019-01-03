@@ -1,33 +1,25 @@
-## Mudar a grossura do lápis
+## Change the pen width
 
-Vamos permitir que o utilizador desenhe usando uma variedade de tamanhos de lápis diferentes.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Primeiro, adiciona uma nova variável chamada `grossura` {: class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Adiciona esta linha * dentro * do bloco` repete para sempre ` {: class = "blockcontrol"} do código do lápis:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    altera a espessura da tua caneta para (grossura)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-A grossura do lápis será agora definida repetidamente para o valor da variável 'grossura'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Clica com o botão direito do rato na tela da variável no palco e clica em 'deslizador'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Agora podes arrastar o controle deslizante abaixo da variável para alterar o seu valor.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Testa o teu projeto e vê se podes modificar a grossura do lápis.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png)
-
-Se preferires, podes definir o valor mínimo e máximo de 'grossura' permitido. Para isso, clica novamente com o botão direito na variável e clica em 'definir mínimo e máximo do deslizador'. Define os valores mínimos e máximos da tua variável para algo mais sensato, como 1 e 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Continua a testar a tua variável 'grossura' até que estejas satisfeito.
+![screenshot](images/paint-width-test.png) \--- /task \---
