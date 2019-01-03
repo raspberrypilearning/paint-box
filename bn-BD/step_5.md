@@ -1,53 +1,51 @@
-## ভুল করা
+## Undo mistakes
 
-কখনও কখনও ভুল হয়, তাই এর একটি 'স্পষ্ট' বোতাম এবং একটি ইবারের যোগ করা যাক।
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ 'এক্স-ব্লক' স্প্রেটে যোগ করুন - আপনি অক্ষর বিভাগে, লাইব্রেরিতে এটি পাবেন। রঙ পরিচ্ছদ লাল এটি 'স্পষ্ট' বাটন হয়ে যাবে।
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![স্ক্রিনশট](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ এটি ক্লিক করা হয় যখন পর্যায়টি পরিষ্কার করতে এই ভূত যাও কোড যোগ করুন।
+![screenshot](images/paint-x.png) \--- /task \---
 
-![পরিষ্কার স্টেজ](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-লক্ষ্য করুন যে পর্যায়টি পরিষ্কার করার জন্য আপনাকে কোনও বার্তা পাঠাতে হবে না, আপনি এই স্প্রেটের স্পষ্ট ব্লকের ব্যবহার করতে পারেন।
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-আপনি সম্ভবত লক্ষ্য করেছেন যে আপনার পেন্সিল স্প্রিটের মধ্যে একটি ইয়ারার পরিচ্ছদ রয়েছে:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![স্ক্রিনশট](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ আপনার প্রোজেক্টে একটি পৃথক ইয়ারার স্প্রেট রয়েছে। এই স্প্রেটে ডান ক্লিক করুন এবং 'শো' চয়ন করুন। আপনার পর্যায়টি কীভাবে দেখানো উচিত এখানে:
+![screenshot](images/paint-eraser-costume.png)
 
-![স্ক্রিনশট](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ স্প্রেট ক্লিক করা হয় যখন একটি ইয়ারের সুইচ করতে পেন্সিল বলার জন্য, ইয়ারার স্প্রেড কোড যোগ করুন।
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![সম্প্রচার রবার](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-যখন পেন্সিল "ইরেজার" বার্তাটি পায়, তখন আপনি ইবারারের পেন্সিল পরিচ্ছদটিকে স্যুইচ করতে পারেন, এবং পেন্সিল রঙটি সাদা করতে পারেন - মঞ্চ হিসাবে একই রং!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ ইবারার তৈরি করতে কিছু কোড যোগ করুন
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- ইঙ্গিত \--- \--- ইঙ্গিত \--- পেনসিল স্প্রিটের কিছু কোড যোগ করুন: **যখন আমি** পেয়েছি **ইরেজার** বার্তার **পোশাকটি পরিবর্তন করুন** ইরেজার **সাদা রঙের** সেট করুন সাদা / \--- ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে কীভাবে পেন্সিল স্প্রেটের ভিতরে কোডটি দেখানো উচিত:
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-যখন আমি [ইজারার ভি] স্যুইচ পোশাকে [ইজারার ভি] থেকে [#FFFFFF] এ কলম সেট সেট করে পাই
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- / ইঙ্গিত \--- \--- / ইঙ্গিত \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ আপনার প্রকল্পটি পরীক্ষা করুন, দেখতে পারেন যে আপনি স্টেজটি মুছে ফেলতে এবং মুছে ফেলতে পারেন কিনা।
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![স্ক্রিনশট](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-পেন্সিলের সাথে আরেকটি সমস্যা আছে - আপনি স্টেজারে কোথাও আঁকতে পারেন, নির্বাচক আইকন কাছাকাছি!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![স্ক্রিনশট](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-এটি ঠিক করার জন্য, পেনসিলটি মাউস *এবং* এ ক্লিক করলে ড্রপ করতে বলুন যদি মাউসের y- অবস্থান -120 এর চেয়ে বড় হয়:
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![স্ক্রিনশট](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ আপনার প্রকল্প পরীক্ষা করুন; আপনি এখন নির্বাচক ব্লকের কাছাকাছি আঁকা যাবে না।
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![স্ক্রিনশট](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
