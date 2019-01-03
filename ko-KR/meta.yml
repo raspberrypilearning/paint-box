@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: images/banner.png
-theme: 보라색
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: 색칠 상자
-description: 나만의 색칠하기 프로그램을 만드는 법을 배웁니다.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: 미술
-technologies: 스크래치
-site_areas: 프로젝트
-hardware: ''
-software: 스크래치
-version: 3
-last_tested: 2017년 1월 1일
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: 들어가며
   - 
-    title: 준비물
+    title: Make a pencil
   - 
-    title: 연필 만들기
+    title: Coloured pencils
   - 
-    title: 색연필
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: 실수 해보기
+    title: Undo mistakes
   - 
-    title: 연필 두께 변경하기
+    title: Change the pencil width
   - 
-    title: '도전과제: 단축키'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: '도전과제: 더 많은 연필들'
+    title: 'What next?'
