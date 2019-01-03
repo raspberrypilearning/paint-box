@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## Izazov: prečice
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Da li možeš da napraviš prečice na tastaturi za svoje komande? Na primjer:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = promijeni u plavu olovku
-+ g = promijeni u zelenu olovku
-+ e = promijeni u gumicu
-+ c = obriši ekran
-
-Možeš čak i da omogućiš korisniku da mijenja debljinu olovke koristeći tastere sa strelicama.
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
