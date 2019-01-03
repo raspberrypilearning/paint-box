@@ -1,60 +1,56 @@
-## Cometer errores
+## Lápices de colores
 
-¡A veces se comenten errores, asi que vamos a añadir un botón de “limpiar” y una goma a nuestro proyecto!
+Vamos a añadir diferentes lápices de colores a tu proyecto y a permitir al usuario elegir entre ellos.
 
-+ Vamos a añadir un botón para limpiar el escenario. Para hacer esto, añade el objeto de la letra 'X-block' al escenario, y píntalo de rojo.
++ Haz clic en tu objeto lápiz, luego haz clic en 'Disfraces' y duplica el disfraz 'lápiz-azul'.
 
-	![screenshot](images/paint-x.png)
+![Captura de pantalla](images/paint-blue-duplicate.png)
 
-+ Añade este código a tu nuevo botón de cancelar para limpiar el escenario al presionarlo.
++ Cambia el nombre de tu nuevo disfraz a 'lápiz-verde' y cambia el color del lápiz a verde.
 
-	```blocks
-		al hacer clic en este objeto
-		borrar
-	```
+![Captura de pantalla](images/paint-pencil-green.png)
 
-	¡Fíjate que no necesitas enviar un mensaje para limpiar el escenario, ya que cualquier objeto puede hacerlo!
+[[[generic-scratch-rename-sprite]]]
 
-+ También puedes crear un borrador. Si el líder del club te ha dado una carpeta de “Recursos”, haz clic en “Cargar disfraz desde archivo” y añade la imagen “eraser.svg”.
++ Dibuja dos objetos más - un cuadrado azul y un cuadrado verde. Los usarás para seleccionar el lápiz de color azul o el lápiz de color verde.
 
-	![screenshot](images/paint-eraser-costume.png)
+![Captura de pantalla](images/paint-selectors.png)
 
-	¡Si no tienes la imagen eraser.svg, crea en su lugar un nuevo lápiz blanco!
++ Renombra tus objetos para que se llamen 'azul' y 'verde'
 
-+ También deberías añadir la imagen del borrador como un nuevo objeto selector. Tu escenario debería de parecerse a éste:
++ Añade código al objeto 'verde' de forma que cuando hagas clic encima de él `envíe`{:class="blockevents"} el mensaje 'verde' al objeto lápiz, indicándole que cambie su disfraz y su color.
 
-	![screenshot](images/paint-eraser-stage.png)
+![Enviar verde](images/paint-broadcast-green.png)
 
-+ A continuación puedes añadir este código al objeto selector borrador, para decirle al lápiz que se convierta en borrador.
+[[[generic-scratch-broadcast-message]]]
 
-	```blocks
-		al hacer clic en este objeto
-		enviar [borrador v]
-	```
++ Cambia al objeto lápiz. Añade código para que cuando este objeto reciba el mensaje `enviar`{:class="blockevents"} verde, cambie al disfraz de lápiz verde y cambie el color con el que dibuja el lápiz a verde.
 
-+ ¡Cuando el lápiz recibe este mensaje, puedes crear un borrador haciendo que se cambie el disfraz del lápiz al de borrador, y cambiando el color del lápiz al mismo color del escenario!
+![Enviar verde](images/broadcast-green.png)
 
-	```blocks
-		al recibir [borrador v]
-		cambiar disfraz a [borrador v]
-		fijar color de lápiz a [#FFFFFF]
-	```
+Para ajustar el color con el que dibuja el lápiz a verde, haz clic en el cuadrado de color del bloque `fijar color del lápiz a`{:class="blockpen"}, y luego haz clic en el objeto verde para elegir el mismo color verde que el de tu lápiz.
 
-+ Prueba tu proyecto para ver si puedes limpiar y borrar en el escenario.
++ Ahora puedes hacer lo mismo con el icono del lápiz azul: añade este código al objeto cuadrado azul:
 
-	![screenshot](images/paint-erase-test.png)
+```blocks
+al hacer clic en este objeto
+enviar [azul v]
+```
 
-+ Hay otro problema con el lápiz – puedes dibujar en cualquier parte del escenario, ¡incluso cerca de los íconos selectores!
+... y añade este código al objeto lápiz:
 
-	![screenshot](images/paint-draw-problem.png)
+```blocks
+al recibir [azul v]
+cambiar disfraz a [lápiz-azul v]
+fijar color de lápiz a [#0000ff]
+```
 
-	Para arreglar esto, tienes que decir al lápiz que sólo dibuje si se hace clic en el ratón _y_ si la posición y del ratón es mayor a -110 (`mouse y`{:class="blocksensing"}`> -120`{:class="blockoperators"}). Cambia la instrucción `si`{:class="blockcontrol"} de tu lápiz para que sea como ésta:
++ Para acabar, añade este código para decirle al objeto lápiz el color que tiene al inicio y para realizar un borrado de la pantalla.
 
-	![screenshot](images/pencil-gt-code.png)
+![Lápiz inicial](images/start-pencil.png)
 
-+ Prueba tu proyecto. Ahora no deberías poder dibujar cerca de los bloques selectores.
+Hemos elegido el color azul para empezar, pero si quieres, puedes cambiarlo por un color de lápiz distinto.
 
-	![screenshot](images/paint-fixed.png)
++ Prueba tu proyecto. ¿Puedes cambiar entre los objetos lápiz azul y verde haciendo clic encima de los objetos cuadrado azul y verde?
 
-
-
+![Captura de pantalla](images/paint-pens-test.png)

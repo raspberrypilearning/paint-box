@@ -1,74 +1,44 @@
-## Stylos colorés
+## Faire un crayon
 
-Ajoutons des stylos de différentes couleurs à votre projet et permettons à l'utilisateur de choisir entre ceux-ci!
+Commençons par faire un crayon qui peut être utilisé pour dessiner sur la scène.
 
-+  Cliquez sur votre lutin de crayon, cliquez sur l'onglet 'Costumes' et dupliquez votre 'costume' de crayon bleu.
++ Ouvre le projet Scratch 'Paintbox' en ligne sur [rpf.io/paint-go-fr-FR](http://rpf.io/paint-go-fr-FR){:target="_blank"} ou télécharge-le depuis <http://rpf.io/paint-get-fr-FR>{:target="_blank"}, puis ouvre-le si tu utilises l'éditeur hors ligne.
 
-	![screenshot](images/paint-blue-duplicate.png)
+Tu verras les lutins du crayon et de la gomme :
 
-+ Renommez votre nouveau costume ' crayon vert ' et colorez le crayon en vert.
+![capture d'écran](images/paint-starter.png)
 
-	![screenshot](images/paint-pencil-green.png)
++ Ajoute du code au lutin du crayon pour lui faire suivre la souris `pour toujours`{:class="blockcontrol"} pour que tu puisses dessiner :
 
-+ Créez deux nouveaux lutins que vous utiliserez pour sélectionner le crayon bleu ou vert.
+```blocks
+    quand le drapeau vert pressé
+répéter indéfiniment
+   aller à [pointeur de souris v]
+fin
+```
 
-	![screenshot](images/paint-selectors.png)
++ Clique sur le drapeau vert, puis déplace la souris sur la scène pour tester si le code fonctionne.
 
-+ Quand l'icône de sélecteur verte est cliquée, vous devrez `envoyer à tous`{:class="blockevents"} un message au lutin de crayon en lui disant de changer son costume et la couleur du crayon.
+Ensuite, faisons en sorte que ton crayon ne dessine que `si`{:class="blockcontrol"} le bouton gauche de la souris est enfoncé.
 
-	Pour faire cela, ajoutez ce code à l'icône de sélecteur verte:
++ Ajoute ce code à ton lutin de crayon :
 
-	```blocks
-		quand ce lutin est cliqué
-		envoyer à tous [green v]
-	```
+![capture d'écran](images/paint-pencil-draw-code.png)
 
-	Afin de créer le bloc `envoyer à tous`{:class="blockevents"}, cliquez sur la flèche du bas et séléctionnez ' nouveau message ... '.
++ Teste ton code à nouveau. Cette fois, déplace le crayon sur la scène et maintiens le bouton gauche de la souris enfoncé. Peux-tu dessiner avec ton crayon ?
 
-	![screenshot](images/paint-broadcast.png)
+![capture d'écran](images/paint-draw.png)
 
-	Vous pouvez alors taper 'vert' pour créer votre nouveau message.
+--- collapse ---
+---
+title: Si tu as des problèmes ...
+---
+Si ton crayon semble dessiner depuis son milieu plutôt que de sa pointe, tu devrais changer le centre du costume.
 
-	![screenshot](images/paint-green-message.png)
+![Centre de costume](images/costume-center.png)
 
-+ Vous devez maintenant dire à votre lutin de crayon quoi faire lorsqu'il reçoit le message. Ajoutez ce code à votre lutin de crayon:
+Le pointeur du crayon doit être placé **juste en dessous** de la pointe du crayon, pas sur la pointe du crayon.
 
-	```blocks
-		quand je reçois [green v]
-		basculer sur costume [pencil-green v]
-		mettre la couleur du stylo à [#00ff00]
-	```
+Un changement dans le centre du costume d'un lutin n'est pas enregistré tant qu'un autre onglet n'est pas cliqué, alors clique sur un autre costume, ou sur l'onglet 'Scripts' pour finaliser tes changements de centre de costume.
 
-	Pour faire colorier le crayon en vert, cliquez sur la boîte colorée dans le bloc `choisir la couleur`{:class="blockpen"}, cliquez sur l'icône de sélecteur verte pour choisir vert comme couleur de crayon.
-
-+ Vous pouvez maintenant faire la même chose pour l'icône du crayon bleu en ajoutant ce code au lutin de sélecteur bleu:
-
-	```blocks
-		quand ce lutin est cliqué
-		envoyer à tous [blue v]
-	```
-
-	...Et ajoutant ce code au lutin de crayons :
-
-	```blocks
-		quand je reçois [blue v]
-		basculer sur costume [pencil-blue v]
-		mettre la couleur du stylo à [#0000ff]
-	```
-
-+ Quand votre projet est commencé, ajoutez ce code au début du crayon `Quand le drapeau pressé`{:class="blockevents"} (avant la boucle `répéter indéfiniment`{:class="blockcontrol"}):
-
-	```blocks
-		effacer tout
-		basculer sur costume [blue-pencil v]
-		mettre la couleur du stylo à [#0000ff]
-	```
-
-	Si vous préférez, vous pouvez commencer par un crayon de couleur différente!
-
-+ Testez votre projet. Pouvez-vous changer entre des stylos bleus et verts ?
-
-	![screenshot](images/paint-pens-test.png)
-
-
-
+--- /collapse ---

@@ -1,36 +1,24 @@
 ## Introducción
 
-¡En este proyecto, vas a crear tu propio programa para pintar!
+¡Haz tu propio programa de dibujo!
+
+### Lo que harás
+
+Haz clic en la bandera verde para empezar. Usa el ratón para mover el lápiz y presiona el botón izquierdo del ratón para dibujar. Haz clic en un color para cambiar el color o haz clic en la goma para borrar. Para borrar la página haz clic en la equis.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
-  <img src="paint-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/249777944/?autostart=false" frameborder="0"></iframe>
+  <img src="images/paint-final.png">
 </div>
 
-## Recursos
-Para este proyecto se debería de utilizar Scratch 2. Scratch 2 puede usarse en línea en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o puede descargarse desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) y usarse sin estar conectado.
+### Lo que aprenderás
 
-La versión completa de este proyecto se puede encontrar  <a href="http://scratch.mit.edu/projects/63473366/#editor">online</a>, o se puede descargar haciendo clic en el enlace “Descargar materiales del proyecto”, que contiene:
+Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ PaintBox.sb2
++ [Combinar estructuras de programación básicas para resolver un problema](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-También existe una versión de este proyecto con los recursos externos ya cargados. La misma está disponible en línea en [jumpto.cc/paintbox-resources](http://jumpto.cc/paintbox-resources), o en los materiales descargables del proyecto, que contienen:
+### Información adicional para los educadores
 
-+ PaintBoxResources.sb2 
+Si necesita/s imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/paint-box/print){:target="_blank"}.
 
-Este enlace también incluye una carpeta de “Recursos del Proyecto”, que contiene imágenes que la clase necesitará para completar este proyecto. Toda la clase debería tener acceso a una copia de estos recursos.
-
-Recursos del proyecto:
-+ eraser.svg
-
-## Objetivos de aprendizaje
-+ Importar imágenes;
-+ Operadores relacionales y booleanos (`>`{:class="blockoperators"} & `y`{:class="blockoperators"});
-+ Envío de mensajes entre los objetos.
-
-## Desafíos
-+ "Accesos directos" - Utilizar eventos `presionar tecla`{:class="blocksensing"} para enviar mensajes;
-+ "Más lápices" – Añadir más colores de lápices, para consolidar el aprendizaje del envío de mensajes.
-
-## Preguntas frecuentes
-+ Los cambios en el “centro del disfraz” de un objeto no se guardan hasta que no se hace clic en otra pestaña. Es necesario que se haga clic en otro disfraz, o en la pestaña “Programas” para guardar los cambios del centro del disfraz.
+Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluyendo un ejemplo del proyecto terminado) en la carpeta 'es-ES/resources'.

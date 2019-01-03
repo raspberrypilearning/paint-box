@@ -1,26 +1,18 @@
+title: Paint box
 hero_image: images/banner.png
-theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Paint Box
-description: Learn how to make your own paint program.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps: 
 - title: Introduction
-- title: What you will need
-- title: Making a pencil
+- title: Make a pencil
 - title: Coloured pencils
-- title: Making mistakes
-- title: Changing the pencil width
 - title: 'Challenge: shortcuts'
+  challenge: true
+- title: Undo mistakes
+- title: Change the pencil width
 - title: 'Challenge: more pencils'
+  challenge: true
+- title: 'What next?'

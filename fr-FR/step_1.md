@@ -1,40 +1,24 @@
 ## Introduction
 
-Dans ce projet, vous allez créer votre propre programme de peinture!
+Dans ce projet, Tu vas créer ton propre programme de peinture !
+
+### Ce que tu feras
+
+Clique sur le drapeau vert pour démarrer. Utilise la souris pour bouger le crayon et maintiens le bouton gauche de la souris enfoncé pour dessiner. Clique sur une couleur pour changer de crayon ou clique sur la gomme et utilise la pour effacer ton travail. Pour effacer la page, clique sur la croix.
 
 <div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
- <img src="images/paint-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/249784795/?autostart=false" frameborder="0"></iframe>
+  <img src="images/paint-final.png">
 </div>
 
-## Les ressources 
+### Ce que tu vas apprendre
 
-Pour ce projet,scratch 2 devrait être utilisé. Scratch 2 peut ou être utilisée en ligne [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ou peut être téléchargé de [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) et utilisé hors connexion.
+Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-Vous pouvez trouver une version complétée de ce projet <a href="http://scratch.mit.edu/projects/63473366/#editor">online</a>, ou il peut être téléchargé en cliquant de ' le lien des Matériels de Projet de Téléchargement pour ce projet, qui contient :
++ [Combiner des éléments de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-+ PaintBox.sb2
+### Informations supplémentaires pour les éducateurs
 
-Il y a aussi une version de ce projet avec les ressources externes préchargées. Ceci est disponible en ligne à [jumpto.cc/paintbox-resources](http://jumpto.cc/paintbox-resources), ou dans les matériels téléchargeables de projet, qui contiennent :
+Si tu as besoin d'imprimer ce projet, merci d'utiliser la [ Version imprimable ](https://projects.raspberrypi.org/fr-FR/projects/paint-box/print){:target="_blank"}.
 
-+ PaintBoxResources.sb2
-
-Ce lien inclut aussi un dossier de 'Ressources de Projet' , qui contient des images que les enfants devront compléter. Assurez-vous que chaque enfant a l'accès à une copie de ces ressources.
-
-Ressources de projet :
-+ eraser.png
-
-## Objectifs d'apprentissage
-
-+ Images d'importation;
-+ Opérateurs relationnels et booléens (`>`{:class="blockoperators"} et `et`{:class="blockoperators"});
-+ Radiodiffusion entre elfes.
-
-## Défis
-
-+ "Les raccourcis" - Utilisant `la touche appuyer`{:class="blocksensing"} des événements pour émettre des messages;
-+ "Plus de stylos" - Ajoutant plus de couleurs de stylo, pour consolider l'apprentissage de messages diffusants.
-
-## Questions fréquemment posées
-
-+ Les changements du centre de costume ' d'un lutin ' ne sont pas enregistrés avant qu'une autre onglet ne soit cliquée. Les enfants devraient cliquer sur un autre costume, ou sur l'onglet ' Scénarios ' pour finaliser des changements au centre de costume.
+Utilise le lien en pied de page pour accéder au dépot GitHub de ce projet, qui contient toutes les ressources (y compris un exemple du projet terminé) dans le dossier 'fr-FR/resources'.

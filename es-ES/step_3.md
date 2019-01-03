@@ -1,74 +1,44 @@
-## Lápices de colores
+## Hacer un lápiz
 
-¡Vamos a añadir lápices de colores diferentes a tu proyecto, y vamos a hacer que el usuario pueda elegir entre ellos!
+Comencemos haciendo un lápiz que se pueda usar para dibujar en el escenario.
 
-+ Haz clic en el objeto lápiz, haz clic en “Disfraces” y duplica el disfraz “lápiz-azul”.
++ Abre el proyecto 'Paintbox' de Scratch online en [rpf.io/paint-go-es-ES](http:/rpf.io/paint-go-es-ES){:target="_blank"} o descárgalo primero de <http://rpf.io/paint-get-es-ES>{:target="_blank"} y ábrelo luego en tu editor offline.
 
-	![screenshot](images/paint-blue-duplicate.png)
+Verás objetos lápiz y goma de borrar:
 
-+ Renombra el nuevo disfraz “lápiz-verde”, y pinta el lápiz de color verde.
+![Captura de pantalla](images/paint-starter.png)
 
-	![screenshot](images/paint-pencil-green.png)
++ Añade algo de código al objeto del lápiz para que siga el movimiento del ratón `por siempre`{:class="blockcontrol"} para que puedas dibujar:
 
-+ Crea dos objetos nuevos, que usarás para seleccionar el lápiz azul o el verde.
+```blocks
+    al presionar bandera verde
+por siempre 
+  ir a [puntero del ratón v]
+fin
+```
 
-	![screenshot](images/paint-selectors.png)
++ Haz clic en la bandera y luego mueve el ratón por el escenario para comprobar si el código funciona.
 
-+ Al hacer clic en el selector verde, necesitas `enviar`{:class="blockevents"} un mensaje al objeto lápiz, diciéndole que tiene que cambiar su disfraz y color de lápiz.
+Ahora vamos a hacer que tu lápiz solo dibuje `si`{:class="blockcontrol"} haces clic con el ratón.
 
-	Para hacer esto, primero añade este código al objeto selector verde:
++ Añade este código a tu objeto lápiz:
 
-	```blocks
-		al hacer clic en este objeto
-		enviar [Verde v]
-	```
+![Captura de pantalla](images/paint-pencil-draw-code.png)
 
-	Para crear el bloque `enviar`{:class="blockevents"}, haz clic en la flecha hacia abajo y selecciona “nuevo mensaje…”.
++ Vuelve a probar tu código. Esta vez, mueve el lápiz por el escenario y mantén presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
 
-	![screenshot](images/paint-broadcast.png)
+![Captura de pantalla](images/paint-draw.png)
 
-	Luego puedes escribir “Verde” para crear tu nuevo mensaje.
+--- collapse ---
+---
+title: Si tienes problemas...
+---
+Si parece que el lápiz está dibujando la línea con el centro del lápiz en vez de con la punta, tienes que cambiar el centro del disfraz.
 
-	![screenshot](images/paint-green-message.png)
+![Centro del disfraz](images/costume-center.png)
 
-+ Ahora necesitas decirle a tu objeto lápiz qué tiene que hacer cuando recibe el mensaje. Añade este código al objeto lápiz:
+La cruz del lápiz debe colocarse **justo debajo** de la punta del lápiz, no encima de la punta del lápiz.
 
-	```blocks
-		al recibir [Verde v]
-		cambiar disfraz a [lápiz-verde v]
-		fijar color de lápiz a [#00ff00]
-	```
+Los cambios en el 'centro de un disfraz' no quedan registrados hasta que se haga clic en otra pestaña, o sea que haz clic en otro disfraz o en la pestaña 'Programas' para guardar los cambios hechos en el centro del disfraz.
 
-	Para hacer que el lápiz pinte de color verde, haz clic en el recuadro de color del bloque `fijar color`{:class="blockpen"}, y haz clic en el icono selector verde para escoger el verde como el color para tu lápiz.
-
-+ Ahora puedes hacer lo mismo para el lápiz azul, añadiendo este código al objeto selector azul:
-
-	```blocks
-		al hacer clic en este objeto
-		enviar [Azul v]
-	```
-
-	...y añade este código al objeto lápiz:
-
-	```blocks
-		al recibir [Azul v]
-		cambiar disfraz a [lápiz-azul v]
-		fijar color de lápiz a [#0000ff]
-	```
-
-+ Por último, necesitas decirle al objeto lápiz qué disfraz y color de lápiz elegir, y limpiar la pantalla cuando empieza tu proyecto. Añade este código al objeto lápiz, al principio del código `al presionar bandera verde`{:class="blockevents"} (antes del bucle `por siempre`{:class="blockcontrol"}):
-
-	```blocks
-		borrar
-		cambiar disfraz a [lápiz-azul v]
-		fijar color de lápiz a [#0000ff]
-	```
-
-	Si lo prefieres, ¡puedes empezar con un color de lápiz diferente!
-
-+ Prueba tu proyecto. ¿Puedes cambiar entre los lápices azul y verde?
-
-	![screenshot](images/paint-pens-test.png)
-
-
-
+--- /collapse ---
