@@ -1,33 +1,25 @@
-## Changer l'épaisseur du trait
+## Change the pen width
 
-Permettons à l'utilisateur de dessiner en utilisant une gamme de largeurs de traits différentes.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ D'abord, ajoute une nouvelle variable appelée `largeur` {:class="blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Ajoute cette ligne *à l'intérieur* de la boucle `pour toujours `{:class="blockcontrol"} du code du lutin crayon :
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    mettre la taille du stylo à (largeur)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-L'épaisseur du trait du stylo sera maintenant toujours liée à la valeur de la variable 'largeur'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Fais un clic droit sur l'affichage de la variable "largeur" sur la scène et clique sur "potentiomètre".
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![capture d'écran](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Tu peux maintenant faire glisser le curseur sous la variable pour changer sa valeur.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![capture d'écran](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Teste ton projet et vois si tu peux modifier l'épaisseur du trait du crayon.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![capture d'écran](images/paint-width-test.png)
-
-Si tu préfères, tu peux définir la valeur minimale et maximale de «largeur» autorisée. Pour ce faire, clique à nouveau sur la variable avec le bouton droit de la souris et clique sur "Définir le min et le max du curseur". Définissez les valeurs minimum et maximum de votre variable à quelque chose de plus judicieux, comme 1 et 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Continue à tester ta variable "largeur" ​​jusqu'à ce que tu sois satisfait.
+![screenshot](images/paint-width-test.png) \--- /task \---
