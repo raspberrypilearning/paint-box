@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## Desafío: atajos
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-¿Puedes crear un atajo de teclado para tus comandos? Por ejemplo:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ a = Cambiar al lápiz azul
-+ v = Cambiar al lápiz verde
-+ g = Cambiar a la goma de borrar
-+ c = limpiar la pantalla
-
-Puedes incluso permitir al usuario cambiar el ancho del lápiz con las flechas del teclado.
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
