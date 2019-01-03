@@ -1,33 +1,25 @@
-## Qələmin genişliyini dəyişdirmək
+## Change the pen width
 
-Istifadəçi bir sıra müxtəlif qələm ölçmələrindən istifadə etməyə icazə verək.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Birincisi, `width`{: class = "blockvariable"} adlı yeni bir dəyişən əlavə edin.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Bu xətt *daxilində* daxil `daimi`{: class = "blockcontrol"} qələm kodunun loopu:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    qələm ölçüsünü təyin etmək (genişlik)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Qələm genişliyi artıq 'width' dəyişəninin dəyəri ilə dəfələrlə müəyyən ediləcək.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Səhnədə dəyişkən ekrana sağ basın və "sürüşdürmə" düyməsini basın.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![ekran görüntüsü](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-İndi dəyərini dəyişmək üçün dəyişənin alt hissəsini sürüşdürə bilərsiniz.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![ekran görüntüsü](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Layihənizi test edin və qələm genişliyini dəyişdirə biləcəyinizə baxın.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![ekran görüntüsü](images/paint-width-test.png)
-
-İsterseniz, icazə verilən 'genişlik' minimum və maksimum dəyərini təyin edə bilərsiniz. Bunu etmək üçün, dəyişənə yenidən basın və 'slider min və max' düyməsini basın. Değişkeninizin minimum və maksimum dəyərlərini 1 və 20 kimi daha həssas bir şeyə qoyun.
-
-![ekran görüntüsü](images/paint-slider-max.png)
-
-Mutlu olduğunuza qədər 'width' dəyişənini test edin.
+![screenshot](images/paint-width-test.png) \--- /task \---
