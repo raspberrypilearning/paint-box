@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: images / banner.png
-theme: bənövşəyi
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, dizayn-0, proqramlaşdırma-1, phys-comp-0, istehsal-0, icma-0
-title: Paint Box
-description: Öz boya proqramınızı necə etmək barədə məlumat əldə edin.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: incəsənət
-technologies: cızıq
-site_areas: layihələr
-hardware: ''
-software: cızıq
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: Giriş
   - 
-    title: Nə lazımdır?
+    title: Make a pencil
   - 
-    title: Qələm edilməsi
+    title: Coloured pencils
   - 
-    title: Rəngli qələmlər
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: Səhv etmək
+    title: Undo mistakes
   - 
-    title: Qələmin genişliyini dəyişdirmək
+    title: Change the pencil width
   - 
-    title: 'Çağırış: qısa yollar'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'Çağırış: daha çox qələm'
+    title: 'What next?'
