@@ -1,14 +1,10 @@
-\--- вызов \---
+## Challenge: keyboard commands
 
-## Задача: ярлыки
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Можете ли вы создавать быстрые клавиши для ваших команд? Например:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = Переключиться на синюю ручку
-+ g = переключиться на зеленую ручку
-+ e = переключиться на ластик
-+ c = прозрачный экран
-
-Вы даже можете позволить пользователю изменять ширину пера с помощью клавиш со стрелками.
-
-\--- /вызов \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
