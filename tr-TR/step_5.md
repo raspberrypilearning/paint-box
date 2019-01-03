@@ -1,53 +1,51 @@
-## Hata yapmak
+## Undo mistakes
 
-Bazen hatalar olur, o zaman bir 'temiz' düğmesi ve bir silgi ekleyelim.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ 'X-blok' hareketli grafiğini ekleyin - kütüphanede harflerin içinde bulabilirsiniz. Kostümleri kırmızıya boyayın. Bu 'açık' butona dönüşecek.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![ekran görüntüsü](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Tıklandığında sahneyi temizlemek için bu hareketli grafiğe kod ekleyin.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Temizle sahne](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-Sahneyi temizlemek için bir mesaj göndermeniz gerekmediğine dikkat edin, bu bloktan net bloğu kullanabilirsiniz.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-Muhtemelen kalem kaleminizin bir silgi kostümü içerdiğini fark ettiniz:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![ekran görüntüsü](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ Projeniz ayrıca ayrı bir silgi sprite içerir. Bu hareketli grafiğe sağ tıklayın ve 'show' seçeneğini seçin. Sahnenin nasıl göründüğü şöyle:
+![screenshot](images/paint-eraser-costume.png)
 
-![ekran görüntüsü](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ Sprite tıklandığında kalemin silgiye geçmesini söylemek için silgi grafiğine kod ekleyin.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![Yayın silgisi](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-Kalem "silgi" mesajını aldığında, kalem kostümü silgiye geçebilir ve kalem rengini beyaza dönüştürebilir - sahne ile aynı renkte!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ Silgi oluşturmak için biraz kod ekleyin
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- ipuçları \--- \--- ipucu \--- kalem sprite bazı kod ekleyin: **** aldığım zaman **silgi** mesaj **kostüm** silgi **ayarla kalem rengi** beyaz \--- / ipucu \--- \--- ipucu \--- İşte kalem sprite içindeki kod nasıl görünmelidir:
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-[eraser v] anahtarını [eraser v] ürününe aldığımda kalem rengini [#FFFFFF] olarak ayarladım
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- / ipucu \--- \--- / ipuçları \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ Sahneyi temizleyip silip atamayacağınızı görmek için projenizi test edin.
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![ekran görüntüsü](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-Kalemle bir sorun daha var - seçici simgelerin yakınında dahil, sahnenin herhangi bir yerinde çizim yapabilirsiniz!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![ekran görüntüsü](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-Bunu düzeltmek için, yalnızca farenin y-konumu -120'den büyükse fare *ve* tıklandığında çizin.
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![ekran görüntüsü](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ Projenizi test edin; Şimdi seçici blokların yakınında çizemezsiniz.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![ekran görüntüsü](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
