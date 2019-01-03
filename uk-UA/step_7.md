@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## Завдання: клавіші швидкого доступу
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Чи можете ви створювати комбінації клавіш для своїх команд? Наприклад:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = переключити на синю ручку
-+ g = переключитися на зелену ручку
-+ e = переключитися на гумку
-+ c = очистити екран
-
-Ви навіть можете дозволити користувачеві змінити ширину ручки за допомогою клавіш зі стрілками.
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
