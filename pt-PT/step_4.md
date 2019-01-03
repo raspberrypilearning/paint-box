@@ -1,56 +1,7 @@
-## Lápis coloridos
+## Challenge: more pencils
 
-Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador escolher entre eles.
+Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-+ Clica no teu actor 'lápis', clica em 'Trajes' e duplica o teu traje de 'lápis-azul'.
+Can you use your pencils to draw a picture?
 
-![screenshot](images/paint-blue-duplicate.png)
-
-+ Renomeia o teu novo traje para 'lápis-verde' e pinta o lápis de verde.
-
-![screenshot](images/paint-pencil-green.png)
-
-[[[generic-scratch-rename-sprite]]]
-
-+ Desenha dois novos actores - um quadrado azul e um quadrado verde. Vais usá-los para selecionar o lápis azul ou verde.
-
-![screenshot](images/paint-selectors.png)
-
-+ Renomeia os teus actores para que eles sejam chamados de "azul" e "verde"
-
-+ Adiciona algum código ao actor 'verde' para que quando ele for clicado, seja ` difundida a mensagem` {: class = "blockevents"} "verde" para o actor lápis, dizendo-lhe para mudar as cores de traje e lápis.
-
-![Broadcast green](images/paint-broadcast-green.png)
-
-[[[generic-scratch-broadcast-message]]]
-
-+ Muda para o teu actor de lápis. Adiciona código para que quando este actor receber a `difusão da mensagem ` {: class = "blockevents"} verde, ele mude para o traje de lápis verde e mude a cor da caneta para verde.
-
-![Broadcast green](images/broadcast-green.png)
-
-Para definir o lápis de cor para verde, clica na caixa colorida no bloco ` altera a cor da tua caneta para ` {: class = "blockpen"}, e clica no actor verde para escolher a mesma cor verde como a cor do teu lápis.
-
-+ Podes agora fazer o mesmo com o ícone do lápis azul: adiciona este código ao actor quadrado azul:
-
-```blocks
-quando alguém clicar em ti
-difunde a mensagem [azul v]
-```
-
-... e adiciona este código ao actor lápis:
-
-```blocks
-quando receberes a mensagem [azul v] 
-muda o teu o traje para [lápis-azul v] 
-altera a cor da tua caneta para [# 0000ff]
-```
-
-+ Por fim, adiciona este código para informar ao actor lápis com que cor começar e assegurar que a tela está limpa.
-
-![Start pencil](images/start-pencil.png)
-
-Escolhemos começar com o azul, mas se preferires, podes começar com um lápis de cor diferente.
-
-+ Testa o teu projeto. Consegues alternar entre canetas azuis e verdes clicando nos actores quadrado azul ou verde?
-
-![screenshot](images/paint-pens-test.png)
+![screenshot](images/paint-final.png)
