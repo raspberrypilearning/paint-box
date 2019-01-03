@@ -1,55 +1,51 @@
-## 실수 해보기
+## Undo mistakes
 
-언제든 실수는 할 수 있죠, 그러니 '다 지우기' 버튼과 지우개를 추가 해 봅시다.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ 'X표시' 스프라이트를 추가하세요. 저장소의 글자들 섹션에서 찾을 수 있습니다. 모양을 빨간색으로 바꿔 주세요. 이게 '다 지우기' 버튼이 될 것입니다.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![screenshot](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ 이 버튼을 누르면 무대를 전부 지우도록 코드를 추가 해 봅시다.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Clear stage](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-무대를 지우기 위해 메세지를 보낼 필요는 없어요. 그냥 '지우기' 블럭을 사용하면 됩니다.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-아마도 연필 스프라이트가 지우개 모양을 포함하고 있음을 눈치 챘을거에요.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+
+Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ 프로젝트에는 별도의 지우개 스프라이트가 포함되어 있습니다. 이 스프라이트를 우클릭하고 '보이기'를 선택합니다. 이제 무대는 다음처럼 보여야 합니다:
+Your project also includes a separate eraser sprite.
 
-![screenshot](images/paint-eraser-stage.png)
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-+ 지우개 스프라이트가 클릭되면 연필이 지우개로 바뀔 수 있도록 코드를 추가합시다.
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-![Broadcast eraser](images/broadcast-eraser.png)
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-연필이 "지우개" 메세지를 받으면, 연필의 모양을 지우개로 바꾸고, 연필의 색을 스테이지 색과 똑같이 흰색으로 바꿔줍시다.
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-+ 지우개를 만들기 위해 몇가지 코드 추가하기
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- hints \--- \--- hint \--- 연필 스프라이트에 몇가지 코드를 더 추가합시다: **지우개** **수신할 때** **모양을** 지우개로 바꾸기 **펜 색깔을** 흰색으로 정하기 \--- /hint \--- \--- hint \--- 이제 연필 스프라이트의 코드는 다음과 같이 보여야 합니다:
+\--- task \--- Add some code to create the eraser.
 
-```blocks
-[지우개 v] 을\(를\) 받았을 때
-모양을 [지우개 v] \(으\)로 바꾸기
-펜 색깔을 [#FFFFFF] \(으\)로 정하기
-```
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- /hint \--- \--- /hints \---
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-+ '다 지우기'와 지우개가 잘 동작하는지 프로젝트를 테스트 해 봅시다.
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-![screenshot](images/paint-erase-test.png)
-
-연필에 관련 된 문제가 하나 더 있어요! 스테이지의 어디든 그릴 수 있기 때문에, 색깔 선택 아이콘 근처에도 그릴 수 있습니다.
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
 ![screenshot](images/paint-draw-problem.png)
 
-이걸 해결하려면, 마우스 버튼이 눌려있고, *그리고* 만약 마우스의 y-위치가 -120보다 클 때만 그리도록 하면 됩니다.
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![screenshot](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ 프로젝트를 테스트 해 보세요. 이제는 색깔 선택 박스 위치 근처에는 그릴 수 없어야 합니다.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
