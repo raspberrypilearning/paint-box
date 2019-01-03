@@ -1,41 +1,57 @@
-## पेन्सिल तयार करणे
+## Coloured pencils
 
-चला एक पेन्सिल बनवून सुरुवात करू ज्याचा उपयोग स्टेजवर काढण्यासाठी केला जाऊ शकतो.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ ऑनलाइन 'Paintbox' ओरखडा प्रकल्प उघडा [jumpto.cc/paint-go](http://jumpto.cc/paint-go){: target = "_ blank"} किंवा डाउनलोड <http://jumpto.cc/paint-get>{: target = "_ blank"} आपण ऑफलाइन संपादकाचा वापर करत असल्यास आणि नंतर तो उघडा.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-आपण पेन्सिल आणि इरेजर स्प्रीट पहाल:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![स्क्रीनशॉट](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ त्यास माऊस `कायमचे`{: class = "blockcontrol"} चा वापर करण्यासाठी काही कोड पेन्सिल स्प्रीटमध्ये जोडा जेणेकरून आपण हे करू शकता:
+![स्क्रीनशॉट](images/paint-pencil-green.png)
 
-```blocks
-    जेव्हा ध्वज कायमचा क्लिक केला [माऊस पॉइन्टर विरुद्ध] शेवटचा झाला
-```
+\--- /task \---
 
-+ ध्वज क्लिक करा आणि त्यानंतर कोड कार्यरत आहे किंवा नाही हे तपासण्यासाठी स्टेजच्या भोवताली माउस हलवा.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-पुढे, आपल्या पेन्सिल फक्त काढू करु `तर`माऊस क्लीक केले आहे: {class = "blockcontrol"}.
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ आपल्या पेन्सिल स्प्रीटमध्ये हा कोड जोडा:
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![स्क्रीनशॉट](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ आपल्या कोडची पुन्हा चाचणी घ्या. या वेळी, स्टेजच्या सभोवती पेन्सिल हलवा आणि माऊस बटण दाबून ठेवा. आपण आपल्या पेन्सिल सह काढता येईल?
+\--- /task \---
 
-![स्क्रीनशॉट](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- संकुचित \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## शीर्षक: आपल्याला समस्या येत असल्यास ...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-आपली पेन्सिल पेन्सिलच्या मध्यापासून ओळीच्या टाईपऐवजी रेखांकन करीत असेल तर आपल्याला आपला कॉन्ट्रेप सेंटर बदलण्याची आवश्यकता असेल.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![वेशभूषा केंद्र](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-पेन्सिल साठी crosshair स्थीत करणे आवश्यक आहे **फक्त खालील** पेन्सिल टीप नाही, पेन्सिल टीप.
+![pencil](images/pencil.png)
 
-दुसर्या टॅबवर क्लिक होईपर्यंत प्रेतच्या 'कॉस्ट्यूम सेंटर' मध्ये केलेले बदल नोंदणीकृत नाहीत, म्हणून पोशाख केंद्रांवरील आपले बदल अंतिम रूप देण्यासाठी दुसरी वेशभूषा वर क्लिक करा किंवा 'स्क्रिप्ट' टॅबवर क्लिक करा.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- / संकुचित \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
