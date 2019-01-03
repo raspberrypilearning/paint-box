@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## 도전과제: 단축키
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-명령에 대한 단축키를 만들 수 있나요? 예를 들면:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = 파란색 펜으로 전환
-+ g = 녹색 펜으로 전환
-+ e = 지우개로 전환
-+ c = 화면 지우기
-
-방향키로 펜의 두께를 조절할 수 있도록 만들어 줄 수도 있겠죠!
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
