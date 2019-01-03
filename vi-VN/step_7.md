@@ -1,14 +1,10 @@
-\--- thử thách \---
+## Challenge: keyboard commands
 
-## Thách thức: phím tắt
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Bạn có thể tạo các phím tắt cho lệnh của mình không? Ví dụ:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = Chuyển sang bút màu xanh
-+ g = chuyển sang bút màu xanh lá cây
-+ e = chuyển sang tẩy
-+ c = màn hình rõ ràng
-
-Bạn thậm chí có thể cho phép người dùng thay đổi chiều rộng bút bằng các phím mũi tên.
-
-\--- /thử thách \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
