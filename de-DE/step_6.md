@@ -1,33 +1,25 @@
-## Stiftbreite ändern
+## Change the pen width
 
-Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Füge zuerst eine neue Variable namens `Dicke`{:class='blockvariable':} hinzu.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Füge diese Zeile *innerhalb* der `wiederhole fortlaufend`{:class='blockcontrol':} Schleife vom Stift ein:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    setze Stiftdicke auf (Dicke)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Die Stift-Dicke wird nun immer wieder auf den Wert der 'Dicke'-Variablen gesetzt.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Klicke mit der rechten Maustaste auf die Variablen-Anzeige auf der Bühne und klicke auf 'Schieberegler'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Jetzt kannst du den Schieberegler unter der Variablen ziehen, um den Wert zu verändern.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Teste dein Projekt und sieh, ob du die Stift-Dicke verändern kannst.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png)
-
-Wenn du möchtest, kannst du die erlaubten Mindest- und Maximal-Werte für 'Dicke' festlegen. Dazu klickst du nochmals mit der rechten Maustaste auf die Variable und klickst auf 'Reglerbereich festlegen'. Setze die Mindest- und Maximal-Werte auf etwas passenderes, wie 1 und 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Teste deine Dicken-Variable bis du zufrieden bist.
+![screenshot](images/paint-width-test.png) \--- /task \---
