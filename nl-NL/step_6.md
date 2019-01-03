@@ -1,33 +1,25 @@
-## De potlooddikte wijzigen
+## Change the pen width
 
-Laten we het mogelijk maken dat de gebruiker kan kiezen uit een reeks verschillende potlooddiktes.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Voeg eerst een nieuwe variabele toe met de naam ` breedte ` {:class="blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Voeg deze regel * toe * aan het ` herhaal ` {:class="blockcontrol"} blok van de potloodcode:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    maak pendikte (breedte)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-De potloodbreedte wordt nu steeds ingesteld op de waarde van de variabele 'breedte'.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Klik in het speelveld met de rechtermuisknop op de weergave van de breedte en klik op 'schuif'.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Je kunt nu de schuifregelaar onder de variabele verslepen om de waarde te wijzigen.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test je project en kijk of je de potloodbreedte kunt wijzigen.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png)
-
-Als je wilt, kunt je de minimum- en maximumwaarde van 'breedte' instellen. Klik hiertoe met de rechtermuisknop op de variabele en klik op 'stel min en max van schuif in'. Stel de minimum- en maximumwaarden van je variabele in op iets dat beter is, zoals 1 en 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Blijf je variabele 'breedte' testen totdat je tevreden bent.
+![screenshot](images/paint-width-test.png) \--- /task \---
