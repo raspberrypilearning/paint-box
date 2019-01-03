@@ -1,33 +1,25 @@
-## Зміна ширини олівця
+## Change the pen width
 
-Надаємо доступ користувачеві малювати за допомогою діапазону різних розмірів олівця.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Спершу, створіть список, який називається ` width` {: class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Додайте цей рядок *inside* the `forever`{:class="blockcontrol"} цикл коду олівця:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    встановити розмір ручки до (ширина)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Ширина олівця буде тепер неодноразово налаштована на значення змінної "ширини".
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Клікніть правою кнопкою миші на змінному екрані на платформі та клацніть на "повзунок".
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![скріншот](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Тепер ви можете перетягувати слайдер нижче змінної, щоб змінити його значення.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![скріншот](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Перевірте свій проект та подивіться, чи можна змінити ширину олівця.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![скріншот](images/paint-width-test.png)
-
-Якщо ви забажаєте, ви можете встановити мінімальне та максимальне значення ширини, яке дозволено. Для цього клацніть правою кнопкою миші на змінну і натисніть "встановити слайдер міні та макс". Встановіть мінімальне та максимальне значення на більш відповідні параметри, наприклад, від 1 до 20.
-
-![скріншот](images/paint-slider-max.png)
-
-Продовжуйте протестувати вашу змінну "ширина", поки не досягнете бажаного результату.
+![screenshot](images/paint-width-test.png) \--- /task \---
