@@ -1,55 +1,51 @@
-## Κάνοντας λάθη
+## Undo mistakes
 
-Μερικές φορές συμβαίνουν λάθη, οπότε πρόσθεσε ένα κουμπί "καθαρισμός" και μια γόμα.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ Πρόσθεσε το αντικείμενο "X-block" - θα το βρεις στη βιβλιοθήκη, στην ενότητα Γράμματα. Χρωμάτισε την ενδυμασία με κόκκινο. Αυτό θα είναι το κουμπί "Καθαρισμός".
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![screenshot](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Πρόσθεσε κώδικα σε αυτό το αντικείμενο για να καθαρίζεις το σκηνικό όταν πατηθεί.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Καθάρισε το σκηνικό](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-Παρατήρησε ότι δεν χρειάζεται να στείλεις ένα μήνυμα για να καθαρίσεις το σκηνικό. Μπορείς απλά να χρησιμοποιήσεις το μπλοκ καθαρισμού από αυτό το αντικείμενο.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-Ίσως έχεις παρατηρήσει ότι το μολύβι σου περιλαμβάνει μία ενδυμασία γόμας:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+
+Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Το έργο σου περιλαμβάνει επίσης ένα ξεχωριστό αντικείμενο γόμας. Κάνε δεξί κλικ σε αυτό το αντικείμενο και επέλεξε 'εμφανίσου'. Έτσι πρέπει να φαίνεται το σκηνικό σου:
+Your project also includes a separate eraser sprite.
 
-![screenshot](images/paint-eraser-stage.png)
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-+ Πρόσθεσε κώδικα στο αντικείμενο γόμας, για να πεις στο μολύβι να αλλάζει σε γόμα όταν αυτό πατηθεί.
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-![Μετάδοση γόμας](images/broadcast-eraser.png)
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-Όταν το μολύβι λάβει το μήνυμα "γόμα", μπορείς να αλλάξεις την ενδυμασία του μολυβιού στη γόμα και να αλλάξεις το χρώμα του μολυβιού σε λευκό - το ίδιο χρώμα με το σκηνικό!
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-+ Πρόσθεσε κώδικα για να δημιουργήσεις τη γόμα
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- hints \--- \--- hint \--- Πρόσθεσε κώδικα στο μολύβι: **Όταν λάβω** το μήνυμα **γόμα** **Άλλαξε την ενδυμασία σε** γόμα **Όρισε το χρώμα της πένας σε** άσπρο \--- /hint \--- \--- hint \--- Να πώς θα πρέπει να είναι ο κώδικας μέσα στο μολύβι:
+\--- task \--- Add some code to create the eraser.
 
-```blocks
-όταν λάβω [γόμα v]
-άλλαξε την ενδυμασία σε [γόμα v]
-όρισε το χρώμα της πένας σε [#FFFFFF]
-```
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- /hint \--- \--- /hints \---
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-+ Δοκίμασε το έργο σου, για να δεις εάν μπορείς να καθαρίζεις και να σβήνεις το σκηνικό.
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-![screenshot](images/paint-erase-test.png)
-
-Υπάρχει ένα ακόμα πρόβλημα με το μολύβι - μπορείς να σχεδιάσεις οπουδήποτε στο σκηνικό, συμπεριλαμβανομένων των εικονιδίων επιλογής!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
 ![screenshot](images/paint-draw-problem.png)
 
-Για να το διορθώσεις, πες στο μολύβι να σχεδιάζει μόνο εάν πατηθεί το ποντίκι *και* εάν η θέση y του ποντικιού είναι μεγαλύτερη από -120:
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![screenshot](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ Δοκίμασε το έργο σου. Δεν θα πρέπει πλέον να μπορείς να πλησιάζεις τα εικονίδια επιλογής.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
