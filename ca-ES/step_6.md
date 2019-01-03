@@ -1,33 +1,25 @@
-## Canviar l'amplada del llapis
+## Change the pen width
 
-Fem que l'usuari pugui dibuixar amb diferents mides de llapis.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Primer, afegeix una nova variable anomenada `amplada`{:class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Afegiu aquesta línia *dins * del loop `per sempre`{:class = "blockcontrol"} del codi del llapis:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    estableix la mida del llapis a (amplada)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-L'amplada del llapis s'establirà repetidament al valor de la variable "amplada".
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Fes clic amb el botó dret a la visualització de la variable a l'escenari i fes clic a "control lliscant".
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![captura de pantalla](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Ara pots arrossegar el control lliscant per sota de la variable per canviar el seu valor.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![captura de pantalla](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Prova el teu projecte i prova de modificar l'amplada del llapis.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![captura de pantalla](images/paint-width-test.png)
-
-Si ho prefereixes, pots establir el valor mínim i màxim de "amplada". Per fer-ho, fes clic amb el botó dret a la variable de nou i fes clic a "Configura el control lliscant mínim i màxim". Estableix els valors mínims i màxims de la variable a una cosa més sensible, com ara 1 i 20.
-
-![captura de pantalla](images/paint-slider-max.png)
-
-Continua provant la teva variable "ample" fins que estiguis satisfet.
+![screenshot](images/paint-width-test.png) \--- /task \---
