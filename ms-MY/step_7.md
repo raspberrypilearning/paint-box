@@ -1,14 +1,10 @@
-\--- cabaran \---
+## Challenge: keyboard commands
 
-## Cabaran: pintasan
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Bolehkah anda mencipta pintasan papan kekunci untuk arahan anda? Sebagai contoh:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = Beralih kepada pen biru
-+ g = beralih ke pen hijau
-+ e = beralih kepada pemadam
-+ c = skrin yang jelas
-
-Anda juga boleh membenarkan pengguna menukar lebar pen dengan kekunci anak panah.
-
-\--- / cabaran \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
