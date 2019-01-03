@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: imatges / banner.png
-theme: violeta
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, disseny-0, programació-1, phys-comp-0, fabricació-0, comunitat-0
-title: Caixa de pintura
-description: Aprèn a fer el teu propi programa de pintura.
-original_url: https://codeclubprojects.org/ca-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projectes
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: Introducció
   - 
-    title: Què necessitaràs
+    title: Make a pencil
   - 
-    title: Fer un llapis
+    title: Coloured pencils
   - 
-    title: Llapis de colors
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: Cometre errors
+    title: Undo mistakes
   - 
-    title: Canviar l'amplada del llapis
+    title: Change the pencil width
   - 
-    title: 'Repte: dreceres'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'Repte: més llapis'
+    title: 'What next?'
