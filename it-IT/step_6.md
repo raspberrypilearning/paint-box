@@ -1,33 +1,25 @@
-## Cambiare lo spessore della matita
+## Change the pen width
 
-Facciamo in modo che l’utente possa disegnare usando matite di spessore diverso.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Per prima cosa, aggiungiamo una nuova variabile chiamata `larghezza`{:class="blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Aggiungi questa riga *dentro* il ciclo `per sempre`{:class="blockcontrol"} del codice della matita:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    usa penna di dimensione (larghezza)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Lo spessore della matita ora verrà costantemente regolato in base al valore della variabile ‘larghezza’.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Fai click col pulsante destro del mouse sulla tua variabile nel quadro e clicca la barra di regolazione ('slider').
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Ora puoi trascinare la barra sotto la variabile per cambiarne il valore.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Prova il tuo progetto e vedi se riesci a modificare lo spessore della matita.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png)
-
-Se preferisci, puoi impostare il valore massimo e minimo permesso per la ‘larghezza’. Per fare ciò, clicca di nuovo col pulsante destro sulla tua variabile e clicca ‘imposta slider minimo e massimo’. Imposta il valore minimo e massimo della tua variabile a 1 e 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Continua a provare la tua variabile ‘larghezza’ fino a raggiungere il valore desiderato.
+![screenshot](images/paint-width-test.png) \--- /task \---
