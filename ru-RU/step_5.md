@@ -1,55 +1,51 @@
-## Ошибаясь
+## Undo mistakes
 
-Иногда случаются ошибки, поэтому давайте добавим «чистую» кнопку и ластик.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ Добавьте спрайт «X-block» - вы найдете его в библиотеке в разделе писем. Цвет костюма красным. Это станет «чистой» кнопкой.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![Скриншот](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Добавьте код в этот спрайт, чтобы очистить сцену, когда она нажата.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Четкий этап](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-Обратите внимание, что вам не нужно отправлять сообщение, чтобы очистить сцену, вы можете просто использовать прозрачный блок из этого спрайта.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-Вы, наверное, заметили, что ваш карандашный спрайт включает в себя костюм-ластик:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![Скриншот](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ Ваш проект также включает отдельный ластик-спрайт. Щелкните правой кнопкой мыши на этом спрайте и выберите «показать». Вот как должен выглядеть ваш сцена:
+![screenshot](images/paint-eraser-costume.png)
 
-![Скриншот](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ Добавьте код в эстрадный спрайт, чтобы указать карандашу переключиться на ластик при нажатии спрайта.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![Ластик для трансляции](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-Когда карандаш получает сообщение «ластик», вы можете переключить карандашный костюм на ластик и переключить цвет карандаша на белый - того же цвета, что и на сцене!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ Добавить код для создания ластика
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- hints \--- \--- hint \--- Добавить код в карандашный спрайт: **Когда я получаю** сообщение **ластик** **Переключитесь на костюм** ластик **Установите цвет пера** на белый \--- / hint \--- \--- hint \--- Вот как выглядит код внутри карандашного спрайта:
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-когда я получаю [ластик v]
-переключателя костюма к [ластик v]
-установите цвет пера на [#FFFFFF]
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- / hint \--- \--- / hints \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ Проверьте свой проект, чтобы убедиться, что вы можете очистить и стереть на сцене.
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![Скриншот](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-Еще одна проблема с карандашом - вы можете рисовать в любом месте сцены, в том числе рядом с иконками селектора!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![Скриншот](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-Чтобы исправить это, скажите карандашу только рисовать, если щелкнуть мышью *и* если y-позиция мыши больше -120:
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![Скриншот](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ Проверьте свой проект; вы теперь не сможете рисовать рядом с блоками селектора.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![Скриншот](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
