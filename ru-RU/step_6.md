@@ -1,33 +1,25 @@
-## Изменение ширины карандаша
+## Change the pen width
 
-Позвольте пользователю рисовать, используя различные размеры карандашей.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Сначала добавьте новую переменную с именем `width`{: class = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Добавьте эту строку *внутри* цикл `forever`{: class = "blockcontrol"} кода карандаша:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    установить размер пера (ширина)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Ширина карандаша теперь будет повторно установлена ​​на значение переменной ширины.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Щелкните правой кнопкой мыши на дисплее переменной на сцене и нажмите «слайдер».
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![Скриншот](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Теперь вы можете перетащить ползунок под переменной, чтобы изменить его значение.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![Скриншот](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Проверьте свой проект и посмотрите, можете ли вы изменить ширину карандаша.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![Скриншот](images/paint-width-test.png)
-
-Если вы предпочитаете, вы можете установить минимальное и максимальное значение ширины, которое разрешено. Чтобы сделать это, щелкните правой кнопкой мыши на переменной снова и нажмите «установить слайдер min и max». Установите минимальное и максимальное значения вашей переменной на нечто более разумное, например 1 и 20.
-
-![Скриншот](images/paint-slider-max.png)
-
-Продолжайте проверять свою переменную ширины до тех пор, пока вы не будете счастливы.
+![screenshot](images/paint-width-test.png) \--- /task \---
