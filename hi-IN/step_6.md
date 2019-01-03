@@ -1,33 +1,25 @@
-## पेंसिल की चौड़ाई बदलना
+## Change the pen width
 
-चलिए उपयोगकर्ता को पेंसिल के विभिन्न साइज के रेंज(range) का उपयोग करके चित्र बनाने की अनुमति दें।
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ पहले, `width`{:class="blockvariable"} नामक नया वेरिएबल जोड़े।
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ इस लाइन को अपनी पेंसिल के कोड `हमेशा के लिए`{:class="blockcontrol"} लूप के*अंदर* जोड़ें:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    पेन साइज width पर सेट करे
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-पेंसिल की चौड़ाई अब बार-बार 'चौड़ाई' वेरिएबल(variable) के मान से सेट की जाएगी।
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ स्टेज पर वेरिएबल प्रदर्शक(display) पर राइट क्लिक करें और 'slider' पर क्लिक करें।
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![स्क्रीनशॉट](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-अब आप वेरिएबल के नीचे स्लाइडर को मान बदलने के लिए खींच सकते हैं।
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![स्क्रीनशॉट](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ अपने प्रोजेक्ट का परीक्षण करें, और देखें कि क्या आप पेंसिल की चौड़ाई बदल सकते हैं।
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![स्क्रीनशॉट](images/paint-width-test.png)
-
-यदि आप चाहें, तो आप 'चौड़ाई' के न्यूनतम और अधिकतम मान को सेट कर सकते हैं जिसकी अनुमति है। ऐसा करने के लिए, फिर से वेरिएबल पर राइट-क्लिक करें और 'set slider min and max' पर क्लिक करें। अपने वेरिएबल का न्यूनतम(Min) और अधिकतम(Max) मान कोई अधिक बुद्धिमत्तापूर्ण संख्या सेट करें, जैसे 1 और 20।
-
-![स्क्रीनशॉट](images/paint-slider-max.png)
-
-जब तक आप खुश न हों जाएँ तब तक अपने 'चौड़ाई' वेरिएबल का परीक्षण करते रहें।
+![screenshot](images/paint-width-test.png) \--- /task \---
