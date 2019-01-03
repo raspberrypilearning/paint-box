@@ -1,14 +1,10 @@
-\---challenge \---
+## Challenge: keyboard commands
 
-## 挑战: 快捷方式
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-你能为你的命令创建键盘快捷方式吗？ 例如：
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = 切换到蓝色
-+ g = 切换到绿色
-+ e = 切换到橡皮
-+ c = 清空屏幕
-
-你甚至可以让用户通过键盘方向键改变画笔宽度。
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
