@@ -1,14 +1,10 @@
-\--- challenge \---
+## Challenge: keyboard commands
 
-## Défi : raccourcis
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Peux-tu créer des raccourcis clavier pour tes commandes ? Par exemple :
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = Passer au crayon bleu
-+ v = Passer au crayon vert
-+ g = Passer à la gomme
-+ e = Effacer la scène
-
-Tu peux même permettre à l'utilisateur de changer l'épaisseur du trait du crayon avec les flèches du clavier.
-
-\--- /challenge \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
