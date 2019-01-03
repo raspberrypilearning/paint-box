@@ -1,14 +1,10 @@
-\--- çağırış \---
+## Challenge: keyboard commands
 
-## Çağırış: qısa yollar
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Komutlarınız üçün klaviatura qısa yollarını yarada bilərsinizmi? Misal üçün:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = mavi qələmə keçin
-+ g = yaşıl qələmə keçid
-+ e = pozanya keçid
-+ c = təmiz ekran
-
-Siz hətta istifadəçi qələm genişliyini ok tuşları ilə dəyişməyə icazə verə bilərsiniz.
-
-\--- / problem
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
