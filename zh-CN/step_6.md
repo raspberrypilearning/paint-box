@@ -1,33 +1,25 @@
-## 改变铅笔宽度
+## Change the pen width
 
-让我们允许用户使用不同粗细的铅笔来绘图。
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ 首先，新建一个名为`宽度`{:class="blockvariable"}的变量。
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ 将这行代码添加到铅笔代码的`重复执行`{:class="blockcontrol"} 循环*内*：
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    笔迹宽度设为 (宽度)
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-现在铅笔的宽度会不断地被设置为变量“宽度”的值。
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ 右键点击显示在舞台上的变量然后点击“滑杆”。
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![截屏](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-你可以拉动滑杆改变变量的值。
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![截屏](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ 测试你的项目，看能否改变铅笔宽度。
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![截屏](images/paint-width-test.png)
-
-如果你愿意，你可以设置笔尖“宽度”允许的最大最小值。 要设置最大最小值，右键点击变量并点击“设置滑杆最小值和最大值”。 将最小值和最大值设置得更加合理一些，比如1和20。
-
-![截屏](images/paint-slider-max.png)
-
-反复测试宽度变量直到你满意为止。
+![screenshot](images/paint-width-test.png) \--- /task \---
