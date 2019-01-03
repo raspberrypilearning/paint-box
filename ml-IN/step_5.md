@@ -1,53 +1,51 @@
-## തെറ്റുകൾ വരുത്തുന്നു
+## Undo mistakes
 
-ചിലപ്പോൾ തെറ്റുകൾ സംഭവിക്കുന്നു, അതിനാൽ നമുക്കിത് ഒരു 'വ്യക്തമായ' ബട്ടണും ഒരു eraser ഉം ചേർക്കാം.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ 'X-block' സ്പ്രെറ്റ് ചേർക്കുക - ലൈബ്രറിയിൽ, അക്ഷര വിഭാഗത്തിൽ നിങ്ങൾ അത് കണ്ടെത്തും. ചുവന്ന നിറത്തിലുള്ള വസ്ത്രങ്ങൾ കളയുക. ഇത് 'വ്യക്തമായ' ബട്ടൺ ആയി മാറും.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![സ്ക്രീൻഷോട്ട്](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ ഘട്ടം ക്ലിയർ ചെയ്യുമ്പോൾ അത് മായ്ക്കുന്നതിന് ഈ സ്റെയേറ്റിലേക്ക് കോഡ് ചേർക്കുക.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![ഘട്ടം ക്ലിയർ ചെയ്യുക](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-സ്റ്റേജ് മായ്ക്കുന്നതിന് നിങ്ങൾക്ക് ഒരു സന്ദേശം അയക്കേണ്ടതില്ലെന്നത് ശ്രദ്ധിക്കുക, ഈ സ്ഫ്രെയ്റ്റിൽ നിന്ന് നിങ്ങൾക്ക് വ്യക്തമായ ബ്ലോക്ക് ഉപയോഗിക്കാനാകും.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-നിങ്ങളുടെ പെൻസിൽ സ്പ്രൈറ്റിൽ ഒരു അണുക്കൾ വസ്ത്രം ധരിക്കുന്നുണ്ടെന്ന് നിങ്ങൾ ശ്രദ്ധിച്ചിരിക്കാം:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![സ്ക്രീൻഷോട്ട്](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ നിങ്ങളുടെ പ്രോജക്റ്റിൽ ഒരു പ്രത്യേക നാസി സ്പ്രൈറ്റും ഉൾപ്പെടുന്നു. ഈ സ്പ്രൈറ്റിൽ റൈറ്റ് ക്ലിക്ക് ചെയ്ത് 'പ്രദർശിപ്പിക്കുക' തിരഞ്ഞെടുക്കുക. നിങ്ങളുടെ ഘട്ടം എങ്ങനെ കാണണം എന്നത് ഇതാ:
+![screenshot](images/paint-eraser-costume.png)
 
-![സ്ക്രീൻഷോട്ട്](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ സ്റ്രൈറ്റ് ക്ലിക്കുചെയ്യുമ്പോൾ ഒരു പാഴാകലിലേക്ക് മാറാൻ പെൻസിൽ പറിക്കാൻ, റെറസർ സ്റെറ്റിലേയ്ക്ക് കോഡ് ചേർക്കുക.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![പ്രക്ഷേപണം ചെയ്തയാണിത്](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-പെൻസിൽ "eraser" സന്ദേശം ലഭിക്കുമ്പോൾ, നിങ്ങൾക്ക് eraser ലേക്ക് പെൻസിൽ വസ്ത്രവും സ്വിച്ച് പെൻസിൽ നിറം വെളുപ്പിലേക്ക് മാറ്റാം - സ്റ്റേജിലെ അതേ നിറം!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ Eraser സൃഷ്ടിക്കാൻ ചില കോഡ് ചേർക്കുക
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-[eraser v] പെൻ കളറിൽ [FFFFFFF] എന്നതിലേക്ക് [മാലിന്യങ്ങൾ]
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- / സൂചന \--- \--- / സൂചനകൾ \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ നിങ്ങൾക്ക് സ്റ്റേജിൽ മായ്ക്കാനും മായ്ക്കാൻ കഴിയുമോ എന്ന് കാണുന്നതിന് നിങ്ങളുടെ പ്രോജക്ട് പരിശോധിക്കുക.
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![സ്ക്രീൻഷോട്ട്](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-പെൻസിലിൽ ഒരു പ്രശ്നമുണ്ട് - സെലക്റ്റർ ഐക്കണുകൾക്ക് സമീപം എവിടെയും വരയ്ക്കാനാകും!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![സ്ക്രീൻഷോട്ട്](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-ഇത് പരിഹരിക്കുന്നതിന്, മൗസിന്റെ Y- സ്ഥാനം -120 എന്നതിനേക്കാൾ വലുതാണെങ്കിൽ മൗസ് *ഉം* ഉം മൗസ് കളിക്കുകയാണെങ്കിൽ മാത്രം വരയ്ക്കാനായി പെൻസിൽ കൊടുക്കുക:
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![സ്ക്രീൻഷോട്ട്](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ നിങ്ങളുടെ പ്രോജക്റ്റ് പരീക്ഷിക്കുക; ഇപ്പോൾ നിങ്ങൾക്ക് സെലക്ടർ ബ്ലോക്കിന് സമീപം വരയ്ക്കാനാവില്ല.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![സ്ക്രീൻഷോട്ട്](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
