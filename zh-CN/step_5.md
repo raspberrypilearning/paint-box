@@ -1,55 +1,51 @@
-## 孰能无过
+## Undo mistakes
 
-有时我们会画错，所以让我们加入“清除”按钮和橡皮。
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ 添加‘X-block'角色 -- 你可以在角色库的字母分类中找到它。 将造型改为红色。 这样就变为了“清除”按钮。
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![截屏](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ 向清除按钮中添加代码，让它被点击时清空舞台上的内容。
+![screenshot](images/paint-x.png) \--- /task \---
 
-![清空舞台](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-注意你不需要通过发送消息来清空舞台，你可以直接在角色中使用清空代码块。
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-你可能已经发现铅笔角色包含来一个橡皮造型：
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-![截屏](images/paint-eraser-costume.png)
+Do you see that the pencil sprite includes an eraser costume?
 
-+ 项目中还包含一个单独的橡皮角色。 右键点击这个角色并选择“显示”。 你的舞台应该跟下图一样：
+![screenshot](images/paint-eraser-costume.png)
 
-![截屏](images/paint-eraser-stage.png)
+Your project also includes a separate eraser sprite.
 
-+ 向橡皮角色中添加代码，当橡皮被点击时告诉铅笔切换到橡皮。
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![广播变橡皮](images/broadcast-eraser.png)
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-当铅笔接收到“变橡皮”消息时，你可以将铅笔造型切换为橡皮，并将画笔颜色设为白色 -- 与舞台颜色一致！
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-+ 为橡皮添加如下代码
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-\--- hints \--- \--- hint \--- 为铅笔角色添加如下代码： **当收到** **变橡皮**消息时 **造型换成**橡皮 **笔迹颜色设为**白色 \--- /hint \--- \--- hint \--- 下面是铅笔角色内的代码：
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-```blocks
-当收到消息 [变橡皮 v]
-造型换成 [橡皮 v]
-笔迹颜色设为 [#FFFFFF]
-```
+\--- task \--- Add some code to create the eraser.
 
-\--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-+ 测试你的项目，看你是否能够清空和擦除舞台上的内容。
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![截屏](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-你的铅笔还有一点小问题 -- 你可以在舞台的任意地方绘制，包括选择图标区域！
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![截屏](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
-要修复这个问题，只需要告诉铅笔只能在鼠标按下*并且*y坐标大于-120时才绘图：
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![截屏](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ 测试你的项目；现在你应该不能绘制到选择图标区域了。
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![截屏](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
