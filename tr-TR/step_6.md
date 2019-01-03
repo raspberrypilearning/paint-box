@@ -1,33 +1,25 @@
-## Kalem genişliğini değiştirme
+## Change the pen width
 
-Kullanıcının bir dizi farklı kalem boyutu kullanarak çizim yapmasına izin verelim.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ Öncelikle `width`{: class = "blockvariable"} adında yeni bir değişken ekleyin.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ Bu satırın ** `sonsuza dek`{: class = "blockcontrol"} kalem kodunun döngüsünü ekleyin:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    kalem boyutunu (genişlik) olarak ayarla
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-Kalem genişliği artık art arda 'genişlik' değişkeninin değerine ayarlanacaktır.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ Sahne alanı üzerindeki değişken ekrana sağ tıklayın ve 'kaydırıcıya tıklayın.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![ekran görüntüsü](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-Artık değerini değiştirmek için kaydırıcıyı değişkenin altına sürükleyebilirsiniz.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![ekran görüntüsü](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ Projenizi test edin ve kalem genişliğini değiştirip değiştiremeyeceğinizi görün.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![ekran görüntüsü](images/paint-width-test.png)
-
-Tercih ederseniz, izin verilen 'genişlik' minimum ve maksimum değerini ayarlayabilirsiniz. Bunu yapmak için, değişkeni tekrar sağ tıklayın ve 'kaydırıcıyı min ve maks.' Olarak ayarlayın. Değişkeninizin minimum ve maksimum değerlerini 1 ve 20 gibi daha hassas bir şeye ayarlayın.
-
-![ekran görüntüsü](images/paint-slider-max.png)
-
-Mutlu oluncaya kadar 'genişlik' değişkeninizi test etmeye devam edin.
+![screenshot](images/paint-width-test.png) \--- /task \---
