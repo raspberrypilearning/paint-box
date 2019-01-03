@@ -1,44 +1,57 @@
-## Κάνοντας ένα μολύβι
+## Coloured pencils
 
-Ας αρχίσουμε κάνοντας ένα μολύβι που μπορεί να χρησιμοποιηθεί για να σχεδιάσεις στο σκηνικό.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ Άνοιξε το έργο Scratch 'Paintbox' online στο [jumpto.cc/paint-go](http://jumpto.cc/paint-go){:target="_blank"} ή κάνε λήψη από το <http://jumpto.cc/paint-get>{:target="_blank"} και στη συνέχεια άνοιξε το, αν χρησιμοποιείς την offline εφαρμογή Scratch.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-Θα δεις αντικείμενα μολυβιού και γόμας:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![screenshot](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ Πρόσθεσε κώδικα στο μολύβι για να το κάνεις να ακολουθεί το ποντίκι `για πάντα`{:class="blockcontrol"}, ώστε να μπορείς να σχεδιάσεις:
+![screenshot](images/paint-pencil-green.png)
 
-```blocks
-    όταν πατηθεί η σημαία 
-   για πάντα, 
-      πήγαινε στο [δείκτης ποντικιού]
-   τέλος
-```
+\--- /task \---
 
-+ Κάνε κλικ στη σημαία και στη συνέχεια, μετακίνησε το ποντίκι στο σκηνικό για να ελέγξεις ότι ο κώδικας λειτουργεί.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-Έπειτα, ας κάνουμε το μολύβι σου να σχεδιάζει μόνο `εάν`{:class="blockcontrol"} το ποντίκι έχει πατηθεί.
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ Πρόσθεσε αυτόν τον κώδικα στο αντικείμενο μολύβι:
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![screenshot](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ Δοκίμασε ξανά τον κώδικά σου. Αυτή τη φορά, μετακίνησε το μολύβι στο σκηνικό κρατώντας πατημένο το αριστερό κουμπί του ποντικιού. Μπορείς να σχεδιάσεις με το μολύβι σου;
+\--- /task \---
 
-![screenshot](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- collapse \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## title: Αν έχεις προβλήματα...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-Εάν το μολύβι σου φαίνεται να τραβάει τη γραμμή από τη μέση του μολυβιού αντί της μύτης, θα χρειαστεί να αλλάξεις το κέντρο της ενδυμασίας.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![Κέντρο ενδυμασίας](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-Ο σταυρός για το μολύβι πρέπει να τοποθετηθεί **ακριβώς κάτω από το** τη μύτη και όχι πάνω στην μύτη του μολυβιού.
+![pencil](images/pencil.png)
 
-Οι αλλαγές στο 'κέντρο ενδυμασίας' ενός αντικειμένου δεν έχουν καταχωριστεί μέχρι να γίνει κλικ σε άλλη καρτέλα, οπότε κάνε κλικ σε μια άλλη ενδυμασία ή στην καρτέλα 'Σενάρια' για να ολοκληρώσεις τις αλλαγές στο κέντρο ενδυμασίας.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- /collapse \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
