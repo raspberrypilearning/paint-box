@@ -1,14 +1,10 @@
-\--- চ্যালেঞ্জ \---
+## Challenge: keyboard commands
 
-## চ্যালেঞ্জ: শর্টকাটগুলি
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-আপনি কি আপনার কমান্ডের জন্য কীবোর্ড শর্টকাট তৈরি করতে পারেন? উদাহরণ স্বরূপ:
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-+ b = নীল কলমে স্যুইচ করুন
-+ g = সবুজ কলমতে সুইচ করুন
-+ ই = ইরেজারে সুইচ করুন
-+ সি = পরিষ্কার পর্দা
-
-আপনি এমনকি ব্যবহারকারীকে তীরচিহ্নগুলির সাহায্যে কলাম প্রস্থ পরিবর্তন করতেও অনুমতি দিতে পারেন।
-
-\--- / চ্যালেঞ্জ \---
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
