@@ -1,55 +1,51 @@
-## Making mistakes
+## Undo mistakes
 
-Sometimes mistakes happen, so let's add a 'clear' button and an eraser.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
-+ Add the 'X-block' sprite - you will find it in the library, in the letters section. Colour the costume in red. This will become the 'clear' button.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
-![screenshot](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Add code to this sprite to clear the stage when it's clicked.
+![screenshot](images/paint-x.png) \--- /task \---
 
-![Clear stage](images/clear-stage.png)
+\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-Notice that you don't need to send a message to clear the stage, you can just use the clear block from this sprite.
+![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-You have probably noticed that your pencil sprite includes an eraser costume:
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+
+Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Your project also includes a separate eraser sprite. Right click on this sprite and choose 'show'. Here is how your stage should look:
+Your project also includes a separate eraser sprite.
 
-![screenshot](images/paint-eraser-stage.png)
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-+ Add code to the eraser sprite, to tell the pencil to switch to an eraser when the sprite is clicked.
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-![Broadcast eraser](images/broadcast-eraser.png)
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-When the pencil receives the "eraser" message, you can switch the pencil costume to the eraser, and switch the pencil colour to white - the same colour as the stage!
+![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-+ Add some code to create the eraser
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: **When I receive** the **eraser** message **Switch to costume** eraser **Set pen color** to white \--- /hint \--- \--- hint \--- Here is how the code inside the pencil sprite should look:
+\--- task \--- Add some code to create the eraser.
 
-```blocks
-when I receive [eraser v]
-switch costume to [eraser v]
-set pen color to [#FFFFFF]
-```
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- /hint \--- \--- /hints \---
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-+ Test your project, to see if you can clear and erase on the stage.
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-![screenshot](images/paint-erase-test.png)
-
-There's one more problem with the pencil - you can draw anywhere on the stage, including near the selector icons!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
 ![screenshot](images/paint-draw-problem.png)
 
-To fix this, tell the pencil only to draw if the mouse is clicked *and* if the y-position of the mouse is greater than -120:
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![screenshot](images/pencil-gt-code.png)
+![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-+ Test your project; you now shouldn't be able to draw near the selector blocks.
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png) \--- /task \---
