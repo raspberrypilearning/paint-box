@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: تصاویر / banner.png
-theme: وایلیٹ
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1، ڈیزائن-0، پروگرامنگ -1، فیز-کمپ-0، تیاری-0، کمیونٹی-0
-title: پینٹ باکس
-description: اپنے پینٹ پروگرام بنانے کا طریقہ سیکھیں.
-original_url: https://codeclubprojects.org/en-GB/scratch/paintbox
-interests: آرٹ
-technologies: خرگوش
-site_areas: منصوبوں
-hardware: ''
-software: خرگوش
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: تعارف
   - 
-    title: آپ کی ضرورت ہو گی
+    title: Make a pencil
   - 
-    title: پنسل بنانا
+    title: Coloured pencils
   - 
-    title: رنگ پنسل
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: غلطیاں کرنا
+    title: Undo mistakes
   - 
-    title: پینسل چوڑائی کو تبدیل کرنا
+    title: Change the pencil width
   - 
-    title: 'چیلنج: شارٹ کٹس'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'چیلنج: زیادہ پنسل'
+    title: 'What next?'
