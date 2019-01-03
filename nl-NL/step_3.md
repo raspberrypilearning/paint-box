@@ -1,44 +1,57 @@
-## Een potlood maken
+## Coloured pencils
 
-Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op het speelveld te tekenen.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-+ Open het 'Paintbox' Scratch-project online op [ jumpto.cc/paint-go ](http://jumpto.cc/paint-go) {:target="_ blank"} of download van [ http://jumpto.cc/paint-get ](http://jumpto.cc/paint-get) {:target="_ blank"} en open het als je de offline-editor gebruikt.
+\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-Je zult potlood- en gumsprites zien:
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-![screenshot](images/paint-starter.png)
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-+ Voeg wat code toe aan de potloodsprite om ervoor te zorgen dat deze de muis altijd volgt met een ` herhaal blok` {:class="blockcontrol"}, zodat je kunt tekenen:
+![screenshot](images/paint-pencil-green.png)
 
-```blocks
-    wanneer vlag wordt aangeklikt
-    herhaal
-      ga naar [muisaanwijzer]
-    einde
-```
+\--- /task \---
 
-+ Klik op de vlag en beweeg de muis over het werkgebied om te testen of de code werkt.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-Laat vervolgens je potlood alleen tekenen ` als ` {:class="blockcontrol"} er op de muis wordt geklikt.
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-+ Voeg deze code toe aan je potlood sprite:
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
-![screenshot](images/paint-pencil-draw-code.png)
+[[[generic-scratch3-rename-sprite]]]
 
-+ Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
+\--- /task \---
 
-![screenshot](images/paint-draw.png)
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-## \--- collapse \---
+![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
-## title: Als je problemen hebt...
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-Als je potlood de lijn lijkt te trekken vanuit het midden van het potlood in plaats vanuit de punt, moet je het centrum van je uiterlijk wijzigen.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![Costume center](images/costume-center.png)
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-Het draadkruis voor het potlood moet ** net onder ** de punt van het potlood worden geplaatst, niet op het puntje van het potlood.
+![pencil](images/pencil.png)
 
-Een wijziging in het 'uiterlijk-centrum' van een sprite wordt niet uitgevoerd totdat op een ander tabblad wordt geklikt, dus klik op een ander uiterlijk of op het tabblad 'Scripts' om de wijzigingen in het uiterlijk-centrum te voltooien.
+![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-\--- /collapse \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \--- Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
