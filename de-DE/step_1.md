@@ -1,24 +1,58 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+
+\--- /no-print \---
+
 ## Einleitung
 
-Mach dein eigenes Malprogramm!
+Make your own paint program!
 
 ### Was du machen wirst
 
-Klicke zum Starten auf die grüne Flagge. Verwende die Maus, um den Stift zu bewegen und halte die linke Maustaste gedrückt, um zu zeichnen. Klicke auf eine Farbe, um den Stift zu wechseln oder klicke auf den Radiergummi, um etwas weg zu radieren. Um die Seite zu löschen, klicke auf das Kreuz.
+\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-### Was du lernen wirst
+\--- /no-print \---
 
-Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
-+ [Verwende grundlegende Programmierkonstrukte, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+![showcase](images/showcase.png) \--- /print-only \---
 
-### Zusätzliche Informationen für Pädagogen
+## \--- collapse \---
 
-Wenn Sie dieses Projekt ausdrucken möchten, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+## title: What you will learn
 
-Verwenden Sie den Link in der Fußzeile, um auf das GitHub-Repo für dieses Projekt zuzugreifen. Dieses enthält alle Ressourcen (einschließlich eines Beispiels für ein abgeschlossenes Projekt) im Ordner "de-DE/resources".
++ How to use the Pen extension in Scratch
++ How to use broadcasts to communicate between sprites
++ How to detect mouse events \--- /collapse \---
+
+## \--- collapse \---
+
+## title: What you will need
+
+### Hardware
+
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional information for educators
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+
+You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
