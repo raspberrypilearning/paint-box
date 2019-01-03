@@ -1,35 +1,27 @@
 ---
+title: Paint box
 hero_image: images/banner.png
-theme: фіолетовий
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, дизайн-0, програмування-1, фізичні обчислення-0, виробництво-0, спільноти-0
-title: Коробка з фарбами
-description: Дізнайтеся, як створити власну програму для малювання.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: мистецтво
-technologies: скреч
-site_areas: проекти
-hardware: ''
-software: скреч
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.0.0
+last_tested: 2018-11-30
 steps:
   - 
     title: Вступ
   - 
-    title: Що вам знадобиться
+    title: Make a pencil
   - 
-    title: Беремо олівець
+    title: Coloured pencils
   - 
-    title: Кольорові олівці
+    title: 'Challenge: shortcuts'
+    challenge: true
   - 
-    title: Помилки
+    title: Undo mistakes
   - 
-    title: Зміна ширини олівця
+    title: Change the pencil width
   - 
-    title: 'Завдання: клавіші швидкого доступу'
+    title: 'Challenge: more pencils'
+    challenge: true
   - 
-    title: 'Challenge: більше олівців'
+    title: 'What next?'
