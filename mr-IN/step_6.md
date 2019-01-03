@@ -1,33 +1,25 @@
-## पेन्सिल रूंदी बदलत आहे
+## Change the pen width
 
-चला, वेगवेगळ्या पेंसिल आकारांचा वापर करून वापरकर्त्याला काढण्याची परवानगी द्या.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
-+ प्रथम, एक नवीन चल जोडा `रुंदी`{वर्ग = "blockvariable"}.
+\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-+ या ओळीला जोडा *आत* अगोदर `नेहमी`{: class = "blockcontrol"} पेन्सिलच्या कोडचा लूप:
+\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
-```blocks
-    पेनचा आकार (रूंदी) वर सेट करा
-```
+![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-पेन्सिल रूंदी आता वारंवार 'रुंदी' व्हेरिएबलच्या मूल्यावर सेट केली जाईल.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-+ स्टेजवर वेरिअबल डिस्प्लेवर राईट क्लिक करा आणि 'स्लाइडर' वर क्लिक करा.
+\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![स्क्रीनशॉट](images/paint-slider.png)
+![screenshot](images/paint-slider.png) \--- /task \---
 
-आपण आता त्याचे मूल्य बदलण्यासाठी वेरियेबल खाली स्लायडर ड्रॅग करू शकता.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![स्क्रीनशॉट](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
-+ आपल्या प्रकल्पाची चाचणी करा आणि आपण पेन्सिल रूंदी सुधारित करू शकता का हे पहा.
+\--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![स्क्रीनशॉट](images/paint-width-test.png)
-
-आपण प्राधान्य दिल्यास, आपण अनुमती असलेल्या 'रूंदी' च्या किमान आणि कमाल मूल्याची सेट करू शकता हे करण्यासाठी, पुन्हा वेरियेबलवर राईट क्लिक करा आणि 'set slider min आणि max' वर क्लिक करा. आपल्या व्हेरिएबलचे किमान आणि जास्तीत जास्त मूल्य ठरवण्यासारखे आहे जसे की 1 आणि 20
-
-![स्क्रीनशॉट](images/paint-slider-max.png)
-
-आपले 'रुंदी' व्हेरिएबल परीक्षित केल्याशिवाय आपण आनंदी रहा.
+![screenshot](images/paint-width-test.png) \--- /task \---
