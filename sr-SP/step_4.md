@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Изазов: Више бојица
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Можеш ли да додаш црвену, жуту и црну бојицу у свој програм за цртање? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Can you use your pencils to draw a picture?
+Можеш ли да употребиш своје бојице да нацрташ слику?
 
-![слика екрана](images/paint-final.png)
+![снимак екрана](images/paint-final.png)
