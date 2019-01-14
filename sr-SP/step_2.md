@@ -1,6 +1,6 @@
-## Make a pencil
+## Направи оловку
 
-Start by making a pencil that you can use to draw on the Stage.
+Почни тако што ћеш направити оловку која се може користити за цртање на позорници.
 
 \--- task \--- Open the 'Paint box' Scratch starter project.
 
@@ -16,7 +16,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Додај код лику оловке да `увек`{:class="block3control"} прати стрелицу миша, тако да можеш да црташ:
 
 ![pencil](images/pencil.png) ![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
 
