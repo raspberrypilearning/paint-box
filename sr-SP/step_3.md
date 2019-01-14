@@ -1,22 +1,22 @@
-## Coloured pencils
+## Бојице
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Сада ћеш у свој пројекат додати бојице различитих боја и омогућити кориснику да изабере ону коју жели.
 
 \--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
 ![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Назови нови костим 'бојица-зелена' и обоји бојицу у зелено.
 
 ![слика екрана](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Нацртај два нова лика: плави квадрат и зелени квадрат. These are for choosing between the blue and green pencil.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Преименуј их тако да се зову 'плава' и 'зелена'
 
 [[[generic-scratch3-rename-sprite]]]
 
