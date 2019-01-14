@@ -1,12 +1,12 @@
-## Change the pen width
+## Промени дебљину оловке
 
 Next you will add code to allow the person using your program to draw things with different pen widths.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Прво додај нову променљиву која ће се звати `дебљина`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Додај ову наредбу **унутар** петље `понављај`{:class="block3control"} у коду оловке:
 
 ![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
