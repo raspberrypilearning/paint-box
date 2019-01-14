@@ -1,51 +1,51 @@
 ## Undo mistakes
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Понекад се дешавају грешке, па хајде да додамо дугме 'обриши' и дугме за гумицу.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. Овај лик је дугме 'обриши'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![снимак екрана](images/paint-x.png) \--- /task \---
 
 \--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
-![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
+![крст](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
 You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
 Do you see that the pencil sprite includes an eraser costume?
 
-![screenshot](images/paint-eraser-costume.png)
+![снимак екрана](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Твој пројекат такође има посебан лик гумице.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Твоја позорница би сада требало да изгледа овако:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![снимак екрана](images/paint-eraser-stage.png) \--- /task \---
 
 \--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-![eraser](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
+![гумица](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Када оловка прими поруку "гумица", требало би да замени костим оловке са костимом гумице, а боју бојице у белу - исту боју као боју позорнице!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- Додај код за креирање гумице.
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
 \--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![снимак екрана](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Постоји још један проблем са оловком - можеш да црташ било где на Позорници, укључујући и близу дугмета 'обриши' и дугмета за гумицу!
 
-![screenshot](images/paint-draw-problem.png)
+![снимак екрана](images/paint-draw-problem.png)
 
 \--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![pencil](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
+![оловка](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- Испробај свој пројекат. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![снимак екрана](images/paint-fixed.png) \--- /task \---
