@@ -42,10 +42,10 @@ If the line your pencil draw looks like it is coming from the pencil's middle, y
 
 Кликни на лик оловке, а затим кликни на картицу **Костими**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Помери костим тако да се врх оловке налази **тачно** изнад центра.
 
 ![Центар костима](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Сада померај оловку преко Позорнице и цртај. Оловка би сада требало да црта линију из њеног врха.
 
 \--- /collapse \---
