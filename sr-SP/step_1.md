@@ -10,7 +10,7 @@
 
 ### Шта ћеш направити
 
-\--- no-print \--- Кликни на зелену заставицу да почнеш. Користи миш да помераш оловку и држи притиснут леви тастер миша да црташ. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. Да обришеш страницу, кликни на крстић.
+\--- no-print \--- Кликни на зелену заставицу да почнеш. Користи миш да помераш оловку и држи притиснут леви тастер миша да црташ. Кликни на боју да промениш бојице. Click on the eraser to change to it, and use it to erase your work. Да обришеш страницу, кликни на крстић.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -55,4 +55,4 @@
 
 Уколико је потребно да одштампате овај пројекат, молимо Вас користите [Верзију за штампање](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Решење овог пројекта можете пронаћи [овде](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
