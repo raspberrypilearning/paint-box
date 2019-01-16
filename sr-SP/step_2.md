@@ -2,9 +2,9 @@
 
 Почни тако што ћеш направити оловку која се може користити за цртање на позорници.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Отвори Скреч почетни пројекат 'Програм за цртање'.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**На мрежи**: отвори почетни пројекат на [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
 **Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
