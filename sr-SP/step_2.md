@@ -6,9 +6,9 @@
 
 **На мрежи**: отвори почетни пројекат на [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Ван мреже**: отвори [почетни пројекат](http://rpf.io/p/en/paint-box-go){:target="_blank"} у уређивачу ван мреже.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
 In the starter project, you should see pencil and eraser sprites:
 
@@ -40,7 +40,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Кликни на лик оловке, а затим кликни на картицу **Костими**.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
