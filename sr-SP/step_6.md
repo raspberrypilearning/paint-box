@@ -12,7 +12,7 @@ Next you will add code to allow the person using your program to draw things wit
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Кликни десним тастером миша на променљиву `дебљина`{:class="block3variables"} приказану на Позорници, а затим кликни на **клизач**.
 
 ![снимак екрана](images/paint-slider.png) \--- /task \---
 
