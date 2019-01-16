@@ -40,11 +40,11 @@ To set the pencil to colour to green, click the coloured square in the `set pen 
 
 Then to a similar thing so that you can switch the pencil colour to blue.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Кликни на плави квадрат и додај следећи код:
 
 ![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+Затим кликни на лик оловке и додај следећи код: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
 
 \--- task \--- На крају, додај овај код да кажеш лику бојице са којом бојом да почне и да екран буде обрисан када се твој програм покрене.
 
