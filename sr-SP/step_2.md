@@ -36,7 +36,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: Да ли ваша оловка не црта из њеног врха?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
