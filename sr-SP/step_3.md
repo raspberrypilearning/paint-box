@@ -2,7 +2,7 @@
 
 Сада ћеш у свој пројекат додати бојице различитих боја и омогућити кориснику да изабере ону коју жели.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Кликни на лик оловке, а затим на **Костими** и умножи костим 'бојица-плава'.
 
 ![снимак екрана](images/paint-blue-duplicate.png) \--- /task \---
 
@@ -12,7 +12,7 @@
 
 \--- /task \---
 
-\--- task \--- Нацртај два нова лика: плави квадрат и зелени квадрат. These are for choosing between the blue and green pencil.
+\--- task \--- Нацртај два нова лика: плави квадрат и зелени квадрат. Они служе за одабир између плаве и зелене оловке.
 
 ![снимак екрана](images/paint-selectors.png) \--- /task \---
 
@@ -50,7 +50,7 @@ Then to a similar thing so that you can switch the pencil colour to blue.
 
 ![оловка](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Ако желиш, можеш почети са бојицом друге боје.
 
 \--- task \--- Испробај свој код. Можеш ли да мењаш између плаве и зелене бојице када кликнеш на ликове плавог или зеленог квадрата?
 
