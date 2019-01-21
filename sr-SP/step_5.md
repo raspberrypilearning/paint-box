@@ -2,7 +2,7 @@
 
 Понекад се дешавају грешке, па хајде да додамо дугме 'обриши' и дугме за гумицу.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. Овај лик је дугме 'обриши'.
+\--- task \--- Add the 'X-block' sprite from the library's letters section. Обоји костим лика у црвено и смањи му величину. Овај лик је дугме 'обриши'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -12,7 +12,7 @@
 
 ![крст](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Не мораш да користиш блок `разгласи`{:class="block3events"} да би очистио Позорницу, зато што то може да уради блок `обриши све`{:class="block3extensions"}.
 
 Do you see that the pencil sprite includes an eraser costume?
 
