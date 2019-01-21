@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## Изазов: Пречице
 
 Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? На пример:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>п</kbd> = Промени у плаву бојицу
++ <kbd>з</kbd> = промени у зелену бојицу
++ <kbd>г</kbd> = промени у гумицу
++ <kbd>о</kbd> = очисти екран
 
 If you want to, you can also add code so that pressing the arrow keys changes the pen width.
