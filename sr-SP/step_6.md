@@ -10,7 +10,7 @@ Next you will add code to allow the person using your program to draw things wit
 
 ![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+Ширина трага оловке сада ће стално бити постављена на вредност променљиве `дебљина`{:class="block3variables"}.
 
 \--- task \--- Кликни десним тастером миша на променљиву `дебљина`{:class="block3variables"} приказану на Позорници, а затим кликни на **клизач**.
 
