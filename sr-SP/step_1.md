@@ -45,7 +45,7 @@
 
 ### Преузимање
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Почетни пројекат за уређивач ван мреже](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
