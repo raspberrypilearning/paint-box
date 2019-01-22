@@ -22,7 +22,7 @@
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Додај следећи код лику 'зелена', тако да кад је кликнуто на овај лик, он `разгласи`{:class="block3events"} поруку "зелена".
 
 ![зелени квадрат](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
 
