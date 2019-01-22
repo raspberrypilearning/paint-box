@@ -27,8 +27,8 @@
 
 ## title: Шта ћеш научити
 
-+ How to use the Pen extension in Scratch
-+ How to use broadcasts to communicate between sprites
++ Како користити проширење Оловка у Скречу
++ Како користити разгласе за комуникацију између ликова
 + How to detect mouse events \--- /collapse \---
 
 ## \--- collapse \---
@@ -43,7 +43,7 @@
 
 + Scratch 3 ([на мрежи](http://rpf.io/scratchon){:target="_blank"} или [ван мреже](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Преузимање
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
