@@ -10,7 +10,7 @@
 
 Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+У почетном пројекту, пронаћи ћеш ликове оловке и гумице:
 
 ![снимак екрана](images/paint-starter.png) \--- /task \---
 
