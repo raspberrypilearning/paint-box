@@ -1,6 +1,6 @@
 ## Промени дебљину оловке
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Сада ћеш додати код, који ће омогућити кориснику; да црта ствари са оловкама разних величина.
 
 \--- task \--- Прво додај нову променљиву која ће се звати `дебљина`{:class="block3variables"}.
 
