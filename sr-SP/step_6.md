@@ -16,10 +16,10 @@
 
 ![снимак екрана](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Сада можеш да помераш клизач који се налази испод променљиве да би променио њену вредност.
 
 ![снимак екрана](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Тестирај свој пројекат и провери да ли можеш да додаш код за подешавање дебљине оловке.
 
 ![снимак екрана](images/paint-width-test.png) \--- /task \---
