@@ -46,6 +46,6 @@ Do you see that the pencil sprite includes an eraser costume?
 
 ![оловка](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
-\--- task \--- Испробај свој пројекат. You now should not be able to draw near the buttons.
+\--- task \--- Испробај свој пројекат. Сада не би требало да будеш у могућности да црташ у близини дугмади.
 
 ![снимак екрана](images/paint-fixed.png) \--- /task \---
