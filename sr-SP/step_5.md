@@ -1,4 +1,4 @@
-## Undo mistakes
+## Поништи грешке
 
 Понекад се дешавају грешке, па хајде да додамо дугме 'обриши' и дугме за гумицу.
 
@@ -14,7 +14,7 @@
 
 Не мораш да користиш блок `разгласи`{:class="block3events"} да би очистио Позорницу, зато што то може да уради блок `обриши све`{:class="block3extensions"}.
 
-Do you see that the pencil sprite includes an eraser costume?
+Да ли примећујеш да лик оловке садржи и костим гумице?
 
 ![снимак екрана](images/paint-eraser-costume.png)
 
@@ -24,7 +24,7 @@ Do you see that the pencil sprite includes an eraser costume?
 
 ![снимак екрана](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- Додај код лику гумице, да би послао `разглас 'гумица'`{:class="block3events"} када је кликнуто на лик гумице.
 
 ![гумица](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
 
@@ -34,7 +34,7 @@ Do you see that the pencil sprite includes an eraser costume?
 
 \--- hints \--- \--- hint \--- Додај следећи код лику оловке: `Када примим`{:class="block3events"} поруку `гумица`{:class="block3events"} `Замени костим са гумица`{:class="block3looks"} `Нека боја оловке буде`{:class="block3extensions"} бела \--- /hint \--- \--- hint \--- Овде су сви блокови који су ти потребни: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Овако би требало да изгледа код: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- Испробај свој пројекат и провери да ли можеш да очистиш Позорницу и избришеш линије оловке.
 
 ![снимак екрана](images/paint-erase-test.png) \--- /task \---
 
