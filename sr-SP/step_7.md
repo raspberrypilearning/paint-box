@@ -7,4 +7,4 @@ Can you add code so that, instead of clicking on the coloured squares or buttons
 + <kbd>г</kbd> = промени у гумицу
 + <kbd>о</kbd> = очисти екран
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+Ако желиш, можеш да додаш код, који ће притиском на тастере са стрелицама променити дебљину оловке.
