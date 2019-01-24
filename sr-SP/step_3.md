@@ -28,7 +28,7 @@
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Лик оловке би требало да чека на поруку "зелена" и да промени костим и боју оловке као одговор.
 
 \--- task \--- Врати се на лик оловке. Додај код, тако да, када овај лик прими разглас `зелена`{:class="block3events"}, промени костим у бојица-зелена и боју бојице у зелену.
 
