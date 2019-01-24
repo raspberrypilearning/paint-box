@@ -16,7 +16,7 @@
 
 \--- task \---
 
-Add the Pen extension to your project.
+Додај проширење Оловка у свој пројекат.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,23 +24,23 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Додај код лику оловке да `увек`{:class="block3control"} прати стрелицу миша, тако да можеш да црташ:
 
-![pencil](images/pencil.png) ![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
+![оловка](images/pencil.png) ![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Кликни на заставицу, а затим померај стрелицу миша по позорници да провериш да ли твој код функционише. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Затим, направи да твоја оловка црта `ако је`{:class="block3control"} притиснут тастер миша.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Додај овај код лику оловке:
 
-![pencil](images/pencil.png) ![blocks_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
+![оловка](images/pencil.png) ![blocks_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Поново испробај код. Овај пут померај оловку по Позорници док држиш тастер миша. Можеш ли да црташ својом оловком?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![снимак екрана](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
@@ -48,12 +48,12 @@ Next, make your pencil only draw `if`{:class="block3control"} the mouse button i
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Кликни на лик оловке, а затим кликни на картицу **Костими**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Помери костим тако да се врх оловке налази **тачно** изнад центра.
 
-![Costume center](images/costume-center-annotated.png)
+![Центар костима](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Сада померај оловку преко Позорнице и цртај. Оловка би сада требало да црта линију из њеног врха.
 
 \--- /collapse \---
