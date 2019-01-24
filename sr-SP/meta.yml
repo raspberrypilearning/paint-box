@@ -4,7 +4,7 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 description: Направи сопствени програм за цртање
-version: 4.0.0
+version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
