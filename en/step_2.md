@@ -18,6 +18,14 @@ In the starter project, you should see pencil and eraser sprites:
 
 --- task ---
 
+Add the Pen extension to your project.
+
+[[[generic-scratch3-add-pen-extension]]]
+
+--- /task ---
+
+--- task ---
+
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
 ![pencil](images/pencil.png)
