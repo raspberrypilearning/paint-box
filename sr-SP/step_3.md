@@ -36,9 +36,9 @@
 
 ![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Да подесиш бојицу да боји у зелену, кликни на обојени квадрат у блоку `нека боја оловке буде`{:class="block3extensions"}, а затим кликни на лик зеленог квадрата. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Затим на сличан начин то уради и са плавом бојицом.
 
 \--- task \--- Кликни на плави квадрат и додај следећи код:
 
