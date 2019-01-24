@@ -42,7 +42,7 @@
 
 ![снимак екрана](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- task \--- Да ово поправиш, промени код тако да оловка црта само када је кликнуто на тастер миша **и** када је `y` позиција показивача миша изнад `-120`:
 
 ![оловка](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
 
