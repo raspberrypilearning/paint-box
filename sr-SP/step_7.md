@@ -1,6 +1,6 @@
 ## Изазов: Пречице
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? На пример:
+Можеш ли да додаш код, тако да не мораш да користиш обојене квадрате или дугмад на Позорници, већ да можеш да мењаш боје уз помоћ тастера са стрелицама? На пример:
 
 + <kbd>п</kbd> = Промени у плаву бојицу
 + <kbd>з</kbd> = промени у зелену бојицу
