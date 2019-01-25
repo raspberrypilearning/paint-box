@@ -2,13 +2,13 @@
 
 Понекад се дешавају грешке, па хајде да додамо дугме 'обриши' и дугме за гумицу.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Обоји костим лика у црвено и смањи му величину. Овај лик је дугме 'обриши'.
+\--- task \--- Додај лик 'Блок-Х' из области слова у библиотеци. Обоји костим лика у црвено и смањи му величину. Овај лик је дугме 'обриши'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![снимак екрана](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- Додај код лику 'блок-Х' да очистиш Позорницу кад је кликнуто на лик.
 
 ![крст](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
