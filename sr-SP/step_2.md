@@ -46,7 +46,7 @@
 
 ## title: Да ли ваша оловка не црта из њеног врха?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Ако линија коју твоја оловка црта долази из средине оловке, мораш да промениш лик оловке тако да је врх оловке центар лика.
 
 Кликни на лик оловке, а затим кликни на картицу **Костими**.
 
