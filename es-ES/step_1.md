@@ -21,7 +21,7 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 \--- print-only \--- Harás click en la bandera verde para comenzar, y utilizarás el ratón para mover el lápiz y mantener apretado el botón izquierdo para dibujar. Hacer click en el color cambiará el color del lápiz, y haciendo click en el borrador, ¡cambiará la función a borrador!
 
-![showcase](images/showcase.png) \--- /print-only \---
+![exposición](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
@@ -37,13 +37,13 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Una computadora capaz de hacer correr Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
 
-### Downloads
+### Descargas
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
@@ -51,8 +51,8 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Información adicional para educadores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, por favor utiliza la [versión de impresión amigable](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Puedes [encontrar la solución para este proyecto aquí](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
