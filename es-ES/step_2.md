@@ -1,6 +1,6 @@
 ## Hacer un lápiz
 
-Start by making a pencil that you can use to draw on the Stage.
+Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 
 \--- task \--- Open the 'Paint box' Scratch starter project.
 
