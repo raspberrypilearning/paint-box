@@ -1,4 +1,4 @@
-## Make a pencil
+## Hacer un lápiz
 
 Start by making a pencil that you can use to draw on the Stage.
 
