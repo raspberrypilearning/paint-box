@@ -1,16 +1,16 @@
 \--- no-print \---
 
-Esta es una versión de **Scratch 3** del proyecto. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
 ## Introducción
 
-Make your own paint program!
+¡Realiza tu propio programa para pintar!
 
 ### Lo que harás
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Haz click en la bandera verde para comenzar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón de la izquierda para dibujar. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
