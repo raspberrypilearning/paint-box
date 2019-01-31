@@ -10,7 +10,7 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ### Lo que harás
 
-\--- no-print \--- Haz click en la bandera verde para comenzar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón de la izquierda para dibujar. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Haz click en la bandera verde para comenzar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón de la izquierda para dibujar. Haz click en un color para cambiar de lápiz. Haz click en el borrador para cambiar de función, y utilízalo para borrar lo que hayas hecho. Para limpiar la página, haz click en la cruz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,21 +19,21 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Harás click en la bandera verde para comenzar, y utilizarás el ratón para mover el lápiz y mantener apretado el botón izquierdo para dibujar. Hacer click en el color cambiará el color del lápiz, y haciendo click en el borrador, ¡cambiará la función a borrador!
 
 ![showcase](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Lo que vas a aprender
 
-+ How to use the Pen extension in Scratch
-+ How to use broadcasts to communicate between sprites
-+ How to detect mouse events \--- /collapse \---
++ Cómo utilizar la extensión Lápiz en Scratch
++ Cómo utilizar los enunciados para comunicar entre 'sprites'
++ Cómo detectar los movimientos del mouse \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que vas a necesitar
 
 ### Hardware
 
