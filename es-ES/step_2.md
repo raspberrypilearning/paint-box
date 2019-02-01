@@ -16,7 +16,7 @@ En el proyecto de inicio, deberías ver los sprites del lápiz y el borrador:
 
 \--- task \---
 
-Agrega la extensión de la lapicera a tu proyecto.
+Agrega la extensión de marcador a tu proyecto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -46,11 +46,11 @@ Luego, haz que tu lápiz sólo dibuje `if`{:class="block3control"} si se mantien
 
 ## title: ¿Tu lápiz no dibuja desde la punta?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Si la línea que tu lápiz dibuja parece que saliera del medio de tu lápiz, necesitas cambiar el sprite de tu lápiz para que la punta sea el centro del sprite.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Haz clic el sprite de lápiz, y luego haz clic sobre la pestaña **Disfraces**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Mueve la pestaña de disfraces para que la punta del lápiz esté **justo encima** del centro.
 
 ![Costume center](images/costume-center-annotated.png)
 
