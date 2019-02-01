@@ -12,7 +12,7 @@ Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrar
 
 En el proyecto de inicio, deberías ver los sprites del lápiz y el borrador:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![captura de pantalla](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -26,7 +26,7 @@ Agrega la extensión de marcador a tu proyecto.
 
 Agrega algo de código al sprite del lápiz para hacer que el sprite siga al cursor `forever`{:class="block3control"} así puedes dibujar:
 
-![pencil](images/pencil.png) ![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
+![lápiz](images/pencil.png) ![bloques_1545296079_9099946](images/blocks_1545296079_9099946.png)
 
 \--- /task \---
 
@@ -36,11 +36,11 @@ Luego, haz que tu lápiz sólo dibuje `if`{:class="block3control"} si se mantien
 
 \--- task \--- Agrega este código al sprite de tu lápiz:
 
-![pencil](images/pencil.png) ![blocks_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
+![lápiz](images/pencil.png) ![bloques_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
 
 \--- task \--- Comprueba tu código nuevamente. Esta vez, mueve el lápiz alrededor del Escenario y mantiene presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![captura de pantalla](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
@@ -52,8 +52,8 @@ Haz clic el sprite de lápiz, y luego haz clic sobre la pestaña **Disfraces**.
 
 Mueve la pestaña de disfraces para que la punta del lápiz esté **justo encima** del centro.
 
-![Costume center](images/costume-center-annotated.png)
+![Centro de disfraces](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Ahora mueve el lápiz alrededor del Escenario y dibuja. El lápiz ahora debería dibujar una línea desde su punta.
 
 \--- /collapse \---
