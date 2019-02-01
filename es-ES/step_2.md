@@ -2,21 +2,21 @@
 
 Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Abre la 'caja de pintura' del proyecto de inicio de Scratch.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: abre el proyecto de inicio en[rpf.io/caja de pintura](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: abre el [proyecto de inicio](http://rpf.io/p/en/paint-box-go){:target=_blank"} en el editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+En el proyecto de inicio, deberías ver los sprites del lápiz y el borrador:
 
 ![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Agrega la extensión de la lapicera a tu proyecto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,27 +24,27 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Agrega algo de código al sprite del lápiz para hacer que el sprite siga al cursor `forever`{:class="block3control"} así puedes dibujar:
 
 ![pencil](images/pencil.png) ![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- /task\--- Haz clic en la bandera y luego mueve el cursor alrededor del Escenario para comprobar si tu código funciona. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Luego, haz que tu lápiz sólo dibuje `if`{:class="block3control"} si se mantiene presionado el botón del ratón.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Agrega este código al sprite de tu lápiz:
 
 ![pencil](images/pencil.png) ![blocks_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Comprueba tu código nuevamente. Esta vez, mueve el lápiz alrededor del Escenario y mantiene presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: ¿Tu lápiz no dibuja desde la punta?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
