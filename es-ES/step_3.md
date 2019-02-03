@@ -12,7 +12,7 @@ Ahora vas a agregar diferentes lápices de colores a tu proyecto y permitir que 
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Dibuja dos nuevos sprites: un cuadrado azul y uno verde. These are for choosing between the blue and green pencil.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
