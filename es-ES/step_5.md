@@ -2,13 +2,13 @@
 
 A veces se comenten errores, así que añade un botón 'limpiar' y un botón borrador.
 
-\--- task \--- Añade el objeto 'X-block' desde la sección de letras de biblioteca. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Añade el objeto 'X-block' desde la sección de letras de biblioteca. Colorea el disfraz de objeto de rojo y hazlo más pequeño. Este objeto es el botón 'limpiar'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![screenshot](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- Añade código al objeto 'X-block' para limpiar el Escenario cuando se haga clic en el objeto.
 
 ![cross](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
 
