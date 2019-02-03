@@ -6,7 +6,7 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## Introducción
 
-¡Realiza tu propio programa para pintar!
+¡Realiza tu propio programa para dibujar!
 
 ### Lo que harás
 
@@ -28,8 +28,8 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 ## title: Lo que vas a aprender
 
 + Cómo utilizar la extensión Lápiz en Scratch
-+ Cómo utilizar los enunciados para comunicar entre 'sprites'
-+ Cómo detectar los movimientos del mouse \--- /collapse \---
++ Cómo utilizar los enunciados para comunicar entre objetos
++ Cómo detectar los movimientos del ratón \--- /collapse \---
 
 ## \--- collapse \---
 
