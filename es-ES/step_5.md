@@ -1,8 +1,8 @@
-## Undo mistakes
+## Deshacer errores
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+A veces se comenten errores, así que añade un botón 'limpiar' y un botón borrador.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Añade el objeto 'X-block' desde la sección de letras de biblioteca. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
