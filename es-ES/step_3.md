@@ -12,11 +12,11 @@ Ahora vas a agregar diferentes lápices de colores a tu proyecto y permitir que 
 
 \--- /task \---
 
-\--- task \--- Dibuja dos nuevos sprites: un cuadrado azul y uno verde. These are for choosing between the blue and green pencil.
+\--- task \--- Dibuja dos nuevos objetos: un cuadrado azul y uno verde. Estos sirven para elegir entre el lápiz azul y el verde.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Renombra los nuevos objetos para que se llamen 'azul' y 'verde'
 
 [[[generic-scratch3-rename-sprite]]]
 
