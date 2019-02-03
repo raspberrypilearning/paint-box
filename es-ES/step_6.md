@@ -1,4 +1,4 @@
-## Change the pen width
+## Cambiar el ancho del marcador
 
 Next you will add code to allow the person using your program to draw things with different pen widths.
 
