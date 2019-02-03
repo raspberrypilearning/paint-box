@@ -1,12 +1,12 @@
-## Coloured pencils
+## Lápices de colores
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Ahora vas a agregar diferentes lápices de colores a tu proyecto y permitir que el usuario elija entre los mismos.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Haz clic en el sprite del lápiz, haz clic sobre **Disfraces**, y duplica el disfraz llamado 'lápiz-azul'.
 
 ![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Nombra el nuevo disfraz 'lápiz-verde', y colorea el lápiz de verde.
 
 ![Captura de pantalla](images/paint-pencil-green.png)
 
