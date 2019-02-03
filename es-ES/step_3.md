@@ -36,22 +36,22 @@ El objeto lápiz debería 'escuchar' los mensajes "verde" y cambiar su disfraz y
 
 ![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Para establecer el lápiz de color a verde, haz clic en el cuadrado de color en el bloque `fijar color del lápiz`{:class="block3extensions"}, y luego haz clic en el objeto cuadrado verde. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Luego para cosas similares para que puedas cambiar de color de lápiz a azul.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Haz clic en el objeto cuadrado azul y añade este código:
 
 ![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+Luego haz clic en el objeto lápiz y añade este código: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- task \--- Finalmente, añade este código para indicarle al objeto lápiz con qué color comenzar, y asegurarte de que la pantalla esté limpia cuando comiences.
 
 ![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Si prefieres, puedes comenzar con un lápiz de color diferente.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Prueba tu código. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
 ![screenshot](images/paint-pens-test.png) \--- /task \---
