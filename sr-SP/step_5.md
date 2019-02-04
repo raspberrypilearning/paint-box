@@ -13,8 +13,8 @@
 ![крст](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+када је кликнуто на овај лик :: events
+обриши :: pen
 ```
 
 \--- /task \---
@@ -36,8 +36,8 @@ erase all
 ![гумица](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+када је кликнуто на овај лик :: events
+разгласи (гумица v) :: events
 ```
 
 \--- /task \---
@@ -46,7 +46,7 @@ broadcast (eraser v)
 
 \--- task \--- Додај код за креирање гумице.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Додај следећи код лику оловке: `Када примим`{:class="block3events"} поруку `гумица`{:class="block3events"} `Замени костим са гумица`{:class="block3looks"} `Нека боја оловке буде`{:class="block3extensions"} бела \--- /hint \--- \--- hint \--- Ево свих блокова који су ти потребни:
 
 ```blocks3
 set pen color to [#FFFFFF]
