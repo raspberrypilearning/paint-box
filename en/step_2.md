@@ -29,7 +29,12 @@ Add the Pen extension to your project.
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
 ![pencil](images/pencil.png)
-![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
+```blocks3
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
+```
 
 --- /task ---
 
@@ -43,7 +48,16 @@ Next, make your pencil only draw `if`{:class="block3control"} the mouse button i
 Add this code to your pencil sprite:
 
 ![pencil](images/pencil.png)
-![blocks_1545296081_9998171](images/blocks_1545296081_9998171.png)
+```blocks3
+when flag clicked
+forever
+  go to (mouse pointer v)
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
+```
 --- /task ---
 
 --- task ---
