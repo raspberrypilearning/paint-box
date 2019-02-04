@@ -40,9 +40,9 @@
 ![оловка](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+када примим [зелена v] :: events
+замени костим са (бојица-зелена v) :: looks
+нека боја оловке буде [#00CC44] :: pen
 ```
 
 Да подесиш бојицу да боји у зелену, кликни на обојени квадрат у блоку `нека боја оловке буде`{:class="block3extensions"}, а затим кликни на лик зеленог квадрата. \--- /task \---
@@ -54,16 +54,16 @@ set pen color to [#00CC44]
 ![плави_квадрат](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+када је кликнуто на овај лик :: events
+разгласи (плава v) :: events
 ```
 
-Then click on the pencil sprite and add this code: ![оловка](images/pencil.png)
+Затим, кликни на лик оловке да додаш следећи код: ![оловка](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+када примим [плава v] :: events
+замени костим са (бојица-плава v) :: looks
+нека боја оловке буде [#0000ff] :: pen
 ```
 
 \--- /task \---
@@ -73,16 +73,17 @@ set pen color to [#0000ff]
 ![оловка](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
+када је кликнуто на ⚑ :: events
++обриши :: pen
++замени костим са (бојица-плава v) :: looks
++нека боја оловке буде [#0035FF] :: pen
+понављај 
+  иди до (показивач миша v) :: motion
+  ако је <mouse down?> онда 
+    спусти оловку :: pen
+  
+    подигни оловку :: pen :: control
+  end :: control
 end
 ```
 
