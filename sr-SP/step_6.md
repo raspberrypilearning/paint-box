@@ -8,7 +8,22 @@
 
 \--- task \--- Додај ову наредбу **унутар** петље `понављај`{:class="block3control"} у коду оловке:
 
-![blocks_1545296094_182977](images/blocks_1545296094_182977.png) \--- /task \---
+```blocks3
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
+```
+
+\--- /task \---
 
 Ширина трага оловке сада ће стално бити постављена на вредност променљиве `дебљина`{:class="block3variables"}.
 
