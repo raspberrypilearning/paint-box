@@ -24,7 +24,12 @@
 
 \--- task \--- Додај следећи код лику 'зелена', тако да кад је кликнуто на овај лик, он `разгласи`{:class="block3events"} поруку "зелена".
 
-![зелени квадрат](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
+![зелени квадрат](images/green_square.png)
+
+```blocks3
+when this sprite clicked
+broadcast (green v)
+```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
@@ -34,24 +39,57 @@
 
 ![оловка](images/pencil.png)
 
-![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
+```blocks3
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
+```
 
-Да подесиш бојицу да боји у зелену, кликни на обојени квадрат у блоку `нека боја оловке буде`{:class="block3extensions"}, а затим кликни на лик зеленог квадрата. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
 
-Затим на сличан начин то уради и са плавом бојицом.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-\--- task \--- Кликни на плави квадрат и додај следећи код:
+\--- task \--- Click on the blue square sprite and add this code:
 
-![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+![blue_square](images/blue_square.png)
 
-Затим кликни на лик оловке и додај следећи код: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+```blocks3
+when this sprite clicked
+broadcast (blue v)
+```
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+
+```blocks3
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
+```
+
+\--- /task \---
 
 \--- task \--- На крају, додај овај код да кажеш лику бојице са којом бојом да почне и да екран буде обрисан када се твој програм покрене.
 
-![оловка](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+![pencil](images/pencil.png)
 
-Ако желиш, можеш почети са бојицом друге боје.
+```blocks3
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
+end
+```
 
-\--- task \--- Испробај свој код. Можеш ли да мењаш између плаве и зелене бојице када кликнеш на ликове плавог или зеленог квадрата?
+\--- /task \---
 
-![снимак екрана](images/paint-pens-test.png) \--- /task \---
+If you prefer, you can start with a different colour pencil.
+
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png) \--- /task \---
