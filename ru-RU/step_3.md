@@ -24,7 +24,12 @@ Now you're going to add different coloured pencils to your project and allow the
 
 \--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![green square](images/green_square.png) ![blocks_1545296083_0935004](images/blocks_1545296083_0935004.png)
+![green square](images/green_square.png)
+
+```blocks3
+when this sprite clicked
+broadcast (green v)
+```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
@@ -34,7 +39,11 @@ The pencil sprite should listen for the "green" message and change its costume a
 
 ![pencil](images/pencil.png)
 
-![blocks_1545296084_19679](images/blocks_1545296084_19679.png)
+```blocks3
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
+```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
 
@@ -42,13 +51,42 @@ Then to a similar thing so that you can switch the pencil colour to blue.
 
 \--- task \--- Click on the blue square sprite and add this code:
 
-![blue_square](images/blue_square.png) ![blocks_1545296085_2853348](images/blocks_1545296085_2853348.png)
+![blue_square](images/blue_square.png)
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png) ![blocks_1545296086_3780818](images/blocks_1545296086_3780818.png) \--- /task \---
+```blocks3
+when this sprite clicked
+broadcast (blue v)
+```
+
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+
+```blocks3
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
+```
+
+\--- /task \---
 
 \--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![pencil](images/pencil.png) ![blocks_1545296087_4832299](images/blocks_1545296087_4832299.png) \--- /task \---
+![pencil](images/pencil.png)
+
+```blocks3
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
+end
+```
+
+\--- /task \---
 
 If you prefer, you can start with a different colour pencil.
 
