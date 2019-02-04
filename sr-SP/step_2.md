@@ -26,7 +26,14 @@
 
 Додај код лику оловке да `увек`{:class="block3control"} прати стрелицу миша, тако да можеш да црташ:
 
-![оловка](images/pencil.png) ![blocks_1545296079_9099946](images/blocks_1545296079_9099946.png)
+![оловка](images/pencil.png)
+
+```blocks3
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
+```
 
 \--- /task \---
 
@@ -36,24 +43,38 @@
 
 \--- task \--- Додај овај код лику оловке:
 
-![оловка](images/pencil.png) ![blocks_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
+![pencil](images/pencil.png)
 
-\--- task \--- Поново испробај код. Овај пут померај оловку по Позорници док држиш тастер миша. Можеш ли да црташ својом оловком?
+```blocks3
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-![снимак екрана](images/paint-draw.png) \--- /task \---
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
+```
+
+\--- /task \---
+
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title: Да ли ваша оловка не црта из њеног врха?
 
-Ако линија коју твоја оловка црта долази из средине оловке, мораш да промениш лик оловке тако да је врх оловке центар лика.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Кликни на лик оловке, а затим кликни на картицу **Костими**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Помери костим тако да се врх оловке налази **тачно** изнад центра.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Центар костима](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Сада померај оловку преко Позорнице и цртај. Оловка би сада требало да црта линију из њеног врха.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
