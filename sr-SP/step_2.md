@@ -29,9 +29,9 @@
 ![оловка](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+када је кликнуто на ⚑ :: events
+понављај 
+  иди до (показивач миша v) :: motion :: control
 end
 ```
 
