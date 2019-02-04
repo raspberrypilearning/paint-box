@@ -27,8 +27,8 @@
 ![зелени квадрат](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+када је кликнуто на овај лик :: events
+разгласи (зелена v) :: events
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
