@@ -26,7 +26,14 @@ Agrega la extensión de marcador a tu proyecto.
 
 Agrega algo de código al sprite del lápiz para hacer que el sprite siga al cursor `forever`{:class="block3control"} así puedes dibujar:
 
-![lápiz](images/pencil.png) ![bloques_1545296079_9099946](images/blocks_1545296079_9099946.png)
+![lápiz](images/pencil.png)
+
+```blocks3
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
+```
 
 \--- /task \---
 
@@ -36,24 +43,38 @@ Luego, haz que tu lápiz sólo dibuje `if`{:class="block3control"} si se mantien
 
 \--- task \--- Agrega este código al sprite de tu lápiz:
 
-![lápiz](images/pencil.png) ![bloques_1545296081_9998171](images/blocks_1545296081_9998171.png) \--- /task \---
+![pencil](images/pencil.png)
 
-\--- task \--- Comprueba tu código nuevamente. Esta vez, mueve el lápiz alrededor del Escenario y mantiene presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
+```blocks3
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-![captura de pantalla](images/paint-draw.png) \--- /task \---
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
+```
+
+\--- /task \---
+
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title: ¿Tu lápiz no dibuja desde la punta?
 
-Si la línea que tu lápiz dibuja parece que saliera del medio de tu lápiz, necesitas cambiar el sprite de tu lápiz para que la punta sea el centro del sprite.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Haz clic el sprite de lápiz, y luego haz clic sobre la pestaña **Disfraces**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Mueve la pestaña de disfraces para que la punta del lápiz esté **justo encima** del centro.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Centro de disfraces](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Ahora mueve el lápiz alrededor del Escenario y dibuja. El lápiz ahora debería dibujar una línea desde su punta.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
