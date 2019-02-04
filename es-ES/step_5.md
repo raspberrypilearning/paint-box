@@ -10,42 +10,89 @@ A veces se comenten errores, así que añade un botón 'limpiar' y un botón bor
 
 \--- task \--- Añade código al objeto 'X-block' para limpiar el Escenario cuando se haga clic en el objeto.
 
-![cruz](images/cross.png) ![blocks_1545296088_6331482](images/blocks_1545296088_6331482.png) \--- /task \---
+![cross](images/cross.png)
 
-No necesitas utilizar un `enviar`{:class="block3events"} para limpiar el Escenario, porque el bloque `borrar todo`{:class="block3extensions"} cumple con esa función.
+```blocks3
+when this sprite clicked
+erase all
+```
 
-¿Ves que el objeto lápiz incluya un disfraz de borrador?
+\--- /task \---
 
-![captura de pantalla](images/paint-eraser-costume.png)
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Tu proyecto también incluye un objeto borrador por separado.
+Do you see that the pencil sprite includes an eraser costume?
 
-\--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **mostrar**. Aquí se ve cómo debería quedar tu Escenario ahora:
+![screenshot](images/paint-eraser-costume.png)
 
-![captura de pantalla](images/paint-eraser-stage.png) \--- /task \---
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Añade código al objeto borrador para enviar un `enviar 'borrador'`{:class="block3events"} cuando se hace clic en el objeto borrador.
+\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![borrador](images/eraser.png) ![blocks_1545296089_7129629](images/blocks_1545296089_7129629.png) \--- /task \---
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-Cuando el objeto lápiz recibe el mensaje 'borrador', debería cambiar su disfraz al borrador y cambiar el color del marcador a blanco, ¡que es del mismo color que el Escenario!
+\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-\--- task \--- Añade algo de código para crear un borrador.
+![eraser](images/eraser.png)
 
-\--- hints \--- \--- hint \--- Añade algo de código al objeto lápiz: `Cuando recibo`{:class="block3events"} el mensaje `borrador`{:class="block3events"} `Cambia al disfraz borrador`{:class="block3looks"} `fijar color de marcador`{:class="block3extensions"} a blanco \--- /hint \--- \--- hint \--- Aquí están todos los bloques que necesitas: ![blocks_1545296090_8068566](images/blocks_1545296090_8068566.png) \--- /hint \--- \--- hint \--- Aquí está lo que el código debería decir: ![pencil](images/pencil.png) ![blocks_1545296091_9156106](images/blocks_1545296091_9156106.png) \--- /hint \--- \--- /hints \--- \--- /task \---
+```blocks3
+when this sprite clicked
+broadcast (eraser v)
+```
 
-\--- task \--- Evalúa tu proyecto para ver si puedes limpiar el Escenario y borrar las líneas del lápiz.
+\--- /task \---
 
-![captura de pantalla](images/paint-erase-test.png) \--- /task \---
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-Hay un problema más con el lápiz: puedes dibujar en cualquier lugar del Escenario, ¡incluyendo el espacio cerca de los botones 'limpiar' y borrador!
+\--- task \--- Add some code to create the eraser.
 
-![captura de pantalla](images/paint-draw-problem.png)
+\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
 
-\--- task \--- Para arreglar esto, cambia el código de modo que el marcador esté sólo abajo si se hace clic en el ratón **y** la posición del cursor del ratón `y` sea mayor que `120`:
+```blocks3
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-![lápiz](images/pencil.png) ![blocks_1545296093_0167773](images/blocks_1545296093_0167773.png) \--- /task \---
+switch costume to (eraser v)
+```
 
-\--- task \--- Evalúa tu proyecto. Ahora no deberías ser capaz de dibujar cerca de los botones.
+\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
 
-![captura de pantalla](images/paint-fixed.png) \--- /task \---
+```blocks3
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
+```
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
+
+\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+
+![screenshot](images/paint-erase-test.png) \--- /task \---
+
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
+
+```blocks3
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
+```
+
+\--- /task \---
+
+\--- task \--- Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png) \--- /task \---
