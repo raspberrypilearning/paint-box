@@ -43,7 +43,7 @@ end
 
 \--- task \--- Додај овај код лику оловке:
 
-![pencil](images/pencil.png)
+![оловка](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -61,20 +61,20 @@ end
 
 \--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![снимак екрана](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title: Да ли ваша оловка не црта из њеног врха?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Ако линија коју твоја оловка црта долази из средине оловке, мораш да промениш лик оловке тако да је врх оловке центар лика.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Кликни на лик оловке, а затим кликни на картицу **Костими**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Помери костим тако да се врх оловке налази **тачно** изнад центра.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Сада померај оловку преко Позорнице и цртај. Оловка би сада требало да црта линију из њеног врха.
 
 \--- /collapse \---
