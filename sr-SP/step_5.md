@@ -49,18 +49,19 @@
 \--- hints \--- \--- hint \--- Додај следећи код лику оловке: `Када примим`{:class="block3events"} поруку `гумица`{:class="block3events"} `Замени костим са гумица`{:class="block3looks"} `Нека боја оловке буде`{:class="block3extensions"} бела \--- /hint \--- \--- hint \--- Ево свих блокова који су ти потребни:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+нека боја оловке буде [#FFFFFF] :: pen
 
-switch costume to (eraser v)
+када примим [гумица v] :: events
+
+замени костим са (гумица v) :: looks
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![оловка](images/pencil.png)
+\--- /hint \--- \--- hint \--- Овако би код требало да изгледа: ![оловка](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+када примим [гумица v] :: events
+замени костим са (гумица v) :: looks
+нека боја оловке буде [#FFFFFF] :: pen
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
