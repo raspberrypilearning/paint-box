@@ -1,6 +1,6 @@
 ## Cambiar el ancho del marcador
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosor de marcador.
 
 \--- task \--- First, add a new variable called `width`{:class="block3variables"}.
 
