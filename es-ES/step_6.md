@@ -2,25 +2,25 @@
 
 Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosor de marcador.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Añade esta línea **dentro** del bucle `forever`{:class="block3control"} del código del objeto lápiz:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+cuando se hace clic en la bandera
+borrar todo
+cambiar disfraz a (lápiz-azul v)
+fijar color de marcador a [#0035FF]
+siempre
+ir a (cursor del ratón v)
++ fijar grosor del marcador a (ancho:: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then
+marcador hacia abajo
+else
+marcador hacia arriba
+fin
 ```
 
 \--- /task \---
