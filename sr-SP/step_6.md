@@ -9,17 +9,18 @@
 \--- task \--- Додај ову наредбу **унутар** петље `понављај`{:class="block3control"} у коду оловке:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+када је кликнуто на ⚑ :: events
+обриши :: pen
+замени костим са (бојица-плава v) :: looks
+нека боја оловке буде [#0035FF] :: pen
+понављај 
+  иди до (показивач миша v) :: motion
+  + нека дебљина оловке буде (дебљина :: variables) :: pen
+  ако је <&lt;mouse down?&gt; и <(миш y :: sensing) > [-120] :: operators> :: operators> онда 
+    спусти оловку :: pen
+  
+    подигни оловку :: pen :: control
+  end :: control
 end
 ```
 
