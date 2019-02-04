@@ -59,7 +59,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Поново испробај код. Овај пут померај оловку по Позорници док држиш тастер миша. Можеш ли да црташ својом оловком?
 
 ![снимак екрана](images/paint-draw.png) \--- /task \---
 
@@ -73,7 +73,7 @@ end
 
 Помери костим тако да се врх оловке налази **тачно** изнад центра.
 
-![Costume center](images/costume-center-annotated.png)
+![Центар костима](images/costume-center-annotated.png)
 
 Сада померај оловку преко Позорнице и цртај. Оловка би сада требало да црта линију из њеног врха.
 
