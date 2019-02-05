@@ -7,4 +7,4 @@
 + <kbd>e</kbd> = cambia a borrador
 + <kbd>c</kbd> = limpiar pantalla
 
-Si quieres, puedes añadir código también para que al presionar las teclas de las flechas cambien el ancho del marcador.
+Si quieres, puedes añadir código también para que al presionar las teclas de las flechas cambien al ancho del marcador.
