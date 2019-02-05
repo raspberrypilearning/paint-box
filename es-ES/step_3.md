@@ -27,8 +27,8 @@ Ahora vas a añadir diferentes lápices de colores a tu proyecto y permitir que 
 ![cuadrado verde](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+cuando se haga clic en este objeto
+enviar (verde v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
