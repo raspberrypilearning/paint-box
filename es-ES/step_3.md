@@ -40,30 +40,30 @@ El objeto lápiz debería 'escuchar' los mensajes "verde" y cambiar su disfraz y
 ![lápiz](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+cuando recibo [verde v]
+cambiar el disfraz a (lápiz-verde v)
+fijar el color del marcador a [#00C44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Para fijar el lápiz al color verde, haz clic en el cuadrado de color en el bloque `fijar color del marcador`{:class="block3extensions"}, y luego haz clic sobre el objeto cuadrado verde. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Luego de forma similar de modo que puedes cambiar el color del lápiz a azul.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Haz clic sobre el objeto cuadrado azul y añade este código:
 
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+cuando se hace clic en este objeto
+enviar (azul v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Luego, haz clic sobre el objeto lápiz y añade este código: ![pencil](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+cuando recibo [azul v]
+cambiar disfraz a (lápiz-azul v)
+fijar color del marcador a [#0000ff]
 ```
 
 \--- /task \---
@@ -73,23 +73,23 @@ set pen color to [#0000ff]
 ![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
-end
+cuando se haga clic en la bandera
++borrar todo
++cambiar disfraz a (lápiz-azul v)
++fijar color del marcador a [#0035FF]
+siempre
+ir a (cursor del ratón v)
+if<mouse down?>then
+marcador abajo
+o 
+marcador arriba
+fin
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Si prefieres, puedes comenzar con un lápiz de diferente color.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Probar tu código. ¿Puedes cambiar entre los colores de lápices azul y verde al hacer clic sobre los objetos cuadrado azul o verde?
 
 ![screenshot](images/paint-pens-test.png) \--- /task \---
