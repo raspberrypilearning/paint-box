@@ -13,21 +13,21 @@ A veces se comenten errores, así que añade un botón 'limpiar' y un botón bor
 ![cross](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+cuando se hace clic en este objeto
+borrar todo
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+No es necesario utilizar un `enviar`{:class="block3events"} para limpiar un Escenario, porque el bloque `borrar todo`{:class="block3extensions"} cumple esa función.
 
-Do you see that the pencil sprite includes an eraser costume?
+¿Ves que el objeto lápiz incluye un disfraz de borrador?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Tu proyecto también incluye un objeto borrador por separado.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **mostrar**. Here is how your Stage should look now:
 
 ![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
