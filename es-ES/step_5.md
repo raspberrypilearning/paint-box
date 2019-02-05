@@ -23,17 +23,17 @@ No es necesario utilizar un `enviar`{:class="block3events"} para limpiar un Esce
 
 ¿Ves que el objeto lápiz incluye un disfraz de borrador?
 
-![screenshot](images/paint-eraser-costume.png)
+![captura de pantalla](images/paint-eraser-costume.png)
 
 Tu proyecto también incluye un objeto borrador por separado.
 
 \--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **mostrar**. Aquí está cómo debería quedar el Escenario ahora:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![captura de pantalla](images/paint-eraser-stage.png) \--- /task \---
 
 Añade código al objeto borrador para enviar un `enviar 'borrador'`{:class="block3events"} cuando se hace clic en el objeto borrador.
 
-![eraser](images/eraser.png)
+![borrador](images/eraser.png)
 
 ```blocks3
 cuando se hace clic en este objeto
@@ -55,7 +55,7 @@ cuando reciba [borrador v]
 cambia el disfraz a (borrador v)
 ```
 
-\--- /hint \--- \--- hint \--- Aquí está cómo debería lucir el código: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- Aquí está cómo debería lucir el código: ![lápiz](images/pencil.png)
 
 ```blocks3
 cuando reciba [borrador v]
@@ -67,15 +67,15 @@ fija el color del marcador a [#FFFFFF]
 
 \--- task \--- Prueba tu proyecto para ver si puedes limpiar el Escenario y borrar las líneas del lápiz.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![captura de pantalla](images/paint-erase-test.png) \--- /task \---
 
 Hay otro problema más con el lápiz: puedes dibujar donde sea en el Escenario, incluyendo el espacio cerca de los botones 'limpiar' y borrar!
 
-![screenshot](images/paint-draw-problem.png)
+![captura de pantalla](images/paint-draw-problem.png)
 
 \--- task \--- Para arreglar esto, cambia el código de modo que el marcador esté abajo sólo si se hace clic en el ratón **y** la posición del cursor `y` es mayor que `-120`:
 
-![pencil](images/pencil.png)
+![lápiz](images/pencil.png)
 
 ```blocks3
 cuando se haga clic en la bandera
@@ -95,4 +95,4 @@ fin
 
 \--- task \--- Prueba tu proyecto. Ahora no deberías ser capaz de dibujar cerca de los botones.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![captura de pantalla](images/paint-fixed.png) \--- /task \---
