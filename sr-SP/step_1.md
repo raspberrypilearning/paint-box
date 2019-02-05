@@ -19,7 +19,7 @@
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Кликом на боју промениће се боја бојице, а кликом на гумицу појавиће се гумица!
+\--- print-only \--- Можеш кликнути на зелену заставицу да почнеш. Употреби миш како би померао оловку и држи притиснут десни тастер миша да црташ. Кликом на боју промениће се боја бојице, а кликом на гумицу појавиће се гумица!
 
 ![showcase](images/showcase.png) \--- /print-only \---
 
