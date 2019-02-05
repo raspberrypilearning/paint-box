@@ -27,40 +27,40 @@ No es necesario utilizar un `enviar`{:class="block3events"} para limpiar un Esce
 
 Tu proyecto también incluye un objeto borrador por separado.
 
-\--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **mostrar**. Here is how your Stage should look now:
+\--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **mostrar**. Aquí está cómo debería quedar el Escenario ahora:
 
 ![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+Añade código al objeto borrador para enviar un `enviar 'borrador'`{:class="block3events"} cuando se hace clic en el objeto borrador.
 
 ![eraser](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+cuando se hace clic en este objeto
+enviar (borrador v)
 ```
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Cuando el objeto lápiz reciba el mensaje 'borrador', ¡debería cambiar su disfraz al de borrador y cambiar el color del marcador a blanco, que es el mismo color que el Escenario!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- Añade algo de código para crear el borrador.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Añade algo de código al objeto lápiz: `Cuando reciba`{:class="block3events"} el mensaje `borrador`{:class="block3events"} `Cambia a borrador de disfraz`{:class="block3looks"} `Fija el color del marcador`{:class="block3extensions"} a blanco \--- /hint \--- \--- hint \--- Aquí están todos los bloques que necesitas:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+fijar el color del marcador a [#FFFFFF]
+cuando reciba [borrador v]
 
-switch costume to (eraser v)
+cambia el disfraz a (borrador v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- Aquí está cómo debería lucir el código: ![pencil](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+cuando reciba [borrador v]
+cambia disfraz a (borrador v)
+fija el color del marcador a [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
