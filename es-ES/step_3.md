@@ -14,7 +14,7 @@ Ahora vas a añadir diferentes lápices de colores a tu proyecto y permitir que 
 
 \--- task \--- Dibuja dos nuevos objetos: un cuadrado azul y uno verde. Estos sirven para elegir entre el lápiz azul y el verde.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![captura de pantalla](images/paint-selectors.png) \--- /task \---
 
 \--- task \--- Renombra los nuevos objetos para que se llamen 'azul' y 'verde'
 
@@ -51,14 +51,14 @@ Luego de forma similar de modo que puedes cambiar el color del lápiz a azul.
 
 \--- task \--- Haz clic sobre el objeto cuadrado azul y añade este código:
 
-![blue_square](images/blue_square.png)
+![cuadrado_azul](images/blue_square.png)
 
 ```blocks3
 cuando se hace clic en este objeto
 enviar (azul v)
 ```
 
-Luego, haz clic sobre el objeto lápiz y añade este código: ![pencil](images/pencil.png)
+Luego, haz clic sobre el objeto lápiz y añade este código: ![lápiz](images/pencil.png)
 
 ```blocks3
 cuando recibo [azul v]
@@ -70,7 +70,7 @@ fijar color del marcador a [#0000ff]
 
 \--- task \--- Finalmente, añade este código para indicarle al objeto lápiz con qué color comenzar, y asegurarte de que la pantalla esté limpia cuando comiences.
 
-![pencil](images/pencil.png)
+![lápiz](images/pencil.png)
 
 ```blocks3
 cuando se haga clic en la bandera
@@ -92,4 +92,4 @@ Si prefieres, puedes comenzar con un lápiz de diferente color.
 
 \--- task \--- Probar tu código. ¿Puedes cambiar entre los colores de lápices azul y verde al hacer clic sobre los objetos cuadrado azul o verde?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![captura de pantalla](images/paint-pens-test.png) \--- /task \---
