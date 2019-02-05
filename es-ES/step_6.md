@@ -1,6 +1,6 @@
 ## Cambiar el ancho del marcador
 
-Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosor de marcador.
+Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores de marcador.
 
 \--- task \--- Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 
@@ -17,9 +17,9 @@ siempre
 ir a (cursor del ratón v)
 + fijar grosor del marcador a (ancho:: variables)
 if <<mouse down?> and <(mouse y) > [-120]>> then
-marcador hacia abajo
-else
-marcador hacia arriba
+marcador abajo
+o
+marcador arriba
 fin
 ```
 
