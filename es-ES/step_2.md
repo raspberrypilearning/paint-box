@@ -10,13 +10,13 @@ Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 
 Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-En el proyecto de inicio, deberías ver los sprites del lápiz y el borrador:
+En el proyecto de inicio, deberías ver los objetos lápiz y borrador:
 
 ![captura de pantalla](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Agrega la extensión de marcador a tu proyecto.
+Añade la extensión de marcador a tu proyecto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,7 +24,7 @@ Agrega la extensión de marcador a tu proyecto.
 
 \--- task \---
 
-Agrega algo de código al sprite del lápiz para hacer que el sprite siga al cursor `forever`{:class="block3control"} así puedes dibujar:
+Añade algo de código al objeto lápiz para hacer que el objeto siga al cursor `forever`{:class="block3control"} así puedes dibujar:
 
 ![lápiz](images/pencil.png)
 
