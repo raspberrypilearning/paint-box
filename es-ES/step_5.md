@@ -10,7 +10,7 @@ A veces se comenten errores, así que añade un botón 'limpiar' y un botón bor
 
 \--- task \--- Añade código al objeto 'X-block' para limpiar el Escenario cuando se haga clic en el objeto.
 
-![cross](images/cross.png)
+![cruz](images/cross.png)
 
 ```blocks3
 cuando se hace clic en este objeto
@@ -65,34 +65,34 @@ fija el color del marcador a [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- Prueba tu proyecto para ver si puedes limpiar el Escenario y borrar las líneas del lápiz.
 
 ![screenshot](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Hay otro problema más con el lápiz: puedes dibujar donde sea en el Escenario, incluyendo el espacio cerca de los botones 'limpiar' y borrar!
 
 ![screenshot](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- task \--- Para arreglar esto, cambia el código de modo que el marcador esté abajo sólo si se hace clic en el ratón **y** la posición del cursor `y` es mayor que `-120`:
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
+cuando se haga clic en la bandera
+borrar todo
+cambia disfraz a (lápiz-azul v)
+fijar el color del marcador a [#0035FF]
+siempre
+ir a (cursor del ratón v)
 +if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+marcador abajo
+o
+marcador arriba
+fin
 ```
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- Prueba tu proyecto. Ahora no deberías ser capaz de dibujar cerca de los botones.
 
 ![screenshot](images/paint-fixed.png) \--- /task \---
