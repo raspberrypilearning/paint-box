@@ -19,7 +19,7 @@
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Кликом на боју промениће се боја бојице, а кликом на гумицу појавиће се гумица!
 
 ![showcase](images/showcase.png) \--- /print-only \---
 
