@@ -27,7 +27,7 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## title: Lo que vas a aprender
 
-+ Cómo utilizar la extensión Lápiz en Scratch
++ Cómo utilizar la extensión de marcador en Scratch
 + Cómo utilizar los enunciados para comunicar entre objetos
 + Cómo detectar los movimientos del ratón \--- /collapse \---
 
