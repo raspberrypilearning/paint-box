@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Izazov: više olovaka
 
 Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Can you use your pencils to draw a picture?
+Da li možeš da upotrijebiš svoje olovke da napraviš crtež? 
 
 ![screenshot](images/paint-final.png)
