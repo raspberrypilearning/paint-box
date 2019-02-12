@@ -1,80 +1,80 @@
-## Make a pencil
+## एक पेन्सिल बनवा
 
-Start by making a pencil that you can use to draw on the Stage.
+स्टेज वर काढण्यासाठी आपण वापरू शकाल अशी पेन्सिल तयार करा.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- कार्य \--- 'पेंट बॉक्स' स्क्रॅच स्टार्टर प्रोजेक्ट उघडा.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**ऑनलाइन**: स्टार्टर प्रोजेक्ट [rpf.io/paint-box-on](http://rpf.io/paint-box-on)वर उघडा: {लक्ष्य = "_ blank"}
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**ऑफलाइन**: ऑफलाइन संपादकात [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/paint-box-go){: लक्ष्य = "_ blank"} उघडा.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+आपल्याला स्क्रॅच ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [rpf.io/scratchoff](http://rpf.io/scratchoff)शोधू शकता {: target = "_ blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+स्टार्टर प्रकल्पामध्ये, आपल्याला पेन्सिल आणि इरेझर स्पिट्स दिसू शकतात:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-starter.png) \--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Add the Pen extension to your project.
+आपल्या प्रकल्पातील पेन विस्तार जोडा.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+स्पिट माउस चे पॉइंटर `कायमचे अनुसरण करण्यासाठी पेन्सिल स्प्राइटमध्ये काही कोड जोडा`{: class = "block3control"} जेणेकरून आपण रेखाटू शकता:
 
-![pencil](images/pencil.png)
-
-```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-end
-```
-
-\--- /task \---
-
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
-
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
-
-\--- task \--- Add this code to your pencil sprite:
-
-![pencil](images/pencil.png)
+![पेन्सिल](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
-end
+जेव्हा ध्वज
+कायमचे क्लिक करेल
+  (माऊस पॉइंटर विरुद्ध)
+अंतरावर जाईल
 ```
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- कार्य \--- ध्वज क्लिक करा आणि नंतर आपला कोड कार्य करतो की नाही हे तपासण्यासाठी माउस पॉइंटरला स्टेजवर हलवा. \--- / कार्य \---
 
-![screenshot](images/paint-draw.png) \--- /task \---
+पुढे, आपला पेन्सिल केवळ `ड्रॉ करा, जर`{: class = "block3control"} माऊस बटण क्लिक केले जात आहे.
 
-## \--- collapse \---
+\--- कार्य \--- हा कोड आपल्या पेन्सिल स्प्राइटमध्ये जोडा:
 
-## title: Does your pencil not draw from its tip?
+![पेन्सिल](images/pencil.png)
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+```blocks3
+जेव्हा ध्वज
+कायमचे क्लिक केले जाते
+  (माउस पॉइंटर विरुद्ध)
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
++ <mouse down?> असल्यास
+  पेन पेन
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+  पेन अप
+अंत
+```
 
-![Costume center](images/costume-center-annotated.png)
+\--- / कार्य \---
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+\--- कार्य \--- पुन्हा आपला कोड तपासा. यावेळी, पेंसिल स्टेजच्या दिशेने हलवा आणि माऊस बटण दाबून ठेवा. आपण आपल्या पेन्सिलने काढू शकता का?
 
-\--- /collapse \---
+![स्क्रीनशॉट](images/paint-draw.png) \--- / कार्य \---
+
+## \--- पडणे \---
+
+## शीर्षक: आपला पेन्सिल त्याच्या टिप पासून काढत नाही?
+
+जर पेंसिलच्या मधल्या भागातून आपला पेन्सिल ड्रॉ दिसत असेल तर आपल्याला आपला पेन्सिल स्प्राइट बदलणे आवश्यक आहे जेणेकरून टिप स्प्राइटचा केंद्र असेल.
+
+पेन्सिल स्प्राइटवर क्लिक करा आणि नंतर **वेशभूषा** टॅबवर क्लिक करा.
+
+हलवा पोशाख च्या तर पेन्सिल टीप आहे **फक्त वरील** केंद्र.
+
+![कॉस्टयूम सेंटर](images/costume-center-annotated.png)
+
+आता पेंसिलला स्टेजवर फिरवा आणि काढा. पेन्सिलने आता त्याच्या टिप पासून एक ओळ काढली पाहिजे.
+
+\--- / संकुचित \---
