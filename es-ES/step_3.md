@@ -4,7 +4,7 @@ Ahora vas a añadir diferentes lápices de colores a tu proyecto y permitir que 
 
 \--- task \--- Haz clic en el objeto lápiz, haz clic sobre **Disfraces**, y duplica el disfraz llamado 'lápiz-azul'.
 
-![captura de pantalla](images/paint-blue-duplicate.png) \--- /task \---
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
 \--- task \--- Nombra el nuevo disfraz 'lápiz-verde', y colorea el lápiz de verde.
 
@@ -14,7 +14,7 @@ Ahora vas a añadir diferentes lápices de colores a tu proyecto y permitir que 
 
 \--- task \--- Dibuja dos nuevos objetos: un cuadrado azul y uno verde. Estos sirven para elegir entre el lápiz azul y el verde.
 
-![captura de pantalla](images/paint-selectors.png) \--- /task \---
+![screenshot](images/paint-selectors.png) \--- /task \---
 
 \--- task \--- Renombra los nuevos objetos para que se llamen 'azul' y 'verde'
 
@@ -45,13 +45,13 @@ cambiar el disfraz a (lápiz-verde v)
 fijar el color del marcador a [#00C44]
 ```
 
-Para fijar el lápiz al color verde, haz clic en el cuadrado de color en el bloque `fijar color del marcador`{:class="block3extensions"}, y luego haz clic sobre el objeto cuadrado verde. \--- /task \---
+Para establecer el lápiz de color a verde, haz clic en el cuadrado de color en el bloque `fijar color del lápiz`{:class="block3extensions"}, y luego haz clic en el objeto cuadrado verde. \--- /task \---
 
-Luego de forma similar de modo que puedes cambiar el color del lápiz a azul.
+Luego para cosas similares, para que puedas cambiar de color de lápiz a azul.
 
-\--- task \--- Haz clic sobre el objeto cuadrado azul y añade este código:
+\--- task \--- Haz clic en el objeto cuadrado azul y añade este código:
 
-![cuadrado_azul](images/blue_square.png)
+![cuadrado azul](images/blue_square.png)
 
 ```blocks3
 cuando se hace clic en este objeto
@@ -88,8 +88,8 @@ fin
 
 \--- /task \---
 
-Si prefieres, puedes comenzar con un lápiz de diferente color.
+Si prefieres, puedes comenzar con un lápiz de color diferente.
 
-\--- task \--- Probar tu código. ¿Puedes cambiar entre los colores de lápices azul y verde al hacer clic sobre los objetos cuadrado azul o verde?
+\--- task \--- Prueba tu código. ¿Puedes cambiar entre el color de lápiz verde y el azul al cliquear en los objetos cuadrado azul o verde?
 
-![captura de pantalla](images/paint-pens-test.png) \--- /task \---
+![screenshot](images/paint-pens-test.png) \--- /task \---
