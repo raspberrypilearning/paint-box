@@ -1,4 +1,4 @@
-## Undo mistakes
+## Greške
 
 Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
@@ -25,7 +25,7 @@ Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Tvoj projekat takođe ima poseban lik gumice.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
