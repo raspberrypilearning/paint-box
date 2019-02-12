@@ -1,11 +1,5 @@
-\--- thử thách \---
+## What next?
 
-## Thách thức: bút chì nhiều hơn
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Bạn có thể thêm bút chì màu đỏ, vàng và đen vào chương trình sơn của bạn không? Hãy xem bước 2 ở trên nếu bạn quên cách thực hiện điều này. Nhớ thêm phím tắt cho các bút chì mới này.
-
-Bạn có thể sử dụng bút chì của bạn để vẽ một bức tranh?
-
-![ảnh chụp màn hình](images/paint-final.png)
-
-\--- /thử thách \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
