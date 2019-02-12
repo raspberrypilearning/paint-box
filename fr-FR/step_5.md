@@ -1,4 +1,4 @@
-## Undo mistakes
+## Faire des erreurs
 
 Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
@@ -23,9 +23,9 @@ You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, b
 
 Do you see that the pencil sprite includes an eraser costume?
 
-![screenshot](images/paint-eraser-costume.png)
+![capture d'écran](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Ton projet comprend également un lutin gomme distinct.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
@@ -67,7 +67,7 @@ set pen color to [#FFFFFF]
 
 \--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![capture d'écran](images/paint-erase-test.png) \--- /task \---
 
 There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
