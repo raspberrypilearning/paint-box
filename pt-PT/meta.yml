@@ -1,27 +1,27 @@
 ---
 title: Caixa de Pintura
-hero_image: images/banner.png
+hero_image: imagens/banner.png
 listed: true
 copyedit: false
-description: Neste projeto vais criar o teu proprio programa de desenho!
-version: 3
-last_tested: 2017-01-01
+description: Faz o teu próprio programa de pintura
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - 
     title: Caixa de Pintura
   - 
     title: Make a pencil
   - 
-    title: Coloured pencils
+    title: Lápis coloridos
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Desafio: atalhos'
     challenge: true
   - 
     title: Undo mistakes
   - 
     title: Change the pencil width
   - 
-    title: 'Challenge: more pencils'
+    title: 'Desafio: Mais lápis'
     challenge: true
   - 
     title: 'What next?'
