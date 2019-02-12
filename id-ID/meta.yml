@@ -3,25 +3,25 @@ title: Kotak Lukis
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Belajar cara membuat program lukis kamu sendiri.
-version: 3
-last_tested: 2017-01-01
+description: Buatlah program lukis kamu sendiri
+version: 4.1.0
+last_tested: 2018-30-01
 steps:
   - 
     title: Pengantar
   - 
     title: Apa yang kamu butuhkan
   - 
-    title: Membuat pensil
+    title: Pensil berwarna
   - 
-    title: 'Pensil berwarna'
+    title: 'Tantangan: pintasan'
     challenge: true
   - 
     title: Membuat kesalahan
   - 
     title: Mengubah lebar pensil
   - 
-    title: 'Tantangan: pintasan'
+    title: 'Tantangan: pensil tambahan'
     challenge: true
   - 
-    title: 'Tantangan: pensil tambahan'
+    title: 'Apa selanjutnya?'
