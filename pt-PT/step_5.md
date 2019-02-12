@@ -25,7 +25,7 @@ Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+O teu projeto também inclui separadamente um actor borracha.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
@@ -67,11 +67,11 @@ set pen color to [#FFFFFF]
 
 \--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![captura de ecrã](images/paint-erase-test.png) \--- /task \---
 
 There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![screenshot](images/paint-draw-problem.png)
+![captura de ecrã](images/paint-draw-problem.png)
 
 \--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
@@ -95,4 +95,4 @@ end
 
 \--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![captura de ecrã](images/paint-fixed.png) \--- /task \---
