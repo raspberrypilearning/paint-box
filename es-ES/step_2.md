@@ -1,4 +1,4 @@
-## Hacer un lápiz
+## Lo que necesitarás
 
 Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 
@@ -12,7 +12,7 @@ Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrar
 
 En el proyecto de inicio, deberías ver los objetos lápiz y borrador:
 
-![captura de pantalla](images/paint-starter.png) \--- /task \---
+![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -59,22 +59,22 @@ fin
 
 \--- /task \---
 
-\--- task \--- Prueba tu código de nuevo. Esta vez, mueve el lápiz alrededor del Escenario y mantén presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
+\--- task \--- Comprueba tu código nuevamente. Esta vez, mueve el lápiz alrededor del Escenario y mantiene presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
 
-![captura de pantalla](images/paint-draw.png) \--- /task \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title: ¿Tu lápiz no dibuja desde la punta?
 
-Si la línea que tu lápiz dibuja parece que sale desde el medio del lápiz, necesitas cambiar tu objeto lápiz de modo que la punta sea el centro del objeto.
+Si la línea que tu lápiz dibuja parece que saliera del medio de tu lápiz, necesitas cambiar el sprite de tu lápiz para que la punta sea el centro del sprite.
 
-Haz clic sobre el objeto lápiz, y luego haz clic sobre la pestaña **Disfraces**.
+Haz clic el sprite de lápiz, y luego haz clic sobre la pestaña **Disfraces**.
 
-Mueve el disfraz para que la punta del lápiz esté **justo encima** del centro.
+Mueve la pestaña de disfraces para que la punta del lápiz esté **justo encima** del centro.
 
-![Centro de disfraces](images/costume-center-annotated.png)
+![Centro del disfraz](images/costume-center-annotated.png)
 
-Ahora mueve el lápiz alrededor del Escenario y dibuja. Ahora el lápiz debería dibujar una línea desde la punta.
+Ahora mueve el lápiz alrededor del Escenario y dibuja. El lápiz ahora debería dibujar una línea desde su punta.
 
 \--- /collapse \---
