@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: Boîte de peinture
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
-version: 4.1.0
-last_tested: 2018-11-30
+description: Apprend à faire ton propre programme de dessin.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
   - 
-    title: Make a pencil
+    title: Ce dont tu auras besoin
   - 
-    title: Coloured pencils
+    title: Faire un crayon
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Crayons de couleurs'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Faire des erreurs
   - 
-    title: Change the pencil width
+    title: Changer l'épaisseur du trait
   - 
-    title: 'Challenge: more pencils'
+    title: 'Défi : raccourcis'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Défi : plus de crayons'
