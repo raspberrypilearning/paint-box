@@ -1,12 +1,12 @@
-\--- no-print \---
+\--- tidak-dicetak \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\--- /no-print \---
+\--- /tidak dicetak \---
 
 ## Pengantar
 
-Make your own paint program!
+Buatlah program lukis kamu sendiri!
 
 ### Apa yang kamu akan buat
 
@@ -17,7 +17,7 @@ Make your own paint program!
   <img src="images/paint-final.png">
 </div>
 
-\--- /no-print \---
+\--- /tidak dicetak \---
 
 \--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
@@ -25,7 +25,7 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Apa yang akan kamu pelajari
 
 + How to use the Pen extension in Scratch
 + How to use broadcasts to communicate between sprites
@@ -33,15 +33,15 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Apa yang kamu butuhkan
 
-### Hardware
+### Perangkat Keras
 
-+ A computer capable of running Scratch 3
++ Komputer yang mampu menjalankan Scratch 3
 
-### Software
+### Perangkat Lunak
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (baik [online](http://rpf.io/scratchon){:target="_blank"} atau [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -49,10 +49,10 @@ Make your own paint program!
 
 \--- /collapse \---
 
-## \--- collapse \---
+## --menggulung--
 
-## title: Additional information for educators
+## judul: Informasi tambahan untuk pendidik
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Jika Anda perlu mencetak proyek ini, silakan gunakan versi ramah-printer [](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /menggulung \---
