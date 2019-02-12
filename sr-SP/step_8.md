@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Изазов: Више бојица
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Можеш ли да додаш црвену, жуту и црну бојицу у свој програм за цртање? Ако не можеш да се сетиш како да то урадиш, погледај претходни корак 2. Не заборави да додаш пречице на тастатури и за ове нове бојице.
-
-Можеш ли да употребиш своје бојице да нацрташ слику?
-
-![слика екрана](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
