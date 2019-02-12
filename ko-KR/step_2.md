@@ -1,4 +1,4 @@
-## Make a pencil
+## 준비물
 
 Start by making a pencil that you can use to draw on the Stage.
 
@@ -12,7 +12,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 In the starter project, you should see pencil and eraser sprites:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![스크린샷](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -59,9 +59,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. 연필로 그림을 그릴 수 있나요?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![스크린샷](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
@@ -77,4 +77,4 @@ Move the costume's so the tip of the pencil is **just above** the centre.
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
-\--- /collapse \---
+-- /collapse \---
