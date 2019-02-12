@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## التحدي: المزيد من أقلام الرصاص
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-هل يمكنك إضافة أقلام الرصاص الحمراء والصفراء والسوداء إلى برنامج الطلاء الخاص بك؟ ألق نظرة على الخطوة 2 أعلاه إذا كنت قد نسيت كيفية القيام بذلك. تذكر أن تقوم بإضافة اختصارات لوحة المفاتيح لهذه الأقلام الجديدة أيضا.
-
-هل يمكنك استخدام أقلام الرصاص الخاص بك لرسم صورة؟
-
-![لقطة الشاشة](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
