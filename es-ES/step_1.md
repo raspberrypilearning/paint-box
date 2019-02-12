@@ -6,7 +6,7 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## Introducción
 
-¡Realiza tu propio programa para dibujar!
+¡Haz tu propio programa de dibujo!
 
 ### Lo que harás
 
@@ -21,11 +21,11 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 \--- print-only \--- Harás clic en la bandera verde para comenzar, y utilizarás el ratón para mover el lápiz y mantener apretado el botón izquierdo para dibujar. Hacer clic en el color cambiará el color del lápiz, y haciendo clic en el borrador, ¡cambiará la función a borrador!
 
-![exposición](images/showcase.png) \--- /print-only \---
+![ejemplo](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Lo que vas a aprender
+## title: Lo que aprenderás
 
 + Cómo utilizar la extensión de marcador en Scratch
 + Cómo utilizar los enunciados para comunicar entre objetos
@@ -33,15 +33,15 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## \--- collapse \---
 
-## title: Lo que vas a necesitar
+## title: Lo que necesitarás
 
 ### Hardware
 
-+ Una computadora capaz de hacer correr Scratch 3
++ Ordenador capaz de ejecutar Scratch 3
 
 ### Software
 
-+ Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
++ Scratch 3 ([en línea](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
@@ -53,6 +53,6 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## title: Información adicional para educadores
 
-Si necesitas imprimir este proyecto, por favor utiliza la [versión de impresión amigable](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
 Puedes [encontrar la solución para este proyecto aquí](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
