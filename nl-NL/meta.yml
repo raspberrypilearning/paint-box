@@ -3,25 +3,25 @@ title: Paint Box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Leer hoe je je eigen tekenprogramma maakt.
-version: 3
-last_tested: 2017-01-01
+description: Maak je eigen teken programma
+version: 4.1.0
+last_tested: 2018/11/30
 steps:
   - 
     title: Inleiding
   - 
     title: Wat heb je nodig
   - 
-    title: Een potlood maken
+    title: Kleurpotloden
   - 
-    title: 'Kleurpotloden'
+    title: 'Uitdaging: snelkoppelingen'
     challenge: true
   - 
     title: Fouten maken
   - 
     title: De potlooddikte wijzigen
   - 
-    title: 'Uitdaging: snelkoppelingen'
+    title: 'Uitdaging: meer potloden'
     challenge: true
   - 
-    title: 'Uitdaging: meer potloden'
+    title: 'Uitdaging: meer blokken maken'
