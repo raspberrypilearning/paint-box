@@ -1,95 +1,95 @@
-## Coloured pencils
+## रंगीत पेन्सिल
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+आता आपण आपल्या प्रोजेक्टमध्ये भिन्न रंगीत पेन्सिल जोडणार आहात आणि वापरकर्त्यास त्या दरम्यान निवडण्याची परवानगी देऊ शकता.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- कार्य \--- पेन्सिल स्प्राइटवर क्लिक करा, **कॉस्ट्यूम्स**वर क्लिक करा आणि 'पेन्सिल-ब्लू' पोशाख डुप्लिकेट करा.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-blue-duplicate.png) \--- / कार्य \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- कार्य \--- नवीन पोशाख 'पेन्सिल-हिरवे' नाव द्या आणि पेन्सिल हिरवे रंग द्या.
 
 ![स्क्रीनशॉट](images/paint-pencil-green.png)
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- कार्य \--- दोन नवीन sprites काढा: एक निळा स्क्वेअर आणि एक हिरव्या स्क्वेअर. हे निळे आणि हिरव्या पेन्सिल दरम्यान निवडण्यासाठी आहेत.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-selectors.png) \--- / कार्य \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- कार्य \--- नवीन sprites पुनर्नामित करा जेणेकरून त्यांना 'निळा' आणि 'हिरव्या' म्हणतात
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- कार्य \--- 'हिरव्या' परी काही कोड जोडा जेणेकरून या परी क्लिक केली जाते तेव्हा, तो `ब्रॉडकास्ट`{वर्ग = "block3events"} संदेश "हिरवा".
 
-![green square](images/green_square.png)
-
-```blocks3
-when this sprite clicked
-broadcast (green v)
-```
-
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
-
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
-
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
-
-![pencil](images/pencil.png)
+![हिरवा चौरस](images/green_square.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+जेव्हा या स्प्राइटने
+प्रसारण (हिरव्या v) क्लिक केले
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+[[[generic-scratch3-broadcast-message]]] \--- / कार्य \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+पेन्सिल स्प्राइटने "ग्रीन" संदेश ऐकला पाहिजे आणि त्याचे कपडे व पेन्सिल रंग प्रतिसादात बदलला पाहिजे.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- कार्य \--- आपल्या पेन्सिल स्प्राइटवर स्विच करा. काही कोड जोडा जेणेकरून जेव्हा या स्प्राइटला `हिरवे`{: क्लास = "ब्लॉक 3events"} प्रसारण प्राप्त होईल, तेव्हा ते हिरव्या पेन्सिल पोशाखांवर स्विच होईल आणि पेन रंग हिरव्यामध्ये बदलेल.
+
+![पेन्सिल](images/pencil.png)
+
+```blocks3
+जेव्हा मी [हिरवे व्ही]
+स्विच कॉस्च्यूम (पेन्सिल-ग्रीन व्ही)
+सेट पेन रंग [# 00CC44] प्राप्त करतो
+```
+
+पेन्सिलला हिरव्या रंगामध्ये सेट करण्यासाठी, `सेट कलर कलर`मधील रंगीत स्क्वेअर क्लिक करा: {block = "block3extensions"} ब्लॉक, आणि नंतर हिरव्या स्क्वेअर स्प्राइटवर क्लिक करा. \--- / कार्य \---
+
+मग त्याच गोष्टीसाठी आपण पेन्सिल रंग निळ्यामध्ये बदलू शकता.
+
+\--- कार्य \--- निळ्या स्क्वेअर स्प्राइटवर क्लिक करा आणि हा कोड जोडा:
 
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+जेव्हा या स्प्राइटने
+प्रसारण (निळा वी) क्लिक केले
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+मग पेन्सिल स्प्राइट वर क्लिक करा आणि हा कोड जोडा: ![पेन्सिल](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+जेव्हा मी [निळा व्ही]
+स्विच कॉस्च्युम (पेन्सिल-ब्लू व्ही)
+सेट पेन रंग [# 0000ff] वर प्राप्त करते
 ```
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- कार्य \--- शेवटी, हा कोड पेन्सिलला कोणत्या रंगाचा प्रारंभ करावा ते सांगण्यासाठी आणि आपला प्रोग्राम प्रारंभ झाल्यानंतर स्क्रीन स्पष्ट असल्याचे सुनिश्चित करण्यासाठी जोडा.
 
-![pencil](images/pencil.png)
+![पेन्सिल](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
-end
+जेव्हा ध्वज
+क्लिक केले तेव्हा सर्व
++ स्विच कॉस्च्यूम (पेन्सिल-ब्लू व्ही)
++ सेट पेन कलर [# 0035FF]
+कायमचे काढावे
+  (माउस पॉइंटर विरुद्ध)
+ <mouse down?> असल्यास
+  पेन डाउन
+
+  पेन अप
+अंत
 ```
 
-\--- /task \---
+\--- / कार्य \---
 
-If you prefer, you can start with a different colour pencil.
+आपण प्राधान्य दिल्यास, आपण वेगळ्या रंगाच्या पेन्सिलसह प्रारंभ करू शकता.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- कार्य \--- कसोटी आपला कोड. निळ्या किंवा हिरव्या स्क्वेअर स्पिट्सवर क्लिक करून आपण निळ्या आणि हिरव्या पेन्सिल रंगांमध्ये स्विच करू शकता?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-pens-test.png) \--- / कार्य \---
