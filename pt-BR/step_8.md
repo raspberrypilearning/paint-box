@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## \--- /challenge \---
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Você pode adicionar lápis vermelho, amarelo e preto ao seu programa de pintura? Dê uma olhada no passo 2 acima se você esqueceu como fazer isso. Lembre-se de adicionar também atalhos de teclado para esses novos lápis.
-
-Você pode usar os lápis para desenhar uma imagem?
-
-![screenshot](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
