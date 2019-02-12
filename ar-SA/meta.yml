@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: علبة الألوان
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: تعلَّم كيف تصنع برنامج رسم من ابتكارك.
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
     title: المقدمة
   - 
-    title: Make a pencil
+    title: إنشاء قلم رصاص
   - 
-    title: Coloured pencils
+    title: أقلام ملوَّنة
   - 
-    title: 'Challenge: shortcuts'
+    title: 'أخطاء الرسم'
     challenge: true
   - 
-    title: Undo mistakes
+    title: تغيير عرض خط القلم الرصاص
   - 
-    title: Change the pencil width
+    title: 'التحدي: الاختصارات'
   - 
-    title: 'Challenge: more pencils'
+    title: 'التحدي: مزيد من الأقلام'
     challenge: true
   - 
     title: 'What next?'
