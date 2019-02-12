@@ -29,7 +29,7 @@ Your project also includes a separate eraser sprite.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![captura de tela](images/paint-eraser-stage.png) \--- /task \---
 
 \--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
@@ -67,7 +67,7 @@ set pen color to [#FFFFFF]
 
 \--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![captura de tela](images/paint-erase-test.png) \--- /task \---
 
 There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
