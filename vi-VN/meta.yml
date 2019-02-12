@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: Hộp sơn
 hero_image: images / banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: Làm chương trình sơn của riêng bạn
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
     title: Giới thiệu
   - 
-    title: Make a pencil
+    title: Làm bút chì
   - 
-    title: Coloured pencils
+    title: Bút chì màu
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Thử thách: phím tắt'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Hoàn tác sai lầm
   - 
-    title: Change the pencil width
+    title: Thay đổi chiều rộng bút chì
   - 
-    title: 'Challenge: more pencils'
+    title: 'Thử thách: thêm bút chì'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Tiếp theo là gì?'
