@@ -1,40 +1,40 @@
-## Change the pen width
+## Thay đổi chiều rộng bút
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Tiếp theo, bạn sẽ thêm mã để cho phép người sử dụng chương trình của bạn vẽ những thứ có độ rộng bút khác nhau.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Đầu tiên, thêm một biến mới có tên `width`{: class = "block3variables"}.
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- / nhiệm vụ \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Thêm dòng **vào bên trong** vòng `mãi mãi`{: class = "block3control"} của mã bút chì sprite:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+khi cờ nhấp
+xóa tất cả
+trang phục chuyển sang (bút chì màu xanh v)
+đặt màu bút thành [# 0035FF]
+mãi mãi
+đi tới (con trỏ chuột v)
++ đặt kích thước bút thành (width :: biến)
+nếu <<mouse down?> và <(chuột y) > [-120]>> rồi 
+  bút xuống
+  khác
+  bút lên
+kết thúc
 ```
 
-\--- /task \---
+\--- /bài tập \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+Độ rộng bút bây giờ liên tục được đặt thành giá trị của biến `width`{: class = "block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Nhấp chuột phải vào biến `chiều rộng`{: class = "block3variables"} được hiển thị trên Giai đoạn, sau đó nhấp vào **thanh trượt**.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![ảnh chụp màn hình](images/paint-slider.png) \--- /bài tập \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Bây giờ bạn có thể kéo thanh trượt hiển thị bên dưới biến để thay đổi giá trị của biến.
 
-![screenshot](images/paint-slider-change.png)
+![ảnh chụp màn hình](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Kiểm tra dự án của bạn và xem bạn có thể thêm mã để điều chỉnh độ rộng bút không.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![ảnh chụp màn hình](images/paint-width-test.png) \--- /bài tập \---
