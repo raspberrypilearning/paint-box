@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: 颜料盒
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: 学习如何制作你自己的绘图程序。
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: 简介
+    title: 介绍
   - 
-    title: Make a pencil
+    title: 制作铅笔
   - 
-    title: Coloured pencils
+    title: 彩笔
   - 
-    title: 'Challenge: shortcuts'
+    title: '出错'
     challenge: true
   - 
-    title: Undo mistakes
+    title: 更改笔尖宽度
   - 
-    title: Change the pencil width
+    title: 挑战：快捷键
   - 
-    title: 'Challenge: more pencils'
+    title: '挑战：更多画笔'
     challenge: true
   - 
     title: 'What next?'
