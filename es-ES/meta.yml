@@ -1,27 +1,27 @@
 ---
-title: Caja de pintura
+title: Caja de lápices
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Realiza tu propio programa de pintura
-version: 4.1.0
-last_tested: 2018-11-30
+description: Aprende a hacer tu propio programa de dibujo.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Introducción
   - 
+    title: Lo que necesitarás
+  - 
     title: Hacer un lápiz
   - 
-    title: Lápices de colores
-  - 
-    title: 'Desafío: atajos'
+    title: 'Lápices de colores'
     challenge: true
   - 
-    title: Deshacer errores
+    title: Cometiendo errores
   - 
-    title: Cambiar el ancho del lápiz
+    title: Cambiamos el grosor del lápiz
   - 
-    title: 'Desafío: más lápices'
+    title: 'Desafío: atajos de teclado'
     challenge: true
   - 
-    title: '¿Qué sigue?'
+    title: 'Desafío: más colores'
