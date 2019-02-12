@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Izziv: več svinčnikov
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Lahko dodate rdečo, rumeno in črno svinčnik v vaš program barve? Oglejte si prejšnje korake, če želite opomnik, kako to narediti.
 
-Can you use your pencils to draw a picture?
+Ali lahko uporabite svoje svinčnike za risanje slike?
 
 ![screenshot](images/paint-final.png)
