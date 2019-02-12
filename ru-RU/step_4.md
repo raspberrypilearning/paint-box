@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Задача: больше карандашей
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Можете ли вы добавить красные, желтые и черные карандаши в свою программу рисования? Посмотрите на предыдущие шаги, если вы хотите напомнить, как это сделать.
 
-Can you use your pencils to draw a picture?
+Можете ли вы использовать свои карандаши, чтобы нарисовать картину?
 
 ![Скриншот](images/paint-final.png)
