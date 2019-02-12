@@ -1,98 +1,98 @@
-## Undo mistakes
+## Отменить ошибки
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Иногда случаются ошибки, поэтому добавьте кнопку «Очистить» и кнопку «Ластик».
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Добавить спрайт 'X-block' из раздела букв библиотеки. Раскрась костюм спрайта в красный и сделай его немного меньше. Этот спрайт является кнопкой «Очистить».
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![Скриншот](images/paint-x.png) \--- / задача \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- Добавить код к спрайту 'X-block', чтобы очистить рабочую область при щелчке спрайта
 
-![cross](images/cross.png)
-
-```blocks3
-when this sprite clicked
-erase all
-```
-
-\--- /task \---
-
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
-
-Do you see that the pencil sprite includes an eraser costume?
-
-![screenshot](images/paint-eraser-costume.png)
-
-Your project also includes a separate eraser sprite.
-
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
-
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
-
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
-
-![eraser](images/eraser.png)
+![пересекать](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+когда этот спрайт нажал
+стереть все
 ```
 
-\--- /task \---
+\--- / задача \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Вам не нужно использовать `широковещательную`{: class = "block3events"}, чтобы очистить сцену, потому что `стирают все блок`{: class = "block3extensions"} выполняет эту работу.
 
-\--- task \--- Add some code to create the eraser.
+Вы видите, что карандашный спрайт включает костюм ластика?
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+![Скриншот](images/paint-eraser-costume.png)
+
+Ваш проект также включает в себя отдельный ластик ластик.
+
+\--- task \--- Щелкните правой кнопкой мыши по этому спрайту ластика и затем нажмите **показать** Вот как должна выглядеть ваша сцена сейчас:
+
+![Скриншот](images/paint-eraser-stage.png) \--- / задача \---
+
+\--- task \--- Добавьте код к спрайту ластика, чтобы отправить `'ластик' трансляции`{: class = "block3events"} при нажатии на спрайт ластика.
+
+![ластик](images/eraser.png)
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
-
-switch costume to (eraser v)
+когда этот спрайт нажал
+трансляцию (ластик v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- / задача \---
+
+Когда карандашный спрайт получает сообщение «ластик», он должен переключить свой костюм на ластик и переключить цвет пера на белый, который совпадает с цветом рабочей области!
+
+\--- задача \--- Добавить код для создания ластика.
+
+\--- подсказки \--- \--- подсказка \--- Добавьте некоторый код к карандашному спрайту: `Когда я получу`{: class = "block3events"} `ластика`{: class = "block3events"} сообщение `Переключиться в ластик костюма`{: class = "block3looks"} `Установить цвет пера`{: class = "block3extensions"} на белый \--- / hint \--- \--- hint \--- Вот все блоки, которые вам нужны:
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+установите цвет пера на [#FFFFFF]
+когда я получу [ластик v]
+
+переключите костюм на (ластик v)
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
-
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
-
-![screenshot](images/paint-erase-test.png) \--- /task \---
-
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
-
-![screenshot](images/paint-draw-problem.png)
-
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
-
-![pencil](images/pencil.png)
+\--- / подсказка \--- \--- подсказка \--- Вот как должен выглядеть код: ![карандаш](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+когда я получаю [Ластик v]
+переключите костюм на (Ластик v)
+установите цвет пера на [#FFFFFF]
 ```
 
-\--- /task \---
+\--- / подсказка \--- \--- / подсказка \--- \--- / задача \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- задача \--- Протестируйте свой проект, чтобы увидеть, можете ли вы очистить рабочую область и стереть карандашные линии.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![Скриншот](images/paint-erase-test.png) \--- / задача \---
+
+Есть еще одна проблема с карандашом: вы можете рисовать где угодно на сцене, в том числе рядом с кнопками «Очистить» и Ластик!
+
+![Скриншот](images/paint-draw-problem.png)
+
+\--- задача \--- Чтобы исправить это, измените код так, чтобы перо было только вниз, если щелкнуть мышью **и** положение указателя мыши `y` больше `-120`:
+
+![карандаш](images/pencil.png)
+
+```blocks3
+когда флажок установлен
+стереть все
+переключить костюм на (карандаш-синий v)
+установить цвет пера на [# 0035FF]
+навсегда
+  перейти к (указатель мыши v)
++ если <<mouse down?> и <(мышь y) > [-120]>> затем 
+  ручка вниз
+  еще
+  ручка вверх
+конец
+```
+
+\--- / задача \---
+
+\--- задача \--- Проверьте свой проект. Теперь вы не должны быть в состоянии рисовать рядом с кнопками.
+
+![Скриншот](images/paint-fixed.png) \--- / задача \---
