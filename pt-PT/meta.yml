@@ -1,14 +1,14 @@
 ---
-title: Paint box
+title: Caixa de Pintura
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
-version: 4.1.0
-last_tested: 2018-11-30
+description: Neste projeto vais criar o teu proprio programa de desenho!
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introdução
+    title: Caixa de Pintura
   - 
     title: Make a pencil
   - 
