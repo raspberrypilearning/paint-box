@@ -3,25 +3,25 @@ title: علبة الألوان
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: تعلَّم كيف تصنع برنامج رسم من ابتكارك.
+description: اصنع برنامج الرسام الخاص بك
 version: 4.1.0
-last_tested: 2018-11-30
+last_tested: 2018-30-01
 steps:
   - 
     title: المقدمة
   - 
     title: إنشاء قلم رصاص
   - 
-    title: أقلام ملوَّنة
+    title: أقلام ملونة
   - 
-    title: 'أخطاء الرسم'
+    title: 'التحدي: الإختصارات'
     challenge: true
   - 
     title: تغيير عرض خط القلم الرصاص
   - 
     title: 'التحدي: الاختصارات'
   - 
-    title: 'التحدي: مزيد من الأقلام'
+    title: 'التحدي: المزيد من أقلام الرصاص'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'التحدي: إنشاء المزيد من القوالب'
