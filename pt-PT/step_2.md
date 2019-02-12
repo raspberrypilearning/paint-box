@@ -12,7 +12,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 In the starter project, you should see pencil and eraser sprites:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![captura de ecrã](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -59,9 +59,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Podes desenhar com o teu lápis?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![captura de ecrã](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
@@ -73,7 +73,7 @@ Click on the pencil sprite, and then click on the **Costumes** tab.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Costume center](images/costume-center-annotated.png)
+![Centro de trajes](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
