@@ -6,7 +6,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Inleiding
 
-Make your own paint program!
+Maak je eigen teken programma!
 
 ### Wat ga je maken
 
@@ -25,7 +25,7 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
 + How to use the Pen extension in Scratch
 + How to use broadcasts to communicate between sprites
@@ -33,26 +33,26 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:Target="_blank"})
 
 ### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
-\--- /collapse \---
+\--- / collapse \---
 
 ## \--- collapse \---
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_ blank"}.
 
 You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
