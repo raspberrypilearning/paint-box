@@ -1,14 +1,14 @@
-## Coloured pencils
+## Lápis coloridos
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![captura de ecrã](images/paint-blue-duplicate.png) \--- /task \---
 
 \--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-![screenshot](images/paint-pencil-green.png)
+![captura de ecrã](images/paint-pencil-green.png)
 
 \--- /task \---
 
