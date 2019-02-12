@@ -1,58 +1,58 @@
-\--- no-print \---
+\--- không in \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Đây là phiên bản **Scratch 3** của dự án. Ngoài ra còn có phiên bản [Scratch 2 của dự án](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\--- /no-print \---
+\--- / không in \---
 
 ## Giới thiệu
 
-Make your own paint program!
+Làm chương trình sơn của riêng bạn!
 
 ### Những gì bạn sẽ làm
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- không in \--- Nhấp vào cờ xanh để bắt đầu. Sử dụng chuột để di chuyển bút chì và giữ nút chuột trái để vẽ. Click vào một màu để thay đổi bút chì. Nhấp vào công cụ xóa để thay đổi nó và sử dụng nó để xóa công việc của bạn. Để xóa trang, nhấp vào chữ thập.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-\--- /no-print \---
+\--- / không in \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- chỉ in \--- Bạn sẽ nhấp vào cờ màu xanh lá cây để bắt đầu và bạn sẽ sử dụng chuột để di chuyển bút chì và giữ nút chuột trái để vẽ. Nhấp vào một màu sẽ thay đổi màu bút chì, và nhấp vào công cụ xóa sẽ thay đổi thành công cụ xóa!
 
-![showcase](images/showcase.png) \--- /print-only \---
+![trưng bày](images/showcase.png) \--- / chỉ in \---
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-## title: What you will learn
+## tiêu đề: bạn sẽ học được gì
 
-+ How to use the Pen extension in Scratch
-+ How to use broadcasts to communicate between sprites
-+ How to detect mouse events \--- /collapse \---
++ Cách sử dụng tiện ích mở rộng Bút trong Scratch
++ Làm thế nào để sử dụng chương trình phát sóng để giao tiếp giữa các sprite
++ Cách phát hiện sự kiện chuột \--- / sụp đổ \---
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-## title: What you will need
+## tiêu đề: Những gì bạn sẽ cần
 
-### Hardware
+### Phần cứng
 
-+ A computer capable of running Scratch 3
++ Một máy tính có khả năng chạy Scratch 3
 
-### Software
+### Phần mềm
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Cào 3 ( [trực tuyến](http://rpf.io/scratchon){: target = "_ blank"} hoặc [ngoại tuyến](http://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Tải xuống
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Dự án khởi động ngoại tuyến](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
-\--- /collapse \---
+\--- /sự sụp đổ \---
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-## title: Additional information for educators
+## tiêu đề: Thông tin bổ sung cho các nhà giáo dục
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Nếu bạn cần in dự án này, vui lòng sử dụng phiên bản [máy in thân thiện](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Bạn có thể [tìm giải pháp cho dự án này tại đây](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- /sự sụp đổ \---
