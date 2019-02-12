@@ -1,98 +1,98 @@
-## Undo mistakes
+## चुका पूर्ववत करा
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+कधीकधी चुका होत असतात, म्हणून 'स्पष्ट' बटण आणि इरेज़र बटण जोडा.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- कार्य \--- लायब्ररीच्या अक्षरे विभागात 'एक्स-ब्लॉक' स्प्राइट जोडा. स्प्राईटचा पोशाख लाल रंगात रंगवा आणि थोडासा लहान करा. हे sprite 'स्पष्ट' बटण आहे.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-x.png) \--- / कार्य \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- कार्य \--- स्प्राइट क्लिक केल्यानंतर स्टेज साफ करण्यासाठी 'एक्स-ब्लॉक' स्प्राइटमध्ये कोड जोडा.
 
-![cross](images/cross.png)
-
-```blocks3
-when this sprite clicked
-erase all
-```
-
-\--- /task \---
-
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
-
-Do you see that the pencil sprite includes an eraser costume?
-
-![screenshot](images/paint-eraser-costume.png)
-
-Your project also includes a separate eraser sprite.
-
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
-
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
-
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
-
-![eraser](images/eraser.png)
+![क्रॉस](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+जेव्हा हे स्पिट क्लिक केले
+सर्व मिटवा
 ```
 
-\--- /task \---
+\--- / कार्य \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+स्टेज साफ करण्यासाठी आपल्याला `प्रसारण`{: class = "block3events"} वापरण्याची आवश्यकता नाही कारण `सर्व`{erase = "block3extensions"} ब्लॉक त्या कार्यास पुसते.
 
-\--- task \--- Add some code to create the eraser.
+आपण पहाल की पेन्सिल स्प्राइटमध्ये इरेज़र कॉस्च्युम आहे?
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+![स्क्रीनशॉट](images/paint-eraser-costume.png)
+
+आपल्या प्रोजेक्टमध्ये एक वेगळे इरेज़र स्प्राइट देखील समाविष्ट आहे.
+
+\--- टास्क \--- या इरेज़र स्प्राइटवर उजवे-क्लिक करा आणि नंतर **शो**वर क्लिक करा. आपला स्टेज आता कसा दिसावा ते येथे आहे:
+
+![स्क्रीनशॉट](images/paint-eraser-stage.png) \--- / कार्य \---
+
+\--- कार्य \--- इरेजर स्प्राइटवर क्लिक केल्यावर इरझर स्प्राइटमध्ये कोड जोडा `'इरेसर' प्रसारण`{: वर्ग = "ब्लॉक 3events"} पाठवा.
+
+![इरेजर](images/eraser.png)
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
-
-switch costume to (eraser v)
+जेव्हा हे स्पिट
+ब्रॉडकास्ट (इरेजर विरुद्ध) क्लिक केले
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- / कार्य \---
+
+जेव्हा पेन्सिल स्प्राइटला 'इरेजर' संदेश प्राप्त होतो, तेव्हा त्याने त्याचे पोशाख इरेजरवर स्विच करावे आणि पेन रंग पांढर्या रंगावर बदलावे जे स्टेज प्रमाणेच रंग आहे!
+
+\--- कार्य \--- इरेजर तयार करण्यासाठी काही कोड जोडा.
+
+\--- संकेत \--- \--- इशारा \--- पेन्सिल स्प्राइटमध्ये काही कोड जोडा: `मला`प्राप्त झाल्यावर {{वर्ग = "ब्लॉक 3events"} `इरेज़र`{: क्लास = "ब्लॉक 3events"} संदेश `पोशाख इरेझर`: {वर्ग = "ब्लॉक 3looks"} `कलम कलर`सेट करा {{वर्ग = "ब्लॉक 3 एक्सटेन्शन्स"} पांढऱ्या \--- / संकेत \--- \--- इशारा \--- आपल्याला आवश्यक असलेले सर्व ब्लॉक येथे आहेत:
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+जेव्हा मी [इरेज़र व्ही]
+
+स्विच कॉस्च्युम (इरेजर व्ही) वर प्राप्त करतो तेव्हा पेन रंग [#FFFFFF]
+सेट करा
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
-
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
-
-![screenshot](images/paint-erase-test.png) \--- /task \---
-
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
-
-![screenshot](images/paint-draw-problem.png)
-
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
-
-![pencil](images/pencil.png)
+\--- / संकेत \--- \--- इशारा \--- कोड हा कसा दिसला पाहिजे ते येथे आहे: ![पेन्सिल](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+जेव्हा मी [इरेज़र व्ही]
+स्विच कॉस्च्युम (इरेजर व्ही)
+सेट पेन रंग [# एफएफएफएफएफएफ] वर प्राप्त करते
 ```
 
-\--- /task \---
+\--- / संकेत \--- \--- / संकेत \--- \--- / कार्य \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- कार्य \--- आपल्या प्रोजेक्टची चाचणी घ्या की आपण स्टेज साफ करू शकता आणि पेन्सिल ओळी मिटवू शकता.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-erase-test.png) \--- / कार्य \---
+
+पेन्सिलमध्ये आणखी एक समस्या आहे: आपण 'स्पष्ट' आणि इरेज़र बटणेसह स्टेजवर कुठेही ड्रॉ करू शकता!
+
+![स्क्रीनशॉट](images/paint-draw-problem.png)
+
+\--- कार्य \--- हे निराकरण करण्यासाठी, कोड बदला जेणेकरुन माऊस फक्त **ते** असेल तर माउस पॉईंटरची `वाई` स्थिती `-120`पेक्षा जास्त असेल:
+
+![पेन्सिल](images/pencil.png)
+
+```blocks3
+ध्वज क्लिक केले तेव्हा
+मिटवा सर्व
+(पेन्सिल-निळा v) स्विच पोशाख
+[# 0035FF] संच पेन रंग
+कायमचे
+  जाता (माउस पॉईंटर v) पर्यंत
++ तर <<mouse down?> आणि <(माउस y) > [-120]>> 
+  कलम खाली
+
+  कलम
+अंतरावर
+```
+
+\--- / कार्य \---
+
+\--- कार्य \--- कसोटी आपला प्रकल्प. आता आपण बटणाच्या जवळ येऊ शकत नाही.
+
+![स्क्रीनशॉट](images/paint-fixed.png) \--- / कार्य \---
