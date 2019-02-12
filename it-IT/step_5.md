@@ -1,4 +1,4 @@
-## Undo mistakes
+## Fare errori
 
 Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
@@ -6,7 +6,7 @@ Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![schermata](images/paint-x.png) \--- /task \---
 
 \--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
@@ -25,11 +25,11 @@ Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Il tuo progetto include anche uno sprite per selezionare la gomma.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![schermata](images/paint-eraser-stage.png) \--- /task \---
 
 \--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
@@ -95,4 +95,4 @@ end
 
 \--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![schermata](images/paint-fixed.png) \--- /task \---
