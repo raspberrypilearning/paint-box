@@ -1,4 +1,4 @@
-## Coloured pencils
+## Pensil berwarna
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
@@ -8,19 +8,19 @@ Now you're going to add different coloured pencils to your project and allow the
 
 \--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-![tangkapan layar](images/paint-pencil-green.png)
+![screenshot](images/paint-pencil-green.png)
 
 \--- /task \---
 
 \--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![screenshot](images/paint-selectors.png) \--- /tugas \---
 
 \--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /task \---
+\--- /tugas \---
 
 \--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
@@ -86,10 +86,10 @@ if <mouse down?> then
 end
 ```
 
-\--- /task \---
+\--- /tugas \---
 
 If you prefer, you can start with a different colour pencil.
 
 \--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![screenshot](images/paint-pens-test.png) \--- /tugas \---
