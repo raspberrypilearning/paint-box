@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## Thách thức: lệnh bàn phím
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+Bạn có thể thêm mã để thay vì nhấp vào các ô vuông hoặc nút màu trên Giao diện trang, bạn có thể thực hiện mọi việc bằng cách nhấn phím bàn phím không? Ví dụ:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = Chuyển sang bút chì màu xanh
++ <kbd>g</kbd> = chuyển sang bút chì xanh
++ <kbd>e</kbd> = chuyển sang tẩy
++ <kbd>c</kbd> = xóa màn hình
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+Nếu bạn muốn, bạn cũng có thể thêm mã để nhấn các phím mũi tên sẽ thay đổi độ rộng bút.
