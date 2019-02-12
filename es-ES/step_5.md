@@ -1,4 +1,4 @@
-## Deshacer errores
+## Cometiendo errores
 
 A veces se comenten errores, así que añade un botón 'limpiar' y un botón borrador.
 
@@ -6,7 +6,7 @@ A veces se comenten errores, así que añade un botón 'limpiar' y un botón bor
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![captura de pantalla](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png) \--- /task \---
 
 \--- task \--- Añade código al objeto 'X-block' para limpiar el Escenario cuando se haga clic en el objeto.
 
@@ -19,19 +19,19 @@ borrar todo
 
 \--- /task \---
 
-No es necesario utilizar un `enviar`{:class="block3events"} para limpiar un Escenario, porque el bloque `borrar todo`{:class="block3extensions"} cumple esa función.
+No necesitas utilizar un `enviar`{:class="block3events"} para limpiar el Escenario, porque el bloque `borrar todo`{:class="block3extensions"} cumple con esa función.
 
-¿Ves que el objeto lápiz incluye un disfraz de borrador?
+¿Ves que el objeto lápiz incluya un disfraz de borrador?
 
-![captura de pantalla](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Tu proyecto también incluye un objeto borrador por separado.
+Tu proyecto también incluye un objeto goma de borrar aparte.
 
-\--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **mostrar**. Aquí está cómo debería quedar el Escenario ahora:
+\--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **mostrar**. Aquí se ve cómo debería quedar tu Escenario ahora:
 
-![captura de pantalla](images/paint-eraser-stage.png) \--- /task \---
+![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-Añade código al objeto borrador para enviar un `enviar 'borrador'`{:class="block3events"} cuando se hace clic en el objeto borrador.
+\--- task \--- Añade código al objeto borrador para enviar un `enviar 'borrador'`{:class="block3events"} cuando se hace clic en el objeto borrador.
 
 ![borrador](images/eraser.png)
 
@@ -42,9 +42,9 @@ enviar (borrador v)
 
 \--- /task \---
 
-Cuando el objeto lápiz reciba el mensaje 'borrador', ¡debería cambiar su disfraz al de borrador y cambiar el color del marcador a blanco, que es el mismo color que el Escenario!
+Cuando el objeto lápiz recibe el mensaje 'borrador', debería cambiar su disfraz al borrador y cambiar el color del marcador a blanco, ¡que es del mismo color que el Escenario!
 
-\--- task \--- Añade algo de código para crear el borrador.
+\--- task \--- Añade algo de código para crear un borrador.
 
 \--- hints \--- \--- hint \--- Añade algo de código al objeto lápiz: `Cuando reciba`{:class="block3events"} el mensaje `borrador`{:class="block3events"} `Cambia a borrador de disfraz`{:class="block3looks"} `Fija el color del marcador`{:class="block3extensions"} a blanco \--- /hint \--- \--- hint \--- Aquí están todos los bloques que necesitas:
 
@@ -65,15 +65,15 @@ fija el color del marcador a [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Prueba tu proyecto para ver si puedes limpiar el Escenario y borrar las líneas del lápiz.
+\--- task \--- Evalúa tu proyecto para ver si puedes limpiar el Escenario y borrar las líneas del lápiz.
 
-![captura de pantalla](images/paint-erase-test.png) \--- /task \---
+![screenshot](images/paint-erase-test.png) \--- /task \---
 
-Hay otro problema más con el lápiz: puedes dibujar donde sea en el Escenario, incluyendo el espacio cerca de los botones 'limpiar' y borrar!
+Hay un problema más con el lápiz: puedes dibujar en cualquier lugar del Escenario, ¡incluyendo el espacio cerca de los botones 'limpiar' y borrador!
 
 ![captura de pantalla](images/paint-draw-problem.png)
 
-\--- task \--- Para arreglar esto, cambia el código de modo que el marcador esté abajo sólo si se hace clic en el ratón **y** la posición del cursor `y` es mayor que `-120`:
+\--- task \--- Para arreglar esto, cambia el código de modo que el marcador esté sólo abajo si se hace clic en el ratón **y** la posición del cursor del ratón `y` sea mayor que `120`:
 
 ![lápiz](images/pencil.png)
 
@@ -93,6 +93,6 @@ fin
 
 \--- /task \---
 
-\--- task \--- Prueba tu proyecto. Ahora no deberías ser capaz de dibujar cerca de los botones.
+\--- task \--- Evalúa tu proyecto. Ahora no deberías ser capaz de dibujar cerca de los botones.
 
 ![captura de pantalla](images/paint-fixed.png) \--- /task \---
