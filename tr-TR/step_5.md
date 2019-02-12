@@ -1,98 +1,98 @@
-## Undo mistakes
+## Hataları geri al
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Bazen hatalar olur, bu yüzden bir 'temizle' butonu ve bir silgi butonu ekleyin.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- görev \--- Kütüphanenin harfler bölümünden 'X-blok' sprite ekleyin. Sprite kostümünü kırmızıyla renklendirin ve biraz daha küçük hale getirin. Bu sprite 'temizle' düğmesidir.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![ekran görüntüsü](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- görev \--- Sprite tıkladığında Sahne Alanı'nı temizlemek için 'X-blok' sprite kodunu ekleyin.
 
-![cross](images/cross.png)
+![çapraz](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+bu sprite
+tıklandığında tümünü sil
+```
+
+\--- /görev \---
+
+Sahne Alanı'nı temizlemek için `yayın`kullanmanıza gerek yoktur; çünkü `,`{: class = "block3extensions"} bloğunun hepsini sildiğinde bu işlem yapılır.
+
+Kalem sprite bir silgi kostümü içerdiğini görüyor musunuz?
+
+![ekran görüntüsü](images/paint-eraser-costume.png)
+
+Projeniz ayrıca ayrı bir silgi sprite içerir.
+
+\--- görev \--- Bu silgi sprite öğesine sağ tıklayın ve ardından **show**tıklayın. Aşamalarınızın şimdi nasıl görünmesi gerektiği:
+
+![ekran görüntüsü](images/paint-eraser-stage.png) \--- /task \---
+
+\--- görev \--- Silgi sprite tıklandığında `'silgi' yayın`{: class = "block3events"} göndermek için silgi sprite kodunu ekleyin.
+
+![silgi](images/eraser.png)
+
+```blocks3
+bu sprite
+yayını tıkladığında (silgi v)
+```
+
+\--- /görev \---
+
+Kalem sprite 'silgi' mesajını aldığında, kostümünü silgiye dönüştürmeli ve kalem rengini beyaza değiştirmelidir, bu da Sahne Alanı ile aynı renktir!
+
+\--- görev \--- Silgiyi oluşturmak için bir kod ekleyin.
+
+\--- ipuçları \--- \--- ipucu \--- Kalem sprite'ına bazı kodlar ekleyin: ``{: class = "block3events"} aldığımda `silgisi`{: class = "block3events"} mesaj `Kostüm silgisine geç`{: class = "block3looks"} `Kalem rengini ayarla`{: class = "block3extensions"} 'ye beyaz \--- / ipucu \--- \--- ipucu \--- İşte ihtiyacınız olan tüm bloklar:
+
+```blocks3
+[silgi v]
+
+anahtar kostümünü (silgi v) aldığımda kalem rengini [#FFFFFF]
+ayarlayın
+```
+
+\--- / ipucu \--- \--- ipucu \--- İşte kod gibi görünmelidir ne: ![kalem](images/pencil.png)
+
+```blocks3
+[silgi v]
+aldığımda kostümü (silgi v)
+set kalem rengini [#FFFFFF] olarak değiştir
+```
+
+\--- / ipucu \--- \--- / ipuçları \--- \--- / görev \---
+
+\--- görev \--- Sahne Alanı'nı temizleyip kalem çizgilerini silip silemediğinizi görmek için projenizi test edin.
+
+![ekran görüntüsü](images/paint-erase-test.png) \--- /görev \---
+
+Kurşun kalemle ilgili bir sorun daha var: 'net' ve silgi düğmelerinin yanı sıra Sahne Alanı'nda herhangi bir yeri çizebilirsiniz!
+
+![ekran görüntüsü](images/paint-draw-problem.png)
+
+\--- görev \--- Bunu düzeltmek için kodu değiştirin, böylece fare yalnızca **ve** tıklatıldığında, fare işaretçisinin `y` konumu `-120`büyükse, aşağı:
+
+![kalem](images/pencil.png)
+
+```blocks3
+bayrak tıklandığında
+tüm
+anahtar kostümünü sil (kalem mavisi v)
+kalem rengini [# 0035FF]
+sonsuza
+  götür (fare imleci v)
++ eğer <<mouse down?> ve <(fare y) > [-120]>> sonra 
+  aşağı kalem
+  başka
+  kalem yukarı
+uç
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+\--- görev \--- Projenizi test edin. Şimdi düğmelerin yanına çizim yapmamalısınız.
 
-Do you see that the pencil sprite includes an eraser costume?
-
-![screenshot](images/paint-eraser-costume.png)
-
-Your project also includes a separate eraser sprite.
-
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
-
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
-
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
-
-![eraser](images/eraser.png)
-
-```blocks3
-when this sprite clicked
-broadcast (eraser v)
-```
-
-\--- /task \---
-
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
-
-\--- task \--- Add some code to create the eraser.
-
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
-
-```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
-
-switch costume to (eraser v)
-```
-
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
-
-```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
-```
-
-\--- /hint \--- \--- /hints \--- \--- /task \---
-
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
-
-![screenshot](images/paint-erase-test.png) \--- /task \---
-
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
-
-![screenshot](images/paint-draw-problem.png)
-
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
-
-![pencil](images/pencil.png)
-
-```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
-```
-
-\--- /task \---
-
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
-
-![screenshot](images/paint-fixed.png) \--- /task \---
+![ekran alıntısı](images/paint-fixed.png) \--- /task \---
