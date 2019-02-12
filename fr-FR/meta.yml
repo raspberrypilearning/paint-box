@@ -4,24 +4,24 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 description: Apprend à faire ton propre programme de dessin.
-version: 3
-last_tested: 2017-01-01
+version: 4
+last_tested: 2018-11-30
 steps:
   - 
     title: Introduction
   - 
     title: Ce dont tu auras besoin
   - 
-    title: Faire un crayon
+    title: Crayons de couleurs
   - 
-    title: 'Crayons de couleurs'
+    title: 'Défi : raccourcis'
     challenge: true
   - 
     title: Faire des erreurs
   - 
     title: Changer l'épaisseur du trait
   - 
-    title: 'Défi : raccourcis'
+    title: 'Défi : plus de crayons'
     challenge: true
   - 
-    title: 'Défi : plus de crayons'
+    title: 'Défi : Un autre costume'
