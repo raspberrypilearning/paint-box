@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Repte: més llapis
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Pots afegir llapis vermells, grocs i negres al teu programa de pintura? Fes un cop d'ull al pas 2 més amunt si has oblidat com fer-ho. Recorda afegir dreceres de teclat per a aquests nous llapis.
-
-Es pot utilitzar els llapis per fer un dibuix?
-
-![captura de pantalla](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
