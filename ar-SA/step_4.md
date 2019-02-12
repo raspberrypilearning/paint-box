@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## التحدي: المزيد من أقلام الرصاص
 
 Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Can you use your pencils to draw a picture?
+هل يمكنك استخدام أقلام الرصاص الخاص بك لرسم صورة؟
 
-![لقطة الشاشة](images/paint-final.png)
+![لقطة شاشة](images/paint-final.png)
