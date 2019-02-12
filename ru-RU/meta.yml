@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: Коробка краски
 hero_image: Изображения / banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: Сделайте свою собственную программу рисования
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
     title: Введение
   - 
-    title: Make a pencil
+    title: Сделать карандаш
   - 
-    title: Coloured pencils
+    title: Цветные карандаши
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Задача: ярлыки'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Отменить ошибки
   - 
-    title: Change the pencil width
+    title: Изменить ширину карандаша
   - 
-    title: 'Challenge: more pencils'
+    title: 'Задача: больше карандашей'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Что дальше?'
