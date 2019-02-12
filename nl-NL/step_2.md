@@ -1,4 +1,4 @@
-## Make a pencil
+## Wat heb je nodig
 
 Start by making a pencil that you can use to draw on the Stage.
 
@@ -14,7 +14,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 ![screenshot](images/paint-starter.png) \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Add the Pen extension to your project.
 
@@ -59,7 +59,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Kun je met je potlood tekenen?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
