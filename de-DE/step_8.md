@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Zusatzaufgabe: mehr Stifte
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Kannst du rote, gelbe und schwarze Stifte zu deinem Mal-Programm hinzufügen? Sieh nochmals bei Schritt 2 nach, wenn du vergessen hast, wie das geht. Vergiss nicht, für diese neuen Farbstifte ebenfalls Tastenkürzel anzulegen.
-
-Kannst du mit deinen Stiften ein Bild malen?
-
-![screenshot](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
