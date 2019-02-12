@@ -1,11 +1,5 @@
-\--- завдання \---
+## What next?
 
-## Завдання: більше олівців
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Чи можете ви додати червоні, жовті та чорні олівці до вашої програми для малювання? Подивіться на крок 2, який є вище, якщо ви забули, як це зробити. Також не забудьте додати комбінації клавіш для цих нових олівців.
-
-Чи можете ви використовувати олівці, щоб зробити малюнок?
-
-![скріншот](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
