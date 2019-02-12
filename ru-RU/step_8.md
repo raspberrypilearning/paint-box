@@ -1,11 +1,5 @@
-\--- вызов \---
+## What next?
 
-## Задача: больше карандашей
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Можете ли вы добавить красные, желтые и черные карандаши в свою программу рисования? Взгляните на шаг 2 выше, если вы забыли, как это сделать. Не забудьте добавить быстрые клавиши для этих новых карандашей.
-
-Можете ли вы использовать свои карандаши, чтобы нарисовать картинку?
-
-![Скриншот](images/paint-final.png)
-
-\--- /вызов \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
