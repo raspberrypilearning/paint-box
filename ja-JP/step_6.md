@@ -1,40 +1,40 @@
-## Change the pen width
+## ペンの幅を変える
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+次に、プログラムを使用している人がさまざまなペン幅のものを描画できるようにするためのコードを追加します。
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- 最初に、 `width`{：class = "block3variables"}という新しい変数を追加します。
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- / task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- \---タスク の行を追加し **内部** `永久`{：クラス=「block3control」}鉛筆のスプライトのコードのループ：
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+フラグがクリックされたときに
+全て消去を
+（鉛筆ブルーV）に切り替え衣装
+[＃0035FF]に設定されたペンの色
+永久
+（マウスポインタV）に移動
+（幅::変数）に+に設定ペンサイズ
+場合 <<mouse down?> と <（マウスy） > [-120]>> それから 
+  ペンダウン
+  他
+  ペーパアップ
+終わり
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+ペンの幅は `width`{：class = "block3variables"}変数の値に繰り返し設定されます。
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- ステージに表示された `width`{：class = "block3variables"}変数を右クリックし、 **スライダーをクリックします**
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![スクリーンショット](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+変数の下に表示されているスライダをドラッグして、変数の値を変更できます。
 
-![screenshot](images/paint-slider-change.png)
+![スクリーンショット](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- プロジェクトをテストして、ペンの幅を調整するコードを追加できるかどうかを確認します。
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![スクリーンショット](images/paint-width-test.png) \--- /task \---
