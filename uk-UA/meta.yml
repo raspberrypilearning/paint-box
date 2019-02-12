@@ -3,25 +3,25 @@ title: Набір для малювання
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: У цьому проекті ви створите власну програму для малювання!
-version: 3
-last_tested: 2017-01-01
+description: Створи власну програму для малювання
+version: 4.1.0
+last_tested: 2018-30-01
 steps:
   - 
     title: Вступ
   - 
     title: Make a pencil
   - 
-    title: Coloured pencils
+    title: Кольорові олівці
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Завдання: клавіші швидкого доступу'
     challenge: true
   - 
     title: Undo mistakes
   - 
     title: Change the pencil width
   - 
-    title: 'Challenge: more pencils'
+    title: 'Завдання: більше олівців'
     challenge: true
   - 
     title: 'What next?'
