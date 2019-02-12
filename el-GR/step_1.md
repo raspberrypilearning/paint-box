@@ -6,7 +6,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Εισαγωγή
 
-Make your own paint program!
+Κάνε το δικό σου πρόγραμμα χρωμάτων!
 
 ### Τι θα κάνεις
 
@@ -25,7 +25,7 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Τι θα μάθεις
 
 + How to use the Pen extension in Scratch
 + How to use broadcasts to communicate between sprites
@@ -33,15 +33,15 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Τι θα χρειαστείτε
 
-### Hardware
+### Υλικό
 
-+ A computer capable of running Scratch 3
++ Ένας υπολογιστής ικανός να τρέχει το Scratch 3
 
-### Software
+### Λογισμικό
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -51,8 +51,8 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## Πρόσθετες πληροφορίες για εκπαιδευτικούς
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/paint-box/print)"{:target="_blank"}.
 
 You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
