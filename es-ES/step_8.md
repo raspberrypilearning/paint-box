@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Desafío: más colores
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-¿Puedes añadir los colores rojo, amarillo y negro a tu programa para dibujar? Mira el paso 2 anterior si has olvidado cómo hacerlo. Recuerda añadir atajos de teclado para estos nuevos colores también.
-
-¿Puedes usar tus nuevos colores para hacer un dibujo?
-
-![Captura de pantalla](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
