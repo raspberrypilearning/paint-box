@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Uitdaging: meer potloden
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Kun je rode, gele en zwarte potloden toevoegen aan je tekenprogramma? Bekijk stap 2 hierboven als je bent vergeten hoe je dit moet doen. Vergeet niet om sneltoetsen voor deze nieuwe potloden toe te voegen.
-
-Kun jij je potloden gebruiken om een foto na te tekenen?
-
-![screenshot](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
