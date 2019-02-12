@@ -6,7 +6,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Ознайомлення
 
-Make your own paint program!
+Створи власну програму для малювання!
 
 ### Що вам знадобиться
 
@@ -35,11 +35,11 @@ Make your own paint program!
 
 ## title: What you will need
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch 3
++ Комп'ютер, що підтримує Scratch 3
 
-### Software
+### Програмне забезпечення
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
@@ -47,12 +47,12 @@ Make your own paint program!
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
-\--- /collapse \---
+\---collapse\---
 
 ## \--- collapse \---
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/paint-box/print) {: target = "_ blank"}.
 
 You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
