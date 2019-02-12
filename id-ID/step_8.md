@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Tantangan: pensil tambahan
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Dapatkah kamu menambahkan pensil merah, kuning dan hitam ke program lukis kamu? Lihatlah langkah 2 di atas jika kamu lupa cara melakukannya. Ingatlah untuk menambahkan juga pintasan keyboard untuk pensil-pensil baru.
-
-Dapatkah kamu menggunakan pensil-pensil kamu untuk menggambar satu lukisan?
-
-![tangkapan layar](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
