@@ -4,24 +4,24 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 description: このプロジェクトでは、お絵かきができるプログラムを作ります！
-version: 3
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-30-01
 steps:
   - 
-    title: お絵かきの箱
+    title: 前書き
   - 
-    title: Make a pencil
+    title: 鉛筆を作る
   - 
-    title: Coloured pencils
+    title: 色鉛筆
   - 
-    title: 'Challenge: shortcuts'
+    title: '課題：ショートカット'
     challenge: true
   - 
-    title: Undo mistakes
+    title: 間違いを元に戻す
   - 
-    title: Change the pencil width
+    title: 鉛筆の幅を変える
   - 
-    title: 'Challenge: more pencils'
+    title: '課題：もっと鉛筆'
     challenge: true
   - 
-    title: 'What next?'
+    title: '次は何をしますか？'
