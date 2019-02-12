@@ -23,13 +23,13 @@ if <<mouse down?> and <(mouse y) > [-120]>> then
 end
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
 \--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![screenshot](images/paint-slider.png) \--- /কাজ \---
 
 You can now drag the slider that is visible below the variable to change the variable's value.
 
@@ -37,4 +37,4 @@ You can now drag the slider that is visible below the variable to change the var
 
 \--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-width-test.png) \--- /কাজ \---
