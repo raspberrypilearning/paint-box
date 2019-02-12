@@ -1,11 +1,5 @@
-\--- വെല്ലുവിളി \---
+## What next?
 
-## വെല്ലുവിളി: കൂടുതൽ പെൻസിലുകൾ
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-നിങ്ങളുടെ പെയിന്റ് പ്രോഗ്രാമിലേക്ക് ചുവപ്പ്, മഞ്ഞ, കറുത്ത പെൻസിലുകൾ ചേർക്കാനാകുമോ? ഇത് എങ്ങനെ ചെയ്യണമെന്ന് നിങ്ങൾ മറന്നുപോയെങ്കിൽ മുകളിലുള്ള ഘട്ടം 2 നോക്കൂ. ഈ പുതിയ പെൻസിലുകൾക്കായി കീബോർഡ് കുറുക്കുവഴികൾ ചേർക്കുന്നത് ഓർക്കുക.
-
-ചിത്രം വരയ്ക്കാൻ നിങ്ങളുടെ പെൻസിൽ ഉപയോഗിക്കാമോ?
-
-![സ്ക്രീൻഷോട്ട്](images/paint-final.png)
-
-\--- / വെല്ലുവിളി \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
