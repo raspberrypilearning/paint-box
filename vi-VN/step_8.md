@@ -1,5 +1,5 @@
-## What next?
+## Tiếp theo là gì?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
+Bây giờ bạn đã hoàn thành dự án 'Hộp sơn', hãy thử [dự án 'Thuyền đua'](https://projects.raspberrypi.org/en/projects/boat-race){: target = "_ blank"}, giúp bạn tạo một trò chơi trong đó bạn phải khuấy thuyền xung quanh chướng ngại vật.
 
-Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
+Hoặc nếu bạn muốn thực hiện thêm các dự án liên quan đến nghệ thuật, hãy chọn một trong [dự án liên quan đến nghệ thuật khác của chúng tôi](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){: target = "_ blank"}.
