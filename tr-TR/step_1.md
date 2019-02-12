@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Bu, projenin **Scratch 3** versiyonudur. Ayrıca projenin</a>bir Scratch 2 versiyonu da bulunmaktadır.</p> 
 
 \--- /no-print \---
 
 ## Giriş
 
-Make your own paint program!
+Kendi paint programınızı yapın!
 
-### Nasıl bir proje yapacaksın
+### Ne yapacaksınız
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Başlamak için yeşil bayrak üzerine tıklayın. Kalemi hareket ettirmek için fareyi kullanın ve çizmek için farenin sol düğmesini basılı tutun. Kalemleri değiştirmek için bir renge tıklayın. Değiştirmek için silgiyi tıklayın ve çalışmanızı silmek için kullanın. Sayfayı temizlemek için haçı tıklayın.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,40 +19,40 @@ Make your own paint program!
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- sadece baskı \--- Başlamak için yeşil bayrağa tıklayacaksınız ve kalemi taşımak için fareyi kullanacak ve çizim yapmak için farenin sol düğmesini basılı tutunuz. Bir renge tıklamak kurşun kalem rengini değiştirir ve silgiyi tıklatmak silgiye dönüşür!
 
-![showcase](images/showcase.png) \--- /print-only \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use the Pen extension in Scratch
-+ How to use broadcasts to communicate between sprites
-+ How to detect mouse events \--- /collapse \---
+![vitrin](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Ne öğreneceksiniz
 
-### Hardware
++ Kalem uzantısı Scratch'ta nasıl kullanılır
++ Spritelar arasında iletişim kurmak için yayınlar nasıl kullanılır?
++ Fare olayları nasıl algılanır \--- / daralt \---
 
-+ A computer capable of running Scratch 3
+## \--- collapse \---
 
-### Software
+## title: Nelere ihtiyacınız var
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+### Donanım
 
-### Downloads
++ Scratch 3 çalıştırabilen bir bilgisayar
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
+### Yazılım
+
++ Scratch 3 ([çevrimiçi](http://rpf.io/scratchon){:target="_blank"} veya [çevrimdışı](http://rpf.io/scratchoff){:target="_blank"})
+
+### İndirilenler
+
++ [Çevrimdışı başlangıç projesi](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Eğitimciler için ek bilgiler
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} kullanın.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Sen edebilir [Burada bu proje için çözüm bulmak](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- /collapse \---
