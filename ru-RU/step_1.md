@@ -1,58 +1,58 @@
-\--- no-print \---
+\--- нет печати \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Это **Scratch 3** версия проекта. Существует также [версия Царапины 2 проекта](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\--- /no-print \---
+\--- / без печати \---
 
 ## Введение
 
-Make your own paint program!
+Сделайте свою собственную программу рисования!
 
 ### Что вы сделаете
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Нажмите на зеленый флаг, чтобы начать. Используйте мышь, чтобы переместить карандаш, и удерживайте левую кнопку мыши, чтобы нарисовать. Нажмите на цвет, чтобы изменить карандаши. Нажмите на ластик, чтобы перейти к нему, и используйте его, чтобы стереть свою работу. Чтобы очистить страницу, нажмите на крестик.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/paint-final.png">
 </div>
 
-\--- /no-print \---
+\--- / без печати \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Вы нажмете на зеленый флаг, чтобы начать, и вы будете использовать мышь, чтобы переместить карандаш, и удерживайте левую кнопку мыши, чтобы рисовать. Нажатие на цвет изменит цвет карандаша, а нажатие на ластик превратится в ластик!
 
-![showcase](images/showcase.png) \--- /print-only \---
+![витрина](images/showcase.png) \--- / только для печати \---
 
-## \--- collapse \---
+## \--- свернуть \---
 
-## title: What you will learn
+## title: Что вы выучите
 
-+ How to use the Pen extension in Scratch
-+ How to use broadcasts to communicate between sprites
-+ How to detect mouse events \--- /collapse \---
++ Как использовать расширение Pen в Scratch
++ Как использовать трансляции для общения между спрайтами
++ Как обнаружить события мыши \--- / свернуть \---
 
-## \--- collapse \---
+## \--- свернуть \---
 
-## title: What you will need
+## название: что вам нужно
 
-### Hardware
+### аппаратные средства
 
-+ A computer capable of running Scratch 3
++ Компьютер с поддержкой Scratch 3
 
-### Software
+### Программного обеспечения
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Царапина 3 (либо [онлайн](http://rpf.io/scratchon){: target = "_ blank"} или [offline](http://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Загрузки
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Автономный стартовый проект](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
-\--- /collapse \---
+\--- / свернуть \---
 
-## \--- collapse \---
+## \--- свернуть \---
 
-## title: Additional information for educators
+## title: Дополнительная информация для педагогов
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Если вам нужно распечатать этот проект, пожалуйста , используйте [Версия для печати](https://projects.raspberrypi.org/en/projects/paint-box/print){: TARGET = «_blank»}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Вы можете найти [решение для этого проекта здесь](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- / свернуть \---
