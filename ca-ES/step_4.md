@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Repte: més llapis
 
 Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Can you use your pencils to draw a picture?
+Es pot utilitzar els llapis per fer un dibuix?
 
-![captura de pantalla](images/paint-final.png)
+![screenshot](images/paint-final.png)
