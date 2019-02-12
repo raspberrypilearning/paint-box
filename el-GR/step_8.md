@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Πρόκληση: περισσότερα μολύβια
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Μπορείς να προσθέσεις κόκκινο, κίτρινο και μαύρο μολύβι στο πρόγραμμα ζωγραφικής; Ρίξε μια ματιά στο βήμα 2 παραπάνω εάν έχεις ξεχάσει πώς να το κάνεις. Θυμήσου επίσης να προσθέσεις συντομεύσεις πληκτρολογίου για αυτά τα νέα μολύβια.
-
-Μπορείς να χρησιμοποιήσεις τα μολύβια σου για να σχεδιάσεις μια εικόνα;
-
-![screenshot](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
