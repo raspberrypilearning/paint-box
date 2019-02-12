@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: Malkasten
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
-version: 4.1.0
-last_tested: 2018-11-30
+description: Lerne dein eigenes Malprogramm zu machen.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Einleitung
   - 
-    title: Make a pencil
+    title: Was du brauchen wirst
   - 
-    title: Coloured pencils
+    title: Einen Stift machen
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Buntstifte'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Fehler machen
   - 
-    title: Change the pencil width
+    title: Die Stiftdicke ändern
   - 
-    title: 'Challenge: more pencils'
+    title: 'Zusatzaufgabe: Tastenkürzel'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Zusatzaufgabe: mehr Stifte'
