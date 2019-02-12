@@ -12,7 +12,7 @@
 
 У почетном пројекту, пронаћи ћеш ликове оловке и гумице:
 
-![снимак екрана](images/paint-starter.png) \--- /task \---
+![слика екрана](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -46,22 +46,22 @@ end
 ![оловка](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+када је заставица кликнула
+заувек
+  иди на (показивач миша в)
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
-end
++ ако <mouse down?> онда
+  оловка доле
+  друго
+  пен уп
+енд
 ```
 
 \--- /task \---
 
 \--- task \--- Поново испробај код. Овај пут померај оловку по Позорници док држиш тастер миша. Можеш ли да црташ својом оловком?
 
-![снимак екрана](images/paint-draw.png) \--- /task \---
+![слика екрана](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
