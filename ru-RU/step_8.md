@@ -1,5 +1,5 @@
-## What next?
+## Что дальше?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
+Теперь, когда вы завершили проект «Paint box», попробуйте [проекта «Boat race»](https://projects.raspberrypi.org/en/projects/boat-race){: target = "_ blank"}, который поможет вам создать игру, в которой вы должны размешивать лодку вокруг препятствий.
 
-Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
+Или, если вы хотите сделать больше проектов, связанных с искусством, выберите один из [других наших проектов, связанных с искусством](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){: target = "_ blank"}.
