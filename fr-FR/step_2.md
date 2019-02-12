@@ -1,4 +1,4 @@
-## Make a pencil
+## Ce dont tu auras besoin
 
 Start by making a pencil that you can use to draw on the Stage.
 
@@ -59,7 +59,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Peux-tu dessiner avec ton crayon ?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
@@ -73,7 +73,7 @@ Click on the pencil sprite, and then click on the **Costumes** tab.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Costume center](images/costume-center-annotated.png)
+![Centre de costume](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
