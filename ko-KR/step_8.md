@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## 도전 과제: 더 많은 연필들
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-빨간색, 노란색, 검은색 연필들을 추가 할 수 있을까요? 어떻게 하는지 잘 모르겠다면, 두번째 단계를 다시 한번 살펴보세요. 새 연필들에도 키보드 단축키를 추가하는 걸 잊지 마세요.
-
-새 연필들을 사용해서 그림을 그릴 수 있나요?
-
-![screenshot](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
