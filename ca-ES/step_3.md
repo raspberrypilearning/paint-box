@@ -1,4 +1,4 @@
-## Coloured pencils
+## Llapis de colors
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
@@ -8,7 +8,7 @@ Now you're going to add different coloured pencils to your project and allow the
 
 \--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-![captura de pantalla](images/paint-pencil-green.png)
+![screenshot](images/paint-pencil-green.png)
 
 \--- /task \---
 
