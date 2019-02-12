@@ -1,4 +1,4 @@
-## Undo mistakes
+## Membuat kesalahan
 
 Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
@@ -25,7 +25,7 @@ Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Proyek kamu juga memiliki sprite penghapus terpisah.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
@@ -95,4 +95,4 @@ end
 
 \--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![screenshot](images/paint-fixed.png) \--- /tugas \---
