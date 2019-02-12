@@ -1,11 +1,5 @@
-\--- आव्हान \---
+## What next?
 
-## आव्हान: अधिक पेन्सिल
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-आपल्या रंगाच्या कार्यक्रमासाठी लाल, पिवळे आणि काळ्या पेन्सिल जोडू शकता का? आपण हे कसे करावे ते विसरले असल्यास वरील चरण 2 वर एक कटाक्ष टाका. या नवीन पेन्सिलसाठीही कीबोर्ड शॉर्टकट्स जोडण्याचे लक्षात ठेवा.
-
-चित्र काढण्यासाठी आपण आपली पेन्सिल वापरू शकता का?
-
-![स्क्रीनशॉट](images/paint-final.png)
-
-\--- / आव्हान \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
