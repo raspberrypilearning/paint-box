@@ -1,40 +1,40 @@
-## Change the pen width
+## Изменить ширину пера
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Затем вы добавите код, позволяющий человеку, использующему вашу программу, рисовать вещи с разной шириной пера.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Сначала добавьте новую переменную с именем `width`{: class = "block3variables"}
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- / task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Добавьте эту строку **внутри** цикла `forever`{: class = "block3control"} кода карандашного спрайта
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+когда флажок установлен
+стереть все
+переключить костюм на (карандаш-синий v)
+установить цвет пера на [# 0035FF]
+навсегда
+перейти к (указатель мыши v)
++ установить размер пера на (width :: variable)
+если <<mouse down?> и <(мышь y) > [-120]>> затем 
+  пером вниз
+  еще
+  пером вверх
+конец
 ```
 
-\--- /task \---
+\--- / задача \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+Ширина пера теперь неоднократно устанавливается равной значению переменной `width`{: class = "block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Щелкните правой кнопкой мыши по переменной `width`{: class = "block3variables"}, отображаемой в рабочей области, а затем щелкните **бегунок**
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![Скриншот](images/paint-slider.png) \--- / задача \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Теперь вы можете перетащить ползунок, который виден под переменной, чтобы изменить значение переменной.
 
-![screenshot](images/paint-slider-change.png)
+![Скриншот](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Протестируйте ваш проект и посмотрите, сможете ли вы добавить код для настройки ширины пера
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![Скриншот](images/paint-width-test.png) \--- / задача \---
