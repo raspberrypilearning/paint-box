@@ -1,11 +1,5 @@
-\--- cabaran \---
+## What next?
 
-## Cabaran: lebih banyak pensel
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Bolehkah anda menambah pensel merah, kuning dan hitam ke program cat anda? Lihatlah langkah 2 di atas jika anda terlupa bagaimana untuk melakukannya. Ingat untuk menambah pintasan papan kekunci untuk pensel baru ini juga.
-
-Bolehkah anda menggunakan pensel anda untuk melukis gambar?
-
-![tangkapan skrin](images/paint-final.png)
-
-\--- / cabaran \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
