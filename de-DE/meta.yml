@@ -3,25 +3,25 @@ title: Malkasten
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Lerne dein eigenes Malprogramm zu machen.
-version: 3
-last_tested: 2017-01-01
+description: Mach dein eigenes Malprogramm
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - 
     title: Einleitung
   - 
     title: Was du brauchen wirst
   - 
-    title: Einen Stift machen
+    title: Buntstifte
   - 
-    title: 'Buntstifte'
+    title: 'Zusatzaufgabe: Tastenkürzel'
     challenge: true
   - 
     title: Fehler machen
   - 
     title: Die Stiftdicke ändern
   - 
-    title: 'Zusatzaufgabe: Tastenkürzel'
+    title: 'Zusatzaufgabe: mehr Stifte'
     challenge: true
   - 
-    title: 'Zusatzaufgabe: mehr Stifte'
+    title: 'Herausforderung: Ein weiteres Kostüm'
