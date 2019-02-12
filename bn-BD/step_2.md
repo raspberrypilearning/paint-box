@@ -12,17 +12,17 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 In the starter project, you should see pencil and eraser sprites:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![screenshot](images/paint-starter.png) \--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
@@ -35,9 +35,9 @@ forever
 end
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /কাজ \---
 
 Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
@@ -57,11 +57,11 @@ forever
 end
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
 \--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![screenshot](images/paint-draw.png) \--- /কাজ \---
 
 ## \--- collapse \---
 
@@ -77,4 +77,4 @@ Move the costume's so the tip of the pencil is **just above** the centre.
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
-\--- /collapse \---
+-- /collapse \---
