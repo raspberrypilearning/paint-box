@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Défi : plus de crayons
 
 Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Can you use your pencils to draw a picture?
+Peux-tu utiliser tes crayons pour faire un dessin ?
 
-![capture d'écran](images/paint-final.png)
+![screenshot](images/paint-final.png)
