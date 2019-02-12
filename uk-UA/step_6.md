@@ -29,12 +29,12 @@ The pen width now repeatedly gets set to the value of the `width`{:class="block3
 
 \--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![скріншот](images/paint-slider.png) \--- /task \---
 
 You can now drag the slider that is visible below the variable to change the variable's value.
 
-![screenshot](images/paint-slider-change.png)
+![знімок екрану](images/paint-slider-change.png)
 
 \--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![скріншот](images/paint-width-test.png) \--- /task \---
