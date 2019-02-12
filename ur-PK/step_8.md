@@ -1,11 +1,5 @@
-\--- چیلنج \--- \---
+## What next?
 
-## چیلنج: زیادہ پنسل
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-کیا آپ اپنے پینٹ پروگرام میں سرخ، پیلا اور سیاہ پنسل شامل کرسکتے ہیں؟ اگر آپ کو یہ کیسے کرنا بھول گیا تو اوپر قدم 2 پر نظر ڈالیں. ان نئے پنسلوں کے لئے کی بورڈ شارٹٹٹس کو بھی شامل کرنا یاد رکھیں.
-
-کیا آپ اپنے پینسلوں کو تصویر بنانے کے لئے استعمال کرسکتے ہیں؟
-
-![اسکرین شاٹ](images/paint-final.png)
-
-\--- / چیلنج \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
