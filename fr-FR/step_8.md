@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Défi : plus de crayons
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Peux-tu ajouter des crayons rouges, jaunes et noirs à ton programme de peinture ? Jette un œil à l'étape 2 ci-dessus si tu as oublié comment faire. N'oublie pas d'ajouter des raccourcis clavier pour ces nouveaux crayons aussi.
-
-Peux-tu utiliser tes crayons pour faire un dessin ?
-
-![capture d'écran](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
