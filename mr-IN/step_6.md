@@ -1,40 +1,40 @@
-## Change the pen width
+## कलम रूंदी बदला
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+पुढे आपण आपल्या प्रोग्रामचा वापर करणार्या व्यक्तीस वेगवेगळ्या पेन रुंदीसह वस्तू काढण्यासाठी अनुमती देण्यासाठी कोड जोडू शकता.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- प्रथम, `रूंदी`{: class = "block3variables"} नावाचे नवीन चलन जोडा.
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- / कार्य \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- कार्य \--- ही ओळ जोडा **आत** `कायमस्वरुपी`{: class = "block3control"} पेन्सिल स्प्राइटच्या कोडची लूप:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+जेव्हा ध्वज क्लिक केले
+सर्व
+स्विच कॉस्च्यूम (पेन्सिल-ब्लू व्ही)
+सेट कलम रंग [# 0035FF]
+कायमचे मिटवा,
+(माउस पॉइंटर विरुद्ध)
++ सेट पेन आकार (रुंदी :: व्हेरिएबल्स) वर
+असल्यास <<mouse down?> आणि <(माऊस वाई) > [-120]>> नंतर 
+  पेन डाउन
+
+  पेन अप
+डा
 ```
 
-\--- /task \---
+\--- / कार्य \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+कलम रूंदी वारंवार `रूंदी`{: class = "block3variables"} चलनाच्या मूल्यावर सेट केली जाते.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- टास्क \--- स्टेज वर दर्शविल्या जाणार्या `रूंदी`{: वर्ग = "ब्लॉक 3 व्हेरिएबल्स"} चरणावर उजवे-क्लिक करा आणि नंतर **स्लाइडर**वर क्लिक करा.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-slider.png) \--- / कार्य \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+आपण व्हेरिएबलच्या व्हॅल्यूस बदलण्यासाठी व्हेरिएबलच्या खाली दिसेल अशा स्लाइडर ड्रॅग करू शकता.
 
-![screenshot](images/paint-slider-change.png)
+![स्क्रीनशॉट](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- कार्य \--- आपल्या प्रोजेक्टची चाचणी घ्या आणि पेन रुंदी समायोजित करण्यासाठी आपण कोड जोडू शकता का ते पहा.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![स्क्रीनशॉट](images/paint-width-test.png) \--- / कार्य \---
