@@ -1,11 +1,5 @@
-\--- challenge \---
+## What next?
 
-## Izazov: više olovaka
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Da li u svoj program za crtanje možeš da dodaš crvenu, žutu i crnu olovku? Ako ne možeš da se sjetiš kako da to uradiš, pogledaj prethodni korak 2. Ne zaboravi da dodaš prečice na tastaturi i za nove olovke.
-
-Da li možeš da upotrijebiš svoje olovke da napraviš crtež? 
-
-![screenshot](images/paint-final.png)
-
-\--- /challenge \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
