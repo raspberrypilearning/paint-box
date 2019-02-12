@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Zorluk: daha fazla kalem
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Boyama programınıza kırmızı, sarı ve siyah kalemler ekleyebilir misiniz? Bunun nasıl yapıldığını hatırlatmak istiyorsanız, önceki adımlara bir göz atın.
 
-Can you use your pencils to draw a picture?
+Resim çekmek için kalemlerini kullanabilir misin?
 
 ![ekran görüntüsü](images/paint-final.png)
