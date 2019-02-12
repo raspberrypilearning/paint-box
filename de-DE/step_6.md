@@ -33,7 +33,7 @@ The pen width now repeatedly gets set to the value of the `width`{:class="block3
 
 You can now drag the slider that is visible below the variable to change the variable's value.
 
-![screenshot](images/paint-slider-change.png)
+![Screenshot](images/paint-slider-change.png)
 
 \--- task \--- Test your project and see if you can add code to adjust the pen width.
 
