@@ -12,16 +12,16 @@ steps:
   - 
     title: पेंसिल बनाना
   - 
-    title: रंगीन पेन
+    title: रंगीन पेंसिलें
   - 
-    title: 'गलतियाँ करना'
+    title: 'चुनौती: शॉर्टकट्स'
     challenge: true
   - 
     title: पेंसिल की चौड़ाई में परिवर्तन करना
   - 
     title: 'चुनौती: शॉर्टकट्स'
   - 
-    title: 'चुनौती: अधिक पेन'
+    title: 'चुनौती: अधिक पेंसिल'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'आगे क्या?'
