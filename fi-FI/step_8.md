@@ -1,11 +1,5 @@
-\--- haaste \---
+## What next?
 
-## Haaste: enemmän lyijykynät
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Voitko lisätä maaleja ohjelmaan punaisia, keltaisia ​​ja mustia kyniä? Tutustu vaiheeseen 2, jos olet unohtanut, miten tämä tehdään. Muista myös lisätä näihin uusiin lyijykynän pikanäppäimiin.
-
-Voitko käyttää piirustuksia piirtääksesi kuvan?
-
-![kuvakaappaus](images/paint-final.png)
-
-\--- /haaste \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
