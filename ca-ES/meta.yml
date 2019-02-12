@@ -3,7 +3,7 @@ title: Paint box
 hero_image: imatges / banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: Fes el teu propi programa de pintura
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
@@ -12,16 +12,16 @@ steps:
   - 
     title: Make a pencil
   - 
-    title: Coloured pencils
+    title: Llapis de colors
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Repte: dreceres'
     challenge: true
   - 
     title: Undo mistakes
   - 
     title: Change the pencil width
   - 
-    title: 'Challenge: more pencils'
+    title: 'Repte: més llapis'
     challenge: true
   - 
     title: 'What next?'
