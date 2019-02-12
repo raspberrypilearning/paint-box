@@ -23,7 +23,7 @@ if <<mouse down?> and <(mouse y) > [-120]>> then
 end
 ```
 
-\--- /task \---
+\--- /tugas \---
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
