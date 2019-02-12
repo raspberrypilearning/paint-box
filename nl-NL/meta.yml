@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: Paint Box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
-version: 4.1.0
-last_tested: 2018-11-30
+description: Leer hoe je je eigen tekenprogramma maakt.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Inleiding
   - 
-    title: Make a pencil
+    title: Wat heb je nodig
   - 
-    title: Coloured pencils
+    title: Een potlood maken
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Kleurpotloden'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Fouten maken
   - 
-    title: Change the pencil width
+    title: De potlooddikte wijzigen
   - 
-    title: 'Challenge: more pencils'
+    title: 'Uitdaging: snelkoppelingen'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Uitdaging: meer potloden'
