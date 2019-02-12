@@ -1,11 +1,5 @@
-\--- চ্যালেঞ্জ \---
+## What next?
 
-## চ্যালেঞ্জ: আরও পেন্সিল
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-আপনি আপনার পেইন্ট প্রোগ্রাম লাল, হলুদ এবং কালো পেন্সিল যোগ করতে পারেন? যদি আপনি ভুলে গেছেন কিভাবে এটি করতে হয় উপরের পদক্ষেপ 2 তাকান। এই নতুন পেনসিলের জন্য কীবোর্ড শর্টকাটগুলিও যোগ করতে ভুলবেন না।
-
-আপনি ছবি আঁকতে আপনার পেন্সিল ব্যবহার করতে পারেন?
-
-![স্ক্রিনশট](images/paint-final.png)
-
-\--- / চ্যালেঞ্জ \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
