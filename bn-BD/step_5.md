@@ -6,7 +6,7 @@ Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png) \--- /কাজ \---
 
 \--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 
@@ -17,7 +17,7 @@ when this sprite clicked
 erase all
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
 You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
@@ -29,7 +29,7 @@ Your project also includes a separate eraser sprite.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![screenshot](images/paint-eraser-stage.png) \--- /কাজ \---
 
 \--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
@@ -40,7 +40,7 @@ when this sprite clicked
 broadcast (eraser v)
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
 When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
@@ -67,7 +67,7 @@ set pen color to [#FFFFFF]
 
 \--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![screenshot](images/paint-erase-test.png) \--- /কাজ \---
 
 There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
@@ -91,8 +91,8 @@ forever
 end
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
 \--- task \--- Test your project. You now should not be able to draw near the buttons.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![screenshot](images/paint-fixed.png) \--- /কাজ \---
