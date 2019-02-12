@@ -1,11 +1,5 @@
-\--- izziv \---
+## What next?
 
-## Izziv: več svinčnikov
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Ali lahko dodate rdeče, rumene in črne svinčnike v program barve? Oglejte si 2. korak zgoraj, če ste pozabili, kako to storiti. Ne pozabite dodati bližnjic na tipkovnici za te nove svinčnike.
-
-Lahko uporabite svinčnike za risanje slike?
-
-![screenshot](images/paint-final.png)
-
-\--- / izziv \---
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
