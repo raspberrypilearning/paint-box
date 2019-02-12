@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## चुनौती: अधिक पेंसिल
 
 Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Can you use your pencils to draw a picture?
+क्या आप चित्र बनाने के लिए अपने पेंसिल का उपयोग कर पा रहें हैं?
 
-![स्क्रीनशॉट](images/paint-final.png)
+![screenshot](images/paint-final.png)
