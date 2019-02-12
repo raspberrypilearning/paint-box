@@ -1,11 +1,11 @@
 ---
-title: Paint box
+title: Набір для малювання
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
-version: 4.1.0
-last_tested: 2018-11-30
+description: У цьому проекті ви створите власну програму для малювання!
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Вступ
