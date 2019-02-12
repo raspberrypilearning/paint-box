@@ -29,12 +29,12 @@ The pen width now repeatedly gets set to the value of the `width`{:class="block3
 
 \--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![스크린샷](images/paint-slider.png) \--- /task \---
 
 You can now drag the slider that is visible below the variable to change the variable's value.
 
-![screenshot](images/paint-slider-change.png)
+![<0>#outside-pic</0> CSS 코드에서 <0>width</0>(너비) 와 <0>height</0>(높이) 값을 수정하여, 바깥 쪽에 있는 이미지를 <0>200px</0>로 수정해보세요. (<0>px</0>는 픽셀을 의미합니다.)](images/paint-slider-change.png)
 
 \--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![스크린샷](images/paint-width-test.png) \--- /task \---
