@@ -1,6 +1,6 @@
 ## Challenge: keyboard commands
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? مثال:
 
 + <kbd>b</kbd> = Switch to blue pencil
 + <kbd>g</kbd> = switch to green pencil
