@@ -1,11 +1,5 @@
-\--- çağırış \---
+## What next?
 
-## Çağırış: daha çox qələm
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race){:target="_blank"}, which helps you make a game where you have to stir a boat around obstacles.
 
-Boya proqramınıza qırmızı, sarı və qara qələmlər əlavə edə bilərsinizmi? Əgər bunu necə unutduğunuz təqdirdə, yuxarıda 2-ci addımla bir göz atın. Həm də bu yeni qələmlər üçün klaviatura qısayollarını da əlavə edin.
-
-Bir şəkil çəkmək üçün qələmlərinizi istifadə edə bilərsinizmi?
-
-![ekran görüntüsü](images/paint-final.png)
-
-\--- / problem
+Or if you want to do more projects that involve art, choose one of [our other art-related projects](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){:target="_blank"}.
