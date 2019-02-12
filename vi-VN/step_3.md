@@ -1,95 +1,95 @@
-## Coloured pencils
+## Bút chì màu
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Bây giờ bạn sẽ thêm bút chì màu khác nhau vào dự án của bạn và cho phép người dùng lựa chọn giữa chúng.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Nhấp vào sprite bút chì, nhấp vào **Trang phục**và sao chép trang phục 'bút chì màu xanh'.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![ảnh chụp màn hình](images/paint-blue-duplicate.png) \--- /bài tập \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- tên cho trang phục mới là 'bút chì màu xanh lá cây' và tô màu cho cây bút chì màu xanh lá cây.
 
 ![ảnh chụp màn hình](images/paint-pencil-green.png)
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Vẽ hai họa tiết mới: một hình vuông màu xanh và một hình vuông màu xanh lá cây. Đây là để lựa chọn giữa bút chì màu xanh và màu xanh lá cây.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![ảnh chụp màn hình](images/paint-selectors.png) \--- /bài tập \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Đổi tên các sprite mới để chúng được gọi là 'blue' và 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- Nhiệm vụ \--- Thêm một số mã để các sprite 'xanh' để khi sprite này được nhấp, nó `chương trình phát sóng`{: class = "block3events"} thông điệp "xanh".
 
-![green square](images/green_square.png)
-
-```blocks3
-when this sprite clicked
-broadcast (green v)
-```
-
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
-
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
-
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
-
-![pencil](images/pencil.png)
+![quảng trường xanh](images/green_square.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+khi sprite này nhấp
+phát (green v)
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+[[[generic-scratch3-broadcast-message]]] \--- / nhiệm vụ \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Sprite bút chì nên lắng nghe thông điệp "xanh" và thay đổi trang phục và màu bút chì của nó để đáp ứng.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Chuyển sang sprite bút chì của bạn. Thêm một số mã để khi sprite này nhận được phát sóng `green`{: class = "block3events"}, nó sẽ chuyển sang trang phục bút chì màu xanh lá cây và thay đổi màu bút thành màu xanh lá cây.
 
-![blue_square](images/blue_square.png)
+![bút chì](images/pencil.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+khi tôi nhận được [xanh v]
+trang phục chuyển sang (bút chì xanh v)
+đặt màu bút thành [# 00CC44]
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Để đặt bút chì thành màu xanh lục, hãy nhấp vào ô vuông màu trong khối `đặt bút màu`{: class = "block3extensions"}, sau đó nhấp vào hình vuông màu xanh lá cây. \--- /bài tập \---
+
+Sau đó đến một điều tương tự để bạn có thể chuyển màu bút chì sang màu xanh.
+
+\--- task \--- Nhấp vào sprite hình vuông màu xanh và thêm mã này:
+
+![màu xanh](images/blue_square.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+khi sprite này nhấp
+phát (màu xanh v)
 ```
 
-\--- /task \---
-
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
-
-![pencil](images/pencil.png)
+Sau đó bấm vào bút chì sprite và thêm mã này: ![bút chì](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
-end
+khi tôi nhận được [blue v]
+trang phục chuyển sang (bút chì màu xanh v)
+đặt màu bút thành [# 0000ff]
 ```
 
-\--- /task \---
+\--- /bài tập \---
 
-If you prefer, you can start with a different colour pencil.
+\--- task \--- Cuối cùng, thêm mã này để báo cho bút chì biết màu nào sẽ bắt đầu và để đảm bảo rằng màn hình rõ ràng khi chương trình của bạn bắt đầu.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+![bút chì](images/pencil.png)
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+```blocks3
+khi lá cờ nhấp
++ xóa tất cả
++ chuyển trang phục để (v bút chì màu xanh)
++ thiết bút màu để [# 0035FF]
+mãi mãi
+  đi tới (con trỏ chuột v)
+nếu <mouse down?> sau đó
+  bút xuống
+  khác
+  bút lên
+kết thúc
+```
+
+\--- /bài tập \---
+
+Nếu bạn thích, bạn có thể bắt đầu với một cây bút chì màu khác.
+
+\--- nhiệm vụ \--- Kiểm tra mã của bạn. Bạn có thể chuyển đổi giữa các màu bút chì màu xanh dương và màu xanh lá cây bằng cách nhấp vào các hình vuông vuông màu xanh hoặc màu xanh lá cây?
+
+![ảnh chụp màn hình](images/paint-pens-test.png) \--- /bài tập \---
