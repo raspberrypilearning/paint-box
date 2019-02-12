@@ -29,12 +29,12 @@ El ancho del marcador ahora se vuelve repetidamente del valor de la variable `an
 
 \--- task \--- Haz clic a la derecha de la variable `ancho`{:class="block3variables"} que se muestra en el Escenario, y luego haz clic en **deslizador**.
 
-![captura de pantalla](images/paint-slider.png) \--- /task \---
+![screenshot](images/paint-slider.png) \--- /task \---
 
 Ahora puedes arrastrar el deslizador que se ve debajo de la variable para cambiar el valor de la misma.
 
-![captura de pantalla](images/paint-slider-change.png)
+![screenshot](images/paint-slider-change.png)
 
 \--- task \--- Prueba tu proyecto y mira si puedes añadir código para ajustar el ancho del marcador.
 
-![captura de pantalla](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-width-test.png) \--- /task \---
