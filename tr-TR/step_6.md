@@ -1,40 +1,40 @@
-## Change the pen width
+## Kalem genişliğini değiştirin
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Ardından, programınızı kullanan kişinin farklı kalem genişlikleri olan şeyler çizmesine izin vermek için kod ekleyeceksiniz.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- görev \--- İlk önce, `genişlik`{: class = "block3variables"} adlı yeni bir değişken ekleyin.
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- / görev \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- görev \--- Bu satırı **içine** sonsuza kadar `ekleyin`{: class = "block3control"} kalem sprite kodunun döngüsü:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+Bayrak tıklandığında
+silme her
+(kalem mavisi v) geçiş kostüm
+[# 0035FF] set kalem rengi
+sonsuza
+git (fare işaretçisi v) için
++ set kalem büyüklüğü (genişliği :: değişkenlere)
+ise <<mouse down?> ve <(fare y) > [-120]>> sonra 
+  aşağı kalem
+  başka
+  aşağı kalem
+uç
 ```
 
-\--- /task \---
+\--- /görev \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+Kalem genişliği şimdi tekrar tekrar `genişlik`{: class = "block3variables"} değişkeninin değerine ayarlanır.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- görev \--- Sahne Alanı'nda görüntülenen `genişlik`{: class = "block3variables"} değişkenine sağ tıklayın ve ardından **kaydırıcı**tıklayın.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![ekran alıntısı](images/paint-slider.png) \--- /görev \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Artık değişkenin değerini değiştirmek için değişkenin altında görünen kaydırıcıyı sürükleyebilirsiniz.
 
-![screenshot](images/paint-slider-change.png)
+![ekran alıntısı](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- görev \--- Projenizi test edin ve kalem genişliğini ayarlamak için kod ekleyip ekleyemeyeceğinizi görün.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![ekran görüntüsü](images/paint-width-test.png) \--- /görev \---
