@@ -1,14 +1,14 @@
-\--- no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-## ভূমিকা
+## পরিচিতি
 
 Make your own paint program!
 
-### আপনি কি করতে হবে
+### যা তৈরি করতে হবে
 
 \--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
@@ -17,15 +17,15 @@ Make your own paint program!
   <img src="images/paint-final.png">
 </div>
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
 \--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
-![showcase](images/showcase.png) \--- /print-only \---
+![প্রদর্শনী](images/showcase.png) \---প্রিন্ট শুধুমাত্র\---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## যা শিখতে পারবেন
 
 + How to use the Pen extension in Scratch
 + How to use broadcasts to communicate between sprites
@@ -33,13 +33,13 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will need
+## যা যা প্রয়োজন
 
-### Hardware
+### হার্ডওয়্যার
 
-+ A computer capable of running Scratch 3
++ একটি কম্পিউটার যেথানে স্ক্র্যাচ ২.০ (Scratch 3) চালানো যাবে
 
-### Software
+### সফটওয়্যার
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
@@ -47,12 +47,12 @@ Make your own paint program!
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
-\--- /collapse \---
+-- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print) ব্যবহার করুন {: target = "_ blank"}।
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. -- /collapse \---
