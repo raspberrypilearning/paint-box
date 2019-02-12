@@ -3,25 +3,25 @@ title: Lousa Mágica
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Neste projeto, você irá fazer seu próprio programa de pintura!
-version: 3
-last_tested: 2017-01-01
+description: Faça o seu próprio programa de pintura
+version: 4.1.0
+last_tested: 2018-30-01
 steps:
   - 
     title: Lousa Mágica
   - 
     title: Make a pencil
   - 
-    title: Coloured pencils
+    title: Lápis coloridos
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Desafio: Atalhos'
     challenge: true
   - 
     title: Undo mistakes
   - 
     title: Change the pencil width
   - 
-    title: 'Challenge: more pencils'
+    title: '--- /challenge ---'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Desafio: Criar mais blocos'
