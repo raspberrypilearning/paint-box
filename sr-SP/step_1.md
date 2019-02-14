@@ -14,7 +14,7 @@
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/paint-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \--- /no-print \---
@@ -53,6 +53,6 @@
 
 ## title: Додатне информације за наставнике
 
-Уколико желите да одштампате овај пројекат, молимо Вас користите [верзију за штампање](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Уколико је потребно да одштампате овај пројекат, молимо Вас користите [Верзију за штампање](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
 Решење овог пројекта можете пронаћи [овде](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
