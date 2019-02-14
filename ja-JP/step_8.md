@@ -1,5 +1,14 @@
 ## 次は何をしますか？
 
-'Paint box'プロジェクトを完成したので、 ['Boat race'プロジェクト](https://projects.raspberrypi.org/en/projects/boat-race){：target = "_ blank"}を試してくださいこれはあなたが障害物の周りをボートでかき回す必要があるゲームを作るのを助けます。</p> 
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
 
-アートを含むもっと多くのプロジェクトをやりたい場合は、 [他のアート関連プロジェクト](https://projects.raspberrypi.org/en/projects?interests%5B%5D=art){：target = "_ blank"}のうちの1つを選んでください。
+\--- no-print \---
+
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/boat_race_demo.png">
+</div>
+
+\--- /no-print \---
+
+\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
