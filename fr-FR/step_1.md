@@ -14,7 +14,7 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/paint-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \--- /no-print \---
