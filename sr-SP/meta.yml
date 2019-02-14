@@ -3,12 +3,12 @@ title: Програм за цртање
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: У овом пројекту правићемо програм за цртање!
-version: 3
-last_tested: 2018-30-01
+description: Направи сопствени програм за цртање
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - 
-    title: Програм за цртање
+    title: Увод
   - 
     title: Направи оловку
   - 
