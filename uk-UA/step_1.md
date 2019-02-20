@@ -47,12 +47,12 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
-\---collapse\---
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Additional information for educators
 
-Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/paint-box/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
 You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
