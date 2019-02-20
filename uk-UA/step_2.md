@@ -61,7 +61,7 @@ end
 
 \--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Чи можете ви малювати олівцем?
 
-![знімок екрану](images/paint-draw.png) \--- /task \---
+![скріншот](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
