@@ -5,12 +5,12 @@ listed: true
 copyedit: false
 description: Створи власну програму для малювання
 version: 4.1.0
-last_tested: 2018-30-01
+last_tested: 2018-11-30
 steps:
   - 
     title: Вступ
   - 
-    title: Make a pencil
+    title: Створюємо олівець
   - 
     title: Кольорові олівці
   - 
