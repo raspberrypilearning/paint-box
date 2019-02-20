@@ -23,9 +23,9 @@ You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, b
 
 Do you see that the pencil sprite includes an eraser costume?
 
-![знімок екрану](images/paint-eraser-costume.png)
+![скріншот](images/paint-eraser-costume.png)
 
-Ваш проект також включає в себе окрему гумку-спрайт.
+Ваш проект також містить окрему гумку-спрайт.
 
 \--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
@@ -71,7 +71,7 @@ set pen color to [#FFFFFF]
 
 There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![знімок екрану](images/paint-draw-problem.png)
+![скріншот](images/paint-draw-problem.png)
 
 \--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
