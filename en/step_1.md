@@ -29,9 +29,9 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 ---
 title: What you will learn
 ---
-- How to use the Pen extension in Scratch
-- How to use broadcasts to communicate between sprites
-- How to detect mouse events
+- Add the pen extension in Scratch
+- Use broadcasts to control a sprite in Scratch
+- Recall how to respond to mouse events in Scratch
 --- /collapse ---
 
 --- collapse ---
