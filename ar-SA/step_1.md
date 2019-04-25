@@ -10,7 +10,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ### ما الذي ستصنعه
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- انقر على العلم الأخضر للبدء. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -51,7 +51,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: معلومات إضافية للمعلمين
 
 إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
