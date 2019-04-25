@@ -8,7 +8,7 @@
 
 \--- task \--- 新しい衣装に 'pencil-green'という名前を付け、鉛筆に緑色の色を付けます。
 
-![スクリーンショット](images/paint-pencil-green.png)
+![screenshot](images/paint-pencil-green.png)
 
 \--- /task \---
 
