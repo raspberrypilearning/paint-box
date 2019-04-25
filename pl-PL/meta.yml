@@ -1,27 +1,27 @@
 ---
 title: Kolorowe kredki
-hero_image: images/banner.png
+hero_image: images / banner.png
 listed: true
 copyedit: false
 description: Naucz się, jak przygotować własny program do rysowania!
-version: 3
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 30 listopada 2018
 steps:
   - 
-    title: Kolorowe kredki
+    title: Wprowadzenie
   - 
     title: Make a pencil
   - 
-    title: Coloured pencils
+    title: Kredki
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Wyzwanie: skróty'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Cofnij błędy
   - 
-    title: Change the pencil width
+    title: Zmień szerokość ołówka
   - 
-    title: 'Challenge: more pencils'
+    title: 'Wyzwanie: więcej ołówków'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Co następne?'
