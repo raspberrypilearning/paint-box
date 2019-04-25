@@ -12,7 +12,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 In the starter project, you should see pencil and eraser sprites:
 
-![captura de tela](images/paint-starter.png) \--- /task \---
+![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
