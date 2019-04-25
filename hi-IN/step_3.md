@@ -90,6 +90,6 @@ end
 
 If you prefer, you can start with a different colour pencil.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- अपने कोड का परीक्षण करें। Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
 ![स्क्रीनशॉट](images/paint-pens-test.png) \--- /task \---
