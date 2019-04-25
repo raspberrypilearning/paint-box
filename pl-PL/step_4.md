@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Wyzwanie: więcej ołówków
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Czy możesz dodać czerwone, żółte i czarne kredki do swojego programu malowania? Spójrz na wcześniejsze kroki, jeśli chcesz przypomnieć sobie, jak to zrobić.
 
 Can you use your pencils to draw a picture?
 
-![screenshot](images/paint-final.png)
+![zrzut ekranu](images/paint-final.png)
