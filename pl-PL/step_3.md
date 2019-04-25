@@ -1,18 +1,18 @@
-## Coloured pencils
+## Kredki
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![zrzut ekranu](images/paint-blue-duplicate.png) \--- /task \---
 
 \--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-![screenshot](images/paint-pencil-green.png)
+![zrzut ekranu](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Draw two new sprites: one blue square and one green square. Są one do wyboru między niebieskim a zielonym ołówkiem.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
@@ -24,7 +24,7 @@ Now you're going to add different coloured pencils to your project and allow the
 
 \--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![green square](images/green_square.png)
+![zielony kwadrat](images/green_square.png)
 
 ```blocks3
 when this sprite clicked
@@ -37,17 +37,17 @@ The pencil sprite should listen for the "green" message and change its costume a
 
 \--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![pencil](images/pencil.png)
+![ołówek](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+kiedy otrzymam [zielony v]
+przełącz kostium na (zielony ołówkiem v)
+ustaw kolor pióra na [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Następnie do podobnej rzeczy, aby można było zmienić kolor ołówka na niebieski.
 
 \--- task \--- Click on the blue square sprite and add this code:
 
@@ -58,19 +58,19 @@ when this sprite clicked
 broadcast (blue v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Then click on the pencil sprite and add this code: ![ołówek](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+kiedy otrzymam [niebieski v]
+przełącz kostium na (niebieski ołówek v)
+ustaw kolor pióra na [#0000ff]
 ```
 
 \--- /task \---
 
 \--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![pencil](images/pencil.png)
+![ołówek](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -90,6 +90,6 @@ end
 
 If you prefer, you can start with a different colour pencil.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\---task\--- Wypróbuj swój kod. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![zrzut ekranu](images/paint-pens-test.png) \--- /task \---
