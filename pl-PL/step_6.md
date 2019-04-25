@@ -1,4 +1,4 @@
-## Change the pen width
+## Zmień szerokość ołówka
 
 Next you will add code to allow the person using your program to draw things with different pen widths.
 
@@ -33,8 +33,8 @@ The pen width now repeatedly gets set to the value of the `width`{:class="block3
 
 You can now drag the slider that is visible below the variable to change the variable's value.
 
-![screenshot](images/paint-slider-change.png)
+![zrzut ekranu](images/paint-slider-change.png)
 
 \--- task \--- Test your project and see if you can add code to adjust the pen width.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![zrzut ekranu](images/paint-width-test.png) \--- /task \---
