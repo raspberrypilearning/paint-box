@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -51,7 +51,7 @@ Maak je eigen teken programma!
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Aanvullende informatie voor docenten
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_ blank"}.
 
