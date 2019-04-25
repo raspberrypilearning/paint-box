@@ -1,0 +1,27 @@
+---
+title: Caja de lápices
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: '¡En este Proyecto, vas a crear tu propio programa para pintar!'
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Caja de lápices
+  - 
+    title: Make a pencil
+  - 
+    title: Coloured pencils
+  - 
+    title: 'Challenge: shortcuts'
+    challenge: true
+  - 
+    title: Undo mistakes
+  - 
+    title: Change the pencil width
+  - 
+    title: 'Challenge: more pencils'
+    challenge: true
+  - 
+    title: 'What next?'
