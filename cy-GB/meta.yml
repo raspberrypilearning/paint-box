@@ -1,0 +1,27 @@
+---
+title: Bocs Paentio
+hero_image: images/paint-box.png
+listed: true
+copyedit: false
+description: Dysga sut i greu rhaglen paentio dy hunan.
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Cyflwyniad
+  - 
+    title: Creu pensil
+  - 
+    title: Pensiliau lliw
+  - 
+    title: 'Gwneud camgymeriadau'
+    challenge: true
+  - 
+    title: Newid lled y pensil
+  - 
+    title: 'Her: Llwybrau byr'
+  - 
+    title: 'Her: Mwy o bensiliau'
+    challenge: true
+  - 
+    title: 'What next?'
