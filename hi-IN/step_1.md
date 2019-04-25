@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) भी है।
 
 \--- /no-print \---
 
@@ -33,17 +33,17 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## \--- collapse \---
 
-## title: आपको किन चीजों की आवश्यकता होगी
+## title: आपको किन चीज़ों की आवश्यकता होगी
 
 ### हार्डवेयर
 
-+ Scratch 3 चलाने में एक सक्षम कंप्यूटर
++ Scratch 3 चलाने में सक्षम कंप्यूटर
 
 ### सॉफ्टवेयर
 
-+ Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
@@ -55,4 +55,4 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"} का उपयोग करें।
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+आप [इस प्रोजेक्ट के लिए समाधान यहाँ खोज सकते हैं](http://rpf.io/p/en/paint-box-get){:target="_blank"}। \--- /collapse \---
