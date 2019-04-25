@@ -4,11 +4,11 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 description: U ovom ćeš projektu izraditi vlastiti program za bojanje!
-version: 3
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-30-01
 steps:
   - 
-    title: Program za bojanje
+    title: Sretan rođendan
   - 
     title: Make a pencil
   - 
