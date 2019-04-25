@@ -1,27 +1,19 @@
 ---
-hero_image: images/banner.png
-theme: violet
-duration: 2
-listed: true
-ingredient: false
-copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Caja de lápices
+hero_image: images/banner.png
+listed: true
+copyedit: false
 description: Aprende a hacer tu propio programa de dibujo.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-30-01
 steps:
   - title: Introducción
-  - title: Lo que necesitarás
-  - title: Hacer un lápiz
+  - title: Haz un lápiz
   - title: Lápices de colores
-  - title: Cometiendo errores
-  - title: Cambiamos el grosor del lápiz
-  - title: 'Desafío: atajos de teclado'
-  - title: 'Desafío: más colores'
+  - title: 'Desafío: atajos'
+    challenge: true
+  - title: Corrige errores
+  - title: Cambia el grosor del lápiz
+  - title: 'Desafío: más lápices'
+    challenge: true
+  - title: 'Reto: Otro disfraz'

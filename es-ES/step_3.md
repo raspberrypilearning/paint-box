@@ -1,44 +1,95 @@
-## Hacer un lápiz
+## Lápices de colores
 
-Comencemos haciendo un lápiz que se pueda usar para dibujar en el escenario.
+Ahora vas a añadir diferentes lápices de colores a tu proyecto y permitir que el usuario elija entre los mismos.
 
-+ Abre el proyecto 'Paintbox' de Scratch online en [rpf.io/paint-go-es-ES](http:/rpf.io/paint-go-es-ES){:target="_blank"} o descárgalo primero de <http://rpf.io/paint-get-es-ES>{:target="_blank"} y ábrelo luego en tu editor offline.
+--- task --- Haz clic en el objeto lápiz, haz clic sobre **Disfraces**, y duplica el disfraz llamado 'lápiz-azul'.
 
-Verás objetos lápiz y goma de borrar:
+![screenshot](images/paint-blue-duplicate.png) --- /task ---
 
-![Captura de pantalla](images/paint-starter.png)
+--- task --- Nombra el nuevo disfraz 'lápiz-verde', y colorea el lápiz de verde.
 
-+ Añade algo de código al objeto del lápiz para que siga el movimiento del ratón `por siempre`{:class="blockcontrol"} para que puedas dibujar:
+![Captura de pantalla](images/paint-pencil-green.png)
 
-```blocks
-    al presionar bandera verde
-por siempre 
-  ir a [puntero del ratón v]
+--- /task ---
+
+--- task --- Dibuja dos nuevos objetos: un cuadrado azul y uno verde. Estos sirven para elegir entre el lápiz azul y el verde.
+
+![screenshot](images/paint-selectors.png) --- /task ---
+
+--- task --- Renombra los nuevos objetos para que se llamen 'azul' y 'verde'
+
+[[[generic-scratch3-rename-sprite]]]
+
+--- /task ---
+
+--- task --- Añade algún código al objeto 'verde', de modo que cuando se haga clic en este objeto, se `envía`{:class="block3events"} el mensaje "verde".
+
+![cuadrado verde](images/green_square.png)
+
+```blocks3
+cuando se haga clic en este objeto
+enviar (verde v)
+```
+
+[[[generic-scratch3-broadcast-message]]] --- /task ---
+
+El objeto lápiz debería 'escuchar' los mensajes "verde" y cambiar su disfraz y color de lápiz como respuesta.
+
+--- task --- Cambia a tu objeto lápiz. Añade algún código de modo que cuando este objeto reciba el envío `verde`{:class="block3events"}, cambia al disfraz de lápiz verde y cambia el color del marcador a verde.
+
+![lápiz](images/pencil.png)
+
+```blocks3
+cuando recibo [verde v]
+cambiar el disfraz a (lápiz-verde v)
+fijar el color del marcador a [#00C44]
+```
+
+Para establecer el lápiz de color a verde, haz clic en el cuadrado de color en el bloque `fijar color del lápiz`{:class="block3extensions"}, y luego haz clic en el objeto cuadrado verde. --- /task ---
+
+Luego para cosas similares, para que puedas cambiar de color de lápiz a azul.
+
+--- task --- Haz clic en el objeto cuadrado azul y añade este código:
+
+![cuadrado azul](images/blue_square.png)
+
+```blocks3
+cuando se hace clic en este objeto
+enviar (azul v)
+```
+
+Luego, haz clic sobre el objeto lápiz y añade este código: ![lápiz](images/pencil.png)
+
+```blocks3
+cuando recibo [azul v]
+cambiar disfraz a (lápiz-azul v)
+fijar color del marcador a [#0000ff]
+```
+
+--- /task ---
+
+--- task --- Finalmente, añade este código para indicarle al objeto lápiz con qué color comenzar, y asegurarte de que la pantalla esté limpia cuando comiences.
+
+![lápiz](images/pencil.png)
+
+```blocks3
+cuando se haga clic en la bandera
++borrar todo
++cambiar disfraz a (lápiz-azul v)
++fijar color del marcador a [#0035FF]
+siempre
+ir a (cursor del ratón v)
+if<mouse down?>then
+marcador abajo
+o 
+marcador arriba
 fin
 ```
 
-+ Haz clic en la bandera y luego mueve el ratón por el escenario para comprobar si el código funciona.
+--- /task ---
 
-Ahora vamos a hacer que tu lápiz solo dibuje `si`{:class="blockcontrol"} haces clic con el ratón.
+Si prefieres, puedes comenzar con un lápiz de color diferente.
 
-+ Añade este código a tu objeto lápiz:
+--- task --- Prueba tu código. ¿Puedes cambiar entre el color de lápiz verde y el azul al cliquear en los objetos cuadrado azul o verde?
 
-![Captura de pantalla](images/paint-pencil-draw-code.png)
-
-+ Vuelve a probar tu código. Esta vez, mueve el lápiz por el escenario y mantén presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
-
-![Captura de pantalla](images/paint-draw.png)
-
---- collapse ---
----
-title: Si tienes problemas...
----
-Si parece que el lápiz está dibujando la línea con el centro del lápiz en vez de con la punta, tienes que cambiar el centro del disfraz.
-
-![Centro del disfraz](images/costume-center.png)
-
-La cruz del lápiz debe colocarse **justo debajo** de la punta del lápiz, no encima de la punta del lápiz.
-
-Los cambios en el 'centro de un disfraz' no quedan registrados hasta que se haga clic en otra pestaña, o sea que haz clic en otro disfraz o en la pestaña 'Programas' para guardar los cambios hechos en el centro del disfraz.
-
---- /collapse ---
+![screenshot](images/paint-pens-test.png) --- /task ---
