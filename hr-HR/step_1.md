@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Uvod
 
 Make your own paint program!
 
-### What you will make
+### Što ćete napraviti
 
 \--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
@@ -25,7 +25,7 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Naučit ćeš
 
 + How to use the Pen extension in Scratch
 + How to use broadcasts to communicate between sprites
@@ -33,15 +33,15 @@ Make your own paint program!
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Trebat ćeš
 
-### Hardware
+### Hardver
 
-+ A computer capable of running Scratch 3
++ Računalo koje može pokrenuti Scratch 3
 
-### Software
+### Softver
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ili [offline](http://rpf.io/scratchoff) verziju{:target="_blank"})
 
 ### Downloads
 
@@ -53,6 +53,6 @@ Make your own paint program!
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:Target="_ blank"}.
 
 You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
