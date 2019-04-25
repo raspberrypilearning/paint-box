@@ -1,0 +1,27 @@
+---
+title: Tegnekasse
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: I dette projekt skal du lave dit eget tegneprogram!
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Tegnekasse
+  - 
+    title: Make a pencil
+  - 
+    title: Coloured pencils
+  - 
+    title: 'Challenge: shortcuts'
+    challenge: true
+  - 
+    title: Undo mistakes
+  - 
+    title: Change the pencil width
+  - 
+    title: 'Challenge: more pencils'
+    challenge: true
+  - 
+    title: 'What next?'
