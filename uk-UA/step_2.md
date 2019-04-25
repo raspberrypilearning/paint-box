@@ -1,4 +1,4 @@
-## Make a pencil
+## Створюємо олівець
 
 Start by making a pencil that you can use to draw on the Stage.
 
