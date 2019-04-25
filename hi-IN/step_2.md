@@ -16,7 +16,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 \--- task \---
 
-Add the Pen extension to your project.
+अपने प्रोजेक्ट में Pen एक्सटेंशन जोड़ें।
 
 [[[generic-scratch3-add-pen-extension]]]
 
