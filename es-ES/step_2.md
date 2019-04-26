@@ -1,4 +1,4 @@
-## Lo que necesitarás
+## Haz un lápiz
 
 Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 

@@ -10,11 +10,10 @@ steps:
   - title: Introducción
   - title: Haz un lápiz
   - title: Lápices de colores
-  - title: 'Desafío: atajos'
+  - title: 'comandos para teclado'
     challenge: true
   - title: Corrige errores
-  - title: Cambia el grosor del lápiz
+  - title: Cambiar el ancho del marcador
   - title: 'Desafío: más lápices'
     challenge: true
   - title: 'Reto: Otro disfraz'
-  

@@ -1,4 +1,4 @@
-## Cometiendo errores
+## Corrige errores
 
 A veces se comenten errores, así que añade un botón 'limpiar' y un botón borrador.
 
