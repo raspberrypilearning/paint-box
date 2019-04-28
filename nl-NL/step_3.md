@@ -47,49 +47,49 @@ maak penkleur [#00CC44]
 
 Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pen kleur`{:class="block3extensies"} blok, en klik dan op de groene sprite. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Doe vervolgend hetzelfde voor een potlood met de kleur blauw.
 
 \--- task \--- Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+wanneer op deze sprite wordt geklikt
+zend signaal (blauw v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Klik vervolgens op de potlood sprite en voeg deze code toe: ![pencil](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+wanneer ik signaal [blauw v] ontvang
+verander uiterlijk naar (potlood-blauw v)
+maak penkleur [#0000ff]
 ```
 
 \--- /task \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- taak \--- Voeg ten slotte deze code toe om de sprite van het potlood te vertellen met welke kleur deze dient te beginnen, en om ervoor te zorgen dat het scherm leeg is wanneer je programma start.
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
+wanneer groene vlag wordt aangeklikt
+wis alles
+verander uiterlijk naar (potlood-blauw v)
+maak penkleur [#0035FF]
+herhaal
+ ga naar (muisaanwijzer v)
+als <muis ingedrukt?> dan
+pen neer
+anders
+pen op
 end
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Als je wilt, kunt je met een ander kleurpotlood beginnen.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Test your code. Kun je schakelen tussen het blauwe en groene potlood door op de blauwe of groene vierkant te klikken?
 
 ![screenshot](images/paint-pens-test.png) \--- /task \---
