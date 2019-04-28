@@ -49,7 +49,7 @@ Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pe
 
 Doe vervolgend hetzelfde voor een potlood met de kleur blauw.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Klik op de blauwe vierkante sprite en voeg deze code toe:
 
 ![blue_square](images/blue_square.png)
 
