@@ -1,6 +1,6 @@
 ## Uitdaging: meer potloden
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Kun je een rood, geel en zwart potlood toevoegen aan je tekenprogramma? Bekijk de vorige stappen als je wilt weten hoe je dit moet doen.
 
 Kun jij je potloden gebruiken om een foto na te tekenen?
 
