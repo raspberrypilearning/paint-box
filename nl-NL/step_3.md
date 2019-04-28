@@ -12,30 +12,30 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 
 \--- /task \---
 
-\--- task \--- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. These are for choosing between the blue and green pencil.
+\--- task \--- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn bedoeld om te kiezen tussen het blauwe en groene potlood.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Voeg code toe aan de 'groene' sprite, zodat wanneer op de sprite wordt geklikt het een bericht "groen" `uitzendt`{:class="block3events"}.
 
 ![green square](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+wanneer op deze sprite wordt geklikt
+zend signaal (groen v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het uiterlijk en potlood kleur wijzigen in groen.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Schakel over naar je potlood sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
 ![pencil](images/pencil.png)
 
