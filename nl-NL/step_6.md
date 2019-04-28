@@ -1,8 +1,8 @@
-## Change the pen width
+## De potlooddikte wijzigen
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Vervolgens kunt je code toevoegen om de persoon die jouw programma gebruikt, toe te staan om dingen te tekenen met verschillende pen breedtes.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Voeg eerst een nieuwe variabele toe met de naam `breedte`{:class="blockvariable"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
