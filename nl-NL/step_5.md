@@ -27,7 +27,7 @@ Zie je dat de potlood sprite een gum uiterlijk bevat?
 
 Je project bevat ook een afzonderlijke gumsprite.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- Klik op de gum sprite en klik vervolgens op het oogje naast **Toon** om deze sprite weer te geven. Hier is hoe je speelveld eruit zou moeten zien:
 
 ![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
