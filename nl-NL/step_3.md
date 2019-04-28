@@ -12,7 +12,7 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. These are for choosing between the blue and green pencil.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
