@@ -46,35 +46,37 @@ Laat vervolgens je potlood alleen tekenen `als`{:class="blockcontrol"} er de mui
 ![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+wanneer groene vlag wordt aangeklikt
+herhaal
+ ga naar (muisaanwijzer v)
+ als <muis ingedrukt?> dan
+ pen neer
+ anders
+ pen op
+end
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
+
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Kun je met je potlood tekenen?
+\--- taak \--- Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: Trekt je potlood de lijn niet vanaf de punt?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Als de lijn die je potlood tekent eruit ziet alsof deze uit het midden van het potlood komt, moet je je potlood sprite veranderen, zodat de punt het midden van de sprite is.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Klik op de potlood sprite en klik vervolgens op de **uiterlijken** tab.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Verplaats het hele uiterlijk zodat de punt van het potlood zich **net boven** het midden bevindt.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Beweeg nu het potlood in het speelveld en teken. Het potlood moet nu een lijn trekken vanaf de punt.
 
 \--- /collapse \---
