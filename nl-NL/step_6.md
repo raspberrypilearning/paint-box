@@ -6,17 +6,17 @@ Vervolgens kunt je code toevoegen om de persoon die jouw programma gebruikt, toe
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Voeg deze regel **binnen** het `herhaal`{:class="blockcontrol"} blok van de potloodcode toe:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
+wanneer groene vlag wordt aangeklikt
+wis alles
+verander uiterlijk naar (potlood-blauw v)
+maak penkleur [#0035FF]
+herhaal
+ ga naar (muisaanwijzer v)
+ set pen size to (breedte :: variables)
+ if &lt;<muis ingedrukt> en &lt;(mouse y) &gt; [-120]&gt;&gt; then 
   pen down
   else
   pen up
@@ -25,16 +25,16 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+De pendikte wordt nu herhaaldelijk ingesteld op de waarde van de `breedte` {:class="block3variables"} variabele.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Klik met de rechtermuisknop op de `breedte`{:class="block3variables"} variabele weergegeven in het speelveld en klik vervolgens op **schuif**.
 
 ![screenshot](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Je kunt nu de schuifregelaar onder de variabele verslepen om de waarde te wijzigen.
 
 ![screenshot](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- taak \--- Test je project en kijk of je de pen breedte kunt aanpassen.
 
 ![screenshot](images/paint-width-test.png) -- /task \---
