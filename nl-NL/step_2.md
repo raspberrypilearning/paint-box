@@ -1,22 +1,22 @@
 ## Wat heb je nodig
 
-Start by making a pencil that you can use to draw on the Stage.
+Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op het speelveld te tekenen.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Open het "Paint box" start project.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online** open het online start project op [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_ blank"}
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: open het [startproject](http://rpf.io/p/en/paint-box-go){:target="_ blank"} in de offline editor.
 
 Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+In het startersproject zou je een potlood- en een gumsprite moeten zien:
 
 ![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \----
 
-Add the Pen extension to your project.
+Voeg de Pen-uitbreiding toe aan je project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,7 +24,7 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Voeg wat code toe aan de potlood sprite om ervoor te zorgen dat deze de muis altijd volgt met een `herhaal`{:class="blockcontrol"} blok, zodat je kunt tekenen:
 
 ![pencil](images/pencil.png)
 
