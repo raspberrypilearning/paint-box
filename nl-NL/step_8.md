@@ -1,6 +1,6 @@
 ## Wat kun je verder nog doen?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+Nu u het project 'Paint box' hebt voltooid, probeer eens het project ['Boot race'](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), waarmee je een spel kunt maken waarbij je een boot om obstakels heen moet sturen.
 
 \--- no-print \---
 
