@@ -31,22 +31,22 @@ Je project bevat ook een afzonderlijke gumsprite.
 
 ![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- Voeg code toe aan de gum prite om een `zend signaal` {:class="block3events"} gum te verzenden wanneer op de gum sprite wordt geklikt.
 
 ![eraser](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+wanneer op deze sprite wordt geklikt
+zend signaal (gum v)
 ```
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Wanneer het potlood de "gum"-boodschap ontvangt, zou het potlood uiterlijk in de gum moeten veranderen en de potloodkleur in wit moeten veranderen - dezelfde kleur als de achtergrond van het speelveld!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- Voeg een code toe om de gum te maken.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Voeg een code toe aan de potlood sprite: `Wanneer ik signaal ontvang`{:class="block3events"} `gum`{:class="block3events"} bericht `verander uiterlijk naar gum` {:class="block3looks"} `maak penkleur` {: class = "block3extensions"} wit \--- / hint \--- \--- hint \--- Hier zijn alle blokken die je nodig hebt:
 
 ```blocks3
 set pen color to [#FFFFFF]
