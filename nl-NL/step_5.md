@@ -79,21 +79,20 @@ Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, o
 ![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
+wanneer groene vlag wordt aangeklikt
+wis alles
+verander uiterlijk naar (potlood-blauw v)
+maak penkleur [#0035FF]
+herhaal
+ ga naar (muisaanwijzer v)
+ if &lt;<muis ingedrukt> en &lt;(mouse y) &gt; [-120]&gt;&gt; then 
   pen down
   else
   pen up
-end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- Test je project. Je moet nu niet in staat zijn om te tekenen in de buurt van de knoppen.
 
 ![screenshot](images/paint-fixed.png) \--- /task \---
