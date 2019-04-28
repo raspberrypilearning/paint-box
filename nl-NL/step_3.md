@@ -1,8 +1,8 @@
 ## Kleurpotloden
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de mogelijkheid geven om een kleur te kiezen.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Klik op de potloodsprite, klik op **Uiterlijken** en dupliceer het 'pencil-blue' uiterlijk.
 
 ![screenshot](images/paint-blue-duplicate.png) \---/task\---
 
