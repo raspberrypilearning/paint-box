@@ -49,31 +49,32 @@ Wanneer het potlood de "gum"-boodschap ontvangt, zou het potlood uiterlijk in de
 \--- hints \--- \--- hint \--- Voeg een code toe aan de potlood sprite: `Wanneer ik signaal ontvang`{:class="block3events"} `gum`{:class="block3events"} bericht `verander uiterlijk naar gum` {:class="block3looks"} `maak penkleur` {: class = "block3extensions"} wit \--- / hint \--- \--- hint \--- Hier zijn alle blokken die je nodig hebt:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+maak penkleur [#FFFFFF]
 
-switch costume to (eraser v)
+wanneer ik signaal [gum v] ontvang
+
+verander uiterlijk naar (gum v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- / hint \--- \--- hint \--- Hier is hoe je code eruit zou moeten zien: ![pencil](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+wanneer ik signaal [gum v] ontvang
+verander uiterlijk naar (gum v)
+maak penkleur [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- Test je project om te zien of je het speelveld kunt wissen en potloodlijnen kunt wissen.
 
 ![screenshot](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, ook in de buurt van de kleur selectie-pictogrammen!
 
 ![screenshot](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- task \--- Om dit te verhelpen, wijzig je de code zodat de pen alleen naar beneden is (neer) als je op de muis **klikt** en de ` y ` positie van de muisaanwijzer groter is dan ` -120 `:
 
 ![pencil](images/pencil.png)
 
