@@ -29,19 +29,19 @@ Voeg wat code toe aan de potlood sprite om ervoor te zorgen dat deze de muis alt
 ![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+wanneer groene vlag wordt aangeklikt
+herhaal
+ ga naar (muisaanwijzer v) 
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- taak \--- Klik op de vlag en verplaats de muisaanwijzer vervolgens door het werkgebied om te testen of je code werkt. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Laat vervolgens je potlood alleen tekenen `als`{:class="blockcontrol"} er de muisknop wordt ingedrukt.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Voeg deze code toe aan je potlood sprite:
 
 ![pencil](images/pencil.png)
 
