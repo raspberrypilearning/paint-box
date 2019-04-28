@@ -6,7 +6,7 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 
 ![screenshot](images/paint-blue-duplicate.png) \---/task\---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Hernoem je nieuwe kostuum 'potlood-groen' en kleur het potlood groen.
 
 ![screenshot](images/paint-pencil-green.png)
 
@@ -22,7 +22,7 @@ Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
 \--- /task \---
 
-\--- task \--- Voeg code toe aan de 'groene' sprite, zodat wanneer op de sprite wordt geklikt het een bericht "groen" `uitzendt`{:class="block3events"}.
+\--- task \--- Voeg code toe aan de 'groene' sprite, zodat wanneer op de sprite wordt geklikt het een bericht `zend signaal`{:class="block3events"} "groen" geeft.
 
 ![green square](images/green_square.png)
 
@@ -35,17 +35,17 @@ zend signaal (groen v)
 
 De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het uiterlijk en potlood kleur wijzigen in groen.
 
-\--- task \--- Schakel over naar je potlood sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Schakel over naar je potlood sprite. Voeg wat code toe zodat wanneer deze sprite het `groen` {:class= "blockevents"} signaal ontvangt, deze moet overschakelen naar het groene potlood uiterlijk en de potloodkleur moet veranderen in groen.
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+wanneer ik signaal [groen v] ontvang
+verander uiterlijk naar (potlood-groen v)
+maak penkleur [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pen kleur`{:class="block3extensies"} blok, en klik dan op de groene sprite. \--- /task \---
 
 Then to a similar thing so that you can switch the pencil colour to blue.
 
