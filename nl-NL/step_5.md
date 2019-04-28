@@ -1,27 +1,27 @@
 ## Fouten maken
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Voeg de sprite 'Block-X' toe uit Letters bibliotheek. Kleur het sprite-uiterlijk rood en maak het een beetje kleiner. Dit wordt de knop 'Wissen'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![screenshot](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- taak \--- Voeg code toe aan de 'Wissen' sprite om het speelveld te wissen wanneer op de sprite wordt geklikt.
 
 ![cross](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+wanneer op deze sprite wordt geklikt
+wis alles
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Je hoeft geen `zend signaal`{:class="block3events"} te gebruiken om het speelveld te wissen, omdat het `wis alles`{:class="block3extensions"} blok dat werk doet.
 
-Do you see that the pencil sprite includes an eraser costume?
+Zie je dat de potlood sprite een gum uiterlijk bevat?
 
 ![screenshot](images/paint-eraser-costume.png)
 
