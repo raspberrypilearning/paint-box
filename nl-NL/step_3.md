@@ -24,7 +24,7 @@ Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
 \--- task \--- Voeg code toe aan de 'groene' sprite, zodat wanneer op de sprite wordt geklikt het een bericht `zend signaal`{:class="block3events"} "groen" geeft.
 
-![green square](images/green_square.png)
+![groen vierkant](images/green_square.png)
 
 ```blocks3
 wanneer op deze sprite wordt geklikt
@@ -37,7 +37,7 @@ De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het ui
 
 \--- task \--- Schakel over naar je potlood sprite. Voeg wat code toe zodat wanneer deze sprite het `groen` {:class= "blockevents"} signaal ontvangt, deze moet overschakelen naar het groene potlood uiterlijk en de potloodkleur moet veranderen in groen.
 
-![pencil](images/pencil.png)
+![potlood](images/pencil.png)
 
 ```blocks3
 wanneer ik signaal [groen v] ontvang
@@ -51,14 +51,14 @@ Doe vervolgend hetzelfde voor een potlood met de kleur blauw.
 
 \--- task \--- Klik op de blauwe vierkante sprite en voeg deze code toe:
 
-![blue_square](images/blue_square.png)
+![blauw_vierkant](images/blue_square.png)
 
 ```blocks3
 wanneer op deze sprite wordt geklikt
 zend signaal (blauw v)
 ```
 
-Klik vervolgens op de potlood sprite en voeg deze code toe: ![pencil](images/pencil.png)
+Klik vervolgens op de potlood sprite en voeg deze code toe: ![potlood](images/pencil.png)
 
 ```blocks3
 wanneer ik signaal [blauw v] ontvang
@@ -70,7 +70,7 @@ maak penkleur [#0000ff]
 
 \--- taak \--- Voeg ten slotte deze code toe om de sprite van het potlood te vertellen met welke kleur deze dient te beginnen, en om ervoor te zorgen dat het scherm leeg is wanneer je programma start.
 
-![pencil](images/pencil.png)
+![potlood](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
