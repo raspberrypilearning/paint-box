@@ -10,7 +10,7 @@ Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
 \--- taak \--- Voeg code toe aan de 'Wissen' sprite om het speelveld te wissen wanneer op de sprite wordt geklikt.
 
-![cross](images/cross.png)
+![kruis](images/cross.png)
 
 ```blocks3
 wanneer op deze sprite wordt geklikt
@@ -33,7 +33,7 @@ Je project bevat ook een afzonderlijke gumsprite.
 
 \--- task \--- Voeg code toe aan de gum prite om een `zend signaal` {:class="block3events"} gum te verzenden wanneer op de gum sprite wordt geklikt.
 
-![eraser](images/eraser.png)
+![gum](images/eraser.png)
 
 ```blocks3
 wanneer op deze sprite wordt geklikt
@@ -56,7 +56,7 @@ wanneer ik signaal [gum v] ontvang
 verander uiterlijk naar (gum v)
 ```
 
-\--- / hint \--- \--- hint \--- Hier is hoe je code eruit zou moeten zien: ![pencil](images/pencil.png)
+\--- / hint \--- \--- hint \--- Hier is hoe je code eruit zou moeten zien: ![potlood](images/pencil.png)
 
 ```blocks3
 wanneer ik signaal [gum v] ontvang
@@ -76,7 +76,7 @@ Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, o
 
 \--- task \--- Om dit te verhelpen, wijzig je de code zodat de pen alleen naar beneden is (neer) als je op de muis **klikt** en de ` y ` positie van de muisaanwijzer groter is dan ` -120 `:
 
-![pencil](images/pencil.png)
+![potlood](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
