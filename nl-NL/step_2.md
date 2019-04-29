@@ -26,7 +26,7 @@ Voeg de Pen-uitbreiding toe aan je project.
 
 Voeg wat code toe aan de potlood sprite om ervoor te zorgen dat deze de muis altijd volgt met een `herhaal`{:class="blockcontrol"} blok, zodat je kunt tekenen:
 
-![pencil](images/pencil.png)
+![potlood](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -43,7 +43,7 @@ Laat vervolgens je potlood alleen tekenen `als`{:class="blockcontrol"} er de mui
 
 \--- task \--- Voeg deze code toe aan je potlood sprite:
 
-![pencil](images/pencil.png)
+![potlood](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
