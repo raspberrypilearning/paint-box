@@ -45,11 +45,11 @@ verander uiterlijk naar (potlood-groen v)
 maak penkleur [#00CC44]
 ```
 
-Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pen kleur`{:class="block3extensies"} blok, en klik dan op de groene sprite. \--- /task \---
+Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pen kleur`{:class="block3extensions"} blok, en klik dan op de groene vierkantsprite. \--- /task \---
 
 Doe vervolgend hetzelfde voor een potlood met de kleur blauw.
 
-\--- task \--- Klik op de blauwe vierkante sprite en voeg deze code toe:
+\--- task \--- Klik op de blauwe vierkantsprite en voeg deze code toe:
 
 ![blauw_vierkant](images/blue_square.png)
 
@@ -68,18 +68,18 @@ maak penkleur [#0000ff]
 
 \--- /task \---
 
-\--- taak \--- Voeg ten slotte deze code toe om de sprite van het potlood te vertellen met welke kleur deze dient te beginnen, en om ervoor te zorgen dat het scherm leeg is wanneer je programma start.
+\--- task \--- Voeg ten slotte deze code toe om de sprite van het potlood te vertellen met welke kleur deze moet te beginnen en om ervoor te zorgen dat het scherm leeg is wanneer je programma start.
 
 ![potlood](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
-wis alles
-verander uiterlijk naar (potlood-blauw v)
-maak penkleur [#0035FF]
++wis alles
++verander uiterlijk naar (potlood-blauw v)
++maak penkleur [#0035FF]
 herhaal
- ga naar (muisaanwijzer v)
-als <muis ingedrukt?> dan
+ga naar (muisaanwijzer v)
+als <mouse down?> dan
 pen neer
 anders
 pen op
