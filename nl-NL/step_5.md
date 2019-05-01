@@ -2,13 +2,13 @@
 
 Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
-\--- task \--- Voeg de sprite 'Block-X' toe uit Letters bibliotheek. Kleur het sprite-uiterlijk rood en maak het een beetje kleiner. Dit wordt de knop 'Wissen'.
+\--- task \--- Voeg de sprite 'Block-X' toe uit de Letters-sectie in de bibliotheek. Kleur het sprite-uiterlijk rood en maak het een beetje kleiner. Dit wordt de knop 'wissen'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![screenshot](images/paint-x.png) \--- /task \---
 
-\--- taak \--- Voeg code toe aan de 'Wissen' sprite om het speelveld te wissen wanneer op de sprite wordt geklikt.
+\--- task \--- Voeg code toe aan de 'Wissen' sprite om het speelveld te wissen wanneer op de sprite wordt geklikt.
 
 ![kruis](images/cross.png)
 
