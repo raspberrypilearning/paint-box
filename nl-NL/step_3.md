@@ -2,7 +2,7 @@
 
 Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de mogelijkheid geven om een kleur te kiezen.
 
-\--- task \--- Klik op de potloodsprite, klik op **Uiterlijken** en dupliceer het 'pencil-blue' uiterlijk.
+\--- task \--- Klik op de potloodsprite, klik op **Uiterlijken** en dupliceer het 'potlood-blauw' uiterlijk.
 
 ![screenshot](images/paint-blue-duplicate.png) \---/task\---
 
@@ -12,11 +12,11 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 
 \--- /task \---
 
-\--- task \--- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn bedoeld om te kiezen tussen het blauwe en groene potlood.
+\--- task \--- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn bedoeld om te kiezen tussen het blauwe en het groene potlood.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
-Hernoem je sprites zodat ze 'blauw' en 'groen' heten
+\--- task \--- Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -33,9 +33,9 @@ zend signaal (groen v)
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het uiterlijk en potlood kleur wijzigen in groen.
+De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het uiterlijk en het potlood wijzigen in groen.
 
-\--- task \--- Schakel over naar je potlood sprite. Voeg wat code toe zodat wanneer deze sprite het `groen` {:class= "blockevents"} signaal ontvangt, deze moet overschakelen naar het groene potlood uiterlijk en de potloodkleur moet veranderen in groen.
+\--- task \--- Schakel over naar je potlood sprite. Voeg wat code toe zodat wanneer deze sprite het `groen` {:class= "block3events"} signaal ontvangt, deze moet overschakelen naar het groene potlooduiterlijk en de potloodkleur moet veranderen in groen.
 
 ![potlood](images/pencil.png)
 
