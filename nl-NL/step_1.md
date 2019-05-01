@@ -29,7 +29,7 @@ Maak je eigen teken programma!
 
 + Hoe gebruik je de Pen uitbreiding in Scratch
 + Uitzendingen gebruiken om te communiceren tussen sprites
-+ Hoe je muis acties detecteert \--- /collapse \---
++ Hoe je muisacties detecteert \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -45,7 +45,7 @@ Maak je eigen teken programma!
 
 ### Downloads
 
-+ [ Offline startproject ](http://rpf.io/p/en/paint-box-go){:Target="_ blank"}
++ [ Offline startproject ](http://rpf.io/p/en/paint-box-go){:target="_ blank"}
 
 \--- / collapse \---
 
