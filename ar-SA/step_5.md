@@ -1,98 +1,98 @@
 ## تغيير عرض خط القلم الرصاص
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+أحيانًا تحدث أخطاء أثناء الرسم، لذلك سنضيف زر 'مسح الشاشة' و زر للممحاة.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- أضف كائن Block-X من قسم حروف في مكتبة الكائنات. لون مظهر الكائن باللون الأحمر و صغر حجمه قليلاً. هذا الكائن سيكون زر 'مسح الشاشة'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![لقطة الشاشة](images/paint-x.png) \---/task--
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- أضف التعليمه البرمجية التالية إلى كائن 'X-block' لمسح منصة العمل عندما يتم النقر على هذا الكائن.
 
-![cross](images/cross.png)
+![block-X](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+عند نقر هذا الكائن
+مسح الكل
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+لا تحتاج إلى استخدام `بث`{:class="block3events"} لمسح كامل محتويات منصة العمل, لأن كتلة `مسح الكل`{:class="block3extensions"} block تقوم بهذه العملية.
 
-Do you see that the pencil sprite includes an eraser costume?
+هل لاحظت أن مظاهر كائن القلم الرصاص يوجد فيها مظهر للممحاة؟
 
 ![لقطة الشاشة](images/paint-eraser-costume.png)
 
 يحتوي مشروعك على كائن محدد الممحاة.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- انقر بزر الماوس اليمين على كائن الممحاة هذا و اختر **عرض**. سيكون شكل المنصة كما يلي:
 
 ![لقطة الشاشة](images/paint-eraser-stage.png) \---/task\---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- أضف هذه التعليمة البرمجية لكائن الممحاة لارسال بث `'مسح'`{:class="block3events"} عندما يتم النقر على كائن الممحاة.
 
-![eraser](images/eraser.png)
+![الممحاة](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+عند نقر هذا الكائن
+بث (مسح v)
 ```
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+عندما يتلقى كائن القلم الرصاص رسالة "الممحاة"، فيفترض أن يقوم بتحويل مظهره إلى مظهر الممحاة، وتحويل لون القلم إلى اللون الأبيض، أي نفس لون منصة العمل!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- أضف بعض التعليمات البرمجية لإنشاء الممحاة.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- أضف بعض التعليمات البرمجية لكائن القلم الرصاص: `عندما أتلقى رسالة`{:class="block3events"} `مسح`{:class="block3events"} `غير المظهر إلى الممحاة`{:class="block3looks"} `اجعل لون القلم مساوياً للون`{:class="block3extensions"} الأبيض \--- /hint \--- \--- hint \--- هذه هي الكتل البرمجية التي ستحتاجها:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
-
-switch costume to (eraser v)
+إجعل لون القلم مساوياً لـ [#FFFFFF]
+عندما أتلقى [مسح v]
+غيِّر المظهر إلى (الممحاة v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية كما يلي: ![قلم رصاص](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+عندما أتلقى [مسح v]
+غيِّر المظهر إلى (الممحاة v)
+إجعل لون القلم مساوياً لـ [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- اختبر مشروعك لترى هل يمكنك مسح كامل محتويات منصة العمل و هل يمكنك مسح كتابات القلم.
 
 ![لقطة الشاشة](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+توجد مشكلة واحدة آخرى بالنسبة إلى القلم: هل لاحظت أنه يمكنك أن ترسم في أي مكان على منصة العمل حتى بالقرب من زر 'مسح الشاشة' و زر 'الممحاة'!
 
 ![لقطة الشاشة](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- task \--- لحل هذه المشكلة, غير التعليمات البرمجية بحيث يكون القلم في حالة نزول فقط إذا تم النقر بالماوس **و** كان `موقعy` للماوس أكبر من `-120`:
 
-![pencil](images/pencil.png)
+![قلم رصاص](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+عند نقر ⚑
+مسح الكل
+غيِّر المظهر إلى (قلم أزرق v)
+إجعل لون القلم مساوياً لـ [#0035FF]
+كرِّر باستمرار 
+  اذهب إلى (مؤشر الفأرة v)
+  + إذا <<مضغوط؟ الفأرة زر> و <(الموضع ص للفأرة) > [-120]>> 
+  +   أنزل القلم
+  + وإلا 
+  +   ارفع القلم
+  + end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- اختبر تعليماتك البرمجية. الآن بعد حل المشكلة يفترض أنك غير قادر على الرسم بجوار الأزرار الموجودة على منصة العمل.
 
 ![لقطة الشاشة](images/paint-fixed.png) \--- /task \---
