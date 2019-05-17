@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## Her: gorchmynion y bysellfwrdd
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+Wyt ti’n gallu creu llwybrau byr ar dy fysellfwrdd ar gyfer dy orchmynion? Er enghraifft:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = Newid i bensil glas
++ <kbd>g</kbd> = newid i bensil gwyrdd
++ <kbd>d</kbd> = newid i ddileuwr
++ <kbd>c</kbd> = clirio sgrin
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+Galli di hyd yn oed adael i’r defnyddiwr newid lled y pen gyda’r saethau ar dy allweddell.
