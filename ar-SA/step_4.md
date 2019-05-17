@@ -1,6 +1,6 @@
 ## التحدي: المزيد من أقلام الرصاص
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+هل يمكنك إضافة أقلام رصاص حمراء و صفراء و سوداء إلى برنامج الرسم الخاص بك؟ ألق نظرة على الخطوات السابقة إذا كنت تريد تذكيرًا بكيفية القيام بذلك.
 
 هل يمكنك استخدام أقلام الرصاص الخاص بك لرسم صورة؟
 
