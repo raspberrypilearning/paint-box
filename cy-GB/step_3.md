@@ -1,30 +1,30 @@
-## Coloured pencils
+## Pensiliau lliw
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i’r defnyddiwr ddewis rhyngddyn nhw.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Clicia ar giplun y pensil, clicia **Gwisgoedd** dyblygu gwisg ‘pencil-blue’.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![sgrinlun](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Ail-enwa dy wisg newydd yn ‘pensil-gwyrdd’, a lliwia’r pensil yn wyrdd.
 
-![screenshot](images/paint-pencil-green.png)
+![sgrinlun](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Tynna lun o ddau gorlun newydd: un sgwâr glas ac un sgwâr gwyrdd. Mae'r rhain ar gyfer dewis rhwng y pensil glas a gwyrdd.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![sgrinlun](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- tasg \--- Ail-enwi'r corluniau newydd fel eu bod yn cael eu galw'n 'glas' a 'gwyrdd'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Ychwanega gôd i dy gorlun 'gwyrdd' fel ei fod yn `darlledu`{:class="block3events"} y neges "gwyrdd" pan mae'n cael ei glicio.
 
-![green square](images/green_square.png)
+![sgwâr gwyrdd](images/green_square.png)
 
 ```blocks3
 when this sprite clicked
@@ -33,11 +33,11 @@ broadcast (green v)
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Fe ddylai'r corlun pensil wrando ar y neges "gwyrdd" a newid ei wisg a lliw mewn ymateb.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Newida i dy gorlun pensil. Ychwanega gôd sy'n golygu pan mae'r corlun yn derbyn darllediad `gwyrdd`{:class="block3events"}, mae'n newid i wisg werdd a newid lliw y pensil i wyrdd.
 
-![pencil](images/pencil.png)
+![pensil](images/pencil.png)
 
 ```blocks3
 when I receive [green v]
@@ -45,11 +45,11 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+I newid lliw y pensil i wyrdd, clicia'r sgwâr wedi lliwio yn y bloc `gosod lliw pin`{:class="block3extensions"}, yna chlicio ar y corlun gwyrdd sgwâr. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Yna gwna'r un peth fel dy fod yn gallu newid lliw dy bensil i las.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Clicia ar y corlun sgwâr glas ac ychwanegu'r côd yma:
 
 ![blue_square](images/blue_square.png)
 
@@ -58,7 +58,7 @@ when this sprite clicked
 broadcast (blue v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Yna clicia ar gorlun y pensil ac ychwanegu'r côd yma: ![pensil](images/pencil.png)
 
 ```blocks3
 when I receive [blue v]
@@ -68,9 +68,9 @@ set pen color to [#0000ff]
 
 \--- /task \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- task \--- Yn olaf, ychwanega'r côd yma i ddweud wrth y corlun pensil pa liw i ddechrau gyda, ac i sicrhau fod y sgrin yn glir pan wyt ti'n cychwyn y rhaglen.
 
-![pencil](images/pencil.png)
+![pensil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -88,8 +88,8 @@ end
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Os oes well gyda ti, mae modd i ti ddechrau gyda lliw pensil gwahanol.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Profa dy gôd. Wyt ti'n gallu newid rhwng y lliwiau pensil gwyrdd a glas trwy glicio ar y gorluniau sgwâr gwyrdd neu glas?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![sgrinlun](images/paint-pens-test.png) \--- /task \---
