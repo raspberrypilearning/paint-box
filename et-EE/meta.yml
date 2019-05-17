@@ -1,0 +1,27 @@
+---
+title: Värvikast
+hero_image: images / banner.png
+listed: true
+copyedit: false
+description: Tehke oma värviprogramm
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - 
+    title: Sissejuhatus
+  - 
+    title: Tee pliiats
+  - 
+    title: Värvilised pliiatsid
+  - 
+    title: 'Väljakutse: otseteed'
+    challenge: true
+  - 
+    title: Võta vead tagasi
+  - 
+    title: Muuda pliiatsilaiust
+  - 
+    title: 'Väljakutse: rohkem pliiatsid'
+    challenge: true
+  - 
+    title: 'Mis edasi?'
