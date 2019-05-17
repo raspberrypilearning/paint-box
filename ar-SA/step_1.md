@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -10,7 +10,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ### ما الذي ستصنعه
 
-\--- no-print \--- انقر على العلم الأخضر للبدء. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- انقر على العلم الأخضر للبدء. استخدم الماوس لتحريك قلم الرصاص واضغط باستمرار على زر الماوس الأيسر للرسم. انقر على لون لتغيير لون القلم الرصاص. انقر على الممحاة لتفعيل استخدامها ، واستخدمها لمحو عملك. لمسح الصفحة ، انقر فوق رمز التقاطع (علامة الاكس).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +19,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- سوف تنقر على العلم الأخضر للبدء ، و ستستخدم الماوس لتحريك القلم الرصاص و ستنقر مع الاستمرار بالضغط على زر الماوس الأيسر للرسم. النقر على لون سيغير لون القلم الرصاص ، و النقر على أداة الممحاة سوف يجعل الممحاة تبدأ العمل!
 
 ![معرض](images/showcase.png) \--- /print-only \---
 
@@ -27,9 +27,9 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## title: ما الذي ستتعلمه
 
-+ How to use the Pen extension in Scratch
-+ How to use broadcasts to communicate between sprites
-+ How to detect mouse events \--- /collapse \---
++ كيفية استخدام ملحق القلم في Scratch
++ كيفية استخدام البث للتواصل بين الكائنات
++ كيفية التعرف على حالات الماوس \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -43,9 +43,9 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 + برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### للتحميل
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -55,4 +55,4 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+يمكنك [الحصول على المشروع كاملاً من هنا](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
