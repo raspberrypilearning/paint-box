@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Her: Mwy o bensiliau
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Alli di ychwanegu pensiliau coch, melyn a du i dy raglen baentio? Cymra olwg ar y camau blaenorol os hoffet ti atgoffa dy hunan sut i wneud hyn.
 
-Can you use your pencils to draw a picture?
+Alli di ddefnyddio'r pensiliau i dynnu llun?
 
-![screenshot](images/paint-final.png)
+![sgrinlun](images/paint-final.png)
