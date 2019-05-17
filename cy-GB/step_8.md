@@ -1,6 +1,6 @@
-## What next?
+## Beth nesaf?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+Nawr dy fod wedi cwblhau'r prosiect 'Bocs Paent', rho gynnig ar y prosiect [Ras Cwch](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), sydd yn gyfle i greu gêm lle rwyt ti'n llywio cwch o amgylch rhwystrau.
 
 \--- no-print \---
 
