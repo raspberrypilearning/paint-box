@@ -1,12 +1,12 @@
-## Change the pen width
+## Cambiar el ancho del marcador
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores de marcador.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Primero, añade una nueva variable llamada `width`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Añade esta línea **inside** del bucle `forever`{:class="block3control"} del código del objeto lápiz:
 
 ```blocks3
 when flag clicked
@@ -25,16 +25,16 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+El ancho del marcador ahora se vuelve repetidamente del valor de la variable `width`{:class="block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Haz clic a la derecha de la variable `width`{:class="block3variables"} que se muestra en el Escenario, y luego haz clic en **slider**.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![captura de pantalla](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Ahora puedes arrastrar el deslizador que se ve debajo de la variable para cambiar el valor de la misma.
 
-![screenshot](images/paint-slider-change.png)
+![captura de pantalla](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Prueba tu proyecto y mira si puedes añadir código para ajustar el ancho del marcador.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![captura de pantalla](images/paint-width-test.png) \--- /task \---
