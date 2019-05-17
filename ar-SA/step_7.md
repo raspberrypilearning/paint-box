@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## التحدي: أوامر لوحة المفاتيح
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? مثال:
+هل يمكنك اضافة بعض التعليمات البرمجية التي ستمكنك من التحكم ببرنامجك عن طريق لوحة المفاتيح؟ بحيث يمكنك الرسم باستخدام أزرار لوحة المفاتيح بدلاً من النقر بالماوس على مربعات الألوان و الأزرار الموجودة على منصة العمل؟ مثال:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = التبديل إلى القلم الأزرق
++ <kbd>g</kbd> = التبديل إلى القلم الأخضر
++ <kbd>e</kbd> = التبديل إلى الممحاة
++ <kbd>c</kbd> = مسح كامل منصة العمل
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+إذا كنت ترغب، يمكنك ايضاً إضافة بعض التعليمات البرمجية بحيث اذا ضغطت على أزرار أسهم لوحة المفاتيح يتغير عرض القلم.
