@@ -1,33 +1,54 @@
 ## De potlooddikte wijzigen
 
-Laten we het mogelijk maken dat de gebruiker kan kiezen uit een reeks verschillende potlooddiktes.
+Vervolgens kun je code toevoegen om de persoon die jouw programma gebruikt, toe te staan om dingen te tekenen met verschillende penbreedtes.
 
-+ Voeg eerst een nieuwe variabele toe met de naam `breedte`{:class="blockvariable"}.
+--- task --- 
 
-[[[generic-scratch-add-variable]]]
+Voeg eerst een nieuwe variabele toe met de naam `breedte`{:class="block3variables"}.
 
-+ Voeg deze regel *toe* aan het `herhaal`{:class="blockcontrol"} blok van de potloodcode:
+[[[generic-scratch3-add-variable]]] 
 
-```blocks
-    maak pendikte (breedte)
+--- /task ---
+
+--- task --- 
+
+Voeg deze regel **binnen** de `herhaal`{:class="block3control"} lus van de code van de potlood sprint toe:
+
+```blocks3
+wanneer groene vlag wordt aangeklikt
+wis alles
+verander uiterlijk naar (potlood-blauw v)
+maak penkleur [#0035FF]
+herhaal
+ga naar (muisaanwijzer v)
+maak pendikte (breedte :: variables)
+als <<mouse down?> en <(muis y) > [-120]>> dan
+pen neer
+anders
+pen op
+end
 ```
 
-De potloodbreedte wordt nu steeds ingesteld op de waarde van de variabele 'breedte'.
+--- /task ---
 
-+ Klik in het speelveld met de rechtermuisknop op de weergave van de breedte en klik op 'schuif'.
+De pendikte wordt nu herhaaldelijk ingesteld op de waarde van de `breedte`{:class="block3variables"} variabele.
 
-![screenshot](images/paint-slider.png)
+--- task --- 
+
+Klik met de rechtermuisknop op de `breedte`{:class="block3variables"} variabele weergegeven in het speelveld en klik vervolgens op **schuif**.
+
+![screenshot](images/paint-slider.png) 
+
+--- /task ---
 
 Je kunt nu de schuifregelaar onder de variabele verslepen om de waarde te wijzigen.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Test je project en kijk of je de potloodbreedte kunt wijzigen.
+--- taak --- 
 
-![screenshot](images/paint-width-test.png)
+Test je project en kijk of je de penbreedte kunt aanpassen.
 
-Als je wilt, kunt je de minimum- en maximumwaarde van 'breedte' instellen. Klik hiertoe met de rechtermuisknop op de variabele en klik op 'stel min en max van schuif in'. Stel de minimum- en maximumwaarden van je variabele in op iets dat beter is, zoals 1 en 20.
+![screenshot](images/paint-width-test.png) 
 
-![screenshot](images/paint-slider-max.png)
-
-Blijf je variabele 'breedte' testen totdat je tevreden bent.
+--- /task ---
