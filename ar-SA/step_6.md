@@ -1,40 +1,41 @@
-## Change the pen width
+## تغيير عرض القلم الرصاص
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+الآن سنضيف بعض التعليمات البرمجية التي ستسمح لمن يستخدم برنامجك بأن يرسم بأقلام ذات عرض مختلف.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- اولاً, أضف متغير جديد باسم `عرض`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- أضف هذا السطر**داخل** كتلة التكرار `كرر باستمرار`{:class="block3control"} الموجودة في التعليمات البرمجية الخاصة بكائن القلم الرصاص:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+عند نقر ⚑
+مسح الكل
+غيِّر المظهر إلى (قلم أزرق v)
+إجعل لون القلم مساوياً لـ [#0035FF]
+كرِّر باستمرار 
+  اذهب إلى (مؤشر الفأرة v)
+  + اجعل حجم القلم مساويًا (عرض :: variables)
+  إذا <<مضغوط؟ الفأرة زر> و <(الموضع ص للفأرة) > [-120]>> 
+    أنزل القلم
+  وإلا 
+    ارفع القلم
+  end
 end
 ```
 
 \---/task--
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+الآن سيتم إعادة تعيين عرض القلم بشكل متكرر بناءاً على قيمة المتغير `عرض`{:class="block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- انقر بزر الماوس الأيمين على المتغير `عرض`{:class="block3variables"} الموجود على الزاوية اليسار العلوية لمنصة العمل, ثم انقر على **المنزلقة**.
 
 ![لقطة الشاشة](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+يمكنك الآن سحب شريط المنزلقة لتغيير قيمة المتغير.
 
 ![لقطة الشاشة](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- اختبر مشروعك.
 
 ![لقطة الشاشة](images/paint-width-test.png) \--- /task \---
