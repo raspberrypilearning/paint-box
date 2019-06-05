@@ -1,4 +1,4 @@
-## Wat kun je verder nog doen?
+## Wat nu?
 
 Nu je het project 'Paint box' hebt voltooid, probeer eens [het 'Boot race' project](https://projects.raspberrypi.org/nl-NL/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), waarmee je een spel kunt maken waarbij je een boot om obstakels heen moet sturen.
 
@@ -11,11 +11,8 @@ Nu je het project 'Paint box' hebt voltooid, probeer eens [het 'Boot race' proje
 
 --- /no-print ---
 
---- print-only --- 
+--- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
 
-![boat race demo](images/boat_race_demo.png) 
-
---- /print-only ---
 
 Door de community geleverde vertaling
 

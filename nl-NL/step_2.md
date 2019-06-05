@@ -1,9 +1,8 @@
-## Wat heb je nodig
+## Een potlood maken
 
 Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op het speelveld te tekenen.
 
---- task --- 
-Open het "Paint box" start project.
+--- task --- Open het "Paint box" start project.
 
 **Online** open het start project op [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
@@ -13,9 +12,7 @@ Als je de Scratch offline editor wilt downloaden en installeren dan kan je die v
 
 In het start project zou je een potlood- en een gum-sprite moeten zien:
 
-![screenshot](images/paint-starter.png) 
-
---- /task ---
+![screenshot](images/paint-starter.png) --- /task ---
 
 --- task ---
 
@@ -40,17 +37,11 @@ end
 
 --- /task ---
 
---- task --- 
-
-Klik op de vlag en verplaats de muisaanwijzer vervolgens door het werkgebied om te testen of je code werkt. 
-
---- /task ---
+--- task --- Klik op de vlag en verplaats de muisaanwijzer vervolgens door het werkgebied om te testen of je code werkt. --- /task ---
 
 Laat vervolgens je potlood alleen tekenen `als`{:class="block3control"} als de muisknop wordt ingedrukt.
 
---- task --- 
-
-Voeg deze code toe aan je potlood sprite:
+--- task --- Voeg deze code toe aan je potlood sprite:
 
 ![potlood](images/pencil.png)
 
@@ -68,13 +59,9 @@ end
 
 --- /task ---
 
---- task --- 
+--- task --- Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
 
-Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
-
-![screenshot](images/paint-draw.png) 
-
---- /task ---
+![screenshot](images/paint-draw.png) --- /task ---
 
 --- collapse ---
 ---

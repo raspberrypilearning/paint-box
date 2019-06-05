@@ -10,9 +10,7 @@ Maak je eigen teken programma!
 
 ### Wat ga je maken
 
---- no-print --- 
-
-Klik op de groene vlag om te starten. Gebruik de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Klik op een kleur om van potlood te wisselen. Klik op de gum om daar naar toe te wisselen en gebruik deze om je werk uit te gummen. Klik op het kruisje om de hele pagina te wissen.
+--- no-print --- Klik op de groene vlag om te starten. Gebruik de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Klik op een kleur om van potlood te wisselen. Klik op de gum om daar naar toe te wisselen en gebruik deze om je werk uit te gummen. Klik op het kruisje om de hele pagina te wissen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,13 +19,9 @@ Klik op de groene vlag om te starten. Gebruik de muis om het potlood te verplaat
 
 --- /no-print ---
 
---- print-only --- 
+--- print-only --- Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Door op een kleur te klikken zal de kleur van de penveranderen, en een klik op de gum zal deze in een gum veranderen!
 
-Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Door op een kleur te klikken zal de kleur van de penveranderen, en een klik op de gum zal deze in een gum veranderen!
-
-![showcase](images/showcase.png) 
-
---- /print-only ---
+![showcase](images/showcase.png) --- /print-only ---
 
 --- collapse ---
 ---
@@ -55,7 +49,7 @@ title: Wat heb je nodig
 
 ### Downloads
 
-+ [Offline startproject](http://rpf.io/p/nl-NL/paint-box-go){:target="_ blank"}
++ [ Offline startproject ](http://rpf.io/p/nl-NL/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -64,8 +58,7 @@ title: Wat heb je nodig
 title: Aanvullende informatie voor docenten
 ---
 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/paint-box/print){:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/paint-box/print){:target="_blank"}.
 
 Hier is een link [naar de oplossing](http://rpf.io/p/nl-NL/paint-box-get){:target="_blank"} voor dit project. 
-
 --- /collapse ---
