@@ -1,0 +1,27 @@
+---
+title: የሣጥን ሳጥን
+hero_image: images / banner.png
+listed: true
+copyedit: false
+description: የራስዎ ቀለም ፕሮግራም ይስሩ
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - 
+    title: መግቢያ
+  - 
+    title: እርሳስ ስራ
+  - 
+    title: የተቀረጹ እርሳሶች
+  - 
+    title: 'ተፈታታኝ: አቋራጮች'
+    challenge: true
+  - 
+    title: ስህተቶችን ቀልብስ
+  - 
+    title: የእርሳስ ስሩትን ይቀይሩ
+  - 
+    title: 'ፈተና: ተጨማሪ እርሳሶች'
+    challenge: true
+  - 
+    title: 'ቀጥሎ ምን ይሆናል?'
