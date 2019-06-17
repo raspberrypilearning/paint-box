@@ -27,9 +27,9 @@ Naredite svoj program barv!
 
 ## naslov: Kaj se boste naučili
 
-+ Kako uporabljati podaljšek Pen v Scratch
-+ Kako uporabljati oddaje za komunikacijo med duhovi
-+ Kako zaznati dogodke miške \--- / strni \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- kolaps \---
 
