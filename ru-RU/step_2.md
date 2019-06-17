@@ -6,27 +6,29 @@
 
 **Онлайн**: откройте стартовый проект по адресу [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-**Автономный режим**: откройте стартовый проект [](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} в автономном редакторе.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Если вам необходимо скачать и установить Царапины автономный редактор, вы можете найти его на [rpf.io/scratchoff](http://rpf.io/scratchoff){: TARGET = «_blank»}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-В стартовом проекте вы должны увидеть спрайты карандаша и ластика:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![Скриншот](images/paint-starter.png) \--- / задача \---
+In the starter project, you should see pencil and eraser sprites:
 
-\--- задача \---
+![screenshot](images/paint-starter.png) \--- /task \---
 
-Добавьте расширение Pen в ваш проект.
+\--- task \---
+
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- / задача \---
+\--- /task \---
 
-\--- задача \---
+\--- task \---
 
-Добавьте некоторый код к карандашному спрайту, чтобы спрайт следовал за указателем мыши `навсегда`{: class = "block3control"}, чтобы вы могли рисовать
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![карандаш](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 когда флаг нажал
@@ -35,15 +37,15 @@
 конец
 ```
 
-\--- / задача \---
+\--- /task \---
 
-\--- task \--- Щелкните по флажку, а затем переместите указатель мыши по рабочей области, чтобы проверить, работает ли ваш код. \--- / задача \---
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-Затем, сделайте, чтобы ваш карандаш рисовал только `если`{: class = "block3control"} нажата кнопка мыши.
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-\--- задача \--- Добавьте этот код к вашему карандашному спрайту:
+\--- task \--- Add this code to your pencil sprite:
 
-![карандаш](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 когда флаг нажал
@@ -57,24 +59,24 @@
 конец
 ```
 
-\--- / задача \---
+\--- /task \---
 
-\--- задача \--- Проверьте свой код еще раз. На этот раз переместите карандаш вокруг рабочей области и удерживайте кнопку мыши. Ты можешь рисовать карандашом?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![Скриншот](images/paint-draw.png) \--- / задача \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- свернуть \---
 
 ## title: Ваш карандаш не рисует из своего кончика?
 
-Если линия, которую рисует карандаш, выглядит так, как будто она идет от середины карандаша, вам нужно изменить спрайт карандаша так, чтобы кончик был центром спрайта.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Нажмите на карандашный спрайт, а затем перейдите на вкладку **Костюмы**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Переместите костюм так, чтобы кончик карандаша был **чуть выше** центра.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Костюмный центр](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Теперь переместите карандаш вокруг сцены и нарисуйте. Карандаш должен теперь нарисовать линию от своего наконечника.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
-\--- / свернуть \---
+\--- /collapse \---
