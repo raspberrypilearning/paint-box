@@ -2,9 +2,13 @@
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Rename the `pencil` sprite to `pencil-blue`
 
-![스크린샷](images/paint-blue-duplicate.png) \--- /task \---
+![rename-pencil](images/rename-pencil.png) \--- /task \---
+
+\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
 \--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
@@ -14,7 +18,7 @@ Now you're going to add different coloured pencils to your project and allow the
 
 \--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![스크린샷](images/paint-selectors.png) \--- /task \---
+![screenshot](images/paint-selectors.png) \--- /task \---
 
 \--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
@@ -92,4 +96,4 @@ If you prefer, you can start with a different colour pencil.
 
 \--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![스크린샷](images/paint-pens-test.png) \--- /task \---
+![screenshot](images/paint-pens-test.png) \--- /task \---
