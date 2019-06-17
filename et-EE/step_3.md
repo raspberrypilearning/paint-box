@@ -2,42 +2,46 @@
 
 Nüüd lisate oma projektile erinevad värvilised pliiatsid ja lubate kasutajal valida nende vahel.
 
-\--- ülesanne \--- Klõpsake pliiatsilõõtsale, klõpsa **kostüümile**ja kopeerige „pliiats-sinine” kostüüm.
+\--- task \--- Rename the `pencil` sprite to `pencil-blue`
 
-![ekraanipilt](images/paint-blue-duplicate.png) \--- / ülesanne \---
+![rename-pencil](images/rename-pencil.png) \--- / ülesanne \---
 
-\--- ülesanne \--- Nimetage uus kostüüm „pliiats-roheline” ja värvige pliiats roheliselt.
+\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-![ekraanipilt](images/paint-pencil-green.png)
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
 
 \--- / ülesanne \---
 
-\--- ülesanne \--- Joonistage kaks uut spritet: üks sinine ruut ja üks roheline ruut. Need on sinise ja rohelise pliiatsi valimiseks.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![ekraanipilt](images/paint-selectors.png) \--- / ülesanne \---
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- ülesanne - Uute spritide ümbernimetamine, et neid nimetataks sinine ja roheline
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \--- Lisage „rohelisele” sprite'ile mõni kood, nii et kui see spriit on klõpsatud, siis saadab see ``:: class = "block3events"} sõnumi "green".
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![roheline ruut](images/green_square.png)
+![green square](images/green_square.png)
 
 ```blocks3
 kui see sprite klõpsas
 ülekannet (roheline v)
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- / ülesanne \---
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-Pliiatsil on vaja kuulata "rohelist" sõnumit ning muuta oma kostüümi ja pliiatsivärvi vastuseks.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-\--- ülesanne \--- Lülitage pliiatsipildile. Lisage mõni kood nii, et kui see sprite saab eetrisse `rohelist`{: class = "block3events"}, lülitub see rohelisele pliiatsile ja muudab pliiatsi värvi roheliseks.
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![pliiats](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 kui ma saan [roheline v]
@@ -45,11 +49,11 @@ lüliti kostüüm (pliiats-roheline v)
 seadistatud pliiatsivärv [# 00CC44]
 ```
 
-Et pliiats värviks roheliseks, klõpsa värvi ruudule `set pen color`{: class = "block3extensions} plokis ja seejärel klõpsake rohelisel ruudul. \--- / ülesanne \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
 
-Siis sarnase asjaga, et saaksite pliiatsivärvi siniseks muuta.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-\--- ülesanne \--- Klõpsake sinist ruudu ja lisage see kood:
+\--- task \--- Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 
@@ -58,7 +62,7 @@ kui see sprite klõpsas
 ülekannet (sinine v)
 ```
 
-Seejärel klõpsa pliiatsilõõtsale ja lisage see kood: ![pliiats](images/pencil.png)
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
 
 ```blocks3
 kui ma saan [sinine v]
@@ -66,11 +70,11 @@ lüliti kostüüm (pliiats-sinine v)
 seadistatud pliiatsi värviks [# 0000ff]
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne - Lõpuks lisage see kood, et öelda pliiatsile, millist värvi alustada, ja veenduge, et ekraan on selge, kui teie programm käivitub.
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![pliiats](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 kui lipu klõpsatud
@@ -86,10 +90,10 @@ kui <mouse down?> siis
 lõpp
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-Soovi korral võite alustada erineva värvi pliiatsiga.
+If you prefer, you can start with a different colour pencil.
 
-\--- ülesanne - Testige oma koodi. Kas saate sinise või rohelise pliiatsivärvi vahel liikuda sinise või rohelise ruudu klõpsates?
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![ekraanipilt](images/paint-pens-test.png) \--- / ülesanne \---
+![screenshot](images/paint-pens-test.png) \--- /task \---
