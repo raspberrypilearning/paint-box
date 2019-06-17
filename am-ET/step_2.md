@@ -6,27 +6,29 @@
 
 **መስመር**: የመጀመርያው ፕሮጄክት በ [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-**ከመስመር ውጭ**: ከመስመር ውጪ አርታኢ ውስጥ [ገዳይ ፕሮጀክቱ](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} ይክፈቱ.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Scratch ከመስመር ውጪ አርታዒን ማውረድ እና መጫን ካስፈለገዎት በ [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"} ላይ ሊያገኙት ይችላሉ.
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-በመጀመርያው ዕርሳስ እርሳስና ማጥመጃዎችን ማየት አለቦት-
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-starter.png) \--- / task \---
+In the starter project, you should see pencil and eraser sprites:
 
-\--- ተግባር \---
+![screenshot](images/paint-starter.png) \--- /task \---
 
-የሕንፃውን ኤክስቴንሽን ወደ ፕሮጀክትዎ ያክሉ.
+\--- task \---
+
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \---
+\--- task \---
 
-የ sprite የመዳፊት ጠቋሚ ለመከተል ለማድረግ የእርሳስ sprite አንዳንድ ኮድ ያክሉ `ለዘላለም`{: class = "block3control"} እርስዎ መሳል ይችላሉ ዘንድ:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![እርሳስ](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 አቁመናል
@@ -35,15 +37,15 @@ Scratch ከመስመር ውጪ አርታዒን ማውረድ እና መጫን ካ
 መጨረሻ
 ```
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \--- ኮድዎ ላይ ጠቅ ያድርጉ እና ከዚያ የመታወቂያ ጠቋሚዎን በመድረሻው ላይ ያንቀሳቅሱ. \--- / task \---
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-ቀጥሎ, እርሳስ ብቻ መሳል ለማድረግ `ከሆነ`{: class = "block3control"} የመዳፊት አዝራር ጠቅ እየተደረገ ነው.
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-\--- ተግባር \--- ይህን ኮድ ወደ እርሳስ ወረራዎ ያክሉበት:
+\--- task \--- Add this code to your pencil sprite:
 
-![እርሳስ](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 በዊንዶው ላይ "
@@ -57,24 +59,24 @@ forever" ጠቅ በሚደረግበት ጊዜ
 መጨረሻ
 ```
 
-\--- / task \---
+\--- /task \---
 
-\--- task \--- ኮድዎን እንደገና ይፈትኑት. በዚህ ጊዜ በእንደዚህ ያለ እርሳቸዉ ላይ የእርሳስ ቁልፉን ይንኩ. በእርሳስዎ ይሳሳለዎት?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-draw.png) \--- / task \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## ርእስ: እርሳሱ ከጠቢባው አይወርድም?
 
-እርሳሱ ስዕሉ ከእርሳስ መሃከል እየመጣ ያለ ከሆነ, የእርሳስ ስፔርስን ቅርፅ መቀየር አለብዎት, ስለዚህ ጫፉ የስፔሪያ ማእከል ነው.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-በእርሳስ እንክብር ላይ ጠቅ ያድርጉ እና ከዚያ **አልባሳትን** ትር ጠቅ ያድርጉ.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-ስለ አለባበስ ያለው እንዲሁ የእርሳስ ጫፍ ነው ውሰድ **ልክ ከላይ** ማዕከል.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![የ costume ማዕከል](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-አሁን በእርሳስ ደረጃ ላይ እርሳስን ማንቀሳቀስ እና መሳብ. እርሳሱ ከቅርጠኛው መስመር ሊወርድ ይገባዋል.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
