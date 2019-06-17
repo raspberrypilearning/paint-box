@@ -27,9 +27,9 @@ Maak je eigen teken programma!
 
 ## title: Wat ga je leren
 
-+ Hoe gebruik je de Pen uitbreiding in Scratch
-+ Uitzendingen gebruiken om te communiceren tussen sprites
-+ Hoe je muisacties detecteert \--- /collapse \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
