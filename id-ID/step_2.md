@@ -6,13 +6,15 @@ Start by making a pencil that you can use to draw on the Stage.
 
 **Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
+If you have a Scratch account you can make a copy by clicking **Remix**.
+
 **Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Jika Anda perlu mengunduh dan menginstal editor Scratch offline, Anda dapat menemukannya di [ rpf.io/scratchoff ](http://rpf.io/scratchoff) {: target = "_ blank"}
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
 In the starter project, you should see pencil and eraser sprites:
 
-![screenshot](images/paint-starter.png) \--- /tugas \---
+![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -20,7 +22,7 @@ Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- /tugas \---
+\--- /task \---
 
 \--- task \---
 
@@ -57,9 +59,9 @@ forever
 end
 ```
 
-\--- /tugas \---
+\--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Dapatkah kamu menggambar dengan pensilmu?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
@@ -73,7 +75,7 @@ Click on the pencil sprite, and then click on the **Costumes** tab.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Pusat kostum](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
