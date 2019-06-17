@@ -2,41 +2,46 @@
 
 አሁን ለፕሮጀክትዎ የተለያዩ ቀለም ያላቸው እርሳሶችን ማከል እና ተጠቃሚው በእነሱ መካከል እንዲመርጥ ያስችሎታል.
 
-\--- ተግባር \--- በእርሳስ ስፒር ላይ ጠቅ ያድርጉ, **Costumes**ጠቅ ያድርጉ, እና 'pencil-blue' ልብስ ለብኳቸው.
+\--- task \--- Rename the `pencil` sprite to `pencil-blue`
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-blue-duplicate.png) \--- / task \---
+![rename-pencil](images/rename-pencil.png) \--- / task \---
 
-\--- ተግባር \--- አዲሱን ልብስ "እርሳስ" አረንጓዴ ብለው ሰይመው, እና እርሳስ አረንጓዴውን ቀለም ቀለም.
+\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-pencil-green.png)
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
 
 \--- / task \---
 
-\--- ተግባር \--- ሁለት ስፔሪሶችን ይሳሉ አንድ ሰማያዊ ካሬ እና አንድ አረንጓዴ ካሬ. እነዚህ ደግሞ በሰማያዊና አረንጓዴ እርሳስ መካከል ለመምረጥ ናቸው.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-selectors.png) \--- / task \---
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- ተግባር \--- አዳዲስ ገጾችን እንደገና "ሰማያዊ" እና "አረንጓዴ"
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \--- ይህ አጻጻፍ በሚጫኑበት ጊዜ</code>{" class = "block3events"} "አረንጓዴ" ("አረንጓዴ") ስርጭቶችን `ስርጭቶችን ያጫውታል.</p>
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-<p><img src="images/green_square.png" alt="አረንጓዴ ካሬ" /></p>
+![green square](images/green_square.png)
 
-<pre><code class="blocks3">ይህ sprite
+```blocks3
+ይህ sprite
 ስርጭትን (አረንጓዴ ቪ) ጠቅ ሲያደርግ
-`</pre> 
+```
 
-[[generic-scratch3-broadcast-message]]] \--- / ተግባር \---
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-የእርሳስ ስክሪን "አረንጓዴ" መልዕክቱን ማዳመጥ እና የፀሐፊ እና እርሳስ ቀለሙን እንዲቀይር ማድረግ አለበት.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-\--- ተግባር \--- ወደ እርሳስ ወረቀትዎ ይቀይሩ. ይህ ስሪት የ " `አረንጓዴ`{: class = "block3events"} ስርጭት ሲደርሰው, ወደ አረንጓዴ የእርሳስ ልብስ ይቀይራል, እናም የብዕር ቀለምውን ለአረንጓዴ ይቀይራል.
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![እርሳስ](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 [አረንጓዴ] (
@@ -44,11 +49,11 @@
 የቅንጥቅ ቀለም ወደ [# 00CC44]
 ```
 
-እርሳሱን ለአረንጓዴ ቀለም ለማስቀረት በ `እና በተደረደሩ ብዕር ቀለም`{: class = "block3extensions"} አግድ ላይ ባለ ቀለም ካሬን ጠቅ ያድርጉ ከዚያም አረንጓዴውን አደባባይ መስኮትን ጠቅ ያድርጉ. \--- / task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
 
-ከዚያም እርሳሱን አረንጓዴውን ወደ ሰማያዊ ቀለም መቀየር እንድትችል ተመሳሳይ ወደዛ ማለት ነው.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-\--- ተግባር \--- በሰማያዊ ስእል ስክሪፕት ላይ ጠቅ ያድርጉ እና ይህን ኮድ ያክሉ:
+\--- task \--- Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 
@@ -57,7 +62,7 @@
 ማሰራጫ (ሰማያዊ)
 ```
 
-ከዚያ በእርሳስ ስክሪን ላይ ጠቅ ያድርጉ እና ይህንን ኮድ ያክሉ: ![እርሳስ](images/pencil.png)
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
 
 ```blocks3
 (ሰማያዊ ቫል)
@@ -65,11 +70,11 @@
 ሲደጎስ [
 ```
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \--- በመጨረሻም, ይህ ኮድ የሚጀምረው በየትኛው ቀለም ለመጀመር እንዳለበት, እና ፕሮግራሙ በሚጀመርበት ጊዜ ማያ ገጹ ግልጽ መሆኑን ያረጋግጡ.
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![እርሳስ](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 ባንዲራ ጠቅ ጊዜ
@@ -85,10 +90,10 @@
 መጨረሻ
 ```
 
-\--- / task \---
+\--- /task \---
 
-ከፈለክ, በተለየ የቀለም እርሳስ መጀመር ትችላለህ.
+If you prefer, you can start with a different colour pencil.
 
-\--- ተግባር \--- ኮድዎን ይፈትሹ. በሰማያዊ እና አረንጓዴ እርሳስ ቀለሞች መካከል ሰማያዊ ወይም አረንጓዴ ስኩዊት ስፒሪኖችን ጠቅ በማድረግ መቀያየር ትችላለህ?
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-pens-test.png) \--- / task \---
+![screenshot](images/paint-pens-test.png) \--- /task \---
