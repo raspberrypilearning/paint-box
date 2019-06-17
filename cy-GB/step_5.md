@@ -13,8 +13,8 @@ Weithiau mae camgymeriadau'n digwydd, felly ychwanega fotwm 'clirio' a botwm dil
 ![croes](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+pan gaiff y ciplun yma ei glicio
+dileu popeth
 ```
 
 \--- /task \---
@@ -36,8 +36,8 @@ Mae dy brosiect hefyd yn cynnwys corlun dileuwr ar wahân.
 ![dileuwr](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+pan gaiff y ciplun yma ei glicio
+darlledu (eraser v)
 ```
 
 \--- /task \---
@@ -49,18 +49,19 @@ Pan fo'r corlun pensil yn derbyn neges 'dileuwr', fe ddylai newid gwisg i'r dile
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+gosod lliw pin i [#FFFFFF]
 
-switch costume to (eraser v)
+pan rwy'n derbyn [eraser v]
+
+newid gwisg i (eraser v)
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut dylai dy gôd edrych: ![pensil](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+pan rwy'n derbyn [eraser v]
+newid gwisg i (eraser v)
+gosod lliw pin i [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -78,16 +79,17 @@ Mae un problem arall gyda'r pensil: rwyt ti'n gallu tynnu llun unrhywle ar y Llw
 ![pensil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+pan fo'r flag werdd yn cael ei glicio
+dileu popeth
+newid gwisg i (pencil-glas v)
+gosod lliw pin i [#0035FF]
+am byth 
+  mynd i (mouse pointer v)
+  + os <<llygoden i lawr?> a <(llygoden y) > [-120]>> yna 
+      pin i lawr
+    fel arall 
+      pin i fyny
+    end
 end
 ```
 
