@@ -9,17 +9,18 @@ Rwyt ti nawr am ychwanegu côd i ganiatâu'r defnyddiwr i dynnu llun yn defnyddi
 \--- task \--- Ychwanega'r llinell hon **tu fewn** dolen `am byth`{:class="block3control"} côd corlun y pensil:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+pan fo'r flag werdd yn cael ei glicio
+dileu popeth
+newid gwisg i (pencil-glas v)
+gosod lliw pin i [#0035FF]
+am byth 
+  mynd i (mouse pointer v)
+  + gosod maint pin i (lled :: variables)
+  os <<llygoden i lawr?> a <(llygoden y) > [-120]>> yna 
+    pin i lawr
+  fel arall 
+    pin i fyny
+  end
 end
 ```
 
