@@ -27,9 +27,9 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## title: Lo que vas a aprender
 
-+ Cómo utilizar la extensión de marcador en Scratch
-+ Cómo utilizar los enunciados para comunicar entre objetos
-+ Cómo detectar los movimientos del ratón \--- /collapse \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
