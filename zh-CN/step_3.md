@@ -2,13 +2,17 @@
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+
+![rename-pencil](images/rename-pencil.png) \--- /task \---
+
+\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
 ![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
 \--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-![截屏](images/paint-pencil-green.png)
+![screenshot](images/paint-pencil-green.png)
 
 \--- /task \---
 
