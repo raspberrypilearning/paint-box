@@ -27,9 +27,9 @@
 
 ## title: Шта ћеш научити
 
-+ Како користити проширење Оловка у Скречу
-+ Како користити разгласе за комуникацију између ликова
-+ Како открити догађаје миша \--- /collapse \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
