@@ -27,9 +27,9 @@ Tee oma värviprogramm!
 
 ## pealkiri: Mida sa õpid
 
-+ Kuidas kasutada Pen-laiendit Scratch'is
-+ Kuidas kasutada ülekandeid spritide vahelises suhtluses
-+ Kuidas avastada hiire sündmusi \--- / kollaps \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- kollaps \---
 
