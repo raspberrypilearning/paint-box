@@ -6,6 +6,8 @@ Start by making a pencil that you can use to draw on the Stage.
 
 **Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
+If you have a Scratch account you can make a copy by clicking **Remix**.
+
 **Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
@@ -59,7 +61,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Možeš li da crtaš svojom olovkom?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
@@ -73,7 +75,7 @@ Click on the pencil sprite, and then click on the **Costumes** tab.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Centar kostima](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
