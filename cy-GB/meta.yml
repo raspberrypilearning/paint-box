@@ -24,4 +24,6 @@ steps:
     title: 'Her: Mwy o bensiliau'
     challenge: true
   - 
-    title: 'Beth nesaf?'
+    title: Test yourself
+  - 
+    title: 'What next?'
