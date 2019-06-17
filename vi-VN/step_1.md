@@ -27,9 +27,9 @@ Làm chương trình sơn của riêng bạn!
 
 ## tiêu đề: bạn sẽ học được gì
 
-+ Cách sử dụng tiện ích mở rộng Bút trong Scratch
-+ Làm thế nào để sử dụng chương trình phát sóng để giao tiếp giữa các sprite
-+ Cách phát hiện sự kiện chuột \--- / sụp đổ \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- sự sụp đổ \---
 
