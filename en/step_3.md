@@ -6,6 +6,8 @@ Now you're going to add different coloured pencils to your project and allow the
 Rename the `pencil` sprite to `pencil-blue`
 
 ![rename-pencil](images/rename-pencil.png)
+--- /task ---
+
 --- task ---
 Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
 
