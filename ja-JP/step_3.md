@@ -2,42 +2,46 @@
 
 今度はあなたのプロジェクトに異なった色鉛筆を加え、ユーザーがそれらの間で選ぶことを可能にすることになっています。
 
-\--- task \--- 鉛筆のスプライトをクリックし、 **Costumes**クリックして、 'pencil-blue'の衣装を複製します
+\--- task \--- Rename the `pencil` sprite to `pencil-blue`
 
-![スクリーンショット](images/paint-blue-duplicate.png) \--- /task \---
+![rename-pencil](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- 新しい衣装に 'pencil-green'という名前を付け、鉛筆に緑色の色を付けます。
+\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- 2つの新しいスプライトを描きます。1つは青い正方形、もう1つは緑色の正方形です。 これらは青と緑の鉛筆の間で選択するためのものです。
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![スクリーンショット](images/paint-selectors.png) \--- /task \---
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- 新しいスプライトの名前を 'blue'と 'green'に変更します。
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\---タスク\--- 「グリーン」スプライトにいくつかのコードを追加するように、このスプライトは、クリックされたとき、それは `ブロードキャスト`{：クラス=「block3events」}メッセージ「グリーン」。
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![緑の広場](images/green_square.png)
+![green square](images/green_square.png)
 
 ```blocks3
 このスプライトが
 ブロードキャストをクリックしたとき（緑色のv）
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- / task \---
+[[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-鉛筆のスプライトは「緑色」のメッセージを聞き取り、それに応じて衣装と鉛筆の色を変更する必要があります。
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-\--- task \--- 鉛筆のスプライトに切り替えます。 このスプライトが `green`{：class = "block3events"}ブロードキャストを受信したときに緑色の鉛筆コスチュームに切り替えて、ペンの色を緑色に変更するようにコードを追加します。
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![鉛筆](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 [green v]を受け取ったとき
@@ -45,11 +49,11 @@
 ペン色を[＃00CC44]に設定
 ```
 
-鉛筆を緑色に設定するには、 `set pen color`{：class = "block3extensions"}ブロック内の色付きの四角形をクリックしてから、緑色の四角形のスプライトをクリックします。 \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
 
-あなたは鉛筆の色を青に切り替えることができるようにそれから同様のことに。
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-\--- task \--- 青い四角のスプライトをクリックして次のコードを追加：
+\--- task \--- Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 
@@ -58,7 +62,7 @@
 ブロードキャストをクリックしたとき（青v）
 ```
 
-次に、鉛筆のスプライトをクリックして、次のコードを追加してください ![鉛筆](images/pencil.png)
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
 
 ```blocks3
 [blue v]を受け取ったとき
@@ -68,9 +72,9 @@
 
 \--- /task \---
 
-\--- task \--- 最後に、このコードを追加して、どの色から始めるかを鉛筆のスプライトに指示し、プログラムの起動時に画面が明確になるようにします。
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![鉛筆](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 フラグがクリックされたときに
@@ -88,8 +92,8 @@
 
 \--- /task \---
 
-あなたが好めば、あなたは別の色鉛筆から始めることができます。
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- コードをテストしてください。 青または緑の正方形のスプライトをクリックして、青と緑の鉛筆色を切り替えることができますか。
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![スクリーンショット](images/paint-pens-test.png) \--- /task \---
+![screenshot](images/paint-pens-test.png) \--- /task \---
