@@ -24,4 +24,6 @@ steps:
     title: '課題：もっと鉛筆'
     challenge: true
   - 
-    title: '次は何をしますか？'
+    title: Test yourself
+  - 
+    title: 'What next?'
