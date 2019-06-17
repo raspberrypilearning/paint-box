@@ -24,4 +24,6 @@ steps:
     title: '--- /challenge ---'
     challenge: true
   - 
-    title: 'Desafio: Criar mais blocos'
+    title: Test yourself
+  - 
+    title: 'What next?'
