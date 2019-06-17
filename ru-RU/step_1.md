@@ -27,9 +27,9 @@
 
 ## title: Что вы выучите
 
-+ Как использовать расширение Pen в Scratch
-+ Как использовать трансляции для общения между спрайтами
-+ Как обнаружить события мыши \--- / свернуть \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- свернуть \---
 
