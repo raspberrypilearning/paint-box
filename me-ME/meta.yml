@@ -24,4 +24,6 @@ steps:
     title: 'Izazov: više olovaka'
     challenge: true
   - 
-    title: 'Izazov: pravljenje više blokova'
+    title: 'Izazov: više olovaka'
+  - 
+    title: 'What next?'
