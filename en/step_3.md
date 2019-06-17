@@ -9,7 +9,7 @@ Rename the `pencil` sprite to `pencil-blue`
 --- /task ---
 
 --- task ---
-Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
 ![screenshot](images/paint-blue-duplicate.png)
 --- /task ---
