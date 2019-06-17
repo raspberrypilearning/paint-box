@@ -27,9 +27,9 @@ Gwna dy raglen peintio dy hunan!
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
-+ Sut i ddefnyddio'r estyniad Pen yn Scratch
-+ Sut i ddefnyddio darllediadau i gyfathrebu rhwng corluniau
-+ Sut i ganfod digwyddiadau llygoden \--- /collapse \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \---collapse\---
 
