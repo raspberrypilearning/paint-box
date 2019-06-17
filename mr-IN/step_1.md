@@ -27,9 +27,9 @@
 
 ## शीर्षकः आपण काय शिकलात
 
-+ स्क्रॅचमध्ये पेन विस्तार कसे वापरावे
-+ स्पिट्ज दरम्यान संवाद करण्यासाठी ब्रॉडकास्ट कसे वापरावे
-+ कसे माऊस घटना शोधण्यात \--- / संकुचित \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- पडणे \---
 
