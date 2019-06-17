@@ -6,17 +6,19 @@
 
 **オンライン**： [スタータープロジェクトを開くrpf.io/paint-box-on](http://rpf.io/paint-box-on){：target = "_ blank"}
 
-**オフライン**：オフラインエディタで [スタータープロジェクト](http://rpf.io/p/en/paint-box-go){：target = "_ blank"}を開きます。
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、 [検索できます。rpf.io/scratchoff](http://rpf.io/scratchoff){：target = "_ blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-スタータープロジェクトでは、鉛筆と消しゴムのスプライトが表示されます。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![スクリーンショット](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-プロジェクトにペン拡張機能を追加します。
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,28 +26,29 @@ Scratchオフラインエディタをダウンロードしてインストール�
 
 \--- task \---
 
-描画できるように、コードを鉛筆のスプライトに追加して、スプライトがマウスポインタ `永遠に`追従するようにします` {：class = "block3control"}</p>
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-<p><img src="images/pencil.png" alt="鉛筆" /></p>
+![pencil](images/pencil.png)
 
-<pre><code class="blocks3">フラグが永遠に
+```blocks3
+フラグが永遠に
 クリックしたとき
   （マウスポインタv）
 端に移動
-`</pre> 
+```
 
 \--- /task \---
 
-\--- task \--- フラグをクリックし、ステージ上でマウスポインタを動かしてコードが機能するかどうかをテストします。 \--- /task \---
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-次に、</code>{：class = "block3control"}マウスボタンがクリックされている場合にのみ鉛筆に `描画させます。</p>
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-<p>--- task ---
-このコードを鉛筆のスプライトに追加してください：</p>
+\--- task \--- Add this code to your pencil sprite:
 
-<p><img src="images/pencil.png" alt="鉛筆" /></p>
+![pencil](images/pencil.png)
 
-<pre><code class="blocks3">フラグがいつまでも
+```blocks3
+フラグがいつまでも
 クリックしたとき
   （マウスポインタv）
 
@@ -54,26 +57,26 @@ Scratchオフラインエディタをダウンロードしてインストール�
   それ以外
   上、
 
-`</pre> 
+```
 
 \--- /task \---
 
-\--- task \--- もう一度コードをテストしてください。 今度は、ステージ上で鉛筆を動かし、マウスボタンを押したままにします。 うまく絵がかけましたか？
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![スクリーンショット](images/paint-draw.png) \--- /task \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title：鉛筆は先端から引いていませんか
 
-鉛筆で描いた線が鉛筆の中央から来ているように見える場合は、ペン先のスプライトを変更して、先端がスプライトの中心になるようにする必要があります。
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-鉛筆のスプライトをクリックしてから、 **Costumes** タブをクリックします。
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-鉛筆の先が中心の</strong> の真上の **になるように衣装を動かします。</p> 
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![コスチュームセンター](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-次にステージ上で鉛筆を動かして描画します。 鉛筆はその先端から線を引くはずです。
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
