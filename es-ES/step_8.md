@@ -1,18 +1,20 @@
---- challenge ---
+## Reto: Otro disfraz
 
-## Desafío: más colores
+Ahora que has completado el proyecto 'Caja de lápices', trata[con el proyecto 'Carrera de barcos'](https://projects.raspberrypi.org/es-ES/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), que te ayuda a armar un juego donde tienes que pilotar un barco y esquivar obstáculos.
 
-¿Puedes añadir los colores rojo, amarillo y negro a tu programa para dibujar? Mira el paso 2 anterior si has olvidado cómo hacerlo. Recuerda añadir atajos de teclado para estos nuevos colores también.
+--- no-print ---
 
-¿Puedes usar tus nuevos colores para hacer un dibujo?
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/boat_race_demo.png">
+</div>
 
-![Captura de pantalla](images/paint-final.png)
+--- /no-print ---
 
---- /challenge ---
+--- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
 
-***
-### Traducción aportada por la comunidad 
+Traducción aportada por la comunidad
 
-Este proyecto fue traducido por **María Alejandra Aguada, Montse Verdaguer & Helmut Schlimper** y revisado por **Pablo Collado**. 
+Este proyecto fue traducido por Helmut Schlimper y revisado por Pablo Collado.
 
 Nuestros increíbles voluntarios de traducción nos ayudan a dar a los niños de todo el mundo la oportunidad de aprender a programar. Puedes ayudarnos a llegar a más niños traduciendo nuestros proyectos. Consigue más información en [rpf.io/translators](https://rpf.io/translators).

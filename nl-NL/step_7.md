@@ -1,14 +1,10 @@
---- challenge ---
+## Uitdaging: toetsenbord opdrachten
 
-## Uitdaging: snelkoppelingen
+Kun je code toevoegen zodat je, in plaats van te klikken op de gekleurde vierkanten of knoppen in het speelveld, dingen kunt laten gebeuren door op een toetsenbord toets te drukken? Bijvoorbeeld:
 
-Kun je sneltoetsen maken voor je commando's? Bijvoorbeeld:
++ <kbd>b</kbd> = Overschakelen naar het blauwe potlood
++ <kbd>g</kbd> = Overschakelen naar het groene potlood
++ <kbd>e</kbd> = overschakelen de gum
++ <kbd>c</kbd> = wis scherm
 
-+ b = Overschakelen naar blauwe pen
-+ g = Overschakelen naar groene pen
-+ e = overschakelen naar gum
-+ w = wis alles
-
-Je kunt zelfs instellen dat de gebruiker de penbreedte wijzigt met de pijltjestoetsen.
-
---- /challenge ---
+Als je wilt, kunt je ook code toevoegen, zodat het indrukken van de pijltjestoetsen de penbreedte verandert.

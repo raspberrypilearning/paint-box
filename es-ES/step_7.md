@@ -1,14 +1,10 @@
---- challenge ---
+## Desafío: comandos para teclado
 
-## Desafío: atajos de teclado
+¿Puedes añadir código de manera que, en lugar de hacer clic en los cuadrados de color o los botones en el Escenario, puedas hacer que sucedan cosas al presionar teclas del teclado? Por ejemplo:
 
-¿Puedes crear un atajo de teclado para tus comandos? Por ejemplo:
++ <kbd>b</kbd> = cambia a lápiz azul
++ <kbd>g</kbd> = cambia a lápiz verde
++ <kbd>e</kbd> = cambia a borrador
++ <kbd>c</kbd> = limpiar pantalla
 
-+ a = Cambiar al lápiz azul
-+ v = Cambiar al lápiz verde
-+ g = Cambiar a la goma de borrar
-+ c = limpiar la pantalla
-
-Puedes incluso permitir al usuario cambiar el ancho del lápiz con las flechas del teclado.
-
---- /challenge ---
+Si quieres, puedes añadir código también para que al presionar las teclas de las flechas cambien al ancho del marcador.

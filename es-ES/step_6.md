@@ -1,33 +1,40 @@
-## Cambiamos el grosor del lápiz
+## Cambiar el ancho del marcador
 
-Vamos a permitir al usuario dibujar usando diferentes tamaños de lápiz.
+Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores de marcador.
 
-+ Primero añade una nueva variable llamada `ancho`{:class="blockvariable"}.
+--- task --- Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] --- /task ---
 
-+ Añade esta linea *dentro* del bucle `por siempre`{:class="blockcontrol"} del código del lápiz:
+--- task --- Añade esta línea **dentro** del bucle `forever`{:class="block3control"} del código del objeto lápiz:
 
-```blocks
-    fijar tamaño de lápiz a (ancho)
+```blocks3
+cuando se hace clic en la bandera
+borrar todo
+cambiar disfraz a (lápiz-azul v)
+fijar color de marcador a [#0035FF]
+siempre
+ir a (cursor del ratón v)
++ fijar grosor del marcador a (ancho:: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then
+marcador abajo
+o
+marcador arriba
+fin
 ```
 
-La anchura del lápiz se establecerá ahora con el valor de la variable 'ancho'.
+--- /task ---
 
-+ Haz clic con el botón derecho en la esquina del escenario donde aparece la variable y haz clic en 'deslizador'.
+El ancho del marcador ahora se vuelve repetidamente del valor de la variable `ancho`{:class="block3variables"}.
 
-![Captura de pantalla](images/paint-slider.png)
+--- task --- Haz clic a la derecha de la variable `ancho`{:class="block3variables"} que se muestra en el Escenario, y luego haz clic en **deslizador**.
 
-Ahora puedes arrastrar el deslizador debajo de la variable para cambiar su valor.
+![screenshot](images/paint-slider.png) --- /task ---
 
-![Captura de pantalla](images/paint-slider-change.png)
+Ahora puedes arrastrar el deslizador que se ve debajo de la variable para cambiar el valor de la misma.
 
-+ Prueba tu proyecto y comprueba si puedes modificar el ancho del lápiz.
+![screenshot](images/paint-slider-change.png)
 
-![Captura de pantalla](images/paint-width-test.png)
+--- task --- Prueba tu proyecto y mira si puedes añadir código para ajustar el ancho del marcador.
 
-Si lo prefieres puedes fijar el valor mínimo y máximo permitido de 'ancho'. Para conseguirlo, vuelve a hacer clic con el botón derecho en la variable y luego haz clic en "Fijar rango del deslizador". Fija el valor mínimo y máximo de tu variable a algo más normal, como 1 y 20.
-
-![Captura de pantalla](images/paint-slider-max.png)
-
-Sigue probando tu variable 'ancho' hasta dejarlo como tu quieras.
+![screenshot](images/paint-width-test.png) --- /task ---

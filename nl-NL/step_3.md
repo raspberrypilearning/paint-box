@@ -1,44 +1,95 @@
-## Een potlood maken
+## Kleurpotloden
 
-Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op het speelveld te tekenen.
+Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de mogelijkheid geven om een kleur te kiezen.
 
-+ Open het 'Paintbox' Scratch-project online op [jumpto.cc/paint-go-nl-NL](https://scratch.mit.edu/projects/227795336/#editor){:target="_blank"} of download van [http://jumpto.cc/paint-get-nl-NL](https://github.com/raspberrypilearning/paint-box/raw/master/nl-NL/resources/PaintBox.sb2){:target="_blank"} en open het als je de offline-editor gebruikt.
+--- task --- Klik op de potloodsprite, klik op **Uiterlijken** en dupliceer het 'potlood-blauw' uiterlijk.
 
-Je zult potlood- en gumsprites zien:
+![screenshot](images/paint-blue-duplicate.png) --- /task ---
 
-![screenshot](images/paint-starter.png)
+--- task --- Hernoem je nieuwe kostuum 'potlood-groen' en kleur het potlood groen.
 
-+ Voeg wat code toe aan de potloodsprite om ervoor te zorgen dat deze de muis altijd volgt met een `herhaal blok`{:class="blockcontrol"}, zodat je kunt tekenen:
+![screenshot](images/paint-pencil-green.png)
 
-```blocks
-    wanneer groene vlag wordt aangeklikt
-    herhaal 
-    ga naar [muisaanwijzer v]
-    einde
+--- /task ---
+
+--- task --- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn bedoeld om te kiezen tussen het blauwe en het groene potlood.
+
+![screenshot](images/paint-selectors.png) --- /task ---
+
+--- task --- Hernoem je sprites zodat ze 'blauw' en 'groen' heten
+
+[[[generic-scratch3-rename-sprite]]]
+
+--- /task ---
+
+--- task --- Voeg code toe aan de 'groene' sprite, zodat wanneer op de sprite wordt geklikt het een bericht `zend signaal`{:class="block3events"} "groen" geeft.
+
+![groen vierkant](images/green_square.png)
+
+```blocks3
+wanneer op deze sprite wordt geklikt
+zend signaal (groen v)
 ```
 
-+ Klik op de vlag en beweeg de muis over het werkgebied om te testen of de code werkt.
+[[[generic-scratch3-broadcast-message]]] --- /task ---
 
-Laat vervolgens je potlood alleen tekenen `als`{:class="blockcontrol"} er op de muis wordt geklikt.
+De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het uiterlijk en het potlood wijzigen in groen.
 
-+ Voeg deze code toe aan je potlood sprite:
+--- task --- Schakel over naar je potlood sprite. Voeg wat code toe zodat wanneer deze sprite het `groen` {:class="block3events"} signaal ontvangt, deze moet overschakelen naar het groene potlooduiterlijk en de potloodkleur moet veranderen in groen.
 
-![screenshot](images/paint-pencil-draw-code.png)
+![potlood](images/pencil.png)
 
-+ Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
+```blocks3
+wanneer ik signaal [groen v] ontvang
+verander uiterlijk naar (potlood-groen v)
+maak penkleur [#00CC44]
+```
 
-![screenshot](images/paint-draw.png)
+Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pen kleur`{:class="block3extensions"} blok, en klik dan op de groene vierkantsprite. --- /task ---
 
---- collapse ---
----
-title: Als je problemen hebt...
----
-Als je potlood de lijn lijkt te trekken vanuit het midden van het potlood in plaats vanuit de punt, moet je het centrum van je uiterlijk wijzigen.
+Doe vervolgend hetzelfde voor een potlood met de kleur blauw.
 
-![Costume center](images/costume-center.png)
+--- task --- Klik op de blauwe vierkantsprite en voeg deze code toe:
 
-Het draadkruis voor het potlood moet **net onder** de punt van het potlood worden geplaatst, niet op het puntje van het potlood.
+![blauw_vierkant](images/blue_square.png)
 
-Een wijziging in het 'uiterlijk-centrum' van een sprite wordt niet uitgevoerd totdat op een ander tabblad wordt geklikt, dus klik op een ander uiterlijk of op het tabblad 'Scripts' om de wijzigingen in het uiterlijk-centrum te voltooien.
+```blocks3
+wanneer op deze sprite wordt geklikt
+zend signaal (blauw v)
+```
 
---- /collapse ---
+Klik vervolgens op de potlood sprite en voeg deze code toe: ![potlood](images/pencil.png)
+
+```blocks3
+wanneer ik signaal [blauw v] ontvang
+verander uiterlijk naar (potlood-blauw v)
+maak penkleur [#0000ff]
+```
+
+--- /task ---
+
+--- task --- Voeg ten slotte deze code toe om de sprite van het potlood te vertellen met welke kleur deze moet te beginnen en om ervoor te zorgen dat het scherm leeg is wanneer je programma start.
+
+![potlood](images/pencil.png)
+
+```blocks3
+wanneer groene vlag wordt aangeklikt
++wis alles
++verander uiterlijk naar (potlood-blauw v)
++maak penkleur [#0035FF]
+herhaal
+ga naar (muisaanwijzer v)
+als <mouse down?> dan
+pen neer
+anders
+pen op
+end
+```
+
+--- /task ---
+
+Als je wilt, kunt je met een ander kleurpotlood beginnen.
+
+--- task --- Test your code. Kun je schakelen tussen het blauwe en groene potlood door op de blauwe of groene vierkant te klikken?
+
+![screenshot](images/paint-pens-test.png) --- /task ---

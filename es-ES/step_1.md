@@ -1,24 +1,61 @@
+--- no-print ---
+
+Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/es-ES/projects/paint-box-scratch2).
+
+--- /no-print ---
+
 ## Introducción
 
 ¡Haz tu propio programa de dibujo!
 
 ### Lo que harás
 
-Haz clic en la bandera verde para empezar. Usa el ratón para mover el lápiz y presiona el botón izquierdo del ratón para dibujar. Haz clic en un color para cambiar el color o haz clic en la goma para borrar. Para borrar la página haz clic en la equis.
+--- no-print --- Haz clic en la bandera verde para comenzar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón de la izquierda para dibujar. Haz clic en un color para cambiar de lápiz. Haz clic en el borrador para cambiar de función, y utilízalo para borrar lo que hayas hecho. Para limpiar la página, haz clic en la cruz.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/249777944/?autostart=false" frameborder="0"></iframe>
-  <img src="images/paint-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
 
-### Lo que aprenderás
+--- /no-print ---
 
-Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+--- print-only --- Harás clic en la bandera verde para comenzar, y utilizarás el ratón para mover el lápiz y mantener apretado el botón izquierdo para dibujar. Hacer clic en el color cambiará el color del lápiz, y haciendo clic en el borrador, ¡cambiará la función a borrador!
 
-+ [Combinar estructuras de programación básicas para resolver un problema](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+![ejemplo](images/showcase.png) --- /print-only ---
 
-### Información adicional para los educadores
+--- collapse ---
+---
+title: Lo que aprenderás
+---
 
-Si necesita/s imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/paint-box/print){:target="_blank"}.
++ Cómo utilizar la extensión de marcador en Scratch
++ Cómo utilizar los enunciados para comunicar entre objetos
++ Cómo detectar los movimientos del ratón --- /collapse ---
 
-Usa el enlace en el pie de página para acceder al repositorio de GitHub para este proyecto, que contiene todos los recursos (incluyendo un ejemplo del proyecto terminado) en la carpeta 'es-ES/resources'.
+--- collapse ---
+---
+title: Lo que necesitarás
+---
+
+### Hardware
+
++ Ordenador capaz de ejecutar Scratch 3
+
+### Software
+
++ Scratch 3 ([en línea](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff){:target="_blank"})
+
+### Descargas
+
++ [Offline starter project](http://rpf.io/p/es-ES/paint-box-go){:target="_blank"}
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Información adicional para educadores
+---
+
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/paint-box/print){:target="_blank"}.
+
+Puedes [encontrar la solución para este proyecto aquí](http://rpf.io/p/es-ES/paint-box-get){:target="_blank"}. --- /collapse ---

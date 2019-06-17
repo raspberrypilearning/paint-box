@@ -2,54 +2,104 @@
 
 Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
-+ Voeg de sprite 'X-block' toe - je vindt het in de bibliotheek, in het gedeelte met letters. Kleur het uiterlijk rood. Dit wordt de knop 'alles wissen'.
+--- task --- Voeg de sprite 'Block-X' toe uit de Letters-sectie in de bibliotheek. Kleur het sprite-uiterlijk rood en maak het een beetje kleiner. Dit wordt de knop 'wissen'.
 
-![screenshot](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Voeg code aan deze sprite toe om het speelveld te wissen als erop geklikt wordt.
+![screenshot](images/paint-x.png) --- /task ---
 
-![Clear stage](images/clear-stage.png)
+--- task --- Voeg code toe aan de 'Wissen' sprite om het speelveld te wissen wanneer op de sprite wordt geklikt.
 
-Merk op dat je geen bericht hoeft te sturen om het speelveld te wissen, je kunt gewoon het wis alles-blok voor deze sprite gebruiken.
+![kruis](images/cross.png)
 
-Je hebt waarschijnlijk gemerkt dat je potloodsprite een gum aan het uiteinde bevat:
+```blocks3
+wanneer op deze sprite wordt geklikt
+wis alles
+```
+
+--- /task ---
+
+Je hoeft geen `zend signaal`{:class="block3events"} te gebruiken om het speelveld te wissen, omdat het `wis alles`{:class="block3extensions"} blok dat werk doet.
+
+Zie je dat de potlood sprite een gum uiterlijk bevat?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Je project bevat ook een afzonderlijke gumsprite. Klik met de rechtermuisknop op deze sprite en kies 'verschijn'. Hier is hoe je speelveld eruit zou moeten zien:
+Je project bevat ook een afzonderlijke gumsprite.
 
-![screenshot](images/paint-eraser-stage.png)
+--- task --- Klik op de gum sprite en klik vervolgens op het oogje naast **Toon** om deze sprite weer te geven. Hier is hoe je speelveld eruit zou moeten zien:
 
-+ Voeg code toe aan de gumsprite om het potlood te laten overschakelen naar een gum wanneer op de sprite wordt geklikt.
+![screenshot](images/paint-eraser-stage.png) --- /task ---
 
-![Broadcast eraser](images/broadcast-eraser.png)
+--- task --- Voeg code toe aan de gum sprite om een `zend signaal`{:class="block3events"} 'gum' te verzenden wanneer op de gum sprite wordt geklikt.
 
-Wanneer het potlood de "gum"-boodschap ontvangt, kunt je het potloodkostuum in de gum veranderen en de potloodkleur in wit veranderen - dezelfde kleur als het podium!
+![gum](images/eraser.png)
 
-+ Voeg een code toe om de gum te maken
+```blocks3
+wanneer op deze sprite wordt geklikt
+zend signaal (gum v)
+```
 
---- hints --- --- hint --- Voeg deze code toe aan de potloodsprite: **wanneer ik signaal** **gum ontvang** **verander uiterlijk naar** gum **maak penkleur** wit --- /hint --- --- hint --- Zo zou je code in de potloodsprite eruit moet zien:
+--- /task ---
 
-```blocks
-wanneer ik signaal [gum] ontvang
-verander uiterlijk naar [gum]
+Wanneer het potlood de "gum"-boodschap ontvangt, zou het potlood uiterlijk in de gum moeten veranderen en de potloodkleur in wit moeten veranderen - dezelfde kleur als de achtergrond van het speelveld!
+
+--- task --- Voeg code toe om de gum te maken.
+
+--- hints ---
+ --- hint --- Voeg wat code toe aan de potlood sprite: `Wanneer ik als signaal ontvang`{:class="block3events"} het `gum`{:class="block3events"} bericht `Verander uiterlijk naar gum`{:class="block3looks"} `Maak penkleur`{:class="block3extensions"} wit
+--- /hint ---
+ --- hint --- Hier zijn alle blokken die je nodig hebt:
+
+```blocks3
+maak penkleur [#FFFFFF]
+wanneer ik signaal [gum v] ontvang
+
+verander uiterlijk naar (gum v)
+```
+
+--- /hint --- 
+--- hint --- 
+Hier is hoe je code eruit zou moeten zien: ![potlood](images/pencil.png)
+
+```blocks3
+wanneer ik signaal [gum v] ontvang
+verander uiterlijk naar (gum v)
 maak penkleur [#FFFFFF]
 ```
 
---- /hint --- --- /hints ---
+--- /hint ---
+--- /hints --- 
+--- /task ---
 
-+ Test je project, om te zien of je kunt wissen en het hele speelveld kan wissen.
+--- task --- Test je project om te zien of je het speelveld kunt wissen en potloodlijnen kunt wissen.
 
-![screenshot](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png) --- /task ---
 
-Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, ook in de buurt van de kleur selectie-pictogrammen!
+Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, ook in de buurt van de selectie-pictogrammen voor kleur, wis en gum!
 
 ![screenshot](images/paint-draw-problem.png)
 
-Om dit te verhelpen, vertel het potlood alleen om te tekenen als op de muis wordt geklikt *en* als de y-positie van de muis groter is dan -120:
+--- task --- Om dit te verhelpen, wijzig je de code zodat de pen alleen naar beneden is (neer) als je op de muis **klikt** en de `y` positie van de muisaanwijzer groter is dan `-120`:
 
-![screenshot](images/pencil-gt-code.png)
+![potlood](images/pencil.png)
 
-+ Test je project; je zou nu niet in staat moeten zijn om in de buurt van de kleur selectie-blokken te tekenen.
+```blocks3
+wanneer groene vlag wordt aangeklikt
+wis alles
+verander uiterlijk naar (potlood-blauw v)
+maak penkleur [#0035FF]
+herhaal
+ ga naar (muisaanwijzer v)
++if <<mouse down?> en <(mouse y) > [-120]>> then 
+pen neer
+anders
+pen op
+end
+```
 
-![screenshot](images/paint-fixed.png)
+--- /task ---
+
+--- task --- Test je project. Je moet nu niet in staat zijn om te tekenen in de buurt van de knoppen.
+
+![screenshot](images/paint-fixed.png) --- /task ---
