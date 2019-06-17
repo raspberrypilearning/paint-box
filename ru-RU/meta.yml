@@ -24,4 +24,6 @@ steps:
     title: 'Задача: больше карандашей'
     challenge: true
   - 
-    title: 'Что дальше?'
+    title: Test yourself
+  - 
+    title: 'What next?'
