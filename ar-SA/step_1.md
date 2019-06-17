@@ -27,9 +27,9 @@
 
 ## title: ما الذي ستتعلمه
 
-+ كيفية استخدام ملحق القلم في Scratch
-+ كيفية استخدام البث للتواصل بين الكائنات
-+ كيفية التعرف على حالات الماوس \--- /collapse \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
