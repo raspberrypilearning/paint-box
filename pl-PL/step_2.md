@@ -6,13 +6,15 @@ Start by making a pencil that you can use to draw on the Stage.
 
 **Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: otwórz projekt początkowy [ ](http://rpf.io/p/en/paint-box-go) {:target="_ blank"} w edytorze offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
 In the starter project, you should see pencil and eraser sprites:
 
-![zrzut ekranu](images/paint-starter.png) \--- /task \---
+![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -26,7 +28,7 @@ Add the Pen extension to your project.
 
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![ołówek](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 po kliknięciu flagi
@@ -43,7 +45,7 @@ Next, make your pencil only draw `if`{:class="block3control"} the mouse button i
 
 \--- task \--- Add this code to your pencil sprite:
 
-![ołówek](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -59,9 +61,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Czy potrafisz rysować Twoim ołówkiem?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![zrzut ekranu](images/paint-draw.png) \--- /task \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
@@ -75,6 +77,6 @@ Move the costume's so the tip of the pencil is **just above** the centre.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Teraz przesuń ołówek na stole montażowym i rysuj. The pencil should now draw a line from its tip.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
