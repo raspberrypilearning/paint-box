@@ -27,9 +27,9 @@
 
 ## title: 学習すること
 
-+ ScratchでPen拡張機能を使用する方法
-+ ブロードキャストを使用してスプライト間で通信する方法
-+ マウスイベントを検出する方法 \--- / collapse \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
