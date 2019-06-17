@@ -6,27 +6,29 @@ Alustage pliiatsi tegemisest, mida saate kasutada etapis.
 
 **Online**: avab starteri projekti aadressil [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-**Offline**: avage [starteri projekt](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} offline redaktoris.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Kui teil on vaja alla laadida ja installida Scratch offline redaktor, leiad selle aadressil [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Starteriprojektis peaksite nägema pliiatsit ja kustutusseadet:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![ekraanipilt](images/paint-starter.png) \--- / ülesanne \---
+In the starter project, you should see pencil and eraser sprites:
 
-\--- ülesanne \---
+![screenshot](images/paint-starter.png) \--- /task \---
 
-Lisage oma projektile pliiatsi laiendus.
+\--- task \---
+
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \---
+\--- task \---
 
-Lisage pliiatsile mõned koodid, et teha sprite järgige hiirekursorit `igavesti`{: class = "block3control"}, et saaksite joonistada:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![pliiats](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 kui lipp klõpsas
@@ -35,15 +37,15 @@ igavesti
 lõppu
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne - Klõpsake lippu ja seejärel liigutage hiirekursorit lava ümber, et kontrollida, kas kood toimib. \--- / ülesanne \---
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-Järgmisena tehke pliiats ainult juhtida `kui`{: class = "block3control"} hiirenuppu klikitakse.
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-\--- ülesanne \--- Lisage see kood pliiatsipildile:
+\--- task \--- Add this code to your pencil sprite:
 
-![pliiats](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 kui lipp klõpsas
@@ -57,24 +59,24 @@ igavesti
 lõppu
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- ülesanne \--- Testige oma koodi uuesti. Seekord liigutage pliiatsit lava ümber ja hoidke hiire nuppu all. Kas saate oma pliiatsiga joonistada?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![ekraanipilt](images/paint-draw.png) \--- / ülesanne \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- kollaps \---
 
 ## pealkiri: Kas teie pliiats ei tõmba oma otsast?
 
-Kui joon, mille sinu pliiats tõmbab, näeb välja nagu see on pliiatsikeskme keskelt, tuleb muuta oma pliiatsitõkke, nii et ots on sprite keskus.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Klõpsake pliiatsilõõtsale ja seejärel klõpsake vahekaardil **Kostüümid**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Liiguta kostüümi nii, et pliiatsipeal on **on keskelt üle**.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Kostüümikeskus](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Nüüd liigutage pliiats ümber laval ja joonistage. Pliiats peaks joonistama joone otsast.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
-\--- / kollaps \---
+\--- /collapse \---
