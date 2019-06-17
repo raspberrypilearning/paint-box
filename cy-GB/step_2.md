@@ -6,17 +6,19 @@ Fe wnawn ni ddechrau trwy greu pensil mae modd ei ddefnyddio i arlunio ar y llwy
 
 **Arlein:** agora brosiect Scratch newydd yma [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-** All-lein **: agor y prosiect cychwynnol [ ](http://rpf.io/p/en/paint-box-go) {: target = "_ wag"} yn y golygydd all-lein.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Yn y prosiect cychwynnol, fe ddylet ti weld corlun pensil a dileuwr:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![sgrinlun](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Ychwanega'r estyniad Pen i dy brosiect.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,57 +26,57 @@ Ychwanega'r estyniad Pen i dy brosiect.
 
 \--- task \---
 
-Ychwanega gôd i gorlun dy bensil i wneud i'r corlun ddilyn y llygoden `am byth`{:class="block3control"} fel dy fod yn gallu tynnu llun:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![pensil](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  mynd i (mouse pointer v)
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Clicia'r faner a symud y llygoden o gwmpas y Llwyfan i brofi os yw dy gôd yn gweithio. \--- /task \---
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-Gwna dy bensil i dynnu llun `os`{:class="block3control"} yw'r llygoden yn cael ei chlicio.
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-\--- task \--- Ychwanega'r côd yma i gorlun dy bensil:
+\--- task \--- Add this code to your pencil sprite:
 
-![pensil](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  mynd i (mouse pointer v)
+  + os <llygoden i lawr?> yna 
+     pin i lawr
+     fel arall 
+      pin i fyny
+    end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Profa dy gôd eto. Y tro hwn, symud y pensil o gwmpas y Llwyfan a dal botwm y llygoden. Wyt ti'n gallu tynnu llun gyda dy bensil?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![sgrinlun](images/paint-draw.png) \--- /task \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \---collapse\---
 
 ## title: Ydy dy bensil yn tynnu llun o flaen y pensil?
 
-Os yw'r llinell mae dy bensil yn tynnu yn edrych fel ei fod yn dod o ganol y pensil, mae angen iti newid corlun y pensil fel mai'r blaen yw canol dy gorlun.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Clicia corlun dy bensil yna clicia tab **Gwisgoedd**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Symuda'r wisg fel fod blaen y pensil **uwchben** y canol.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Canolfan wisgoedd](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Symuda'r pensil o gwmpas y Llwyfan i dynnu llun. Fe ddylai'r pensil nawr dynnu llun o'i flaen.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
