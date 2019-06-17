@@ -27,9 +27,9 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## title: Τι θα μάθεις
 
-+ How to use the Pen extension in Scratch
-+ How to use broadcasts to communicate between sprites
-+ How to detect mouse events \--- /collapse \---
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
++ Recall how to respond to mouse events in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
