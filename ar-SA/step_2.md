@@ -6,17 +6,19 @@
 
 **بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**دون اتصال بالانترنت**: افتح [المشروع المبدئي](http://rpf.io/p/en/paint-box-go){:target="_blank"} عبر المحرر الموجود على جهازك.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-اذا كنت تحتاج تنزيل و تركيب محرر Scratch للعمل دون اتصال بالانترنت, فيمكنك ايجاده على الرابط [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-في المشروع المبدئي، سترى كائنات القلم الرصاص و الممحاة:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![لقطة الشاشة](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-أضف ملحق القلم لمشروعك.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,9 +26,9 @@
 
 \--- task \---
 
-أضف بعض التعليمات البرمجية لكائن القلم الرصاص لجعله يتبع مؤشر الماوس `باستمرار`{:class="block3control"} حتى يمكنك الرسم:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![قلم رصاص](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 عند نقر ⚑ :: events
@@ -37,13 +39,13 @@ end
 
 \--- /task \---
 
-\--- task \--- لتختبر هذه التعليمة البرمجية انقر على العلم الأخضر ثم حرك مؤشر الفأرة فوق منصة العمل. \--- /task \---
+\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-بعد ذلك، اجعل قلم الرصاص يرسم فقط `إذا`{:class="blockcontrol"} تم النقر فوق زر الماوس.
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-\--- task \--- أضف هذه التعليمة البرمجية إلى كائن قلم الرصاص:
+\--- task \--- Add this code to your pencil sprite:
 
-![قلم رصاص](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 عند نقر ⚑ :: events
@@ -59,22 +61,22 @@ end
 
 \--- /task \---
 
-\--- task \--- اختبر تعليماتك البرمجية مرة آخرى. هذه المرة ، حرِّك القلم الرصاص فوق منصة العمل و اضغط باستمرار على زر الماوس. هل يمكنك الرسم بقلم الرصاص؟
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![لقطة الشاشة](images/paint-draw.png) \--- /task \---
+![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title: هل قلمك الرصاص لا يرسم من طرفه ؟
 
-اذا كان الخط الذي يرسمه القلم الرصاص يبدو و كأنه يأتي من منتصف القلم، فيجب عليك تغيير كائن القلم بحيث يبدأ الرسم من طرف القلم الخاص بالكتابة.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-لعمل ذلك انقر على كائن القلم, بعد ذلك انقر على علامة التبويب **المظاهر**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-حرك مظهر القلم بحيث يصبح طرف القلم **تماماً فوق** نقطة المركز و هي دائرة رمادية موجودة بالقرب من المظهر.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![مركز المظهر](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-الآن حرك قلم الرصاص على منصة العمل و ارسم. يجب على القلم الآن أن يرسم خطاً من طرفه.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
