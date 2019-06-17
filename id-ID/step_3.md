@@ -2,7 +2,11 @@
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
-\--- task \--- Click on the pencil sprite, click on **Costumes**, and duplicate the 'pencil-blue' costume.
+\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+
+![rename-pencil](images/rename-pencil.png) \--- /task \---
+
+\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
 ![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
@@ -10,17 +14,17 @@ Now you're going to add different coloured pencils to your project and allow the
 
 ![screenshot](images/paint-pencil-green.png)
 
-\--- /task \---
+\--- /tugas \---
 
 \--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![screenshot](images/paint-selectors.png) \--- /tugas \---
+![screenshot](images/paint-selectors.png) \--- /task \---
 
 \--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /tugas \---
+\--- /task \---
 
 \--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
@@ -86,10 +90,10 @@ if <mouse down?> then
 end
 ```
 
-\--- /tugas \---
+\--- /task \---
 
 If you prefer, you can start with a different colour pencil.
 
 \--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![screenshot](images/paint-pens-test.png) \--- /tugas \---
+![screenshot](images/paint-pens-test.png) \--- /task \---
