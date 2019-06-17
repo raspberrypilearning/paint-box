@@ -2,29 +2,33 @@
 
 Сада ћеш у свој пројекат додати бојице различитих боја и омогућити кориснику да изабере ону коју жели.
 
-\--- task \--- Кликни на лик оловке, а затим на **Костими** и умножи костим 'бојица-плава'.
+\--- task \--- Rename the `pencil` sprite to `pencil-blue`
 
-![снимак екрана](images/paint-blue-duplicate.png) \--- /task \---
+![rename-pencil](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Назови нови костим 'бојица-зелена' и обоји бојицу у зелено.
+\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-![снимак екрана](images/paint-pencil-green.png)
+![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+
+\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Нацртај два нова лика: плави квадрат и зелени квадрат. Они служе за одабир између плаве и зелене бојице.
+\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![снимак екрана](images/paint-selectors.png) \--- /task \---
+![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Преименуј их тако да се зову 'плава' и 'зелена'
+\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Додај следећи код лику 'зелена', тако да кад је кликнуто на овај лик, он `разгласи`{:class="block3events"} поруку "зелена".
+\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![зелени квадрат](images/green_square.png)
+![green square](images/green_square.png)
 
 ```blocks3
 када је кликнуто на овај лик :: events
@@ -33,11 +37,11 @@
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-Лик бојице би требало да чека на поруку "зелена" и да промени костим и боју бојице као одговор.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-\--- task \--- Врати се на лик оловке. Додај код, тако да, када овај лик прими разглас `зелена`{:class="block3events"}, промени костим у бојица-зелена и боју бојице у зелену.
+\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![оловка](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 када примим [зелена v] :: events
@@ -45,20 +49,20 @@
 нека боја оловке буде [#00CC44] :: pen
 ```
 
-Да подесиш бојицу да боји у зелену, кликни на обојени квадрат у блоку `нека боја оловке буде`{:class="block3extensions"}, а затим кликни на лик зеленог квадрата. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
 
-Затим на сличан начин то уради и са плавом бојицом.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-\--- task \--- Кликни на плави квадрат и додај следећи код:
+\--- task \--- Click on the blue square sprite and add this code:
 
-![плави_квадрат](images/blue_square.png)
+![blue_square](images/blue_square.png)
 
 ```blocks3
 када је кликнуто на овај лик :: events
 разгласи (плава v) :: events
 ```
 
-Затим, кликни на лик оловке да додаш следећи код: ![оловка](images/pencil.png)
+Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
 
 ```blocks3
 када примим [плава v] :: events
@@ -68,9 +72,9 @@
 
 \--- /task \---
 
-\--- task \--- На крају, додај овај код да кажеш лику бојице са којом бојом да почне и да екран буде обрисан када се твој програм покрене.
+\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![оловка](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 када је кликнуто на ⚑ :: events
@@ -89,8 +93,8 @@ end
 
 \--- /task \---
 
-Ако желиш, можеш почети са бојицом друге боје.
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- Испробај свој код. Можеш ли да мењаш између плаве и зелене бојице када кликнеш на ликове плавог или зеленог квадрата?
+\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![снимак екрана](images/paint-pens-test.png) \--- /task \---
+![screenshot](images/paint-pens-test.png) \--- /task \---
