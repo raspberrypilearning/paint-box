@@ -57,6 +57,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
 --- /collapse ---
 
