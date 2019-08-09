@@ -5,7 +5,7 @@ listed: true
 copyedit: false
 description: Maak je eigen teken programma
 version: 4.1.0
-last_tested: 2018/11/30
+last_tested: 2018-11-30
 steps:
   - 
     title: Inleiding
@@ -24,6 +24,6 @@ steps:
     title: 'Uitdaging: meer potloden'
     challenge: true
   - 
-    title: Wat nu?
+    title: Test jezelf
   - 
-    title: 'What next?'
+    title: 'Wat nu?'
