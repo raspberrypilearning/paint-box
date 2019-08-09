@@ -55,4 +55,4 @@ Tee oma värviprogramm!
 
 Kui teil on vaja seda projekti printida, kasutage [printeri sõbralikku versiooni](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-Saate [leida lahendus selle projekti siin](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- / kollaps \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / kollaps \---
