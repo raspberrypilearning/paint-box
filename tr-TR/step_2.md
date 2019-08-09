@@ -6,19 +6,19 @@ Sahne Alanı'nda çizmek için kullanabileceğiniz bir kalem yaparak başlayın.
 
 **Çevrimiçi**: başlangıç projesini [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Eğer bir Scratch hesabınız varsa, **Remix**'e tıklayarak bir kopya oluşturabilirsiniz.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+** Çevrimdışı**: [başlangıç projesini](http://rpf.io/p/en/paint-box-go) Çevrimdışı düzenleyicide {: target = "_ blank"} açın.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekirse, bunu [ rpf.io/scratchoff adresinde bulabilirsiniz. ](http://rpf.io/scratchoff) {: Hedef = "_ blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Başlangıç projesinde kurşun kalem ve silgi spritelarını görmelisiniz:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![ekran görüntüsü](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Kalem uzantısını projenize ekleyin.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -28,7 +28,7 @@ Add the Pen extension to your project.
 
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![pencil](images/pencil.png)
+![kalem](images/pencil.png)
 
 ```blocks3
 bayrak
@@ -41,11 +41,11 @@ son
 
 \--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Şimdi, sadece fareye tıklanmış `ise`{:class = "blockcontrol"} kalemin ekranda çizim yapmasını sağlayalım.
 
 \--- task \--- Add this code to your pencil sprite:
 
-![pencil](images/pencil.png)
+![kalem](images/pencil.png)
 
 ```blocks3
 Bayrak tıklandığında
@@ -61,21 +61,21 @@ uç
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Kaleminle çizim yapabiliyor musun?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![ekran görüntüsü](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title: Kalemin ucundan çizmiyor mu?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Kaleminizin çizdiği çizgi kalemin ortasından geliyor gibi görünüyorsa, kalem sprite'larınızı değiştirmeniz gerekir, böylece ucu sprite'nın merkezi olur.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Kalem spritesine ve ardından **Costumes** sekmesine tıklayın.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Costume center](images/costume-center-annotated.png)
+![Kostüm merkezi](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
