@@ -1,6 +1,6 @@
-## What next?
+## I ara què ve?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+Ara que heu completat el projecte "Caixa de pintura", proveu [el projecte](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)"cursa de vaixells", que us ajudarà a fer un joc on haureu de remoure un vaixell amb obstacles.
 
 \--- no-print \---
 
@@ -9,6 +9,6 @@ Now that you have completed the 'Paint box' project, try [the 'Boat race' projec
   <img src="images/boat_race_demo.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
 \--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
