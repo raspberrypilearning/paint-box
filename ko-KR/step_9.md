@@ -1,6 +1,6 @@
-## What next?
+## 더 나아가기
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+다음 프로젝트인 [보트 경기](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)를 해 보세요. 보트를 휘저어 장애물을 피하는 재미있는 게임입니다.
 
 \--- no-print \---
 
