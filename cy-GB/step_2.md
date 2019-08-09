@@ -6,19 +6,19 @@ Fe wnawn ni ddechrau trwy greu pensil mae modd ei ddefnyddio i arlunio ar y llwy
 
 **Arlein:** agora brosiect Scratch newydd yma [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**All-lein**: agor y [prosiect cychwynnol](http://rpf.io/p/en/paint-box-go) {: target = "_ wag"} yn y golygydd all-lein.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Yn y prosiect cychwynnol, fe ddylet ti weld corlun pensil a dileuwr:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![sgrinlun](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Ychwanega'r estyniad Pen i dy brosiect.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,31 +26,32 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Ychwanega gôd i gorlun dy bensil i wneud i'r corlun ddilyn y llygoden `am byth`{:class="block3control"} fel dy fod yn gallu tynnu llun:
 
-![pencil](images/pencil.png)
+![pensil](images/pencil.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  mynd i (mouse pointer v)
+  mynd i (pwyntydd llygoden v)
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Clicia'r faner a symud y llygoden o gwmpas y Llwyfan i brofi os yw dy gôd yn gweithio. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Gwna dy bensil i dynnu llun `os`{:class="block3control"} yw'r llygoden yn cael ei chlicio.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Ychwanega'r côd yma i gorlun dy bensil:
 
-![pencil](images/pencil.png)
+![pensil](images/pencil.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  mynd i (mouse pointer v)
+  mynd i (pwyntydd llygoden v)
+
   + os <llygoden i lawr?> yna 
      pin i lawr
      fel arall 
@@ -61,22 +62,22 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Profa dy gôd eto. Y tro hwn, symud y pensil o gwmpas y Llwyfan a dal botwm y llygoden. Wyt ti'n gallu tynnu llun gyda dy bensil?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![sgrinlun](images/paint-draw.png) \--- /task \---
 
 ## \---collapse\---
 
 ## title: Ydy dy bensil yn tynnu llun o flaen y pensil?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Os yw'r llinell mae dy bensil yn tynnu yn edrych fel ei fod yn dod o ganol y pensil, mae angen iti newid corlun y pensil fel mai'r blaen yw canol dy gorlun.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Clicia corlun dy bensil yna clicia tab **Gwisgoedd**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Symuda'r wisg fel fod blaen y pensil **uwchben** y canol.
 
-![Costume center](images/costume-center-annotated.png)
+![Canolfan wisgoedd](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Symuda'r pensil o gwmpas y Llwyfan i dynnu llun. Fe ddylai'r pensil nawr dynnu llun o'i flaen.
 
 \--- /collapse \---
