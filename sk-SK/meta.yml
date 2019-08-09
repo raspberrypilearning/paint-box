@@ -1,14 +1,14 @@
 ---
-title: Paint box
+title: Skicár
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
-version: 4.1.0
-last_tested: 2018-11-30
+description: V tomto projekte si vytvoríš svoj vlastný program na kreslenie!
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Skicár
   - 
     title: Make a pencil
   - 
