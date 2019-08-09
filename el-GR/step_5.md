@@ -1,98 +1,100 @@
-## Κάνοντας λάθη
+## Διόρθωσε λάθη
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Μερικές φορές συμβαίνουν λάθη, οπότε πρόσθεσε ένα κουμπί "καθαρισμός" και μια γόμα.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Πρόσθεσε το αντικείμενο 'X-block' από την ενότητα των γραμμάτων της βιβλιοθήκης. Χρωμάτισε την ενδυμασία του αντικειμένου με κόκκινο χρώμα και κάνε την λίγο μικρότερη. Αυτό το αντικείμενο θα είναι το κουμπί "Καθαρισμός".
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- Πρόσθεσε κώδικα στο αντικείμενο "X-block" για να καθαρίσεις το Σκηνικό, όταν γίνει κλικ στο αντικείμενο.
 
-![cross](images/cross.png)
+![σταυρός](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+όταν γίνει κλικ σε αυτό το αντικείμενο,
+καθάρισέ τα όλα
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Δεν χρειάζεται να χρησιμοποιήσεις `εκπομπή`{:class="block3events"} για να καθαρίσεις το Σκηνικό, επειδή το μπλοκ `σβήσε τα πάντα`{:class="block3extensions"} κάνει αυτή την ενέργεια.
 
-Do you see that the pencil sprite includes an eraser costume?
+Βλέπεις ότι το αντικείμενο μολυβιού περιλαμβάνει μια ενδυμασία γόμας;
 
-![screenshot](images/paint-eraser-costume.png)
+![στιγμιότυπο οθόνης](images/paint-eraser-costume.png)
 
 Το έργο σου περιλαμβάνει επίσης ένα ξεχωριστό αντικείμενο γόμας.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- Κάνε δεξί κλικ σε αυτό το αντικείμενο και στη συνέχεια κάνε κλικ στην **εμφάνιση**. Έτσι πρέπει να φαίνεται το Σκηνικό σου τώρα:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- Πρόσθεσε κώδικα στο αντικείμενο για να στείλετε μια εκπομπή `«γόμα»`{:class="block3events"} όταν πατηθεί το αντικείμενο γόμας.
 
-![eraser](images/eraser.png)
+![γόμα](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+όταν γίνει κλικ σε αυτό το αντικείμενο
+μετάδωσε (γόμα v)
 ```
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Όταν το μολύβι λάβει το μήνυμα "γόμα", μπορείς να αλλάξεις την ενδυμασία του μολυβιού στη γόμα και να αλλάξεις το χρώμα του μολυβιού σε λευκό, που είναι το ίδιο χρώμα με το σκηνικό!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- Πρόσθεσε κώδικα για να δημιουργήσεις τη γόμα.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Πρόσθεσε κώδικα στο αντικείμενο μολυβιού: `Όταν λάβω`{:class="block3events"} το μήνυμα `γόμα`{:class="block3events"} `Άλλαξε στην ενδυμασία γόμα`{:class="block3looks"} `Όρισε το χρώμα του μολυβιού`{:class="block3extensions"} σε άσπρο \--- /hint \--- \--- hint \--- Εδώ είναι όλα τα μπλοκ που θα χρειαστείς:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+όρισε χρώμα πένας σε [#FFFFFF]
 
-switch costume to (eraser v)
+όταν λάβω [γόμα v]
+
+άλλαξε ενδυμασία σε (γόμα v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- Έτσι πρέπει να μοιάζει ο κώδικας: ![μολύβι](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+όταν λάβω [γόμα v]
+άλλαξε ενδυμασία σε (γόμα v)
+όρισε χρώμα πένας σε [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- Δοκίμασε το έργο σου για να δεις, εάν μπορείς να καθαρίσεις το Σκηνικό και να σβήσεις τις γραμμές μολυβιού.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Υπάρχει ένα ακόμα πρόβλημα με το μολύβι - μπορείς να σχεδιάσεις οπουδήποτε στο σκηνικό, συμπεριλαμβανομένων των κουμπιών εκκαθάρισης και γόμας!
 
-![screenshot](images/paint-draw-problem.png)
+![στιγμιότυπο οθόνης](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- task \--- Για να το διορθώσεις, άλλαξε τον κώδικα έτσι ώστε η πένα να είναι απενεργοποιημένη μόνο αν πατηθεί το ποντίκι **και** η `y` η συντεταγμένη του δείκτη του ποντικιού είναι μεγαλύτερη από `-120`:
 
-![pencil](images/pencil.png)
+![μολύβι](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+όταν στην πράσινη σημαία γίνει κλικ
+καθάρισέ τα  όλα
+άλλαξε ενδυμασία σε (μολύβι-μπλε v)
+όρισε χρώμα πένας σε [#0035FF]
+για πάντα 
+  πήγαινε σε (mouse pointer v)
+  + εάν <<mouse down?> και <(y ποντικιού) > [-120]>>> τότε 
+  +   κατέβασε πένα
+  + αλλιώς 
+  +   σήκωσε πένα
+  + end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- Δοκίμασε το έργο σου. Τώρα δεν θα πρέπει να μπορείς να ζωγραφίζεις κοντά στα κουμπιά.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/paint-fixed.png) \--- /task \---
