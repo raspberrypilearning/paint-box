@@ -55,4 +55,4 @@ Gwna dy raglen peintio dy hunan!
 
 Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma ](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
