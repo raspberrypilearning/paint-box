@@ -1,6 +1,6 @@
-## What next?
+## Шта је следеће?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+Сада када сте завршили пројекат 'Програм за цртање', пробајте пројекат ['Трка бродова'](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), који вам помаже да направите игру у којој морате да управљате бродом избегавајући препреке.
 
 \--- no-print \---
 
