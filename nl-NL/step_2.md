@@ -6,19 +6,19 @@ Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op he
 
 **Online** open het start project op [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_ blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: open het [start project](http://rpf.io/p/en/paint-box-go){:target="_ blank"} in de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+In het start project zou je een potlood- en een gum-sprite moeten zien:
 
 ![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Voeg de Pen-uitbreiding toe aan je project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,9 +26,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Voeg wat code toe aan de potlood-sprite om ervoor te zorgen dat deze de muis altijd volgt met een `herhaal`{:class="block3control"} blok, zodat je kunt tekenen:
 
-![pencil](images/pencil.png)
+![potlood](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -41,11 +41,11 @@ end
 
 \--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Laat vervolgens je potlood alleen tekenen `als`{:class="block3control"} als de muisknop wordt ingedrukt.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Voeg deze code toe aan je potlood sprite:
 
-![pencil](images/pencil.png)
+![potlood](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -61,7 +61,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
@@ -69,14 +69,14 @@ end
 
 ## title: Trekt je potlood de lijn niet vanaf de punt?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Als de lijn die je potlood tekent eruit ziet alsof deze uit het midden van het potlood komt, moet je je potlood sprite veranderen, zodat de punt het midden van de sprite is.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Klik op de potlood sprite en klik vervolgens op de **Uiterlijken** tab.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Verplaats het hele uiterlijk zodat de punt van het potlood zich **net boven** het midden bevindt.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Beweeg nu het potlood in het speelveld en teken. Het potlood moet nu een lijn trekken vanaf de punt.
 
 \--- /collapse \---
