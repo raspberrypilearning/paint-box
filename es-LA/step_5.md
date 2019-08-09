@@ -6,7 +6,7 @@ Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![captura de pantalla](images/paint-x.png) \--- /task \---
+![captura de pantalla](images/paint-x.png) \--- / tarea \---
 
 \--- task \--- Añade código al objeto 'X-block' para limpiar el Escenario cuando se haga clic en el objeto.
 
@@ -17,19 +17,19 @@ when this sprite clicked
 erase all
 ```
 
-\--- /task \---
+\--- función \---
 
 No es necesario utilizar un `broadcast`{:class="block3events"} para limpiar un Escenario, porque el bloque `erase all`{:class="block3extensions"} cumple esa función.
 
 ¿Ves que el objeto lápiz incluye un disfraz de borrador?
 
-![screenshot](images/paint-eraser-costume.png)
+![captura de pantalla](images/paint-eraser-costume.png)
 
 Tu proyecto también incluye un objeto goma de borrar aparte.
 
 \--- task \--- Haz clic con el botón derecho sobre el objeto borrador y luego haz clic sobre **show**. Aquí está cómo debería quedar el Escenario ahora:
 
-![captura de pantalla](images/paint-eraser-stage.png) \--- /task \---
+![captura de pantalla](images/paint-eraser-stage.png) \--- / tarea \---
 
 Añade código al objeto borrador para enviar un `'eraser' broadcast`{:class="block3events"} cuando se hace clic en el objeto borrador.
 
@@ -40,13 +40,13 @@ when this sprite clicked
 broadcast (eraser v)
 ```
 
-\--- /task \---
+\--- / tarea \---
 
 Cuando el objeto lápiz reciba el mensaje 'borrador', ¡debería cambiar su disfraz al de borrador y cambiar el color del marcador a blanco, que es el mismo color que el Escenario!
 
 \--- task \--- Añade algo de código para crear el borrador.
 
-\--- hints \--- \--- hint \--- Añade algo de código al objeto lápiz: `When I receive`{:class="block3events"} el mensaje `eraser`{:class="block3events"} `Switch to costume erase`{:class="block3looks"} `Set pen color`{:class="block3extensions"} a blanco \--- /hint \--- \--- hint \--- Aquí están todos los bloques que necesitas:
+\--- hints \--- \--- hint \--- Añade algo de código al objeto lápiz: `Cuando recibo`{:class="block3events"} el mensaje `borrador`{:class="block3events"} `Cambia a al escenario borrador`{:class="block3looks"} `Establice el color del lápiz`{:class="block3extensions"} a blanco \--- /hint \--- \--- hint \--- Aquí están todos los bloques que necesitas:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -67,13 +67,13 @@ set pen color to [#FFFFFF]
 
 \--- task \--- Prueba tu proyecto para ver si puedes limpiar el Escenario y borrar las líneas del lápiz.
 
-![captura de pantalla](images/paint-erase-test.png) \--- /task \---
+![captura de pantalla](images/paint-erase-test.png) \--- / tarea \---
 
 Hay otro problema más con el lápiz: puedes dibujar donde sea en el Escenario, incluyendo el espacio cerca de los botones 'limpiar' y borrar!
 
 ![captura de pantalla](images/paint-draw-problem.png)
 
-\--- task \--- Para arreglar esto, cambia el código de modo que el marcador esté abajo sólo si se hace clic en el ratón **and** la posición del cursor `and` es mayor que `-120`:
+\--- task \--- Para arreglar esto, cambia el código de modo que el marcador esté abajo sólo si se hace clic en el ratón **and** la posición del cursor `y` es mayor que `-120`:
 
 ![lápiz](images/pencil.png)
 
@@ -91,8 +91,8 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
 \--- task \--- Prueba tu proyecto. Ahora no deberías ser capaz de dibujar cerca de los botones.
 
-![captura de pantalla](images/paint-fixed.png) \--- /task \---
+![captura de pantalla](images/paint-fixed.png) \--- / tarea \---
