@@ -55,4 +55,4 @@
 
 このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_ blank"}を使用してください。
 
-あなたは、することができます [ここで、このプロジェクトのための解決策を見つける](http://rpf.io/p/en/paint-box-get){：ターゲット=「_空白を」}。 \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
