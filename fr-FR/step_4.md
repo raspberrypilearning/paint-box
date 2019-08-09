@@ -1,7 +1,7 @@
 ## Défi : plus de crayons
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Peux-tu ajouter des crayons rouges, jaunes et noirs à ton programme de peinture? Jette un coup d’œil aux étapes précédentes si tu souhaites savoir comment procéder.
 
 Peux-tu utiliser tes crayons pour faire un dessin ?
 
-![screenshot](images/paint-final.png)
+![capture d’écran](images/paint-final.png)
