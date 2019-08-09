@@ -14,9 +14,9 @@ dileu popeth
 newid gwisg i (pencil-glas v)
 gosod lliw pin i [#0035FF]
 am byth 
-  mynd i (mouse pointer v)
+  mynd i (pwyntydd llygoden v)
   + gosod maint pin i (lled :: variables)
-  os <<llygoden i lawr?> a <(llygoden y) > [-120]>> yna 
+  os <<llygoden i lawr?> a < (llygoden y) > [-120]>> yna 
     pin i lawr
   fel arall 
     pin i fyny
