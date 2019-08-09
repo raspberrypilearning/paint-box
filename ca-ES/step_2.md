@@ -1,24 +1,24 @@
-## Make a pencil
+## Feu un llapis
 
-Start by making a pencil that you can use to draw on the Stage.
+Comenceu fent un llapis que podeu fer servir per dibuixar a l’escenari.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Obriu el projecte d’inici Scratch 'Paint box'.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**En línia**: obriu el projecte inicial al [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tens un compte a Scratch fes una còpia fent clic a **Reinventa**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Desconnectat**: obriu el projecte [arrencada](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} a l'editor fora de línia.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Si necessiteu descarregar i instal·lar l’editor fora de línia Scratch, el podeu trobar a [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Al projecte d’arrencada, hauríeu de veure sprites de llapis i d’esborranys:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![captura de pantalla](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Afegiu l’extensió del llapis al vostre projecte.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,57 +26,57 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Afegiu algun codi al sprite de llapis per fer que el sprite seguiu el punter del ratolí `per sempre`{: class = "block3control"} perquè pugueu dibuixar:
 
-![pencil](images/pencil.png)
+![llapis](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-end
+quan es fa clic a la bandera
+per sempre
+  aneu a (punter del ratolí v)
+final
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Feu clic al senyalador i, a continuació, moveu el punter del ratolí al voltant de l’etapa per provar si el vostre codi funciona. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+A continuació, feu que el llapis només dibuixi `si es fa clic amb el botó del ratolí`{: class = "block3control"}.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Afegiu aquest codi al vostre sprite de llapis:
 
-![pencil](images/pencil.png)
+![llapis](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+quan es fa clic a la bandera
+per sempre
+  aneu a (punter del ratolí v)
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
-end
++ si <mouse down?> llavors
+  llapis cap avall
+  llapis
+  fins al final
+
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Torneu a provar el vostre codi. Aquesta vegada, moveu el llapis al voltant de l’etapa i manteniu premut el botó del ratolí. Es pot dibuixar amb el teu llapis?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![captura de pantalla](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: El seu llapis no es dibuixa de la seva punta?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Si la línia del dibuix de llapis sembla que prové del centre del llapis, haureu de canviar el sprite del llapis de manera que la punta sigui el centre del sprite.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Feu clic al sprite del llapis i feu clic a la pestanya **Disfresses**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Moure el vestit de manera que la punta del llapis és **just per sobre de** el centre.
 
-![Costume center](images/costume-center-annotated.png)
+![Centre de rotació](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Ara moveu el llapis al voltant de l’escenari i dibuixeu-lo. El llapis hauria de dibuixar una línia des de la seva punta.
 
-\--- /collapse \---
+\--- / collapse \---
