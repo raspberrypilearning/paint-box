@@ -55,4 +55,4 @@ Make your own paint program!
 
 আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print) ব্যবহার করুন {: target = "_ blank"}।
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. -- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. -- /collapse \---
