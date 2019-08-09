@@ -1,6 +1,6 @@
-## What next?
+## Mi a következő lépés?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+Most, hogy elkészült a „Festődoboz” projekted, próbáld ki [a „Hajóverseny” projektet](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), amiben majd egy csónakkal kell akadályokat kerülgetned.
 
 \--- no-print \---
 
