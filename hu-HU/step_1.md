@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Ez a projekt **Scratch 3**-as verziója. A projekt [Scratch 2 változata](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) is elérhető.
 
 \--- /no-print \---
 
-## Introduction
+## Bevezetés
 
-Make your own paint program!
+Készítsd el a saját rajzoló programod!
 
-### What you will make
+### Mit fogsz elkészíteni
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Kattints a zöld zászlóra az program megtekintéséhez. Az egérrel mozgasd a ceruzát és tartsd lenyomva a bal egérgombot. A ceruza színének változtatásához kattints valamelyik színre. Kattints a radírra, hogy törölhesd/javíthasd a rajzod. A rajz teljes törléséhez kattints az X-re.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,40 +19,40 @@ Make your own paint program!
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- A zöld zászlóra kattintva indíthatod a programot, az egérrel mozgathatod a ceruzát, és tartsd lenyomva a bal egérgombot a rajzoláshoz. A színekre kattintva megváltozik a ceruza színe, és a radírra kattintva törölhetsz.
 
-![showcase](images/showcase.png) \--- /print-only \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
+![bemutató](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Mit fogsz megtanulni
 
-### Hardware
++ hogyan kell hozzáadni a toll kiterjesztést a Scratch-hez
++ hogyan vezérelhetsz szereplőket üzenetküldéssel a Scratch-ben
++ hogyan kell lekezelni az egéreseményeket a Scratch-ben \--- / collapse \---
 
-+ A computer capable of running Scratch 3
+## \--- collapse \---
 
-### Software
+## title: Mire lesz szükséged?
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+### Hardver
 
-### Downloads
++ Egy, a Scratch 3 futtatására alkalmas számítógép
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
+### Szoftver
+
++ Scratch 3 (vagy [online](http://rpf.io/scratchon){:target="_ blank"} vagy [offline](http://rpf.io/scratchoff){:target="_ blank"})
+
+### Letöltések
+
++ [Offline kezdőprojekt](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: További információk oktatóknak
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verziót](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
