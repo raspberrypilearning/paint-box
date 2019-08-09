@@ -1,99 +1,100 @@
 ## Χρωματιστά μολύβια
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Τώρα να προσθέσεις διαφορετικά χρωματιστά μολύβια στο έργο σου, επιτρέποντας στο χρήστη να επιλέγει μεταξύ αυτών.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- task \--- Μετονόμασε το αντικείμενο `μολύβι` σε `μολύβι-μπλε`
 
-![rename-pencil](images/rename-pencil.png) \--- /task \---
+![μετονόμασε το μολύβι](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Κάνε δεξί κλικ στο αντικείμενο μολυβιού και δημιούργησε ένα αντίγραφο της ενδυμασίας 'μολύβι-μπλε'.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Ονόμασε τη νέα ενδυμασία «μολύβι-πράσινο» και χρωμάτισε το μολύβι πράσινο.
 
-![screenshot](images/paint-pencil-green.png)
+![στιγμιότυπο οθόνης](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Σχεδίασε δύο νέα αντικείμενα: ένα μπλε τετράγωνο και ένα πράσινο τετράγωνο. Αυτά είναι για την επιλογή μεταξύ του μπλε και του πράσινου μολυβιού.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Μετονόμασε τα νέα αντικείμενά σου, έτσι ώστε να ονομάζονται 'μπλε' και 'πράσινο'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Πρόσθεσε κώδικα στο πράσινο αντικείμενο, έτσι ώστε, όταν κάνεις κλικ σε αυτό τότε να `εκπέμπει`{:class="block3events"} το μήνυμα "πράσινο".
 
-![green square](images/green_square.png)
+![πράσινο τετράγωνο](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+όταν γίνει κλικ σε αυτό το αντικείμενο
+μετάδωσε (πράσινο v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Το αντικείμενο μολυβιού θα ακούσει το "πράσινο" μήνυμα και θα αλλάξει την ενδυμασία και το χρώμα του μολυβιού ως απόκριση.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Πήγαινε στο αντικείμενο μολυβιού. Πρόσθεσε κώδικα έτσι ώστε όταν λάβει την εκπομπή `πράσινο`{:class="block3events"}, να αλλάζει στην πράσινη ενδυμασία του και να αλλάζει το χρώμα του σε πράσινο.
 
-![pencil](images/pencil.png)
+![μολύβι](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+όταν λάβω [πράσινο v]
+άλλαξε ενδυμασία σε (μολύβι-πράσινο v)
+όρισε χρώμα πένας σε [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Για να ρυθμίσεις το χρώμα μολυβιού στο πράσινο, κάνε κλικ στο έγχρωμο τετράγωνο στο μπλοκ `ρύθμισε το χρώμα του μολυβιού` {: class = "block3extensions"}, και στη συνέχεια κάνε κλικ στο αντικείμενο πράσινου τετραγώνου. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Στη συνέχεια, με παρόμοιο τρόπο, μπορείς να αλλάξεις το χρώμα του μολυβιού σε μπλε.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Κάνε κλικ στο αντικείμενο μπλε τετραγώνου και πρόσθεσε αυτόν τον κώδικα:
 
-![blue_square](images/blue_square.png)
+![μπλε_τετράγωνο](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+όταν γίνει κλικ σε αυτό το αντικείμενο
+μετάδωσε (μπλε v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Στη συνέχεια κάνε κλικ στο αντικείμενο μολυβιού και πρόσθεσε αυτόν τον κώδικα: ![μολύβι](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+όταν λάβω [μπλε v]
+άλλαξε ενδυμασία σε (μολύβι-μπλε v)
+όρισε χρώμα πένας σε [#0000ff]
 ```
 
 \--- /task \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- task \--- Τέλος, πρόσθεσε αυτόν τον κώδικα για να πεις στο αντικείμενο μολύβι με ποιο χρώμα πρέπει να ξεκινά και βεβαιώσου ότι το σκηνικό είναι καθαρό στην αρχή.
 
-![pencil](images/pencil.png)
+![μολύβι](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
+όταν στην πράσινη σημαία γίνει κλικ
++καθάρισέ τα όλα
++άλλαξε ενδυμασία σε (μολύβι-μπλε v)
++όρισε χρώμα πένας σε [#0035FF]
+για πάντα 
+  πήγαινε σε (mouse pointer v)
+  εάν <mouse down?> τότε 
+    κατέβασε πένα
+  αλλιώς 
+    σήκωσε πένα
+  end
 end
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Εάν προτιμάς, μπορείς να ξεκινήσεις με ένα διαφορετικό χρωματιστό μολύβι.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Δοκίμασε τον κώδικά σου. Μπορείς να αλλάζεις ανάμεσα στο μπλε και το πράσινο μολύβι κάνοντας κλικ στο μπλε ή το πράσινο τετράγωνο αντικείμενο;
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/paint-pens-test.png) \--- /task \---
