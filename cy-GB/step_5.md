@@ -37,7 +37,7 @@ Mae dy brosiect hefyd yn cynnwys corlun dileuwr ar wahân.
 
 ```blocks3
 pan gaiff y ciplun yma ei glicio
-darlledu (eraser v)
+darlledu (dileuwr v)
 ```
 
 \--- /task \---
@@ -51,16 +51,16 @@ Pan fo'r corlun pensil yn derbyn neges 'dileuwr', fe ddylai newid gwisg i'r dile
 ```blocks3
 gosod lliw pin i [#FFFFFF]
 
-pan rwy'n derbyn [eraser v]
+pan rwy'n derbyn [dileuwr v]
 
-newid gwisg i (eraser v)
+newid gwisg i (dileuwr v)
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut dylai dy gôd edrych: ![pensil](images/pencil.png)
 
 ```blocks3
-pan rwy'n derbyn [eraser v]
-newid gwisg i (eraser v)
+pan rwy'n derbyn [dileuwr v]
+newid gwisg i (dileuwr v)
 gosod lliw pin i [#FFFFFF]
 ```
 
