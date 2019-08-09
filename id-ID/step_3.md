@@ -8,23 +8,23 @@ Now you're going to add different coloured pencils to your project and allow the
 
 \--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![screenshot](images/paint-blue-duplicate.png) \--- /tugas \---
 
 \--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
 
-![screenshot](images/paint-pencil-green.png)
+![tangkapan layar](images/paint-pencil-green.png)
 
 \--- /tugas \---
 
 \--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![screenshot](images/paint-selectors.png) \--- /tugas \---
 
 \--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /task \---
+\--- /tugas \---
 
 \--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
@@ -49,7 +49,7 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /tugas \---
 
 Then to a similar thing so that you can switch the pencil colour to blue.
 
@@ -70,7 +70,7 @@ switch costume to (pencil-blue v)
 set pen color to [#0000ff]
 ```
 
-\--- /task \---
+\--- /tugas \---
 
 \--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
@@ -90,10 +90,10 @@ if <mouse down?> then
 end
 ```
 
-\--- /task \---
+\--- /tugas \---
 
 If you prefer, you can start with a different colour pencil.
 
 \--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![screenshot](images/paint-pens-test.png) \--- /tugas \---
