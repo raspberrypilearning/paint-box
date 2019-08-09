@@ -1,99 +1,99 @@
 ## Цветные карандаши
 
-Теперь вы собираетесь добавить разные цветные карандаши в свой проект и позволить пользователю выбирать между ними.
+Теперь мы поможем тебе добавить разные цветные карандаши в твой проект так, чтобы пользователи могли выбирать между ними.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- task \--- Поменяй имя спрайта `карандаш` на `карандаш-синий`
 
-![rename-pencil](images/rename-pencil.png) \--- / задача \---
+![переименовать карандаш](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Щелкни правой кнопкой мыши на спрайте карандаша и продублируй костюм «карандаш-синий».
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![снимок экрана](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Назови новый костюм «карандаш-зеленый» и раскрась карандаш в зеленый.
 
-![screenshot](images/paint-pencil-green.png)
+![снимок экрана](images/paint-pencil-green.png)
 
-\--- / задача \---
+\--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Нарисуй два новых спрайта: один синий квадрат и один зеленый квадрат. Они сделаны для выбора между синим и зеленым карандашами.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![снимок экрана](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Переименуй новые спрайты, чтобы они назывались «синий» и «зеленый»
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Добавь код в «зеленый» спрайт, чтобы когда его нажимали, он `транслировал`{:class="block3events"} сообщение «зеленый».
 
-![green square](images/green_square.png)
+![зеленый квадрат](images/green_square.png)
 
 ```blocks3
-когда этот спрайт нажал
-трансляцию (зеленый v)
+когда спрайт нажат
+передать (зеленый v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Спрайт карандаша должен ожидать сообщение «зеленый» и изменить его костюм и цвет карандаша в ответ.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Переключись на спрайт твоего карандаша. Добавь код, чтобы при получении сообщения `зелёный`{:class="block3events"} спрайт переключался на зелёный костюм карандаша и менял цвет карандаша на зелёный.
 
-![pencil](images/pencil.png)
+![карандаш](images/pencil.png)
 
 ```blocks3
-когда я получаю [зеленый v]
-переключите костюм на (карандаш-зеленый v)
-установите цвет пера на [# 00CC44]
+когда я получу [зеленый v]
+изменить костюм на (карандаш-зеленый v)
+установить цвет пера [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Чтобы поменять цвет карандаша на зелёный, нажми на цветной квадрат в блоке `установить для пера цвет`{:class="block3extensions"}, а затем нажми на зелёный квадратный спрайт. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Сделай то же самое для синего цвета, чтобы можно было поменять цвет и на синий.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Нажми на спрайт синего квадрата и добавь этот код:
 
-![blue_square](images/blue_square.png)
+![синий_квадрат](images/blue_square.png)
 
 ```blocks3
-когда этот спрайт нажал
-трансляцию (синий v)
+когда спрайт нажат
+передать (синий v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Затем нажми на спрайт карандаша и добавь этот код: ![карандаш](images/pencil.png)
 
 ```blocks3
-когда я получаю [синий v]
-переключите костюм на (карандашный синий v)
-установите цвет пера на [# 0000ff]
-```
-
-\--- /task \---
-
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
-
-![pencil](images/pencil.png)
-
-```blocks3
-когда щелкнул флаг
-+ стереть все
-+ переключить костюм на (карандаш-синий v)
-+ установить цвет пера на [# 0035FF]
-навсегда
-  перейти к (указатель мыши v)
-если <mouse down?> то
-  перо вниз
-  еще
-  перо вверх
-конец
+когда я получу [синий v]
+изменить костюм на (карандаш-синий v)
+установить цвет пера [#0000ff]
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+\--- task \--- Наконец, добавьте этот код, чтобы указать спрайту карандаша, с какого цвета начинать и чтобы экран был чист при запуске вашей программы.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+![карандаш](images/pencil.png)
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+```blocks3
+когда flag нажат
++стереть всё
++изменить костюм на (карандаш-синий v)
++установить для пера цвет [#0035FF]
+повторять всегда
+  перейти на (указатель мыши v)
+если <mouse down?>, то
+  опустить перо
+  иначе
+  поднять перо
+end
+```
+
+\--- /task \---
+
+Если ты хочешь, ты можешь начать с другого цветного карандаша.
+
+\--- task \--- Проверь свой код. Можешь ли ты переключиться между синим и зеленым карандашом, нажимая на синий или зеленый квадрат?
+
+![снимок экрана](images/paint-pens-test.png) \--- /task \---
