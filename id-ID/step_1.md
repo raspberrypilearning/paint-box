@@ -10,7 +10,7 @@ Buatlah program lukis kamu sendiri!
 
 ### Apa yang kamu akan buat
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\---tidak-dicetak\--- klik pada bendera hijau untuk memulai. Gunakan mouse untuk memindahkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik di sebuah warna untuk mengubah pensil. Klik di penghapus untuk mengubah jadi penghapus dan gunakan itu untuk menghapus pekerjaan Kamu. Untuk membersihkan halaman, klik tanda silang.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +19,7 @@ Buatlah program lukis kamu sendiri!
 
 \--- /tidak dicetak \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Kamu akan klik di bendera hijau untuk mulai dan kamu akan menggunakan mouse untuk memindahkan pensil serta tekan terus tombol kiri mouse untuk menggambar. Klik di sebuah warna akan mengubah warna pensil dan klik di penghapus akan mengubahnya menjadi penghapus!
 
 ![showcase](images/showcase.png) \--- /print-only \---
 
@@ -43,7 +43,7 @@ Buatlah program lukis kamu sendiri!
 
 + Scratch 3 (baik [online](http://rpf.io/scratchon){:target="_blank"} atau [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Unduh
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
@@ -55,4 +55,4 @@ Buatlah program lukis kamu sendiri!
 
 Jika Anda perlu mencetak proyek ini, silakan gunakan versi ramah-printer [](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /menggulung \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /menggulung \---
