@@ -55,4 +55,4 @@ Naredite svoj program barv!
 
 Če želite natisniti ta projekt, uporabite [tiskalnik prijazno različico](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-Tukaj lahko najdete [rešitev za ta projekt](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- / strni \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / strni \---
