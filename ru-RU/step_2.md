@@ -1,24 +1,24 @@
-## Сделать карандаш
+## Сделай карандаш
 
-Начните с создания карандаша, который можно использовать для рисования на сцене.
+Начни с создания карандаша, который можно будет использовать для рисования на сцене.
 
-\--- задача \--- Откройте начальный проект «Paint box».
+\--- task \--- Открой стартовый проект «Коробка для рисования».
 
-**Онлайн**: откройте стартовый проект по адресу [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
+**Онлайн**: открой стартовый проект по адресу [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Если у тебя есть учетная запись Скретч, ты можешь сделать копию, нажав **Ремикс**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Оффлайн**: открой [стартовый проект](http://rpf.io/p/en/paint-box-go){:target="_blank"} в оффлайн-редакторе.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Если тебе нужно скачать и установить оффлайн-редактор Скретч, ты сможешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+В стартовом проекте ты должен увидеть спрайты карандаша и ластика:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![снимок экрана](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Добавь расширение пера в твой проект.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,57 +26,57 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Добавь код в спрайт карандаша, чтобы спрайт следовал указателю мыши `всегда`{:class="block3control"} для того, чтобы можно было рисовать:
 
-![pencil](images/pencil.png)
+![карандаш](images/pencil.png)
 
 ```blocks3
-когда флаг нажал
-навсегда
-  перейти к (указатель мыши v)
-конец
+когда щёлкнут по зелёному флагу
+повторять всегда 
+  перейти на (указатель мыши v)
+end
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Нажми на флаг, а затем перемещай указатель мыши по рабочей области, чтобы проверить, работает ли твой код. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Далее, сделай так, чтобы карандаш рисовал только `если`{:class="block3control"} кнопка мыши нажата.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Добавь этот код в твой спрайт карандаша:
 
-![pencil](images/pencil.png)
+![карандаш](images/pencil.png)
 
 ```blocks3
-когда флаг нажал
-навсегда
-  перейти к (указатель мыши v)
-
-+, если <mouse down?> то
-  перо вниз
-  еще
-  перо вверх
-конец
+когда щёлкнут по зелёному флагу
+повторять всегда 
+  перейти на (указатель мыши v)
+  + если <mouse down?> , то
+  + опустить перо
+  + иначе
+  + поднять перо
+  + end
+end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Проверь свой код снова. На этот раз перемещай карандаш вокруг рабочей области, удерживая кнопку мыши. Ты можешь рисовать своим карандашом?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![снимок экрана](images/paint-draw.png) \--- /task \---
 
-## \--- свернуть \---
+## \--- collapse \---
 
-## title: Ваш карандаш не рисует из своего кончика?
+## title: Ваш карандаш рисует не из своего кончика?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Если линия, которую рисует карандаш, выглядит так, будто она идёт от середины карандаша, тебе нужно изменить спрайт карандаша так, чтобы кончик стал центром спрайта.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Нажми на спрайт карандаша, а затем нажми на вкладку **Костюмы**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Перемести костюм так, чтобы кончик карандаша был **чуть выше** центра.
 
-![Costume center](images/costume-center-annotated.png)
+![центр костюма](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Теперь перемещай карандаш вокруг сцены и рисуй. В этот раз карандаш должен рисовать линию из своего кончика.
 
 \--- /collapse \---
