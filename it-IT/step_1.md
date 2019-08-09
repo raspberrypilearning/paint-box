@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scratch 2 del progetto](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -10,7 +10,7 @@ Crea un programma per disegnare!
 
 ### Cosa creerai
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Fai clic sulla bandierina verde per vedere l'animazione. Utilizza il mouse per muovere la matita, e tieni premuto il pulsante sinistro per disegnare. Clicca su un colore per cambiare le matite. Clicca sulla gomma per passare ad essa ed usala per cancellare il tuo lavoro. Per cancellare tutto, clicca sulla x.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +19,7 @@ Crea un programma per disegnare!
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Fai clic sulla bandierina verde per iniziare. Utilizzerai il mouse per spostare la matita e tieni premuto il tasto sinistro per disegnare. Cliccando su un colore cambieranno i colori della matita e cliccando sulla gomma si passerà alla gomma!
 
 ![showcase](images/showcase.png) \--- /print-only \---
 
@@ -27,9 +27,9 @@ Crea un programma per disegnare!
 
 ## title: Cosa imparerai
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Aggiungi l'estensione penna in Scratch
++ Usa le trasmissioni per controllare uno sprite in Scratch
++ Ricorda come rispondere agli eventi del mouse in Scratch \--- / collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +43,16 @@ Crea un programma per disegnare!
 
 + Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} o [offline](http://rpf.io/scratchoff){:target="_blank"}"})
 
-### Downloads
+### Download
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Progetto di avvio offline](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Informazioni aggiuntive per gli educatori
 
 Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/paint-box/print){:target = "_ blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / chiudi \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / chiudi \---
