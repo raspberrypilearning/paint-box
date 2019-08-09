@@ -10,20 +10,20 @@ steps:
   - 
     title: Introduzione
   - 
-    title: Di cosa avrai bisogno
+    title: Crea una matita
   - 
     title: Matite colorate
   - 
     title: 'Sfida: Scorciatoie'
     challenge: true
   - 
-    title: Fare errori
+    title: Annulla errori
   - 
     title: Cambiare lo spessore della matita
   - 
     title: 'Sfida: Più matite'
     challenge: true
   - 
-    title: 'Sfida: Più matite'
+    title: Mettiti alla prova
   - 
-    title: 'What next?'
+    title: 'E adesso?'
