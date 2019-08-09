@@ -55,4 +55,4 @@ Napravi sopstveni program za crtanje!
 
 Ukoliko je potrebno da odštampate ovaj projekat, koristite [verziju za štampu](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
