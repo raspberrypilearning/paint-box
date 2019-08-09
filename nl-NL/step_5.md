@@ -1,4 +1,4 @@
-## Fouten maken
+## Fouten repareren
 
 Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
