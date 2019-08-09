@@ -55,4 +55,4 @@ Maak je eigen teken programma!
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_ blank"}.
 
-Hier is een link [naar de oplossing](http://rpf.io/p/en/paint-box-get){:target="_blank"} voor dit project. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
