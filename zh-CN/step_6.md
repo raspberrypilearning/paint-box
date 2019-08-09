@@ -1,40 +1,40 @@
-## Change the pen width
+## 更改笔宽
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+接下来，您将添加代码以允许使用您的程序的人绘制具有不同笔宽的内容。
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- 首先，添加一个名为 `width`{：class =“block3variables”}的新变量。
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- /任务\---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- 将此行 **添加到** `永久的`{：class =“block3control”}循环的铅笔精灵的代码中：
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+当标记点击时
+擦除所有
+开关服装（铅笔蓝色v）
+设置笔颜色为[＃0035FF]
+永远
+转到（鼠标指针v）
++设置笔尺寸为（宽度::变量）
+如果 <<mouse down?> 和 <（鼠标y） > [-120]>> 然后 
+  笔下来
+  否则
+  笔上升
+结束
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+笔宽现在重复设置为 `宽度`{：class =“block3variables”}变量的值。
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- 右键单击舞台上显示的 `宽`{：class =“block3variables”}变量，然后单击 **滑块**。
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![截屏](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+您现在可以拖动变量下方可见的滑块来更改变量的值。
 
-![screenshot](images/paint-slider-change.png)
+![截屏](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- 测试你的项目，看看你是否可以添加代码来调整笔的宽度。
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![截屏](images/paint-width-test.png) \--- /task \---
