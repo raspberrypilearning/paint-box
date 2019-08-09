@@ -1,24 +1,24 @@
 ## Di cosa avrai bisogno
 
-Start by making a pencil that you can use to draw on the Stage.
+Inizia creando una matita che può essere usata per disegnare sul quadro.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Aprire il progetto di avvio Scratch 'Paint box'.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: apri il progetto di avvio su [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se hai un account Scratch puoi fare una copia cliccando su **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: apre il progetto [starter](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} nell'editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Nel progetto iniziale, dovresti vedere sprite di gomma e matita:
 
 ![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Aggiungi l'estensione penna al tuo progetto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,9 +26,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Aggiungi del codice allo sprite matita per far sì che lo sprite segua il puntatore del mouse `per sempre`{: class = "block3control"} in modo da poter disegnare:
 
-![pencil](images/pencil.png)
+![matita](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -39,13 +39,13 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- Fai click sulla bandierina e muovi il mouse sul quadro per verificare che il codice funzioni. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Ora facciamo in modo che la matita disegni solo `se`{:class="blockcontrol"} il mouse è stato cliccato.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Aggiungi questo codice al tuo sprite matita:
 
-![pencil](images/pencil.png)
+![matita](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -61,22 +61,22 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Testare nuovamente il codice. Questa volta, muovi la matita sul quadro e tieni premuto il tasto sinistro del mouse. Riesci a disegnare con la tua matita?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![schermata](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## titolo: la tua matita non scrive dalla sua punta?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Se la linea che disegna la tua matita sembra provenire dal centro di essa, devi cambiare lo sprite in modo che la punta sia il il suo centro.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Fai clic sullo sprite matita e poi sulla scheda **Costumi**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Sposta il costume in modo che la punta della matita sia ** appena sopra ** il centro.
 
-![Costume center](images/costume-center-annotated.png)
+![Centro del costume](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Ora sposta la matita sul quadro e disegna. La matita dovrebbe ora tracciare una linea dalla sua punta.
 
-\--- /collapse \---
+\--- / chiudi \---
