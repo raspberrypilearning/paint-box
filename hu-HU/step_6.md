@@ -1,40 +1,40 @@
-## Change the pen width
+## Módosítsd a vonal vastagságát
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Ezúttal hozzáadunk egy kódot, amely lehetővé teszi, hogy a programot használó különböző vastagságú vonalakat rajzoljon.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Először adj hozzá egy új, `vonalvastagság`{:class="block3variables"} nevű változót.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Add hozzá ezt a blokkot a `mindig`{:class="block3control"} hurokon **belülre** a ceruza szereplő kódjánál:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+⚑ -ra kattintáskor
+töröld a rajzokat
+jelmez legyen (ceruza-kék v)
+toll színe legyen [#0035FF]
+mindig 
+ugorj (egérmutató v) helyére
++ toll mérete legyen (width :: variables)
+ha <<egér lenyomva?> és <(egér y) >[-120]>> akkor 
+  tollat tedd le
+  különben 
+  tollat emeld fel
 end
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+A vonal vastagsága most ismételten a `vonalvastagság`{:class="block3variables"} változó értékére áll.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Kattints a jobb egérgombbal a `vonalvastagság`{:class="block3variables"} változóra, amely megjelent a játéktéren, majd kattints a **csúszka** menüpontra.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![képernyőkép](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+A változó értékének módosításához most húzd el a változó alatt látható csúszkát.
 
-![screenshot](images/paint-slider-change.png)
+![képernyőkép](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Teszteld a projekted, és nézd meg, hogy működik-e a vonalvastagság állító kód.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![képernyőkép](images/paint-width-test.png) \--- /task \---
