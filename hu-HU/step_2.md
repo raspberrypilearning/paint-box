@@ -1,24 +1,24 @@
-## Make a pencil
+## Készíts egy ceruzát
 
-Start by making a pencil that you can use to draw on the Stage.
+Készítsünk egy ceruzát, amellyel rajzolhatunk.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Nyisd meg a 'Paint box' Scratch kezdő projektet.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online:** nyisd meg az kezdő projektet innen: [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ha van Scratch fiókod, készíthetsz egy másolatot a **@ Remixelés** gombbal.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: nyisd meg a [kezdő projektet](http://rpf.io/p/en/paint-box-go){:target="_blank"} az offline szerkesztőben.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Ha le szeretnéd tölteni és telepíteni a Scratch offline szerkesztőt, akkor azt itt találod: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Az kezdő projektben egy ceruzát és egy radírt kell látnod:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![képernyőkép](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Add hozzá a Toll bővítményt a projekthez.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,57 +26,57 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Adj hozzá néhány kódot a ceruza szereplőhöz úgy, hogy a szereplő `mindig`{:class="block3control"} kövesse az egérmutatót, így tudsz majd rajzolni vele:
 
-![pencil](images/pencil.png)
+![ceruza](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+⚑ -ra kattintáskor
+mindig 
+  ugorj (mouse pointer v) helyére
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Kattints a zászlóra, majd mozgasd az egérmutatót a háttér előtt, hogy teszteld a kód működését. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Ezután a ceruza csak akkor rajzoljon, `ha`{: class = "block3control"} az egérgombot lenyomva tartod.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Add hozzá ezt a kódot a ceruza szereplőhöz:
 
-![pencil](images/pencil.png)
+![ceruza](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
+⚑ -ra kattintáskor
+mindig 
+  ugorj (mouse pointer v) helyére
+  + ha <mouse down?> akkor 
+  +   tollat tedd le
+  + különben 
+  +   tollat emeld fel
+  + end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Ellenőrizd újra a kódod. Ezúttal mozgasd a ceruzát és tartsd lenyomva az egérgombot. Tudsz rajzolni a ceruzáddal?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![képernyőkép](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: Nem a ceruza hegyével rajzolsz?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Ha a vonalad úgy néz ki, mintha a ceruza közepéről származna, meg kell változtatnod a ceruza szereplőt úgy, hogy a hegye legyen a szereplő középpontja.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Kattints a ceruza szereplőre, majd a **Jelmezek** fülre.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Helyezd át a jelmezt úgy, hogy a ceruza hegye a középpont **felett** legyen.
 
-![Costume center](images/costume-center-annotated.png)
+![Jelmezközpont](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Most mozgasd a ceruzát és rajzolj. A ceruzának most a hegyéből kell húzni a vonalat.
 
 \--- /collapse \---
