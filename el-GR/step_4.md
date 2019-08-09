@@ -1,7 +1,7 @@
 ## Πρόκληση: περισσότερα μολύβια
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Μπορείς να προσθέσεις κόκκινο, κίτρινο και μαύρο μολύβι στο πρόγραμμα ζωγραφικής; Ρίξε μια ματιά στα προηγούμενα βήματα, αν θέλεις μια υπενθύμιση για το πώς να το κάνεις αυτό.
 
 Μπορείς να χρησιμοποιήσεις τα μολύβια σου για να σχεδιάσεις μια εικόνα;
 
-![screenshot](images/paint-final.png)
+![στιγμιότυπο οθόνης](images/paint-final.png)
