@@ -1,6 +1,6 @@
 \--- no-print \---
 
-Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Esta es la versión del proyecto para **Scratch 3**. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -55,4 +55,4 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Puedes [encontrar la solución para este proyecto aquí](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
