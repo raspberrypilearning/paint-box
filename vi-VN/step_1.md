@@ -27,9 +27,9 @@ Làm chương trình sơn của riêng bạn!
 
 ## tiêu đề: bạn sẽ học được gì
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Thêm phần mở rộng bút trong Scratch
++ Sử dụng chương trình phát sóng để kiểm soát một sprite trong Scratch
++ Nhớ lại cách trả lời các sự kiện chuột trong Scratch \--- / sụp đổ \---
 
 ## \--- sự sụp đổ \---
 
@@ -55,4 +55,4 @@ Làm chương trình sơn của riêng bạn!
 
 Nếu bạn cần in dự án này, vui lòng sử dụng phiên bản [máy in thân thiện](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
 
-Bạn có thể [tìm giải pháp cho dự án này tại đây](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- /sự sụp đổ \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /sự sụp đổ \---
