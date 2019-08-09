@@ -12,18 +12,18 @@ steps:
   - 
     title: 制作铅笔
   - 
-    title: 彩笔
+    title: 彩色铅笔
   - 
-    title: '出错'
+    title: '挑战: 快捷方式'
     challenge: true
   - 
     title: 更改笔尖宽度
   - 
     title: 挑战：快捷键
   - 
-    title: '挑战：更多画笔'
+    title: '挑战: 更多铅笔'
     challenge: true
   - 
-    title: Test yourself
+    title: 挑战：更多障碍！
   - 
-    title: 'What next?'
+    title: '挑战：完善你的游戏！'
