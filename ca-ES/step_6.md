@@ -1,40 +1,40 @@
-## Change the pen width
+## Canvieu l'amplada del llapis
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+A continuació, s’afegirà un codi per permetre a la persona que utilitza el vostre programa dibuixar coses amb diferents amplades de llapis.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Primer, afegiu una nova variable anomenada `width`{: class = "block3variables"}.
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- / tasca \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Afegiu aquesta línia **dins de** al `forever`{: class = "block3control"} bucle del codi sprite del llapis:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+quan es fa clic a la bandera
+esborrar tots els
+vestit de canvi a (llapis blau v)
+establir el color del llapis a [# 0035FF]
+per sempre
+anar a (punter del ratolí v)
++ establir la mida del llapis a (ample :: variables)
+si <<mouse down?> i <(ratolí i) > [-120]>> i 
+  penals a
+  més,
+  penals fins al final
+
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+L’amplada del llapis ara es repeteix repetidament en el valor de la variable `width`{: class = "block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- \--- tasca Feu clic dret a l' `ample de`{: class = "block3variables"} variable que es mostra a l'escenari i, a continuació, feu clic a **lliscant**.
 
-![screenshot](images/paint-slider.png) \--- /task \---
+![captura de pantalla](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Ara podeu arrossegar el botó lliscant visible sota de la variable per canviar el valor de la variable.
 
-![screenshot](images/paint-slider-change.png)
+![captura de pantalla](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Poseu a prova el vostre projecte i vegeu si podeu afegir codi per ajustar l’amplada del llapis.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![captura de pantalla](images/paint-width-test.png) \--- /task \---
