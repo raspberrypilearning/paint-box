@@ -6,19 +6,19 @@
 
 **На мрежи**: отвори почетни пројекат на [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ако имаш Скреч налог, можеш да направиш копију тако што ћеш кликнути на **Преради**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Ван мреже**: отвори [почетни пројекат](http://rpf.io/p/en/paint-box-go){:target="_blank"} у уређивачу ван мреже.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+У почетном пројекту, пронаћи ћеш ликове оловке и гумице:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![слика екрана](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Додај проширење Оловка у свој пројекат.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,9 +26,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Додај код лику оловке да `увек`{:class="block3control"} прати стрелицу миша, тако да можеш да црташ:
 
-![pencil](images/pencil.png)
+![оловка](images/pencil.png)
 
 ```blocks3
 када је кликнуто на ⚑ :: events
@@ -39,13 +39,13 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Кликни на заставицу, а затим померај стрелицу миша по позорници да провериш да ли твој код функционише. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Затим, направи да твоја оловка црта `ако је`{:class="block3control"} притиснут тастер миша.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Додај овај код лику оловке:
 
-![pencil](images/pencil.png)
+![оловка](images/pencil.png)
 
 ```blocks3
 када је кликнуто на ⚑ :: events
@@ -61,22 +61,22 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Поново испробај код. Овај пут померај оловку по Позорници док држиш тастер миша. Можеш ли да црташ својом оловком?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![слика екрана](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
 ## title: Да ли ваша оловка не црта из њеног врха?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Ако линија коју твоја оловка црта долази из средине оловке, мораш да промениш лик оловке тако да је врх оловке центар лика.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Кликни на лик оловке, а затим кликни на картицу **Костими**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Помери костим тако да се врх оловке налази **тачно** изнад центра.
 
-![Costume center](images/costume-center-annotated.png)
+![Центар костима](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Сада померај оловку преко Позорнице и цртај. Оловка би сада требало да црта линију из њеног врха.
 
 \--- /collapse \---
