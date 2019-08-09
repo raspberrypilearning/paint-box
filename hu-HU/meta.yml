@@ -1,29 +1,29 @@
 ---
-title: Paint box
+title: Festékes doboz
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: Készítsd el a saját rajzoló programod
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Introduction
+    title: Bevezetés
   - 
-    title: Make a pencil
+    title: Készíts egy ceruzát
   - 
-    title: Coloured pencils
+    title: Színes ceruzák
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Kihívás: parancsikonok'
     challenge: true
   - 
-    title: Undo mistakes
+    title: A hibák visszavonása
   - 
-    title: Change the pencil width
+    title: Változtasd a ceruza vastagságát
   - 
-    title: 'Challenge: more pencils'
+    title: 'Kihívás: billentyűzet parancsok'
     challenge: true
   - 
-    title: Test yourself
+    title: Teszteld magad
   - 
-    title: 'What next?'
+    title: 'Mi a következő lépés?'
