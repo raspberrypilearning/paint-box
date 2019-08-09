@@ -27,9 +27,9 @@
 
 ## title: Шта ћеш научити
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Како додати проширење Оловка у Скречу
++ Како користити разгласе за контролу лика у Скречу
++ Подсетити се како реаговати на догађаје миша у Скречу \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -55,4 +55,4 @@
 
 Уколико је потребно да одштампате овај пројекат, молимо Вас користите [Верзију за штампање](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Решење овог пројекта можете пронаћи [овде](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
