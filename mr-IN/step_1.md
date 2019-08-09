@@ -55,4 +55,4 @@
 
 आपल्याला हे प्रोजेक्ट मुद्रित करण्याची आवश्यकता असल्यास, कृपया [प्रिंटर-फ्रेंडली आवृत्ती](https://projects.raspberrypi.org/en/projects/paint-box/print){: लक्ष्य = "_ blank"} वापरा.
 
-आपण हे करू शकता [येथे या प्रकल्पासाठी उपाय शोधण्यासाठी](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- / संकुचित \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / संकुचित \---
