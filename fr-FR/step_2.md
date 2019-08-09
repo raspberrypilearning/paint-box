@@ -1,24 +1,24 @@
-## Ce dont tu auras besoin
+## Créer un crayon
 
-Start by making a pencil that you can use to draw on the Stage.
+Commence par fabriquer un crayon que tu pourras utiliser pour dessiner sur la scène.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Ouvre le projet de démarrage Scratch 'Boite de peinture'.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**En ligne**: ouvre le projet de démarrage à [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Hors ligne**: ouvre le projet de démarrage [](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} dans l'éditeur hors ligne.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Dans le projet de démarrage, tu devrais voir des sprites crayon et gomme:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![capture d'écran](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Ajoute l'extension Crayon à ton projet.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,57 +26,57 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Ajoute un peu de code au sprite crayon pour que celle-ci suive le pointeur de la souris `pour toujours`{: class = "block3control"} afin que tu puisses dessiner:
 
-![pencil](images/pencil.png)
+![crayon](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-end
+lorsque le drapeau est cliqué
+répéter indéfiniment
+  aller à (pointeur de la souris v)
+fin
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Clique sur le drapeau, puis déplace le pointeur de la souris sur la scène pour vérifier si ton code fonctionne. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Ensuite, fait que ton crayon ne dessine que `si`{: class = "block3control"} le bouton de la souris est cliqué.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Ajoute ce code à ton sprite crayon:
 
-![pencil](images/pencil.png)
+![crayon](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+lorsque le drapeau est cliqué
+répéter indéfiniment
+  aller à (pointeur de la souris v)
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
-end
++ si <mouse down?> alors
+  stylo en position d'écriture
+  sinon
+  relever le stylo
+fin
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- tâche \--- Teste à nouveau ton code. Cette fois, déplace le crayon sur la scène et maintiens le bouton de la souris enfoncé. Peux-tu dessiner avec ton crayon ?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![capture d'écran](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## titre: Est-ce que ton crayon ne dessine pas avec sa pointe?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Si le trait dessiné par ton crayon semble provenir du centre du crayon, tu dois changer le sprite du crayon de manière à ce que son extrémité figure au centre du sprite.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Clique sur le sprite crayon, puis sur l'onglet **Costumes**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Déplace le costume pour que la pointe du crayon soit **juste au-dessus** du centre.
 
-![Costume center](images/costume-center-annotated.png)
+![Centre de costume](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Maintenant, déplace le crayon sur la scène et dessine. Le crayon doit maintenant tracer une ligne à partir de son extrémité.
 
 \--- /collapse \---
