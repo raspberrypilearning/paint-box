@@ -1,98 +1,98 @@
-## Faire des erreurs
+## Annuler les erreurs
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Parfois, des erreurs se produisent, alors ajoute un bouton «effacer» et un bouton gomme.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Ajoute le sprite 'Bloc-X' à partir de la section des lettres de la bibliothèque. Colorie le costume du sprite en rouge et rend-le un peu plus petit. Ce sprite est le bouton 'effacer'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![screenshot](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- Ajoute du code au sprite 'Bloc-X' pour effacer la scène lorsque tu as cliqué sur le sprite.
 
-![cross](images/cross.png)
+![traverser](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+lorsque ce sprite est cliqué
+effacer tout
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Tu n'as pas besoin d'utiliser une diffusion ``{: class = "block3events"} pour effacer la scène, car le bloc `effacer tout`{: class = "block3extensions"} fait ce travail.
 
-Do you see that the pencil sprite includes an eraser costume?
+Vois-tu que le sprite crayon comprend un costume gomme?
 
 ![capture d'écran](images/paint-eraser-costume.png)
 
-Ton projet comprend également un lutin gomme distinct.
+Ton projet comprend également un sprite gomme séparé.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- Fait un clic droit sur ce sprite gomme, et ensuite clique sur **afficher**. Voici à quoi devrait ressembler ta scène:
 
 ![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- Ajoute du code au sprite gomme pour envoyer une `diffusion 'gomme'`{: class = "block3events"} lorsque le sprite gomme est cliqué.
 
-![eraser](images/eraser.png)
+![gomme](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+lorsque ce sprite est cliqué
+diffuser (gomme v)
 ```
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Lorsque le sprite crayon reçoit le message 'gomme', il devrait changer son costume en gomme et changer la couleur du crayon en blanc, qui est la même couleur que la scène!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- Ajoute du code pour créer la gomme.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Ajoute du code au sprite crayon: `Lorsque je reçois`{: class = "block3events"} le message `gomme`{: class = "block3events"} `Basculer sur le costume gomme`{: class = "block3looks"} `Définir la couleur du stylo`{: class = "block3extensions"} sur blanc \--- /hint \--- \--- hint \--- Voici tous les blocs dont tu as besoin:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+définir la couleur du stylo sur [#FFFFFF]
+lorsque je reçois [gomme v]
 
-switch costume to (eraser v)
+basculer sur le costume (gomme v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- Voici à quoi devrait ressembler le code: ![crayon](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+lorsque je reçois [gomme v]
+basculer sur le costume (gomme v)
+définir la couleur du stylo sur [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- Teste ton projet pour voir si tu peux effacer la scène et effacer les lignes au crayon.
 
 ![capture d'écran](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Il y a encore un problème avec le crayon: tu peux dessiner n’importe où sur la scène, y compris près des boutons «effacer» et gomme!
 
 ![screenshot](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- task \--- Pour résoudre ce problème, modifie le code afin que le stylo soit en position d'écriture uniquement si tu cliques sur la souris **et** que la position `y` du pointeur de la souris est supérieure à `-120`:
 
-![pencil](images/pencil.png)
+![crayon](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+lorsque le drapeau est cliqué 
+effacez tout
+basculer sur le costume (crayon-bleu v)
+définir la couleur du stylo sur [# 0035FF]
+répéter indéfiniment
+  allez à (pointeur de la souris v)
++ si <<mouse down?> et <(souris y) > [-120]>> alors 
+  stylo en position d'écriture
+  sinon
+  relever le stylo
+fin
 ```
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- Teste ton projet. Tu ne devrais plus pouvoir dessiner près des boutons.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![capture d'écran](images/paint-fixed.png) \--- /task \---
