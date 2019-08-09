@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## Kihívás: billentyűzet parancsok
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+Létre tudnál hozni olyan kódot, hogy a játéktéren lévő színes négyzetekre vagy gombokra való kattintás helyett egy-egy billentyű megnyomásával aktiválódjanak ezek a funkciók? Például:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>k</kbd> = váltás kék ceruzára
++ <kbd>z</kbd> = váltás zöld ceruzára 
++ <kbd>r</kbd> = váltás radírra
++ <kbd>t</kbd> = teljes képernyő törlése
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+Ha szeretnél, akkor is hozzáadhatsz olyan kódot is, hogy a nyílgombok megnyomása megváltoztassa a vonal vastagságát.
