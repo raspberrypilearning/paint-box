@@ -1,29 +1,29 @@
 ---
-title: Коробка краски
-hero_image: Изображения / banner.png
+title: Коробка для рисования
+hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Сделайте свою собственную программу рисования
+description: Сделай свою собственную программу для рисования
 version: 4.1.0
-last_tested: 2018-11-30
+last_tested: 30-11-2018
 steps:
   - 
     title: Введение
   - 
-    title: Сделать карандаш
+    title: Сделай карандаш
   - 
     title: Цветные карандаши
   - 
-    title: 'Задача: ярлыки'
+    title: 'Задача: горячие клавиши'
     challenge: true
   - 
-    title: Отменить ошибки
+    title: Отмена ошибочных действий
   - 
-    title: Изменить ширину карандаша
+    title: Измени ширину карандаша
   - 
     title: 'Задача: больше карандашей'
     challenge: true
   - 
-    title: Test yourself
+    title: Проверь себя
   - 
-    title: 'What next?'
+    title: 'Что дальше?'
