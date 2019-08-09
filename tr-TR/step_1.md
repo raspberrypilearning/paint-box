@@ -27,9 +27,9 @@ Kendi paint programınızı yapın!
 
 ## title: Ne öğreneceksiniz
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Kalem uzantısını Scratch'a ekleme
++ Scratch'ta bir spriteyi kontrol etmek için yayınları kullanma
++ Scratch'ta fare olaylarına tepki verme
 
 ## \--- collapse \---
 
@@ -55,4 +55,4 @@ Kendi paint programınızı yapın!
 
 Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} kullanın.
 
-Sen edebilir [Burada bu proje için çözüm bulmak](http://rpf.io/p/en/paint-box-get){: target = "_ blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
