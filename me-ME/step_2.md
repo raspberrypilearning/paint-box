@@ -61,7 +61,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Možeš li da crtaš svojom olovkom?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
@@ -75,7 +75,7 @@ Click on the pencil sprite, and then click on the **Costumes** tab.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Costume center](images/costume-center-annotated.png)
+![Centar kostima](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
