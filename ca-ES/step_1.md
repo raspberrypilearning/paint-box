@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Aquesta és la versió del projecte **Scratch 3**. També hi ha un [versió de Scratch 2 del projecte](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- / no-print \---
 
@@ -10,7 +10,7 @@ Fes el teu propi programa de pintura!
 
 ### Què faràs
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Fes clic a la bandera verda per començar. Utilitza el ratolí per moure el llapis i mantingues apretat el botó esquerre del ratolí per dibuixar. Fes clic a un color per canviar els llapis. Fes clic a la goma per canviar-la i utilitzar-la per esborrar el teu treball. Per esborrar la pàgina, fes clic a la creu.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,17 +19,17 @@ Fes el teu propi programa de pintura!
 
 \--- / no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Fes clic a la bandera verda per començar, i utilitzaràs el ratolí per moure el llapis i manté premut el botó esquerre del ratolí per dibuixar. Fent clic en un color es canviarà el color del llapis i, si fas clic la goma, es tornarà una goma!
 
-![aparador](images/showcase.png) \--- / print-only \---
+![aparador](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
 ## títol: Què aprendràs
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Afegiu l’extensió del llapis Scratch
++ Utilitzeu les emissions per controlar un sprite a Scratch
++ Recordar com respondre als esdeveniments del ratolí en Scratch \--- / collapse \---
 
 ## \--- collapse \---
 
@@ -43,16 +43,16 @@ Fes el teu propi programa de pintura!
 
 + Scratch 3 (tant [en línia](http://rpf.io/scratchon){: target = "_ blank"} o [fora de línia](http://rpf.io/scratchoff){: target = "_ blank"})
 
-### Downloads
+### Baixades
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Projecte inicial sense connexió](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
 \--- / collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## títol: Informació addicional per educadors
 
-Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Si necessites imprimir aquest projecte, si us plau, utilitza la [versió per imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / collapse \---
