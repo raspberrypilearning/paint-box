@@ -1,40 +1,40 @@
-## Change the pen width
+## Changer la largeur du stylo
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Ensuite, tu ajouteras du code pour permettre à la personne utilisant ton programme de dessiner des éléments avec différentes largeurs de stylo.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Premièrement, ajoute une nouvelle variable appelée `largeur`{: class = "block3variables"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Ajoute cette ligne **à intérieur** de la boucle `répéter indéfiniment`{: class = "block3control"} du code du sprite crayon:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+lorsque le drapeau est cliqué 
+effacer tout
+basculer sur le costume (crayon-bleu v)
+définir la couleur du stylo sur [# 0035FF]
+répéter indéfiniment
+aller à (pointeur de la souris v)
++ définir la taille du stylo sur (largeur :: variables)
+si <<mouse down?> et <(souris y) > [-120]>> alors 
+  stylo en position d'écriture
+  sinon
+  relever le stylo
+fin
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+La largeur du stylo est maintenant définie à plusieurs reprises sur la valeur de la variable `largeur`{: class="block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Fait un clic droit sur la variable `largeur`{: class = « block3variables »} affichée sur la scène, puis clique sur **curseur**.
 
 ![capture d'écran](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Tu peux maintenant faire glisser le curseur visible sous la variable pour modifier la valeur de la variable.
 
 ![capture d'écran](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Teste ton projet et vois si tu peux ajouter du code pour ajuster la largeur du stylo.
 
 ![screenshot](images/paint-width-test.png) \--- /task \---
