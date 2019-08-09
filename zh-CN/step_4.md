@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## 挑战: 更多铅笔
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+你可以在你的油漆程序中添加红色，黄色和黑色铅笔吗？ 如果您想要提醒如何执行此操作，请查看前面的步骤。
 
-Can you use your pencils to draw a picture?
+你能用你的程序画出一副画吗？
 
-![截屏](images/paint-final.png)
+![screenshot](images/paint-final.png)
