@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Kihívás: több ceruza
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Tudnál hozzáadni piros, sárga és fekete ceruzákat a programodhoz? Nézd meg a korábbi lépéseket emlékeztetőül arra hogyan kell ezt megtenned.
 
-Can you use your pencils to draw a picture?
+Tudsz rajzolni az új ceruzáiddal?
 
-![screenshot](images/paint-final.png)
+![képernyőkép](images/paint-final.png)
