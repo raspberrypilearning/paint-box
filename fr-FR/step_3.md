@@ -1,99 +1,99 @@
 ## Crayons de couleurs
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Tu vas maintenant ajouter des crayons de couleurs différents à ton projet et permettre à l'utilisateur de les choisir.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- task \--- Renomme le sprite `crayon` en `crayon bleu`
 
-![rename-pencil](images/rename-pencil.png) \--- /task \---
+![renommer-crayon](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Fait un clic droit sur le sprite crayon et duplique le costume "crayon bleu".
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![capture d'écran](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Nomme le nouveau costume 'crayon-vert' et colorie le crayon en vert.
 
-![screenshot](images/paint-pencil-green.png)
+![capture d'écran](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Dessine deux nouveaux sprites: un carré bleu et un carré vert. Ceux-ci sont pour choisir entre le crayon bleu et vert.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![capture d'écran](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Renomme les nouveaux sprites pour qu'ils s'appellent 'bleu' et 'vert'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Ajoute du code au sprite 'vert' afin que, lorsque ce sprite est cliqué, il `diffuse`{: class = "block3events"} le message "vert".
 
-![green square](images/green_square.png)
+![carré vert](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+lorsque ce sprite est cliqué 
+diffuse (vert v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Le sprite crayon devrait écouter le message "vert" et modifier son costume et sa couleur de crayon en réponse.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Bascule vers ton sprite crayon. Ajoute du code de sorte que lorsque ce sprite reçoit la diffusion `vert`{: class = "block3events"}, il passe au costume de crayon vert et change la couleur du stylo en vert.
 
-![pencil](images/pencil.png)
+![crayon](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+lorsque je reçois [vert v]
+basculer sur le costume (crayon-vert v)
+définir la couleur du stylo sur [# 00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Pour permettre au crayon de colorier en vert, clique sur le carré coloré dans le bloc `définir la couleur du crayon`{class:"block3extensions"}, et ensuite clique sur le sprite carré vert. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Reproduis les mêmes étapes afin de pouvoir changer la couleur du crayon en bleu.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Clique sur le sprite carré bleu et ajoute ce code:
 
-![blue_square](images/blue_square.png)
+![carré_bleu](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+lorsque ce sprite est cliqué 
+diffuse (bleu v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Clique ensuite sur le sprite crayon et ajoute ce code: ![crayon](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
-```
-
-\--- /task \---
-
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
-
-![pencil](images/pencil.png)
-
-```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
-end
+lorsque je reçois [bleu v]
+basculer sur le costume (crayon-bleu v)
+définir la couleur du stylo sur [# 0000ff]
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+\--- task \--- Enfin, ajoute ce code pour indiquer au sprite crayon quelle couleur avec laquelle commencer et pour t'assurer que l'écran est clair quand ton programme démarre.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+![crayon](images/pencil.png)
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+```blocks3
+lorsque le drapeau est cliqué 
++ effacer tout
++ basculer sur le costume (crayon-bleu v)
++ définir la couleur du crayon sur [# 0035FF]
+répéter indéfiniment
+  allez à (pointeur de la souris v)
+si <mouse down?> alors
+  stylo en position d'écriture
+  sinon
+  relever le stylo
+fin
+```
+
+\--- /task \---
+
+Si tu préfères, tu peux commencer avec un crayon de couleur différente.
+
+\--- task \--- Teste ton code. Peux-tu basculer entre les couleurs de crayon bleu et vert en cliquant sur les sprites carrés bleus ou verts?
+
+![capture d'écran](images/paint-pens-test.png) \--- /task \---
