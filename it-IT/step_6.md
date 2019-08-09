@@ -1,40 +1,40 @@
-## Change the pen width
+## Cambia la larghezza della penna
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Quindi aggiungerai il codice per consentire alla persona che usa il tuo programma di disegnare cose con diverse larghezze di penna.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- prima cosa, aggiungi una nuova variabile chiamata `width`{: class = "block3variables"}.
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+[[[generic-scratch3-add-variable]]] \--- / compito \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Aggiungi questa riga **dentro** the `forever`{: class = "block3control"} ciclo del codice dello sprite della matita:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+quando il flag ha fatto clic su
+cancella tutto il costume di
+switch su (matita-blu v)
+imposta il colore della penna su [# 0035FF]
+per sempre
+vai a (puntatore del mouse v)
++ imposta la dimensione della penna su (larghezza :: variabili)
+se <<mouse down?> e <(mouse y) > [-120]>> quindi 
+  penna giù
+  altrimenti
+  penna su
+fine
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+La larghezza della penna ora viene ripetutamente impostata sul valore della variabile `width`{: class = "block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Fare clic con il pulsante destro del mouse sulla variabile `width`{: class = "block3variables"} visualizzata sullo stage, quindi fare clic su **slider**.
 
 ![schermata](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Ora puoi trascinare il cursore che è visibile sotto la variabile per cambiare il valore della variabile.
 
 ![screenshot](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Testare il progetto e vedere se è possibile aggiungere codice per regolare la larghezza della penna.
 
 ![screenshot](images/paint-width-test.png) \--- /task \---
