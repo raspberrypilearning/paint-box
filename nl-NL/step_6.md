@@ -35,6 +35,6 @@ Je kunt nu de schuifregelaar onder de variabele verslepen om de waarde te wijzig
 
 ![screenshot](images/paint-slider-change.png)
 
-\--- taak \--- Test je project en kijk of je de penbreedte kunt aanpassen.
+\--- task \--- Test je project en kijk of je de penbreedte kunt aanpassen.
 
-![screenshot](images/paint-width-test.png) -- /task \---
+![screenshot](images/paint-width-test.png) \--- /task \---
