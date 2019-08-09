@@ -1,6 +1,6 @@
 ---
-title: Paint box
-hero_image: imatges / banner.png
+title: Caixa de pintura
+hero_image: images/banner.png
 listed: true
 copyedit: false
 description: Fes el teu propi programa de pintura
@@ -10,20 +10,20 @@ steps:
   - 
     title: Introducció
   - 
-    title: Make a pencil
+    title: Feu un llapis
   - 
     title: Llapis de colors
   - 
     title: 'Repte: dreceres'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Desfés els errors
   - 
-    title: Change the pencil width
+    title: Canvieu l'amplada del llapis
   - 
     title: 'Repte: més llapis'
     challenge: true
   - 
-    title: Test yourself
+    title: Prova-ho tu mateix
   - 
-    title: 'What next?'
+    title: 'I ara què ve?'
