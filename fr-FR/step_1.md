@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -10,7 +10,7 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 ### Ce que tu feras
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Clique sur le drapeau vert pour commencer. Utilise la souris pour déplacer le crayon et maintiens le bouton gauche de la souris pour dessiner. Clique sur une couleur pour changer de crayons. Clique sur la gomme pour l'utiliser, et utilise-la pour effacer ton travail. Pour effacer la page, clique sur la croix.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +19,7 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Tu cliqueras sur le drapeau vert pour commencer. Tu utiliseras la souris pour déplacer le crayon et le bouton gauche de la souris pour dessiner. Cliquer sur une couleur changera les couleurs du crayon, et cliquer sur la gomme sélectionnera la gomme !
 
 ![démonstration](images/showcase.png) \--- /print-only \---
 
@@ -27,13 +27,13 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 ## title: Ce que tu vas apprendre
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Ajouter l'extension crayon dans Scratch
++ Utiliser des diffusions pour contrôler un sprite dans Scratch
++ Rappelle-toi comment répondre aux événements de souris dans Scratch \--- / collapse \---
 
 ## \--- collapse \---
 
-## title: Ce qu'il faut avoir
+## title: Ce dont tu auras besoin
 
 ### Matériel informatique
 
@@ -43,16 +43,16 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 + Scratch 3 ( [en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
 
-### Downloads
+### Téléchargements
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Projet de démarrage hors connexion](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
-Question
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Informations supplémentaires pour les éducateurs
 
 Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/paint-box/print) {: target = "_ blank"}.
 
-You can [find the solution for this project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
