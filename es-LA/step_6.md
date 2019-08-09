@@ -1,6 +1,6 @@
-## Cambiar el ancho del marcador
+## Cambiar el ancho del lápiz
 
-Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores de marcador.
+Luego vas a añadir código para permitir que la persona que use tu programa dibuje cosas con diferentes anchos de lapices.
 
 \--- task \--- Primero, añade una nueva variable llamada `width`{:class="block3variables"}.
 
@@ -23,18 +23,18 @@ if <<mouse down?> and <(mouse y) > [-120]>> then
 end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-El ancho del marcador ahora se vuelve repetidamente del valor de la variable `width`{:class="block3variables"}.
+El ancho del lápiz ahora se vuelve repetidamente del valor de la variable `width`{:class="block3variables"}.
 
-\--- task \--- Haz clic a la derecha de la variable `width`{:class="block3variables"} que se muestra en el Escenario, y luego haz clic en **slider**.
+\--- task \--- Clic derecho en la variable `width`{:class="block3variables"} que se muestra en el Escenario, y luego haz clic en **slider**.
 
-![captura de pantalla](images/paint-slider.png) \--- /task \---
+![captura de pantalla](images/paint-slider.png) \--- / tarea \---
 
 Ahora puedes arrastrar el deslizador que se ve debajo de la variable para cambiar el valor de la misma.
 
 ![captura de pantalla](images/paint-slider-change.png)
 
-\--- task \--- Prueba tu proyecto y mira si puedes añadir código para ajustar el ancho del marcador.
+\--- task \--- Prueba tu proyecto y mira si puedes añadir código para ajustar el ancho del lápiz.
 
-![captura de pantalla](images/paint-width-test.png) \--- /task \---
+![captura de pantalla](images/paint-width-test.png) \--- / tarea \---
