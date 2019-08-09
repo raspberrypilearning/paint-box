@@ -1,98 +1,99 @@
-## Undo mistakes
+## A hibák visszavonása
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Rajzoláskor néha hibákat követünk el, ezért készítsünk egy „törlés” gombot és egy radír gombot is.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Add hozzá a 'Block-X' szereplőt a Betűk könyvtárból. Színezd pirosra a jelmezét, és legyen egy kicsit kisebb. Ez lesz a "törlés" gomb.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![képernyőkép](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- Add hozzá a következő kódot a 'Block-X' szereplőhöz, hogy törölje a játékteret, amikor rákattintasz.
 
-![cross](images/cross.png)
+![kereszt](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+ezen szereplőre kattintáskor
+töröld a rajzokat
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+A játéktér törlésére a `küldj üzenetet`{:class="block3events"} blokk helyett a `töröld a rajzokat`{:class="block3extensions"} blokkot használjuk.
 
-Do you see that the pencil sprite includes an eraser costume?
+Látod, hogy a ceruza szereplő tartalmaz egy radír (eraser) jelmezt?
 
-![screenshot](images/paint-eraser-costume.png)
+![képernyőkép](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+A projekt tartalmaz egy különálló radír (eraser) szereplőt is.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- Kattints a ceruza szereplő radír jelmezére. Most így kell kinéznie a játéktérnek:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![képernyőkép](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- Add hozzá egy olyan kódot a radír szereplőhöz, hogy `küldjön egy 'radír' üzenetet`{:class="block3events"}, ha a radír szereplőre kattintanak.
 
-![eraser](images/eraser.png)
+![radír](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+ezen szereplőre kattintáskor
+küldj üzenetet: (radír v)
 ```
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Amikor a ceruza szereplő megkapja a „radír” üzenetet, át kell változtatnia a jelmezét a radírra, és a színét fehérre, ami ugyanolyan színű, mint a játéktér!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- Add hozzá néhány kódot a radír funkció elkészítéséhez.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Add hozzá ezeket a kódokat a ceruza szereplőhöz: `radír üzenet érkezésekor`{:class="block3events"} `a jelmez legyen`{:class="block3looks"} a radír `a toll színe`{:class="block3extensions"} fehér \--- /hint \--- \--- hint \--- Ezekre a kódblokkokra lesz szükséged:
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+toll színe legyen [#FFFFFF]
 
-switch costume to (eraser v)
+[radír v] üzenet érkezésekor
+
+jelmez legyen (radír v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![ceruza](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+[radír v] üzenet érkezésekor
+jelmez legyen (radír v)
+toll színe legyen [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- Teszteld a projekted, győződj meg arról, hogy tudod törölni a teljes játékteret és működik a radír is.
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+![képernyőkép](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Van még egy probléma a ceruzával: bárhova lehet rajzolni, beleértve a "törlés" és a radírgombokat is!
 
-![screenshot](images/paint-draw-problem.png)
+![képernyőkép](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- feladat \--- Ennek kijavításához változtasd meg a kódot úgy, hogy a ceruza/radír csak akkor fogjon, ha kattintasz **és** az egérmutató `y` helyzete nagyobb, mint `-120`:
 
-![pencil](images/pencil.png)
+![ceruza](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+⚑ -ra kattintáskor
+töröld a rajzokat
+jelmez legyen (ceruza-kék v)
+toll színe legyen [#0035FF]
+mindig 
+  ugorj (egérmutató v) helyére
++ha <<egér lenyomva?> és <(egér y) > [-120]>> akkor 
+  tollat tedd 
+  különben 
+  tollat emeld fel
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- Teszteld a projekted. Most már nem tudsz a gombok közelében rajzolni.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![képernyőkép](images/paint-fixed.png) \--- /task \---
