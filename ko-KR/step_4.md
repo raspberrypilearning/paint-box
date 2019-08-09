@@ -1,6 +1,6 @@
 ## 도전 과제: 더 많은 연필들
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+빨간색, 노란색, 검은색 연필들을 추가 할 수 있을까요? 이 작업을 수행하는 방법에 대한 알림을 원하면 이전 단계를 살펴보십시오.
 
 새 연필들을 사용해서 그림을 그릴 수 있나요?
 
