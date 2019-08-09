@@ -1,4 +1,4 @@
-## Desafío: comandos para teclado
+## Reto: comandos del teclado
 
 ¿Puedes añadir código de manera que, en lugar de hacer clic en los cuadrados de color o los botones en el Escenario, puedas hacer que sucedan cosas al presionar teclas del teclado? Por ejemplo:
 
