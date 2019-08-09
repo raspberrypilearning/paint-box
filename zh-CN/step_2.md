@@ -1,24 +1,24 @@
-## Make a pencil
+## 制作铅笔
 
-Start by making a pencil that you can use to draw on the Stage.
+首先制作一支可以用来在舞台上画画的铅笔。
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- 打开'Paint box'Scratch starter项目。
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**在线**：在 [rpf.io/paint-box-on](http://rpf.io/paint-box-on){：target =“_ blank”}打开启动项目
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果您有Scratch帐户，可以单击 **Remix**制作副本。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**离线**：在离线编辑器中打开 [启动项目](http://rpf.io/p/en/paint-box-go){：target =“_ blank”}。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+如果您需要下载并安装Scratch离线编辑器，可以在 [rpf.io/scratchoff](http://rpf.io/scratchoff){：target =“_ blank”}找到它。
 
-In the starter project, you should see pencil and eraser sprites:
+在初学者项目中，你应该看到铅笔和橡皮擦精灵：
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![截屏](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+将Pen扩展添加到项目中。
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,57 +26,57 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+添加一些代码到铅笔精灵，使精灵跟随鼠标指针 `永远`{：class =“block3control”}，以便您可以绘制：
 
-![pencil](images/pencil.png)
+![铅笔](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-end
+当标志点击
+永远
+  转到（鼠标指针v）
+结束
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- 单击标志，然后在舞台上移动鼠标指针以测试代码是否有效。 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+接下来，如果</code>{{class =“block3control”}单击鼠标按钮，则使您的铅笔仅绘制 `。</p>
 
-\--- task \--- Add this code to your pencil sprite:
+<p>--- task ---
+将此代码添加到你的铅笔精灵中：</p>
 
-![pencil](images/pencil.png)
+<p><img src="images/pencil.png" alt="铅笔" /></p>
 
-```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+<pre><code class="blocks3">当标志点击
+永远
+  去（鼠标指针v）
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
-end
-```
++如果 <mouse down?> 然后
+  笔下来
+  否则
+  笔上升
+结束
+`</pre> 
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- 再次测试你的代码。 这一次，在舞台上移动铅笔并按住鼠标按钮。 你能用铅笔画画吗？
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![截屏](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## 标题：你的铅笔不是从它的尖端画出来的吗？
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+如果铅笔绘制的线看起来像铅笔的中间，你需要更改铅笔精灵，这样尖端就是精灵的中心。
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+单击铅笔精灵，然后单击 **Costumes** 选项卡。
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+移动服装，使铅笔的尖端在中心的</strong> 上方 **。</p> 
 
-![Costume center](images/costume-center-annotated.png)
+![造型中心](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+现在在舞台上移动铅笔并画画。 铅笔现在应该从它的尖端画一条线。
 
 \--- /collapse \---
