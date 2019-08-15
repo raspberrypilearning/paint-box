@@ -27,9 +27,9 @@ Maak je eigen teken programma!
 
 ## title: Wat ga je leren
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Voeg de pen uitbreiding toe in Scratch
++ Gebruik uitzendingen om een sprite in Scratch te besturen
++ Herinner hoe je moet reageren op muis gebeurtenissen in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -55,4 +55,4 @@ Maak je eigen teken programma!
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_ blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Je kunt het [voltooide project hier](http://rpf.io/p/en/paint-box-get)"{:target="_blank"} vinden. \--- /collapse \---
