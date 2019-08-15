@@ -1,4 +1,4 @@
-## Fouten maken
+## Fouten ongedaan maken
 
 Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 
@@ -58,9 +58,7 @@ wanneer ik signaal [gum v] ontvang
 verander uiterlijk naar (gum v)
 ```
 
---- /hint --- 
---- hint --- 
-Hier is hoe je code eruit zou moeten zien: ![potlood](images/pencil.png)
+--- /hint --- --- hint --- Hier is hoe je code eruit zou moeten zien: ![potlood](images/pencil.png)
 
 ```blocks3
 wanneer ik signaal [gum v] ontvang
@@ -68,9 +66,7 @@ verander uiterlijk naar (gum v)
 maak penkleur [#FFFFFF]
 ```
 
---- /hint ---
---- /hints --- 
---- /task ---
+--- /hint --- --- /hints --- --- /task ---
 
 --- task --- Test je project om te zien of je het speelveld kunt wissen en potloodlijnen kunt wissen.
 

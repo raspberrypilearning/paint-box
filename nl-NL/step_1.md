@@ -28,11 +28,9 @@ Maak je eigen teken programma!
 title: Wat ga je leren
 ---
 
-+ Hoe gebruik je de Pen uitbreiding in Scratch
-+ Uitzendingen gebruiken om te communiceren tussen sprites
-+ Hoe je muisacties detecteert 
-
---- /collapse ---
++ Voeg de pen uitbreiding toe in Scratch
++ Gebruik uitzendingen om een sprite in Scratch te besturen
++ Herinner hoe je moet reageren op muis gebeurtenissen in Scratch --- /collapse ---
 
 --- collapse ---
 ---
@@ -49,7 +47,7 @@ title: Wat heb je nodig
 
 ### Downloads
 
-+ [ Offline startproject ](http://rpf.io/p/nl-NL/paint-box-go){:target="_blank"}
++ [Offline start project](http://rpf.io/p/nl-NL/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -60,5 +58,4 @@ title: Aanvullende informatie voor docenten
 
 Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/paint-box/print){:target="_blank"}.
 
-Hier is een link [naar de oplossing](http://rpf.io/p/nl-NL/paint-box-get){:target="_blank"} voor dit project. 
---- /collapse ---
+Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/paint-box-get){:target="_blank"} vinden. --- /collapse ---

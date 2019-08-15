@@ -2,19 +2,23 @@
 
 Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de mogelijkheid geven om een kleur te kiezen.
 
---- task --- Klik op de potloodsprite, klik op **Uiterlijken** en dupliceer het 'potlood-blauw' uiterlijk.
+--- task --- Hernoem de `potlood` sprite naar `potlood-blauw`
 
-![screenshot](images/paint-blue-duplicate.png) --- /task ---
+![hernoem-potlood](images/rename-pencil.png) --- /task ---
+
+--- task --- Rechts-klik op de potlood sprite en dupliceer het '-potlood-blauw' uiterlijk.
+
+![schermafdruk](images/paint-blue-duplicate.png) --- /task ---
 
 --- task --- Hernoem je nieuwe kostuum 'potlood-groen' en kleur het potlood groen.
 
-![screenshot](images/paint-pencil-green.png)
+![schermafdruk](images/paint-pencil-green.png)
 
 --- /task ---
 
 --- task --- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn bedoeld om te kiezen tussen het blauwe en het groene potlood.
 
-![screenshot](images/paint-selectors.png) --- /task ---
+![schermafdruk](images/paint-selectors.png) --- /task ---
 
 --- task --- Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
@@ -35,7 +39,7 @@ zend signaal (groen v)
 
 De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het uiterlijk en het potlood wijzigen in groen.
 
---- task --- Schakel over naar je potlood sprite. Voeg wat code toe zodat wanneer deze sprite het `groen` {:class="block3events"} signaal ontvangt, deze moet overschakelen naar het groene potlooduiterlijk en de potloodkleur moet veranderen in groen.
+--- task --- Schakel over naar je potlood sprite. Voeg wat code toe zodat wanneer deze sprite het `groen`{:class="block3events"} signaal ontvangt, deze moet overschakelen naar het groene potlooduiterlijk en de potloodkleur moet veranderen in groen.
 
 ![potlood](images/pencil.png)
 
@@ -90,6 +94,6 @@ end
 
 Als je wilt, kunt je met een ander kleurpotlood beginnen.
 
---- task --- Test your code. Kun je schakelen tussen het blauwe en groene potlood door op de blauwe of groene vierkant te klikken?
+--- task --- Test je code. Kun je schakelen tussen het blauwe en groene potlood door op de blauwe of groene vierkant te klikken?
 
-![screenshot](images/paint-pens-test.png) --- /task ---
+![schermafdruk](images/paint-pens-test.png) --- /task ---
