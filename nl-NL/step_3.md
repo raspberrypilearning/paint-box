@@ -2,23 +2,23 @@
 
 Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de mogelijkheid geven om een kleur te kiezen.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- task \--- Hernoem de `potlood` sprite naar `potlood-blauw`
 
-![rename-pencil](images/rename-pencil.png) \---/task\---
+![hernoem-potlood](images/rename-pencil.png) \---/task\---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Rechts-klik op de potlood sprite en dupliceer het '-potlood-blauw' uiterlijk.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![schermafdruk](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Hernoem je nieuwe kostuum 'potlood-groen' en kleur het potlood groen.
 
-![screenshot](images/paint-pencil-green.png)
+![schermafdruk](images/paint-pencil-green.png)
 
 \--- /task \---
 
 \--- task \--- Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn bedoeld om te kiezen tussen het blauwe en het groene potlood.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![schermafdruk](images/paint-selectors.png) \--- /task \---
 
 \--- task \--- Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
@@ -96,4 +96,4 @@ Als je wilt, kunt je met een ander kleurpotlood beginnen.
 
 \--- task \--- Test je code. Kun je schakelen tussen het blauwe en groene potlood door op de blauwe of groene vierkant te klikken?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![schermafdruk](images/paint-pens-test.png) \--- /task \---
