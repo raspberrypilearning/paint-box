@@ -14,7 +14,7 @@ Als je de Scratch offline editor wilt downloaden en installeren dan kan je die v
 
 In het start project zou je een potlood- en een gum-sprite moeten zien:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![schermafdruk](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -39,7 +39,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Klik op de vlag en verplaats de muisaanwijzer vervolgens door het werkgebied om te testen of je code werkt. \--- /task \---
 
 Laat vervolgens je potlood alleen tekenen `als`{:class="block3control"} als de muisknop wordt ingedrukt.
 
@@ -63,7 +63,7 @@ end
 
 \--- task \--- Test je code opnieuw. Verplaats deze keer het potlood in het speelveld en houd de muisknop ingedrukt. Kun je met je potlood tekenen?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![schermafdruk](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
@@ -75,7 +75,7 @@ Klik op de potlood sprite en klik vervolgens op de **Uiterlijken** tab.
 
 Verplaats het hele uiterlijk zodat de punt van het potlood zich **net boven** het midden bevindt.
 
-![Costume center](images/costume-center-annotated.png)
+![Middelpunt uiterlijk](images/costume-center-annotated.png)
 
 Beweeg nu het potlood in het speelveld en teken. Het potlood moet nu een lijn trekken vanaf de punt.
 
