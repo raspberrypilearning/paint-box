@@ -1,4 +1,4 @@
-## Test yourself
+## Test jezelf
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Deze quiz werkt mogelijk niet in Internet Explorer. Als je de quiz niet kunt zien, probeer dan een andere browser.</em></p>
 </script>
