@@ -55,4 +55,4 @@
 
 이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}을 사용해 주십시오.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
