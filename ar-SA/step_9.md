@@ -1,6 +1,6 @@
-## What next?
+## ما التالي؟
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+و الآن بعد انهائك لمشروع 'صندوق الرسم', جرب [ مشروع 'سباق الزوارق'](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), و الذي ستتعلم من خلاله كيفية صنع لعبة تقوم فيها بتحريك قارب بين عدد من العقبات.
 
 \--- no-print \---
 
