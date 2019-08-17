@@ -80,9 +80,9 @@ mettre la couleur du stylo à [#0000ff]
 lorsque le drapeau est cliqué 
 + effacer tout
 + basculer sur le costume (crayon-bleu v)
-+ définir la couleur du crayon sur [# 0035FF]
++ mettre la couleur du crayon à [#0035FF]
 répéter indéfiniment
-  allez à (pointeur de la souris v)
+  allez à (pointeur de souris v)
 si <mouse down?> alors
   stylo en position d'écriture
   sinon
