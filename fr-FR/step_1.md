@@ -6,7 +6,7 @@ Ceci est la version **Scratch 3** du projet. Il existe également une version [S
 
 ## Introduction
 
-Dans ce projet, Tu vas créer ton propre programme de peinture !
+Dans ce projet, Tu vas créer ton propre programme de dessin !
 
 ### Ce que tu feras
 
@@ -19,7 +19,7 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 \--- /no-print \---
 
-\--- print-only \--- Tu cliqueras sur le drapeau vert pour commencer. Tu utiliseras la souris pour déplacer le crayon et le bouton gauche de la souris pour dessiner. Cliquer sur une couleur changera les couleurs du crayon, et cliquer sur la gomme sélectionnera la gomme !
+\--- print-only \--- Tu cliqueras sur le drapeau vert pour commencer et tu utiliseras la souris pour déplacer le crayon et le bouton gauche de la souris pour dessiner. Cliquer sur une couleur changera les couleurs du crayon, et cliquer sur la gomme sélectionnera la gomme !
 
 ![démonstration](images/showcase.png) \--- /print-only \---
 
@@ -29,11 +29,11 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 + Ajouter l'extension crayon dans Scratch
 + Utiliser des diffusions pour contrôler un sprite dans Scratch
-+ Rappelle-toi comment répondre aux événements de souris dans Scratch \--- / collapse \---
++ Rappelle-toi comment répondre aux événements de souris dans Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Ce dont tu auras besoin
+## title: Ce qu'il te faut
 
 ### Matériel informatique
 
@@ -41,11 +41,11 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 ### Logiciels
 
-+ Scratch 3 ( [en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
++ Scratch 3 ([en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors ligne](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
-+ [Projet de démarrage hors connexion](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
++ [Projet de démarrage hors connexion](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -53,6 +53,6 @@ Dans ce projet, Tu vas créer ton propre programme de peinture !
 
 ## title: Informations supplémentaires pour les éducateurs
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/paint-box/print) {: target = "_ blank"}.
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
