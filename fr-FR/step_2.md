@@ -8,7 +8,7 @@ Commence par fabriquer un crayon que tu pourras utiliser pour dessiner sur la sc
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors ligne**: ouvre le projet de démarrage [](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} dans l'éditeur hors ligne.
+**Hors ligne**: ouvre le [projet de démarrage](http://rpf.io/p/en/paint-box-go){:target="_blank"} dans l'éditeur hors ligne.
 
 Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
@@ -26,14 +26,14 @@ Ajoute l'extension Crayon à ton projet.
 
 \--- task \---
 
-Ajoute un peu de code au sprite crayon pour que celle-ci suive le pointeur de la souris `pour toujours`{: class = "block3control"} afin que tu puisses dessiner:
+Ajoute un peu de code au sprite crayon pour que celle-ci suive le pointeur de la souris `pour toujours`{:class="block3control"} afin que tu puisses dessiner:
 
 ![crayon](images/pencil.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-  aller à (pointeur de la souris v)
+  aller à (pointeur de souris v)
 fin
 ```
 
@@ -41,7 +41,7 @@ fin
 
 \--- task \--- Clique sur le drapeau, puis déplace le pointeur de la souris sur la scène pour vérifier si ton code fonctionne. \--- /task \---
 
-Ensuite, fait que ton crayon ne dessine que `si`{: class = "block3control"} le bouton de la souris est cliqué.
+Ensuite, fait que ton crayon ne dessine que `si`{:class="block3control"} le bouton de la souris est cliqué.
 
 \--- task \--- Ajoute ce code à ton sprite crayon:
 
