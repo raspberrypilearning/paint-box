@@ -67,7 +67,7 @@ fin
 
 ## \--- collapse \---
 
-## titre: Est-ce que ton crayon ne dessine pas avec sa pointe?
+## title: Est-ce que ton crayon ne dessine pas au niveau de sa pointe?
 
 Si le trait dessiné par ton crayon semble provenir du centre du crayon, tu dois changer le sprite du crayon de manière à ce que son extrémité figure au centre du sprite.
 
