@@ -6,7 +6,7 @@ Parfois, des erreurs se produisent, alors ajoute un bouton "effacer" et un bouto
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![capture d'écran](images/paint-x.png) \--- /task \---
 
 \--- task \--- Ajoute du code au sprite "Bloc-X" pour effacer la scène lorsque tu as cliqué sur le sprite.
 
@@ -29,7 +29,7 @@ Ton projet comprend également un sprite gomme séparé.
 
 \--- task \--- Fait un clic droit sur ce sprite gomme, et ensuite clique sur **afficher**. Voici à quoi devrait ressembler ta scène:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![capture d'écran](images/paint-eraser-stage.png) \--- /task \---
 
 \--- task \--- Ajoute du code au sprite gomme pour envoyer un `un envoi à tous "gomme"`{:class="block3events"} lorsque le sprite gomme est cliqué.
 
@@ -71,7 +71,7 @@ mettre la couleur du stylo à [#FFFFFF]
 
 Il y a encore un problème avec le crayon: tu peux dessiner n’importe où sur la scène, y compris près des boutons "effacer" et gomme!
 
-![screenshot](images/paint-draw-problem.png)
+![capture d'écran](images/paint-draw-problem.png)
 
 \--- task \--- Pour résoudre ce problème, modifie le code afin que le stylo soit en position d'écriture uniquement si tu cliques sur la souris **et** que la position `y` du pointeur de la souris est supérieure à `-120`:
 
@@ -81,7 +81,7 @@ Il y a encore un problème avec le crayon: tu peux dessiner n’importe où sur 
 lorsque le drapeau est cliqué 
 effacez tout
 basculer sur le costume (crayon-bleu v)
-définir la couleur du stylo sur [# 0035FF]
+mettre la couleur du stylo à [# 0035FF]
 répéter indéfiniment
   allez à (pointeur de la souris v)
 + si <<mouse down?> et <(souris y) > [-120]>> alors 
