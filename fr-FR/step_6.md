@@ -1,12 +1,12 @@
-## Changer la largeur du stylo
+## Change la largeur du stylo
 
 Ensuite, tu ajouteras du code pour permettre à la personne utilisant ton programme de dessiner des éléments avec différentes largeurs de stylo.
 
-\--- task \--- Premièrement, ajoute une nouvelle variable appelée `largeur`{: class = "block3variables"}.
+\--- task \--- Premièrement, ajoute une nouvelle variable appelée `largeur`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Ajoute cette ligne **à intérieur** de la boucle `répéter indéfiniment`{: class = "block3control"} du code du sprite crayon:
+\--- task \--- Ajoute cette ligne **à intérieur** de la boucle `répéter indéfiniment`{:class="block3control"} du code du sprite crayon:
 
 ```blocks3
 lorsque le drapeau est cliqué 
