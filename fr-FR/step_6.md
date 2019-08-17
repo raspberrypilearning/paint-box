@@ -12,10 +12,10 @@ Ensuite, tu ajouteras du code pour permettre à la personne utilisant ton progra
 lorsque le drapeau est cliqué 
 effacer tout
 basculer sur le costume (crayon-bleu v)
-définir la couleur du stylo sur [# 0035FF]
+mettre la couleur du stylo à [# 0035FF]
 répéter indéfiniment
-aller à (pointeur de la souris v)
-+ définir la taille du stylo sur (largeur :: variables)
+aller à (pointeur de souris v)
++ définir la taille du stylo à (largeur :: variables)
 si <<mouse down?> et <(souris y) > [-120]>> alors 
   stylo en position d'écriture
   sinon
@@ -25,9 +25,9 @@ fin
 
 \--- /task \---
 
-La largeur du stylo est maintenant définie à plusieurs reprises sur la valeur de la variable `largeur`{: class="block3variables"}.
+La largeur du stylo est maintenant définie à plusieurs reprises sur la valeur de la variable `largeur`{:class="block3variables"}.
 
-\--- task \--- Fait un clic droit sur la variable `largeur`{: class = « block3variables »} affichée sur la scène, puis clique sur **curseur**.
+\--- task \--- Fait un clic droit sur la variable `largeur`{:class="block3variables"} affichée sur la scène, puis clique sur **curseur**.
 
 ![capture d'écran](images/paint-slider.png) \--- /task \---
 
@@ -37,4 +37,4 @@ Tu peux maintenant faire glisser le curseur visible sous la variable pour modifi
 
 \--- task \--- Teste ton projet et vois si tu peux ajouter du code pour ajuster la largeur du stylo.
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+![capture d'écran](images/paint-width-test.png) \--- /task \---
