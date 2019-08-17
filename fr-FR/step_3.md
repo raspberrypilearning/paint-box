@@ -2,7 +2,7 @@
 
 Tu vas maintenant ajouter des crayons de couleurs différents à ton projet et permettre à l'utilisateur de les choisir.
 
-\--- task \--- Renomme le sprite `crayon` en `crayon bleu`
+\--- task \--- Renomme le costume `crayon` en `crayon bleu`
 
 ![renommer-crayon](images/rename-pencil.png) \--- /task \---
 
@@ -26,27 +26,27 @@ Tu vas maintenant ajouter des crayons de couleurs différents à ton projet et p
 
 \--- /task \---
 
-\--- task \--- Ajoute du code au sprite 'vert' afin que, lorsque ce sprite est cliqué, il `diffuse`{: class = "block3events"} le message "vert".
+\--- task \--- Ajoute du code au sprite 'vert' afin que, lorsque ce sprite est cliqué, il `diffuse`{:class="block3events"} le message "vert".
 
 ![carré vert](images/green_square.png)
 
 ```blocks3
-lorsque ce sprite est cliqué 
-diffuse (vert v)
+quand ce sprite est cliqué 
+envoyer à tous (vert v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
 Le sprite crayon devrait écouter le message "vert" et modifier son costume et sa couleur de crayon en réponse.
 
-\--- task \--- Bascule vers ton sprite crayon. Ajoute du code de sorte que lorsque ce sprite reçoit la diffusion `vert`{: class = "block3events"}, il passe au costume de crayon vert et change la couleur du stylo en vert.
+\--- task \--- Bascule vers ton sprite crayon. Ajoute du code de sorte que lorsque ce sprite reçoit la diffusion `vert`{:class="block3events"}, il passe au costume de crayon vert et change la couleur du stylo en vert.
 
 ![crayon](images/pencil.png)
 
 ```blocks3
-lorsque je reçois [vert v]
+quand je reçois [vert v]
 basculer sur le costume (crayon-vert v)
-définir la couleur du stylo sur [# 00CC44]
+mettre la couleur du stylo à [#00CC44]
 ```
 
 Pour permettre au crayon de colorier en vert, clique sur le carré coloré dans le bloc `définir la couleur du crayon`{class:"block3extensions"}, et ensuite clique sur le sprite carré vert. \--- /task \---
@@ -58,16 +58,16 @@ Reproduis les mêmes étapes afin de pouvoir changer la couleur du crayon en ble
 ![carré_bleu](images/blue_square.png)
 
 ```blocks3
-lorsque ce sprite est cliqué 
-diffuse (bleu v)
+quand ce sprite est cliqué 
+envoyer à tous (bleu v)
 ```
 
 Clique ensuite sur le sprite crayon et ajoute ce code: ![crayon](images/pencil.png)
 
 ```blocks3
-lorsque je reçois [bleu v]
+quand je reçois [bleu v]
 basculer sur le costume (crayon-bleu v)
-définir la couleur du stylo sur [# 0000ff]
+mettre la couleur du stylo à [#0000ff]
 ```
 
 \--- /task \---
