@@ -1,8 +1,8 @@
-## Annuler les erreurs
+## Annule les erreurs
 
-Parfois, des erreurs se produisent, alors ajoute un bouton «effacer» et un bouton gomme.
+Parfois, des erreurs se produisent, alors ajoute un bouton "effacer" et un bouton gomme.
 
-\--- task \--- Ajoute le sprite 'Bloc-X' à partir de la section des lettres de la bibliothèque. Colorie le costume du sprite en rouge et rend-le un peu plus petit. Ce sprite est le bouton 'effacer'.
+\--- task \--- Ajoute le sprite "Bloc-X" à partir de la section des lettres de la bibliothèque. Colorie le costume du sprite en rouge et rend-le un peu plus petit. Ce sprite est le bouton 'effacer'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
