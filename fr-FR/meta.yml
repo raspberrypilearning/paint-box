@@ -1,23 +1,23 @@
 ---
-title: Boîte de peinture
+title: Palette de peinture
 hero_image: images/banner.png
 listed: true
 copyedit: false
 description: Apprend à faire ton propre programme de dessin.
-version: 4
+version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
     title: Introduction
   - 
-    title: Créer un crayon
+    title: Crée un crayon
   - 
     title: Crayons de couleurs
   - 
     title: 'Défi : raccourcis'
     challenge: true
   - 
-    title: Corriger des erreurs
+    title: Corrige des erreurs
   - 
     title: Changer l'épaisseur du trait
   - 
