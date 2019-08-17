@@ -1,10 +1,10 @@
-## Créer un crayon
+## Crée un crayon
 
 Commence par fabriquer un crayon que tu pourras utiliser pour dessiner sur la scène.
 
-\--- task \--- Ouvre le projet de démarrage Scratch 'Boite de peinture'.
+\--- task \--- Ouvre le projet de démarrage Scratch 'Palette de peinture'.
 
-**En ligne**: ouvre le projet de démarrage à [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
+**En ligne**: ouvre le projet de démarrage à [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
