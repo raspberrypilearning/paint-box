@@ -45,7 +45,7 @@ Crea un programma per disegnare!
 
 ### Download
 
-+ [Progetto di avvio offline](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
++ [Progetto di partenza offline](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
 \--- /collapse \---
 
@@ -55,4 +55,4 @@ Crea un programma per disegnare!
 
 Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/paint-box/print){:target = "_ blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / chiudi \---
+Puoi trovare il [progetto completo qui](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / chiudi \---
