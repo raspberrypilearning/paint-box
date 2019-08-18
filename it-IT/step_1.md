@@ -10,7 +10,7 @@ Crea un programma per disegnare!
 
 ### Cosa creerai
 
-\--- no-print \--- Fai clic sulla bandierina verde per vedere l'animazione. Utilizza il mouse per muovere la matita, e tieni premuto il pulsante sinistro per disegnare. Clicca su un colore per cambiare le matite. Clicca sulla gomma per passare ad essa ed usala per cancellare il tuo lavoro. Per cancellare tutto, clicca sulla x.
+\--- no-print \--- Fai clic sulla bandierina verde per vedere l'animazione. Utilizza il mouse per muovere la matita, e tieni premuto il pulsante sinistro per disegnare. Clicca su un colore per cambiare le matite. Clicca sulla gomma per usarla e cancellare il tuo lavoro. Per cancellare tutto, clicca sulla x.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +19,7 @@ Crea un programma per disegnare!
 
 \--- /no-print \---
 
-\--- print-only \--- Fai clic sulla bandierina verde per iniziare. Utilizzerai il mouse per spostare la matita e tieni premuto il tasto sinistro per disegnare. Cliccando su un colore cambieranno i colori della matita e cliccando sulla gomma si passerà alla gomma!
+\--- print-only \--- Fai clic sulla bandierina verde per iniziare. Utilizzerai il mouse per spostare la matita e, tenendo premuto il tasto sinistro, disegnerai. Cliccando su un colore cambierai il colore della matita e cliccando sulla gomma la potrai utilizzare!
 
 ![showcase](images/showcase.png) \--- /print-only \---
 
@@ -28,7 +28,7 @@ Crea un programma per disegnare!
 ## title: Cosa imparerai
 
 + Aggiungi l'estensione penna in Scratch
-+ Usa le trasmissioni per controllare uno sprite in Scratch
++ Usa l'invio di messaggi per controllare uno sprite in Scratch
 + Ricorda come rispondere agli eventi del mouse in Scratch \--- / collapse \---
 
 ## \--- collapse \---
