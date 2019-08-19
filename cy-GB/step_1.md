@@ -27,7 +27,7 @@ Gwna dy raglen peintio dy hunan!
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
-+ Ychwanegwch yr estyniad pen yn Scratch
++ Ychwanegwch yr estyniad pin yn Scratch
 + Defnyddiwch ddarllediadau i reoli’r ciplun yn Scratch
 + Ail-arddangoswch sut i ymateb i ddigwyddiadau llygoden yn Scratch
 
