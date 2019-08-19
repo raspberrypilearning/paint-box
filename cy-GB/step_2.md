@@ -18,7 +18,7 @@ Yn y prosiect cychwynnol, fe ddylet ti weld corlun pensil a dileuwr:
 
 \--- task \---
 
-Ychwanega'r estyniad Pen i dy brosiect.
+Ychwanega'r estyniad Pin i dy brosiect.
 
 [[[generic-scratch3-add-pen-extension]]]
 
