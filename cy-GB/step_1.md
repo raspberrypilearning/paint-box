@@ -27,9 +27,9 @@ Gwna dy raglen peintio dy hunan!
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Ychwanegwch yr estyniad pen yn Scratch
++ Defnyddiwch ddarllediadau i reoli’r ciplun yn Scratch
++ Ail-arddangoswch sut i ymateb i ddigwyddiadau llygoden yn Scratch
 
 ## \---collapse\---
 
@@ -55,4 +55,4 @@ Gwna dy raglen peintio dy hunan!
 
 Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
