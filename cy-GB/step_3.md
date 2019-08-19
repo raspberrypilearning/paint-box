@@ -2,11 +2,11 @@
 
 Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i’r defnyddiwr ddewis rhyngddyn nhw.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- task \--- Ailenwch y `pencil` i `pencil-blue`
 
 ![ail-enwi-pensil](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+Cliciwch dde ar guplun y pensil, a dyblygu gwisg 'pencil-blue'.
 
 ![sgrinlun](images/paint-blue-duplicate.png) \--- /task \---
 
