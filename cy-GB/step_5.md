@@ -46,7 +46,7 @@ Pan fo'r corlun pensil yn derbyn neges 'dileuwr', fe ddylai newid gwisg i'r dile
 
 \--- task \--- Ychwanega gôd i greu dileuwr.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Ychwanegwch gôd i’r guplun y pensil: `Pan rwy'n derbyn`{:class="block3events"} neges `dileuwr`{:class="block3events"} `Newid gwisg i dileuwr`{:class="block3looks"} `Gosod y pin`{:class="block3extensions"} i wyn \--- /hint \--- \--- hint \--- Dyma’r holl flociau byddwch angen:
 
 ```blocks3
 gosod lliw pin i [#FFFFFF]
