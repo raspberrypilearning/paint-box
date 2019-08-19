@@ -1,4 +1,4 @@
-## Test yourself
+## Mettiti alla prova
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,18 +19,18 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Sample Quiz";
+<pre><code>var quiztitle// = "Quiz d'esempio di Bobby";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Imposta qui le informazioni sulle tue domande. La stringa di risposta corretta deve corrispondere esattamente a
+* la scelta corretta, poiché esegue la corrispondenza delle stringhe. (differenzia tra Maiuscole e minuscole)
 *
 */
 </code></pre>
 
-<p>/**
-*Let's create the randomization of the questions!
-*/</p>
+<p>/ **
+* Creiamo la casualità delle domande!
+* /</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
