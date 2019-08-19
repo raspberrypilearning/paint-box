@@ -38,11 +38,11 @@
 <p>// While there remain elements to shuffle...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
+<pre><code>// Scegli uno degli elementi rimasti...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// E scambialo con l'elemento corrente.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -71,50 +71,50 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which of the following extensions allows you to draw on the screen using sprites in Scratch?",
-        "image"         :   "images/montage-1.png",
-        "choices"       :   [
+        "question": "Quale delle seguenti estensioni ti permette di disegnare sullo schermo usando gli sprite in Scratch?",
+        "image": "images / montage-1.png",
+        "scelte" : [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "B",
-        "explanation"   :   "The pen extension allwos sprites to draw",
+        "corretto": "B",
+        "spiegazione": "L'estensione della penna consente di disegnare",
+    } ,
+    {
+        "domanda": "Quale degli script trarrebbe una linea nera quando" disegnare "è trasmesso?",
+        "immagine": "images / montage-2.png",
+        "scelte": [
+                                " A ",
+                                " B ",
+                                " C ",
+                                " D "
+                            ],
+        " correct ":" A ",
+        " spiegazione ":" La sceneggiatura dovrebbe iniziare - 'quando ricevo il disegno'. ",
     },
     {
-        "question"      :   "Which of the scripts would draw a black line when 'draw' is broaddcast?",
-        "image"         :   "images/montage-2.png",
-        "choices"       :   [
+        "question": "Quale script posizionerebbe la penna verso il basso quando si fa clic con il mouse e la sua posizione verticale è vicino alla parte superiore dello schermo?",
+        "image": "images / montage-3.png" ,
+        "scelte": [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "A",
-        "explanation"   :   "The script should start - 'when I receive draw'.",
-    },
-    {
-        "question"      :   "Which script would place the pen down when the mouse is clicked and it's vertical position is near the top of the screen?",
-        "image"         :   "images/montage-3.png",
-        "choices"       :   [
-                                "A",
-                                "B",
-                                "C",
-                                "D"
-                            ],
-        "correct"       :   "A",
-        "explanation"   :   "The top of the screen would have a y coordinate greater than 120.",
+        "corretto": "A",
+        "spiegazione": "La parte superiore dello schermo sarebbe avere coordinate y superiori a 120. ",
     },
 
 ];
 </code></pre>
 
-<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
-//quiz.forEach(function(q){ return q.choices.scramble()});</p>
+<p>// usa questo per l'errore di sintassi di IE in =>: script ECMA 6 non supportato in IE 11 :(
+//quiz.forEach (funzione (q) {return q.choices.scramble ()});</p>
 
-<p>//use this for ECMA script 6
-//quiz.forEach(q => q.choices.scramble());
+<p>// usa questo per lo script ECMA 6
+//quiz.forEach(q => q.choices.scramble ());
 //console.log(quiz[0].choices);</p>
 
 <p>quiz = shuffle(quiz);</p>
@@ -127,20 +127,20 @@ jQuery(document).ready(function($){
     /**
      * HTML Encoding function for alt tags and attributes to prevent messy
      * data appearing inside tag attributes.
-     */
-    function htmlEncode(value){
-      return $(document.createElement('div')).text(value).html();
+     * /
+    function htmlEncode (value) {
+      return $(document.createElement ('div')).text(value).html();
     }
 
-    /**
-     * This will add the individual choices for each question to the ul#choice-block
+    / **
+     * Questo aggiungerà le singole scelte per ogni domanda al blocco ul#choice-block
      *
-     * @param {choices} array The choices from each question
-     */
+     * @param {choices} array Le scelte da ogni domanda
+     * /
     function addChoices(choices){
-        if(typeof choices !== "undefined" &amp;&amp; $.type(choices) == "array"){
-            $('#choice-block').empty();
-            for(var i=0;i&lt;choices.length; i++){
+        if(typeof choices!=="undefined" &amp;&amp; $.type(choices) == "array") {
+            $('# choice-block').empty();
+            per(var i=0;i&lt;choices.length; i++){
             $(document.createElement('li')).addClass('choice choice-box btn').attr('data-index', i).text(choices[i]).appendTo('#choice-block');
             }
         }
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Questo quiz potrebbe non funzionare in Internet Explorer. Se non riesci a vedere il quiz, prova ad usare un altro browser.</em></p>
 </script>
