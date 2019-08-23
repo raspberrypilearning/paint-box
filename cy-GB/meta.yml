@@ -1,25 +1,20 @@
-hero_image: images/paint-box.png
-theme: violet
-duration: 2
-listed: true
-ingredient: false
-copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+---
 title: Bocs Paentio
+hero_image: images/paint-box.png
+listed: true
+copyedit: false
 description: Dysga sut i greu rhaglen paentio dy hunan.
-original_url: https://projects.raspberrypi.org/en/projects/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Cyflwyniad
-- title: Creu pensil
-- title: Pensiliau lliw
-- title: Gwneud camgymeriadau
-- title: Newid lled y pensil
-- title: 'Her: Llwybrau byr'
-- title: 'Her: Mwy o bensiliau'
+steps:
+  - title: Cyflwyniad
+  - title: Creu pensil
+  - title: Pensiliau lliw
+  - title: 'Gwneud camgymeriadau'
+    challenge: true
+  - title: Dadwneud camgymeriadau
+  - title: Newid lled y pensil
+  - title: 'Her: Mwy o bensiliau'
+    challenge: true
+  - title: Profwch eich hun
+  - title: 'Beth nesaf?'
