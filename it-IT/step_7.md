@@ -1,10 +1,10 @@
 ## Sfida: comandi da tastiera
 
-Puoi aggiungere codice in modo che, invece di fare clic sui quadrati o pulsanti colorati sullo stage, puoi far sì che le cose accadano premendo i tasti della tastiera? Per esempio:
+Riesci ad aggiungere del codice in modo che, invece di dover cliccare quadrati o pulsanti colorati, le cose accadano utilizzando la tastiera del computer? Per esempio:
 
-+ <kbd>b</kbd> = Passa alla matita blu
++ <kbd>b</kbd> = passa alla matita blu
 + <kbd>g</kbd> = passa alla matita verde
-+ <kbd>e</kbd> = passa a gomma
-+ <kbd>c</kbd> = schermo chiaro
++ <kbd>e</kbd> = passa alla gomma
++ <kbd>c</kbd> = pulisci lo schermo
 
-Se lo desideri, puoi anche aggiungere del codice in modo che premendo i tasti freccia cambi la larghezza della penna.
+Se lo desideri, puoi anche aggiungere del codice in modo che premendo i tasti freccia cambi lo spessore della matita.
