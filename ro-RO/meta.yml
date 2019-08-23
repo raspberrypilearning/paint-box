@@ -1,29 +1,29 @@
 ---
-title: Paint box
+title: Cutia cu culori
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: Creează-ți propriul program de desenat
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Introduction
+    title: Introducere
   - 
-    title: Make a pencil
+    title: Creează un creion
   - 
-    title: Coloured pencils
+    title: Creioane colorate
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Provocare: scurtături'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Anulează greșelile
   - 
-    title: Change the pencil width
+    title: Schimbă grosimea creionului
   - 
-    title: 'Challenge: more pencils'
+    title: 'Provocare: mai multe creioane'
     challenge: true
   - 
-    title: Test yourself
+    title: Testează-te
   - 
-    title: 'What next?'
+    title: 'Ce urmează?'
