@@ -32,6 +32,8 @@ title: Yr hyn byddi di'n ei ddysgu
 + Defnyddiwch ddarllediadau i reoli’r ciplun yn Scratch
 + Ail-arddangoswch sut i ymateb i ddigwyddiadau llygoden yn Scratch
 
+--- /collapse ---
+
 --- collapse ---
 ---
 title: Beth fydd ei angen arno ti
