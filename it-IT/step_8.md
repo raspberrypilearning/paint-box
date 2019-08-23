@@ -80,10 +80,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "corretto": "B",
-        "spiegazione": "L'estensione della penna consente di disegnare",
+        "explanation": "L'estensione della penna consente agli sprite di disegnare",
     } ,
     {
-        "domanda": "Quale degli script trarrebbe una linea nera quando" disegnare "è trasmesso?",
+        "domanda": "Quale degli script disegnerebbe una linea nera quando il messaggio "disegna" viene trasmesso?",
         "immagine": "images / montage-2.png",
         "scelte": [
                                 " A ",
@@ -92,10 +92,10 @@ array[randomIndex] = temporaryValue;
                                 " D "
                             ],
         " correct ":" A ",
-        " spiegazione ":" La sceneggiatura dovrebbe iniziare - 'quando ricevo il disegno'. ",
+        " explanation ":" Il codice dovrebbe iniziare con - 'quando ricevo disegna ",
     },
     {
-        "question": "Quale script posizionerebbe la penna verso il basso quando si fa clic con il mouse e la sua posizione verticale è vicino alla parte superiore dello schermo?",
+        "question": "Quale codice posizionerebbe la "penna giù" quando si fa clic con il mouse e la sua posizione verticale è vicino alla parte superiore dello schermo?",
         "image": "images / montage-3.png" ,
         "scelte": [
                                 "A",
@@ -104,7 +104,7 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "corretto": "A",
-        "spiegazione": "La parte superiore dello schermo sarebbe avere coordinate y superiori a 120. ",
+        "explanation": "La parte superiore dello schermo ha coordinate y superiori a 120. ",
     },
 
 ];
