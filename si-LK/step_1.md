@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+මෙය **Scratch 3** අනුවාදයේ ව්‍යාපෘතියක් වේ . මෙම ව්‍යාපෘතියේ [Scratch 2 අනුවාදයක් ද ඇත](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
 ## හැදින්වීම
 
-Make your own paint program!
+ඔබේම තීන්ත(paint) වැඩසටහනක්(program එකක්) සාදන්න!
 
-### What you will make
+### ඔබ සාදන්නට යන දේ
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- ආරම්භ කිරීමට කොල(green) ධජය(flag එක) මත ක්ලික් කරන්න. පැන්සල ගෙනයාමට මූසිකය(mouse එක) භාවිතා කරන්න, සහ ඇඳීමට වම් මූසික(mouse) බොත්තම(button) තද කරන්න. පැන්සල වෙනස් කිරීමට වර්ණයක් මත ක්ලික් කරන්න. මකනය මත ක්ලික් කර එයට වෙනස් වන්න. ඔබේ සටහන් මකා දැමීමට එය භාවිතා කරන්න. පිටුව(page එක) හිස්(clear) කිරීමට, කතිරය(cross) මත ක්ලික් කරන්න.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,40 +19,40 @@ Make your own paint program!
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- ආරම්භ කිරීමට ඔබ කොල ධජය(green flag එක) මත ක්ලික් කරනු ඇති අතර, ඔබ පැන්සල ගෙනයාමට මූසිකය(mouse එක) භාවිතා කරන අතර ඇඳීමට වම්(left) මූසික(mouse) බොත්තම(button එක) තද කර ගන්න. වර්ණයක් මත ක්ලික් කිරීමෙන් පැන්සල්(pencil) වර්ණ(colour එක) වෙනස් කරගත හැකි අතර, මකනය(eraser එක) මත ක්ලික් කිරීමෙන් එය මකනයට වෙනස් කරගත හැකි වේ!
 
-![showcase](images/showcase.png) \--- /print-only \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
+![ප්‍රදර්ශනාගාරය(showcase)](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ඔබ ඉගෙන ගන්නා දේ
 
-### Hardware
++ Scratch වලට පෑන්(pen) දිගුව(extension) එක් කිරීම
++ Scratch වල sprite එක පාලනය(control) කිරීමට විකාශන(broadcasts) භාවිතා කිරීම
++ Scratch හි මූසික(mouse) සිදුවීම්(events) වලට ප්‍රතිචාර දක්වන්නේ කෙසේදැයි මතකය ආවර්ජනය කිරීම \--- /collapse \---
 
-+ A computer capable of running Scratch 3
+## \--- collapse \---
 
-### Software
+## title: ඔබට අවශ්‍ය දේ
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+### දෘඩාංග(Hardware)
 
-### Downloads
++ Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
+### මෘදුකාංග(Software)
+
++ Scratch 3 ([අන්තර්ජාල ගතව(online)](http://rpf.io/scratchon){:target="_blank"} හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](http://rpf.io/scratchoff){:target="_blank"})
+
+### බාගන්න(Downloads)
+
++ [නොබැඳි(offline) ආරම්භක(starter) ව්‍යාපෘතිය(project)](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+ඔබට මෙම ව්‍යාපෘතිය මුද්‍රණය කිරීමට අවශ්‍ය නම්, කරුණාකර [මුද්‍රණ-හිතකාමී අනුවාදය(printer-friendly version)](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} භාවිතා කරන්න.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+[සම්පුර්ණ කරන ලද ව්‍යාපෘතිය(completed project here)](http://rpf.io/p/en/paint-box-get){:target="_blank"} ඔබට මෙහිදී බලාගත හැකිය. \--- /collapse \---
