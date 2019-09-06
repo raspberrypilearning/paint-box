@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Challenge: තවත් පැන්සල්
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+ඔබේ තීන්ත(pain) වැඩසටහනට(program එකට) රතු, කහ සහ කළු පැන්සල් එකතු කළ හැකිද? ඔබට මෙය කළ යුතු ආකාරය පිළිබඳ මතක් කරගනීමක් අවශ්‍ය නම් පෙර පියවර දෙස බලන්න.
 
-Can you use your pencils to draw a picture?
+පින්තූරයක් ඇඳීමට ඔබේ පැන්සල් භාවිතා කළ හැකිද?
 
-![පින්තුරය](images/paint-final.png)
+![තිර රුව(screenshot)](images/paint-final.png)
