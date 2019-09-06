@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Version des Projekts](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -10,7 +10,7 @@ Mach dein eigenes Malprogramm!
 
 ### Was du machen wirst
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Klicke zum Starten auf die grüne Flagge. Verwende die Maus, um den Stift zu bewegen und halte die linke Maustaste gedrückt, um zu zeichnen. Klicke auf eine Farbe, um die Malfarbe des Stiftes zu wechseln. Klicke auf den Radierer, um ihn zu nehmen und Teile deiner Zeichnung zu löschen, wenn du die linke Maustaste dabei drückst. Um die ganze Seite zu löschen, klicke auf das rote Kreuz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +19,7 @@ Mach dein eigenes Malprogramm!
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Klicke auf die grüne Flagge um zu starten, und verwende die Maus, um den Stift zu bewegen, und halte die linke Maustaste gedrückt, um zu zeichnen. Wenn du auf eine der Farben unten klickst, ändert sich die Farbe des Stiftes, und wenn du du auf den Radierer klickst, kannst du ihn verwenden, um zu löschen!
 
 ![Vorschau](images/showcase.png) \--- /print-only \---
 
@@ -27,9 +27,9 @@ Mach dein eigenes Malprogramm!
 
 ## title: Was du lernen wirst
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Füge die Erweiterung Malstift zu deinem Scratch hinzu
++ Verwende Broadcast, um eine Figur in Scratch zu steuern
++ Erinnere dich, wie man Ereignisse der Maus in Scratch verarbeitet \--- / collapse \---
 
 ## \--- collapse \---
 
@@ -45,14 +45,14 @@ Mach dein eigenes Malprogramm!
 
 ### Downloads
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline Starter Projekt](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Zusätzliche Informationen für Mentoren
 
 Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Du findest das [komplette Projekt hier](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
