@@ -8,7 +8,7 @@ Fe wnawn ni ddechrau trwy greu pensil mae modd ei ddefnyddio i arlunio ar y llwy
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein**: agor y [prosiect cychwynnol](http://rpf.io/p/cy-GB/paint-box-go) {: target = "_ wag"} yn y golygydd all-lein.
+**All-lein**: agor y [prosiect cychwynnol](http://rpf.io/p/cy-GB/paint-box-go) {:target="_blank"} yn y golygydd all-lein.
 
 Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
@@ -66,10 +66,10 @@ end
 
 ![sgrinlun](images/paint-draw.png) --- /task ---
 
----collapse---
-
-## title: Ydy dy bensil yn tynnu llun o flaen y pensil?
-
+--- collapse ---
+---
+title: Ydy dy bensil yn tynnu llun o flaen y pensil?
+---
 Os yw'r llinell mae dy bensil yn tynnu yn edrych fel ei fod yn dod o ganol y pensil, mae angen iti newid corlun y pensil fel mai'r blaen yw canol dy gorlun.
 
 Clicia corlun dy bensil yna clicia tab **Gwisgoedd**.
