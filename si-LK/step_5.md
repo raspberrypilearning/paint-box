@@ -1,16 +1,16 @@
-## Undo mistakes
+## වැරදි(mistakes) නිවැරදි(undo) කිරීම
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+සමහර විට වැරදීම් සිදු වේ, එබැවින් 'අස්කරන්න'('clear') බොත්තමක්(button එකක්) සහ මකන්න(eraser) බොත්තමක් එක් කරන්න.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- කාර්යය \--- පුස්තකාලයේ(library එකේ) අකුරු(letters) අංශයෙන්(section එකෙන්) 'X-block' sprite එක එක් කරන්න. sprite එකේ ඇඳුම(costume එක) රතු පැහැයෙන් වර්ණවත් කර එය මදක් කුඩා කරන්න. මෙම sprite එක 'අස්කරන්න'('clear') බොත්තම(button එක) වනු ඇත.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png) \--- /task \---
+![තිර රුව(screenshot)](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- 'X-block' sprite එක ක්ලික් කළ විට වේදිකාව(stage එක) අස්කිරීම සඳහා එයට කේතය(code එකක්) එක් කරන්න.
 
-![cross](images/cross.png)
+![කතිරය](images/cross.png)
 
 ```blocks3
 when this sprite clicked
@@ -19,21 +19,21 @@ erase all
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+වේදිකාව(stage එක) අස්කිරීම සඳහා ඔබට `විකාශනයක්(broadcast)`{:class="block3events"} භාවිතා කිරීමට අවශ්‍ය නැත, මන්ද `සියල්ල මකන්න(erase all)`{:class="block3extensions"} කට්ටිය(block එක) එම කාර්යය කරන බැවිනි. 
 
-Do you see that the pencil sprite includes an eraser costume?
+පැන්සල් sprite එකට මකන(eraser) ඇඳුමක්(costume එකක්) ඇතුළත් බව ඔබට පෙනේද?
 
-![පින්තුරය](images/paint-eraser-costume.png)
+![තිර රුව(screenshot)](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+ඔබේ ව්‍යාපෘතියට(project එකට) වෙනම මකන(eraser) sprite එකක් ද ඇතුළත් වේ.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- මෙම මකන(eraser) sprite එක මත දකුණු-ක්ලික්(right-click) කර **පෙන්වන්න(show)** ක්ලික් කරන්න. ඔබගේ වේදිකාව(stage එක) දැන් දිස්වියයුතුආකාරය මෙහි දැක්වේ:
 
-![screenshot](images/paint-eraser-stage.png) \--- /task \---
+![තිර රුව(screenshot)](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- මකන(eraser) sprite එක ක්ලික් කළ විට ` 'මකන්න'('eraser') විකාශනයක්(broadcast එකක්)`{:class="block3events"} යවන පරිදි මකන sprite එකට කේතයක්(code එකක්) එක් කරන්න.
 
-![eraser](images/eraser.png)
+![මකනය](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
@@ -42,11 +42,11 @@ broadcast (eraser v)
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+පැන්සල් sprite එකට 'මකනය'('eraser') පණිවිඩය(message එක) ලැබුණු විට, එය ඇඳුම(costume එක) මකනයට(eraser) මාරු කළ යුතු අතර, පෑනේ(pen) වර්ණය(colour එක) සුදු පැහැයට මාරු විය යුතුය.
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- මකනය(eraser) නිර්මාණය(create) කිරීම සඳහා කේතයක්(code එකක්) එක් කරන්න.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- පැන්සල් sprite එකට කේතය(code) එක් කරන්න: `මකන්න(eraser)`{:class="block3events"} පණිවිඩය(message එක) `මට ලැබුණු විට(when I recieve)`{:class="block3events"} `මකන(eraser) ඇඳුමට(costume එකට) මාරු(switch) වන්න`{:class="block3looks"} `පෑනනේ වර්ණය සුදු පැහයට සැකසීම(set pen color)`{:class="block3extensions"} \--- /hint \--- \--- hint \--- ඔබට අවශ්‍ය සියලුම කට්ටි(blocks) මෙහි දැක්වේ:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -55,7 +55,7 @@ when I receive [eraser v]
 switch costume to (eraser v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \---- ඔබේ කේතය(code එක) මෙබඳු එකක් විය යුතුයි: ![පැන්සල](images/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
@@ -65,17 +65,17 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- ඔබට ඔබේ ව්‍යාපෘතියේ(project එකේ) වේදිකාව අස්කර(clear කර) පැන්සල් රේඛා මකා දැමිය හැකිදැයි පරීක්ෂා(test) කරන්න.
 
-![පින්තුරය](images/paint-erase-test.png) \--- /task \---
+![තිර රුව(screenshot)](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+පැන්සල සමඟ තවත් එක් ගැටළුවක් තිබේ: ඔබට 'අස්කරන්න'('clear') සහ මකන්න(eraser) බොත්තම් අසල සහ වේදිකාවේ ඕනෑම තැනක ඇඳිය හැකිය!
 
-![පින්තුරය](images/paint-draw-problem.png)
+![තිර රුව(screenshot)](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- task \--- මෙය නිවැරදි කිරීම සඳහා, පෑනෙන් ඇඳිය හැක්කේ මූසිකය ක්ලික් කළවිට පමණක් **සහ(and)** මූසික(mouse) දර්ශකයේ(pointer එකේ) `y` පිහිටීම(position එක) `-120` ට වඩා වැඩි විට පමණක් වන පරිදි කේතය(code එක) වෙනස් කරන්න:
 
-![pencil](images/pencil.png)
+![පැන්සල](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -84,7 +84,7 @@ switch costume to (pencil-blue v)
 set pen color to [#0035FF]
 forever
   go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
++if <<mouse down?> and <(mouse y) > [-120]>> then
   pen down
   else
   pen up
@@ -93,6 +93,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- ඔබේ කේතය(code එක) පරීක්ෂා(test) කරන්න. ඔබට දැන් බොත්තම්(buttons) අසල ඇඳීමට නොහැකි විය යුතුය.
 
-![screenshot](images/paint-fixed.png) \--- /task \---
+![තිර රුව(screenshot)](images/paint-fixed.png) \--- /task \---
