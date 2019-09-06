@@ -67,7 +67,7 @@ newid gwisg i (dileuwr v)
 gosod lliw pin i [#FFFFFF]
 ```
 
---- /hint --- --- /hints --- --- /task ---
+--- /hint ------ /hints --- --- /task ---
 
 --- task --- Profa dy brosiect i weld os wyt ti'n gallu clirio'r Llwyfan a dileu'r llinellau pensil.
 
@@ -77,7 +77,7 @@ Mae un problem arall gyda'r pensil: rwyt ti'n gallu tynnu llun unrhywle ar y Llw
 
 ![sgrinlun](images/paint-draw-problem.png)
 
---- task --- I ddatrys hyn, mae angen i ti ddweud wrth y pensil i dynnu llun os yw’r llygoden wedi clicio **ac** os yw `y-position` y llygoden yn fwy na `-120`:
+--- task --- I ddatrys hyn, mae angen i ti ddweud wrth y pensil i dynnu llun os yw’r llygoden wedi clicio **ac**os yw `y-position` y llygoden yn fwy na `-120`:
 
 ![pensil](images/pencil.png)
 
