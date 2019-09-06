@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## Herausforderung: Tasten-Kürzel
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? Zum Beispiel:
+Kannst du Tasten-Kürzel hinzufügen? Anstatt die Farbflächen auf der Bühne anzuklicken, mit Hilfe der Tastatur Befehle auszuführen? Zum Beispiel:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = zum blauen Buntstift wechseln
++ <kbd>g</kbd> = zum grünen Buntstift wechseln
++ <kbd>r</kbd> = zum Radierer wechseln
++ <kbd>x</kbd> = den Bildschrim löschen
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+Du könntest es dem Anwender sogar erlauben, die Dicke vom Buntstift mit den Pfeil-Tasten zu ändern.
