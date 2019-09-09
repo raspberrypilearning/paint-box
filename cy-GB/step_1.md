@@ -1,6 +1,6 @@
 --- no-print ---
 
-Dyma'r fersiwn **Scratch 3** y prosiect. Mae yna hefyd fersiwn [ Scratch 2 y prosiect ](https://projects.raspberrypi.org/cy-GB/projects/paint-box-scratch2).
+Dyma'r fersiwn **Scratch 3** y prosiect. Mae yna hefyd fersiwn [Scratch 2 y prosiect](https://projects.raspberrypi.org/cy-GB/projects/paint-box-scratch2).
 
 --- /no-print ---
 
@@ -49,7 +49,7 @@ title: Beth fydd ei angen arno ti
 
 --- /collapse ---
 
----collapse---
+--- collapse ---
 ---
 title: Gwybodaeth ychwanegol i addysgwyr
 ---
