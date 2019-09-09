@@ -1,6 +1,6 @@
-## What next?
+## ඊලඟට කුමක්ද?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+දැන් ඔබ 'තීන්ත පෙට්ටිය'('pain box') ව්‍යාපෘතිය සම්පූර්ණ කර ඇති නිසා, ['බෝට්ටු තරඟය'('boat race') ව්‍යාපෘතිය](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) උත්සාහකර බලන්න, ඔබට බාධක වටා බෝට්ටුවක් හැසිරවීමට සිදුවන ක්‍රීඩාවක් සැකසීමට එය උපකාරී වේ.
 
 \--- no-print \---
 
