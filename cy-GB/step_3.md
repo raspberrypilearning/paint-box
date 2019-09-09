@@ -6,7 +6,7 @@ Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i’r defnyd
 
 ![ail-enwi-pensil](images/rename-pencil.png) --- /task ---
 
-Cliciwch dde ar guplun y pensil, a dyblygu gwisg 'pencil-blue'.
+--- task --- Cliciwch dde ar guplun y pensil, a dyblygu gwisg 'pencil-blue'.
 
 ![sgrinlun](images/paint-blue-duplicate.png) --- /task ---
 

@@ -10,11 +10,11 @@ steps:
   - title: Cyflwyniad
   - title: Creu pensil
   - title: Pensiliau lliw
-  - title: 'Her: gorchmynion y bysellfwrdd'
+  - title: 'Her: mwy o bensiliau'
     challenge: true
   - title: Dadwneud camgymeriadau
   - title: Newid lled y pensil
-  - title: 'Her: Mwy o bensiliau'
+  - title: 'Her: gorchmynion y bysellfwrdd'
     challenge: true
   - title: Profwch eich hun
   - title: 'Beth nesaf?'

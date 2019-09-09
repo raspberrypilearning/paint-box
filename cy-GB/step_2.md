@@ -51,12 +51,10 @@ Gwna dy bensil i dynnu llun `os`{:class="block3control"} yw'r llygoden yn cael e
 pan fo'r flag werdd yn cael ei glicio
 am byth 
   mynd i (pwyntydd llygoden v)
-
-  + os <llygoden i lawr?> yna 
-     pin i lawr
-     fel arall 
-      pin i fyny
-    end
++ os <llygoden i lawr?> yna 
+  pin i lawr
+  fel arall 
+  pin i fyny
 end
 ```
 
