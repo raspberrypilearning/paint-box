@@ -88,11 +88,10 @@ newid gwisg i (pencil-glas v)
 gosod lliw pin i [#0035FF]
 am byth 
   mynd i (mouse pointer v)
-  + os <<llygoden i lawr?> a <(llygoden y) > [-120]>> yna 
-      pin i lawr
-    fel arall 
-      pin i fyny
-    end
++os <<llygoden i lawr?> a <(llygoden y) > [-120]>> yna 
+  pin i lawr
+  fel arall 
+  pin i fyny
 end
 ```
 
