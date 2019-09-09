@@ -1,54 +1,58 @@
+--- no-print ---
+
+Dyma'r fersiwn **Scratch 3** y prosiect. Mae yna hefyd fersiwn [Scratch 2 y prosiect](https://projects.raspberrypi.org/cy-GB/projects/paint-box-scratch2).
+
+--- /no-print ---
+
 ## Cyflwyniad
 
-Yn y prosiect yma, bydd plant yn dysgu sut i ddarlledu negeseuon rhwng cipluniau.
+Gwna dy raglen peintio dy hunan!
+
+### Yr hyn byddi di'n ei greu
+
+--- no-print --- Clicia'r faner werdd i gychwyn. Defnyddia'r llygoden i symud y pensil, a dal y botwm chwith ar y llygoden i dynnu llun. Clicia lliw i newid pensiliau. Clicia'r dileuwr i newid iddo, a'i ddefnyddio i ddileu dy waith. I glirio'r dudalen, clicia'r groes.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/63473366/?autostart=false" frameborder="0"></iframe>
-  <img src="images/paint-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/327353013/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+--- print-only --- Fe fyddi di'n clicio'r faner werdd i gychwyn, yna'n defnyddio'r llygoden i symud y pensil a dal botwm chwith y llygoden i dynnu llun. Bydd clicio ar liw yn newid lliw y pensil, a clicio ar y dileuwr yn newid i'r dileuwr!
+
+![arddangos](images/showcase.png) --- /print-only ---
 
 --- collapse ---
 ---
-title: Nodiadau i Wirfoddolwyr
+title: Yr hyn byddi di'n ei ddysgu
 ---
++ Ychwanegwch yr estyniad pin yn Scratch
++ Defnyddiwch ddarllediadau i reoli’r ciplun yn Scratch
++ Ail-arddangoswch sut i ymateb i ddigwyddiadau llygoden yn Scratch
+--- /collapse ---
+--- collapse ---
+---
+title: Beth fydd ei angen arno ti
+---
+### Caledwedd
 
-## Adnoddau
-Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
++ Cyfrifiadur sy'n gallu rhedeg Scratch 3
 
-Mae'r ddolen 'Adnoddau'r Prosiect' yn cynnwys yr adnoddau canlynol:
+### Meddalwedd
 
-## Adnoddau Gwirfoddolwyr
++ Scratch 3 (unai [arlein](http://rpf.io/scratchon){:target="_blank"} neu [all-lein](http://rpf.io/scratchoff){:target="_blank"})
 
-Mae modd gweld y prosiect wedi ei gwblhau yma <a href="http://scratch.mit.edu/projects/63473366/#editor">online</a>, neu mae modd ei lawrlwytho wrth glicio ar ddolen 'Adnoddau'r Prosiect' ar gyfer y prosiect yma, sydd yn cynnwys:
+### Lawrlwythiadau
 
-+ PaintBox.sb2
-
-## Adnoddau'r Prosiect
-
-Ar gyfer y prosiect yma, mae aelodau'r clwb yn defnyddio adnoddau allanol nad ydynt ar gael trwy lyfrgell Scratch:
-
-+ eraser.svg.
-
-Gwnewch yn siwr fod gan bob plentyn fynediad i'r adnoddau yma.
-
-Ar gyfer aelodau'r clwb nad ydynt yn gallu cael mynediad i adnoddau'r prosiect, mae prosiect Scratch gyda'r adnoddau allanol ynddynt yn barod. Mae ar gael arlein [jumpto.cc/paint-resources](http://jumpto.cc/paint-resources), neu yn yr adnoddau prosiect i'w lawrlwytho, sydd yn cynnwys:
-
-+ PaintBoxResources.sb2 
-
-## Nodau Dysgu
-+ Mewnforio lluniau;
-+ Gweithredwyr perthynol a 'boolean'(`>`{:class="blockoperators"} & `and`{:class="blockoperators"});
-+ Darlledu rhwng cipluniau.
-
-Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llafur Gwneud Digidol Raspberry Pi](http://rpf.io/curriculum):
-
-+ [Cyfuno adeiladwaith rhaglenni i ddatrys problem.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Heriau
-+ "Llwybrau Byr" - defnyddio yr ar allweddell i ddarlledu negeseuon;
-+ "Mwy o bensiliau" - Ychwanegu mwy o liwiau, i atgyfnerthu dysgu darlledu negeseuon.
-
-## Cwestiynau a Ofynir yn Aml
-+ Mae newidiadau i 'wisgoedd' y ciplun ddim yn cael eu cadw nes bod tab arall yn cael ei glicio. Fe ddylai'r plant glicio ar wisg arall, neu ar y tab 'Sgriptiau' i gadarnhau'r newidiadau i'r wisg.
++ [ Prosiect cychwyn all-lein ](http://rpf.io/p/cy-GB/paint-box-go){:target="_blank"}
 
 --- /collapse ---
+
+--- collapse ---
+---
+title: Gwybodaeth ychwanegol i addysgwyr
+---
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/paint-box/print){:target="_blank"}.
+
+Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/cy-GB/paint-box-get){:target="_blank"}. --- /collapse ---

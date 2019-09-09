@@ -1,56 +1,100 @@
 ## Pensiliau lliw
 
-Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i'r defnyddiwr ddewis rhyngddyn nhw!
+Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i’r defnyddiwr ddewis rhyngddyn nhw.
 
-+ Clicia ar giplun y pensil, clicia 'Gwisgoedd' a cer ati i ddyblygu gwisg 'pencil-blue'.
+--- task --- Ailenwch y `pencil` i `pencil-blue`
 
-	![screenshot](images/paint-blue-duplicate.png)
+![ail-enwi-pensil](images/rename-pencil.png) --- /task ---
 
-+ Ail-enwa dy wisg newydd yn 'pensil-gwyrdd', a lliwia'r pensil yn wyrdd.
+--- task --- Cliciwch dde ar guplun y pensil, a dyblygu gwisg 'pencil-blue'.
 
-	![screenshot](images/paint-pencil-green.png)
+![sgrinlun](images/paint-blue-duplicate.png) --- /task ---
 
-+ Nesaf, bydd angen creu dau giplun newydd, a byddi di'n defnyddio rhain i ddewis y pensil glas neu gwyrdd.
+--- task --- Ail-enwa dy wisg newydd yn ‘pensil-gwyrdd’, a lliwia’r pensil yn wyrdd.
 
-	![screenshot](images/paint-selectors.png)
+![sgrinlun](images/paint-pencil-green.png)
 
-+ Pan mae'r eicon gwyrdd wedi ei ddewis, bydd angen i ti `ddarlledu`{:class="blockevents"} neges i'r ciplun pensil, yn dweud wrtho i newid ei wisg a'r lliw pensil.
+--- /task ---
 
-	I wneud hyn, yn gyntaf ychwanega y côd yma i'r eicon gwyrdd:
+--- task --- Tynna lun o ddau gorlun newydd: un sgwâr glas ac un sgwâr gwyrdd. Mae'r rhain ar gyfer dewis rhwng y pensil glas a gwyrdd.
 
-	![screenshot](images/screenshot2.png)
+![sgrinlun](images/paint-selectors.png) --- /task ---
 
-	I greu y bloc `darlledu`{:class="blockevents"}, clicia'r saeth lawr a dewisa 'neges newydd...'
+--- task --- Ail-enwi'r corluniau newydd fel eu bod yn cael eu galw'n 'glas' a 'gwyrdd'
 
-	![screenshot](images/paint-broadcast.png)
+[[[generic-scratch3-rename-sprite]]]
 
-	Galli di wedyn deipio 'gwyrdd' i greu dy neges newydd.
+--- /task ---
 
-	![screenshot](images/paint-green-message.png)
+--- task --- Ychwanega gôd i dy gorlun 'gwyrdd' fel ei fod yn `darlledu`{:class="block3events"} y neges "gwyrdd" pan mae'n cael ei glicio.
 
-+ Mae angen i ti nawr ddweud wrth y ciplun pensil beth i wneud pan mae'n derbyn y neges. Ychwanega'r côd yma i dy giplun pensil:
+![sgwâr gwyrdd](images/green_square.png)
 
-	![screenshot](images/screenshot3.png)
+```blocks3
+pan gaiff y ciplun yma ei glicio
+darlledu (gwyrdd v)
+```
 
-	I osod dy bensil i liwio yn wyrdd, clicia'r bocs lliw yn y bloc `gosod lliw`{:class="blockpen"}, a clicia ar yr eicon dewisydd gwyrdd.
+[[[generic-scratch3-broadcast-message]]] --- /task ---
 
-+ Cer ati i wneud yr un peth ar gyfer yr eicon pensil glas, gan ychwanegu'r côd yma i dy giplun dewisydd glas:
-	
-  ![screenshot](images/screenshot4.png)
-  
-	...ac ychwanegu'r côd yma i'r ciplun pensil: 
+Fe ddylai'r corlun pensil wrando ar y neges "gwyrdd" a newid ei wisg a lliw mewn ymateb.
 
-  ![screenshot](images/screenshot5.png)
+--- task --- Newida i dy gorlun pensil. Ychwanega gôd sy'n golygu pan mae'r corlun yn derbyn darllediad `gwyrdd`{:class="block3events"}, mae'n newid i wisg werdd a newid lliw y pensil i wyrdd.
 
-+ Yn olaf, mae angen i ti ddweud wrth ciplun dy bensil pa wisg a lliw pensil i ddewis, ac i glirio'r sgrin pan mae'r prosiect wedi cychwyn. Ychwanega'r côd yma i ddechrau côd y pensil `pan mae baner wedi ei glicio`{:class="blockevents"} (cyn y ddolen `am byth`{:class="blockcontrol"}):
+![pensil](images/pencil.png)
 
-  ![screenshot](images/screenshot6.png)
+```blocks3
+pan rwy'n derbyn [gwyrdd v]
+newid gwisg i (pencil-gwyrdd v)
+gosod lliw pin i [#00CC44]
+```
 
-	Os oes well gyda ti, galli di ddechrau gyda phensil lliw gwahanol!
+I newid lliw y pensil i wyrdd, clicia'r sgwâr wedi lliwio yn y bloc `gosod lliw pin`{:class="block3extensions"}, yna chlicio ar y corlun gwyrdd sgwâr. --- /task ---
 
-+ Profa dy brosiect. Alli di newid rhwng pensiliau glas a gwyrdd?
+Yna gwna'r un peth fel dy fod yn gallu newid lliw dy bensil i las.
 
-	![screenshot](images/paint-pens-test.png)
+--- task --- Clicia ar y corlun sgwâr glas ac ychwanegu'r côd yma:
 
+![blue_square](images/blue_square.png)
 
+```blocks3
+pan gaiff y ciplun yma ei glicio
+darlledu (glas v)
+```
 
+Yna clicia ar gorlun y pensil ac ychwanegu'r côd yma: ![pensil](images/pencil.png)
+
+```blocks3
+pan rwy'n derbyn [glas v]
+newid gwisg i (pencil-glas v)
+gosod lliw pin i [#0000ff]
+```
+
+--- /task ---
+
+--- task --- Yn olaf, ychwanega'r côd yma i ddweud wrth y corlun pensil pa liw i ddechrau gyda, ac i sicrhau fod y sgrin yn glir pan wyt ti'n cychwyn y rhaglen.
+
+![pensil](images/pencil.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
++dileu popeth
++newid gwisg i (pencil-glas v)
++gosod lliw pin i [#0035FF]
+am byth 
+  mynd i (pwyntydd llygoden v)
+  os <llygoden i lawr?> yna 
+    pin i lawr
+  fel arall 
+    pin i fyny
+  end
+end
+```
+
+--- /task ---
+
+Os oes well gyda ti, mae modd i ti ddechrau gyda lliw pensil gwahanol.
+
+--- task --- Profa dy gôd. Wyt ti'n gallu newid rhwng y lliwiau pensil gwyrdd a glas trwy glicio ar y gorluniau sgwâr gwyrdd neu glas?
+
+![sgrinlun](images/paint-pens-test.png) --- /task ---

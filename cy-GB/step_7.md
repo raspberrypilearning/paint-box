@@ -1,10 +1,10 @@
---- challenge ---
-## Her: Mwy o bensiliau
-Alli di ychwanegu pensiliau coch, melyn a du i dy raglen paentio? Edrycha ar gam 2 uchod os wyt ti wedi anghofio sut i wneud hyn. Cofia i ychwanegu llwybrau byr ar dy allweddell ar gyfer y pensiliau newydd!
+## Her: gorchmynion y bysellfwrdd
 
-Alli di ddefnyddio dy bensiliau i dynnu llun?
+Wyt ti’n gallu creu llwybrau byr ar dy fysellfwrdd ar gyfer dy orchmynion? Er enghraifft:
 
-![screenshot](images/paint-final.png)
++ <kbd>b</kbd> = Newid i bensil glas
++ <kbd>g</kbd> = newid i bensil gwyrdd
++ <kbd>d</kbd> = newid i ddileuwr
++ <kbd>c</kbd> = clirio sgrin
 
-
---- /challenge ---
+Galli di hyd yn oed adael i’r defnyddiwr newid lled y pen gyda’r saethau ar dy allweddell.
