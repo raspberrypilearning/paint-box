@@ -1,6 +1,6 @@
 ## Beth nesaf?
 
-Nawr dy fod wedi cwblhau'r prosiect 'Bocs Paent', rho gynnig ar y prosiect [Ras Cwch](https://projects.raspberrypi.org/cy-GB/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), sydd yn gyfle i greu gêm lle rwyt ti'n llywio cwch o amgylch rhwystrau.
+Nawr dy fod wedi cwblhau'r prosiect 'Bocs Paent', rho gynnig ar y prosiect [Ras gwch](https://projects.raspberrypi.org/cy-GB/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), sydd yn gyfle i greu gêm lle rwyt ti'n llywio cwch o amgylch rhwystrau.
 
 --- no-print ---
 
