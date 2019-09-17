@@ -1,6 +1,6 @@
 ## Wie geht es weiter?
 
-Nachdem du das Projekt 'Malkasten' abgeschlossen hast, versuche es mit dem Projekt '[Boot-Rennen](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)', was zeigt dir, ein Spiel zu machen, in dem du ein Boot um Hindernisse herum führen musst.
+Nachdem du das Projekt 'Malkasten' abgeschlossen hast, versuche es mit dem Projekt '[Boots-Rennen](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)'. Dabei lernst du, ein Spiel zu machen, in dem du ein Boot um Hindernisse herum führen musst.
 
 \--- no-print \---
 
