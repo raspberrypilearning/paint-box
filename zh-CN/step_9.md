@@ -9,6 +9,6 @@
   <img src="images/boat_race_demo.png">
 </div>
 
-\--- /no-print \---
+\--- /无打印\---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\---仅打印\--- <0 /> \--- /仅打印\---
