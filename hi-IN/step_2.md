@@ -1,6 +1,6 @@
 ## पेंसिल बनाना
 
-Start by making a pencil that you can use to draw on the Stage.
+चलिए ऐसी पेंसिल बनाने से आंरभ करें, जिसे स्टेज पर चित्र बनाने के लिए उपयोग किया जा सकता है।
 
 \--- task \--- Open the 'Paint box' Scratch starter project.
 
@@ -28,7 +28,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![pencil](images/pencil.png)
+![पेंसिल](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -43,9 +43,9 @@ end
 
 Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-\--- task \--- Add this code to your pencil sprite:
+अपने पेंसिल स्प्राइट में यह कोड जोड़ें:
 
-![pencil](images/pencil.png)
+![पेंसिल](images/pencil.png)
 
 ```blocks3
 when flag clicked
