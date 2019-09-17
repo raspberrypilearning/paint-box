@@ -19,7 +19,7 @@ Mach dein eigenes Malprogramm!
 
 \--- /no-print \---
 
-\--- print-only \--- Klicke auf die grüne Flagge um zu starten, und verwende die Maus, um den Stift zu bewegen, und halte die linke Maustaste gedrückt, um zu zeichnen. Wenn du auf eine der Farben unten klickst, ändert sich die Farbe des Stiftes, und wenn du du auf den Radierer klickst, kannst du ihn verwenden, um zu löschen!
+\--- print-only \--- Klicke auf die grüne Flagge um zu starten, und verwende die Maus, um den Stift zu bewegen. Halte die linke Maustaste gedrückt, um zu zeichnen. Wenn du auf eine der Farben unten klickst, ändert sich die Farbe des Stiftes, und wenn du du auf den Radierer klickst, kannst du ihn verwenden, um zu löschen!
 
 ![Vorschau](images/showcase.png) \--- /print-only \---
 
@@ -27,9 +27,9 @@ Mach dein eigenes Malprogramm!
 
 ## title: Was du lernen wirst
 
-+ Füge die Erweiterung Malstift zu deinem Scratch hinzu
-+ Verwende Broadcast, um eine Figur in Scratch zu steuern
-+ Erinnere dich, wie man Ereignisse der Maus in Scratch verarbeitet \--- / collapse \---
++ Hinzufügen der Erweiterung Malstift zu deinem Scratch
++ Verwendung von Broadcast, um eine Figur in Scratch zu steuern
++ Wiederholung, wie man Ereignisse der Maus in Scratch verarbeitet \--- / collapse \---
 
 ## \--- collapse \---
 
@@ -51,8 +51,8 @@ Mach dein eigenes Malprogramm!
 
 ## \--- collapse \---
 
-## title: Zusätzliche Informationen für Mentoren
+## title: Zusätzliche Informationen für Pädagogen
 
 Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Du findest das [komplette Projekt hier](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Sie finden das [komplette Projekt hier](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
