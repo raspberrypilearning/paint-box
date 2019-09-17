@@ -27,7 +27,7 @@ Du hast vielleicht schon bemerkt, dass die Buntstift-Figur auch ein Radier-Kost�
 
 Dein Projekt enthält auch eine eigene Radier-Figur.
 
-Klicke rechts auf diese Figur und wähle **zeige dich**. So sollte deine Bühne jetzt aussehen:
+Klicke auf diese Figur und dann auf **zeige dich**. So sollte deine Bühne jetzt aussehen:
 
 ![Screenshot](images/paint-eraser-stage.png) \--- /task \---
 
@@ -42,11 +42,11 @@ broadcast (radieren v)
 
 \--- /task \---
 
-Wenn der Buntstift die #radieren'-Nachricht empfängt, musst du das Buntstift-Kostüm zu “Radierer” ändern und die Buntstiftfarbe auf weiß ändern - die Farbe der Bühne!
+Wenn der Buntstift die 'radieren'-Nachricht empfängt, musst du das Buntstift-Kostüm zu “Radierer” ändern und die Buntstiftfarbe auf weiß ändern - die Farbe der Bühne!
 
 \--- task \--- Füge Code hinzu, um den Radierer zu erstellen.
 
-\--- hints \--- \--- hint \--- Füge der Buntstift-Figur folgenden Code hinzu: ` Wenn ich ` {: class = "block3events"} die Nachricht ` radieren ` {: class = "block3events"} empfange ` wechsle zu Kostüm ` {: class = "block3looks"} Radierer und ` setze Stiftfarbe auf ` {: class = "block3extensions"} weiß \--- / hint \--- \--- hint \--- Hier sind alle benötigten Blöcke:
+\--- hints \--- \--- hint \--- Füge der Buntstift-Figur folgenden Code hinzu: ` Wenn ich ` {: class = "block3events"} die Nachricht `radieren` {: class = "block3events"} empfange `wechsle zu Kostüm` {: class = "block3looks"} Radierer und `setze Stiftfarbe auf` {: class = "block3extensions"} weiß \--- / hint \--- \--- hint \--- Hier sind alle benötigten Blöcke:
 
 ```blocks3
 set pen color to [#FFFFFF]
