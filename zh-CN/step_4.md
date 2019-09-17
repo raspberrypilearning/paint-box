@@ -4,4 +4,4 @@
 
 你能用你的程序画出一副画吗？
 
-![screenshot](images/paint-final.png)
+![截屏](images/paint-final.png)
