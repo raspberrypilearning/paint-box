@@ -2,7 +2,7 @@
 
 首先制作一支可以用来在舞台上画画的铅笔。
 
-\--- task \--- 打开'Paint box'Scratch starter项目。
+\--- 任务 \--- 打开'Paint box'Scratch starter项目。
 
 **在线**：在 [rpf.io/paint-box-on](http://rpf.io/paint-box-on){：target =“_ blank”}打开启动项目
 
@@ -12,60 +12,60 @@
 
 如果您需要下载并安装Scratch离线编辑器，可以在 [rpf.io/scratchoff](http://rpf.io/scratchoff){：target =“_ blank”}找到它。
 
-在初学者项目中，你应该看到铅笔和橡皮擦精灵：
+在启动项目中，你应该看到铅笔和橡皮擦精灵：
 
-![截屏](images/paint-starter.png) \--- /task \---
+![截屏](images/paint-starter.png) \--- /任务\---
 
-\--- task \---
+\--- /任务\---
 
 将Pen扩展添加到项目中。
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- /task \---
+\--- /任务\---
 
-\--- task \---
+\--- /任务\---
 
 添加一些代码到铅笔精灵，使精灵跟随鼠标指针 `永远`{：class =“block3control”}，以便您可以绘制：
 
 ![铅笔](images/pencil.png)
 
 ```blocks3
-当标志点击
-永远
-  转到（鼠标指针v）
-结束
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
-\--- /task \---
+\--- /任务\---
 
-\--- task \--- 单击标志，然后在舞台上移动鼠标指针以测试代码是否有效。 \--- /task \---
+\--- 任务 \--- 单击标志，然后在舞台上移动鼠标指针以测试代码是否有效。 \--- /任务\---
 
 接下来，如果</code>{{class =“block3control”}单击鼠标按钮，则使您的铅笔仅绘制 `。</p>
 
-<p>--- task ---
-将此代码添加到你的铅笔精灵中：</p>
+<p>--- 任务 ---
+将此代码添加到您的铅笔精灵：</p>
 
 <p><img src="images/pencil.png" alt="铅笔" /></p>
 
-<pre><code class="blocks3">当标志点击
-永远
-  去（鼠标指针v）
+<pre><code class="blocks3">when flag clicked
+forever
+  go to (mouse pointer v)
 
-+如果 <mouse down?> 然后
-  笔下来
-  否则
-  笔上升
-结束
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 `</pre> 
 
-\--- /task \---
+\--- /任务\---
 
-\--- task \--- 再次测试你的代码。 这一次，在舞台上移动铅笔并按住鼠标按钮。 你能用铅笔画画吗？
+\--- 任务 \--- 再次测试您的代码。 这一次，在舞台上移动铅笔并按住鼠标按钮。 你能用铅笔画画吗？
 
-![截屏](images/paint-draw.png) \--- /task \---
+![截屏](images/paint-draw.png) \--- /任务\---
 
-## \--- collapse \---
+## \--- 折叠 \---
 
 ## 标题：你的铅笔不是从它的尖端画出来的吗？
 
@@ -79,4 +79,4 @@
 
 现在在舞台上移动铅笔并画画。 铅笔现在应该从它的尖端画一条线。
 
-\--- /collapse \---
+\--- /折叠 \---
