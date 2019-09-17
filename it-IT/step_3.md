@@ -1,44 +1,100 @@
-## Creare una matita
+## Matite colorate
 
-Iniziamo creando una matita che può essere usata per disegnare sul quadro.
+Ora aggiungerai al tuo progetto matite di diversi colori e consentirai all'utente di sceglierne una.
 
-+ Apri il progetto Scratch 'Scatola a Colori' online su [jumpto.cc/paint-go-it-IT](https://jumpto.cc/paint-go-it-IT), o scaricalo da [http://jumpto.cc/paint-get-it-IT](https://github.com/raspberrypilearning/paint-box/raw/master/it-IT/resources/PaintBox.sb2) per usarlo con l'editor offline.
+--- task --- Rinomina lo sprite `matita` in `matita-blu`
 
-Vedrai gli sprite della matita e della gomma:
+![rinomina-matita](images/rename-pencil.png) --- /task ---
 
-![screenshot](images/paint-starter.png)
+--- task --- Fai clic con il tasto destro del mouse sullo sprite della matita e duplica il costume "matita-blu".
 
-+ Aggiungi dei codici allo sprite della matita per far sì che segua il mouse `per sempre`{:class="blockcontrol"}, in modo da permetterti disegnare:
+![screenshot](images/paint-blue-duplicate.png) --- /task ---
 
-```blocks
-quando si clicca sulla bandiera verde
-per sempre 
-  raggiungi [puntatore del mouse v]
-fine
+--- task --- Riomina il nuovo costume 'matita-verde' e colora la matita di verde.
+
+![screenshot](images/paint-pencil-green.png)
+
+--- /task ---
+
+--- task --- Disegna due nuovi sprite: un quadrato blu e un quadrato verde. Questi sono per scegliere tra la matita blu e verde.
+
+![screenshot](images/paint-selectors.png) --- /task ---
+
+--- task --- Rinominare i nuovi sprite in modo che si chiamino 'blu' e 'verde'
+
+[[[generic-scratch3-rename-sprite]]]
+
+--- /task ---
+
+--- task --- Aggiungi un po' di codice allo sprite "verde" in modo che, quando questo sprite viene cliccato, `invii il messaggio`{:class="block3events"} "verde".
+
+![quadrato verde](images/green_square.png)
+
+```blocks3
+quando si clicca questo sprite
+invia a tutti (verde v)
 ```
 
-+ Fai click sulla bandierina e muovi il mouse sul quadro per verificare se il codice funzioni.
+[[[generic-scratch3-broadcast-message]]] --- /task ---
 
-Ora facciamo in modo che la matita disegni solo `se`{:class="blockcontrol"} il mouse è stato cliccato.
+Lo sprite della matita dovrebbe sentire il messaggio "verde" e cambiare il proprio costume e colore in risposta.
 
-+ Aggiungi questo codice allo sprite della tua matita:
+--- task --- Passa al tuo sprite matita. Aggiungi del codice in modo che, quando questo sprite riceve il messaggio `verde`{:class="block3events"}, passi al costume della matita verde e cambi il colore della penna in verde.
 
-![screenshot](images/paint-pencil-draw-code.png)
+![matita](images/pencil.png)
 
-+ Prova di nuovo il tuo codice. Questa volta, muovi la matita nel quadro e tieni premuto il tasto sinistro del mouse. Riesci a disegnare con la tua matita?
+```blocks3
+when I receive [verde v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
+```
 
-![screenshot](images/paint-draw.png)
+Per impostare la matita da colorare in verde, fai clic sul quadratino colorato nel blocco `porta colore penna a`{: class = "block3extensions"}, quindi fai clic sullo sprite quadrato verde. --- /task ---
 
---- collapse ---
----
-title: Se stai avendo problemi...
----
-Se sembra che il disegno parta dal centro della matita, invece che dalla punta, hai bisogno di modificare il centro del tuo costume.
+Quindi procedi in modo simile per cambiare il colore della matita in blu.
 
-![Centro del costume](images/costume-center.png)
+--- task --- Clicca sullo sprite quadrato blu e aggiungi questo codice:
 
-Il mirino della matita deve essere posizionato **appena sotto** la punta della matita, non sulla punta della matita.
+![quadrato_blu](images/blue_square.png)
 
-Le modifiche apportate al 'centro del costume' di uno sprite saranno applicate solo dopo aver cliccato su un'altra scheda: clicca su un altro costume o sulla scheda 'Script' per rendere valide le tue modifiche.
+```blocks3
+quando si clicca questo sprite
+invia a tutti (blu v)
+```
 
---- /collapse ---
+Quindi fare clic sullo sprite matita e aggiungere questo codice: ![matita](images/pencil.png)
+
+```blocks3
+quando ricevo [blu v]
+passa al costume (matita-blu v)
+porta colore penna a [#0000ff]
+```
+
+--- /task ---
+
+--- task --- Infine, aggiungi questo codice per dire allo sprite della matita con quale colore iniziare e per assicurarti che lo schermo sia pulito all'avvio del programma.
+
+![matita](images/pencil.png)
+
+```blocks3
+quando si clicca sulla bandiera verde
++ pulisci
++ passa al costume (matita-blu v)
++ porta colore penna a [#0035FF]
+per sempre 
+  raggiungi (puntatore del mouse v)
+  se <mouse down?> allora 
+    penna giù
+  altrimenti 
+    penna su
+  end
+end
+```
+
+--- /task ---
+
+Se preferisci, puoi iniziare con una matita di colore diverso.
+
+--- task --- Verifica il tuo codice. Riesci a cambiare colore alla matita facendo clic sugli sprite quadrato blu o verde?
+
+![screenshot](images/paint-pens-test.png) --- /task ---

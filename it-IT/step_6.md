@@ -1,33 +1,41 @@
-## Cambiare lo spessore della matita
+## Cambiare lo spessore della penna
 
-Facciamo in modo che l’utente possa disegnare usando matite di spessore diverso.
+Ora aggiungerai il codice per consentire all'utente del tuo programma di disegnare usando diversi spessori di penna.
 
-+ Per prima cosa, aggiungiamo una nuova variabile chiamata `larghezza`{:class="blockvariable"}.
+--- task --- Per prima cosa, aggiungi una nuova variabile chiamata `spessore`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] --- /task ---
 
-+ Aggiungi questa riga *dentro* il ciclo `per sempre`{:class="blockcontrol"} del codice della matita:
+--- task --- Aggiungi questa riga **dentro** il ciclo `per sempre`{:class="block3control"} del codice dello sprite matita:
 
-```blocks
-    usa penna di dimensione (larghezza)
+```blocks3
+quando si clicca sulla bandiera verde
+pulisci
+passa al costume (matita-blu v)
+porta colore penna a [#0035FF]
+per sempre 
+  raggiungi (puntatore del mouse v)
+  + porta dimensione penna a (spessore :: variables)
+  se <<mouse down?> e <(y del mouse) > [-120]>> allora 
+    penna giù
+  altrimenti 
+    penna su
+  end
+end
 ```
 
-Lo spessore della matita ora verrà costantemente regolato in base al valore della variabile ‘larghezza’.
+--- /task ---
 
-+ Fai click col pulsante destro del mouse sulla tua variabile nel quadro e clicca la barra di regolazione ('slider').
+Lo spessore della penna ora viene ripetutamente impostata sul valore della variabile `spessore`{:class="block3variables"}.
 
-![screenshot](images/paint-slider.png)
+--- task --- Fare clic con il pulsante destro del mouse sulla variabile `spessore`{:class="block3variables"} visualizzata sullo stage e quindi fai clic su **cursore**.
 
-Ora puoi trascinare la barra sotto la variabile per cambiarne il valore.
+![schermata](images/paint-slider.png) --- /task ---
+
+Ora puoi trascinare il cursore che è visibile sotto la variabile per cambiare il suo valore.
 
 ![screenshot](images/paint-slider-change.png)
 
-+ Prova il tuo progetto e vedi se riesci a modificare lo spessore della matita.
+--- task --- Testa il progetto e vedi se riesci a modificare lo spessore della matita.
 
-![screenshot](images/paint-width-test.png)
-
-Se preferisci, puoi impostare il valore massimo e minimo permesso per la ‘larghezza’. Per fare ciò, clicca di nuovo col pulsante destro sulla tua variabile e clicca ‘imposta slider minimo e massimo’. Imposta il valore minimo e massimo della tua variabile a 1 e 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Continua a provare la tua variabile ‘larghezza’ fino a raggiungere il valore desiderato.
+![screenshot](images/paint-width-test.png) --- /task ---

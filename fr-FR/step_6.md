@@ -1,33 +1,40 @@
-## Changer l'épaisseur du trait
+## Change la largeur du stylo
 
-Permettons à l'utilisateur de dessiner en utilisant une gamme de largeurs de traits différentes.
+Ensuite, tu ajouteras du code pour permettre à la personne utilisant ton programme de dessiner des éléments avec différentes largeurs de stylo.
 
-+ D'abord, ajoute une nouvelle variable appelée `largeur`{:class="blockvariable"}.
+--- task --- Premièrement, ajoute une nouvelle variable appelée `largeur`{:class="block3variables"}.
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]] --- /task ---
 
-+ Ajoute cette ligne *à l'intérieur* de la boucle `pour toujours`{:class="blockcontrol"} du code du lutin crayon :
+--- task --- Ajoute cette ligne **à intérieur** de la boucle `répéter indéfiniment`{:class="block3control"} du code du sprite crayon:
 
-```blocks
-    mettre la taille du stylo à (largeur)
+```blocks3
+lorsque le drapeau est cliqué 
+effacer tout
+basculer sur le costume (crayon-bleu v)
+mettre la couleur du stylo à [# 0035FF]
+répéter indéfiniment
+aller à (pointeur de souris v)
++ définir la taille du stylo à (largeur :: variables)
+si <<mouse down?> et <(souris y) > [-120]>> alors 
+  stylo en position d'écriture
+  sinon
+  relever le stylo
+fin
 ```
 
-L'épaisseur du trait du stylo sera maintenant toujours liée à la valeur de la variable 'largeur'.
+--- /task ---
 
-+ Fais un clic droit sur l'affichage de la variable "largeur" sur la scène et clique sur "potentiomètre".
+La largeur du stylo est maintenant définie à plusieurs reprises sur la valeur de la variable `largeur`{:class="block3variables"}.
 
-![capture d'écran](images/paint-slider.png)
+--- task --- Fait un clic droit sur la variable `largeur`{:class="block3variables"} affichée sur la scène, puis clique sur **curseur**.
 
-Tu peux maintenant faire glisser le curseur sous la variable pour changer sa valeur.
+![capture d'écran](images/paint-slider.png) --- /task ---
+
+Tu peux maintenant faire glisser le curseur visible sous la variable pour modifier la valeur de la variable.
 
 ![capture d'écran](images/paint-slider-change.png)
 
-+ Teste ton projet et vois si tu peux modifier l'épaisseur du trait du crayon.
+--- task --- Teste ton projet et vois si tu peux ajouter du code pour ajuster la largeur du stylo.
 
-![capture d'écran](images/paint-width-test.png)
-
-Si tu préfères, tu peux définir la valeur minimale et maximale de «largeur» autorisée. Pour ce faire, clique à nouveau sur la variable avec le bouton droit de la souris et clique sur "Définir le min et le max du curseur". Définissez les valeurs minimum et maximum de votre variable à quelque chose de plus judicieux, comme 1 et 20.
-
-![screenshot](images/paint-slider-max.png)
-
-Continue à tester ta variable "largeur" ​​jusqu'à ce que tu sois satisfait.
+![capture d'écran](images/paint-width-test.png) --- /task ---

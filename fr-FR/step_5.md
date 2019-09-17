@@ -1,55 +1,101 @@
-## Faire des erreurs
+## Annule les erreurs
 
-Parfois, des erreurs se produisent, alors ajoutons un bouton "effacer" et une gomme.
+Parfois, des erreurs se produisent, alors ajoute un bouton "effacer" et un bouton gomme.
 
-+ Ajoute le luttin 'X-block' - tu le trouveras dans la bibliothèque, dans la catégorie "Lettres". Colore le costume en rouge. Cela deviendra le bouton "effacer".
+--- task --- Ajoute le sprite "Bloc-X" à partir de la section des lettres de la bibliothèque. Colorie le costume du sprite en rouge et rend-le un peu plus petit. Ce sprite est le bouton "effacer".
 
-![capture d'écran](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Ajoute du code à ce lutin pour effacer la scène lorsqu'il est cliqué.
+![capture d'écran](images/paint-x.png) --- /task ---
 
-![Effacer la scène](images/clear-stage.png)
+--- task --- Ajoute du code au sprite "Bloc-X" pour effacer la scène lorsque tu as cliqué sur le sprite.
 
-Note que tu n'as pas besoin d'envoyer un message pour effacer la scène, tu peux simplement utiliser le bloc "effacer tout" de ce lutin.
+![traverser](images/cross.png)
 
-Tu as probablement remarqué que votre lutin crayon comprend un costume de gomme :
+```blocks3
+lorsque ce sprite est cliqué
+effacer tout
+```
+
+--- /task ---
+
+Tu n'as pas besoin d'utiliser un `envoi à tous`{:class="block3events"} pour effacer la scène, car le bloc `effacer tout`{:class="block3extensions"} fait déjà cette action.
+
+Vois-tu que le sprite crayon comprend un costume gomme?
 
 ![capture d'écran](images/paint-eraser-costume.png)
 
-+ Ton projet comprend également un lutin gomme distinct. Fais un clic droit sur ce lutin et choisis "Montrer". Voici à quoi ta scène devrait ressembler :
+Ton projet comprend également un sprite gomme séparé.
 
-![capture d'écran](images/paint-eraser-stage.png)
+--- task --- Fait un clic droit sur ce sprite gomme, et ensuite clique sur **afficher**. Voici à quoi devrait ressembler ta scène:
 
-+ Ajoute du code au lutin de la gomme, pour indiquer au crayon de passer au costume gomme lorsque le lutin gomme est cliqué.
+![capture d'écran](images/paint-eraser-stage.png) --- /task ---
 
-![Envoyer à tous "gomme"](images/broadcast-eraser.png)
+--- task --- Ajoute du code au sprite gomme pour envoyer un `un envoi à tous "gomme"`{:class="block3events"} lorsque le sprite gomme est cliqué.
 
-Lorsque le crayon reçoit le message "gomme", tu peux passer du costume crayon au costume gomme, et passer la couleur de crayon à blanc - la même couleur que la scène !
+![gomme](images/eraser.png)
 
-+ Ajoute du code pour créer la gomme
-
---- hints --- --- hint --- Ajoutons un peu de code au lutin crayon : **Quand je reçois** **gomme** **Basculer sur le costume** gomme **Mettre la couleur du stylo à** blanc --- /hint --- --- hint --- Voici à quoi devrait ressembler le code du lutin crayon :
-
-```blocks
-quand je reçois [gomme v]
-basculer sur le costume [gomme v]
-mettre la couleur du stylo à [#ffffff]
+```blocks3
+lorsque ce sprite est cliqué
+envoyer à tous (gomme v)
 ```
 
---- /hint --- --- /hints ---
+--- /task ---
 
-+ Teste ton projet, pour voir si tu peux gommer sur la scène et même effacer toute la scène.
+Lorsque le sprite crayon reçoit le message "gomme", il devrait changer son costume en gomme et changer la couleur du crayon en blanc, qui est la même couleur que la scène!
 
-![capture d'écran](images/paint-erase-test.png)
+--- task --- Ajoute du code pour créer la gomme.
 
-Il y a encore un problème avec le crayon - tu peux dessiner n'importe où sur la scène, y compris près des lutins de sélection !
+--- hints ---
+ --- hint --- Ajoute du code au sprite crayon: `quand je reçois`{:class="block3events"} le message `gomme`{:class="block3events"} `basculer sur le costume gomme`{:class="block3looks"} `mettre la couleur du stylo`{:class="block3extensions"} sur blanc
+--- /hint ---
+ --- hint --- Voici tous les blocs dont tu as besoin:
+
+```blocks3
+mettre la couleur du stylo à [#FFFFFF]
+quand je reçois [gomme v]
+
+basculer sur le costume (gomme v)
+```
+
+--- /hint --- --- hint --- Voici à quoi devrait ressembler le code: ![crayon](images/pencil.png)
+
+```blocks3
+quand je reçois [gomme v]
+basculer sur le costume (gomme v)
+mettre la couleur du stylo à [#FFFFFF]
+```
+
+--- /hint ------ /hints --- --- /task ---
+
+--- task --- Teste ton projet pour voir si tu peux effacer la scène et effacer les lignes au crayon.
+
+![capture d'écran](images/paint-erase-test.png) --- /task ---
+
+Il y a encore un problème avec le crayon: tu peux dessiner n’importe où sur la scène, y compris près des boutons "effacer" et gomme!
 
 ![capture d'écran](images/paint-draw-problem.png)
 
-Pour résoudre ce problème, dis au crayon de ne dessiner que si tu cliques sur la souris *et* si la position y de la souris est supérieure à -120 :
+--- task --- Pour résoudre ce problème, modifie le code afin que le stylo soit en position d'écriture uniquement si tu cliques sur la souris **et** que la position `y` du pointeur de la souris est supérieure à `-120`:
 
-![capture d'écran](images/pencil-gt-code.png)
+![crayon](images/pencil.png)
 
-+ Teste ton projet ; tu ne devrais plus être en mesure de te rapprocher des lutins de sélection.
+```blocks3
+lorsque le drapeau est cliqué 
+effacez tout
+basculer sur le costume (crayon-bleu v)
+mettre la couleur du stylo à [# 0035FF]
+répéter indéfiniment
+  allez à (pointeur de la souris v)
++ si <<mouse down?> et <(souris y) > [-120]>> alors 
+  stylo en position d'écriture
+  sinon
+  relever le stylo
+fin
+```
 
-![capture d'écran](images/paint-fixed.png)
+--- /task ---
+
+--- task --- Teste ton projet. Tu ne devrais plus pouvoir dessiner près des boutons.
+
+![capture d'écran](images/paint-fixed.png) --- /task ---

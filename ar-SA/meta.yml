@@ -1,22 +1,20 @@
-hero_image: images/banner.png
-theme: violet
-duration: 2
-listed: false
-ingredient: false
-copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+---
 title: علبة الألوان
-description: تعلَّم كيف تصنع برنامج رسم من ابتكارك.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: ''
-technologies: scratch
-site_areas: codeclub, scratch
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: اصنع برنامج الرسام الخاص بك
+version: 4.1.0
+last_tested: 2018-30-01
 steps:
-- title: المقدمة
-- title: إنشاء قلم رصاص
-- title: أقلام ملوَّنة
-- title: أخطاء الرسم
-- title: تغيير عرض خط القلم الرصاص
-- title: 'التحدي: الاختصارات'
-- title: 'التحدي: مزيد من الأقلام'
-
+  - title: المقدمة
+  - title: إنشاء قلم رصاص
+  - title: أقلام ملونة
+  - title: 'التحدي: الإختصارات'
+    challenge: true
+  - title: التراجع عن الاخطاء
+  - title: تغيير عرض قلم الرصاص
+  - title: 'التحدي: المزيد من أقلام الرصاص'
+    challenge: true
+  - title: اختبر نفسك
+  - title: 'ما التالي؟'

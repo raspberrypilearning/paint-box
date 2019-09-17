@@ -1,55 +1,103 @@
 ## Fare errori
 
-A volte si può sbagliare, dunque aggiungiamo al tuo progetto il tasto ‘ripulisci’ e una gomma.
+A volte capita di sbagliare, quindi aggiungi un pulsante "pulisci tutto" e un pulsante gomma.
 
-+ Aggiungi al quadro lo sprite della lettera ‘X-block’. Lo trovi nella libreria, nella sezione "Lettere". Colora il costume di rosso. Ecco il tuo tasto 'ripulisci'.
+--- task --- Aggiungi lo sprite 'X-block' dalla sezione delle lettere della libreria. Colora il costume dello sprite in rosso e rimpiccioliscilo un po'. Questo sprite è il pulsante "pulisci tutto".
 
-![screenshot](images/paint-x.png)
+[[[generic-scratch3-sprite-from-library]]]
 
-+ Aggiungi un codice al tuo nuovo tasto 'ripulisci' per ripulire il quadro quando viene cliccato.
+![schermata](images/paint-x.png) --- /task ---
 
-![Ripulisci il quadro](images/clear-stage.png)
+--- task --- Aggiungi il codice allo sprite 'X-block' per cancellare completamente lo stage quando lo si clicca.
 
-Noterai che non è necessario mandare un messaggio per ripulire il quadro, perché puoi farlo da qualsiasi sprite!
+![croce](images/cross.png)
 
-Avrai probabilmente notato che lo sprite della matita include un costume da gomma:
+```blocks3
+quando si clicca questo sprite
+pulisci
+```
+
+--- /task ---
+
+Non è necessario `inviare un messaggio`{:class="block3events"} per cancellare lo stage, perché il `pulisci`{:class="block3extensions"} svolge già questa funzione.
+
+Hai visto che lo sprite matita include un costume "gomma"?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-+ Il tuo progetto include anche uno sprite per selezionare la gomma. Cliccalo col tasto destro e scegli ‘mostra’. Il tuo quadro dovrebbe apparire così:
+Il tuo progetto include anche uno sprite per selezionare la gomma.
 
-![screenshot](images/paint-eraser-stage.png)
+--- task --- Fare clic con il tasto sinistro sul costrume "gomma" per **visualizzarlo** nello stage. Il tuo stage dovrebbe apparire così:
 
-+ Aggiungi un codice allo sprite della gomma per comunicare alla matita di diventare gomma quando si clicca su questo sprite.
+![schermata](images/paint-eraser-stage.png) --- /task ---
 
-![Invia a tutti gomma](images/broadcast-eraser.png)
+--- task --- Aggiungi il codice allo sprite gomma per inviare un `messaggio "gomma"`{:class="block3events"} quando si fa clic sullo sprite della gomma.
 
-Quando la matita riceve questo messaggio, puoi creare una gomma passando dal costume matita a quello di gomma, e cambiando il colore della matita per farlo diventare bianco: lo stesso colore del quadro!
+![gomma per cancellare](images/eraser.png)
 
-+ Aggiungi dei codici per creare la gomma
-
---- hints --- --- hint --- Aggiungi dei codici allo sprite della matita: **Quando ricevo** il messaggio **gomma** **Passa al costume** gomma **Usa penna di colore** bianco --- /hint --- --- hint --- Ecco come dovrebbe apparire il codice all'interno dello sprite della matita:
-
-```blocks
-quando ricevo [gomma v]
-passa al costume [gomma v] 
-usa penna di colore [#FFFFFF]
+```blocks3
+quando si clicca questo sprite
+invia a tutti (gomma v)
 ```
 
---- /hint --- --- /hints ---
+--- /task ---
 
-+ Prova il tuo progetto per verificare se puoi cancellare i disegni nel quadro.
+Quando lo sprite della matita riceverà il messaggio "gomma", passerà al costume "gomma" e cambiarà il colore della penna in bianco, che è lo stesso colore dello stage!
 
-![screenshot](images/paint-erase-test.png)
+--- task --- Aggiungi del codice per creare la gomma.
 
-C’è un altro problema con la matita - puoi disegnare dappertutto sul quadro, anche vicino alle icone selezionatrici!
+--- hints ---
+ --- hint --- Aggiungi del codice allo sprite matita: `Quando ricevo`{:class="block3events"} il messaggio `gomma`{:class="block3events"} `Passa al costume gomma`{:class="block3looks"} `Porta colore penna a`{:class="block3extensions"} bianco
+--- /hint ---
+ --- hint --- Ecco tutti i blocchi di cui hai bisogno:
+
+```blocks3
+porta colore penna a [#FFFFFF]
+
+quando ricevo [gomma v]
+
+passa al costume (gomma v)
+```
+
+--- /hint --- --- hint --- Ecco come dovrebbe apparire il codice: ![matita](images/pencil.png)
+
+```blocks3
+quando ricevo [eraser v]
+passa costume a (gomma v)
+imposta colore penna a [#FFFFFF]
+```
+
+--- /hint ------ /hints --- --- /task ---
+
+--- task --- Metti alla prova il tuo progetto per vedere se è possibile ripulire lo stage e cancellare i tratti lasciati dalla matita.
+
+![screenshot](images/paint-erase-test.png) --- /task ---
+
+C’è ancora un problema con la matita: puoi disegnare dappertutto sul quadro, anche vicino ai pulsanti per pulire ad alla gomma!
 
 ![screenshot](images/paint-draw-problem.png)
 
-Per risolvere questo problema, devi comunicare alla matita di disegnare solo se il mouse è cliccato *e* se la posizione y del mouse è maggiore di -120:
+--- task --- Per sistemare il difetto, modifica il codice in modo che la penna sia abbassata solo se si fa clic con il mouse **e** la posizione `y` del puntatore del mouse è maggiore di `-120`:
 
-![screenshot](images/pencil-gt-code.png)
+![matita](images/pencil.png)
 
-+ Prova il tuo progetto; ora non dovresti poter disegnare vicino ai blocchi selettori.
+```blocks3
+quando si clicca sulla bandiera verde
+pulisci
+passa al costume (matita-blu v)
+porta colore penna a [#0035FF]
+per sempre 
+  raggiungi (puntatore del mouse v)
+  + se <<mouse down?> e <(y del mouse) > [-120]>> allora 
+  +   penna giù
+  + altrimenti 
+  +   penna su
+  + end
+end
+```
 
-![screenshot](images/paint-fixed.png)
+--- /task ---
+
+--- task --- Metti alla prova il tuo progetto. Ora non dovresti essere in grado di disegnare vicino ai pulsanti.
+
+![schermata](images/paint-fixed.png) --- /task ---

@@ -1,14 +1,10 @@
---- challenge ---
+## Sfida: comandi da tastiera
 
-## Sfida: Scorciatoie
+Riesci ad aggiungere del codice in modo che, invece di dover cliccare quadrati o pulsanti colorati, le cose accadano utilizzando la tastiera del computer? Per esempio:
 
-Puoi creare dei tasti di scelta rapida per i tuoi comandi? Per esempio:
++ <kbd>b</kbd> = passa alla matita blu
++ <kbd>g</kbd> = passa alla matita verde
++ <kbd>e</kbd> = passa alla gomma
++ <kbd>c</kbd> = pulisci lo schermo
 
-+ b = passa a penna blu
-+ v = passa a penna verde
-+ g = passa a gomma
-+ s = ripulisci schermo
-
-Puoi perfino permettere all’utente di cambiare lo spessore della penna con i tasti freccia.
-
---- /challenge ---
+Se lo desideri, puoi anche aggiungere del codice in modo che premendo i tasti freccia cambi lo spessore della matita.
