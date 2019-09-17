@@ -27,9 +27,9 @@
 
 ## title: ما الذي ستتعلمه
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ اضافة ملحق القلم في Scratch
++ استخدام عملية البث للتحكم بكائن في Scratch
++ كيفية الاستجابة لأحداث الماوس في Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
@@ -55,4 +55,4 @@
 
 إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
