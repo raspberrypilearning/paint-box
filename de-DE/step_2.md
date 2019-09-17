@@ -2,7 +2,7 @@
 
 Beginnen wir mit einem Buntstift, mit dem wir auf der Bühne zeichnen können.
 
-\--- task \--- Öffne das Scratch 'Malkasten' Projekt.
+\--- task \--- Öffne das Scratch-Projekt 'Malkasten'.
 
 **Online:** Öffne das Projekt zum Starten [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
@@ -18,7 +18,7 @@ Im Start-Projekt solltest du eine Buntstift- und eine Radierer-Figur sehen:
 
 \--- task \---
 
-Füge die Erweiterung Malstift deinem Projekt hinzu.
+Hinzufügen der Erweiterung Malstift zu deinem Projekt.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -73,7 +73,7 @@ Wenn dein Buntstift nicht mit der Spitze zu zeichnen scheint, sondern mit der Mi
 
 Klicke auf dei Buntstift-Figur und anschließend auf den **Kostüme** Reiter.
 
-Bewege das Kostüm so, dass die Spitze des Buntstifts **knapp unter** dem Zentrum liegt.
+Bewege das Kostüm so, dass die Spitze des Buntstifts **knapp über** dem Zentrum liegt.
 
 ![Kostüm-Mitte](images/costume-center-annotated.png)
 
