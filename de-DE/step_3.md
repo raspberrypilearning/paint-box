@@ -2,15 +2,15 @@
 
 Laß uns deinem Projekt verschiedene Buntstifte hinzufügen, die der Anwender anschließend auswählen kann.
 
-\--- task \--- Ändere den Namen des `Buntstift` Kostüms um zu `Buntstift-blau`
+\--- task \--- Ändere den Namen der `Buntstift` Figur zu `Stift-blau` um
 
 ![Buntstift-umbenennen](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Klicke mit der rechten Maustaste auf das Buntstift-blau-Kostüm und dupliziere das Kostüm.
+\--- task \--- Klicke mit der rechten Maustaste im Reiter Kostüme auf das Stift-blau-Kostüm und dupliziere das Kostüm.
 
 ![Screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Ändere den Namen des neuen Kostüms in 'Buntstift-grün' und färbe den Buntstift grün.
+\--- task \--- Ändere den Namen des neuen Kostüms in 'Stift-grün' und färbe den Buntstift grün.
 
 ![Screenshot](images/paint-pencil-green.png)
 
@@ -45,7 +45,7 @@ Die Buntstift-Figur soll auf die 'grün' Nachricht hören und seine Kostüm-Farb
 
 ```blocks3
 when I receive [grün v]
-switch costume to (Buntstift-grün v)
+switch costume to (Stift-grün v)
 set pen color to [#00CC44]
 ```
 
