@@ -19,7 +19,7 @@
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- हरे झंडे पर क्लिक करे शुरू करने के लिए, और फिर आप माउस का इस्तेमाल करके पेंसिल को हिलाएंगे और माउस की बाये तरफ की बटन को प्रेस करेंगे एक चित्र बनाने के लिए। अगर आप किसी भी रंग पर क्लिक करेंगे तो आपकी पेंसिल की रंग भी बदल जाएगी, और रबड़ पर क्लिक करने से वह रबड़ में बदल जाएगी!
 
 ![शोकेस](images/showcase.png) \--- /print-only \---
 
@@ -27,9 +27,9 @@
 
 ## title: आप क्या सीखेंगे
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ स्क्रैच में पेन एक्सटेंशन जोड़ें
++ स्क्रैच में एक स्प्राइट को नियंत्रित करने के लिए प्रसारण का उपयोग करें
++ याद रखें कि स्क्रैच में माउस घटनाओं का जवाब कैसे देना है \--- / collapse \---
 
 ## \--- collapse \---
 
@@ -51,8 +51,8 @@
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: शिक्षकों के लिए अतिरिक्त जानकारी
 
 अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"} का उपयोग करें।
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+आप इधर [पूरी प्रोजेक्ट](http://rpf.io/p/en/paint-box-get){:target="_blank"} देख सकते हैं । \--- /collapse \---
