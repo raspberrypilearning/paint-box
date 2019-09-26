@@ -31,9 +31,9 @@
 ![قلم رصاص](images/pencil.png)
 
 ```blocks3
-عند نقر ⚑ :: events
-كرر باستمرار 
-  اذهب إلى (مؤشر الفأرة v) :: motion :: control
+عند نقر ⚑
+كرِّر باستمرار 
+  اذهب إلى (مؤشر الفأرة v)
 end
 ```
 
@@ -48,14 +48,14 @@ end
 ![قلم رصاص](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
+عند نقر ⚑
+كرِّر باستمرار 
+  اذهب إلى (مؤشر الفأرة v)
++ إذا <زر الفأرة مضغوط؟> 
+  أنزل القلم
+  وإلا 
+  ارفع القلم
+  end
 end
 ```
 
