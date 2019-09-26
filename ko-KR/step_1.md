@@ -48,7 +48,7 @@ title: 준비물
 
 + [오프라인 스타터 프로젝트](http://rpf.io/p/ko-KR/paint-box-go){:target="_blank"}
 
--- /collapse ---
+--- /collapse ---
 
 --- collapse ---
 ---
