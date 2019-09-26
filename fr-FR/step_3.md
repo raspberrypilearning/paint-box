@@ -77,17 +77,18 @@ mettre la couleur du stylo à [#0000ff]
 ![crayon](images/pencil.png)
 
 ```blocks3
-lorsque le drapeau est cliqué 
-+ effacer tout
-+ basculer sur le costume (crayon-bleu v)
-+ mettre la couleur du crayon à [#0035FF]
-répéter indéfiniment
-  allez à (pointeur de souris v)
-si <mouse down?> alors
-  stylo en position d'écriture
-  sinon
-  relever le stylo
-fin
+quand le drapeau vert pressé
++effacer tout
++basculer sur le costume (pencil-blue v)
++mettre la couleur du stylo à [#0035FF]
+répéter indéfiniment 
+  aller à (pointeur de souris v)
+  si <souris pressée ?> alors 
+    stylo en position d'écriture
+  sinon 
+    relever le stylo
+  end
+end
 ```
 
 --- /task ---
