@@ -77,7 +77,7 @@ Van még egy probléma a ceruzával: bárhova lehet rajzolni, beleértve a "tör
 
 ![képernyőkép](images/paint-draw-problem.png)
 
---- feladat --- Ennek kijavításához változtasd meg a kódot úgy, hogy a ceruza/radír csak akkor fogjon, ha kattintasz **és** az egérmutató `y` helyzete nagyobb, mint `-120`:
+--- task --- Ennek kijavításához változtasd meg a kódot úgy, hogy a ceruza/radír csak akkor fogjon, ha kattintasz **és** az egérmutató `y` helyzete nagyobb, mint `-120`:
 
 ![ceruza](images/pencil.png)
 
@@ -89,7 +89,7 @@ toll színe legyen [#0035FF]
 mindig 
   ugorj (egérmutató v) helyére
 +ha <<egér lenyomva?> és <(egér y) > [-120]>> akkor 
-  tollat tedd 
+  tollat tedd le
   különben 
   tollat emeld fel
 end
