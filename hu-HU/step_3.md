@@ -39,7 +39,7 @@ küldj üzenetet: (zöld v)
 
 A ceruza szereplőnek hallgatnia kell a "zöld" üzenetre, és válaszul meg kell változnia a jelmezét zöldre.
 
---- task --- Jelöld ki a ceruza szereplőt. Adj hozzá néhány olyan kódblokkot, hogy ha ez a szereplő megkapja a `zöld`{:class="block3events" üzenetet, akkor a váltson a zöld ceruza jelmezre, azaz megváltoztassa a ceruza színét zöldre.
+--- task --- Jelöld ki a ceruza szereplőt. Adj hozzá néhány olyan kódblokkot, hogy ha ez a szereplő megkapja a `zöld`{:class="block3events"} üzenetet, akkor a váltson a zöld ceruza jelmezre, azaz megváltoztassa a ceruza színét zöldre.
 
 ![ceruza](images/pencil.png)
 
