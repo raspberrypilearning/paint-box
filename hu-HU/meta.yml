@@ -13,7 +13,7 @@ steps:
   - title: 'Kihívás:  több ceruza'
     challenge: true
   - title: A hibák visszavonása
-  - title: Változtasd a ceruza vastagságát
+  - title: Módosítsd a vonal vastagságát
   - title: 'Kihívás: billentyűzet parancsok'
     challenge: true
   - title: Teszteld magad
