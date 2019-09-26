@@ -13,8 +13,8 @@ Parfois, des erreurs se produisent, alors ajoute un bouton "effacer" et un bouto
 ![traverser](images/cross.png)
 
 ```blocks3
-lorsque ce sprite est cliqué
-effacer tout
+quand ce sprite est cliqué
+envoyer à tous (eraser v)
 ```
 
 --- /task ---
@@ -81,17 +81,18 @@ Il y a encore un problème avec le crayon: tu peux dessiner n’importe où sur 
 ![crayon](images/pencil.png)
 
 ```blocks3
-lorsque le drapeau est cliqué 
-effacez tout
-basculer sur le costume (crayon-bleu v)
-mettre la couleur du stylo à [# 0035FF]
-répéter indéfiniment
-  allez à (pointeur de la souris v)
-+ si <<mouse down?> et <(souris y) > [-120]>> alors 
-  stylo en position d'écriture
-  sinon
+quand le drapeau vert pressé
+effacer tout
+basculer sur le costume (pencil-blue v)
+mettre la couleur du stylo à [#0035FF]
+répéter indéfiniment 
+  aller à (pointeur de la souris v)
++ si <<souris pressée ?> et <(souris y) > [-120]>> alors 
+  tylo en position d'écriture
+  +sinon 
   relever le stylo
-fin
+  end
+end
 ```
 
 --- /task ---
