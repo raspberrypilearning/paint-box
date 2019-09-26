@@ -10,11 +10,10 @@ steps:
   - title: Introduction
   - title: Crée un crayon
   - title: Crayons de couleurs
-  - title: 'Défi : raccourcis'
-    challenge: true
-  - title: Corrige des erreurs
-  - title: Changer l'épaisseur du trait
   - title: 'Défi : plus de crayons'
     challenge: true
-  - title: Teste-toi
+  - title: Annule les erreurs
+  - title: Change la largeur du stylo
+  - title: 'Défi : commandes au clavier'
+    challenge: true
   - title: 'Que faire ensuite ?'
