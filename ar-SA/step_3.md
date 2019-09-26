@@ -89,18 +89,6 @@
     ارفع القلم
   end
 end
-
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
-end
 ```
 
 --- /task ---
