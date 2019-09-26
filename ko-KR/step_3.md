@@ -6,7 +6,7 @@
 
 ![연필 이름 바꾸기](images/rename-pencil.png) --- /task ---
 
---- 작업 --- pencil 스프라이트에서 마우스 우클릭하여 'pencil-blue' 코스튬을 복사하십시오.
+--- task --- pencil 스프라이트에서 마우스 우클릭하여 'pencil-blue' 코스튬을 복사하십시오.
 
 ![스크린샷](images/paint-blue-duplicate.png) --- /task ---
 
@@ -31,8 +31,8 @@
 ![녹색 사각형](images/green_square.png)
 
 ```blocks3
-이 스프라이트가 클릭될 때
-(green v) 브로드캐스트
+이 스프라이트를 클릭했을 때
+(green v) 신호 보내기
 ```
 
 [[[generic-scratch3-broadcast-message]]] --- /task ---
@@ -44,9 +44,9 @@
 ![연필](images/pencil.png)
 
 ```blocks3
-[green v] 메시지를 받았을 때
-모양을 (pencil-green v) 로 바꾸기
-펜 색깔을 [#00CC44] 로 바꾸기
+[green v] 신호를 받았을 때
+모양을 (pencil-green v) \(으\)로 바꾸기
+펜 색깔을 [#00CC44] \(으\)로 정하기
 ```
 
 펜 색상을 녹색으로 설정하려면, `펜 컬러 설정하기`{:class="block3extensions"} 블록을 클릭하고, 초록색 사각형 스프라이트를 클릭하세요. --- /task ---
@@ -58,16 +58,16 @@
 ![파란색 사각형](images/blue_square.png)
 
 ```blocks3
-이 스프라이트가 클릭될 때
-(파랑 v) 신호보내기
+이 스프라이트를 클릭했을 때
+(blue v) 신호 보내기
 ```
 
 그런 다음 연필 스프라이트를 클릭하고 다음 코드를 추가하십시오. ![연필](images/pencil.png)
 
 ```blocks3
-[파랑 v] 신호를 받았을 때
-모양을 (파란색 연필 v) 으로 바꾸기
-펜 색깔을 [#0000ff] 로 바꾸기
+[blue v] 신호를 받았을 때
+모양을 (pencil-blue v) \(으\)로 바꾸기
+펜 색깔을 [#0000ff] \(으\)로 정하기
 ```
 
 --- /task ---
@@ -77,17 +77,18 @@
 ![연필](images/pencil.png)
 
 ```blocks3
-플래그를 클릭했을 때
-+전부 삭제
-+모양을 (pencil-blue v) 로 바꾸기
-+펜 색깔을 [#0035FF] 로 바꾸기
-무한 반복
-  (mouse pointer v) 로 이동
-만약 <mouse down?> 라면
-  펜으로 그리기
-  아니면
-  펜으로 그리지 않기
-끝
+⚑ 클릭했을 때
++모두 지우기
++모양을 (pencil-blue v) \(으\)로 바꾸기
++펜 색깔을 [#0035FF] \(으\)로 정하기
+무한 반복하기 
+  (mouse pointer v) \(으\)로 이동하기
+  만약 <마우스를 클릭했는가?> \(이\)라면 
+    펜 내리기
+  아니면 
+    펜 올리기
+  end
+end
 ```
 
 --- /task ---
