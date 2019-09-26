@@ -14,6 +14,6 @@ steps:
     challenge: true
   - title: 실수를 되돌리기
   - title: 펜의 두께 변경하기
-  - title: '도전과제: 더 많은 연필들'
+  - title: '도전과제: 단축키 만들기'
     challenge: true
   - title: '더 나아가기'
