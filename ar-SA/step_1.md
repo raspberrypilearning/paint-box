@@ -1,6 +1,6 @@
 --- no-print ---
 
-هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/ar-SA/projects/paint-box-scratch2).
+هذا هو إصدار **Scratch 3** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع](https://projects.raspberrypi.org/ar-SA/projects/paint-box-scratch2).
 
 --- /no-print ---
 
@@ -13,7 +13,7 @@
 --- no-print --- انقر على العلم الأخضر للبدء. استخدم الماوس لتحريك قلم الرصاص واضغط باستمرار على زر الماوس الأيسر للرسم. انقر على لون لتغيير لون القلم الرصاص. انقر على الممحاة لتفعيل استخدامها ، واستخدمها لمحو عملك. لمسح الصفحة ، انقر فوق رمز التقاطع (علامة الاكس).
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/329443018/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/331747919/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
