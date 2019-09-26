@@ -13,7 +13,7 @@ steps:
   - title: '도전과제: 연필 추가하기'
     challenge: true
   - title: 실수를 되돌리기
-  - title: 연필 두께 변경하기
+  - title: 펜의 두께 변경하기
   - title: '도전과제: 더 많은 연필들'
     challenge: true
   - title: '더 나아가기'
