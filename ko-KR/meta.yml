@@ -1,27 +1,19 @@
 ---
-hero_image: images/banner.png
-theme: violet
-duration: 2
-listed: true
-ingredient: false
-copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: 색칠 상자
-description: 나만의 색칠하기 프로그램을 만드는 법을 배웁니다.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: 자신만의 색칠하기 프로그램을 만들어봐요
+version: 4.1.0
+last_tested: 2018-30-01
 steps:
-  - title: 들어가며
+  - title: 소개
   - title: 준비물
-  - title: 연필 만들기
   - title: 색연필
-  - title: 실수 해보기
-  - title: 연필 두께 변경하기
-  - title: '도전과제: 단축키'
-  - title: '도전과제: 더 많은 연필들'
+  - title: '도전과제: 연필 추가하기'
+    challenge: true
+  - title: 실수를 되돌리기
+  - title: 펜의 두께 변경하기
+  - title: '도전과제: 단축키 만들기'
+    challenge: true
+  - title: '더 나아가기'

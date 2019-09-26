@@ -1,14 +1,10 @@
---- challenge ---
+## Défi: commandes au clavier
 
-## Défi : raccourcis
+Peux-tu ajouter du code qui permettrait de faire que, au lieu de cliquer sur les carrés ou les boutons colorés de la scène, tu puisses obtenir des résultats en appuyant sur les touches du clavier? Par exemple :
 
-Peux-tu créer des raccourcis clavier pour tes commandes ? Par exemple :
++ <kbd>b</kbd> = basculer sur le crayon bleu
++ <kbd>v</kbd> = basculer sur le crayon vert
++ <kbd>g</kbd> = basculer sur la gomme
++ <kbd>e</kbd> = effacer l'écran
 
-+ b = Passer au crayon bleu
-+ v = Passer au crayon vert
-+ g = Passer à la gomme
-+ e = Effacer la scène
-
-Tu peux même permettre à l'utilisateur de changer l'épaisseur du trait du crayon avec les flèches du clavier.
-
---- /challenge ---
+Si tu le souhaites, tu peux également ajouter du code pour que l'appui sur les touches fléchées modifie la largeur du stylo.

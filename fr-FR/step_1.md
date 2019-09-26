@@ -1,24 +1,61 @@
+--- no-print ---
+
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/fr-FR/projects/paint-box-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
-Dans ce projet, Tu vas créer ton propre programme de peinture !
+Dans ce projet, Tu vas créer ton propre programme de dessin !
 
 ### Ce que tu feras
 
-Clique sur le drapeau vert pour démarrer. Utilise la souris pour bouger le crayon et maintiens le bouton gauche de la souris enfoncé pour dessiner. Clique sur une couleur pour changer de crayon ou clique sur la gomme et utilise la pour effacer ton travail. Pour effacer la page, clique sur la croix.
+--- no-print --- Clique sur le drapeau vert pour commencer. Utilise la souris pour déplacer le crayon et maintiens le bouton gauche de la souris pour dessiner. Clique sur une couleur pour changer de crayons. Clique sur la gomme pour l'utiliser, et utilise-la pour effacer ton travail. Pour effacer la page, clique sur la croix.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/249784795/?autostart=false" frameborder="0"></iframe>
-  <img src="images/paint-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/329444871/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
 
-### Ce que tu vas apprendre
+--- /no-print ---
 
-Ce projet couvre des éléments des sections suivantes du [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+--- print-only --- Tu cliqueras sur le drapeau vert pour commencer et tu utiliseras la souris pour déplacer le crayon et le bouton gauche de la souris pour dessiner. Cliquer sur une couleur changera les couleurs du crayon, et cliquer sur la gomme sélectionnera la gomme !
 
-+ [Combiner des éléments de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+![démonstration](images/showcase.png) --- /print-only ---
 
-### Informations supplémentaires pour les éducateurs
+--- collapse ---
+---
+title: Ce que tu vas apprendre
+---
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [ Version imprimable ](https://projects.raspberrypi.org/fr-FR/projects/paint-box/print){:target="_blank"}.
++ Ajouter l'extension crayon dans Scratch
++ Utiliser des diffusions pour contrôler un sprite dans Scratch
++ Rappelle-toi comment répondre aux événements de souris dans Scratch --- /collapse ---
 
-Utilise le lien en pied de page pour accéder au dépot GitHub de ce projet, qui contient toutes les ressources (y compris un exemple du projet terminé) dans le dossier 'fr-FR/resources'.
+--- collapse ---
+---
+title: Ce qu'il te faut
+---
+
+### Matériel informatique
+
++ Un ordinateur capable d'exécuter Scratch 3
+
+### Logiciels
+
++ Scratch 3 ([en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors ligne](http://rpf.io/scratchoff){:target="_blank"})
+
+### Téléchargements
+
++ [Projet de démarrage hors connexion](http://rpf.io/p/fr-FR/paint-box-go){:target="_blank"}
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Informations supplémentaires pour les éducateurs
+---
+
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/fr-FR/projects/paint-box/print){:target="_blank"}.
+
+Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/fr-FR/paint-box-get){:target="_blank"}. --- /collapse ---

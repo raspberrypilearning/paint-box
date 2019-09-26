@@ -1,44 +1,100 @@
-## 연필 만들기
+## 색연필
 
-무대에 그림을 그리는 데 사용되는 연필을 만드는 것으로 시작해 봅시다.
+다양한 색깔의 연필들을 추가해서 다양한 색의 선을 그릴 수 있도록 해 봅시다.
 
-+ 'Paintbox' 스크래치 프로젝트를 온라인 [jumpto.cc/paint-go](https://scratch.mit.edu/projects/236625141/#editor){:target="_blank"} 에서 열거나 <http://jumpto.cc/paint-get>{:target="_black"} 을 다운로드 받아 오프라인 에디터에서 사용할 수 있는 프로젝트를 엽니다.
+--- task --- `pencil` 스프라이트를 `pencil-blue` 스프라이트라고 이름을 변경합니다.
 
-연필과 지우개 스프라이트를 볼 수 있습니다:
+![연필 이름 바꾸기](images/rename-pencil.png) --- /task ---
 
-![screenshot](images/paint-starter.png)
+--- task --- pencil 스프라이트에서 마우스 우클릭하여 'pencil-blue' 코스튬을 복사하십시오.
 
-+ 그림을 그릴 수 있도록 연필 스프라이트가 마우스를 `무한반복하기` 로 따라다닐 수 있도록 몇개의 코드를 추가합니다:
+![스크린샷](images/paint-blue-duplicate.png) --- /task ---
 
-```blocks
-    ⚑ 클릭했을 때
+--- task --- 새 코스튬의 이름을 ’pencil-green’으로 바꾸고, 녹색으로 색깔을 바꾸어 주세요.
+
+![스크린샷](images/paint-pencil-green.png)
+
+--- /task ---
+
+--- task --- 새로운 사각형 스프라이트 두 개를 그려주세요. 파란색 하나, 녹색 하나를 말이죠. 이 작업은 파란색과 녹색 연필을 선택하기위한 것입니다.
+
+![스크린샷](images/paint-selectors.png) --- /task ---
+
+--- task --- 새 스프라이트의 이름을 'blue'과 'green'으로 바꿔 주세요.
+
+[[[generic-scratch3-rename-sprite]]]
+
+--- /task ---
+
+--- task --- 'green' 스프라이트를 클릭하면 "green" 메시지를 `브로드캐스트`{:class="block3events"} 하도록 코드를 추가합니다.
+
+![녹색 사각형](images/green_square.png)
+
+```blocks3
+이 스프라이트를 클릭했을 때
+(green v) 신호 보내기
+```
+
+[[[generic-scratch3-broadcast-message]]] --- /task ---
+
+연필 스프라이트는 "녹색" 메시지를 받으면 코스튬과 연필 색상을 변경해야합니다.
+
+--- task --- 연필 스프라이트로 돌아가세요. 이 스프라이트가 `초록`{:class="blockevents"} 브로드캐스트 이벤트를 받으면, 녹색 연필 모양으로 바뀌고 연필 색깔을 녹색으로 바꾸는 코드를 추가 하세요.
+
+![연필](images/pencil.png)
+
+```blocks3
+[green v] 신호를 받았을 때
+모양을 (pencil-green v) \(으\)로 바꾸기
+펜 색깔을 [#00CC44] \(으\)로 정하기
+```
+
+펜 색상을 녹색으로 설정하려면, `펜 컬러 설정하기`{:class="block3extensions"} 블록을 클릭하고, 초록색 사각형 스프라이트를 클릭하세요. --- /task ---
+
+연필 색상을 파란색으로 바꾸는 것도 비슷하게 작업하면 됩니다.
+
+--- task --- 파란색 사각형 스프라이트를 클릭하고 다음 코드를 추가합니다:
+
+![파란색 사각형](images/blue_square.png)
+
+```blocks3
+이 스프라이트를 클릭했을 때
+(blue v) 신호 보내기
+```
+
+그런 다음 연필 스프라이트를 클릭하고 다음 코드를 추가하십시오. ![연필](images/pencil.png)
+
+```blocks3
+[blue v] 신호를 받았을 때
+모양을 (pencil-blue v) \(으\)로 바꾸기
+펜 색깔을 [#0000ff] \(으\)로 정하기
+```
+
+--- /task ---
+
+--- task --- 마지막으로, 프로그램이 시작할 때 연필 스프라이트의 최초 색을 지정해주고, 빈화면에서 시작할 수 있도록 코드를 추가해 주세요.
+
+![연필](images/pencil.png)
+
+```blocks3
+⚑ 클릭했을 때
++모두 지우기
++모양을 (pencil-blue v) \(으\)로 바꾸기
++펜 색깔을 [#0035FF] \(으\)로 정하기
 무한 반복하기 
-  [마우스 포인터 v] 위치로 이동하기
+  (mouse pointer v) \(으\)로 이동하기
+  만약 <마우스를 클릭했는가?> \(이\)라면 
+    펜 내리기
+  아니면 
+    펜 올리기
+  end
 end
 ```
 
-+ 깃발을 클릭하고 무대 주변으로 마우스를 움직여서 코드가 잘 동작하는지 테스트 해 봅시다.
+--- /task ---
 
-다음으로, `만약`{:class="blockcontrol"} 마우스 버튼이 클릭됐을때만 연필이 그림을 그리도록 만들어 봅시다.
+프로그램 시작시 연필의 최초색을 다른 색으로 바꿀 수도 있습니다.
 
-+ 이 코드를 연필 스프라이트에 추가 해 보세요:
+--- task --- 코드를 다시 테스트 해 보세요. 파란색 사각형과 녹색 사각형을 클릭해서 연필의 색을 바꿀 수 있나요?
 
-![screenshot](images/paint-pencil-draw-code.png)
-
-+ 코드를 다시 테스트 해 보세요. 이번엔, 무대 주변으로 연필을 이동면서 마우스 버튼을 누르고 있어 보세요. 연필로 그림을 그릴 수 있나요?
-
-![screenshot](images/paint-draw.png)
-
---- collapse ---
----
-title: 만약 문제가 생겼다면...
----
-만약 연필 끝이 아니라 연필 중간에서 그림이 그려지는것 같다면, 연필의 모양 중심을 변경해야 합니다.
-
-![Costume center](images/costume-center.png)
-
-십자선은 연필심이 아니라 연필심 끝의 **바로 아래에** 있어야합니다.
-
-스프라이트의 '모양 중심'은 다른 탭이 클릭될 때까지 적용되지 않으니, 다른 모양이나 '스크립트' 탭을 클릭해서 모양 중심 변경이 완료되게 하세요.
-
---- /collapse ---
+![스크린샷](images/paint-pens-test.png) --- /task ---
