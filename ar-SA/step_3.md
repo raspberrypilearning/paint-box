@@ -77,6 +77,19 @@
 ![قلم رصاص](images/pencil.png)
 
 ```blocks3
+عند نقر ⚑
++مسح الكل
++غيِّر المظهر إلى (pencil-blue v)
+إجعل لون القلم مساوياً لـ+ [#0035FF]
+كرِّر باستمرار 
+  اذهب إلى (قلم أزرق v)
+  إذا <زر الفأرة مضغوط؟> 
+    أنزل القلم
+  وإلا 
+    ارفع القلم
+  end
+end
+
 when flag clicked
 +erase all
 +switch costume to (pencil-blue v)
