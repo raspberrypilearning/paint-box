@@ -30,7 +30,7 @@ title: Cosa imparerai
 
 + Aggiungi l'estensione penna in Scratch
 + Usa l'invio di messaggi per controllare uno sprite in Scratch
-+ Ricorda come rispondere agli eventi del mouse in Scratch --- / collapse ---
++ Ricorda come rispondere agli eventi del mouse in Scratch --- /collapse ---
 
 --- collapse ---
 ---
