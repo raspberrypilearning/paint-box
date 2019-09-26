@@ -16,5 +16,4 @@ steps:
   - title: Módosítsd a vonal vastagságát
   - title: 'Kihívás: billentyűzet parancsok'
     challenge: true
-  - title: Teszteld magad
   - title: 'Mi a következő lépés?'
