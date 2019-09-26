@@ -56,6 +56,6 @@ title: Mire lesz szükséged?
 title: További információk oktatóknak
 ---
 
-Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verziót](https://projects.raspberrypi.org/hu-HU/projects/paint-box/print) {:target="_blank"}.
+Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verziót](https://projects.raspberrypi.org/hu-HU/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/hu-HU/paint-box-get){:target="_blank"}. --- /collapse ---
+Itt található a [befejezett projekt](http://rpf.io/p/hu-HU/paint-box-get){:target="_blank"}. --- /collapse ---
