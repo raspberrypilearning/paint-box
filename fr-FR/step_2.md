@@ -31,10 +31,11 @@ Ajoute un peu de code au sprite crayon pour que celle-ci suive le pointeur de la
 ![crayon](images/pencil.png)
 
 ```blocks3
-lorsque le drapeau est cliqué
-répéter indéfiniment
+
+quand le drapeau vert pressé
+répéter indéfiniment 
   aller à (pointeur de souris v)
-fin
+end
 ```
 
 --- /task ---
@@ -48,20 +49,20 @@ Ensuite, fait que ton crayon ne dessine que `si`{:class="block3control"} le bout
 ![crayon](images/pencil.png)
 
 ```blocks3
-lorsque le drapeau est cliqué
-répéter indéfiniment
+quand le drapeau vert pressé
+répéter indéfiniment 
   aller à (pointeur de la souris v)
-
-+ si <mouse down?> alors
++ si <souris pressée ?> alors 
   stylo en position d'écriture
-  sinon
+  sinon 
   relever le stylo
-fin
+  end
+end
 ```
 
 --- /task ---
 
---- tâche --- Teste à nouveau ton code. Cette fois, déplace le crayon sur la scène et maintiens le bouton de la souris enfoncé. Peux-tu dessiner avec ton crayon ?
+--- task --- Teste à nouveau ton code. Cette fois, déplace le crayon sur la scène et maintiens le bouton de la souris enfoncé. Peux-tu dessiner avec ton crayon ?
 
 ![capture d'écran](images/paint-draw.png) --- /task ---
 
