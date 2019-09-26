@@ -4,13 +4,13 @@
 
 --- task --- 파이썬 스타터 프로젝트를 엽니다.
 
-**온라인:** [ rpf.io/paint-box-on ](http://rpf.io/paint-box-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
+**온라인:** [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
 
-스크래치 계정이있는 경우 ** Remix를 클릭 ** 하여 사본을 만들 수 있습니다.
+스크래치 계정이있는 경우 **Remix를 클릭** 하여 사본을 만들 수 있습니다.
 
 **오프라인**: [스타터 프로젝트](http://rpf.io/p/ko-KR/paint-box-go){:target="_blank"} 를 오프라인 에디터에서 여세요.
 
-스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff) 에서 다운 받을 수 있습니다. --- /task"
+스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff) 에서 다운 받을 수 있습니다.
 
 스타터 프로젝트에서는 연필과 지우개 스프라이트가 있습니다.
 
@@ -66,9 +66,9 @@ end
 ![스크린샷](images/paint-draw.png) --- /task ---
 
 --- collapse ---
-
-## 제목: 연필의 끝이 닿는 지점에 선이 그려지나요?
-
+---
+title: 연필의 끝이 닿는 지점에 선이 그려지나요?
+---
 연필의 가운데에서 선이 그려지는 것처럼 보인다면 연필 스프라이트를 변경하여 연필심이 스프라이트 중심에 오도록 해야 합니다.
 
 연필 스프라이트를 클릭하고 **모양** 탭을 누르세요.
