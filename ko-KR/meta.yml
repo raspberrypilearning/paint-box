@@ -10,7 +10,7 @@ steps:
   - title: 소개
   - title: 준비물
   - title: 색연필
-  - title: '도전과제: 단축키'
+  - title: '도전과제: 연필 추가하기'
     challenge: true
   - title: 실수 해보기
   - title: 연필 두께 변경하기
