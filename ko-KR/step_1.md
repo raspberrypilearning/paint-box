@@ -30,7 +30,9 @@ title: 배우게 될 것
 
 + 스크래치에 펜 확장 추가
 + 브로드 캐스트를 사용하여 스크래치에서 스프라이트 제어하기
-+ Scratch 에서 마우스 이벤트에 응답하는 방법을 생각해 내기 --- /collapse ---
++ Scratch 에서 마우스 이벤트에 응답하는 방법을 생각해 내기 
+
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -57,4 +59,5 @@ title: 교육자를 위한 추가 정보
 
 이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/ko-KR/projects/paint-box/print){:target="_blank"}을 사용해 주십시오.
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/paint-box-get){:target="_blank"}. --- /collapse ---
+여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/paint-box-get){:target="_blank"}. 
+--- /collapse ---
