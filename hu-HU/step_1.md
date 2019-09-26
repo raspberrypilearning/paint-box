@@ -30,7 +30,7 @@ title: Mit fogsz megtanulni
 
 + hogyan kell hozzáadni a toll kiterjesztést a Scratch-hez
 + hogyan vezérelhetsz szereplőket üzenetküldéssel a Scratch-ben
-+ hogyan kell lekezelni az egéreseményeket a Scratch-ben --- / collapse ---
++ hogyan kell lekezelni az egéreseményeket a Scratch-ben --- /collapse ---
 
 --- collapse ---
 ---
