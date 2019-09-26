@@ -51,11 +51,11 @@ Ezután a ceruza csak akkor rajzoljon, `ha`{: class = "block3control"} az egérg
 ⚑ -ra kattintáskor
 mindig 
   ugorj (mouse pointer v) helyére
-  + ha <mouse down?> akkor 
-  +   tollat tedd le
-  + különben 
-  +   tollat emeld fel
-  + end
++ ha <mouse down?> akkor 
+  tollat tedd le
+  különben 
+  tollat emeld fel
+  end
 end
 ```
 
