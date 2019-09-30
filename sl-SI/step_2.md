@@ -1,24 +1,24 @@
-## Naredi svinčnik
+## Ustvari svinčnik
 
-Začnite z izdelavo svinčnika, ki ga lahko uporabite za risanje na odru.
+Začni z izdelavo svinčnika, ki ga lahko uporabiš za risanje po odru.
 
-\--- naloga \--- Odprite 'Paint box' projekt zaganjalnika Scratch.
+\--- task \--- Odpri začetni projekt 'Barvice'
 
-**Online**: odprite starter projekt na [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
+**S povezavo:** odpri nov spletni Scratch projekt na [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+** Brez povezave ** : odpri začetni projekt [ ](http://rpf.io/p/en/paint-box-go) {: target = "_ blank"} v namiznem urejevalniku.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+V začetnem projektu bi moral videti figuri svinčnika in radirke:
 
 ![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+V svoj projekt dodaj razširitev Svinčnik.
 
 [[[generic-scratch3-add-pen-extension]]]
 
