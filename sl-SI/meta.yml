@@ -1,16 +1,16 @@
 ---
-title: Paint box
+title: Barvice
 hero_image: images / banner.png
 listed: true
 copyedit: false
-description: Naredite svoj program barv
+description: Ustvari svoj risarski program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
     title: Uvod
   - 
-    title: Naredi svinčnik
+    title: Ustvari svinčnik
   - 
     title: Barvni svinčniki
   - 
@@ -19,11 +19,11 @@ steps:
   - 
     title: Razveljavi napake
   - 
-    title: Spremenite širino svinčnika
+    title: Spremeni širino svinčnika
   - 
     title: 'Izziv: več svinčnikov'
     challenge: true
   - 
-    title: Test yourself
+    title: Preizkusi se
   - 
-    title: 'What next?'
+    title: 'Kaj sledi?'
