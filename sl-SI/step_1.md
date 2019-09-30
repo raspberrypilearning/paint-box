@@ -1,23 +1,23 @@
-\--- brez tiskanja \---
+\--- no-print \---
 
-To je različica projekta **Scratch 3**. Obstaja tudi različica projekta [Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) različica projekta.
 
-\--- / brez natisa \---
+\--- /no-print \---
 
 ## Uvod
 
-Naredite svoj program barv!
+Ustvari svoj risarski program!
 
 ### Kaj boš naredil
 
-\--- no-print \--- Za začetek kliknite zeleno zastavo. Z miško premaknite svinčnik in držite levi gumb miške za risanje. Kliknite na barvo, da spremenite svinčnike. Kliknite na radirko, da jo spremenite in uporabite za brisanje vašega dela. Če želite izbrisati stran, kliknite križ.
+\--- no-print \--- Za začetek klikni na zeleno zastavico. Uporabi miško za premikanje svinčnika in drži levo tipko miške za risanje. Klikni na barvo, da zamenjaš barvo. Klikni na radirko, da jo izbereš in jo uporabiš za brisanje. Če želiš pobrisati cel list, klikni na križec.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
-\--- / brez natisa \---
+\--- /no-print \---
 
 \--- samo za tiskanje \--- Za začetek boste kliknili na zeleno zastavo in z miško premaknite svinčnik in držite levi gumb miške za risanje. Če kliknete na barvo, boste spremenili barve svinčnika in klik na gumico se bo spremenil v radirko!
 
