@@ -14,7 +14,7 @@ Začni z izdelavo svinčnika, ki ga lahko uporabiš za risanje po odru.
 
 V začetnem projektu bi moral videti figuri svinčnika in radirke:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![posnetek zaslona](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
@@ -28,7 +28,7 @@ V svoj projekt dodaj razširitev Svinčnik.
 
 Figuri svinčnika dodaj nekaj kode, ki bo omogočila, da figura sledi kazalcu miške in da se to `ponavlja` {:class="block3control"}, tako da lahko rišeš:
 
-![pencil](images/pencil.png)
+![svinčnik](images/pencil.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -45,7 +45,7 @@ Nato naredi, da bo tvoj svničnik risal le `če`{:class="block3control"} je prit
 
 \--- task \--- Figuri svinčnika dodaj to kodo:
 
-![pencil](images/pencil.png)
+![svinčnik](images/pencil.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -61,22 +61,22 @@ konec
 
 \--- /task \---
 
-\--- task \--- Ponovno preizkusi kodo. Tokrat premikaj svinčnik po odru in hkrati stisni tipko miške. Can you draw with your pencil?
+\--- task \--- Ponovno preizkusi kodo. Tokrat premikaj svinčnik po odru in hkrati stisni tipko miške. Ali lahko sedaj rišeš s svojim svinčnikom?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![posnetek zaslona](images/paint-draw.png) \--- /task \---
 
-## \--- kolaps \---
+## \--- collapse \---
 
-## title: Ali vaš svinčnik ne črpa iz konice?
+## title: Ali zvoj svinčnik ne riše s konico?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Če je videti, da tvoj svinčnik ne riše s konico, temveč črta prihaja iz sredine, moraš spremeniti figuro svojega svinčnika, da bo konica središče figure.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Klini na figuro svinčnika, nato pa klikni na zavihek **Videzi**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Premakni videz, tako da bo konica svinčnika **tik nad vrhom** centra.
 
-![Costume center](images/costume-center-annotated.png)
+![Središče videzov](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Sedaj premikaj svinčnik po odru in riši. Svinčnik bi sedaj moral risati iz konice.
 
 \--- /collapse \---
