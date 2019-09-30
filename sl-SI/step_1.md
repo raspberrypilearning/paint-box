@@ -19,40 +19,40 @@ Ustvari svoj risarski program!
 
 \--- /no-print \---
 
-\--- samo za tiskanje \--- Za začetek boste kliknili na zeleno zastavo in z miško premaknite svinčnik in držite levi gumb miške za risanje. Če kliknete na barvo, boste spremenili barve svinčnika in klik na gumico se bo spremenil v radirko!
+\--- print-only \--- Zaženi program s klikom na zeleno zastavico in uporabi miško za premikanje svinčnika. Drži levo tipko miške za risanje. Če klikneš na barvo, boš spremenili barvo svinčnika, klik na radirko pa bo izbral radirko!
 
-![izložba](images/showcase.png) \--- / samo za tiskanje \---
+![vitrina](images/showcase.png) \--- /print-only \---
 
-## \--- kolaps \---
+## \--- collapse \---
 
-## naslov: Kaj se boste naučili
+## title: Kaj se boš naučil?
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ V Scratch dodaj razširitev za svinčnik
++ Uporabi sporočila za upravljanje figure v Scratchu
++ Obnovi znanje o tem, kako se odzivati na dogodke z miško \--- /collapse \---
 
-## \--- kolaps \---
+## \--- collapse \---
 
-## naslov: Kaj boste potrebovali
+## title: Kaj boš potreboval?
 
 ### Strojna oprema
 
-+ Računalnik, ki lahko izvaja Scratch 3
++ Računalnik, ki lahko poganja Scratch 3
 
 ### Programska oprema
 
-+ Scratch 3 ( [spletu](http://rpf.io/scratchon){: target = "_ blank"} ali [brez povezave](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
 
 ### Prenosi
 
 + [Začetni projekt brez povezave](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
-\--- / strni \---
+\--- /collapse \---
 
-## \--- kolaps \---
+## \--- collapse \---
 
-## naslov: Dodatne informacije za učitelje
+## title: Dodatne informacije za izobraževalce
 
-Če želite natisniti ta projekt, uporabite [tiskalnik prijazno različico](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
+Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / strni \---
+Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/paint-box-get)"}. \--- /collapse \---
