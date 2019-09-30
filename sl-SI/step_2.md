@@ -26,42 +26,42 @@ V svoj projekt dodaj razširitev Svinčnik.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Figuri svinčnika dodaj nekaj kode, ki bo omogočila, da figura sledi kazalcu miške in da se to `ponavlja` {:class="block3control"}, tako da lahko rišeš:
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-ko je zastavica kliknila
-vedno
-  pojdi na (kazalec miške v)
+ko kliknemo na zastavico
+ponavljaj
+pojdi na (kazalcu miške v)
 konec
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Klikni zastavico in premikaj kazelec miške po odru, da vidiš ali tvoja koda deluje. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Nato naredi, da bo tvoj svničnik risal le `če`{:class="block3control"} je pritisnjena tipka na miški.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Figuri svinčnika dodaj to kodo:
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-ko je zastavica kliknila
-vedno
+ko kliknemo na zastavico
+ponavljaj
   pojdi na (kazalec miške v)
 
 + če <mouse down?> potem
-  pero navzdol
-  drugo
-  pero gor
+  sputi pero
+  sicer
+  dvigni pero
 konec
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Ponovno preizkusi kodo. Tokrat premikaj svinčnik po odru in hkrati stisni tipko miške. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
