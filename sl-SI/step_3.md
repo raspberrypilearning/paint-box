@@ -2,37 +2,37 @@
 
 Svojemu projektu boše sedaj dodal različne barvne svinčnike in uporabniku omogočil izbiro med njimi.
 
-\--- task \--- Preimenuj figuro `svinčnik` v `svinčnik-moder`
+\--- task \--- Z desno tipko klikni na figuro `svinčnik` in preimenuj videz v `'svinčnik-moder'`
 
 ![rename-pencil](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Z desno tipko klikni na videz 'svinčnik-moder' in ga podvoji.
 
 ![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Poimenuje novi videz 'svinčnik-zelen', in ga obarvaj zeleno.
 
 ![screenshot](images/paint-pencil-green.png)
 
-\--- / naloga \---
+\--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Nariši dve novi figuri: en moder in en zelen kvadrat. Namenjena sta izbiri med modro in zeleno barvico.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Preimenuj novi figuri v 'modra' in 'zelena'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Figuri 'zelena' dodaj kodo, ki povhzroči, da klik na figuro `objavi`{:class="block3events"} sporočilo 'zelena'.
 
 ![green square](images/green_square.png)
 
 ```blocks3
-ko je ta geslo kliknilo
-oddaje (zelena v)
+ko kliknemo to figuro
+objavi (zelena v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
