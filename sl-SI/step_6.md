@@ -1,31 +1,31 @@
-## Spremeni širino svinčnika
+## Spremeni širino pisala
 
-Nato boste dodali kodo, ki bo osebi, ki uporablja vaš program, lahko risala stvari z različnimi širinami peresa.
+Zdaj boš dodal kodo, ki omogoča osebi, ki uporablja tvoj program, da riše s pisali različnih debelin.
 
-\--- naloga \--- Najprej dodajte novo spremenljivko `width`{: class = "block3variables"}.
+\--- task \--- Najprej dodaj novo spremenljjivko z imenom `širina`{:class="block3variables"}.
 
-[[[generic-scratch3-add-variable]]] \--- / naloga \---
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- naloga \--- Dodaj to vrstico **znotraj** `vedno`{: class = "block3control"} zanke kode svinčnika:
+\--- task \--- Dodaj to vrstico **znotraj** zanke `ponavljaj`{:class="block3control"}, v kodo figure svinčnika:
 
 ```blocks3
-ko zastave klikne
-izbrisali vse
-Stikalo noša do (svinčnika-modro V)
-set barve svinčnikom [# 0035FF]
-veke
-kraju (mouse pointer v)
-+ določiti velikost pero (širina :: spremenljivk)
-če <<mouse down?> in <(miška y) > [-120]>> in 
-  pero navzdol
-  drugo
-  pero do
-konca
+ko kliknemo na zastavico
+izbriši vse
+zamenja videz na (svinčnik-moder v)
+nastavi barvo peresa na [#0035FF]
+ponavljaj
+  pojdi na (kazalec miške v)
+  +nastavi velikost peresa na (širina :: variables)
+  if <(je miškin gumb pritisnjen?) in <(miškin y) > [-120]>> potem
+    spusti pero
+  sicer
+    dvigni pero
+konec
 ```
 
-\--- / naloga \---
+\--- /task \---
 
-Širina peresa je vedno večkrat nastavljena na vrednost spremenljivke `širina`{: class = "block3variables"}.
+Širina peresa se sedaj ponavljajoče nastavlja na vrednost spremenljivke `širina`{:class="block3variables"}.
 
 \--- naloga \--- desno miškino tipko kliknite spremenljivko `širina`{: class = "block3variables"}, ki je prikazana na stopnji, in nato kliknite **drsnik**.
 
