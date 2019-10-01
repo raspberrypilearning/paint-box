@@ -4,21 +4,21 @@ Svojemu projektu boše sedaj dodal različne barvne svinčnike in uporabniku omo
 
 \--- task \--- Z desno tipko klikni na figuro `svinčnik` in preimenuj videz v `'svinčnik-moder'`
 
-![rename-pencil](images/rename-pencil.png) \--- /task \---
+![preimenuj-svinčnik](images/rename-pencil.png) \--- /task \---
 
 \--- task \--- Z desno tipko klikni na videz 'svinčnik-moder' in ga podvoji.
 
-![screenshot](images/paint-blue-duplicate.png) \--- /task \---
+![posnetek zaslona](images/paint-blue-duplicate.png) \--- /task \---
 
 \--- task \--- Poimenuje novi videz 'svinčnik-zelen', in ga obarvaj zeleno.
 
-![screenshot](images/paint-pencil-green.png)
+![posnetek zaslona](images/paint-pencil-green.png)
 
 \--- /task \---
 
 \--- task \--- Nariši dve novi figuri: en moder in en zelen kvadrat. Namenjena sta izbiri med modro in zeleno barvico.
 
-![screenshot](images/paint-selectors.png) \--- /task \---
+![posnetek zaslona](images/paint-selectors.png) \--- /task \---
 
 \--- task \--- Preimenuj novi figuri v 'modra' in 'zelena'
 
@@ -28,7 +28,7 @@ Svojemu projektu boše sedaj dodal različne barvne svinčnike in uporabniku omo
 
 \--- task \--- Figuri 'zelena' dodaj kodo, ki povhzroči, da klik na figuro `objavi`{:class="block3events"} sporočilo 'zelena'.
 
-![green square](images/green_square.png)
+![zeleni kvadrat](images/green_square.png)
 
 ```blocks3
 ko kliknemo to figuro
@@ -41,7 +41,7 @@ Figura svinčnika naj spremlja objave in v primeru prejema sporočila 'zelena' s
 
 \--- task \--- Preklopi na figuro svinčnika. Dodaj kodo, ki bo omogočila, da bo figura `zelena`{:class="block3events"} prejela objavo, preklopila na videz zelene barvice in spremenila barvo svinčnika na zeleno.
 
-![pencil](images/pencil.png)
+![svinčnik](images/pencil.png)
 
 ```blocks3
 ko prejmem [zelena v]
@@ -55,14 +55,14 @@ Natao napravi podobno stvar še za izbiro modre barve.
 
 \--- task \--- Klikni na figuro modrega kvadrata in dodaj to kodo:
 
-![blue_square](images/blue_square.png)
+![modri kvadrat](images/blue_square.png)
 
 ```blocks3
 ko kliknemo to figuro
 objavi (modra v)
 ```
 
-Nato klikni na figuro svinčnika in dodaj to kodo: ![pencil](images/pencil.png)
+Nato klikni na figuro svinčnika in dodaj to kodo: ![svinčnik](images/pencil.png)
 
 ```blocks3
 ko prejmem [modra v]
@@ -74,7 +74,7 @@ nastavi barvo peresa na [#0000ff]
 
 \--- task \--- Na koncu dodaj še to kodo, da poveš svinčniku, katera naj bo začetna barva in da poskrbiš, da bo zaslon ob zagonu programa prazen.
 
-![pencil](images/pencil.png)
+![svinčnik](images/pencil.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -92,8 +92,8 @@ konec
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Če želiš, lahko izbereš tudi drugo začetno barvo.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Preizkusi svojo kodo. Ali lahko s klikom na barvna kvadrata preklapljaš med modro in zeleno barvo svinčnika?
 
-![screenshot](images/paint-pens-test.png) \--- /task \---
+![posnetek zaslona](images/paint-pens-test.png) \--- /task \---
