@@ -1,10 +1,10 @@
 ## Izziv: ukazi na tipkovnici
 
-Ali lahko dodate kodo, tako da namesto da kliknete na barvne kvadrate ali gumbe na odru, lahko naredite stvari s pritiskom na tipke na tipkovnici? Na primer:
+Ali lahko dodaš kodo, da lahko uporabnik namesto klikanja z miško po obarvanih kvadratih in gumbih na odru, uporabi tipke na tipkovnici, da izvede iste stvari? Na primer:
 
-+ <kbd>b</kbd> = Preklop na modri svinčnik
-+ <kbd>g</kbd> = preklopite na zeleni svinčnik
-+ <kbd>e</kbd> = preklop na radirko
-+ <kbd>c</kbd> = čisti zaslon
++ <kbd>m</kbd> = preklop na moder svinčnik
++ <kbd>z</kbd> = preklop na zelen svinčnik
++ <kbd>r</kbd> = preklop na radirko
++ <kbd>p</kbd> = počisti zaslon
 
 Če želite, lahko dodate tudi kodo, tako da s pritiskom puščičnih gumbov spremenite širino peresa.
