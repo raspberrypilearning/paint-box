@@ -19,7 +19,7 @@ steps:
   - 
     title: Razveljavitev napak
   - 
-    title: Spremeni širino svinčnika
+    title: Spremeni širino pisala
   - 
     title: 'Izziv: več svinčnikov'
     challenge: true
