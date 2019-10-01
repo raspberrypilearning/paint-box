@@ -2,30 +2,30 @@
 
 Včasih pride do napak, zato dodajte gumb »počisti« in gumb za radirko.
 
-\--- naloga \--- Dodajte 'X-blok' iz spisa knjižnice. Barvite kostum duhov v rdeči barvi in ga nekoliko zmanjšajte. Ta Sprite je gumb 'jasno'.
+\--- task \--- Dodaj figuro 'X-block', ki se nahaja v razdelku Črke iz knjižnice figur. Premineuj to figuro v 'blok x', pobarvaj jo rdeče in jo malo zmanjšaj. To bo gumb, ki 'počisti' risalno površino.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![posnetek zaslona](images/paint-x.png) \--- / naloga \---
+![posnetek zaslona](images/paint-x.png) \--- /task \---
 
-\--- naloga \--- Dodajte kodo v '' X-blok '' sprite, da počistite stopnjo, ko se je geslo kliknilo.
+\--- task \--- Figuri 'blok x' dodaj kodo, ki izbriše vse na odru, kadar kliknemo na njo.
 
 ![križ](images/cross.png)
 
 ```blocks3
-ko je ta geslo kliknilo
-izbrisati vse
+ko kliknemo to figuro
+izbriši vse
 ```
 
-\--- / naloga \---
+\--- /task \---
 
-Vam ni treba uporabiti že `oddajanja`{: class = "block3events"}, da počistite Stage, ker je `brisanje vseh`{: class = "block3extensions"} blok pa to delo.
+Za čiščenje odra ti ni potrebno `objaviti`{: class = "block3events"} sporočila, ker že `izbriši vse`{: class = "block3extensions"} blok opravi to delo.
 
-Ali vidite, da je sprajt za svinčnik opremljen z radirko?
+Si opazil, da figura svinčnika vsebuje tudi videz radirke?
 
 ![posnetek zaslona](images/paint-eraser-costume.png)
 
-V vaš projekt je vključen tudi ločen brisalni sprite.
+Tvoj projekt vsebuje tudi ločeno figuro radirke.
 
 \--- naloga \--- desno miškino tipko kliknite ta radirka in nato kliknite na **prikaz**. Tukaj lahko vidite, kako naj bo vaša stopnja zdaj:
 
