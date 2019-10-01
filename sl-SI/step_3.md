@@ -83,7 +83,7 @@ ko kliknemo na zastavico
 + nastavi barvo peresa na [#0035FF]
 ponavljaj
   pojdi na (kazalec miške v)
-  če <mouse down?> potem
+  če (je miškin gumb pritisnjen?) potem
     spusti pero
   sicer
     dvigni pero
