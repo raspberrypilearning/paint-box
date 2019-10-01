@@ -46,47 +46,47 @@ Figura svinčnika naj spremlja objave in v primeru prejema sporočila 'zelena' s
 ```blocks3
 ko prejmem [zelena v]
 zamenjaj videz na (svinčnik-zelen v)
-nastavi barvo peresa na [# 00CC44]
+nastavi barvo peresa na [#00CC44]
 ```
 
-Da bi spremenil barvo svinčnika na zeleno, najprej klikni na obarvan kvadrat v bloku `nastavi barvo peresa na`, izberi kapaljko in potem klikni na figuro z zelenim kvadratom. \--- /task \---
+Da bi spremenil barvo svinčnika na zeleno, najprej klikni na obarvan kvadrat v bloku `nastavi barvo peresa na`{:class="block3extensions"}, izberi kapaljko in potem klikni na figuro z zelenim kvadratom. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Natao napravi podobno stvar še za izbiro modre barve.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Klikni na figuro modrega kvadrata in dodaj to kodo:
 
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-ko je ta geslo kliknilo
-oddaje (modra v)
+ko kliknemo to figuro
+objavi (modra v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Nato klikni na figuro svinčnika in dodaj to kodo: ![pencil](images/pencil.png)
 
 ```blocks3
-ko prejmem [modri v]
-preklopi kostum na (svinčnik-modri v)
-nastavite barvo peresa na [# 0000ff]
+ko prejmem [modra v]
+zamenjaj videz na (svinčnik-moder v)
+nastavi barvo peresa na [#0000ff]
 ```
 
 \--- /task \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- task \--- Na koncu dodaj še to kodo, da poveš svinčniku, katera naj bo začetna barva in da poskrbiš, da bo zaslon ob zagonu programa prazen.
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-ko zastava kliknili
-+ izbrišete vse
-+ preklop kostum za (svinčnik, modra v)
-+ nastavite barvni svinčnik na [# 0035FF]
-večno
-  Pojdi na (kazalec miške v)
-, če <mouse down?> pa
-  pero navzdol
-  še
-  pen up
+ko kliknemo na zastavico
++ izbriši vse
++ zamenja videz na (svinčnik-moder v)
++ nastavi barvo peresa na [#0035FF]
+ponavljaj
+  pojdi na (kazalec miške v)
+  če <mouse down?> potem
+    spusti pero
+  sicer
+    dvigni pero
 konec
 ```
 
