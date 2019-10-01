@@ -1,7 +1,7 @@
 ## Izziv: več svinčnikov
 
-Lahko dodate rdečo, rumeno in črno svinčnik v vaš program barve? Oglejte si prejšnje korake, če želite opomnik, kako to narediti.
+Ali znaš dodati še rdeč, rumen in črn svinčnik v tvoj risarski program? Oglej si prejšnje korake, če rabiš pomoč pri tem opravilu.
 
-Ali lahko uporabite svoje svinčnike za risanje slike?
+Ali lahko uporabiš svoje barvice in narišeš sliko?
 
-![screenshot](images/paint-final.png)
+![posnetek zaslona](images/paint-final.png)
