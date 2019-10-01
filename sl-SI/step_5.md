@@ -1,6 +1,6 @@
-## Razveljavi napake
+## Razveljavitev napak
 
-Včasih pride do napak, zato dodajte gumb »jasno« in gumb za brisanje.
+Včasih pride do napak, zato dodajte gumb »počisti« in gumb za radirko.
 
 \--- naloga \--- Dodajte 'X-blok' iz spisa knjižnice. Barvite kostum duhov v rdeči barvi in ga nekoliko zmanjšajte. Ta Sprite je gumb 'jasno'.
 
