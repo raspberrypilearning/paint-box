@@ -37,9 +37,9 @@ objavi (zelena v)
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Figura svinčnika naj spremlja objave in v primeru prejema sporočila 'zelena' spremeni svoj videz in barvo svinčnika.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Preklopi na figuro svinčnika. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
 ![pencil](images/pencil.png)
 
