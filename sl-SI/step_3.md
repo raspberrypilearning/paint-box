@@ -1,10 +1,10 @@
-## Barvni svinčniki
+## Barvice
 
-Zdaj boste svojemu projektu dodali različne barvne svinčnike in uporabniku omogočili izbiro med njimi.
+Svojemu projektu boše sedaj dodal različne barvne svinčnike in uporabniku omogočil izbiro med njimi.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- task \--- Preimenuj figuro `svinčnik` v `svinčnik-moder`
 
-![rename-pencil](images/rename-pencil.png) \--- / naloga \---
+![rename-pencil](images/rename-pencil.png) \--- /task \---
 
 \--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
