@@ -46,49 +46,49 @@ Ko figura svinčnika prejme objavljeno sporočilo "radirka", mora preklopiti svo
 
 \--- task \--- Dodaj kodo, ki ustvari radirko.
 
-\--- namigi \--- \--- namig \--- Dodajte kodo za sprite svinčnika: `Ko prejmem`{: class = "block3events"} `radirke`{: class = "block3events"} message `Preklopi na kostumsko brisalo`{: class = "block3looks"} `Nastavi barvo peresa`{: class = "block3extensions"} na belo \--- / namig \--- \--- namig \--- Tu so vsi bloki, ki jih potrebujete:
+\--- hints \--- \--- hint \--- Dodaj nekaj kode figuri svnčnika: `Ko prejme`{:class="block3events"} sporočilo `radirka`{:class="block3events"} `Zamenja videz na radirko`{:class="block3looks"} `Nastavi barvo peresa`{:class="block3extensions"} na belo \--- /hint \--- \--- hint \--- Tu so vsi potrebni bloki:
 
 ```blocks3
-nastavite barvo peresa na [#FFFFFF]
-ko prejmem kljukico [radirka v]
+nastavi barvo peresa na [#FFFFFF]
+ko prejmem [radirka v]
 
-v (radirka v)
+zamenjaj videz na (radirka v)
 ```
 
-\--- / namig \--- \--- namig \--- Tukaj je, kako naj izgleda koda: ![svinčnik](images/pencil.png)
+\--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako: ![svinčnik](images/pencil.png)
 
 ```blocks3
 ko prejmem [radirka v]
-preklopite kostum na (radirka v)
-nastavite barvo peresa na [#FFFFFF]
+zamenjaj videz na (radirka v)
+nastavi barvo peresa na [#FFFFFF]
 ```
 
-\--- / namig \--- \--- / namigi \--- \--- / naloga \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- naloga \--- Preizkusite svoj projekt, da vidite, če lahko počistite stopnjo in izbrišete črte svinčnika.
+\--- task \--- Preizkusi projekt, da vidiš, če lahko počistiš oder in izbrišeš črte svinčnika.
 
-![posnetek zaslona](images/paint-erase-test.png) \--- / naloga \---
+![posnetek zaslona](images/paint-erase-test.png) \--- /task \---
 
-Še ena težava s svinčnikom: lahko povlečete kjerkoli na odru, tudi blizu "jasnih" in brisalnih gumbov!
+Svinčnik ima še eno težavo: Z njim lahko rišeš kjerkoli po odru, vključno po tistem delu, kjer se nahajata gumba 'radirka' in 'počisti'!
 
 ![posnetek zaslona](images/paint-draw-problem.png)
 
-\--- naloga \--- Če želite to popraviti, spremenite kodo tako, da je pero le navzdol, če miško kliknete **in** položaj `y` kazalca miške pa je večji od `-120`:
+\--- task \--- Da bi to popravil, spremeni kodo na tak način, da je pero spuščeno le kadar je tipka miške pritisnjena **in** je `y` pozicija kazalca miške večji od `-120`:
 
 ![svinčnik](images/pencil.png)
 
 ```blocks3
-ko zastave klikne
-izbrisali vse
-Stikalo noša do (svinčnika-modro V)
-set barve svinčnikom [# 0035FF]
-veke
-  kraju (mouse pointer v)
-+ če <<mouse down?> in <(miš y) > [-120]>> potem 
-  pero navzdol
-  še
-  pero do
-konca
+ko kliknemo na zastavico
+izbriši vse
+zamenja videz na (svinčnik-moder v)
+nastavi barvo peresa na [#0035FF]
+ponavljaj
+  pojdi na (kazalec miške v)
+  +if <(je miškin gumb pritisnjen?) in <(miškin y) > [-120]>> potem
+    spusti pero
+  sicer
+    dvigni pero
+konec
 ```
 
 \--- / naloga \---
