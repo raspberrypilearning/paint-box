@@ -27,24 +27,24 @@ Si opazil, da figura svinčnika vsebuje tudi videz radirke?
 
 Tvoj projekt vsebuje tudi ločeno figuro radirke.
 
-\--- naloga \--- desno miškino tipko kliknite ta radirka in nato kliknite na **prikaz**. Tukaj lahko vidite, kako naj bo vaša stopnja zdaj:
+\--- task \--- Klikni na figuro radirke in jo prikaži s klikom na **oko** v panoju za urejanje podatkov o figuri. Tukaj lahko vidite, kako naj bo vaš oder videti zdaj:
 
-![posnetek zaslona](images/paint-eraser-stage.png) \--- / naloga \---
+![posnetek zaslona](images/paint-eraser-stage.png) \--- /task \---
 
-\--- naloga \--- Dodajte kodo za brisalni sprite za pošiljanje `'radirke' oddaje`{: class = "block3events"}, ko se klikne brisalni sprit.
+\--- task \--- Figuri radirke dodaj kodo, ki `objavi 'radirka'`{:class="block3events"}, kadar kliknemo na figuro radirke.
 
 ![radirka](images/eraser.png)
 
 ```blocks3
-ko je ta geslo kliknilo
-oddaje (radirka v)
+ko kliknemo to figuro
+objavi (radirka v)
 ```
 
-\--- / naloga \---
+\--- /task \---
 
-Ko svinčnik sprite sprejme "radirko" sporočilo, mora preklopiti svoj kostum na radirko in preklopiti barvo peresa na belo, ki je enake barve kot Stage!
+Ko figura svinčnika prejme objavljeno sporočilo "radirka", mora preklopiti svoj videz na radirko in preklopiti barvo peresa na belo, kar je barva odra!
 
-\--- naloga \--- Dodajte nekaj kode za ustvarjanje radirke.
+\--- task \--- Dodaj kodo, ki ustvari radirko.
 
 \--- namigi \--- \--- namig \--- Dodajte kodo za sprite svinčnika: `Ko prejmem`{: class = "block3events"} `radirke`{: class = "block3events"} message `Preklopi na kostumsko brisalo`{: class = "block3looks"} `Nastavi barvo peresa`{: class = "block3extensions"} na belo \--- / namig \--- \--- namig \--- Tu so vsi bloki, ki jih potrebujete:
 
