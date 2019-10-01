@@ -91,8 +91,8 @@ ponavljaj
 konec
 ```
 
-\--- / naloga \---
+\--- /task \---
 
-\--- naloga \--- Preizkusite svoj projekt. Zdaj ne smete risati blizu gumbov.
+\--- task \--- Preizkusi svoj projekt. Zdaj bi moralo biti onemogočeno, da bi risal blizu gumbov.
 
-![posnetek zaslona](images/paint-fixed.png) \--- / naloga \---
+![posnetek zaslona](images/paint-fixed.png) \--- /task \---
