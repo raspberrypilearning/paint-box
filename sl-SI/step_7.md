@@ -7,4 +7,4 @@ Ali lahko dodaš kodo, da lahko uporabnik namesto klikanja z miško po obarvanih
 + <kbd>r</kbd> = preklop na radirko
 + <kbd>p</kbd> = počisti zaslon
 
-Če želite, lahko dodate tudi kodo, tako da s pritiskom puščičnih gumbov spremenite širino peresa.
+Če želiš, lahko dodaš tudi kodo, ki spreminja širino svinčnika s pomočjo puščic na tipkovnici.
