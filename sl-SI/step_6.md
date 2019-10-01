@@ -27,14 +27,14 @@ konec
 
 Širina peresa se sedaj ponavljajoče nastavlja na vrednost spremenljivke `širina`{:class="block3variables"}.
 
-\--- naloga \--- desno miškino tipko kliknite spremenljivko `širina`{: class = "block3variables"}, ki je prikazana na stopnji, in nato kliknite **drsnik**.
+\--- task \--- Z desno tipko klikni na spremenljivko `širina`{:class="block3variables"}, ki je prikazana na odru in nato klikni na **drsnik**.
 
-![posnetek zaslona](images/paint-slider.png) \--- / naloga \---
+![posnetek zaslona](images/paint-slider.png) \--- /task \---
 
-Zdaj lahko povlečete drsnik, ki je viden pod spremenljivko, da spremenite vrednost spremenljivke.
+Zdaj lahko premikaš drsnik pod spremenljivko in s tem spreminjaš vrednost spremenljivke.
 
 ![posnetek zaslona](images/paint-slider-change.png)
 
-\--- naloga \--- Preizkusite svoj projekt in preverite, ali lahko dodate kodo za prilagoditev širine peresa.
+\--- task \--- Preizkusi svoj projekt, da vidiš ali lahko dodaš kodo, ki spreminja širino pisala.
 
-![posnetek zaslona](images/paint-width-test.png) \--- / naloga \---
+![posnetek zaslona](images/paint-width-test.png) \--- /task \---
