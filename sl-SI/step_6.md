@@ -1,4 +1,4 @@
-## Spremenite širino peresa
+## Spremeni širino svinčnika
 
 Nato boste dodali kodo, ki bo osebi, ki uporablja vaš program, lahko risala stvari z različnimi širinami peresa.
 
