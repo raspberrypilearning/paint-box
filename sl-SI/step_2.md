@@ -53,7 +53,7 @@ ponavljaj
   pojdi na (kazalec miške v)
 
 + če <mouse down?> potem
-  sputi pero
+  spusti pero
   sicer
   dvigni pero
 konec
@@ -61,21 +61,21 @@ konec
 
 \--- /task \---
 
-\--- task \--- Ponovno preizkusi kodo. Tokrat premikaj svinčnik po odru in hkrati stisni tipko miške. Ali lahko sedaj rišeš s svojim svinčnikom?
+\--- task \--- Ponovno preizkusi kodo. Tokrat premikaj svinčnik po odru in hkrati drži pritisnjeno tipko miške. Ali lahko s svojim svinčnikom sedaj rišeš?
 
 ![posnetek zaslona](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Ali zvoj svinčnik ne riše s konico?
+## title: Ali tvoj svinčnik ne riše s konico?
 
-Če je videti, da tvoj svinčnik ne riše s konico, temveč črta prihaja iz sredine, moraš spremeniti figuro svojega svinčnika, da bo konica središče figure.
+Če je videti, da tvoj svinčnik ne riše s konico, temveč črta prihaja iz sredine, moraš spremeniti figuro svinčnika, da bo konica središče figure.
 
 Klini na figuro svinčnika, nato pa klikni na zavihek **Videzi**.
 
 Premakni videz, tako da bo konica svinčnika **tik nad vrhom** centra.
 
-![Središče videzov](images/costume-center-annotated.png)
+![Sredina videza](images/costume-center-annotated.png)
 
 Sedaj premikaj svinčnik po odru in riši. Svinčnik bi sedaj moral risati iz konice.
 
