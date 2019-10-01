@@ -39,17 +39,17 @@ objavi (zelena v)
 
 Figura svinčnika naj spremlja objave in v primeru prejema sporočila 'zelena' spremeni svoj videz in barvo svinčnika.
 
-\--- task \--- Preklopi na figuro svinčnika. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Preklopi na figuro svinčnika. Dodaj kodo, ki bo omogočila, da bo figura `zelena`{:class="block3events"} prejela objavo, preklopila na videz zelene barvice in spremenila barvo svinčnika na zeleno.
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-ko prejmem [zeleno v]
-preklopi kostum na (svinčnik-zeleni v)
-nastavite barvo peresa na [# 00CC44]
+ko prejmem [zelena v]
+zamenjaj videz na (svinčnik-zelen v)
+nastavi barvo peresa na [# 00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Da bi spremenil barvo svinčnika na zeleno, najprej klikni na obarvan kvadrat v bloku `nastavi barvo peresa na`, izberi kapaljko in potem klikni na figuro z zelenim kvadratom. \--- /task \---
 
 Then to a similar thing so that you can switch the pencil colour to blue.
 
