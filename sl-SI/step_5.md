@@ -1,6 +1,6 @@
 ## Razveljavitev napak
 
-Včasih pride do napak, zato dodajte gumb »počisti« in gumb za radirko.
+Včasih pride do napak, zato dodaj gumb »počisti« in gumb za radirko.
 
 \--- task \--- Dodaj figuro 'X-block', ki se nahaja v razdelku Črke iz knjižnice figur. Premineuj to figuro v 'blok x', pobarvaj jo rdeče in jo malo zmanjšaj. To bo gumb, ki 'počisti' risalno površino.
 
