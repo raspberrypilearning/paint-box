@@ -55,4 +55,4 @@
 
 Уколико је потребно да одштампате овај пројекат, молимо Вас користите [Верзију за штампање](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Завршени пројекат можете пронаћи [овде](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
