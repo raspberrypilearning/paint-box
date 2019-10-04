@@ -6,19 +6,19 @@
 
 **Online**: deschide proiectul de bază de la [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Dacă ai un cont Scratch, poți crea o copie dând click pe **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: deschide [proiectul de bază](http://rpf.io/p/en/paint-box-go){:target="_blank"} în editorul offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Dacă ai nevoie să descarci și să instalezi editorul Scratch offline, îl poți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+În proiectul de bază ar trebui să poți vedea personajele pentru creion și radieră:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![captură de ecran](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Adaugă în proiect extensia pentru creion.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,7 +26,7 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Adaugă niște cod personajului pentru creion pentru a face personajul să urmărească `la infinit`{:class="block3control"} cursorul mouse-ului astfel încât să poți desena:
 
 ![pencil](images/pencil.png)
 
