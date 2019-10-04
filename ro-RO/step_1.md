@@ -45,7 +45,7 @@ Creează-ți propriul program de desenat!
 
 ### Fișiere descărcabile
 
-+ [Proiect de pornire offline](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Proiect de bază offline](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
