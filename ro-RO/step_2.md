@@ -1,10 +1,10 @@
-## Make a pencil
+## Creează un creion
 
-Start by making a pencil that you can use to draw on the Stage.
+Începe prin a crea un creion pe care să îl poți folosi pentru a desena pe Scenă.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \--- Deschide proiectul de bază Scratch pentru "Cutia de culori".
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: deschide proiectul de bază de la [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
