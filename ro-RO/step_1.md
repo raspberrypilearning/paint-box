@@ -27,32 +27,32 @@ Creează-ți propriul program de desenat!
 
 ## title: Ce vei învăța
 
-+ Adaugă în Scratch extensia pentru creion
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Adăugarea în Scratch a extensiei pentru creion
++ Utilizarea difuzărilor pentru a controla un personaj în Scratch
++ Recapitulare: cum răspunzi evenimentelor de mouse în Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: De ce vei avea nevoie
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Un computer capabil să ruleze Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (fie [online](http://rpf.io/scratchon){:target="_blank"}, fie [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Fișiere descărcabile
 
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Proiect de pornire offline](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Informații suplimentare pentru educatori
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Dacă ai nevoie să tipărești acest proiect, folosește [versiunea imprimabilă](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Poți găsi [proiectul finalizat aici](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
