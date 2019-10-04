@@ -28,7 +28,7 @@ Adaugă în proiect extensia pentru creion.
 
 Adaugă niște cod personajului pentru creion pentru a face personajul să urmărească `la infinit`{:class="block3control"} cursorul mouse-ului astfel încât să poți desena:
 
-![pencil](images/pencil.png)
+![creion](images/pencil.png)
 
 ```blocks3
 când se dă click pe steguleț
@@ -45,38 +45,38 @@ sfârșit
 
 \--- task \--- Adaugă acest cod la personajul creionului tău:
 
-![pencil](images/pencil.png)
+![creion](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+când se dă click pe steguleț
+la infinit
+  mergi la (cursorul mouse-ului v)
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
-end
++ dacă <butonul mouse-ului e apăsat?> atunci
+  stilou jos
+  altfel
+  stilou sus
+sfârșit
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Testează-ți din nou codul. De data aceasta, deplasează creionul prin Scenă și ține apăsat butonul mouse-ului. Poți desena cu creionul?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![captură de ecran](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: Creionul tău nu desenează cu vârful?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Dacă linia desenată de creionul tău pare să pornească din mijlocul creionului, va trebui să modifici personajul creionului astfel încât vârful său să fie centrul personajului.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Fă click pe personajul creionului, apoi click pe categoria **Costume**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Deplasează costumul astfel încât vârful creionului să fie **deasupra** centrului.
 
-![Costume center](images/costume-center-annotated.png)
+![Galeria de costume](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Acum deplasează creionul prin scenă și desenează. Acum creionul ar trebui să deseneze din vârful său.
 
 \--- /collapse \---
