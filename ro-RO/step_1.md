@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o versiune de [Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducere
 
-Make your own paint program!
+Creează-ți propriul program de desenat!
 
-### What you will make
+### Ce vei face
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Dă click pe stegulețul verde pentru a începe. Folosește mouse-ul pentru a mișca creionul, iar apoi ține apăsat butonul stâng al mouse-ului pentru a desena. Dă click pe o culoare pentru a schimba creionul. Dă click pe radieră pentru a o activa, și folosește-o pentru a-ți șterge desenul. Pentru a goli pagina, dă click pe X.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,15 +19,15 @@ Make your own paint program!
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Pentru a începe vei da click pe stegulețul verde, apoi vei folosi mouse-ul pentru a mișca creionul și vei ține apăsat butonul stâng al mouse-ului pentru a desena. Dând click pe o culoare vei schimba culoarea creionului, și dând click pe radieră vei activa radiera!
 
-![showcase](images/showcase.png) \--- /print-only \---
+![prezentare](images/showcase.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Ce vei învăța
 
-+ Add the pen extension in Scratch
++ Adaugă în Scratch extensia pentru creion
 + Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch \--- /collapse \---
 
