@@ -31,19 +31,19 @@ Adaugă niște cod personajului pentru creion pentru a face personajul să urmă
 ![pencil](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-end
+când se dă click pe steguleț
+la infinit
+  mergi la (cursorul mouse-ului v)
+sfârșit
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Fă click pe steguleț și apoi deplasează cursorul mouse-ului prin Scenă pentru a testa dacă funcționează codul tău. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+În continuare, permite creionului să deseneze doar `dacă`{:class="block3control"} butonul mouse-ului este apăsat.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Adaugă acest cod la personajul creionului tău:
 
 ![pencil](images/pencil.png)
 
