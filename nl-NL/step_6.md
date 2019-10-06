@@ -16,7 +16,7 @@ maak penkleur [#0035FF]
 herhaal
 ga naar (muisaanwijzer v)
 maak pendikte (breedte :: variables)
-als <<mouse down?> en <(muis y) > [-120]>> dan
+als <muis ingedrukt> en <(muis y)> [-120]>> dan
 pen neer
 anders
 pen op
