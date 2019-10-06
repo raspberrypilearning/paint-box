@@ -19,7 +19,7 @@ Maak je eigen teken programma!
 
 \--- /no-print \---
 
-\--- print-only \--- Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Door op een kleur te klikken zal de kleur van de penveranderen, en een klik op de gum zal deze in een gum veranderen!
+\--- print-only \--- Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Door op een kleur te klikken zal de kleur van de pen veranderen, en een klik op de gum zal deze in een gum veranderen!
 
 ![showcase](images/showcase.png) \--- /print-only \---
 
@@ -28,8 +28,8 @@ Maak je eigen teken programma!
 ## title: Wat ga je leren
 
 + Voeg de pen uitbreiding toe in Scratch
-+ Gebruik uitzendingen om een sprite in Scratch te besturen
-+ Herinner hoe je moet reageren op muis gebeurtenissen in Scratch \--- /collapse \---
++ Gebruik signalen om een sprite in Scratch te besturen
++ Herinner hoe je moet reageren op muisgebeurtenissen in Scratch \--- /collapse \---
 
 ## \--- collapse \---
 
