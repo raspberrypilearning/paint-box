@@ -84,7 +84,7 @@ verander uiterlijk naar (potlood-blauw v)
 maak penkleur [#0035FF]
 herhaal
  ga naar (muisaanwijzer v)
-+if <<mouse down?> en <(mouse y) > [-120]>> then 
++als <muis ingedrukt?> en <(muis y)> [-120]>> dan
 pen neer
 anders
 pen op
