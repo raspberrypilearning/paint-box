@@ -27,7 +27,7 @@ fin
 
 La largeur du stylo est maintenant définie à plusieurs reprises sur la valeur de la variable `largeur`{:class="block3variables"}.
 
-\--- task \--- Fait un clic droit sur la variable `largeur`{:class="block3variables"} affichée sur la scène, puis clique sur **curseur**.
+\--- task \--- Fais un clic droit sur la variable `largeur`{:class="block3variables"} affichée sur la scène, puis clique sur **curseur**.
 
 ![capture d'écran](images/paint-slider.png) \--- /task \---
 
