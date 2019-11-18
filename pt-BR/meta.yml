@@ -8,22 +8,20 @@ version: 4.1.0
 last_tested: 2018-30-01
 steps:
   - 
-    title: Lousa Mágica
+    title: Introdução
   - 
-    title: Make a pencil
+    title: Crie um lápis
   - 
     title: Lápis coloridos
   - 
     title: 'Desafio: Atalhos'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Desfazer erros
   - 
-    title: Change the pencil width
+    title: Mudando a espessura do lápis
   - 
-    title: '--- /challenge ---'
+    title: 'Desafio: mais lápis'
     challenge: true
   - 
-    title: Teste-se
-  - 
-    title: 'E agora?'
+    title: 'What next?'
