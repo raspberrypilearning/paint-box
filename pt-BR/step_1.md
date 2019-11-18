@@ -52,8 +52,9 @@ title: O que você vai precisar
 --- /collapse ---
 
 --- collapse ---
-
-## informações adicionais para educadores
+---
+title: Informações adicionais para educadores
+---
 
 Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/pt-BR/projects/paint-box/print){:target="_blank"}.
 
