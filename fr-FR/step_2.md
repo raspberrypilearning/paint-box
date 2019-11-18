@@ -41,7 +41,7 @@ fin
 
 \--- task \--- Clique sur le drapeau, puis déplace le pointeur de la souris sur la scène pour vérifier si ton code fonctionne. \--- /task \---
 
-Ensuite, fait que ton crayon ne dessine que `si`{:class="block3control"} le bouton de la souris est cliqué.
+Ensuite, fais que ton crayon ne dessine que `si`{:class="block3control"} le bouton de la souris est cliqué.
 
 \--- task \--- Ajoute ce code à ton sprite crayon:
 
