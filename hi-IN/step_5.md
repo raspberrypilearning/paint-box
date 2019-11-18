@@ -1,8 +1,8 @@
 ## पेंसिल की चौड़ाई में परिवर्तन करना
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+कभी-कभी गलती हो जाती है, तो चलिए अपने प्रोजेक्ट में 'साफ़ करें' बटन और रबड़ जोड़ें!
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- लाइब्रेरी के लेटर्स में से 'एक्स-ब्लॉक' स्प्राइट कोड़े। स्प्राइट के कस्टम को लाल और थोड़ा छोटा बना दीजिये। यह स्प्राइट आपकी 'साफ़ करें' बटन है।
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -44,7 +44,7 @@ broadcast (eraser v)
 
 When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- रबड़ बनाने के लिए कुछ कोड जोड़ें
 
 \--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
 
@@ -55,7 +55,7 @@ when I receive [eraser v]
 switch costume to (eraser v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- आपका कोड कुछ ऐसा दिखना चाहिए: ![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
