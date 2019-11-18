@@ -1,11 +1,11 @@
 ---
-title: お絵かきの箱
+title: ペイントボックス
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: このプロジェクトでは、お絵かきができるプログラムを作ります！
+description: お絵かきができるプログラムを作りましょう
 version: 4.1.0
-last_tested: 2018-30-01
+last_tested: 2018-11-30
 steps:
   - 
     title: 前書き
@@ -14,16 +14,14 @@ steps:
   - 
     title: 色鉛筆
   - 
-    title: '課題：ショートカット'
+    title: 'チャレンジ: ショートカット'
     challenge: true
   - 
     title: 間違いを元に戻す
   - 
     title: 鉛筆の幅を変える
   - 
-    title: '課題：もっと鉛筆'
+    title: 'チャレンジ: 鉛筆を増やす'
     challenge: true
-  - 
-    title: Test yourself
   - 
     title: 'What next?'
