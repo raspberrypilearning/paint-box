@@ -2,7 +2,7 @@
 
 Parfois, des erreurs se produisent, alors ajoute un bouton "effacer" et un bouton gomme.
 
-\--- task \--- Ajoute le sprite "Bloc-X" à partir de la section des lettres de la bibliothèque. Colorie le costume du sprite en rouge et rend-le un peu plus petit. Ce sprite est le bouton "effacer".
+\--- task \--- Ajoute le sprite "Bloc-X" à partir de la section des lettres de la bibliothèque. Colorie le costume du sprite en rouge et rends-le un peu plus petit. Ce sprite est le bouton "effacer".
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -27,7 +27,7 @@ Vois-tu que le sprite crayon comprend un costume gomme?
 
 Ton projet comprend également un sprite gomme séparé.
 
-\--- task \--- Fait un clic droit sur ce sprite gomme, et ensuite clique sur **afficher**. Voici à quoi devrait ressembler ta scène:
+\--- task \--- Fais un clic droit sur ce sprite gomme, et ensuite clique sur **afficher**. Voici à quoi devrait ressembler ta scène:
 
 ![capture d'écran](images/paint-eraser-stage.png) \--- /task \---
 
