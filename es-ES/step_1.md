@@ -27,9 +27,9 @@ Esta es la versión del proyecto para **Scratch 3**. También hay una [versión 
 
 ## title: Lo que aprenderás
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Añadir la extensión de lápiz en Scratch
++ Usar transmisiones para controlar un sprite en Scratch
++ Recordar cómo responder a los movimientos del ratón en Scratch
 
 ## \--- collapse \---
 
@@ -55,4 +55,4 @@ Esta es la versión del proyecto para **Scratch 3**. También hay una [versión 
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Puedes [encontrar el proyecto completo aquí](http://rpf.io/p/en/paint-box-get){:target ="_blank"}. \--- /collapse \---
