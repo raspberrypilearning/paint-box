@@ -24,6 +24,4 @@ steps:
     title: 'Изазов: Више бојица'
     challenge: true
   - 
-    title: Провери своје знање
-  - 
-    title: 'Шта је следеће?'
+    title: 'What next?'
