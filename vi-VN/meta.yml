@@ -24,6 +24,4 @@ steps:
     title: 'Thử thách: thêm bút chì'
     challenge: true
   - 
-    title: Tự kiểm tra
-  - 
-    title: 'Tiếp theo là gì?'
+    title: 'What next?'
