@@ -27,7 +27,7 @@ Stwórz swój własny program do malowania!
 
 ## title: Czego się nauczysz
 
-+ Add the pen extension in Scratch
++ Dodaj rozszerzenie do ołówka w Scratch
 + Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch \--- /collapse \---
 
@@ -55,4 +55,4 @@ Stwórz swój własny program do malowania!
 
 Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Możesz znaleźć [kompletny projekt tutaj](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
