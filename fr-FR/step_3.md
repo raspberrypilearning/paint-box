@@ -6,7 +6,7 @@ Tu vas maintenant ajouter des crayons de couleurs différents à ton projet et p
 
 ![renommer-crayon](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Fait un clic droit sur le sprite crayon et duplique le costume "crayon bleu".
+\--- task \--- Fais un clic droit sur le sprite crayon et duplique le costume "crayon bleu".
 
 ![capture d'écran](images/paint-blue-duplicate.png) \--- /task \---
 
