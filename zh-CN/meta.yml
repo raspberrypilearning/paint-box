@@ -3,7 +3,7 @@ title: 颜料盒
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: 学习如何制作你自己的绘图程序。
+description: 制作你自己的绘画程序！
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
@@ -17,13 +17,11 @@ steps:
     title: '挑战: 快捷方式'
     challenge: true
   - 
-    title: 更改笔尖宽度
+    title: 撤消错误
   - 
-    title: 挑战：快捷键
+    title: 改变铅笔宽度
   - 
     title: '挑战: 更多铅笔'
     challenge: true
   - 
-    title: 挑战：更多障碍！
-  - 
-    title: '挑战：完善你的游戏！'
+    title: 'What next?'
