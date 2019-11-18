@@ -1,4 +1,4 @@
---无打印--
+\--- no-print \---
 
 这是该项目的 **Scratch 3** 版本。 项目</a>还有一个 Scratch 2版本。</p> 
 
@@ -17,21 +17,21 @@
   <img src="images/showcase.png">
 </div>
 
-\--- /no-prnt \---
+\--- /no-print \---
 
-\--- 仅打印\--- 您将点击绿色标记开始，您将使用鼠标移动铅笔并按住鼠标左键进行绘制。 单击颜色将更改铅笔颜色，单击橡皮擦将更改为橡皮擦！
+\--- print-only \--- 您将点击绿色标记开始，您将使用鼠标移动铅笔并按住鼠标左键进行绘制。 单击颜色将更改铅笔颜色，单击橡皮擦将更改为橡皮擦！
 
-![展示](images/showcase.png) \--- /仅打印\---
+![展示](images/showcase.png) \--- /print-only \---
 
-## \--- 折叠 \---
+## \--- collapse \---
 
 ## 标题: 你将学到什么
 
 + 在Scratch中添加笔扩展
 + 使用广播来控制Scratch中的精灵
-+ 回想一下如何在Scratch 回应鼠标事件\--- /折叠\---
++ 回想一下如何在Scratch 回应鼠标事件 \--- /collapse\---
 
-## \--- 折叠 \---
+## \--- collapse \---
 
 ## 标题: 你需要准备什么
 
@@ -47,12 +47,12 @@
 
 + [离线启动项目](http://rpf.io/p/en/paint-box-go){：target =“_ blank”}
 
-\--- /折叠 \---
+\--- /collapse \---
 
-## \--- 折叠 \---
+## \--- collapse \---
 
 ## 标题: 教师附加信息
 
 如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}。
 
-你可以在这里找到 [完成的项目](http://rpf.io/p/en/paint-box-get){:target="_blank"}。 \--- /折叠 \---
+你可以在这里找到 [完成的项目](http://rpf.io/p/en/paint-box-get){:target="_blank"}。 \--- /collapse \---
