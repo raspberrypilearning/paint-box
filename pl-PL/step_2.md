@@ -1,4 +1,4 @@
-## Make a pencil
+## Utwórz ołówek
 
 Start by making a pencil that you can use to draw on the Stage.
 
@@ -6,7 +6,7 @@ Start by making a pencil that you can use to draw on the Stage.
 
 **Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Jeśli posiadasz konto Scratch, możesz utworzyć kopie poprzez kliknięcie **Remix**.
 
 **Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
@@ -14,11 +14,11 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 In the starter project, you should see pencil and eraser sprites:
 
-![screenshot](images/paint-starter.png) \--- /task \---
+![zrzut ekranu](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Dodaj rozszerzenie pióra do swojego projektu.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -28,7 +28,7 @@ Add the Pen extension to your project.
 
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![pencil](images/pencil.png)
+![ołówek](images/pencil.png)
 
 ```blocks3
 po kliknięciu flagi
@@ -45,7 +45,7 @@ Next, make your pencil only draw `if`{:class="block3control"} the mouse button i
 
 \--- task \--- Add this code to your pencil sprite:
 
-![pencil](images/pencil.png)
+![ołówek](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -63,7 +63,7 @@ end
 
 \--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
-![screenshot](images/paint-draw.png) \--- /task \---
+![zrzut ekranu](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
