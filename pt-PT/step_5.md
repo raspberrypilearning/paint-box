@@ -1,8 +1,8 @@
-## Undo mistakes
+## Desfazer erros
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Às vezes acontecem erros, vamos então adicionar um botão 'limpar' e uma borracha.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Adiciona o ator 'X-block' a partir da secção de cartas da biblioteca. Pinta o traje do ator de vermelho e torna-o um pouco menor. Este actor vai ser o botão 'limpar'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
