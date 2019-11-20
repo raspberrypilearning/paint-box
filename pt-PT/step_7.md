@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## Desafio: comandos do teclado
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? Por exemplo:
+Consegues alterar o código para que, em vez de clicar nos quadrados ou botões coloridos no palco, consigas executar essas ações através do teclado? Por exemplo:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd> b </kbd> = Mudar para lápis azul
++ <kbd> g </kbd> = mudar para lápis verde
++ <kbd> e </kbd> = mudar para apagador
++ <kbd> c </kbd> = limpar o palco
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+Se quiseres, é possível também alterar o código de modo a usar as teclas das setas para mudar a largura da caneta.
