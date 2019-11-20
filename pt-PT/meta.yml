@@ -10,18 +10,18 @@ steps:
   - 
     title: Caixa de Pintura
   - 
-    title: Make a pencil
+    title: Criar um lápis
   - 
     title: Lápis coloridos
   - 
     title: 'Desafio: atalhos'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Desfazer erros
   - 
-    title: Change the pencil width
+    title: Mudar a grossura do lápis
   - 
     title: 'Desafio: Mais lápis'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'O que se segue?'
