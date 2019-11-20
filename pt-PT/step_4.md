@@ -1,7 +1,7 @@
 ## Desafio: Mais lápis
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Consegues adicionar um lápis vermelho, amarelo e preto ao teu programa de pintura? Dá uma olhadela nas etapas anteriores quiseres um lembrete de como o podes fazer.
 
-Pode usar os lápis para desenhar uma imagem?
+Consegues usar os lápis para desenhar uma imagem?
 
 ![captura de ecrã](images/paint-final.png)
