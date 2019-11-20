@@ -1,40 +1,41 @@
-## Change the pen width
+## Alterar a largura da caneta
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Agora, vais acrescentar código para permitir que a pessoa que usa seu programa desenhe objetos com diferentes larguras de caneta.
 
-\--- task \--- First, add a new variable called `width`{:class="block3variables"}.
+\--- task \--- Primeiro, adiciona uma nova variável chamada `grossura` {: class = "blockvariable"}.
 
 [[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- task \--- Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+\--- task \--- Adiciona esta linha ** dentro ** do bloco` repete para sempre ` {: class = "blockcontrol"} no código do lápis:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+quando alguém clicar na bandeira verde
+apaga tudo do palco
+muda o teu traje para (pencil-blue v)
+altera a cor da tua caneta para [#0035FF]
+repete para sempre 
+  vai para (mouse pointer v)
+  + altera a espessura da tua caneta para (width :: variables)
+  se <<o botão do rato está pressionado> e <(o y da posição do rato) > [-120]>> , então 
+    baixa a tua caneta
+  senão, 
+    levanta a tua caneta
+  end
 end
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+A largura da caneta é agora definida repetidamente para o valor da variável ` largura ` {: class = "block3variables"}.
 
-\--- task \--- Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+\--- task \--- Clica com o botão direito do rato na variável ` largura ` {: class = "block3variables"} exibida no palco e, a seguir clica no ** barra deslizante **.
 
 ![screenshot](images/paint-slider.png) \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Agora já podes arrastar a barra deslizante que está por baixo do indicador da variável para alterar o seu valor.
 
 ![captura de ecrã](images/paint-slider-change.png)
 
-\--- task \--- Test your project and see if you can add code to adjust the pen width.
+\--- task \--- Testa o teu projeto e vê se consegues acrescentar código para ajustar a largura da caneta.
 
 ![captura de ecrã](images/paint-width-test.png) \--- /task \---
