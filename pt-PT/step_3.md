@@ -1,8 +1,8 @@
 ## Lápis coloridos
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador escolher entre eles.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- tarefa \--- Renomeia o ator ` lápis ` como ` lápis-azul `
 
 ![rename-pencil](images/rename-pencil.png) \--- /task \---
 
