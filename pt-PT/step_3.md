@@ -6,68 +6,68 @@ Vamos adicionar lápis de cor diferentes ao teu projeto e permitir ao utilizador
 
 ![rename-pencil](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Clica com o botão direito do rato no ator lápis e duplica o traje de 'lápis azul'.
 
 ![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Renomeia o teu novo traje para 'lápis-verde' e pinta o lápis de verde.
 
 ![screenshot](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Desenha dois novos actores - um quadrado azul e um quadrado verde. Estes atores vão ser usados para escolher entre o lápis azul e o verde.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Renomeia os teus actores para que sejam chamados de "azul" e "verde"
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Adiciona código ao actor vermelho para que, quando o actor for clicado, ele `difunda a mensagem`{:class="block3events"} 'vermelho' ao personagem actor".
 
 ![green square](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+quando alguém clicar em ti
+difunde a mensagem (green v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+O ator lápis deve ouvir a mensagem "verde" e mudar o seu traje e cor do lápis em resposta.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Muda para o teu actor lápis. Acrescenta-lhe código para que quando este actor receber a mensagem` verde ` {: class = "blockevents"}, ele mude para o traje de lápis verde e mude a cor da caneta para verde.
 
 ![pencil](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+quando receberes a mensagem [green v]
+muda o teu traje para (pencil-green v)
+altera a cor da tua caneta para [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Para definir o lápis como verde, clicano quadrado colorido em ` definir cor da caneta ` {: class = "block3extensions"} e clica no ator quadrado verde. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Depois, faz o mesmo para mudar a cor do lápis para azul.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Clica no ator quadrado azul e adiciona este código:
 
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+quando alguém clicar em ti
+difunde a mensagem (azul v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+A seguir, clica no lápis e adiciona este código: ![pencil](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+quando receberes a mensagem [blue v]
+muda o teu traje para (pencil-blue v)
+altera a cor da tua caneta para [#0000ff]
 ```
 
 \--- /task \---
