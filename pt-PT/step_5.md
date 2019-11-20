@@ -10,7 +10,7 @@
 
 \--- task \--- Adiciona código ao ator 'X-block' para limpar o palco quando o ator for clicado.
 
-![cross](images/cross.png)
+![cruz](images/cross.png)
 
 ```blocks3
 quando alguém clicar em ti
@@ -33,7 +33,7 @@ O teu projeto também inclui separadamente um actor borracha.
 
 \--- task \--- Adiciona código ao ator 'borracha' para difundir uma mensagem de ` 'borracha' ` {: class = "block3events"} quando esse ator é clicado.
 
-![eraser](images/eraser.png)
+![borracha](images/eraser.png)
 
 ```blocks3
 quando alguém clicar em ti
@@ -56,7 +56,7 @@ Quando receberes a mensagem [eraser v]
 muda o teu traje para (eraser v)
 ```
 
-\--- /hint \--- \--- hint \--- Aqui está o aspeto que o teu código deve ter: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- Aqui está o aspeto que o teu código deve ter: ![lápis](images/pencil.png)
 
 ```blocks3
 quando receberes a mensagem [eraser v]
@@ -76,7 +76,7 @@ Há mais um problema com o lápis - consegues desenhar em qualquer lugar do palc
 
 \--- task \--- Para o corrigir, altera o código de forma a que a caneta fique em baixo apenas se o rato for clicado ** e ** o ` y ` da posição do ponteiro do rato for maior que ` -120 `:
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -95,6 +95,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Testa o teu projeto. You now should not be able to draw near the buttons.
+\--- task \--- Testa o teu projeto. Agora já não deverás conseguir desenhar próximo dos botões.
 
 ![captura de ecrã](images/paint-fixed.png) \--- /task \---
