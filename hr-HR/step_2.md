@@ -1,14 +1,14 @@
-## Make a pencil
+## Napravite olovku
 
-Start by making a pencil that you can use to draw on the Stage.
+Započnite izradom olovke koju možete koristiti za crtanje na pozornici.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- zadatak \--- Otvorite početni projekt Scratch "Paint box".
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: otvorite početni projekt na [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ako imaš Scratch korisnički račun, možeš napraviti kopiju klikom na **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: otvorite [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} u offline editoru.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
