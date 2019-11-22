@@ -1,27 +1,27 @@
 ---
-title: Program za bojanje
+title: Kutija za boju
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: U ovom ćeš projektu izraditi vlastiti program za bojanje!
+description: U ovom ćeš projektu izraditi vlastiti program za bojanje
 version: 4.1.0
 last_tested: 2018-30-01
 steps:
   - 
     title: Sretan rođendan
   - 
-    title: Make a pencil
+    title: Napravite olovku
   - 
-    title: Coloured pencils
+    title: Bojice
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Izazov: prečice'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Poništi pogreške
   - 
-    title: Change the pencil width
+    title: Promijenite širinu olovke
   - 
-    title: 'Challenge: more pencils'
+    title: 'Izazov: više olovaka'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Što dalje?'
