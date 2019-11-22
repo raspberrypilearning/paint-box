@@ -2,7 +2,7 @@
 
 Laß uns deinem Projekt verschiedene Buntstifte hinzufügen, die der Anwender anschließend auswählen kann.
 
-\--- task \--- Ändere den Namen der `Buntstift` Figur zu `Stift-blau` um
+\--- task \--- Ändere den Namen des `Buntstift-` Kostüms zu `Stift-blau` um
 
 ![Buntstift-umbenennen](images/rename-pencil.png) \--- /task \---
 
