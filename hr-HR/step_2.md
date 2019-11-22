@@ -10,15 +10,15 @@ Ako imaš Scratch korisnički račun, možeš napraviti kopiju klikom na **Remix
 
 **Offline**: otvorite [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} u offline editoru.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš napraviti na [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+U projektu pokretanja trebali biste vidjeti olovke i gumice za likove:
 
 ![screenshot](images/paint-starter.png) \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Dodajte proširenje olovke svom projektu.
 
 [[[generic-scratch3-add-pen-extension]]]
 
