@@ -1,14 +1,14 @@
-## Undo mistakes
+## Poništi pogreške
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Ponekad se dogode pogreške, pa dodajte gumb za 'čišćenje' i gumbu za brisanje.
 
-\--- task \--- Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+\--- task \--- Dodajte lik 'X-blok' iz odjeljka slova u biblioteci. Oboji kostim lika u crvenu boju i učini ga malo manjim. Ovaj lik je 'čišćenje' gumb.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![screenshot](images/paint-x.png) \--- /task \---
 
-\--- task \--- Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+\--- task \--- Dodajte kôd u lik "X-blok" da biste očistili pozornicu kad kliknete lik.
 
 ![cross](images/cross.png)
 
@@ -19,19 +19,19 @@ erase all
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Ne trebate koristiti `broadcast` {: class = "block3events"} za brisanje pozornice, jer `erase all` {: class = "block3extensions"} blok radi taj posao.
 
-Do you see that the pencil sprite includes an eraser costume?
+Vidite li da lik olovke uključuje kostim za gumicu?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Vaš projekt uključuje i zasebni lik gumice.
 
-\--- task \--- Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+\--- task \--- Desnom tipkom miša kliknite ovaj brisač za brisanje, a zatim kliknite **show**. Evo kako bi sada trebao izgledati vaša pozornica:
 
 ![screenshot](images/paint-eraser-stage.png) \--- /task \---
 
-\--- task \--- Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+\--- task \--- Dodajte kod u lik gumice kako biste poslali `'eraser' broadcast`{: class = "block3events"} kada se klikne lik za brisanje.
 
 ![eraser](images/eraser.png)
 
@@ -42,11 +42,11 @@ broadcast (eraser v)
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Kad lik olovke primi poruku 'gumica', treba svoj kostim prebaciti na gumicu i boju olovke prebaciti na bijelu, koja je iste boje kao i na pozornici!
 
-\--- task \--- Add some code to create the eraser.
+\--- task \--- Dodajte malo koda za stvaranje gumice.
 
-\--- hints \--- \--- hint \--- Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Here are all the blocks you need:
+\--- hints \--- \--- hint \--- Dodajte kod liku olovke: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white \--- /hint \--- \--- hint \--- Ovo su svi blokovi koje trebate:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -55,7 +55,7 @@ when I receive [eraser v]
 switch costume to (eraser v)
 ```
 
-\--- /hint \--- \--- hint \--- Here is what the code should look like: ![pencil](images/pencil.png)
+\--- /hint \--- \--- hint \--- Evo kako bi kod trebao izgledati: ![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
@@ -65,15 +65,15 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Test your project to see if you can clear the Stage and erase pencil lines.
+\--- task \--- Testirajte svoj projekt da biste vidjeli možete li očistiti pozornicu i izbrisati linije olovke.
 
 ![screenshot](images/paint-erase-test.png) \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Postoji još jedan problem s olovkom: možete crtati bilo gdje na pozornici, uključujući blizu 'jasnih' gumba i gumica za brisanje!
 
 ![screenshot](images/paint-draw-problem.png)
 
-\--- task \--- To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+\--- zadatak \--- Da biste to riješili, promijenite kôd tako da olovka bude spuštena samo ako miš kliknete **and** `y` položaj pokazivača miša veći je od `-120`:
 
 ![pencil](images/pencil.png)
 
@@ -93,6 +93,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your project. You now should not be able to draw near the buttons.
+\--- task \--- Testirajte svoj projekt. Sada se ne biste mogli približiti gumbima.
 
 ![screenshot](images/paint-fixed.png) \--- /task \---
