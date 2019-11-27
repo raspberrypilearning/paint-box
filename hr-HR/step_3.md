@@ -94,6 +94,6 @@ end
 
 Ako želite, možete započeti s olovkom druge boje.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Testirajte svoj kôd. Možete li prelaziti između plave i zelene boje olovke klikom na plavi ili zeleni kvadrat?
 
 ![screenshot](images/paint-pens-test.png) \--- /task \---
