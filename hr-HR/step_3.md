@@ -16,17 +16,17 @@ Sada ćete u svoj projekt dodati olovke u različitim bojama i korisniku omoguć
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- Nacrtajte dva nova lika: jedan plavi kvadrat i jedan zeleni kvadrat. Oni su za odabir plave i zelene olovke.
 
 ![screenshot](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Preimenujte nove likove tako da se zovu 'plava' i 'zelena'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- Dodajte kôd u 'zeleni' lik tako da kad se na ovaj lik klikne, on `broadcasts` {: class = "block3events"} poruku "zelena".
 
 ![green square](images/green_square.png)
 
@@ -37,9 +37,9 @@ broadcast (green v)
 
 [[[generic-scratch3-broadcast-message]]] \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Lik olovke trebao bi slušati poruku "zelene" i u odgovoru mijenjati svoj kostim i boju olovke.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Prebacite se na svoj lik olovke. Dodajte neki kôd tako da kad ovaj lik primi `green` {: class = "block3events"} emitira se, prelazi u kostim zelene olovke i mijenja boju olovke u zelenu.
 
 ![pencil](images/pencil.png)
 
@@ -49,11 +49,11 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /task \---
+Da biste olovku postavili u zelenu, kliknite obojeni kvadrat u `set pen color` {: class = "block3extensions"} blok, a zatim kliknite na zeleni kvadrat. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Zatim napravite sličnu stvar tako da boju olovke možete prebaciti u plavu.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Kliknite na plavi kvadratni lik i dodajte ovaj kôd:
 
 ![blue_square](images/blue_square.png)
 
@@ -62,7 +62,7 @@ when this sprite clicked
 broadcast (blue v)
 ```
 
-Then click on the pencil sprite and add this code: ![pencil](images/pencil.png)
+Zatim kliknite lik olovke i dodajte ovaj kôd: ![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [blue v]
@@ -72,7 +72,7 @@ set pen color to [#0000ff]
 
 \--- /task \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- task \--- Na kraju dodajte ovaj kôd da biste rekli liku olovke s kojom bojom treba započeti i osigurati da je zaslon čist kada se pokrene vaš program.
 
 ![pencil](images/pencil.png)
 
@@ -92,7 +92,7 @@ end
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Ako želite, možete započeti s olovkom druge boje.
 
 \--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
