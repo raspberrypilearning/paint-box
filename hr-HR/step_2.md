@@ -26,7 +26,7 @@ Dodajte proširenje olovke svom projektu.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Dodajte kod liku olovke ako da lik slijedi strelicu miša `forever`{:class="block3control"} te da možete crtati:
 
 ![pencil](images/pencil.png)
 
@@ -41,9 +41,9 @@ end
 
 \--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Zatim, napravite da olovku samo crta `if` {: class = "block3control"} klikne se na tipku miša.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Dodajte ovaj kôd liku okovke:
 
 ![pencil](images/pencil.png)
 
@@ -61,22 +61,22 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+\--- task \--- Ponovno testiraj svoj kôd. Ovaj put, pomičite olovku oko pozornice i držite gumb miša. Možete li crtati olovkom?
 
 ![screenshot](images/paint-draw.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## naslov: Crta li vaša olovka sa svog vrha?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Ako linija na kojoj crtate olovkom izgleda kao da dolazi iz sredine olovke, morate promijeniti lik olovke tako da je vrh središta lika.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Kliknite lik olovke, a zatim kliknite **Costumes** karticu.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Pomaknite kostim tako da vrh olovke bude **just above** središta.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Sada pomičite olovku na pozornici i crtajte. Olovka bi sada trebala povući crtu od svog vrha.
 
 \--- /collapse \---
