@@ -1,16 +1,16 @@
-## Coloured pencils
+## Bojice
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Sada ćete u svoj projekt dodati olovke u različitim bojama i korisniku omogućiti da bira između njih.
 
-\--- task \--- Rename the `pencil` sprite to `pencil-blue`
+\--- task \--- Preimenujte lik `pencil` u `pencil-blue`
 
 ![rename-pencil](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Desnim klikom miša na lik olovke i duplicirajte kostim 'plava olovka'.
 
 ![screenshot](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Navedite novi kostim 'olovka-zelena', a olovku obojite zelenom.
 
 ![screenshot](images/paint-pencil-green.png)
 
