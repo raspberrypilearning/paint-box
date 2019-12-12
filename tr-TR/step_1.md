@@ -1,16 +1,16 @@
 \--- no-print \---
 
-Bu, projenin **Scratch 3** versiyonudur. Ayrıca projenin</a>bir Scratch 2 versiyonu da bulunmaktadır.</p> 
+Bu, projenin **Scratch 3** versiyonudur. Ayrıca projenin bir de [Scratch 2 versiyonu](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) bulunmaktadır.
 
 \--- /no-print \---
 
 ## Giriş
 
-Kendi paint programınızı yapın!
+Kendi boyama programınızı yapın!
 
 ### Ne yapacaksınız
 
-\--- no-print \--- Başlamak için yeşil bayrak üzerine tıklayın. Kalemi hareket ettirmek için fareyi kullanın ve çizmek için farenin sol düğmesini basılı tutun. Kalemleri değiştirmek için bir renge tıklayın. Değiştirmek için silgiyi tıklayın ve çalışmanızı silmek için kullanın. Sayfayı temizlemek için haçı tıklayın.
+\--- no-print \--- Başlamak için yeşil bayrağın üzerine tıklayın. Kalemi hareket ettirmek için fareyi kullanın ve çizim yapmak için farenin sol düğmesini basılı tutun. Kalemleri değiştirmek için bir renge tıklayın. Değiştirmek için silgiyi tıklayın ve çalışmanızı silmek için kullanın. Sayfayı temizlemek için çarpı işaretini tıklayın.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +19,7 @@ Kendi paint programınızı yapın!
 
 \--- /no-print \---
 
-\--- sadece baskı \--- Başlamak için yeşil bayrağa tıklayacaksınız ve kalemi taşımak için fareyi kullanacak ve çizim yapmak için farenin sol düğmesini basılı tutunuz. Bir renge tıklamak kurşun kalem rengini değiştirir ve silgiyi tıklatmak silgiye dönüşür!
+\--- sadece baskı \--- Başlamak için yeşil bayrağa tıklayacaksınız ve kalemi hareket ettirmek için fareyi kullanacak ve çizim yapmak için de farenin sol düğmesini basılı tutacaksınız. Bir renge tıklamak kurşun kalemin rengini değiştirir ve silgiyi tıklatmak onu silgiye dönüştürür!
 
 ![vitrin](images/showcase.png) \--- /print-only \---
 
@@ -28,8 +28,8 @@ Kendi paint programınızı yapın!
 ## title: Ne öğreneceksiniz
 
 + Kalem uzantısını Scratch'a ekleme
-+ Scratch'ta bir spriteyi kontrol etmek için yayınları kullanma
-+ Scratch'ta fare olaylarına tepki verme
++ Scratch'te bir kuklayı kontrol etmek için yayınları kullanma
++ Scratch'te fare olaylarına tepki verme
 
 ## \--- collapse \---
 
@@ -55,4 +55,4 @@ Kendi paint programınızı yapın!
 
 Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} kullanın.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+[Tamamlanmış projeyi buradan](http://rpf.io/p/en/paint-box-get){:target="_blank"} bulabilirsiniz. \--- /collapse \---
