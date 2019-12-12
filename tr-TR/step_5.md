@@ -2,97 +2,98 @@
 
 Bazen hatalar olur, bu yüzden bir 'temizle' butonu ve bir silgi butonu ekleyin.
 
-\--- görev \--- Kütüphanenin harfler bölümünden 'X-blok' sprite ekleyin. Sprite kostümünü kırmızıyla renklendirin ve biraz daha küçük hale getirin. Bu sprite 'temizle' düğmesidir.
+\--- görev \--- Kütüphanenin harfler bölümünden 'Çarpı' kuklası ekleyin. Kuklanın kostümünü kırmızıyla renklendirin ve biraz daha küçük hale getirin. Bu kukla 'temizle' düğmesidir.
 
 [[[generic-scratch3-sprite-from-library]]]
 
 ![ekran görüntüsü](images/paint-x.png) \--- /task \---
 
-\--- görev \--- Sprite tıkladığında Sahne Alanı'nı temizlemek için 'X-blok' sprite kodunu ekleyin.
+\--- task \--- 'Çarpı' kuklası tıklandığında Sahne Alanı'nı temizlemek için bu kodunu ekleyin.
 
 ![çapraz](images/cross.png)
 
 ```blocks3
-bu sprite
-tıklandığında tümünü sil
-```
-
-\--- /görev \---
-
-Sahne Alanı'nı temizlemek için `yayın`kullanmanıza gerek yoktur; çünkü `,`{: class = "block3extensions"} bloğunun hepsini sildiğinde bu işlem yapılır.
-
-Kalem sprite bir silgi kostümü içerdiğini görüyor musunuz?
-
-![ekran görüntüsü](images/paint-eraser-costume.png)
-
-Projeniz ayrıca ayrı bir silgi sprite içerir.
-
-\--- görev \--- Bu silgi sprite öğesine sağ tıklayın ve ardından **show**tıklayın. Aşamalarınızın şimdi nasıl görünmesi gerektiği:
-
-![ekran görüntüsü](images/paint-eraser-stage.png) \--- /task \---
-
-\--- görev \--- Silgi sprite tıklandığında `'silgi' yayın`{: class = "block3events"} göndermek için silgi sprite kodunu ekleyin.
-
-![silgi](images/eraser.png)
-
-```blocks3
-bu sprite
-yayını tıkladığında (silgi v)
-```
-
-\--- /görev \---
-
-Kalem sprite 'silgi' mesajını aldığında, kostümünü silgiye dönüştürmeli ve kalem rengini beyaza değiştirmelidir, bu da Sahne Alanı ile aynı renktir!
-
-\--- görev \--- Silgiyi oluşturmak için bir kod ekleyin.
-
-\--- ipuçları \--- \--- ipucu \--- Kalem sprite'ına bazı kodlar ekleyin: ``{: class = "block3events"} aldığımda `silgisi`{: class = "block3events"} mesaj `Kostüm silgisine geç`{: class = "block3looks"} `Kalem rengini ayarla`{: class = "block3extensions"} 'ye beyaz \--- / ipucu \--- \--- ipucu \--- İşte ihtiyacınız olan tüm bloklar:
-
-```blocks3
-[silgi v]
-
-anahtar kostümünü (silgi v) aldığımda kalem rengini [#FFFFFF]
-ayarlayın
-```
-
-\--- / ipucu \--- \--- ipucu \--- İşte kod gibi görünmelidir ne: ![kalem](images/pencil.png)
-
-```blocks3
-[silgi v]
-aldığımda kostümü (silgi v)
-set kalem rengini [#FFFFFF] olarak değiştir
-```
-
-\--- / ipucu \--- \--- / ipuçları \--- \--- / görev \---
-
-\--- görev \--- Sahne Alanı'nı temizleyip kalem çizgilerini silip silemediğinizi görmek için projenizi test edin.
-
-![ekran görüntüsü](images/paint-erase-test.png) \--- /görev \---
-
-Kurşun kalemle ilgili bir sorun daha var: 'net' ve silgi düğmelerinin yanı sıra Sahne Alanı'nda herhangi bir yeri çizebilirsiniz!
-
-![ekran görüntüsü](images/paint-draw-problem.png)
-
-\--- görev \--- Bunu düzeltmek için kodu değiştirin, böylece fare yalnızca **ve** tıklatıldığında, fare işaretçisinin `y` konumu `-120`büyükse, aşağı:
-
-![kalem](images/pencil.png)
-
-```blocks3
-bayrak tıklandığında
-tüm
-anahtar kostümünü sil (kalem mavisi v)
-kalem rengini [# 0035FF]
-sonsuza
-  götür (fare imleci v)
-+ eğer <<mouse down?> ve <(fare y) > [-120]>> sonra 
-  aşağı kalem
-  başka
-  kalem yukarı
-uç
+bu kukla tıklandığında
+tümünü sil
 ```
 
 \--- /task \---
 
-\--- görev \--- Projenizi test edin. Şimdi düğmelerin yanına çizim yapmamalısınız.
+Sahne Alanı'nı temizlemek için `haber sal` kodunu kullanmanıza gerek yok; çünkü `tümünü sil`{: class = "block3extensions"} kodu işin hepsini yapacaktır.
+
+Kalem kuklasının bir silgi kostümünü içerdiğini görüyor musunuz?
+
+![ekran görüntüsü](images/paint-eraser-costume.png)
+
+Projeniz ayrıca farklı bir silgi kuklası içerir.
+
+\--- task \--- Silgi kuklasının üzerine sağ tıklayıp **göster** düğmesine basın. Şimdi Sahnenizin nasıl görünmesi gerektiğine bakın:
+
+![ekran görüntüsü](images/paint-eraser-stage.png) \--- /task \---
+
+\--- görev \--- Silgi kuklasına şu kodu, tıklandığında `'silgi' haberini yayınlaması`{: class = "block3events"} için ekleyin.
+
+![silgi](images/eraser.png)
+
+```blocks3
+bu kukla tıklandığında
+(silgi) haberini sal
+```
+
+\--- /task \---
+
+Kalem kuklası 'silgi' mesajını aldığında, kostümünü silgiye dönüştürmeli ve kalem rengini Sahne Alanı'yla aynı renk olan beyazla değiştirmelidir!
+
+\--- görev \--- Silgiyi oluşturmak için bir kod ekleyin.
+
+\--- hints \--- \--- hint \--- Kalemkuklasına bazı kodlar ekleyin: ``{: class = "block3events"} aldığımda `silgisi`{: class = "block3events"} mesaj `Kostüm silgisine geç`{: class = "block3looks"} `Kalem rengini ayarla`{: class = "block3extensions"} 'ye beyaz \--- / ipucu \--- \--- ipucu \--- İşte ihtiyacınız olan tüm bloklar:
+
+```blocks3
+kalem rengini [#FFFFFF] yap
+
+[silgi] haberini aldığımda
+
+(silgi) kılığına geç
+```
+
+\--- /hint \--- \--- hint \--- Here is what the code should look like: İşte kod şu şekilde görünmelidir: ![kalem](images/pencil.png)
+
+```blocks3
+[silgi] haberini aldığımda
+(silgi) kılığına geç
+kalem rengini [#FFFFFF] yap
+```
+
+\--- /hint \--- \--- /hints \--- \--- /task \---
+
+\--- task \--- Sahne Alanı'nı temizleyip kalem çizgilerini silip silmediğinizi görmek için projenizi test edin.
+
+![ekran görüntüsü](images/paint-erase-test.png) \--- /task \---
+
+Kurşun kalemle ilgili bir sorun daha var: Sahne Alanı'nda 'Temizle' ve silgi düğmeleri de dahil her yeri çizebiliyorsunuz!
+
+![ekran görüntüsü](images/paint-draw-problem.png)
+
+\--- task \--- Bunu düzeltmek için kodu değiştirin; böylece fare yalnızca tıklatıldığında **ve** fare işaretçisinin `y` konumu `-120` değerinden büyükse çalışsın:
+
+![kalem](images/pencil.png)
+
+```blocks3
+yeşil bayrak tıklandığında
+tümünü sil
+(mavi-kalem) kılığına geç
+kalem rengini [#0035FF] yap
+sürekli tekrarla 
+  (fare imleci) 'e git
+  eğer <<mouse down?> ve <(farenin y'si) > [-120]>> ise 
+    kalemi bastır
+  değilse 
+    kalemi kaldır
+  end
+```
+
+\--- /task \---
+
+\--- görev \--- Projenizi test edin. Şimdi düğmelerin yanına çizim yapamıyor olmanız gerekir.
 
 ![ekran alıntısı](images/paint-fixed.png) \--- /task \---
