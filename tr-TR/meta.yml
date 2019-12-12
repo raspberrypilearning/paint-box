@@ -3,7 +3,7 @@ title: Boya kutusu
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Kendi paint programınızı yapın
+description: Kendi boyama programınızı yapın
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
@@ -14,14 +14,14 @@ steps:
   - 
     title: Renkli kalemler
   - 
-    title: 'Zorluk: kısayollar'
+    title: 'Challenge: kısayollar'
     challenge: true
   - 
     title: Hataları geri al
   - 
     title: Kalem genişliğini değiştirin
   - 
-    title: 'Zorluk: daha fazla kalem'
+    title: 'Challenge: daha fazla kalem'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Sırada ne var?'
