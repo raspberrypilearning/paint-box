@@ -1,6 +1,6 @@
-## What next?
+## Sırada ne var?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+Şimdi 'Boya kutusu' projesini tamamladın, bir de engellerin etrafından dolanarak hareket ettirdiğin oyunu yapmana yardımcı olacak ['Tekne Yarışı' projesini](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) dene,.
 
 \--- no-print \---
 
@@ -11,4 +11,4 @@ Now that you have completed the 'Paint box' project, try [the 'Boat race' projec
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- / print-only \---
