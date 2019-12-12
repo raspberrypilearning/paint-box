@@ -1,40 +1,40 @@
 ## Kalem genişliğini değiştirin
 
-Ardından, programınızı kullanan kişinin farklı kalem genişlikleri olan şeyler çizmesine izin vermek için kod ekleyeceksiniz.
+Sırada, programınızı kullanan kişinin nesneleri farklı kalem genişlikleriyle çizmesine izin veren kodu ekleyeceksiniz.
 
-\--- görev \--- İlk önce, `genişlik`{: class = "block3variables"} adlı yeni bir değişken ekleyin.
+\--- görev \--- İlk önce, `genişlik`{: class="block3variables"} adlı yeni bir değişken ekleyin.
 
-[[[generic-scratch3-add-variable]]] \--- / görev \---
+[[[generic-scratch3-add-variable]]] \--- /task \---
 
-\--- görev \--- Bu satırı **içine** sonsuza kadar `ekleyin`{: class = "block3control"} kalem sprite kodunun döngüsü:
+\--- task \--- Bu satırı kalem kuklası kodundaki `sonsuza kadar`{:class="block3control"} döngüsünün **içine** ekleyin:
 
 ```blocks3
-Bayrak tıklandığında
-silme her
-(kalem mavisi v) geçiş kostüm
-[# 0035FF] set kalem rengi
-sonsuza
-git (fare işaretçisi v) için
-+ set kalem büyüklüğü (genişliği :: değişkenlere)
-ise <<mouse down?> ve <(fare y) > [-120]>> sonra 
-  aşağı kalem
-  başka
-  aşağı kalem
-uç
+yeşil bayrak tıklandığında
+tümünü sil
+(mavi-kalem) kılığına geç
+kalem rengini [#0035FF] yap
+sürekli tekrarla 
+  (fare imleci) 'e git
+  kalem kalınlığını (genişlik) yap
+  eğer <<mouse down?> ve <(fare y) > [-120]>> ise 
+    kalemi bastır
+  değilse 
+    kalemi kaldır
+ end
 ```
 
-\--- /görev \---
+\--- /task \---
 
-Kalem genişliği şimdi tekrar tekrar `genişlik`{: class = "block3variables"} değişkeninin değerine ayarlanır.
+Kalem genişliği şimdi hep `genişlik`{:class="block3variables"} değişkeninin değerine ayarlanır.
 
-\--- görev \--- Sahne Alanı'nda görüntülenen `genişlik`{: class = "block3variables"} değişkenine sağ tıklayın ve ardından **kaydırıcı**tıklayın.
+\--- görev \--- Sahne Alanı'nda görüntülenen `genişlik`{:class="block3variables"} değişkenine sağ tıklayın ve ardından **slider**'ı tıklayın.
 
-![ekran alıntısı](images/paint-slider.png) \--- /görev \---
+![ekran alıntısı](images/paint-slider.png) \--- /task \---
 
-Artık değişkenin değerini değiştirmek için değişkenin altında görünen kaydırıcıyı sürükleyebilirsiniz.
+Artık değişkenin değerini ayarlamak için değişkenin altında görünen kaydırıcıyı sürükleyebilirsiniz.
 
 ![ekran alıntısı](images/paint-slider-change.png)
 
-\--- görev \--- Projenizi test edin ve kalem genişliğini ayarlamak için kod ekleyip ekleyemeyeceğinizi görün.
+\--- task \--- Projenizi test edin ve kalem genişliğini ayarlamak için kod ekleyip ekleyemeyeceğinizi görün.
 
-![ekran görüntüsü](images/paint-width-test.png) \--- /görev \---
+![ekran alıntısı](images/paint-width-test.png) \--- /task \---
