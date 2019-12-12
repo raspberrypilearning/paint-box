@@ -2,98 +2,98 @@
 
 Şimdi projenize farklı renkli kalemler ekleyeceksiniz ve kullanıcının aralarından seçim yapmasına izin vereceksiniz.
 
-\--- task \--- ` kalemini `tükenmez kalem mavisi</code>ne değiştirin
+\--- task \--- Kuklanın `kalem` olan adını `mavi-kalem` olarak değiştirin
 
-![rename-pencil](images/rename-pencil.png) \--- /task \---
+![kalemi-yeniden adlandır](images/rename-pencil.png) \--- /task \---
 
-\--- task \--- Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+\--- task \--- Kalem üzerine sağ tuşla tıklayın ve mavi-kalem kostümünü çoğaltın.
 
-![ekran görüntüsü](images/paint-blue-duplicate.png) \--- /görev \---
+![ekran görüntüsü](images/paint-blue-duplicate.png) \--- /task \---
 
-\--- task \--- Name the new costume 'pencil-green', and colour the pencil green.
+\--- task \--- Yeni kostümün adını yeşil-kalem olarak değiştirin ve kalemin rengini yeşil yapın.
 
 ![ekran görüntüsü](images/paint-pencil-green.png)
 
 \--- /task \---
 
-\--- task \--- Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+\--- task \--- İki yeni kukla çizin: bir mavi kare ve bir yeşil kare. Bunlar mavi ve yeşil kalem arasında seçim yapmak için.
 
 ![ekran görüntüsü](images/paint-selectors.png) \--- /task \---
 
-\--- task \--- Rename the new sprites so that they are called 'blue' and 'green'
+\--- task \--- Kuklalarınızı 'mavi' ve 'yeşil' olarak yeniden isimlendirin
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /görev \---
+\--- /task \---
 
-\--- task \--- Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+\--- task \--- 'Yeşil' kuklanıza biraz kod ekleyerek, tıklandığında "yeşil" mesajını `yayınlayabilecektir`{:class="block3events"}.
 
-![green square](images/green_square.png)
+![yeşil kare](images/green_square.png)
 
 ```blocks3
-bu sprite
-yayını tıkladığında (yeşil v)
+bu kukla tıklandığında
+(yeşil) haberini sal
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message] \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Kalem kuklası "yeşil" mesajı dinlemeli ve karşılık olarak kostümünü ve kalem rengini değiştirmelidir.
 
-\--- task \--- Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Kalem kuklanıza geçiş yapın. Biraz kod ekleyerek; kuklanın `yeşil`{:class="block3events"} mesaj yayınını aldığında, yeşil kalem kostümüne geçiş yapmasını ve kalemin rengini yeşil olarak değiştirmesini sağlayın.
 
 ![kalem](images/pencil.png)
 
 ```blocks3
-[yeşil v]
-kostümünü aldığımda (kalem-yeşil v)
-set kalem rengini [# 00CC44]
+[yeşil] haberini aldığımda
+(yeşil-kalem) kılığına geç
+kalem rengini [#00CC44] yap
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite. \--- /görev \---
+Kalemin rengini yeşil olarak ayarlamak için, renkli kare bloktaki `kalem rengini ayarla`{:class="block3extensions"} 'ya ardından da yeşil kare kuklaya tıklayın. \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Aynı şekilde kalemin rengini maviyle de değiştirebilirsin.
 
-\--- task \--- Click on the blue square sprite and add this code:
+\--- task \--- Mavi kare kuklaya tıklayın ve şu kodu ekleyin:
 
-![blue_square](images/blue_square.png)
+![mavi_kare](images/blue_square.png)
 
 ```blocks3
-bu sprite
-yayını tıkladığında (mavi v)
+bu kukla tıklandığında
+(mavi) haberini sal
 ```
 
-Then click on the pencil sprite and add this code: ![kalem](images/pencil.png)
+Ardından kalem kuklasına tıklayın ve şu kodu ekleyin: ![kalem](images/pencil.png)
 
 ```blocks3
-[mavi v]
-kostümünü değiştirdiğimde (kalem-mavi v)
-set kalem rengi [# 0000ff]
+[mavi] haberini aldığımda
+(mavi-kalem) kılığına geç
+kalem rengini [#0000ff] yap
 ```
 
-\--- /görev \---
+\--- /task \---
 
-\--- task \--- Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+\--- görev \--- Son olarak, kalem kuklasına hangi renkle başlayacağını söyleyin ve programınız başladığında ekranın temiz olduğundan emin olmak için şu kodu ekleyin.
 
 ![kalem](images/pencil.png)
 
 ```blocks3
-Bayrak tıklandığında
-+ bütün silmek
-+ (kalem-mavi V) kostüm geçiş
-+ set kalem rengi [# 0035FF] için
-sonsuza
-  git (fare işaretçisi v) için
-ise <mouse down?> daha sonra
-  kalem aşağı
-  başka
-  kalemi
-son
+yeşil bayrak tıklandığında
+tümünü sil
+(pencil-blue v) kılığına geç
+kalem rengini [#0035FF] yap
+sürekli tekrarla 
+  (mouse pointer v) 'e git
+  eğer <mouse down?> ise 
+    kalemi bastır
+  değilse 
+    kalemi kaldır
+ end
 ```
 
-\--- /görev \---
+\--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+İsterseniz farklı bir renkli kalemle de başlayabilirsiniz.
 
-\--- task \--- Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Kodunuzu test edin. Mavi ya da yeşil kare kuklalara tıklayınca mavi ve yeşil renkli kalemler arasında geçiş yapabiliyor musunuz?
 
-![ekran görüntüsü](images/paint-pens-test.png) \--- /görev \---
+![ekran görüntüsü](images/paint-pens-test.png) \--- /task \---
