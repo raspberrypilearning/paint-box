@@ -55,4 +55,4 @@
 
 Если тебе нужно распечатать страницу данного проекта, то используй [версию для печати](https://projects.raspberrypi.org/en/projects/paint-box/print){:target = "_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+Здесь ты можешь найти [завершённый проект](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
