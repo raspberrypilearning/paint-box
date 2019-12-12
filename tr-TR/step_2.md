@@ -1,18 +1,18 @@
 ## Kalem yapmak
 
-Sahne Alanı'nda çizmek için kullanabileceğiniz bir kalem yaparak başlayın.
+Sahne Alanı'nda çizim için kullanabileceğiniz bir kalem yaparak başlayın.
 
-\--- görev \--- 'Çizim kutusu' Çizilmeye başlama projesini açın.
+\--- task \--- Scratch başlangıç projesi; 'Boya kutusu' nu açın.
 
-**Çevrimiçi**: başlangıç projesini [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
+**Çevrimiçi**: başlangıç projesini [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"} linkinden açın
 
-Eğer bir Scratch hesabınız varsa, **Remix**'e tıklayarak bir kopya oluşturabilirsiniz.
+Eğer bir Scratch hesabınız varsa, **Remix**'e tıklayarak bir kopyasını oluşturabilirsiniz.
 
 ** Çevrimdışı**: [başlangıç projesini](http://rpf.io/p/en/paint-box-go) Çevrimdışı düzenleyicide {: target = "_ blank"} açın.
 
-Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekirse, bunu [ rpf.io/scratchoff adresinde bulabilirsiniz. ](http://rpf.io/scratchoff) {: Hedef = "_ blank"}
+Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekirse, bunu [ rpf.io/scratchoff adresinden bulabilirsiniz. ](http://rpf.io/scratchoff) {: Hedef = "_ blank"}
 
-Başlangıç projesinde kurşun kalem ve silgi spritelarını görmelisiniz:
+Başlangıç projesinde kurşun kalem ve silgi kuklalarını görmelisiniz:
 
 ![ekran görüntüsü](images/paint-starter.png) \--- /task \---
 
@@ -26,42 +26,42 @@ Kalem uzantısını projenize ekleyin.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Kuklanın, fare işaretçisini `sonsuza dek`{:class="block3control"} takip etmesi için kurşun kalem kuklasına biraz kod ekleyin, böylece çizebileceksiniz:
 
 ![kalem](images/pencil.png)
 
 ```blocks3
-bayrak
-sonsuza kadar
-  tıklatıldığında, (fare işaretçisi v)
-son
+yeşil bayrak tıklandığında
+sürekli tekrarla 
+  (fare imleci) 'e git
+end
 ```
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \--- Bayrağa tıklayın ve ardından kodunuzun işe yarayıp yaramadığını test etmek için fare işaretçisini Sahne Alanı çevresinde hareket ettirin. \--- /task \---
 
-Şimdi, sadece fareye tıklanmış `ise`{:class = "blockcontrol"} kalemin ekranda çizim yapmasını sağlayalım.
+Şimdi, kaleminizi `sadece fareye tıklandığında`{:class="block3control"}ekranda çizim yapacak şekilde ayarlayalım.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \--- Bu kodu kalem kuklanıza ekleyin:
 
 ![kalem](images/pencil.png)
 
 ```blocks3
-Bayrak tıklandığında
-sonsuza
-  (fare işaretçisi v) için gitmek
+yeşil bayrak tıklandığında
+sürekli tekrarla 
+  (fare imleci) 'e git
 
-+ halinde <mouse down?> daha sonra
-  kalem aşağı
-  başka bir
-  kalemi
-uç
+  eğer <mouse down?> ise 
+  kalemi bastır
+  değilse 
+  kalemi kaldır
+end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Kaleminle çizim yapabiliyor musun?
+\--- task \--- Kodunuzu tekrar test edin. Bu kez, kalemi Sahne Alanı çevresinde hareket ettirin ve fare düğmesini basılı tutun. Kaleminle çizim yapabiliyor musun?
 
 ![ekran görüntüsü](images/paint-draw.png) \--- /task \---
 
@@ -69,14 +69,14 @@ uç
 
 ## title: Kalemin ucundan çizmiyor mu?
 
-Kaleminizin çizdiği çizgi kalemin ortasından geliyor gibi görünüyorsa, kalem sprite'larınızı değiştirmeniz gerekir, böylece ucu sprite'nın merkezi olur.
+Kaleminizin çizdiği çizgi kalemin ortasından geliyor gibi görünüyorsa, kalem kuklanızı değiştirmeniz gerekir, böylece ucu kuklanın merkezi olur.
 
-Kalem spritesine ve ardından **Costumes** sekmesine tıklayın.
+Kalem kuklasına ve ardından **Kostüm** sekmesine tıklayın.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Kostümü hareket ettirin, böylece kalemin ucu merkezin **hemen yukarısında** kalacaktır.
 
 ![Kostüm merkezi](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Şimdi kalemi Sahne Alanı'nda dolaştırın ve çizin. Artık kalem çizgiyi ucundan çizecektir.
 
 \--- /collapse \---
