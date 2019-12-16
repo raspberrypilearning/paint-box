@@ -22,7 +22,7 @@ Agora vamos adicionar lápis de cores diferentes ao seu projeto e permitir que o
 
 --- task --- Renomeie os novos atores para que sejam chamados 'azul' e 'verde'
 
-[[[generic-scratch3-rename-sprite]]]
+[[[generic-scratch-rename-sprite]]]
 
 --- /task ---
 
