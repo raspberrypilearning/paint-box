@@ -13,7 +13,7 @@
 --- no-print --- Нажми на зелёный флаг, чтобы начать. Используй мышь для перемещения карандаша, и удерживай левую кнопку мыши, чтобы рисовать. Нажми на цвет, чтобы поменять его. Нажми на ластик, чтобы его выбрать. Используй ластик для стирания своей работы. Чтобы полностью стереть работу, нажми на крестик.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/354189326/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
