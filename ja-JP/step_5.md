@@ -1,98 +1,133 @@
 ## 間違いを元に戻す
 
-時々間違いが起こるので、「クリア」ボタンと消しゴムボタンを追加します。
+時々起きる間違いのために、「クリア」ボタンと消しゴムボタンを追加します。
 
-\--- task \--- ライブラリのlettersセクションから 'X-block'スプライトを追加してください。 スプライトのコスチュームを赤で着色して少し小さくします。 このスプライトは「クリア」ボタンです。
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![スクリーンショット](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- スプライトがクリックされたときにステージをクリアするために 'X-block'スプライトにコードを追加します。
+\--- /task \---
 
-![クロス](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
-このスプライトが
-クリックしたときすべて消去
+このスプライトが押されたとき
+全部消す
 ```
 
 \--- /task \---
 
-ステージ `をクリアするのに <code>broadcast`{：class = "block3events"}を使用する必要はありません。なぜなら` erase all`{：class = "block3extensions"}ブロックがその仕事をするからです。
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-あなたは鉛筆のスプライトが消しゴムの衣装を含んでいるのを見ますか？
+Do you see that the pencil sprite includes an eraser costume?
 
-![スクリーンショット](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-あなたのプロジェクトには独立した消しゴムスプライトも含まれています。
+Your project also includes a separate eraser sprite.
 
-\--- task \--- この消しゴムスプライトを右クリックしてから **show**クリックします。 これがステージの外観です。
+\--- task \---
 
-![スクリーンショット](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- 消しゴムスプライトをクリックしたときに `'消しゴム'ブロードキャスト`{：class = "block3events"}を送信するためのコードを消しゴムスプライトに追加します。
+![screenshot](images/paint-eraser-stage.png)
 
-![消しゴム](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
-このスプライトが
-ブロードキャストをクリックしたとき（消しゴムv）
+このスプライトが押されたとき
+(消しゴム v) を送る
 ```
 
 \--- /task \---
 
-鉛筆のスプライトが「消しゴム」メッセージを受け取ると、そのコスチュームを消しゴムに切り替え、ペンの色を白（ステージと同じ色）に切り替える必要があります。
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- 消しゴムを作成するためのコードを追加します。
+\--- task \---
 
-\---ヒント\--- \---ヒント\--- 鉛筆のスプライトにコードを追加します ``{：class = "block3events"} `消しゴム`{：class = "block3events"} message `コスチューム消しゴムに切り替えます`{：class = "block3looks"} `ペンの色`{：class = "block3extensions"}を白に設定します \--- /ヒント\--- \---ヒント\--- これがあなたが必要とするすべてのブロックです：
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
-[消しゴムv]
+ペンの色を [#FFFFFF] にする
+[消しゴム v] を受け取ったとき
 
-を受け取ったらペン色を[#FFFFFF]
-に設定
+コスチュームを (消しゴム v) にする
 ```
 
-\--- / hint \--- \--- hint \--- これがコードの外観です ![鉛筆](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
-[消しゴムv]を受け取ったら
-衣装を（消しゴムv）
-切り替える
+[消しゴム v] を受け取ったとき
+コスチュームを (消しゴム v) にする
+ペンの色を [#FFFFFF] にする
 ```
 
-\--- / hint \--- \--- / hints \--- \--- / task \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- プロジェクトをテストして、ステージをクリアして鉛筆の線を消去できるかどうかを確認します。
+\--- task \---
 
-![スクリーンショット](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-鉛筆にはもう1つ問題があります。「クリア」ボタンや消しゴムボタンの近くなど、ステージ上のどこにでも描画できます。
+![screenshot](images/paint-erase-test.png)
 
-![スクリーンショット](images/paint-draw-problem.png)
+\--- /task \---
 
-\---タスク\--- この問題を解決するには、マウスがクリックされた場合、ペンだけダウンするようにコードを変更する **及び** `、Y` 、マウスポインタの位置がより大きく `-120`：
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![鉛筆](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
-フラグをクリック
-消去を全て
-（鉛筆ブルーV）に切り替え衣装
-[＃0035FF]に設定されたペンの色
-永久
-  （マウスポインタV）に移動
-+なら <<mouse down?> および <（マウスY） > [-120]>> その後 
-  ペンダウンして
-  それ以外
-  ペンアップして
-終わり
+⚑ が押されたとき
+全部消す
+コスチュームを (鉛筆-青 v) にする
+ペンの色を [#0035FF] にする
+ずっと 
+  (マウスのポインター v) へ行く
+  +もし <<mouse down?> かつ <(マウスのy座標) > [-120]>> なら 
+    ペンを下ろす
+  でなければ 
+    ペンを上げる
+  end
+end
 ```
 
 \--- /task \---
 
-\--- task \--- プロジェクトをテストしてください。 今すぐボタンの近くに描画することができないはずです。
+\--- task \---
 
-![スクリーンショット](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
