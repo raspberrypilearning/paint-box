@@ -2,15 +2,21 @@
 
 Parfois, des erreurs se produisent, alors ajoute un bouton "effacer" et un bouton gomme.
 
-\--- task \--- Ajoute le sprite "Bloc-X" à partir de la section des lettres de la bibliothèque. Colorie le costume du sprite en rouge et rends-le un peu plus petit. Ce sprite est le bouton "effacer".
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![capture d'écran](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Ajoute du code au sprite "Bloc-X" pour effacer la scène lorsque tu as cliqué sur le sprite.
+\--- /task \---
 
-![traverser](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 lorsque ce sprite est cliqué
@@ -19,21 +25,27 @@ effacer tout
 
 \--- /task \---
 
-Tu n'as pas besoin d'utiliser un `envoi à tous`{:class="block3events"} pour effacer la scène, car le bloc `effacer tout`{:class="block3extensions"} fait déjà cette action.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Vois-tu que le sprite crayon comprend un costume gomme?
+Do you see that the pencil sprite includes an eraser costume?
 
-![capture d'écran](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Ton projet comprend également un sprite gomme séparé.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Fais un clic droit sur ce sprite gomme, et ensuite clique sur **afficher**. Voici à quoi devrait ressembler ta scène:
+\--- task \---
 
-![capture d'écran](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Ajoute du code au sprite gomme pour envoyer un `un envoi à tous "gomme"`{:class="block3events"} lorsque le sprite gomme est cliqué.
+![screenshot](images/paint-eraser-stage.png)
 
-![gomme](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 lorsque ce sprite est cliqué
@@ -42,11 +54,19 @@ envoyer à tous (gomme v)
 
 \--- /task \---
 
-Lorsque le sprite crayon reçoit le message "gomme", il devrait changer son costume en gomme et changer la couleur du crayon en blanc, qui est la même couleur que la scène!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Ajoute du code pour créer la gomme.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Ajoute du code au sprite crayon: `quand je reçois`{:class="block3events"} le message `gomme`{:class="block3events"} `basculer sur le costume gomme`{:class="block3looks"} `mettre la couleur du stylo`{:class="block3extensions"} sur blanc \--- /hint \--- \--- hint \--- Voici tous les blocs dont tu as besoin:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 mettre la couleur du stylo à [#FFFFFF]
@@ -55,7 +75,11 @@ quand je reçois [gomme v]
 basculer sur le costume (gomme v)
 ```
 
-\--- /hint \--- \--- hint \--- Voici à quoi devrait ressembler le code: ![crayon](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 quand je reçois [gomme v]
@@ -65,17 +89,23 @@ mettre la couleur du stylo à [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Teste ton projet pour voir si tu peux effacer la scène et effacer les lignes au crayon.
+\--- task \---
 
-![capture d'écran](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Il y a encore un problème avec le crayon: tu peux dessiner n’importe où sur la scène, y compris près des boutons "effacer" et gomme!
+![screenshot](images/paint-erase-test.png)
 
-![capture d'écran](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- Pour résoudre ce problème, modifie le code afin que le stylo soit en position d'écriture uniquement si tu cliques sur la souris **et** que la position `y` du pointeur de la souris est supérieure à `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![crayon](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -93,6 +123,10 @@ fin
 
 \--- /task \---
 
-\--- task \--- Teste ton projet. Tu ne devrais plus pouvoir dessiner près des boutons.
+\--- task \---
 
-![capture d'écran](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
