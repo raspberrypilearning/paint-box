@@ -2,11 +2,17 @@
 
 Zatim ćete dodati kôd kako biste omogućili osobi koja koristi vaš program da crta stvari različite širine olovke.
 
-\--- task \--- Prvo dodajte novu varijablu koja se zove `width`{: Class = "block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Dodajte ovaj redak **inside** u `forever`{: class = "block3control"} petlju koda lika olovke:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 when flag clicked
@@ -25,16 +31,24 @@ end
 
 \--- /task \---
 
-Širina olovke sada se kontinuirano postavlja na vrijednost `width`{: class = "block3variables"} varijable.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Desnom tipkom miša kliknite `width`{: class = "block3variables"} varijabla prikazana na pozornici, a zatim pritisnite **slider**.
+\--- task \---
 
-![screenshot](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Sada možete povući klizač koji je vidljiv ispod varijable da biste promijenili vrijednost varijable.
+![screenshot](images/paint-slider.png)
+
+\--- /task \---
+
+You can now drag the slider that is visible below the variable to change the variable's value.
 
 ![screenshot](images/paint-slider-change.png)
 
-\--- task \--- Testirajte svoj projekt i provjerite možete li dodati kôd za podešavanje širine olovke.
+\--- task \---
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
