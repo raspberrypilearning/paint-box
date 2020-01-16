@@ -3,6 +3,7 @@
 Start by making a pencil that you can use to draw on the Stage.
 
 --- task ---
+
 Open the 'Paint box' Scratch starter project.
 
 **Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
@@ -16,6 +17,7 @@ If you need to download and install the Scratch offline editor, you can find it 
 In the starter project, you should see pencil and eraser sprites:
 
 ![screenshot](images/paint-starter.png)
+
 --- /task ---
 
 --- task ---
@@ -31,6 +33,7 @@ Add the Pen extension to your project.
 Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
 ![pencil](images/pencil.png)
+
 ```blocks3
 when flag clicked
 forever
@@ -41,15 +44,19 @@ end
 --- /task ---
 
 --- task ---
+
 Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+
 --- /task ---
 
 Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
 --- task ---
+
 Add this code to your pencil sprite:
 
 ![pencil](images/pencil.png)
+
 ```blocks3
 when flag clicked
 forever
@@ -60,18 +67,22 @@ forever
   pen up
 end
 ```
+
 --- /task ---
 
 --- task ---
+
 Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
+
 --- /task ---
 
 --- collapse ---
 ---
 title: Does your pencil not draw from its tip?
 ---
+
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
 Click on the pencil sprite, and then click on the **Costumes** tab.
