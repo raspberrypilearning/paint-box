@@ -10,7 +10,9 @@
 
 ### Что ты сделаешь
 
-\--- no-print \--- Нажми на зелёный флаг, чтобы начать. Используй мышь для перемещения карандаша, и удерживай левую кнопку мыши, чтобы рисовать. Нажми на цвет, чтобы поменять его. Нажми на ластик, чтобы его выбрать. Используй ластик для стирания своей работы. Чтобы полностью стереть работу, нажми на крестик.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@
 
 \--- /no-print \---
 
-\--- print-only \--- Ты нажмёшь на зеленый флаг, чтобы начать, и будешь использовать мышь, чтобы переместить карандаш, и удерживать левую кнопку мыши, чтобы рисовать. Нажатие на цвет изменит цвет карандаша, а нажатие на ластик выберет его!
+\--- print-only \---
 
-![демонстрация](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@
 
 + Добавлять расширение для ручки в Скретч
 + Использовать события для управления спрайтом в Скретч
-+ Отвечать на события мыши в Скретч \--- /collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@
 
 ## title: Дополнительная информация для преподавателей
 
-Если тебе нужно распечатать страницу данного проекта, то используй [версию для печати](https://projects.raspberrypi.org/en/projects/paint-box/print){:target = "_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Здесь ты можешь найти [завершённый проект](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
