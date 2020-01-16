@@ -2,33 +2,37 @@
 
 Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 
-\--- task \--- Abre la 'Caja de pintura' del proyecto de inicio de Scratch.
+\--- task \---
 
-**Online**: abra un nuevo proyecto Scratch en [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+Open the 'Paint box' Scratch starter project.
+
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline**: abre el [proyecto de inicio](http://rpf.io/p/en/paint-box-go){:target=_blank"} en el editor offline.
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
 In the starter project, you should see pencil and eraser sprites:
 
-![captura de pantalla](images/paint-starter.png) \--- / tarea \---
+![screenshot](images/paint-starter.png)
 
-\--- tarea \---
+\--- /task \---
 
-Añadir la extensión de la lápiz a su proyecto.
+\--- task \---
+
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- / tarea \---
+\--- /task \---
 
-\--- tarea \---
+\--- task \---
 
-Añade algo de código al objeto lápiz para hacer que el objeto siga al cursor `forever`{:class="block3control"} así puedes dibujar:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![lápiz](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -37,15 +41,21 @@ forever
 end
 ```
 
+\--- /task \---
+
+\--- task \---
+
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+
 \--- / tarea \---
 
-\--- /task\--- Haz clic en la bandera y luego mueve el cursor alrededor del Escenario para comprobar si tu código funciona. \--- / tarea \---
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-Luego, haz que tu lápiz sólo dibuje `if`{:class="block3control"} si se mantiene presionado el botón del ratón.
+\--- task \---
 
-\--- task \--- Añade este código al objeto de tu lápiz:
+Add this code to your pencil sprite:
 
-![lápiz](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -59,24 +69,28 @@ forever
 end
 ```
 
-\--- / tarea \---
+\--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. ¿Puedes dibujar con tu lápiz?
+\--- task \---
 
-![captura de pantalla](images/paint-draw.png) \--- / tarea \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: ¿Tu lápiz no dibuja desde la punta?
 
-Si la línea que tu lápiz dibuja parece que sale desde el medio del lápiz, necesitas cambiar tu objeto lápiz de modo que la punta sea el centro del objeto.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Haz clic sobre el objeto lápiz, y luego haz clic sobre la pestaña **Disfraces**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Mueve el disfraz para que la punta del lápiz esté **justo encima** del centro.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Centro de disfraces](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Ahora mueve el lápiz alrededor del Escenario y dibuja. Ahora el lápiz debería dibujar una línea desde la punta.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
