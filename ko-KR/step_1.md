@@ -10,7 +10,9 @@
 
 ### 만들게 될 것
 
-\--- no-print \--- 녹색 깃발을 클릭하여 시작하세요. 마우스를 사용하여 연필을 이동하고 마우스 왼쪽 버튼을 누른 상태로 그립니다. 색상을 클릭하여 연필을 변경하세요. 지우개를 클릭하여 자신의 그림을 변경하거나 제거하는데 사용할 수 있습니다. 페이지를 지우려면 X표시를 클릭 해 보세요.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@
 
 \--- /no-print \---
 
-\--- 인쇄 전용 \--- 시작하려면 녹색 깃발을 클릭하고, 마우스를 사용하여 연필을 이동하고 마우스 왼쪽 버튼을 누른 상태로 그립니다. 색상을 클릭하면 연필 색상이 변경되고 지우개를 클릭하면 지우개로 변경됩니다!
+\--- print-only \---
 
-![showcase](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@
 
 + 스크래치에 펜 확장 추가
 + 브로드 캐스트를 사용하여 스크래치에서 스프라이트 제어하기
-+ Scratch 에서 마우스 이벤트에 응답하는 방법을 생각해 내기 \--- / collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- 중간생략 \---
 
@@ -47,12 +55,14 @@
 
 + [오프라인 스타터 프로젝트](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
--- /collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title: 교육자를 위한 추가 정보
 
-이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}을 사용해 주십시오.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
