@@ -2,51 +2,71 @@
 
 አንዳንድ ጊዜ ስህተቶች ይከሰታሉ, ስለዚህ 'ግልጽ' አዝራር እና የፍርሽ አዝራር ያክሉ.
 
-\--- ተግባር \--- ከ "ቤተ-መጻህፍት ደብዳቤዎች" የ "X-block" ስፔን አክል. የሸረሪቱን ልብስ በቀይ አበባ ይግለጹ እና ትንሽ ትንሽ ያድርጉት. ይህ ስፔል 'ግልጽ' አዝራር ነው.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-x.png) \--- / task \---
+![screenshot](images/paint-x.png)
 
-\--- ተግባር \--- sprite ሲጫወት ደረጃውን ለማጽዳት የ "X-block" ስፔክ አክል.
+\--- /task \---
 
-![መስቀል](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 ይህ sprite ጠቅ ጊዜ
 ደምስስ ሁሉ
 ```
 
-\--- / task \---
+\--- /task \---
 
-የ መጠቀም አያስፈልጋቸውም `ስርጭት`የ ምክንያቱም, ወደ ደረጃ ማጽዳት: {class = "block3events"} `ደምስስ ሁሉንም`{: class = "block3extensions"} የማገጃ ይህ ሥራ ነው.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-የእርሳስ ስፒር የማራስ ልብሶች ያካተተ እንደሆነ ታያለህ?
+Do you see that the pencil sprite includes an eraser costume?
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-ፕሮጀክትዎ የተለየ የስምሪት ስፒልንም ያካትታል.
+Your project also includes a separate eraser sprite.
 
-\--- ተግባር \--- በዚህ የአጻጻፍ ፊደል ላይ በቀኝ-ጠቅ ያድርጉ እና ከዚያም **ትዕይንት**ላይ ጠቅ ያድርጉ. የእርስዎ ደረጃ አሁን የሚታይበት ሁኔታ እነሆ:
+\--- task \---
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-eraser-stage.png) \--- / task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- ተግባር \--- የማጥመቂያው ስፔይት ጠቅ ሲደረግ የ `'eraser' ስርጭት`ለመጥለፍ <ስሌት </ block3events>} ይልካሉ.
+![screenshot](images/paint-eraser-stage.png)
 
-![ማጥፊያ](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 ይህ ስፒድ
 ስርጭትን (ጠቅላላውን)
 ```
 
-\--- / task \---
+\--- /task \---
 
-የእርሳስ ስፒር 'የኢራስተር' መልእክት ሲደርሰው የአለባበስ ድምፁን ለማጥፋት ቀለምን መቀየር እና ብዕሩን ወደ ነጭ ቀለም መቀየር, ልክ እንደ ደረጃው ተመሳሳይ ቀለም ነው!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- ጠርዞችን ለመፍጠር የተወሰነ ኮድ ያክሉ.
+\--- task \---
 
-\--- ፍንጮችን \--- \--- ፍንጭ \--- የእርሳስ sprite አንዳንድ ኮድ ያክሉ: `እኔ ለመቀበል ጊዜ`{: class = "block3events"} የ `ኢሬዘር`{: class = "block3events"} መልዕክት `ለሽቶ ማልመጃ ቀለም ይቀይሩ`{: class = "block3looks"} `ቀለም ያብራሩ`{: class = "block3extensions"} ወደ ነጭ \--- / hint \--- \--- የሚለው የሚያስፈልጓቸው ሁሉም የእቃዎች ዝርዝሮች እነሆ:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 [eraser v]
@@ -55,7 +75,11 @@
 ሲጽፍ (pen er v)
 ```
 
-\--- / hint \--- \--- የማሳወቂያ ይህ ኮድ ምን ይመስላል: ![እርሳስ](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [eraser v]
@@ -63,19 +87,25 @@
 ለ [#FFFFFF] የቅዳሜ ቀለም ያዘጋጁ.
 ```
 
-\--- / hint \--- \--- / prine \--- \--- / task \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- ተግባር \--- ደረጃውን እና የተጣራ እርሳሶችን መስመሮቹን ማጽዳት ይችሉ እንደሆነ ለማየት ፕሮጀክትዎን ይፈትኑት.
+\--- task \---
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-erase-test.png) \--- / task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-በእርሳስ እርሶ አንድ ችግር አለ: 'ግልጽ' እና የማጥፊያ አዝራሮችን ጨምሮ በማናቸውም ደረጃዎች ላይ መሳል ይችላሉ.
+![screenshot](images/paint-erase-test.png)
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- ተግባር \--- መዲፉት (አይዩ) ቢጫኑ ( **እና (** የ `ጂ` አቀማመጥ ከ `120`()
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![እርሳስ](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ባንዲራ ጠቅ ጊዜ
@@ -91,8 +121,12 @@
 መጨረሻ
 ```
 
-\--- / task \---
+\--- /task \---
 
-\--- ተግባር \--- ፕሮጀክትዎን ይፈትኑት. አሁን አዝራሮቹን መቅረብ አይኖርብዎትም.
+\--- task \---
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-fixed.png) \--- / task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
