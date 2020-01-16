@@ -1,6 +1,6 @@
-## What next?
+## Čo ďalej?
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+Teraz, keď si dokončil projekt 'Skicár', môžeš vyskúšať projekt ['Preteky lodí'](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), ktorý ti pomôže vyrobiť hru, v ktorej budeš kormidlovať loď, tak aby si sa vyhol/-a prekážkam.
 
 \--- no-print \---
 
@@ -11,4 +11,8 @@ Now that you have completed the 'Paint box' project, try [the 'Boat race' projec
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
