@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Výzva: viac ceruziek
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Môžeš pridať do scenára červenú, žltú a čiernu ceruzku? Ak si chceš pripomenúť, ako to urobiť, prečítaj si predchádzajúce kroky.
 
-Can you use your pencils to draw a picture?
+Skúsiš pomocou ceruziek nakresliť nejaký obrázok?
 
-![screenshot](images/paint-final.png)
+![snímka obrazovky](images/paint-final.png)
