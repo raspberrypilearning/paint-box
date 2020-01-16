@@ -2,11 +2,17 @@
 
 Στη συνέχεια, θα προσθέσεις κώδικα για να επιτρέψεις στο άτομο που χρησιμοποιεί το πρόγραμμά σου να σχεδιάζει πράγματα με διαφορετικό πάχος μολυβιού.
 
-\--- Αρχικά, πρόσθεσε μία νέα μεταβλητή που ονομάζεται `πάχος`{:class="block3variable"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- Πρόσθεσε αυτή τη γραμμή **μέσα** στο βρόχο `για πάντα`{:class="block3control"} του κώδικα του μολυβιού:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 όταν στην πράσινη σημαία γίνει κλικ
@@ -25,16 +31,24 @@
 
 \--- /task \---
 
-Τώρα το πάχος του μολυβιού επανειλημμένα ρυθμίζεται στην τιμή της μεταβλητής του `πάχους` {:class="block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Κάνε δεξί κλικ στη μεταβλητή `πάχος` {:class="block3variables"} που εμφανίζεται στο Σκηνικό και, στη συνέχεια, κάνε κλικ στη **γραμμή κύλισης**.
+\--- task \---
 
-![στιγμιότυπο οθόνης](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Τώρα μπορείς να σύρεις τη γραμμή κύλισης που βρίσκεται κάτω από τη μεταβλητή για να αλλάξεις την τιμή.
+![screenshot](images/paint-slider.png)
 
-![στιγμιότυπο οθόνης](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Δοκίμασε το έργο σου και δες αν μπορείς να προσθέσεις κώδικα για να ρυθμίσεις το πάχος του μολυβιού.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![στιγμιότυπο οθόνης](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
