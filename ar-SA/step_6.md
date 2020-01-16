@@ -2,11 +2,17 @@
 
 الآن سنضيف بعض التعليمات البرمجية التي ستسمح لمن يستخدم برنامجك بأن يرسم بأقلام ذات عرض مختلف.
 
-\--- task \--- اولاً, أضف متغير جديد باسم `عرض`{:class="block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- أضف هذا السطر**داخل** كتلة التكرار `كرر باستمرار`{:class="block3control"} الموجودة في التعليمات البرمجية الخاصة بكائن القلم الرصاص:
+[[[generic-scratch3-add-variable]]]
+
+\---/task--
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 عند نقر ⚑
@@ -24,18 +30,26 @@
 end
 ```
 
-\---/task--
+\--- /task \---
 
-الآن سيتم إعادة تعيين عرض القلم بشكل متكرر بناءاً على قيمة المتغير `عرض`{:class="block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- انقر بزر الماوس الأيمين على المتغير `عرض`{:class="block3variables"} الموجود على الزاوية اليسار العلوية لمنصة العمل, ثم انقر على **المنزلقة**.
+\--- task \---
 
-![لقطة الشاشة](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-يمكنك الآن سحب شريط المنزلقة لتغيير قيمة المتغير.
+![screenshot](images/paint-slider.png)
 
-![لقطة الشاشة](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- اختبر مشروعك.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![لقطة الشاشة](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
