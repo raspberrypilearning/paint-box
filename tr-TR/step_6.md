@@ -2,11 +2,17 @@
 
 Sırada, programınızı kullanan kişinin nesneleri farklı kalem genişlikleriyle çizmesine izin veren kodu ekleyeceksiniz.
 
-\--- görev \--- İlk önce, `genişlik`{: class="block3variables"} adlı yeni bir değişken ekleyin.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Bu satırı kalem kuklası kodundaki `sonsuza kadar`{:class="block3control"} döngüsünün **içine** ekleyin:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 yeşil bayrak tıklandığında
@@ -25,16 +31,24 @@ sürekli tekrarla
 
 \--- /task \---
 
-Kalem genişliği şimdi hep `genişlik`{:class="block3variables"} değişkeninin değerine ayarlanır.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- görev \--- Sahne Alanı'nda görüntülenen `genişlik`{:class="block3variables"} değişkenine sağ tıklayın ve ardından **slider**'ı tıklayın.
+\--- task \---
 
-![ekran alıntısı](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Artık değişkenin değerini ayarlamak için değişkenin altında görünen kaydırıcıyı sürükleyebilirsiniz.
+![screenshot](images/paint-slider.png)
 
-![ekran alıntısı](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Projenizi test edin ve kalem genişliğini ayarlamak için kod ekleyip ekleyemeyeceğinizi görün.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![ekran alıntısı](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
