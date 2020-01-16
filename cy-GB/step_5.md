@@ -2,15 +2,21 @@
 
 Weithiau mae camgymeriadau'n digwydd, felly ychwanega fotwm 'clirio' a botwm dileuwr.
 
-\--- task \--- Ychwanega'r corlun 'X-block' o adran llythrennau'r llyfrgell. Lliwia gwisg y corlun yn goch a'i wneud ychywig yn llai. Y corlun yma yw'r botwm 'clirio'.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![sgrinlun](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Ychwanega gôd i gorlun 'X-block' i glirio'r Llwyfan pan mae'r corlun yn cael ei glicio.
+\--- /task \---
 
-![croes](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 pan gaiff y ciplun yma ei glicio
@@ -19,21 +25,27 @@ dileu popeth
 
 \--- /task \---
 
-Does dim angen defnyddio `darlledu`{:class="block3events"} i glirio'r Llwyfan, gan fod y bloc `dileu popeth`{:class="block3extensions"} yn gwneud hynny.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Wyt ti'n gweld fod y corlun pensil yn cynnwys gwisg dileuwr?
+Do you see that the pencil sprite includes an eraser costume?
 
-![sgrinlun](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Mae dy brosiect hefyd yn cynnwys corlun dileuwr ar wahân.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Gwna clic-dde ar gorlun y dileuwr a chlicia **dangos**. Dyma sut y dylai dy Lwyfan ymddangos nawr:
+\--- task \---
 
-![sgrinlun](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Ychwanega gôd i gorlun y dileuwr i anfon `darllediad 'dileuwr'`{:class="block3events"} pan mae'r dileuwr yn cael ei glicio.
+![screenshot](images/paint-eraser-stage.png)
 
-![dileuwr](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 pan gaiff y ciplun yma ei glicio
@@ -42,11 +54,19 @@ darlledu (dileuwr v)
 
 \--- /task \---
 
-Pan fo'r corlun pensil yn derbyn neges 'dileuwr', fe ddylai newid gwisg i'r dileuwr a newid lliw y pen i wyn, sef yr un lliw â'r Llwyfan!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Ychwanega gôd i greu dileuwr.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Ychwanegwch gôd i’r guplun y pensil: `Pan rwy'n derbyn`{:class="block3events"} neges `dileuwr`{:class="block3events"} `Newid gwisg i dileuwr`{:class="block3looks"} `Gosod y pin`{:class="block3extensions"} i wyn \--- /hint \--- \--- hint \--- Dyma’r holl flociau byddwch angen:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 gosod lliw pin i [#FFFFFF]
@@ -56,7 +76,11 @@ pan rwy'n derbyn [dileuwr v]
 newid gwisg i (dileuwr v)
 ```
 
-\--- /hint \--- \--- hint \--- Dyma sut dylai dy gôd edrych: ![pensil](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 pan rwy'n derbyn [dileuwr v]
@@ -66,17 +90,23 @@ gosod lliw pin i [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Profa dy brosiect i weld os wyt ti'n gallu clirio'r Llwyfan a dileu'r llinellau pensil.
+\--- task \---
 
-![sgrinlun](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Mae un problem arall gyda'r pensil: rwyt ti'n gallu tynnu llun unrhywle ar y Llwyfan, gan gynnwys ger y botymau 'clirio' a dileuwr!
+![screenshot](images/paint-erase-test.png)
 
-![sgrinlun](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- I ddatrys hyn, mae angen i ti ddweud wrth y pensil i dynnu llun os yw’r llygoden wedi clicio **ac**os yw `y-position` y llygoden yn fwy na `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![pensil](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -95,6 +125,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Profa dy brosiect. Ni ddylet ti nawr allu tynnu llun ger y botymau.
+\--- task \---
 
-![sgrinlun](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
