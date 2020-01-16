@@ -2,15 +2,21 @@
 
 有时会发生错误，因此请添加“清除”按钮和橡皮擦按钮。
 
-\--- task \--- 从库的字母部分添加'X-block'精灵。 将精灵的服装涂成红色并使其略小一些。 这个精灵是'清除'按钮。
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![截屏](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- 添加代码到 'X-block' 图形，以便在点击时清除该舞台。
+\--- /task \---
 
-![交叉](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 when this sprite clicked
@@ -19,21 +25,27 @@ erase all
 
 \--- /task \---
 
-您不需要使用 `广播`{:class="block3events"}来清除舞台，因为 `擦除所有`{:class="block3extensions"}块执行该作业。
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-你看到铅笔精灵包括橡皮擦服装吗？
+Do you see that the pencil sprite includes an eraser costume?
 
-![截屏](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-项目中还包含一个单独的橡皮角色。
+Your project also includes a separate eraser sprite.
 
-\--- task \--- 右键点击此擦除器图形，然后点击 **显示**。 以下是您的舞台现在的样子：
+\--- task \---
 
-![截屏](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- 当橡皮精灵被点击时，将代码添加到橡皮精灵以发送 `'橡皮擦'广播`{:class="block3events"}。
+![screenshot](images/paint-eraser-stage.png)
 
-![橡皮](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
@@ -42,11 +54,19 @@ broadcast (eraser v)
 
 \--- /task \---
 
-当铅笔精灵收到“橡皮擦”信息时，它应该将其服装切换到橡皮擦并将笔颜色切换为白色，这与舞台颜色相同！
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- 添加一些代码来创建橡皮擦。
+\--- task \---
 
-\--- hints \--- \--- hint \--- 向铅笔精灵添加一些代码： `当我收到`{:class="block3events"}时, `橡皮擦`{:class="block3events"}消息 `切换到服装橡皮擦`{:class="block3looks"} `将笔颜色`{:class="block3extensions"}设置为白色 \--- /hint \--- \--- hint \--- 以下是您需要的所有块：
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -55,7 +75,11 @@ when I receive [eraser v]
 switch costume to (eraser v)
 ```
 
-\--- /hint \--- \--- hint \--- 这是代码的样子： ![铅笔](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
@@ -65,17 +89,23 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- 测试你的项目，看看你是否可以清除舞台并擦除铅笔线。
+\--- task \---
 
-![截屏](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-铅笔还有一个问题：你可以在舞台上的任何地方画画，包括“透明”和橡皮擦按钮附近！
+![screenshot](images/paint-erase-test.png)
 
-![截屏](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- 要解决此问题，请更改代码，以便在单击鼠标时仅向下笔 **和** 鼠标指针的 `y` 位置大于 `-120`：
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![铅笔](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -93,6 +123,10 @@ end
 
 \--- /task \---
 
-\--- task \--- 测试你的项目。 你现在不应该在按钮附近画画。
+\--- task \---
 
-![截屏](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
