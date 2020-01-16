@@ -10,7 +10,9 @@ Crea un programma per disegnare!
 
 ### Cosa creerai
 
-\--- no-print \--- Fai clic sulla bandierina verde per vedere l'animazione. Utilizza il mouse per muovere la matita, e tieni premuto il pulsante sinistro per disegnare. Clicca su un colore per cambiare le matite. Clicca sulla gomma per usarla e cancellare il tuo lavoro. Per cancellare tutto, clicca sulla x.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@ Crea un programma per disegnare!
 
 \--- /no-print \---
 
-\--- print-only \--- Fai clic sulla bandierina verde per iniziare. Utilizzerai il mouse per spostare la matita e, tenendo premuto il tasto sinistro, disegnerai. Cliccando su un colore cambierai il colore della matita e cliccando sulla gomma la potrai utilizzare!
+\--- print-only \---
 
-![showcase](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@ Crea un programma per disegnare!
 
 + Aggiungi l'estensione penna in Scratch
 + Usa l'invio di messaggi per controllare uno sprite in Scratch
-+ Ricorda come rispondere agli eventi del mouse in Scratch \--- / collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@ Crea un programma per disegnare!
 
 ## title: Informazioni aggiuntive per gli educatori
 
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/paint-box/print){:target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / chiudi \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
