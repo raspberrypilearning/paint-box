@@ -2,7 +2,9 @@
 
 Start by making a pencil that you can use to draw on the Stage.
 
-\--- task \--- Open the 'Paint box' Scratch starter project.
+\--- task \---
+
+Open the 'Paint box' Scratch starter project.
 
 **Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
@@ -14,7 +16,9 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 In the starter project, you should see pencil and eraser sprites:
 
-![скріншот](images/paint-starter.png) \--- /task \---
+![screenshot](images/paint-starter.png)
+
+\--- /task \---
 
 \--- task \---
 
@@ -39,11 +43,17 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \---
+
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+
+\--- /task \---
 
 Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-\--- task \--- Add this code to your pencil sprite:
+\--- task \---
+
+Add this code to your pencil sprite:
 
 ![pencil](images/pencil.png)
 
@@ -61,9 +71,13 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Чи можете ви малювати олівцем?
+\--- task \---
 
-![скріншот](images/paint-draw.png) \--- /task \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
@@ -75,7 +89,7 @@ Click on the pencil sprite, and then click on the **Costumes** tab.
 
 Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Центр образів](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
 Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
