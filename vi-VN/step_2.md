@@ -2,33 +2,37 @@
 
 Bắt đầu bằng cách làm một cây bút chì mà bạn có thể sử dụng để vẽ trên Sân khấu.
 
-\--- task \--- Mở dự án Khởi động 'Hộp sơn' Scratch.
+\--- task \---
 
-**Trực tuyến**: mở dự án khởi động tại [rpf.io/paint-box-on](http://rpf.io/paint-box-on){: target = "_ blank"}
+Open the 'Paint box' Scratch starter project.
 
-Nếu bạn có tài khoản Scratch, bạn có thể tạo một bản sao bằng cách nhấp vào **Remix**.
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Ngoại tuyến**: mở dự án [starter](http://rpf.io/p/en/paint-box-go){: target = "_ blank"} trong trình chỉnh sửa ngoại tuyến.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Nếu bạn cần tải xuống và cài đặt trình soạn thảo ngoại tuyến Scratch, bạn có thể tìm thấy nó tại [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Trong dự án khởi động, bạn sẽ thấy các họa tiết bút chì và tẩy:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![ảnh chụp màn hình](images/paint-starter.png) \--- /bài tập \---
+In the starter project, you should see pencil and eraser sprites:
 
-\--- bài tập \---
+![screenshot](images/paint-starter.png)
 
-Thêm phần mở rộng Pen cho dự án của bạn.
+\--- /task \---
+
+\--- task \---
+
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Thêm một số mã vào sprite bút chì để làm cho sprite theo con trỏ chuột `mãi mãi`{: class = "block3control"} để bạn có thể vẽ:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![bút chì](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 khi cờ nhấp
@@ -37,15 +41,21 @@ mãi mãi
 kết thúc
 ```
 
+\--- /task \---
+
+\--- task \---
+
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+
 \--- /bài tập \---
 
-\--- task \--- Nhấp vào cờ và sau đó di chuyển con trỏ chuột quanh Giai đoạn để kiểm tra xem mã của bạn có hoạt động không. \--- /bài tập \---
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
-Tiếp theo, làm cho bút chì của bạn chỉ vẽ `nếu`{: class = "block3control"} nút chuột đang được nhấp.
+\--- task \---
 
-\--- task \--- Thêm mã này vào bút chì của bạn:
+Add this code to your pencil sprite:
 
-![bút chì](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 khi cờ nhấp
@@ -59,24 +69,28 @@ mãi mãi
 kết thúc
 ```
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- task \--- Kiểm tra lại mã của bạn. Lần này, di chuyển bút chì xung quanh Sân khấu và giữ nút chuột. Bạn có thể vẽ bằng bút chì của bạn?
+\--- task \---
 
-![ảnh chụp màn hình](images/paint-draw.png) \--- /bài tập \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- sự sụp đổ \---
 
 ## tiêu đề: Bút chì của bạn không rút ra từ đầu của nó?
 
-Nếu đường kẻ mà bút chì của bạn vẽ có vẻ như đến từ giữa của bút chì, bạn cần thay đổi bút chì của bút chì để đầu bút là trung tâm của bút chì.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Nhấp vào sprite bút chì, và sau đó nhấp vào tab **Trang phục**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Di chuyển trang phục sao cho đầu bút chì bằng **ngay trên** trung tâm.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Trung tâm trang phục](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Bây giờ di chuyển bút chì xung quanh trên sân khấu và vẽ. Bút chì bây giờ sẽ vẽ một đường từ đầu của nó.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
-\--- /sự sụp đổ \---
+\--- /collapse \---
