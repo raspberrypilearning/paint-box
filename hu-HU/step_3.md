@@ -2,46 +2,68 @@
 
 Most különböző színű ceruzákat fogsz hozzáadni a projekthez, és a felhasználó számára lehetővé teszed, hogy válasszon közülük.
 
-\--- task \--- Nevezd át a `ceruza (pencil)` jelmezt `ceruza-kékre`
+\--- task \---
 
-![ceruza átnevezése](images/rename-pencil.png) \--- /task \---
+Rename the `pencil` sprite to `pencil-blue`
 
-\--- task \--- Kattints a jobb gombbal a 'ceruza-kék' jelmezre és duplikáld.
-
-![képernyőkép](images/paint-blue-duplicate.png) \--- /task \---
-
-\--- task \--- Nevezd át új jelmezt „ceruza-zöld”-re, és színezze be a zöldre ceruzát.
-
-![képernyőkép](images/paint-pencil-green.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
-\--- task \--- Rajzolj két új szereplőt: egy kék és egy zöld négyzetet. Ezekkel lehet majd a kék és zöld ceruza között váltani.
+\--- task \---
 
-![képernyőkép](images/paint-selectors.png) \--- /task \---
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-\--- task \--- Nevezd át a két új szereplőt „kék”-re és „zöld”-re
+![screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Adj a „zöld” szereplőhöz egy olyan kódot, hogy a zöld négyzetre kattintáskor `küldjön`{:class="block3events"} egy "zöld" üzenetet.
+\--- task \---
 
-![zöld négyzet](images/green_square.png)
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+
+![green square](images/green_square.png)
 
 ```blocks3
 ezen szereplőre kattintáskor
 küldj üzenetet: (zöld v)
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message]]]
 
-A ceruza szereplőnek hallgatnia kell a "zöld" üzenetre, és válaszul meg kell változnia a jelmezét zöldre.
+\--- /task \---
 
-\--- task \--- Jelöld ki a ceruza szereplőt. Adj hozzá néhány olyan kódblokkot, hogy ha ez a szereplő megkapja a `zöld`{:class="block3events" üzenetet, akkor a váltson a zöld ceruza jelmezre, azaz megváltoztassa a ceruza színét zöldre.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![ceruza](images/pencil.png)
+\--- task \---
+
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [zöld v] üzenet érkezésekor
@@ -49,20 +71,26 @@ jelmez legyen (ceruza-zöld v)
 toll színe legyen [#00CC44]
 ```
 
-A ceruza zöldre váltásához kattints a színes lekerekített négyzetre a `toll színe legyen`{:class= "block3extensions"} blokkban, majd kattints a 'Fényerő' alatti fehért téglalapra, aztán válaszd ki a korábban létrehozott zöld négyzetet a játéktéren. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
-Aztán hozz létre egy új kódblokkot ahhoz, hogy a ceruza a színét kékre változtassa.
+\--- /task \---
 
-\--- task \--- Kattints a kék négyzet szereplőre, és add hozzá ezt a kódot:
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-![kék négyzet](images/blue_square.png)
+\--- task \---
+
+Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png)
 
 ```blocks3
 ezen szereplőre kattintáskor
 küldj üzenetet: (kék v)
 ```
 
-Ezután kattints a ceruza szereplőre, és add hozzá ezt a kódot: ![ceruza](images/pencil.png)
+Then click on the pencil sprite and add this code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [kék v] üzenet érkezésekor
@@ -72,9 +100,11 @@ toll színe legyen [#0000ff]
 
 \--- /task \---
 
-\--- task \--- Végül add hozzá ezt a kódot, ami megmondja a ceruza szereplőnek milyen színű legyen a program indulásakor, illetve törölje a képernyőt induláskor.
+\--- task \---
 
-![ceruza](images/pencil.png)
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -93,8 +123,12 @@ end
 
 \--- /task \---
 
-Ha gondolod, hozz létre más színű ceruzákat is.
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- Ellenőrizd a kódod. Tudsz váltani a kék és a zöld színű ceruza között a kék vagy zöld négyzetre kattintva?
+\--- task \---
 
-![képernyőkép](images/paint-pens-test.png) \--- /task \---
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png)
+
+\--- /task \---
