@@ -2,23 +2,27 @@
 
 Készítsünk egy ceruzát, amellyel rajzolhatunk.
 
-\--- task \--- Nyisd meg a 'Paint box' Scratch kezdő projektet.
+\--- task \---
 
-**Online:** nyisd meg az kezdő projektet innen: [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+Open the 'Paint box' Scratch starter project.
 
-Ha van Scratch fiókod, készíthetsz egy másolatot a **@ Remixelés** gombbal.
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: nyisd meg a [kezdő projektet](http://rpf.io/p/en/paint-box-go){:target="_blank"} az offline szerkesztőben.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Ha le szeretnéd tölteni és telepíteni a Scratch offline szerkesztőt, akkor azt itt találod: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Az kezdő projektben egy ceruzát és egy radírt kell látnod:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![képernyőkép](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png)
+
+\--- /task \---
 
 \--- task \---
 
-Add hozzá a Toll bővítményt a projekthez.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,9 +30,9 @@ Add hozzá a Toll bővítményt a projekthez.
 
 \--- task \---
 
-Adj hozzá néhány kódot a ceruza szereplőhöz úgy, hogy a szereplő `mindig`{:class="block3control"} kövesse az egérmutatót, így tudsz majd rajzolni vele:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![ceruza](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -39,13 +43,19 @@ end
 
 \--- /task \---
 
-\--- task \--- Kattints a zászlóra, majd mozgasd az egérmutatót a háttér előtt, hogy teszteld a kód működését. \--- /task \---
+\--- task \---
 
-Ezután a ceruza csak akkor rajzoljon, `ha`{: class = "block3control"} az egérgombot lenyomva tartod.
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
-\--- task \--- Add hozzá ezt a kódot a ceruza szereplőhöz:
+\--- /task \---
 
-![ceruza](images/pencil.png)
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+
+\--- task \---
+
+Add this code to your pencil sprite:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -61,22 +71,26 @@ end
 
 \--- /task \---
 
-\--- task \--- Ellenőrizd újra a kódod. Ezúttal mozgasd a ceruzát és tartsd lenyomva az egérgombot. Tudsz rajzolni a ceruzáddal?
+\--- task \---
 
-![képernyőkép](images/paint-draw.png) \--- /task \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Nem a ceruza hegyével rajzolsz?
 
-Ha a vonalad úgy néz ki, mintha a ceruza közepéről származna, meg kell változtatnod a ceruza szereplőt úgy, hogy a hegye legyen a szereplő középpontja.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Kattints a ceruza szereplőre, majd a **Jelmezek** fülre.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Helyezd át a jelmezt úgy, hogy a ceruza hegye a középpont **felett** legyen.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Jelmezközpont](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Most mozgasd a ceruzát és rajzolj. A ceruzának most a hegyéből kell húzni a vonalat.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
