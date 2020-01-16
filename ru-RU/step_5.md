@@ -2,15 +2,21 @@
 
 Иногда случаются ошибки, поэтому добавь кнопку «Очистить» и инструмент «Ластик».
 
-\--- task \--- Добавь спрайт «X-блок» из раздела «Буквы» в библиотеке. Раскрась костюм спрайта в красный и сделай его немного меньше. Этот спрайт будет кнопкой «Очистить».
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![снимок экрана](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Добавь этот код к спрайту «X-блок», чтобы при нажатии на спрайт сцена очищалась.
+\--- /task \---
 
-![крестик](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 когда спрайт нажат
@@ -19,21 +25,27 @@
 
 \--- /task \---
 
-Тебе не нужно использовать `передачу событий`{: class = "block3events"}, чтобы очистить сцену, потому что блок `очистить всё`{: class = "block3extensions"} выполняет эту работу.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Ты заметил, что спрайт карандаша включает костюм ластика?
+Do you see that the pencil sprite includes an eraser costume?
 
-![снимок экрана](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Твой проект также включает в себя отдельный спрайт ластика.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Щелкни правой кнопкой мыши по этому спрайту ластика и затем нажми **показать**. Вот так должна выглядеть ваша сцена сейчас:
+\--- task \---
 
-![снимок экрана](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Добавь код к спрайту ластика, чтобы передать `событие 'ластик'`{: class = "block3events"} при нажатии на спрайт ластика.
+![screenshot](images/paint-eraser-stage.png)
 
-![ластик](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 когда спрайт нажат
@@ -42,11 +54,19 @@
 
 \--- /task \---
 
-Когда спрайт карандаша получит сообщение 'ластик', он должен переключить его костюм на ластик, а также переключить цвет пера на белый, который совпадает с цветом сцены!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Добавь код для создания ластика.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Добавь код к спрайту карандаша: `Когда я получу`{: class = "block3events"} сообщение `ластик`{: class = "block3events"} `Изменить костюм на ластик`{: class = "block3looks"} `Установить для пера цвет`{: class = "block3extensions"} белый \--- /hint \--- \--- hint \--- Вот все блоки, которые тебе понадобятся:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 установить цвет пера [#FFFFFF]
@@ -56,7 +76,11 @@
 изменить костюм на (ластик v)
 ```
 
-\--- /hint \--- \--- hint \--- Вот как должен выглядеть твой код: ![карандаш](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 когда я получу [ластик v]
@@ -66,17 +90,23 @@
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Протестируй свой проект, чтобы увидеть, получится ли у тебя очистить сцену и стереть линии карандаша.
+\--- task \---
 
-![снимок экрана](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Есть такая проблема с карандашом: ты можешь рисовать где угодно на сцене, в том числе и рядом с кнопками «Очистить» и «Ластик»!
+![screenshot](images/paint-erase-test.png)
 
-![снимок экрана](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- Чтобы исправить это, измени код так, чтобы перо было опущено, только если удерживать кнопку мыши **и** только если положение указателя мыши по оси `y` будет больше `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![карандаш](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 когда щёлкнут по зелёному флагу
@@ -95,6 +125,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Протестируй свой проект. Теперь у тебя не должно получаться рисовать рядом с кнопками.
+\--- task \---
 
-![снимок экрана](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
