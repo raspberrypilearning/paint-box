@@ -10,18 +10,24 @@
 
 ### आपण काय तयार करणार
 
-\--- नाही-प्रिंट \--- सुरू करण्यासाठी हिरव्या ध्वज वर क्लिक करा. पेन्सिल हलविण्यासाठी माऊसचा वापर करा आणि ड्रॉ करण्यासाठी डावे माऊस बटण दाबून ठेवा. पेंसिल बदलण्यासाठी रंगावर क्लिक करा. त्यास बदलण्यासाठी इरेजरवर क्लिक करा आणि आपले काम मिटवण्यासाठी त्याचा वापर करा. पृष्ठ साफ करण्यासाठी क्रॉसवर क्लिक करा.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
-\--- / नाही-प्रिंट \---
+\--- /no-print \---
 
-\--- केवळ प्रिंट - आपण प्रारंभ करण्यासाठी हिरव्या ध्वजांवर क्लिक कराल आणि पेन्सिल हलविण्यासाठी आपण माउसचा वापर कराल आणि डावा माउस बटण ड्रॉ करण्यासाठी धरून ठेवा. रंगावर क्लिक केल्यास पेंसिल रंग बदलतील आणि इरेजरवर क्लिक केल्याने इरेजरमध्ये बदल होईल!
+\--- print-only \---
 
-![शोकेस](images/showcase.png) \--- / केवळ प्रिंट \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- पडणे \---
 
@@ -29,7 +35,9 @@
 
 + Add the pen extension in Scratch
 + Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch \--- /collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- पडणे \---
 
@@ -47,12 +55,14 @@
 
 + [ऑफलाइन स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/paint-box-go){: लक्ष्य = "_ रिक्त"}
 
-\--- / संकुचित \---
+\--- /collapse \---
 
 ## \--- पडणे \---
 
 ## शीर्षक: शिक्षकांसाठी अतिरिक्त माहिती
 
-आपल्याला हे प्रोजेक्ट मुद्रित करण्याची आवश्यकता असल्यास, कृपया [प्रिंटर-फ्रेंडली आवृत्ती](https://projects.raspberrypi.org/en/projects/paint-box/print){: लक्ष्य = "_ blank"} वापरा.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- / संकुचित \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
