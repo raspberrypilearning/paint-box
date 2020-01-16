@@ -2,11 +2,17 @@
 
 Ezúttal hozzáadunk egy kódot, amely lehetővé teszi, hogy a programot használó különböző vastagságú vonalakat rajzoljon.
 
-\--- task \--- Először adj hozzá egy új, `vonalvastagság`{:class="block3variables"} nevű változót.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Add hozzá ezt a blokkot a `mindig`{:class="block3control"} hurokon **belülre** a ceruza szereplő kódjánál:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -25,16 +31,24 @@ end
 
 \--- /task \---
 
-A vonal vastagsága most ismételten a `vonalvastagság`{:class="block3variables"} változó értékére áll.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Kattints a jobb egérgombbal a `vonalvastagság`{:class="block3variables"} változóra, amely megjelent a játéktéren, majd kattints a **csúszka** menüpontra.
+\--- task \---
 
-![képernyőkép](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-A változó értékének módosításához most húzd el a változó alatt látható csúszkát.
+![screenshot](images/paint-slider.png)
 
-![képernyőkép](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Teszteld a projekted, és nézd meg, hogy működik-e a vonalvastagság állító kód.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![képernyőkép](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
