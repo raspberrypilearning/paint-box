@@ -2,46 +2,68 @@
 
 다양한 색깔의 연필들을 추가해서 다양한 색의 선을 그릴 수 있도록 해 봅시다.
 
-\--- task \--- `pencil` 스프라이트를 `pencil-blue` 스프라이트라고 이름을 변경합니다.
+\--- task \---
 
-![연필 이름 바꾸기](images/rename-pencil.png) \--- /task \---
+Rename the `pencil` sprite to `pencil-blue`
 
-\--- 작업 \--- pencil 스프라이트에서 마우스 우클릭하여 'pencil-blue' 코스튬을 복사하십시오.
-
-![스크린샷](images/paint-blue-duplicate.png) \--- /task \---
-
-\--- task \--- 새 코스튬의 이름을 ’pencil-green’으로 바꾸고, 녹색으로 색깔을 바꾸어 주세요.
-
-![스크린샷](images/paint-pencil-green.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
-\--- task \--- 새로운 사각형 스프라이트 두 개를 그려주세요. 파란색 하나, 녹색 하나를 말이죠. 이 작업은 파란색과 녹색 연필을 선택하기위한 것입니다.
+\--- task \---
 
-![스크린샷](images/paint-selectors.png) \--- /task \---
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-\--- task \--- 새 스프라이트의 이름을 'blue'과 'green'으로 바꿔 주세요.
+![screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- 'green' 스프라이트를 클릭하면 "green" 메시지를 `브로드캐스트`{:class="block3events"} 하도록 코드를 추가합니다.
+\--- task \---
 
-![녹색 사각형](images/green_square.png)
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+
+![green square](images/green_square.png)
 
 ```blocks3
 이 스프라이트가 클릭될 때
 (green v) 브로드캐스트
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message]]]
 
-연필 스프라이트는 "녹색" 메시지를 받으면 코스튬과 연필 색상을 변경해야합니다.
+\--- /task \---
 
-\--- task \--- 연필 스프라이트로 돌아가세요. 이 스프라이트가 `초록`{:class="blockevents"} 브로드캐스트 이벤트를 받으면, 녹색 연필 모양으로 바뀌고 연필 색깔을 녹색으로 바꾸는 코드를 추가 하세요.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![연필](images/pencil.png)
+\--- task \---
+
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [green v] 메시지를 받았을 때
@@ -49,20 +71,26 @@
 펜 색깔을 [#00CC44] 로 바꾸기
 ```
 
-펜 색상을 녹색으로 설정하려면, `펜 컬러 설정하기`{:class="block3extensions"} 블록을 클릭하고, 초록색 사각형 스프라이트를 클릭하세요. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
-연필 색상을 파란색으로 바꾸는 것도 비슷하게 작업하면 됩니다.
+\--- /task \---
 
-\--- task \--- 파란색 사각형 스프라이트를 클릭하고 다음 코드를 추가합니다:
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-![파란색 사각형](images/blue_square.png)
+\--- task \---
+
+Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png)
 
 ```blocks3
 이 스프라이트가 클릭될 때
 (파랑 v) 신호보내기
 ```
 
-그런 다음 연필 스프라이트를 클릭하고 다음 코드를 추가하십시오. ![연필](images/pencil.png)
+Then click on the pencil sprite and add this code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [파랑 v] 신호를 받았을 때
@@ -72,9 +100,11 @@
 
 \--- /task \---
 
-\--- task \--- 마지막으로, 프로그램이 시작할 때 연필 스프라이트의 최초 색을 지정해주고, 빈화면에서 시작할 수 있도록 코드를 추가해 주세요.
+\--- task \---
 
-![연필](images/pencil.png)
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 플래그를 클릭했을 때
@@ -92,8 +122,12 @@
 
 \--- /task \---
 
-프로그램 시작시 연필의 최초색을 다른 색으로 바꿀 수도 있습니다.
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- 코드를 다시 테스트 해 보세요. 파란색 사각형과 녹색 사각형을 클릭해서 연필의 색을 바꿀 수 있나요?
+\--- task \---
 
-![스크린샷](images/paint-pens-test.png) \--- /task \---
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png)
+
+\--- /task \---
