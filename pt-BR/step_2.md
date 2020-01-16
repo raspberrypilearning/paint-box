@@ -2,23 +2,27 @@
 
 Comece criando um lápis que você pode usar para desenhar no palco.
 
-\--- task \--- Abra o projeto inicial do Scratch 'Lousa Mágica'.
+\--- task \---
 
-**Online:** Abra o projeto inicial em [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+Open the 'Paint box' Scratch starter project.
 
-Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em ** Remix **.
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Off-line**: abra o [projeto inicial](http://rpf.io/p/en/paint-box-go){:target="_ blank"} no editor offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-No projeto inicial, você deve ver os atores lápis e borracha:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![captura de tela](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png)
+
+\--- /task \---
 
 \--- task \---
 
-Adicione a extensão Caneta ao seu projeto.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,9 +30,9 @@ Adicione a extensão Caneta ao seu projeto.
 
 \--- task \---
 
-Adicione algum código ao ator lápis para que ele siga o mouse `sempre`{:class="block3control"} para que você possa desenhar:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![lápis](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 quando clicar em bandeira
@@ -39,13 +43,19 @@ fim
 
 \--- /task \---
 
-\--- task \--- Clique na bandeira então mova o ponteiro do mouse no Palco para testar se seu código funciona. \--- /task \---
+\--- task \---
 
-Em seguida, faça seu lápis desenhar apenas `se`{:class="block3control"} o botão do mouse está sendo clicado.
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
-\--- task \--- Adicione este código ao seu ator lápis:
+\--- /task \---
 
-![lápis](images/pencil.png)
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+
+\--- task \---
+
+Add this code to your pencil sprite:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 quando a bandeira for clicada
@@ -61,22 +71,26 @@ para sempre
 
 \--- /task \---
 
-\--- task \--- Teste seu código novamente. Dessa vez, mova o lápis pelo palco e mantenha pressionado o botão do mouse. Você consegue desenhar com o seu lápis?
+\--- task \---
 
-![captura de tela](images/paint-draw.png) \--- /task \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: O seu lápis não desenha pela ponta?
 
-Se a linha que seu lápis desenha parece que está vindo do meio do lápis, você precisa mudar seu ator de lápis para que a ponta seja o centro do ator.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Clique no ator lápis e em seguida, clique na aba **Fantasias**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Mova a fantasia para que a ponta do lápis seja **logo acima** do centro.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Centro da fantasia](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Agora mova o lápis no Palco e desenhe. O lápis agora deve desenhar uma linha a partir da ponta.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
