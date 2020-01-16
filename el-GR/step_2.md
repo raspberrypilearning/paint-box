@@ -2,23 +2,27 @@
 
 Αρχίζεις δημιουργώντας ένα μολύβι που μπορείς να χρησιμοποιήσεις για να σχεδιάσεις στο Σκηνικό.
 
-\--- task \--- Άνοιξε το αρχικό έργο Scratch 'Κουτί Χρωμάτων'.
+\--- task \---
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+Open the 'Paint box' Scratch starter project.
 
-Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/paint-box-go){:target="_blank"} στον επεξεργαστή εκτός σύνδεσης.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να τον βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Στο αρχικό πρόγραμμα, θα δεις αντικείμενα μολυβιού και γόμας:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![screenshot (στιγμιότυπο οθόνης)](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png)
+
+\--- /task \---
 
 \--- task \---
 
-Πρόσθεσε την επέκταση πένας στο έργο σου.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,9 +30,9 @@
 
 \--- task \---
 
-Πρόσθεσε κώδικα στο μολύβι για να κάνεις το αντικείμενο να ακολουθεί τον δείκτη του ποντικιού `για πάντα`{:class="block3control"}, ώστε να μπορείς να σχεδιάσεις:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![μολύβι](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 όταν στην πράσινη σημαία γίνει κλικ
@@ -39,13 +43,19 @@ end
 
 \--- /task \---
 
-\--- task \--- Κάνε κλικ στη σημαία και στη συνέχεια, μετακίνησε το δείκτη του ποντικιού στο σκηνικό για να ελέγξεις ότι ο κώδικας σου λειτουργεί. \--- /task \---
+\--- task \---
 
-Έπειτα, κάνε το μολύβι σου να σχεδιάζει μόνο `εάν`{:class="block3control"} το κουμπί του ποντικιού έχει πατηθεί.
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
-\--- task \--- Πρόσθεσε αυτόν τον κώδικα στο αντικείμενο μολυβιού:
+\--- /task \---
 
-![μολύβι](images/pencil.png)
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+
+\--- task \---
+
+Add this code to your pencil sprite:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -61,22 +71,26 @@ end
 
 \--- /task \---
 
-\--- task \--- Δοκίμασε τον κώδικά σου ξανά. Αυτή τη φορά, μετακίνησε το μολύβι στο Σκηνικό κρατώντας πατημένο το αριστερό κουμπί του ποντικιού. Μπορείς να σχεδιάσεις με το μολύβι σου;
+\--- task \---
 
-![στιγμιότυπο οθόνης](images/paint-draw.png) \--- /task \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Το μολύβι δεν ζωγραφίζει από την άκρη του;
 
-Εάν η γραμμή που σχεδιάζει το μολύβι σου μοιάζει να προέρχεται από τη μέση του μολυβιού, πρέπει να αλλάξεις το αντικείμενο του μολυβιού σου, έτσι ώστε η άκρη να είναι το κέντρο του αντικειμένου.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Κάνε κλικ στο αντικείμενο μολυβιού και ξανά κλικ στην καρτέλα **Ενδυμασίες**.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Μετακίνησε την ενδυμασία έτσι ώστε η άκρη του μολυβιού να είναι **ακριβώς πάνω** από το κέντρο.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![Κέντρο ενδυμασίας](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-Τώρα μετακίνησε το μολύβι στο Σκηνικό και ζωγράφισε. Το μολύβι τώρα θα ζωγραφίζει μια γραμμή από την άκρη του.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
