@@ -2,11 +2,17 @@
 
 पुढे आपण आपल्या प्रोग्रामचा वापर करणार्या व्यक्तीस वेगवेगळ्या पेन रुंदीसह वस्तू काढण्यासाठी अनुमती देण्यासाठी कोड जोडू शकता.
 
-\--- task \--- प्रथम, `रूंदी`{: class = "block3variables"} नावाचे नवीन चलन जोडा.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- / कार्य \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- कार्य \--- ही ओळ जोडा **आत** `कायमस्वरुपी`{: class = "block3control"} पेन्सिल स्प्राइटच्या कोडची लूप:
+[[[generic-scratch3-add-variable]]]
+
+\--- / कार्य \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 जेव्हा ध्वज क्लिक केले
@@ -25,16 +31,24 @@
 
 \--- / कार्य \---
 
-कलम रूंदी वारंवार `रूंदी`{: class = "block3variables"} चलनाच्या मूल्यावर सेट केली जाते.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- टास्क \--- स्टेज वर दर्शविल्या जाणार्या `रूंदी`{: वर्ग = "ब्लॉक 3 व्हेरिएबल्स"} चरणावर उजवे-क्लिक करा आणि नंतर **स्लाइडर**वर क्लिक करा.
+\--- task \---
 
-![स्क्रीनशॉट](images/paint-slider.png) \--- / कार्य \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-आपण व्हेरिएबलच्या व्हॅल्यूस बदलण्यासाठी व्हेरिएबलच्या खाली दिसेल अशा स्लाइडर ड्रॅग करू शकता.
+![screenshot](images/paint-slider.png)
 
-![स्क्रीनशॉट](images/paint-slider-change.png)
+\--- /task \---
 
-\--- कार्य \--- आपल्या प्रोजेक्टची चाचणी घ्या आणि पेन रुंदी समायोजित करण्यासाठी आपण कोड जोडू शकता का ते पहा.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![स्क्रीनशॉट](images/paint-width-test.png) \--- / कार्य \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
