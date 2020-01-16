@@ -11,4 +11,8 @@ Sada kada ste završili projekt "Boja s bojom", pokušajte [the 'Boat race' proj
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
