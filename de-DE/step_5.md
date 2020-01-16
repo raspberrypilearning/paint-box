@@ -1,16 +1,22 @@
-## Fehler machen
+## Fehler ausbessern
 
 Manchmal passieren Fehler, lass uns also einen 'Löschen'-Knopf und einen Radierer hinzufügen.
 
-\--- task \--- Füge die 'Block-X' Figur aus dem Buchstabenbereich der Sratch Bibliothek hinzu. Färbe das Kostüm rot ein und mache es etwas kleiner. Dieses Kostüm wird unser ‘Löschen’-Knopf.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![Screenshot](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Füge Code zur 'Block-X' Figur hinzu, um die Bühne zu löschen, wenn die Figur angeklickt wurde.
+\--- /task \---
 
-![Kreuz](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 when this sprite clicked
@@ -19,21 +25,27 @@ erase all
 
 \--- /task \---
 
-Beachte, dass du gar keine `Nachricht senden`{:class="block3events"} musst um die Bühne zu löschen, es genügt der `lösche alles`{:class="block3extensions"} Block, der diese Aufgabe übernimmt.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Du hast vielleicht schon bemerkt, dass die Buntstift-Figur auch ein Radier-Kostüm enthält?
+Do you see that the pencil sprite includes an eraser costume?
 
-![Screenshot](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Dein Projekt enthält auch eine eigene Radier-Figur.
+Your project also includes a separate eraser sprite.
 
-Klicke auf diese Figur und dann auf **zeige dich**. So sollte deine Bühne jetzt aussehen:
+\--- task \---
 
-![Screenshot](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Füge der Radierer-Figur Code hinzu, um die Nachricht `'radierer' an alle zu senden`{:class="block3events"} wenn sie angeklickt wird.
+![screenshot](images/paint-eraser-stage.png)
 
-![Radierer](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
@@ -42,11 +54,19 @@ broadcast (radieren v)
 
 \--- /task \---
 
-Wenn der Buntstift die 'radieren'-Nachricht empfängt, musst du das Buntstift-Kostüm zu “Radierer” ändern und die Buntstiftfarbe auf weiß ändern - die Farbe der Bühne!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Füge Code hinzu, um den Radierer zu erstellen.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Füge der Buntstift-Figur folgenden Code hinzu: ` Wenn ich ` {: class = "block3events"} die Nachricht `radieren` {: class = "block3events"} empfange `wechsle zu Kostüm` {: class = "block3looks"} Radierer und `setze Stiftfarbe auf` {: class = "block3extensions"} weiß \--- / hint \--- \--- hint \--- Hier sind alle benötigten Blöcke:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -55,7 +75,11 @@ when I receive [radieren v]
 switch costume to (Radierer v)
 ```
 
-\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen: ![Buntstift](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [radieren v]
@@ -65,17 +89,23 @@ set pen color to [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Teste dein Projekt und schau, ob du radieren kannst und die Bühne löschen.
+\--- task \---
 
-![screenshot](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Es gibt noch ein Problem mit dem Buntstift - du kannst auf der ganzen Bühne zeichnen, auch im Bereich der Auswahlsymbole!
+![screenshot](images/paint-erase-test.png)
 
-![Screenshot](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- Aufgabe \--- Um das zu beheben, änder den Code, damit der Stift nur dann unten ist, wenn die Maus angeklickt wird **und** die `y` Position des Mauszeigers größer ist als `-120` ist:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![Buntstift](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -93,6 +123,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Teste dein Projekt. Du solltest jetzt nicht mehr in der Nähe der Auswahlsymbole zeichnen können.
+\--- task \---
 
-![Screenshot](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
