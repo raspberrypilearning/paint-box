@@ -2,11 +2,17 @@
 
 Rwyt ti nawr am ychwanegu côd i ganiatâu'r defnyddiwr i dynnu llun yn defnyddio amrywiaeth o feintiau pensiliau gwahanol.
 
-\--- task \--- Yn gyntaf, ychwanega newidyn newydd o'r enw `lled`{:class="block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Ychwanega'r llinell hon **tu fewn** dolen `am byth`{:class="block3control"} côd corlun y pensil:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -26,16 +32,24 @@ end
 
 \--- /task \---
 
-Mae lled dy bensil nawr yn cael ei osod i gyfanswm `lled`{:class="block3variables"} y newidyn.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Gwna clic dde ar newidyn `lled`{:class="block3variables"} sy'n ymddangos ar y Llwyfan, yna clicia'r **llithrydd**.
+\--- task \---
 
-![sgrinlun](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Galli di nawr lusgo’r llithrydd o dan y newidyn i newid ei werth.
+![screenshot](images/paint-slider.png)
 
-![sgrinlun](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Profa dy brosiect a gweld os wyt ti'n gallu ychwanegu côd i newid lled y pen.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![sgrinlun](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
