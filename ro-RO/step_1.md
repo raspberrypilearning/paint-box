@@ -10,7 +10,9 @@ Creează-ți propriul program de desenat!
 
 ### Ce vei face
 
-\--- no-print \--- Dă click pe stegulețul verde pentru a începe. Folosește mouse-ul pentru a mișca creionul, iar apoi ține apăsat butonul stâng al mouse-ului pentru a desena. Dă click pe o culoare pentru a schimba creionul. Dă click pe radieră pentru a o activa, și folosește-o pentru a-ți șterge desenul. Pentru a goli pagina, dă click pe X.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@ Creează-ți propriul program de desenat!
 
 \--- /no-print \---
 
-\--- print-only \--- Pentru a începe vei da click pe stegulețul verde, apoi vei folosi mouse-ul pentru a mișca creionul și vei ține apăsat butonul stâng al mouse-ului pentru a desena. Dând click pe o culoare vei schimba culoarea creionului, și dând click pe radieră vei activa radiera!
+\--- print-only \---
 
-![prezentare](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@ Creează-ți propriul program de desenat!
 
 + Adăugarea în Scratch a extensiei pentru creion
 + Utilizarea difuzărilor pentru a controla un personaj în Scratch
-+ Recapitulare: cum răspunzi evenimentelor de mouse în Scratch \--- /collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@ Creează-ți propriul program de desenat!
 
 ## title: Informații suplimentare pentru educatori
 
-Dacă ai nevoie să tipărești acest proiect, folosește [versiunea imprimabilă](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Poți găsi [proiectul finalizat aici](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
