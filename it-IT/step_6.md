@@ -2,11 +2,17 @@
 
 Ora aggiungerai il codice per consentire all'utente del tuo programma di disegnare usando diversi spessori di penna.
 
-\--- task \--- Per prima cosa, aggiungi una nuova variabile chiamata `spessore`{:class="block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Aggiungi questa riga **dentro** il ciclo `per sempre`{:class="block3control"} del codice dello sprite matita:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -26,16 +32,24 @@ end
 
 \--- /task \---
 
-Lo spessore della penna ora viene ripetutamente impostata sul valore della variabile `spessore`{:class="block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Fare clic con il pulsante destro del mouse sulla variabile `spessore`{:class="block3variables"} visualizzata sullo stage e quindi fai clic su **cursore**.
+\--- task \---
 
-![schermata](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Ora puoi trascinare il cursore che è visibile sotto la variabile per cambiare il suo valore.
+![screenshot](images/paint-slider.png)
+
+\--- /task \---
+
+You can now drag the slider that is visible below the variable to change the variable's value.
 
 ![screenshot](images/paint-slider-change.png)
 
-\--- task \--- Testa il progetto e vedi se riesci a modificare lo spessore della matita.
+\--- task \---
 
-![screenshot](images/paint-width-test.png) \--- /task \---
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
