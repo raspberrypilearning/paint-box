@@ -2,15 +2,21 @@
 
 De vegades es produeixen errors, de manera que afegiu un botó "netejar" i un botó d'esborrany.
 
-\--- task \--- Afegiu el "sprite X-block" a la secció de lletres de la biblioteca. Acoloreu el vestit de l'esperit en vermell i fes-lo una mica més petit. Aquest sprite és el botó "netejar".
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![captura de pantalla](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Afegiu codi al sprite del "X-block" per esborrar la fase quan el sprite hagi fet clic.
+\--- /task \---
 
-![creu](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 quan aquest sprite va fer clic a
@@ -19,21 +25,27 @@ esborrar-ho tot
 
 \--- /task \---
 
-No heu d’utilitzar un `broadcast`{: class = "block3events"} per esborrar l’etapa, ja que els `esborren tots els`{: class = "block3extensions"} bloc que fan aquesta feina.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Veus que el llapis sprite inclou un vestit de goma?
+Do you see that the pencil sprite includes an eraser costume?
 
-![captura de pantalla](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-El teu projecte també inclou un sprite de goma d'esborrar.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Feu clic amb el botó dret del ratolí sobre aquest sprite de l'esborrany i feu clic a **show**. A continuació, s’explica com hauria de mirar ara el vostre escenari:
+\--- task \---
 
-![captura de pantalla](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Afegiu un codi al sprite del esborrany per enviar una emissió `'eraser'`{: class = "block3events"} quan es fa clic a l'esborrador de l'esborrador.
+![screenshot](images/paint-eraser-stage.png)
 
-![goma d'esborrar](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 quan aquest sprite va fer clic en
@@ -42,11 +54,19 @@ difusió (esborrany v)
 
 \--- /task \---
 
-Quan el sprite de llapis rep el missatge d’un "esborrany", hauria de canviar el seu vestit a l’esbós i canviar el color del llapis al blanc, que és del mateix color que l’escenari.
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Afegiu alguns codis per crear el borrador.
+\--- task \---
 
-\--- consells \--- \--- pista \--- Afegiu algun codi al sprite del llapis: `Quan rebo`{: class = "block3events"} el `eraser`{: class = "block3events"} missatge `Canvia a esborrar de disfresses`{: class = "block3looks"} `Estableix el color de la ploma`{: class = "block3extensions"} al blanc \--- / pista \--- \--- pista \--- Aquí teniu tots els blocs que necessiteu:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 estableix el color del llapis a [#FFFFFF]
@@ -55,7 +75,11 @@ quan rebi [eraser v]
 canvia el vestit (eraser v)
 ```
 
-\--- / hint \--- \--- pista \--- Això és el que hauria de tenir el codi: ![llapis](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 quan rebo [eraser v]
@@ -63,19 +87,25 @@ canvi de vestit a (borrador v)
 establir color de llapis a [#FFFFFF]
 ```
 
-\--- / pista \--- \--- / consells \--- \--- / tasca \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Poseu a prova el vostre projecte per veure si podeu esborrar les etapes i esborrar les línies de llapis.
+\--- task \---
 
-![captura de pantalla](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Hi ha un altre problema amb el llapis: podeu dibuixar en qualsevol lloc de l’Escenari, inclosos els botons "netejar" i "d'esborrar".
+![screenshot](images/paint-erase-test.png)
 
-![captura de pantalla](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- Per solucionar-ho, canvieu el codi de manera que el llapis només estigui cap avall si es fa clic al ratolí **i** la posició `y` del punter del ratolí és superior a `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![llapis](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 quan es fa clic a la bandera
@@ -93,6 +123,10 @@ final
 
 \--- /task \---
 
-\--- task \--- Posa a prova el teu projecte. Ara no hauríeu de poder apropar-vos als botons.
+\--- task \---
 
-![captura de pantalla](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
