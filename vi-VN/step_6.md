@@ -2,11 +2,17 @@
 
 Tiếp theo, bạn sẽ thêm mã để cho phép người sử dụng chương trình của bạn vẽ những thứ có độ rộng bút khác nhau.
 
-\--- task \--- Đầu tiên, thêm một biến mới có tên `width`{: class = "block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- / nhiệm vụ \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Thêm dòng **vào bên trong** vòng `mãi mãi`{: class = "block3control"} của mã bút chì sprite:
+[[[generic-scratch3-add-variable]]]
+
+\--- /bài tập \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 khi cờ nhấp
@@ -25,16 +31,24 @@ kết thúc
 
 \--- /bài tập \---
 
-Độ rộng bút bây giờ liên tục được đặt thành giá trị của biến `width`{: class = "block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Nhấp chuột phải vào biến `chiều rộng`{: class = "block3variables"} được hiển thị trên Giai đoạn, sau đó nhấp vào **thanh trượt**.
+\--- task \---
 
-![ảnh chụp màn hình](images/paint-slider.png) \--- /bài tập \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Bây giờ bạn có thể kéo thanh trượt hiển thị bên dưới biến để thay đổi giá trị của biến.
+![screenshot](images/paint-slider.png)
 
-![ảnh chụp màn hình](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Kiểm tra dự án của bạn và xem bạn có thể thêm mã để điều chỉnh độ rộng bút không.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![ảnh chụp màn hình](images/paint-width-test.png) \--- /bài tập \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
