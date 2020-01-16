@@ -2,11 +2,17 @@
 
 በመቀጠሌ, ፕሮግራሞች በተሇያዩ የስሌዝ ስፋቶች ስሊሳዎችን እንዱስለጥፉ ሇማዴረግ የሚፇሌጉትን ኮዶችን ያካትታለ.
 
-\--- ተግባር \--- በመጀመሪያ, `ወርድ`{: class = "block3variables"} የሚባል አዲስ ተለዋዋጭ አክል.
+\--- task \---
 
-[[generic-scratch3-add-variable]]] \--- / ተግባር \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- ተግባር \--- ይህን መስመር **በ** ለ `ለዘለዓለም`{ </strong> ክፍል = "block3control"} የጨርቁ ስፔሪያ ኮድ አኳያ:
+[[[generic-scratch3-add-variable]]]
+
+\--- / task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 ባንዲራ ጠቅ ጊዜ
@@ -25,16 +31,24 @@
 
 \--- / task \---
 
-አሁን የቢንጎው ወርድ በተደጋጋሚ ለ `ወርድ`{: class = "block3variables"} ተለዋዋጭ.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- ተግባር \--- ደረጃውን የጨመረው `ወርድ`{: class = "block3variables"} ላይ በወረቀት ላይ ይታያል, ከዚያም **ተንሸራታች**ጠቅ ያድርጉ.
+\--- task \---
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-slider.png) \--- / task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-የአንድን ተለዋዋጭ እሴት ለመለወጥ ከተቀመጠው በታች ያለውን የሚታየውን ተንሸራታች ጎትተው መጎተት ይችላሉ.
+![screenshot](images/paint-slider.png)
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-slider-change.png)
+\--- /task \---
 
-\--- ተግባር \--- ፕሮጀክትዎን ይፈትሹ እና የቅኔ ስፋትን ለማስተካከል ኮዱን ማከል ይችሉ እንደሆነ ይመልከቱ.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-width-test.png) \--- / task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
