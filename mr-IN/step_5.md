@@ -2,51 +2,71 @@
 
 कधीकधी चुका होत असतात, म्हणून 'स्पष्ट' बटण आणि इरेज़र बटण जोडा.
 
-\--- कार्य \--- लायब्ररीच्या अक्षरे विभागात 'एक्स-ब्लॉक' स्प्राइट जोडा. स्प्राईटचा पोशाख लाल रंगात रंगवा आणि थोडासा लहान करा. हे sprite 'स्पष्ट' बटण आहे.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![स्क्रीनशॉट](images/paint-x.png) \--- / कार्य \---
+![screenshot](images/paint-x.png)
 
-\--- कार्य \--- स्प्राइट क्लिक केल्यानंतर स्टेज साफ करण्यासाठी 'एक्स-ब्लॉक' स्प्राइटमध्ये कोड जोडा.
+\--- /task \---
 
-![क्रॉस](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 जेव्हा हे स्पिट क्लिक केले
 सर्व मिटवा
 ```
 
-\--- / कार्य \---
+\--- /task \---
 
-स्टेज साफ करण्यासाठी आपल्याला `प्रसारण`{: class = "block3events"} वापरण्याची आवश्यकता नाही कारण `सर्व`{erase = "block3extensions"} ब्लॉक त्या कार्यास पुसते.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-आपण पहाल की पेन्सिल स्प्राइटमध्ये इरेज़र कॉस्च्युम आहे?
+Do you see that the pencil sprite includes an eraser costume?
 
-![स्क्रीनशॉट](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-आपल्या प्रोजेक्टमध्ये एक वेगळे इरेज़र स्प्राइट देखील समाविष्ट आहे.
+Your project also includes a separate eraser sprite.
 
-\--- टास्क \--- या इरेज़र स्प्राइटवर उजवे-क्लिक करा आणि नंतर **शो**वर क्लिक करा. आपला स्टेज आता कसा दिसावा ते येथे आहे:
+\--- task \---
 
-![स्क्रीनशॉट](images/paint-eraser-stage.png) \--- / कार्य \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- कार्य \--- इरेजर स्प्राइटवर क्लिक केल्यावर इरझर स्प्राइटमध्ये कोड जोडा `'इरेसर' प्रसारण`{: वर्ग = "ब्लॉक 3events"} पाठवा.
+![screenshot](images/paint-eraser-stage.png)
 
-![इरेजर](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 जेव्हा हे स्पिट
 ब्रॉडकास्ट (इरेजर विरुद्ध) क्लिक केले
 ```
 
-\--- / कार्य \---
+\--- /task \---
 
-जेव्हा पेन्सिल स्प्राइटला 'इरेजर' संदेश प्राप्त होतो, तेव्हा त्याने त्याचे पोशाख इरेजरवर स्विच करावे आणि पेन रंग पांढर्या रंगावर बदलावे जे स्टेज प्रमाणेच रंग आहे!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- कार्य \--- इरेजर तयार करण्यासाठी काही कोड जोडा.
+\--- task \---
 
-\--- संकेत \--- \--- इशारा \--- पेन्सिल स्प्राइटमध्ये काही कोड जोडा: `मला`प्राप्त झाल्यावर {{वर्ग = "ब्लॉक 3events"} `इरेज़र`{: क्लास = "ब्लॉक 3events"} संदेश `पोशाख इरेझर`: {वर्ग = "ब्लॉक 3looks"} `कलम कलर`सेट करा {{वर्ग = "ब्लॉक 3 एक्सटेन्शन्स"} पांढऱ्या \--- / संकेत \--- \--- इशारा \--- आपल्याला आवश्यक असलेले सर्व ब्लॉक येथे आहेत:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 जेव्हा मी [इरेज़र व्ही]
@@ -55,7 +75,11 @@
 सेट करा
 ```
 
-\--- / संकेत \--- \--- इशारा \--- कोड हा कसा दिसला पाहिजे ते येथे आहे: ![पेन्सिल](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 जेव्हा मी [इरेज़र व्ही]
@@ -63,19 +87,25 @@
 सेट पेन रंग [# एफएफएफएफएफएफ] वर प्राप्त करते
 ```
 
-\--- / संकेत \--- \--- / संकेत \--- \--- / कार्य \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- कार्य \--- आपल्या प्रोजेक्टची चाचणी घ्या की आपण स्टेज साफ करू शकता आणि पेन्सिल ओळी मिटवू शकता.
+\--- task \---
 
-![स्क्रीनशॉट](images/paint-erase-test.png) \--- / कार्य \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-पेन्सिलमध्ये आणखी एक समस्या आहे: आपण 'स्पष्ट' आणि इरेज़र बटणेसह स्टेजवर कुठेही ड्रॉ करू शकता!
+![screenshot](images/paint-erase-test.png)
 
-![स्क्रीनशॉट](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- कार्य \--- हे निराकरण करण्यासाठी, कोड बदला जेणेकरुन माऊस फक्त **ते** असेल तर माउस पॉईंटरची `वाई` स्थिती `-120`पेक्षा जास्त असेल:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![पेन्सिल](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ध्वज क्लिक केले तेव्हा
@@ -91,8 +121,12 @@
 अंतरावर
 ```
 
-\--- / कार्य \---
+\--- /task \---
 
-\--- कार्य \--- कसोटी आपला प्रकल्प. आता आपण बटणाच्या जवळ येऊ शकत नाही.
+\--- task \---
 
-![स्क्रीनशॉट](images/paint-fixed.png) \--- / कार्य \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
