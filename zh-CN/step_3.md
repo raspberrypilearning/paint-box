@@ -2,31 +2,49 @@
 
 现在，您将为项目添加不同颜色的铅笔，并允许用户在它们之间进行选择。
 
-\--- task \--- 将 `铅笔` 精灵重命名为 `铅笔蓝`
+\--- task \---
 
-![重命名铅笔](images/rename-pencil.png) \--- /task \---
+Rename the `pencil` sprite to `pencil-blue`
 
-\--- task \--- 右键点击铅笔精灵，并复制'铅笔蓝'服装。
-
-![截屏](images/paint-blue-duplicate.png) \--- /task \---
-
-\--- task \--- 将新服装命名为“铅笔 - 绿色”，并将铅笔绿色。
-
-![截屏](images/paint-pencil-green.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
-\--- task \--- 绘制两个新的精灵：一个蓝色正方形和一个绿色正方形。 这些用于在蓝色和绿色铅笔之间进行选择。
+\--- task \---
 
-![截屏](images/paint-selectors.png) \--- /task \---
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-\--- task \--- 重命名新精灵，使它们被称为'蓝色'和'绿色'
+![screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- 一些代码添加到“绿色”精灵，以便被点击此sprite时, `广播`{：class="block3events"}消息“绿色”。
+\--- task \---
+
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
 ![green square](images/green_square.png)
 
@@ -35,13 +53,17 @@ when this sprite clicked
 broadcast (green v)
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message]]]
 
-铅笔精灵应该听取“绿色”信息，并改变其服装和铅笔颜色作为回应。
+\--- /task \---
 
-\--- task \--- 切换到你的铅笔精灵。 添加一些代码，以便当此精灵收到 `绿色`{：class =“block3events”}广播时，它会切换到绿色铅笔服装并将笔颜色更改为绿色。
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![铅笔](images/pencil.png)
+\--- task \---
+
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [green v]
@@ -49,11 +71,15 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-要将铅笔颜色设置为绿色，请单击 `set pen color`{class="block3extensions"}块中的彩色方块，然后单击绿色方形精灵。 \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
-然后到类似的事情，以便您可以将铅笔颜色切换为蓝色。
+\--- /task \---
 
-\--- task \--- 点击蓝色方形精灵并添加以下代码：
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \---
+
+Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 
@@ -62,7 +88,9 @@ when this sprite clicked
 broadcast (blue v)
 ```
 
-然后单击铅笔精灵并添加以下代码： ![铅笔](images/pencil.png)
+Then click on the pencil sprite and add this code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [blue v]
@@ -72,9 +100,11 @@ set pen color to [#0000ff]
 
 \--- /task \---
 
-\--- task \--- 最后，添加此代码告诉铅笔精灵开始使用哪种颜色，并确保程序启动时屏幕干净。
+\--- task \---
 
-![铅笔](images/pencil.png)
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -92,8 +122,12 @@ end
 
 \--- /task \---
 
-如果您愿意，可以使用其他彩色铅笔。
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- 测试你的代码。 你可以点击蓝色或绿色方形精灵在蓝色和绿色铅笔颜色之间切换吗？
+\--- task \---
 
-![截屏](images/paint-pens-test.png) \--- /task \---
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png)
+
+\--- /task \---
