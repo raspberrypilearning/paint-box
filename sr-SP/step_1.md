@@ -10,7 +10,9 @@
 
 ### Шта ћеш направити
 
-\--- no-print \--- Кликни на зелену заставицу да почнеш. Користи миш да помераш оловку и држи притиснут леви тастер миша да црташ. Кликни на боју да промениш бојице. Кликни на гумицу да је употребиш да обришеш свој рад. Да обришеш страницу, кликни на крстић.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@
 
 \--- /no-print \---
 
-\--- print-only \--- Можеш кликнути на зелену заставицу да почнеш. Употреби миш како би померао оловку и држи притиснут десни тастер миша да црташ. Кликом на боју промениће се боја бојице, а кликом на гумицу појавиће се гумица!
+\--- print-only \---
 
-![showcase](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@
 
 + Како додати проширење Оловка у Скречу
 + Како користити разгласе за контролу лика у Скречу
-+ Подсетити се како реаговати на догађаје миша у Скречу \--- /collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@
 
 ## title: Додатне информације за наставнике
 
-Уколико је потребно да одштампате овај пројекат, молимо Вас користите [Верзију за штампање](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Завршени пројекат можете пронаћи [овде](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
