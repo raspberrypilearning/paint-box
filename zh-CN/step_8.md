@@ -11,4 +11,8 @@ Now that you have completed the 'Paint box' project, try [the 'Boat race' projec
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
