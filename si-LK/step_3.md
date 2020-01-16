@@ -2,46 +2,68 @@
 
 දැන් ඔබ ඔබේ ව්‍යාපෘතියට(project එකට) විවිධ වර්ණ වලින් යුතු පැන්සල් එකතු කර, පරිශීලකයාට(user ට) ඒවා අතරින් තෝරා ගැනීමට ඉඩදෙනු ඇත.
 
-\--- task \--- `නිල්-පැන්සල(pencil-blue)` ලෙස `පැන්සල්(pencil)` sprite එක නැවත නම්(rename) කරන්න 
+\--- task \---
 
-![නැවත නම් කිරීම-පැන්සල](images/rename-pencil.png) \--- /task \---
+Rename the `pencil` sprite to `pencil-blue`
 
-\--- task \--- පැන්සල් sprite එක මත දකුණ(right) ක්ලික්(click) කර 'නිල්-පැන්සල'('pencil-blue') ඇඳුම(costume එක) අනුපිටපත්(duplicate) කරන්න.
-
-![තිර රුව(screenshot)](images/paint-blue-duplicate.png) \--- /task \---
-
-\--- task \--- නව(new) ඇඳුම(costume එක) 'පැන්සල්-කොළ'('pencil-green') ලෙස නම් කර පැන්සල කොළ පාට කරන්න.
-
-![තිර රුව(screenshot)](images/paint-pencil-green.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
-\--- task \--- නව(new) sprite දෙකක් අඳින්න: එක් නිල්(blue) චතුරස්රයක්(square) සහ එක් හරිත(green) චතුරස්රයක්(square). මේවා නිල් සහ කොළ පාට පැන්සල් අතර තෝරා(choosing) ගැනීම සඳහා යි.
+\--- task \---
 
-![තිර රුව(screenshot)](images/paint-selectors.png) \--- /task \---
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-\--- task \--- නව sprites 'නිල්'('blue') සහ 'කොළ'('green') ලෙස නම් කරන්න.
+![screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- කොළ(green) sprite එක ක්ලික් කළ විට, එය "කොළ" නැමති පණිවිඩය `විකාශනය(broadcasts)`{:class="block3events"} කරන පරිදි එයට කේතයක්(code එකක්) එක් කරන්න.
+\--- task \---
 
-![කොළ(green) හතරැස් කොටුව(square)](images/green_square.png)
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+
+![green square](images/green_square.png)
 
 ```blocks3
 when this sprite clicked
 broadcast (green v)
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message]]]
 
-පැන්සල් sprite එක "කොළ" නැමති පණිවිඩයට සවන් දිය යුතු අතර ඊට ප්‍රතිචාර වශයෙන් එය තමාගේ ඇඳුම(costume එක) සහ වර්ණය වෙනස් කළ යුතුය.
+\--- /task \---
 
-\--- task \--- ඔබේ පැන්සල් sprite එක වෙත මාරු වන්න. මෙම sprite එකට `කොළ`{:class="block3events"} විකාශනය(broadcast එක) ලැබෙන විට, එය කොළ පැන්සල් ඇඳුමට(costume එකට) මාරු වී පැන්සලේ වර්ණය කොළ පැහැයට වෙනස් කරන පරිදි එයට කේතයක්(code එකක්) එක් කරන්න. 
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![පැන්සල](images/pencil.png)
+\--- task \---
+
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [green v]
@@ -49,11 +71,15 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-පැන්සලේ වර්ණයට කොළ පාටට සැකසීමට, `පෑනෙහි වර්ණ සකසන(set pen color)`{:class="block3extensions"} කට්ටිය(block එක) තුළ ඇති වර්ණ(coloured) චතුරස්රය(square එක) මත ක්ලික් කරන්න, ඉන්පසු කොළ(green) හතරැස්(square) sprite එක මත ක්ලික් කරන්න. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
-දැන් මෙවැනිම දෙයක් මගින් පැන්සල් වර්ණය නිල් පාටට මාරු කිරීම.
+\--- /task \---
 
-\--- task \--- නිල්(blue) හතරැස්(square) sprite එක මත ක්ලික් කර මෙම කේතය(code එක) එක් කරන්න:
+Then to a similar thing so that you can switch the pencil colour to blue.
+
+\--- task \---
+
+Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 
@@ -62,7 +88,9 @@ when this sprite clicked
 broadcast (blue v)
 ```
 
-ඉන්පසු පැන්සල් sprite එක මත ක්ලික් කර මෙම කේතය(code එක) එක් කරන්න: ![පැන්සල](images/pencil.png)
+Then click on the pencil sprite and add this code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [blue v]
@@ -72,9 +100,11 @@ set pen color to [#0000ff]
 
 \--- /task \---
 
-\--- task \--- අවසාන වශයෙන්, පැන්සල් sprite එක කුමන වර්ණයෙන් ආරම්භ කළ යුතු දැයි පැවසීමට සහ ඔබේ වැඩසටහන(program) ආරම්භ වන විට තිරය(screen) අස්කර(clear කර) ගැනීමට මෙම කේතය(code එක) එක් කරන්න.
+\--- task \---
 
-![පැන්සල](images/pencil.png)
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -92,8 +122,12 @@ end
 
 \--- /task \---
 
-ඔබ කැමති නම්, ඔබට වෙනත් වර්ණ පැන්සලකින් ආරම්භ කළ හැකිය.
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- ඔබේ කේතය(code එක) පරීක්ෂා(test) කරන්න. නිල්(blue) හෝ කොළ(green) චතුරස්රාකාර(square) sprites මත ක්ලික් කිරීමෙන් ඔබට නිල් සහ කොළ පැන්සල් වර්ණ අතර මාරු විය හැකිද?
+\--- task \---
 
-![තිර රුව(screenshot)](images/paint-pens-test.png) \--- /task \---
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png)
+
+\--- /task \---
