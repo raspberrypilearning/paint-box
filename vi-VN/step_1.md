@@ -10,18 +10,24 @@ Làm chương trình sơn của riêng bạn!
 
 ### Những gì bạn sẽ làm
 
-\--- không in \--- Nhấp vào cờ xanh để bắt đầu. Sử dụng chuột để di chuyển bút chì và giữ nút chuột trái để vẽ. Click vào một màu để thay đổi bút chì. Nhấp vào công cụ xóa để thay đổi nó và sử dụng nó để xóa công việc của bạn. Để xóa trang, nhấp vào chữ thập.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
-\--- / không in \---
+\--- /no-print \---
 
-\--- chỉ in \--- Bạn sẽ nhấp vào cờ màu xanh lá cây để bắt đầu và bạn sẽ sử dụng chuột để di chuyển bút chì và giữ nút chuột trái để vẽ. Nhấp vào một màu sẽ thay đổi màu bút chì, và nhấp vào công cụ xóa sẽ thay đổi thành công cụ xóa!
+\--- print-only \---
 
-![trưng bày](images/showcase.png) \--- / chỉ in \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- sự sụp đổ \---
 
@@ -29,7 +35,9 @@ Làm chương trình sơn của riêng bạn!
 
 + Thêm phần mở rộng bút trong Scratch
 + Sử dụng chương trình phát sóng để kiểm soát một sprite trong Scratch
-+ Nhớ lại cách trả lời các sự kiện chuột trong Scratch \--- / sụp đổ \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- sự sụp đổ \---
 
@@ -47,12 +55,14 @@ Làm chương trình sơn của riêng bạn!
 
 + [Dự án khởi động ngoại tuyến](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
 
-\--- /sự sụp đổ \---
+\--- /collapse \---
 
 ## \--- sự sụp đổ \---
 
 ## tiêu đề: Thông tin bổ sung cho các nhà giáo dục
 
-Nếu bạn cần in dự án này, vui lòng sử dụng phiên bản [máy in thân thiện](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /sự sụp đổ \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
