@@ -2,23 +2,27 @@
 
 무대에 그림을 그리는 데 사용되는 연필을 만드는 것으로 시작해 봅시다.
 
-\--- task \--- 파이썬 스타터 프로젝트를 엽니다.
+\--- task \---
 
-** 온라인: ** [ rpf.io/paint-box-on ](http://rpf.io/paint-box-on) {: target = "_ blank"}에서 새로운 스타터 프로젝트 열기.
+Open the 'Paint box' Scratch starter project.
 
-스크래치 계정이있는 경우 ** Remix를 클릭 ** 하여 사본을 만들 수 있습니다.
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**오프라인**: [스타터 프로젝트](http://rpf.io/p/en/paint-box-go){:target="_blank"} 를 오프라인 에디터에서 여세요.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff) 에서 다운 받을 수 있습니다. \--- /task"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-스타터 프로젝트에서는 연필과 지우개 스프라이트가 있습니다.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![스크린샷](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png)
+
+\--- /task \---
 
 \--- task \---
 
-프로젝트에 펜 확장 프로그램을 추가합니다.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,9 +30,9 @@
 
 \--- task \---
 
-연필이 마우스에 따라 움직이도록 `무한반복하기` 에 코드를 추가해 봅시다.
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
-![연필](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 ⚑ 클릭했을 때
@@ -39,13 +43,19 @@ end
 
 \--- /task \---
 
-\--- task \--- 깃발을 클릭 후 마우스를 움직여서 코드가 원하는데로 동작하는지 테스트 해 봅시다. \--- /task \---
+\--- task \---
 
-다음으로, `만약`{:class="blockcontrol"} 마우스 버튼이 클릭됐을때만 그림을 그리도록 만들어 봅시다.
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
-\--- task \--- 연필 스프라이트에 이 코드를 추가해 주세요:
+\--- /task \---
 
-![연필](images/pencil.png)
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+
+\--- task \---
+
+Add this code to your pencil sprite:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ⚑ 클릭했을 때
@@ -61,22 +71,26 @@ end
 
 \--- /task \---
 
-\--- task \--- 코드를 다시 테스트 해 보세요. 이번엔, 마우스 버튼을 누른 상태에서 연필을 이동해 보세요. 연필로 그림을 그릴 수 있나요?
+\--- task \---
 
-![스크린샷](images/paint-draw.png) \--- /task \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## 제목: 연필의 끝이 닿는 지점에 선이 그려지나요?
 
-연필의 가운데에서 선이 그려지는 것처럼 보인다면 연필 스프라이트를 변경하여 연필심이 스프라이트 중심에 오도록 해야 합니다.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-연필 스프라이트를 클릭하고 **모양** 탭을 누르세요.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-모양을 움직여서 연필심 부분이 중앙 **바로 위에** 에 오도록 하십시오.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
-![코스튬 센터](images/costume-center-annotated.png)
+![Costume center](images/costume-center-annotated.png)
 
-이제 연필로 다시 그려 보세요. 이제 연필심에서 선이 그어져야 합니다.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
