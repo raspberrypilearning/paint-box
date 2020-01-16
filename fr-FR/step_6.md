@@ -2,11 +2,17 @@
 
 Ensuite, tu ajouteras du code pour permettre à la personne utilisant ton programme de dessiner des éléments avec différentes largeurs de stylo.
 
-\--- task \--- Premièrement, ajoute une nouvelle variable appelée `largeur`{:class="block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Ajoute cette ligne **à intérieur** de la boucle `répéter indéfiniment`{:class="block3control"} du code du sprite crayon:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -25,16 +31,24 @@ fin
 
 \--- /task \---
 
-La largeur du stylo est maintenant définie à plusieurs reprises sur la valeur de la variable `largeur`{:class="block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Fais un clic droit sur la variable `largeur`{:class="block3variables"} affichée sur la scène, puis clique sur **curseur**.
+\--- task \---
 
-![capture d'écran](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Tu peux maintenant faire glisser le curseur visible sous la variable pour modifier la valeur de la variable.
+![screenshot](images/paint-slider.png)
 
-![capture d'écran](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Teste ton projet et vois si tu peux ajouter du code pour ajuster la largeur du stylo.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![capture d'écran](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
