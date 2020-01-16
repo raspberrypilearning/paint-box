@@ -10,7 +10,9 @@ Kendi boyama programınızı yapın!
 
 ### Ne yapacaksınız
 
-\--- no-print \--- Başlamak için yeşil bayrağın üzerine tıklayın. Kalemi hareket ettirmek için fareyi kullanın ve çizim yapmak için farenin sol düğmesini basılı tutun. Kalemleri değiştirmek için bir renge tıklayın. Değiştirmek için silgiyi tıklayın ve çalışmanızı silmek için kullanın. Sayfayı temizlemek için çarpı işaretini tıklayın.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@ Kendi boyama programınızı yapın!
 
 \--- /no-print \---
 
-\--- sadece baskı \--- Başlamak için yeşil bayrağa tıklayacaksınız ve kalemi hareket ettirmek için fareyi kullanacak ve çizim yapmak için de farenin sol düğmesini basılı tutacaksınız. Bir renge tıklamak kurşun kalemin rengini değiştirir ve silgiyi tıklatmak onu silgiye dönüştürür!
+\--- print-only \---
 
-![vitrin](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@ Kendi boyama programınızı yapın!
 
 + Kalem uzantısını Scratch'a ekleme
 + Scratch'te bir kuklayı kontrol etmek için yayınları kullanma
-+ Scratch'te fare olaylarına tepki verme
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@ Kendi boyama programınızı yapın!
 
 ## title: Eğitimciler için ek bilgiler
 
-Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} kullanın.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-[Tamamlanmış projeyi buradan](http://rpf.io/p/en/paint-box-get){:target="_blank"} bulabilirsiniz. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
