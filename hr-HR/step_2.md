@@ -2,23 +2,27 @@
 
 Započnite izradom olovke koju možete koristiti za crtanje na pozornici.
 
-\--- zadatak \--- Otvorite početni projekt Scratch "Paint box".
+\--- task \---
 
-**Online**: otvorite početni projekt na [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+Open the 'Paint box' Scratch starter project.
 
-Ako imaš Scratch korisnički račun, možeš napraviti kopiju klikom na **Remix**.
+**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Offline**: otvorite [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} u offline editoru.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš napraviti na [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-U projektu pokretanja trebali biste vidjeti olovke i gumice za likove:
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-![screenshot](images/paint-starter.png) \--- /task \---
+In the starter project, you should see pencil and eraser sprites:
+
+![screenshot](images/paint-starter.png)
+
+\--- /task \---
 
 \--- task \---
 
-Dodajte proširenje olovke svom projektu.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -26,7 +30,7 @@ Dodajte proširenje olovke svom projektu.
 
 \--- task \---
 
-Dodajte kod liku olovke ako da lik slijedi strelicu miša `forever`{:class="block3control"} te da možete crtati:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
 
 ![pencil](images/pencil.png)
 
@@ -39,11 +43,17 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag and then move the mouse pointer around the Stage to test whether your code works. \--- /task \---
+\--- task \---
 
-Zatim, napravite da olovku samo crta `if` {: class = "block3control"} klikne se na tipku miša.
+Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
-\--- task \--- Dodajte ovaj kôd liku okovke:
+\--- /task \---
+
+Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+
+\--- task \---
+
+Add this code to your pencil sprite:
 
 ![pencil](images/pencil.png)
 
@@ -61,22 +71,26 @@ end
 
 \--- /task \---
 
-\--- task \--- Ponovno testiraj svoj kôd. Ovaj put, pomičite olovku oko pozornice i držite gumb miša. Možete li crtati olovkom?
+\--- task \---
 
-![screenshot](images/paint-draw.png) \--- /task \---
+Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+
+![screenshot](images/paint-draw.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## naslov: Crta li vaša olovka sa svog vrha?
 
-Ako linija na kojoj crtate olovkom izgleda kao da dolazi iz sredine olovke, morate promijeniti lik olovke tako da je vrh središta lika.
+If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Kliknite lik olovke, a zatim kliknite **Costumes** karticu.
+Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Pomaknite kostim tako da vrh olovke bude **just above** središta.
+Move the costume's so the tip of the pencil is **just above** the centre.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Sada pomičite olovku na pozornici i crtajte. Olovka bi sada trebala povući crtu od svog vrha.
+Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 \--- /collapse \---
