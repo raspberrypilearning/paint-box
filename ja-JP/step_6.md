@@ -1,40 +1,55 @@
-## ペンの幅を変える
+## ペン幅を変える
 
-次に、プログラムを使用している人がさまざまなペン幅のものを描画できるようにするためのコードを追加します。
+次に、コードを追加して、このプログラムを使用する人がそれぞれのペン幅で描画できるようにします。
 
-\--- task \--- 最初に、 `width`{：class = "block3variables"}という新しい変数を追加します。
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- / task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- \---タスク の行を追加し **内部** `永久`{：クラス=「block3control」}鉛筆のスプライトのコードのループ：
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-フラグがクリックされたときに
-全て消去を
-（鉛筆ブルーV）に切り替え衣装
-[＃0035FF]に設定されたペンの色
-永久
-（マウスポインタV）に移動
-（幅::変数）に+に設定ペンサイズ
-場合 <<mouse down?> と <（マウスy） > [-120]>> それから 
-  ペンダウン
-  他
-  ペーパアップ
-終わり
+⚑ が押されたとき
+全部消す
+コスチュームを (鉛筆-青 v) にする
+ペンの色を [#0035FF] にする
+ずっと 
+  (マウスのポインター v) へ行く
+  +ペンの太さを (幅:: variables) にする
+  もし <<mouse down?> かつ <(マウスのy座標) > [-120]>> なら 
+    ペンを下ろす
+  でなければ 
+    ペンを上げる
+  end
+end
 ```
 
 \--- /task \---
 
-ペンの幅は `width`{：class = "block3variables"}変数の値に繰り返し設定されます。
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- ステージに表示された `width`{：class = "block3variables"}変数を右クリックし、 **スライダーをクリックします**
+\--- task \---
 
-![スクリーンショット](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-変数の下に表示されているスライダをドラッグして、変数の値を変更できます。
+![screenshot](images/paint-slider.png)
 
-![スクリーンショット](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- プロジェクトをテストして、ペンの幅を調整するコードを追加できるかどうかを確認します。
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![スクリーンショット](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
