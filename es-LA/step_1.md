@@ -10,18 +10,24 @@ Esta es la versión **Scratch 3** del proyecto. También hay una [versión del p
 
 ### Lo que harás
 
-\--- no-print \--- Haz clic en la bandera verde para comenzar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón de la izquierda para dibujar. Haz clic en un color para cambiar de lápiz. Haz clic en el borrador para seleccionarlo, y utilízalo para borrar lo que hayas hecho. Para limpiar la página, haz clic en la cruz.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
-\--- no imprimir \---
+\--- /no-print \---
 
-\--- print-only \--- Harás clic en la bandera verde para comenzar, y utilizarás el ratón para mover el lápiz y mantener apretado el botón izquierdo para dibujar. Hacer clic en el color cambiará el color del lápiz, y haciendo clic en el borrador, ¡cambiará la función a borrador!
+\--- print-only \---
 
-![exposición](images/showcase.png) \--- /solo imprimir \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@ Esta es la versión **Scratch 3** del proyecto. También hay una [versión del p
 
 + Agrega la extensión de lápiz en Scratch
 + Usa difusiones para controlar un objeto en Scratch
-+ Recuerda como responde los eventos del Ratón en Scratch
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@ Esta es la versión **Scratch 3** del proyecto. También hay una [versión del p
 
 ## title: Información adicional para educadores
 
-Si necesitas imprimir este proyecto, por favor utiliza la [versión de impresión amigable](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
