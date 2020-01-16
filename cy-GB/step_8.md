@@ -11,4 +11,8 @@ Nawr dy fod wedi cwblhau'r prosiect 'Bocs Paent', rho gynnig ar y prosiect [Ras 
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
