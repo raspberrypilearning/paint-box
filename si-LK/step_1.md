@@ -10,7 +10,9 @@
 
 ### ඔබ සාදන්නට යන දේ
 
-\--- no-print \--- ආරම්භ කිරීමට කොල(green) ධජය(flag එක) මත ක්ලික් කරන්න. පැන්සල ගෙනයාමට මූසිකය(mouse එක) භාවිතා කරන්න, සහ ඇඳීමට වම් මූසික(mouse) බොත්තම(button) තද කරන්න. පැන්සල වෙනස් කිරීමට වර්ණයක් මත ක්ලික් කරන්න. මකනය මත ක්ලික් කර එයට වෙනස් වන්න. ඔබේ සටහන් මකා දැමීමට එය භාවිතා කරන්න. පිටුව(page එක) හිස්(clear) කිරීමට, කතිරය(cross) මත ක්ලික් කරන්න.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ආරම්භ කිරීමට ඔබ කොල ධජය(green flag එක) මත ක්ලික් කරනු ඇති අතර, ඔබ පැන්සල ගෙනයාමට මූසිකය(mouse එක) භාවිතා කරන අතර ඇඳීමට වම්(left) මූසික(mouse) බොත්තම(button එක) තද කර ගන්න. වර්ණයක් මත ක්ලික් කිරීමෙන් පැන්සල්(pencil) වර්ණ(colour එක) වෙනස් කරගත හැකි අතර, මකනය(eraser එක) මත ක්ලික් කිරීමෙන් එය මකනයට වෙනස් කරගත හැකි වේ!
+\--- print-only \---
 
-![ප්‍රදර්ශනාගාරය(showcase)](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@
 
 + Scratch වලට පෑන්(pen) දිගුව(extension) එක් කිරීම
 + Scratch වල sprite එක පාලනය(control) කිරීමට විකාශන(broadcasts) භාවිතා කිරීම
-+ Scratch හි මූසික(mouse) සිදුවීම්(events) වලට ප්‍රතිචාර දක්වන්නේ කෙසේදැයි මතකය ආවර්ජනය කිරීම \--- /collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@
 
 ## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
 
-ඔබට මෙම ව්‍යාපෘතිය මුද්‍රණය කිරීමට අවශ්‍ය නම්, කරුණාකර [මුද්‍රණ-හිතකාමී අනුවාදය(printer-friendly version)](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} භාවිතා කරන්න.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-[සම්පුර්ණ කරන ලද ව්‍යාපෘතිය(completed project here)](http://rpf.io/p/en/paint-box-get){:target="_blank"} ඔබට මෙහිදී බලාගත හැකිය. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
