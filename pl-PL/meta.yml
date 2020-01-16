@@ -10,7 +10,7 @@ steps:
   - 
     title: Wprowadzenie
   - 
-    title: Make a pencil
+    title: Stwórz ołówek
   - 
     title: Kredki
   - 
@@ -24,4 +24,4 @@ steps:
     title: 'Wyzwanie: więcej ołówków'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Co dalej?'
