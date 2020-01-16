@@ -10,7 +10,9 @@ Dans ce projet, Tu vas créer ton propre programme de dessin !
 
 ### Ce que tu feras
 
-\--- no-print \--- Clique sur le drapeau vert pour commencer. Utilise la souris pour déplacer le crayon et maintiens le bouton gauche de la souris pour dessiner. Clique sur une couleur pour changer de crayons. Clique sur la gomme pour l'utiliser, et utilise-la pour effacer ton travail. Pour effacer la page, clique sur la croix.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@ Dans ce projet, Tu vas créer ton propre programme de dessin !
 
 \--- /no-print \---
 
-\--- print-only \--- Tu cliqueras sur le drapeau vert pour commencer et tu utiliseras la souris pour déplacer le crayon et le bouton gauche de la souris pour dessiner. Cliquer sur une couleur changera les couleurs du crayon, et cliquer sur la gomme sélectionnera la gomme !
+\--- print-only \---
 
-![démonstration](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@ Dans ce projet, Tu vas créer ton propre programme de dessin !
 
 + Ajouter l'extension crayon dans Scratch
 + Utiliser des diffusions pour contrôler un sprite dans Scratch
-+ Rappelle-toi comment répondre aux événements de souris dans Scratch \--- /collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@ Dans ce projet, Tu vas créer ton propre programme de dessin !
 
 ## title: Informations supplémentaires pour les éducateurs
 
-Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
