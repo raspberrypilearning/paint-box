@@ -2,46 +2,68 @@
 
 Svojemu projektu boše sedaj dodal različne barvne svinčnike in uporabniku omogočil izbiro med njimi.
 
-\--- task \--- Z desno tipko klikni na figuro `svinčnik` in preimenuj videz v `'svinčnik-moder'`
+\--- task \---
 
-![preimenuj-svinčnik](images/rename-pencil.png) \--- /task \---
+Rename the `pencil` sprite to `pencil-blue`
 
-\--- task \--- Z desno tipko klikni na videz 'svinčnik-moder' in ga podvoji.
-
-![posnetek zaslona](images/paint-blue-duplicate.png) \--- /task \---
-
-\--- task \--- Poimenuje novi videz 'svinčnik-zelen', in ga obarvaj zeleno.
-
-![posnetek zaslona](images/paint-pencil-green.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
-\--- task \--- Nariši dve novi figuri: en moder in en zelen kvadrat. Namenjena sta izbiri med modro in zeleno barvico.
+\--- task \---
 
-![posnetek zaslona](images/paint-selectors.png) \--- /task \---
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-\--- task \--- Preimenuj novi figuri v 'modra' in 'zelena'
+![screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- Figuri 'zelena' dodaj kodo, ki povhzroči, da klik na figuro `objavi`{:class="block3events"} sporočilo 'zelena'.
+\--- task \---
 
-![zeleni kvadrat](images/green_square.png)
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+
+![green square](images/green_square.png)
 
 ```blocks3
 ko kliknemo to figuro
 objavi (zelena v)
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message]]]
 
-Figura svinčnika naj spremlja objave in v primeru prejema sporočila 'zelena' spremeni svoj videz in barvo svinčnika.
+\--- /task \---
 
-\--- task \--- Preklopi na figuro svinčnika. Dodaj kodo, ki bo omogočila, da bo figura `zelena`{:class="block3events"} prejela objavo, preklopila na videz zelene barvice in spremenila barvo svinčnika na zeleno.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![svinčnik](images/pencil.png)
+\--- task \---
+
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ko prejmem [zelena v]
@@ -49,20 +71,26 @@ zamenjaj videz na (svinčnik-zelen v)
 nastavi barvo peresa na [#00CC44]
 ```
 
-Da bi spremenil barvo svinčnika na zeleno, najprej klikni na obarvan kvadrat v bloku `nastavi barvo peresa na`{:class="block3extensions"}, izberi kapaljko in potem klikni na figuro z zelenim kvadratom. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
-Natao napravi podobno stvar še za izbiro modre barve.
+\--- /task \---
 
-\--- task \--- Klikni na figuro modrega kvadrata in dodaj to kodo:
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-![modri kvadrat](images/blue_square.png)
+\--- task \---
+
+Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png)
 
 ```blocks3
 ko kliknemo to figuro
 objavi (modra v)
 ```
 
-Nato klikni na figuro svinčnika in dodaj to kodo: ![svinčnik](images/pencil.png)
+Then click on the pencil sprite and add this code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ko prejmem [modra v]
@@ -72,9 +100,11 @@ nastavi barvo peresa na [#0000ff]
 
 \--- /task \---
 
-\--- task \--- Na koncu dodaj še to kodo, da poveš svinčniku, katera naj bo začetna barva in da poskrbiš, da bo zaslon ob zagonu programa prazen.
+\--- task \---
 
-![svinčnik](images/pencil.png)
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -92,8 +122,12 @@ konec
 
 \--- /task \---
 
-Če želiš, lahko izbereš tudi drugo začetno barvo.
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- Preizkusi svojo kodo. Ali lahko s klikom na barvna kvadrata preklapljaš med modro in zeleno barvo svinčnika?
+\--- task \---
 
-![posnetek zaslona](images/paint-pens-test.png) \--- /task \---
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png)
+
+\--- /task \---
