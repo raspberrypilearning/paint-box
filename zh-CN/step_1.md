@@ -10,7 +10,9 @@
 
 ### 学习成果
 
-\--- no-print \--- 点击绿色旗帜开始游戏。 使用鼠标移动铅笔，然后按住鼠标左键进行绘制。 单击颜色可更改铅笔。 单击橡皮擦更改为它，并使用它擦除您的工作。 要清除页面，请单击十字。
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@
 
 \--- /no-print \---
 
-\--- print-only \--- 您将点击绿色标记开始，您将使用鼠标移动铅笔并按住鼠标左键进行绘制。 单击颜色将更改铅笔颜色，单击橡皮擦将更改为橡皮擦！
+\--- print-only \---
 
-![展示](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@
 
 + 在Scratch中添加笔扩展
 + 使用广播来控制Scratch中的精灵
-+ 回想一下如何在Scratch 回应鼠标事件 \--- /collapse\---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@
 
 ## 标题: 教师附加信息
 
-如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-你可以在这里找到 [完成的项目](http://rpf.io/p/en/paint-box-get){:target="_blank"}。 \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
