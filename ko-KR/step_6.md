@@ -2,11 +2,17 @@
 
 이번엔 펜의 두께를 바꾸어 선을 그려 보도록 해 봅시다.
 
-먼저, `두께`{:class="block3variables"}라는 이름의 새 변수를 추가 해 보세요.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- 다음 코드를 `무한반복`{:class="block3control"} 루프 **안쪽**에 넣어주세요:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 깃발이 클릭되었을 때
@@ -24,16 +30,24 @@
 
 \--- /task \---
 
-이제 펜 너비가 ` width ` {: class = "block3variables"} 값으로 설정됩니다. 
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- 스테이지의 표시된 변수값`width`{:class="block3variables"} 를 우클릭 한후, **슬라이더**를 클릭하세요.
+\--- task \---
 
-![스크린샷](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-슬라이더를 드래그 해서 변수의 값을 바꿀 수 있습니다.
+![screenshot](images/paint-slider.png)
 
-![<0>#outside-pic</0> CSS 코드에서 <0>width</0>(너비) 와 <0>height</0>(높이) 값을 수정하여, 바깥 쪽에 있는 이미지를 <0>200px</0>로 수정해보세요. (<0>px</0>는 픽셀을 의미합니다.)](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- 펜의 두께를 조정할 수 있는지 확인하십시오.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![스크린샷](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
