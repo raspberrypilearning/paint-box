@@ -2,51 +2,71 @@
 
 Mõnikord tekivad vead, lisage nupp „selge” ja kustutusklahv.
 
-\--- ülesanne \--- Lisage 'X-block' sprite raamatukogu kirjadest. Värvige Sprite'i kostüüm punaseks ja tee see veidi väiksemaks. See spriit on nupp "selge".
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![ekraanipilt](images/paint-x.png) \--- / ülesanne \---
+![screenshot](images/paint-x.png)
 
-\--- ülesanne \--- Lisage kood 'X-block' spritile, et eemaldada etapp, kui sprite klõpsas.
+\--- /task \---
 
-![rist](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 kui see sprite klõpsas
 kustuta kõik
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-Et eemaldada etapp, ei pea te kasutama `saatet`{: class = "block3events"}, sest `kustutab kõik`{: class = "block3extensions"}, mida see töö teeb.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Kas sa näed, et pliiatsil on ka kustutuskostüüm?
+Do you see that the pencil sprite includes an eraser costume?
 
-![ekraanipilt](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Teie projektis on ka eraldi kustutuskumm.
+Your project also includes a separate eraser sprite.
 
-\--- ülesanne \--- Paremklõpsake sellel kustutuskummil ja seejärel klõpsake **kuva**. Siin on, kuidas teie etapp peaks nüüd vaatama:
+\--- task \---
 
-![ekraanipilt](images/paint-eraser-stage.png) \--- / ülesanne \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- ülesanne - Lisa kustutuskummile kood, et saata `'kustutaja' eetris`{: class = "block3events"}, kui kustutuskumm on klõpsatud.
+![screenshot](images/paint-eraser-stage.png)
 
-![kustutaja](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 kui see sprite klõpsas
 edastust (kustutaja v)
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-Kui pliiatsitõmme saab "kustutuskummi" sõnumi, peaks see oma kostüümi vahetama kustutajaga ja lülitama pliiatsi värvi valgeks, mis on sama värvi kui laval!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Lisa kustutuskoodi loomiseks mõni kood.
+\--- task \---
 
-\--- hints \--- \--- vihje \--- Lisage pliiatsile mõni kood: `Kui ma saan`{: class = "block3events"}, siis `kustutaja`{: class = "block3events"} teade `Lülita kostüümide kustutusseadmesse`{: class = "block3looks"} `Seadista pliiatsivärv`{: class = "block3extensions"} kuni valge \--- / vihje \--- \--- vihje \--- Siin on kõik vajalikud plokid:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 määrake pliiatsivärviks [#FFFFFF]
@@ -55,7 +75,11 @@ kui ma saan [kustutaja v]
 lüliti kostüümi (kustutaja v)
 ```
 
-\--- / vihje \--- \--- vihje \--- Siin näeb kood välja nagu: ![pliiats](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 kui ma saan [kustutaja v]
@@ -63,19 +87,25 @@ lüliti kostüümi (kustutaja v)
 seadke pliiatsivärviks [#FFFFFF]
 ```
 
-\--- / vihje \--- \--- / hints \--- \--- / ülesanne \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Testige oma projekti, et näha, kas saate kustutada pliiatsiliinid ja kustutada pliiatsiliinid.
+\--- task \---
 
-![ekraanipilt](images/paint-erase-test.png) \--- / ülesanne \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Pliiatsiga on veel üks probleem: sa saad joonistada kõikjal laval, sealhulgas nuppude "selge" ja kustutuskoha lähedal!
+![screenshot](images/paint-erase-test.png)
 
-![ekraanipilt](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- ülesanne \--- Selle parandamiseks koodi muuta nii, et pliiats on ainult alla, kui hiir on klõpsatud **ja** `y` positsiooni hiirekursori on suurem kui `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![pliiats](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 kui lipu klõpsamine
@@ -91,8 +121,12 @@ igavesti
 otsa
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
-\--- task \--- Testige oma projekti. Teil ei tohiks nüüd olla võimalik nuppude lähedal.
+\--- task \---
 
-![ekraanipilt](images/paint-fixed.png) \--- / ülesanne \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
