@@ -2,51 +2,71 @@
 
 Đôi khi xảy ra lỗi, vì vậy hãy thêm nút 'xóa' và nút xóa.
 
-\--- task \--- Thêm sprite 'X-block' từ phần chữ cái của thư viện. Tô màu trang phục của sprite bằng màu đỏ và làm cho nó nhỏ hơn một chút. Sprite này là nút 'xóa'.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![ảnh chụp màn hình](images/paint-x.png) \--- /bài tập \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Thêm mã vào sprite 'X-block' để xóa Giai đoạn khi sprite nhấp vào.
+\--- /task \---
 
-![vượt qua](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 Khi sprite này nhấp
 xóa tất cả
 ```
 
-\--- /bài tập \---
+\--- /task \---
 
-Bạn không cần sử dụng `phát`{: class = "block3events"} để xóa Giai đoạn, vì khối `xóa cả`{: class = "block3extensions"} thực hiện công việc đó.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Bạn có thấy rằng bút chì sprite bao gồm một trang phục tẩy?
+Do you see that the pencil sprite includes an eraser costume?
 
-![ảnh chụp màn hình](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Dự án của bạn cũng bao gồm một sprite eraser riêng.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Nhấp chuột phải vào sprite eraser này và sau đó nhấp vào **show**. Đây là cách Giai đoạn của bạn sẽ nhìn bây giờ:
+\--- task \---
 
-![ảnh chụp màn hình](images/paint-eraser-stage.png) \--- /bài tập \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Thêm mã vào sprite eraser để gửi `'eraser' Broadcast`{: class = "block3events"} khi nhấp vào sprite eraser.
+![screenshot](images/paint-eraser-stage.png)
 
-![cục gôm](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 khi sprite này nhấp
 phát (eraser v)
 ```
 
-\--- /bài tập \---
+\--- /task \---
 
-Khi bút chì nhận được thông báo 'cục tẩy', nó sẽ chuyển trang phục của nó sang cục tẩy và chuyển màu bút sang màu trắng, cùng màu với Sân khấu!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Thêm một số mã để tạo cục tẩy.
+\--- task \---
 
-\--- gợi ý \--- \--- gợi ý \--- Thêm một số mã vào bút chì sprite: `Khi tôi nhận được`{: class = "block3events"} `cụ xóa`{: class = "block3events"} message `Chuyển sang công cụ xóa trang phục`{: class = "block3looks"} `Đặt màu bút`{: class = "block3extensions"} thành màu trắng \--- / gợi ý \--- \--- gợi ý \--- Dưới đây là tất cả các khối bạn cần:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 đặt màu bút thành [#FFFFFF]
@@ -55,7 +75,11 @@ khi tôi nhận được [eraser v]
 trang phục chuyển sang (tẩy v
 ```
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là đoạn mã sẽ như thế nào: ![bút chì](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 khi tôi nhận được [eraser v]
@@ -63,19 +87,25 @@ trang phục chuyển sang (eraser v)
 đặt màu bút thành [#FFFFFF]
 ```
 
-\--- / gợi ý \--- \--- / gợi ý \--- \--- / nhiệm vụ \---
+\--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Kiểm tra dự án của bạn để xem bạn có thể xóa Giai đoạn và xóa các đường bút chì không.
+\--- task \---
 
-![ảnh chụp màn hình](images/paint-erase-test.png) \--- /bài tập \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Có thêm một vấn đề với bút chì: bạn có thể vẽ bất cứ nơi nào trên Sân khấu, bao gồm gần các nút 'xóa' và xóa!
+![screenshot](images/paint-erase-test.png)
 
-![ảnh chụp màn hình](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- Để sửa lỗi này, hãy thay đổi mã để bút chỉ xuống nếu chuột được nhấp **và** vị trí `y` của con trỏ chuột lớn hơn `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![bút chì](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 khi cờ nhấp
@@ -91,8 +121,12 @@ mãi mãi
 đầu
 ```
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- nhiệm vụ \--- Kiểm tra dự án của bạn. Bây giờ bạn không thể vẽ gần các nút.
+\--- task \---
 
-![ảnh chụp màn hình](images/paint-fixed.png) \--- /bài tập \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
