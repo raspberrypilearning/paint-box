@@ -2,11 +2,17 @@
 
 Сада ћеш додати код, који ће омогућити кориснику; да црта ствари са оловкама разних величина.
 
-\--- task \--- Прво додај нову променљиву која ће се звати `дебљина`{:class="block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Додај ову наредбу **унутар** петље `понављај`{:class="block3control"} у коду оловке:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 када је кликнуто на ⚑
@@ -26,16 +32,24 @@ end
 
 \--- /task \---
 
-Ширина трага оловке сада ће стално бити постављена на вредност променљиве `дебљина`{:class="block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Кликни десним тастером миша на променљиву `дебљина`{:class="block3variables"} приказану на Позорници, а затим кликни на **клизач**.
+\--- task \---
 
-![снимак екрана](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Сада можеш да помераш клизач који се налази испод променљиве да би променио њену вредност.
+![screenshot](images/paint-slider.png)
 
-![снимак екрана](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Испробај свој пројекат и провери да ли можеш да додаш код за подешавање дебљине оловке.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![снимак екрана](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
