@@ -10,7 +10,9 @@ Gwna dy raglen peintio dy hunan!
 
 ### Yr hyn byddi di'n ei greu
 
-\--- no-print \--- Clicia'r faner werdd i gychwyn. Defnyddia'r llygoden i symud y pensil, a dal y botwm chwith ar y llygoden i dynnu llun. Clicia lliw i newid pensiliau. Clicia'r dileuwr i newid iddo, a'i ddefnyddio i ddileu dy waith. I glirio'r dudalen, clicia'r groes.
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@ Gwna dy raglen peintio dy hunan!
 
 \--- /no-print \---
 
-\--- print-only \--- Fe fyddi di'n clicio'r faner werdd i gychwyn, yna'n defnyddio'r llygoden i symud y pensil a dal botwm chwith y llygoden i dynnu llun. Bydd clicio ar liw yn newid lliw y pensil, a clicio ar y dileuwr yn newid i'r dileuwr!
+\--- print-only \---
 
-![arddangos](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \---collapse\---
 
@@ -29,7 +35,9 @@ Gwna dy raglen peintio dy hunan!
 
 + Ychwanegwch yr estyniad pin yn Scratch
 + Defnyddiwch ddarllediadau i reoli’r ciplun yn Scratch
-+ Ail-arddangoswch sut i ymateb i ddigwyddiadau llygoden yn Scratch
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \---collapse\---
 
@@ -53,6 +61,8 @@ Gwna dy raglen peintio dy hunan!
 
 ## title: Gwybodaeth ychwanegol i addysgwyr
 
-Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/en/paint-box-get){:target="_blank"}. \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
