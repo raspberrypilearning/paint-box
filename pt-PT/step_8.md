@@ -11,4 +11,8 @@ Agora que concluiste o projeto 'Caixa de pintura', tenta [ o projeto 'Corrida de
 
 \--- /no-print \---
 
-\--- print-only \--- ![boat race demo](images/boat_race_demo.png) \--- /print-only \---
+\--- print-only \---
+
+![boat race demo](images/boat_race_demo.png)
+
+\--- /print-only \---
