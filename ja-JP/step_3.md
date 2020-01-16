@@ -2,46 +2,68 @@
 
 次にプロジェクトに異なる色の鉛筆を加えて、ユーザーがそれらの中から選ぶことができるようにしましょう。
 
-\--- task \--- `鉛筆`スプライトの名前を`鉛筆-青`に変更します
+\--- task \---
 
-![名前変更-鉛筆](images/rename-pencil.png) \--- /task \---
+Rename the `pencil` sprite to `pencil-blue`
 
-\--- task \--- 鉛筆スプライトを右クリックして、「鉛筆-青」コスチュームを複製します。
-
-![スクリーンショット](images/paint-blue-duplicate.png) \--- /task \---
-
-\--- task \--- 新しいコスチュームに「鉛筆-緑」と名前を付け、鉛筆の色を緑にします。
-
-![スクリーンショット](images/paint-pencil-green.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
-\--- task \--- 青い四角と緑の四角の、2つの新しいスプライトを描きます。 これらは青または緑の鉛筆を選ぶのに使います。
+\--- task \---
 
-![スクリーンショット](images/paint-selectors.png) \--- /task \---
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-\--- task \--- 新しいスプライトの名前を変更して、「青」と「緑」と呼ぶようにします
+![screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- 「緑」のスプライトにコードを追加して、スプライトがクリックされたら「緑」というメッセージを`送る`{:class="block3events"}ようにします。
+\--- task \---
 
-![緑の四角](images/green_square.png)
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+
+![green square](images/green_square.png)
 
 ```blocks3
 このスプライトが押されたとき
 (緑 v) を送る
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message]]]
 
-鉛筆スプライトが「緑」のメッセージを受け取ったら、コスチュームと鉛筆の色を変える必要があります。
+\--- /task \---
 
-\--- task \--- 鉛筆スプライトに切り替えます。 コードを追加して、このスプライトが`緑`{:class="block3events"}のメッセージを受け取ったときに、コスチュームを緑色の鉛筆に切り替えて、ペンの色を緑に変更するようにします、
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![鉛筆](images/pencil.png)
+\--- task \---
+
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [緑 v] を受け取ったとき
@@ -49,20 +71,26 @@
 ペンの色を [#00CC44] にする
 ```
 
-鉛筆の色を緑に設定するには、`ペンの色を～にする` {:class="block3extensions"}ブロック内の色のついた四角をクリックし、そして緑色の四角のスプライトをクリックします。 \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
-次に、同じように鉛筆の色を青に切り替えます。
+\--- /task \---
 
-\--- task \--- 青い四角のスプライトをクリックしてこのコードを追加します。
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-![青の四角](images/blue_square.png)
+\--- task \---
+
+Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png)
 
 ```blocks3
 このスプライトが押されたとき
 (青 v) を送る
 ```
 
-そして、鉛筆のスプライトをクリックしてこのコードを追加します。 ![鉛筆](images/pencil.png)
+Then click on the pencil sprite and add this code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [青 v] を受け取ったとき
@@ -72,9 +100,11 @@
 
 \--- /task \---
 
-\--- task \--- 最後にこのコードを追加して、鉛筆のスプライトをどの色から始めるか決めて、プログラムの開始時に画面をクリアするようにします。
+\--- task \---
 
-![鉛筆](images/pencil.png)
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ⚑ が押されたとき
@@ -93,8 +123,12 @@ end
 
 \--- /task \---
 
-もしそうしたければ、別の色の鉛筆から始めることができます。
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- コードをテストします。 青または緑の四角のスプライトをクリックして、鉛筆の色を青と緑に切り替えることはできますか？
+\--- task \---
 
-![スクリーンショット](images/paint-pens-test.png) \--- /task \---
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png)
+
+\--- /task \---
