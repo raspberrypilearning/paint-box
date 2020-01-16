@@ -1,16 +1,22 @@
 ## Razveljavitev napak
 
-Včasih pride do napak, zato dodaj gumb »počisti« in gumb za radirko.
+Napake se dogajajo, zato dodaj gumb »počisti« in gumb za radirko.
 
-\--- task \--- Dodaj figuro 'X-block', ki se nahaja v razdelku Črke iz knjižnice figur. Premineuj to figuro v 'blok x', pobarvaj jo rdeče in jo malo zmanjšaj. To bo gumb, ki 'počisti' risalno površino.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![posnetek zaslona](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Figuri 'blok x' dodaj kodo, ki izbriše vse na odru, kadar kliknemo na njo.
+\--- /task \---
 
-![križ](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 ko kliknemo to figuro
@@ -19,21 +25,27 @@ izbriši vse
 
 \--- /task \---
 
-Za čiščenje odra ti ni potrebno `objaviti`{: class = "block3events"} sporočila, ker že `izbriši vse`{: class = "block3extensions"} blok opravi to delo.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Si opazil, da figura svinčnika vsebuje tudi videz radirke?
+Do you see that the pencil sprite includes an eraser costume?
 
-![posnetek zaslona](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Tvoj projekt vsebuje tudi ločeno figuro radirke.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Klikni na figuro radirke in jo prikaži s klikom na **oko** v panoju za urejanje podatkov o figuri. Tukaj lahko vidite, kako naj bo vaš oder videti zdaj:
+\--- task \---
 
-![posnetek zaslona](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Figuri radirke dodaj kodo, ki `objavi 'radirka'`{:class="block3events"}, kadar kliknemo na figuro radirke.
+![screenshot](images/paint-eraser-stage.png)
 
-![radirka](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 ko kliknemo to figuro
@@ -42,11 +54,19 @@ objavi (radirka v)
 
 \--- /task \---
 
-Ko figura svinčnika prejme objavljeno sporočilo "radirka", mora preklopiti svoj videz na radirko in preklopiti barvo peresa na belo, kar je barva odra!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Dodaj kodo, ki ustvari radirko.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Dodaj nekaj kode figuri svnčnika: `Ko prejme`{:class="block3events"} sporočilo `radirka`{:class="block3events"} `Zamenja videz na radirko`{:class="block3looks"} `Nastavi barvo peresa`{:class="block3extensions"} na belo \--- /hint \--- \--- hint \--- Tu so vsi potrebni bloki:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 nastavi barvo peresa na [#FFFFFF]
@@ -55,7 +75,11 @@ ko prejmem [radirka v]
 zamenjaj videz na (radirka v)
 ```
 
-\--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako: ![svinčnik](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ko prejmem [radirka v]
@@ -65,17 +89,23 @@ nastavi barvo peresa na [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Preizkusi projekt, da vidiš, če lahko počistiš oder in izbrišeš črte svinčnika.
+\--- task \---
 
-![posnetek zaslona](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Svinčnik ima še eno težavo: Z njim lahko rišeš kjerkoli po odru, vključno po tistem delu, kjer se nahajata gumba 'radirka' in 'počisti'!
+![screenshot](images/paint-erase-test.png)
 
-![posnetek zaslona](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- Da bi to popravil, spremeni kodo na tak način, da je pero spuščeno le kadar je tipka miške pritisnjena **in** je `y` pozicija kazalca miške večji od `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![svinčnik](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ko kliknemo na zastavico
@@ -93,6 +123,10 @@ konec
 
 \--- /task \---
 
-\--- task \--- Preizkusi svoj projekt. Zdaj bi moralo biti onemogočeno, da bi risal blizu gumbov.
+\--- task \---
 
-![posnetek zaslona](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
