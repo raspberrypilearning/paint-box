@@ -2,15 +2,21 @@
 
 Понекад се дешавају грешке, па хајде да додамо дугме 'обриши' и дугме за гумицу.
 
-\--- task \--- Додај лик 'Блок-Х' из области слова у библиотеци. Обоји костим лика у црвено и смањи му величину. Овај лик је дугме 'обриши'.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![снимак екрана](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Додај код лику 'блок-Х' да очистиш Позорницу кад је кликнуто на лик.
+\--- /task \---
 
-![крст](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 када је кликнуто на овај лик
@@ -19,21 +25,27 @@
 
 \--- /task \---
 
-Не мораш да користиш блок `разгласи`{:class="block3events"} да би очистио Позорницу, зато што то може да уради блок `обриши све`{:class="block3extensions"}.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Да ли примећујеш да лик оловке садржи и костим гумице?
+Do you see that the pencil sprite includes an eraser costume?
 
-![снимак екрана](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-Твој пројекат такође има посебан лик гумице.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Кликни десним тастером миша на лик а затим кликни на **прикажи**. Твоја позорница би сада требало да изгледа овако:
+\--- task \---
 
-![снимак екрана](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Додај код лику гумице, да би послао `разглас 'гумица'`{:class="block3events"} када је кликнуто на лик гумице.
+![screenshot](images/paint-eraser-stage.png)
 
-![гумица](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 када је кликнуто на овај лик
@@ -42,11 +54,19 @@
 
 \--- /task \---
 
-Када оловка прими поруку "гумица", требало би да замени костим оловке са костимом гумице, а боју бојице у белу - исту боју као боју позорнице!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Додај код за креирање гумице.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Додај следећи код лику оловке: `Када примим`{:class="block3events"} поруку `гумица`{:class="block3events"} `Замени костим са гумица`{:class="block3looks"} `Нека боја оловке буде`{:class="block3extensions"} бела \--- /hint \--- \--- hint \--- Ево свих блокова који су ти потребни:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 нека боја оловке буде [#FFFFFF]
@@ -56,7 +76,11 @@
 замени костим са (гумица v)
 ```
 
-\--- /hint \--- \--- hint \--- Овако би код требало да изгледа: ![оловка](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 када примим [гумица v]
@@ -66,17 +90,23 @@
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Испробај свој пројекат и провери да ли можеш да очистиш Позорницу и избришеш линије оловке.
+\--- task \---
 
-![снимак екрана](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Постоји још један проблем са оловком - можеш да црташ било где на Позорници, укључујући и близу дугмета 'обриши' и дугмета за гумицу!
+![screenshot](images/paint-erase-test.png)
 
-![снимак екрана](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- task \--- Да ово поправиш, промени код тако да оловка црта само када је кликнуто на тастер миша **и** када је `y` позиција показивача миша изнад `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![оловка](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 када је кликнуто на ⚑
@@ -95,6 +125,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Испробај свој пројекат. Сада не би требало да будеш у могућности да црташ у близини дугмади.
+\--- task \---
 
-![снимак екрана](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
