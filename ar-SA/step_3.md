@@ -2,46 +2,68 @@
 
 الآن سنضيف أقلامًا ملوَّنة مختلفة إلى المشروع لنسمح للمستخدم بالاختيار من بينها.
 
-\--- task \--- أعد تسمية مظهر كائن `القلم الرصاص` إلى `قلم أزرق`
+\--- task \---
 
-![إعادة تسمية قلم رصاص](images/rename-pencil.png) \--- /task \---
+Rename the `pencil` sprite to `pencil-blue`
 
-\--- task \--- انقر على كائن القلم الرصاص, انقر على المظاهر, و كرر مظهر 'قلم أزرق'.
-
-![لقطة الشاشة](images/paint-blue-duplicate.png) \--- /task \---
-
-\--- task \--- أعد تسمية المظهر الجديد بالاسم 'قلم أخضر', و لوّن القلم باللون الأخضر.
-
-![لقطة الشاشة](images/paint-pencil-green.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
-\--- task \--- أنشئ كائنين جديدين: مربع أزرق و مربع أخضر. هذه المربعات ستكون للإختيار بين القلمين الأزرق و الأخضر.
+\--- task \---
 
-![لقطة الشاشة](images/paint-selectors.png) \--- /task \---
+Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
-\--- task \--- أعد تسمية الكائنين الجديدين بالتسمية التالية: 'أزرق' و 'أخضر'
+![screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
 \--- /task \---
 
-\--- task \--- أضف بعض التعليمات البرمجية إلى الكائن 'أخضر' بحيث عندما يتم النقر عليه,يقوم `ببث`{:class="block3events"} الرسالة "أخضر".
+\--- task \---
 
-![مربع أخضر](images/green_square.png)
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+
+![green square](images/green_square.png)
 
 ```blocks3
 عند نقر هذا الكائن
 بث (أخضر v)
 ```
 
-[[[generic-scratch3-broadcast-message]]] \--- /task \---
+[[[generic-scratch3-broadcast-message]]]
 
-يجب على كائن القلم أن يستمع إلى رسالة "أخضر" و يستجيب بتغيير مظهره ولون خط القلم.
+\--- /task \---
 
-\--- task \--- انتقل إلى كائن القلم. أضف بعض التعليمات البرمجية بحيث عندما يستقبل الكائن بث `أخضر`{:class="block3events"}, فإنه يتبدل إلى مظهر القلم الأخضر و يغير لون الكتابة إلى أخضر.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
-![قلم رصاص](images/pencil.png)
+\--- task \---
+
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 عندما تستقبل [أخضر v] :: events
@@ -49,20 +71,26 @@
 اجعل لون القلم مساويًا [#00CC44] :: pen
 ```
 
-لجعل القلم يكتب باللون الأخضر, انقر على المربع الملون في كتلة `اجعل لون القلم مساوياً`{:class="block3extensions"}, ثم انقر على كائن المربع الأخضر لتحديد نفس لونه. \--- /task \---
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
-و الآن بطريقة مشابهة سنضيف تعليمات برمجية تمكنك من تحويل لون القلم إلى أزرق.
+\--- /task \---
 
-\--- task \--- انقر على كائن المربع الأزرق و أضف هذه التعليمات البرمجية:
+Then to a similar thing so that you can switch the pencil colour to blue.
 
-![مربع ـ أزرق](images/blue_square.png)
+\--- task \---
+
+Click on the blue square sprite and add this code:
+
+![blue_square](images/blue_square.png)
 
 ```blocks3
 عند نقر هذا الكائن
 بث (أزرق v)
 ```
 
-ثم انقر على كائن القلم لاضافة هذه التعليمات البرمجية: ![قلم رصاص](images/pencil.png)
+Then click on the pencil sprite and add this code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 عندما تستقبل [أزرق v] :: events
@@ -72,9 +100,11 @@
 
 \--- /task \---
 
-\--- task \--- و اخيراً, أضف هذه التعليمات البرمجية لتحديد اللون الذي سيكتب به كائن القلم في بداية البرنامج، و للتأكد من أن صفحة الرسم ستكون خالية و نظيفة عندما يبدأ البرنامج.
+\--- task \---
 
-![قلم رصاص](images/pencil.png)
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -92,8 +122,12 @@ end
 
 \--- /task \---
 
-إذا أردت ، يمكنك جعل البرنامج يبدأ الرسم بقلم ذو لون مختلف.
+If you prefer, you can start with a different colour pencil.
 
-\--- task \--- اختبر تعليماتك البرمجية. هل يمكنك التبديل بين ألوان القلم الأزرق والأخضر بالنقر على كائنات المربع الأزرق و الأخضر؟
+\--- task \---
 
-![لقطة الشاشة](images/paint-pens-test.png) \--- /task \---
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+
+![screenshot](images/paint-pens-test.png)
+
+\--- /task \---
