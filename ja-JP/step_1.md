@@ -10,7 +10,9 @@
 
 ### 作るもの
 
-\--- no-print \--- 緑の旗をクリックして開始します。 マウスを使って鉛筆を動かし、マウスの左ボタンを押して絵を描きます。 色をクリックして鉛筆を変更します。 消しゴムをクリックしてそれに変更し、描いた絵を消去します。 ☓印をクリックしてページをクリアします。
+\--- no-print \---
+
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,9 +21,13 @@
 
 \--- /no-print \---
 
-\--- print-only \--- 緑の旗をクリックして開始し、マウスを使って鉛筆を動かし、マウスの左ボタンを押して絵を描きます。 色をクリックすると鉛筆の色が変わり、消しゴムをクリックすると消しゴムに変わります！
+\--- print-only \---
 
-![事例](images/showcase.png) \--- /print-only \---
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+
+![showcase](images/showcase.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -29,7 +35,9 @@
 
 + Scratchのペン拡張機能を追加する
 + Scratchのメッセージを使ってスプライトを制御する
-+ Scratchのマウスイベントに反応する方法を思い出す \--- /collapse \---
++ Recall how to respond to mouse events in Scratch
+
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -53,6 +61,8 @@
 
 ## title：教育者向けの追加情報
 
-このプロジェクトを印刷する必要がある場合は[印刷用バージョン](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-[ここで完成したプロジェクト](http://rpf.io/p/en/paint-box-get){:target="_blank"}を見ることができます 。 \--- /collapse \---
+You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+
+\--- /collapse \---
