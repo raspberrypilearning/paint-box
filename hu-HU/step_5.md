@@ -2,15 +2,21 @@
 
 Rajzoláskor néha hibákat követünk el, ezért készítsünk egy „törlés” gombot és egy radír gombot is.
 
-\--- task \--- Add hozzá a 'Block-X' szereplőt a Betűk könyvtárból. Színezd pirosra a jelmezét, és legyen egy kicsit kisebb. Ez lesz a "törlés" gomb.
+\--- task \---
+
+Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![képernyőkép](images/paint-x.png) \--- /task \---
+![screenshot](images/paint-x.png)
 
-\--- task \--- Add hozzá a következő kódot a 'Block-X' szereplőhöz, hogy törölje a játékteret, amikor rákattintasz.
+\--- /task \---
 
-![kereszt](images/cross.png)
+\--- task \---
+
+Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+
+![cross](images/cross.png)
 
 ```blocks3
 ezen szereplőre kattintáskor
@@ -19,21 +25,27 @@ töröld a rajzokat
 
 \--- /task \---
 
-A játéktér törlésére a `küldj üzenetet`{:class="block3events"} blokk helyett a `töröld a rajzokat`{:class="block3extensions"} blokkot használjuk.
+You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
 
-Látod, hogy a ceruza szereplő tartalmaz egy radír (eraser) jelmezt?
+Do you see that the pencil sprite includes an eraser costume?
 
-![képernyőkép](images/paint-eraser-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
-A projekt tartalmaz egy különálló radír (eraser) szereplőt is.
+Your project also includes a separate eraser sprite.
 
-\--- task \--- Kattints a ceruza szereplő radír jelmezére. Most így kell kinéznie a játéktérnek:
+\--- task \---
 
-![képernyőkép](images/paint-eraser-stage.png) \--- /task \---
+Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
 
-\--- task \--- Add hozzá egy olyan kódot a radír szereplőhöz, hogy `küldjön egy 'radír' üzenetet`{:class="block3events"}, ha a radír szereplőre kattintanak.
+![screenshot](images/paint-eraser-stage.png)
 
-![radír](images/eraser.png)
+\--- /task \---
+
+\--- task \---
+
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+
+![eraser](images/eraser.png)
 
 ```blocks3
 ezen szereplőre kattintáskor
@@ -42,11 +54,19 @@ küldj üzenetet: (radír v)
 
 \--- /task \---
 
-Amikor a ceruza szereplő megkapja a „radír” üzenetet, át kell változtatnia a jelmezét a radírra, és a színét fehérre, ami ugyanolyan színű, mint a játéktér!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
-\--- task \--- Add hozzá néhány kódot a radír funkció elkészítéséhez.
+\--- task \---
 
-\--- hints \--- \--- hint \--- Add hozzá ezeket a kódokat a ceruza szereplőhöz: `radír üzenet érkezésekor`{:class="block3events"} `a jelmez legyen`{:class="block3looks"} a radír `a toll színe`{:class="block3extensions"} fehér \--- /hint \--- \--- hint \--- Ezekre a kódblokkokra lesz szükséged:
+Add some code to create the eraser.
+
+\--- hints \--- \--- hint \---
+
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+
+\--- /hint \--- \--- hint \---
+
+Here are all the blocks you need:
 
 ```blocks3
 toll színe legyen [#FFFFFF]
@@ -56,7 +76,11 @@ toll színe legyen [#FFFFFF]
 jelmez legyen (radír v)
 ```
 
-\--- /hint \--- \--- hint \--- Így kell kinéznie a kódodnak: ![ceruza](images/pencil.png)
+\--- /hint \--- \--- hint \---
+
+Here is what the code should look like:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 [radír v] üzenet érkezésekor
@@ -66,17 +90,23 @@ toll színe legyen [#FFFFFF]
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
-\--- task \--- Teszteld a projekted, győződj meg arról, hogy tudod törölni a teljes játékteret és működik a radír is.
+\--- task \---
 
-![képernyőkép](images/paint-erase-test.png) \--- /task \---
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-Van még egy probléma a ceruzával: bárhova lehet rajzolni, beleértve a "törlés" és a radírgombokat is!
+![screenshot](images/paint-erase-test.png)
 
-![képernyőkép](images/paint-draw-problem.png)
+\--- /task \---
 
-\--- feladat \--- Ennek kijavításához változtasd meg a kódot úgy, hogy a ceruza/radír csak akkor fogjon, ha kattintasz **és** az egérmutató `y` helyzete nagyobb, mint `-120`:
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![ceruza](images/pencil.png)
+![screenshot](images/paint-draw-problem.png)
+
+\--- task \---
+
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 ⚑ -ra kattintáskor
@@ -94,6 +124,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Teszteld a projekted. Most már nem tudsz a gombok közelében rajzolni.
+\--- task \---
 
-![képernyőkép](images/paint-fixed.png) \--- /task \---
+Test your project. You now should not be able to draw near the buttons.
+
+![screenshot](images/paint-fixed.png)
+
+\--- /task \---
