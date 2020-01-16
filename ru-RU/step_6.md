@@ -2,11 +2,17 @@
 
 Теперь попробуй добавить код, позволяющий человеку, использующему твою программу, рисовать что-либо с разной шириной пера.
 
-\--- task \--- Сначала добавь новую переменную с именем `ширина`{: class = "block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Добавь эту строку **внутри** цикла `повторять всегда`{: class = "block3control"} в коде спрайта карандаша:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 когда щёлкнут по зелёному флагу
@@ -26,16 +32,24 @@ end
 
 \--- /task \---
 
-Ширина пера теперь каждый раз устанавливается равной значению переменной `ширина`{: class = "block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Щелкни правой кнопкой мыши по переменной `ширина`{: class = "block3variables"}, отображаемой на сцене, а затем нажми **рычажок**.
+\--- task \---
 
-![снимок экрана](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Теперь ты можешь перетащить рычажок, который виден под переменной, чтобы изменить её значение.
+![screenshot](images/paint-slider.png)
 
-![снимок экрана](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Протестируй свой проект и проверь, сможешь ли ты добавить код для настройки ширины пера.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![снимок экрана](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
