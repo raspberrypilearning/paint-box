@@ -2,11 +2,17 @@
 
 Järgmisena lisate koodi, mis võimaldab teie programmi kasutaval isikul joonistada asju erinevate pliiatsi laiustega.
 
-\--- ülesanne \--- Esmalt lisage uus muutuja nimega `width`{: class = "block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- / ülesanne \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- ülesande \--- Lisage see liin **sees** `igavesti`{: class = "block3control"} lingu pliiatsi sprite koodis:
+[[[generic-scratch3-add-variable]]]
+
+\--- / ülesanne \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 kui lipu klõpsamine
@@ -25,16 +31,24 @@ otsa
 
 \--- / ülesanne \---
 
-Pliiasi laius on nüüd korduvalt seatud `muutuja`{: class = "block3variables" väärtusele.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- ülesanne \--- Paremklikkige laval `laius`{: class = "block3variables"}, mis on kuvatud laval, ja seejärel klõpsake **liugurit**.
+\--- task \---
 
-![ekraanipilt](images/paint-slider.png) \--- / ülesanne \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Muutuja väärtuse muutmiseks saate nüüd muuta muutuja all nähtavat liugurit.
+![screenshot](images/paint-slider.png)
 
-![ekraanipilt](images/paint-slider-change.png)
+\--- /task \---
 
-\--- ülesanne - Testige oma projekti ja vaadake, kas saate lisada pliiatsi laiuse reguleerimiseks koodi.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![ekraanipilt](images/paint-width-test.png) \--- / ülesanne \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
