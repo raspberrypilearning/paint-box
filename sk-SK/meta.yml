@@ -4,24 +4,24 @@ hero_image: images/banner.png
 listed: true
 copyedit: false
 description: V tomto projekte si vytvoríš svoj vlastný program na kreslenie!
-version: 3
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - 
-    title: Skicár
+    title: Úvod
   - 
-    title: Make a pencil
+    title: Vytvorenie ceruzky
   - 
-    title: Coloured pencils
+    title: Farebné ceruzky
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Výzva: viac ceruziek'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Mazanie a gumovanie
   - 
-    title: Change the pencil width
+    title: Zmena hrúbky ceruzky
   - 
-    title: 'Challenge: more pencils'
+    title: 'Výzva: klávesové skratky'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Čo ďalej?'
