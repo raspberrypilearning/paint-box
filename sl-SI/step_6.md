@@ -1,12 +1,18 @@
 ## Spremeni širino pisala
 
-Zdaj boš dodal kodo, ki omogoča osebi, ki uporablja tvoj program, da riše s pisali različnih debelin.
+Dodaj kodo, ki omogoča osebi, ki uporablja tvoj program, da riše s pisali različnih debelin.
 
-\--- task \--- Najprej dodaj novo spremenljjivko z imenom `širina`{:class="block3variables"}.
+\--- task \---
 
-[[[generic-scratch3-add-variable]]] \--- /task \---
+First, add a new variable called `width`{:class="block3variables"}.
 
-\--- task \--- Dodaj to vrstico **znotraj** zanke `ponavljaj`{:class="block3control"}, v kodo figure svinčnika:
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
 ko kliknemo na zastavico
@@ -25,16 +31,24 @@ konec
 
 \--- /task \---
 
-Širina peresa se sedaj ponavljajoče nastavlja na vrednost spremenljivke `širina`{:class="block3variables"}.
+The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
-\--- task \--- Z desno tipko klikni na spremenljivko `širina`{:class="block3variables"}, ki je prikazana na odru in nato klikni na **drsnik**.
+\--- task \---
 
-![posnetek zaslona](images/paint-slider.png) \--- /task \---
+Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
 
-Zdaj lahko premikaš drsnik pod spremenljivko in s tem spreminjaš vrednost spremenljivke.
+![screenshot](images/paint-slider.png)
 
-![posnetek zaslona](images/paint-slider-change.png)
+\--- /task \---
 
-\--- task \--- Preizkusi svoj projekt, da vidiš ali lahko dodaš kodo, ki spreminja širino pisala.
+You can now drag the slider that is visible below the variable to change the variable's value.
 
-![posnetek zaslona](images/paint-width-test.png) \--- /task \---
+![screenshot](images/paint-slider-change.png)
+
+\--- task \---
+
+Test your project and see if you can add code to adjust the pen width.
+
+![screenshot](images/paint-width-test.png)
+
+\--- /task \---
