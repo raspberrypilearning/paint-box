@@ -13,10 +13,12 @@ Nu je het project 'Paint box' hebt voltooid, probeer eens [het 'Boot race' proje
 ![boat race demo](images/boat_race_demo.png) 
 --- /print-only ---
 
+***
 
-**Door de community geleverde vertaling**
+Dit project werd vertaald door vrijwilligers:
 
-Dit project werd vertaald door **Cor Groot** en gecontroleerd door **Robert-Jan Kempenaar**.
+Cor Groot
 
-Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op rpf.io/translators.
+Robert-Jan Kempenaar
 
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
