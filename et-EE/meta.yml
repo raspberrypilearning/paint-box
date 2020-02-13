@@ -1,27 +1,27 @@
 ---
-title: Värvikast
-hero_image: images / banner.png
+title: Paint box
+hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Tehke oma värviprogramm
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Sissejuhatus
+    title: Introduction
   - 
-    title: Tee pliiats
+    title: Make a pencil
   - 
-    title: Värvilised pliiatsid
+    title: Coloured pencils
   - 
-    title: 'Väljakutse: otseteed'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: Võta vead tagasi
+    title: Undo mistakes
   - 
-    title: Muuda pliiatsilaiust
+    title: Change the pencil width
   - 
-    title: 'Väljakutse: rohkem pliiatsid'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
