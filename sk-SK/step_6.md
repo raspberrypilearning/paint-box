@@ -1,6 +1,6 @@
-## Zmena hrúbky ceruzky
+## Change the pen width
 
-Teraz pridáš scenár, ktorý umožní osobe používajúcej tvoj projekt kresliť čiary s rôznou hrúbkou ceruzky.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -15,18 +15,17 @@ First, add a new variable called `width`{:class="block3variables"}.
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-pri kliknutí na ⚑
-zmaž
-zmeň kostým na (ceruzka-modrá v)
-nastav farbu pera na [#0035FF]
-opakuj stále 
-  skoč na (myš v)
- +nastav hrúbku pera na (hrúbka :: variables)
-  ak <<stlačené tlačidlo myši?> a <(myš y) > [-120]>> 
-    pero zapni
-  inak 
-    pero vypni
-  end
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 
