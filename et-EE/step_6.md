@@ -1,6 +1,6 @@
-## Muutke pliiatsi laiust
+## Change the pen width
 
-Järgmisena lisate koodi, mis võimaldab teie programmi kasutaval isikul joonistada asju erinevate pliiatsi laiustega.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -8,28 +8,28 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / ülesanne \---
+\--- /task \---
 
 \--- task \---
 
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-kui lipu klõpsamine
-kustutab kõik
-lüliti kostüümi (pliiats-sinine v)
-seadke pliiatsivärviks [# 0035FF]
-igavesti
-minge (hiirekursor v)
-+ seadke pliiatsi suurus (laius :: muutujad)
-kui <<mouse down?> ja <(hiir y) > [-120]>> siis 
-  pensüstelit alla
-  teist
-  pensüstelit kuni
-otsa
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
-\--- / ülesanne \---
+\--- /task \---
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
