@@ -1,6 +1,6 @@
-## Lápices de colores
+## Coloured pencils
 
-Ahora vas a añadir diferentes lápices de colores a tu proyecto y permitir que el usuario elija entre los mismos.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
@@ -49,8 +49,8 @@ Add some code to the 'green' sprite so that when this sprite is clicked, it `bro
 ![green square](images/green_square.png)
 
 ```blocks3
-cuando se haga clic en este objeto
-enviar (verde v)
+when this sprite clicked
+broadcast (green v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Switch to your pencil sprite. Add some code so that when this sprite receives th
 ![pencil](images/pencil.png)
 
 ```blocks3
-cuando recibo [verde v]
-cambiar el disfraz a (lápiz-verde v)
-fijar el color del marcador a [#00C44]
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
@@ -84,8 +84,8 @@ Click on the blue square sprite and add this code:
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-cuando se hace clic en este objeto
-enviar (azul v)
+when this sprite clicked
+broadcast (blue v)
 ```
 
 Then click on the pencil sprite and add this code:
@@ -93,9 +93,9 @@ Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
 
 ```blocks3
-cuando recibo [azul v]
-cambiar disfraz a (lápiz-azul v)
-fijar color del marcador a [#0000ff]
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
 ```
 
 \--- /task \---
@@ -107,17 +107,17 @@ Finally, add this code to tell the pencil sprite which colour to start with, and
 ![pencil](images/pencil.png)
 
 ```blocks3
-cuando se haga clic en la bandera
-+borrar todo
-+cambiar disfraz a (lápiz-azul v)
-+fijar color del marcador a [#0035FF]
-siempre
-ir a (cursor del ratón v)
-if<mouse down?>then
-marcador abajo
-o 
-marcador arriba
-fin
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
