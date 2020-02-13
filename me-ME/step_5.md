@@ -1,4 +1,4 @@
-## Greške
+## Undo mistakes
 
 Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
