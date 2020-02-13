@@ -1,4 +1,4 @@
-\--- no imprimir \---
+\--- no-print \---
 
 Esta es la versión **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
@@ -33,8 +33,8 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## title: Lo que vas a aprender
 
-+ Agrega la extensión de lápiz en Scratch
-+ Usa difusiones para controlar un objeto en Scratch
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
