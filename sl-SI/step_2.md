@@ -1,6 +1,6 @@
-## Ustvari svinčnik
+## Make a pencil
 
-Začni z izdelavo svinčnika, ki ga lahko uporabiš za risanje po odru.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,10 +35,10 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-ko kliknemo na zastavico
-ponavljaj
-pojdi na (kazalcu miške v)
-konec
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
@@ -58,15 +58,15 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-ko kliknemo na zastavico
-ponavljaj
-  pojdi na (kazalcu miške v)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+ če <je miškin gumb pritsnjen?> potem
-  spusti pero
-  sicer
-  dvigni pero
-konec
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: Ali tvoj svinčnik ne riše s konico?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
