@@ -6,23 +6,23 @@ Vamos começar por criar um lápis que possa ser usado para desenhar no palco.
 
 Open the 'Paint box' Scratch starter project.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online:** abre o projeto Scratch inicial em [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: Abre o [projecto inicial](http://rpf.io/p/en/paint-box-go){:target="_blank"} no editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+No projeto inicial, você deve ver os atores lápis e borracha:
 
-![screenshot](images/paint-starter.png)
+![captura de ecrã](images/paint-starter.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Adiciona a extensão de caneta ao teu projeto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,9 +30,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Adiciona código ao actor lápis para que ele siga o rato ` para sempre ` {: class = "blockcontrol"} para que possas desenhar:
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -49,13 +49,13 @@ Click the flag and then move the mouse pointer around the Stage to test whether 
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Agora, vamos fazer o teu lápis apenas desenhar ` se ` {: class = "blockcontrol"} o rato for clicado.
 
 \--- task \---
 
-Add this code to your pencil sprite:
+Adiciona este código ao teu actor lápis:
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -73,9 +73,9 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+Testa o teu código outra vez. Desta vez, move o lápis ao redor do palco enquanto clicas o botão do rato. Consegues desenhar com o teu lápis?
 
-![screenshot](images/paint-draw.png)
+![captura de ecrã](images/paint-draw.png)
 
 \--- /task \---
 
@@ -83,14 +83,14 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## title: O teu lápis não desenha com a ponta?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Se a linha que o teu lápis desenha parecer vir do meio do lápis, vais ter que alterar o ator lápis para que a ponta seja o centro do ator.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Clica no ator lápis e a seguir clica na aba dos ** Trajes **.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Move a roupa para que a ponta do lápis fique ** logo acima ** do Centro.
 
-![Costume center](images/costume-center-annotated.png)
+![Centro de trajes](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Agora move o lápis no Palco e desenha. O lápis deve agora desenhar uma linha a partir da ponta.
 
 \--- /collapse \---
