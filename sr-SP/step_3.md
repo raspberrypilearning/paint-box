@@ -1,6 +1,6 @@
-## Бојице
+## Coloured pencils
 
-Сада ћеш у свој пројекат додати бојице различитих боја и омогућити кориснику да изабере ону коју жели.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
@@ -49,8 +49,8 @@ Add some code to the 'green' sprite so that when this sprite is clicked, it `bro
 ![green square](images/green_square.png)
 
 ```blocks3
-када је кликнуто на овај лик
-разгласи (зелена v)
+when this sprite clicked
+broadcast (green v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Switch to your pencil sprite. Add some code so that when this sprite receives th
 ![pencil](images/pencil.png)
 
 ```blocks3
-када примим [зелена v]
-замени костим са (бојица-зелена v)
-нека боја оловке буде [#00CC44]
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
@@ -84,8 +84,8 @@ Click on the blue square sprite and add this code:
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-када је кликнуто на овај лик
-разгласи (плава v)
+when this sprite clicked
+broadcast (blue v)
 ```
 
 Then click on the pencil sprite and add this code:
@@ -93,9 +93,9 @@ Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
 
 ```blocks3
-када примим [плава v]
-замени костим са (бојица-плава v)
-нека боја оловке буде [#0000ff]
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
 ```
 
 \--- /task \---
@@ -107,17 +107,16 @@ Finally, add this code to tell the pencil sprite which colour to start with, and
 ![pencil](images/pencil.png)
 
 ```blocks3
-када је кликнуто на ⚑
-+обриши све
-+замени костим са (бојица-плава v)
-+нека боја оловке буде [#0035FF]
-понављај заувек
-  иди до (показивач миша v)
-  ако је <mouse down?> онда 
-    спусти оловку
-  у супротном 
-    подигни оловку
-  end
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 
