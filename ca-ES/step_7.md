@@ -1,10 +1,10 @@
-## Desafiament: ordres del teclat
+## Challenge: keyboard commands
 
-Podeu afegir codi de manera que, en comptes de fer clic als quadres o botons de colors de l’escenari, podeu passar les coses prement les tecles del teclat? Per exemple:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-+ <kbd>b</kbd> = Canvia al llapis blau
-+ <kbd>g</kbd> = canvia al llapis verd
-+ <kbd>e</kbd> = canvia a goma
-+ <kbd>c</kbd> = pantalla neta
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-Si ho desitgeu, també podeu afegir codi de manera que si premeu les tecles de fletxa canvieu l’amplada del llapis.
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
