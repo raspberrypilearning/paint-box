@@ -1,6 +1,6 @@
-## Bojice
+## Coloured pencils
 
-Sada ćete u svoj projekt dodati olovke u različitim bojama i korisniku omogućiti da bira između njih.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
