@@ -1,10 +1,10 @@
-## Challenge: klavye komutları
+## Challenge: keyboard commands
 
-Sahne Alanı'ndaki renkli karelere veya düğmelere tıklamak yerine, klavye tuşlarına basarak işleri başarabilmeniz için kod ekleyebilir misiniz? Örneğin:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-+ <kbd>b</kbd> = Mavi kaleme geç
-+ <kbd>y</kbd> = yeşil kaleme geç
-+ <kbd>s</kbd> = silgiye geç
-+ <kbd>e</kbd> = ekranı temizle
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-İsterseniz, klavye üzerindeki ok tuşlarına basarak, kalem genişliğini değiştiren bir kod ekleyebilirsiniz.
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
