@@ -4,7 +4,7 @@ Vervolgens kun je code toevoegen om de persoon die jouw programma gebruikt, toe 
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+Voeg eerst een nieuwe variabele toe met de naam `breedte`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Voeg deze regel **binnen** de `herhaal`{:class="block3control"} lus van de code van de potlood sprint toe:
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -31,23 +31,23 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+De pendikte wordt nu herhaaldelijk ingesteld op de waarde van de `breedte`{:class="block3variables"} variabele.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Klik met de rechtermuisknop op de `breedte`{:class="block3variables"} variabele weergegeven in het speelveld en klik vervolgens op **schuif**.
 
 ![screenshot](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Je kunt nu de schuifregelaar onder de variabele verslepen om de waarde te wijzigen.
 
 ![screenshot](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Test je project en kijk of je de penbreedte kunt aanpassen.
 
 ![screenshot](images/paint-width-test.png)
 
