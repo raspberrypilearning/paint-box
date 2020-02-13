@@ -1,6 +1,6 @@
 ## Cometiendo errores
 
-A veces se comenten errores, así que añade un botón 'limpiar' y un botón borrador.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -19,8 +19,8 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 
 ```blocks3
-cuando se hace clic en este objeto
-borrar todo
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -48,8 +48,8 @@ Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3even
 ![eraser](images/eraser.png)
 
 ```blocks3
-cuando se hace clic en este objeto
-enviar (borrador v)
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -69,10 +69,10 @@ Add some code to the pencil sprite: `When I receive`{:class="block3events"} the 
 Here are all the blocks you need:
 
 ```blocks3
-fijar el color del marcador a [#FFFFFF]
-cuando reciba [borrador v]
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-cambia el disfraz a (borrador v)
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -82,9 +82,9 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 
 ```blocks3
-cuando reciba [borrador v]
-cambia disfraz a (borrador v)
-fija el color del marcador a [#FFFFFF]
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -108,17 +108,17 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 
 ```blocks3
-cuando se haga clic en la bandera
-borrar todo
-cambia disfraz a (lápiz-azul v)
-fijar el color del marcador a [#0035FF]
-siempre
-ir a (cursor del ratón v)
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
 +if <<mouse down?> and <(mouse y) > [-120]>> then 
-marcador abajo
-o
-marcador arriba
-fin
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
