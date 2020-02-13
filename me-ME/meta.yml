@@ -1,27 +1,27 @@
 ---
-title: Kutija sa bojama
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Napravi sopstveni program za crtanje
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Šta će ti biti potrebno
+    title: Make a pencil
   - 
-    title: Olovke u bojama
+    title: Coloured pencils
   - 
-    title: 'Izazov: prečice'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: Greške
+    title: Undo mistakes
   - 
-    title: Promjena debljine olovke
+    title: Change the pencil width
   - 
-    title: 'Izazov: više olovaka'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
-    title: 'Izazov: više olovaka'
+    title: 'What next?'
