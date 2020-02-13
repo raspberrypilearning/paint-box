@@ -1,6 +1,6 @@
-## पेंसिल की चौड़ाई में परिवर्तन करना
+## Undo mistakes
 
-कभी-कभी गलती हो जाती है, तो चलिए अपने प्रोजेक्ट में 'साफ़ करें' बटन और रबड़ जोड़ें!
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
