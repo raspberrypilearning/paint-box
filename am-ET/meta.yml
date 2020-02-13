@@ -1,27 +1,27 @@
 ---
-title: የሣጥን ሳጥን
-hero_image: images / banner.png
+title: Paint box
+hero_image: images/banner.png
 listed: true
 copyedit: false
-description: የራስዎ ቀለም ፕሮግራም ይስሩ
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: መግቢያ
+    title: Introduction
   - 
-    title: እርሳስ ስራ
+    title: Make a pencil
   - 
-    title: የተቀረጹ እርሳሶች
+    title: Coloured pencils
   - 
-    title: 'ተፈታታኝ: አቋራጮች'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: ስህተቶችን ቀልብስ
+    title: Undo mistakes
   - 
-    title: የእርሳስ ስሩትን ይቀይሩ
+    title: Change the pencil width
   - 
-    title: 'ፈተና: ተጨማሪ እርሳሶች'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
