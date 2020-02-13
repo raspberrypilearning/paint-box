@@ -1,12 +1,12 @@
-\--- नो-प्रिंट \---
+\--- no-print \---
 
-हे प्रोजेक्टचे **स्क्रॅच 3** आवृत्ती आहे. एक देखील आहे [ओरखडा 2 प्रकल्प आवृत्ती](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\--- / नाही-प्रिंट \---
+\--- /no-print \---
 
 ## परिचय
 
-आपले स्वतःचे पेंट प्रोग्राम बनवा!
+Make your own paint program!
 
 ### आपण काय तयार करणार
 
@@ -29,9 +29,9 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 \--- /print-only \---
 
-## \--- पडणे \---
+## \--- collapse \---
 
-## शीर्षकः आपण काय शिकलात
+## title: What you will learn
 
 + Add the pen extension in Scratch
 + Use broadcasts to control a sprite in Scratch
@@ -39,27 +39,27 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 \--- /collapse \---
 
-## \--- पडणे \---
+## \--- collapse \---
 
-## शीर्षकः आपल्याला काय हवे आहे
+## title: What you will need
 
-### हार्डवेअर
+### Hardware
 
-+ स्क्रॅच 3 चालवण्यास सक्षम असलेले संगणक
++ A computer capable of running Scratch 3
 
-### सॉफ्टवेअर
+### Software
 
-+ स्क्रॅच 3 (एकतर [ऑनलाइन](http://rpf.io/scratchon){: लक्ष्य = "_ रिक्त"} किंवा [ऑफलाइन](http://rpf.io/scratchoff){: लक्ष्य = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### डाउनलोड्स
+### Downloads
 
-+ [ऑफलाइन स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/paint-box-go){: लक्ष्य = "_ रिक्त"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
-## \--- पडणे \---
+## \--- collapse \---
 
-## शीर्षक: शिक्षकांसाठी अतिरिक्त माहिती
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
