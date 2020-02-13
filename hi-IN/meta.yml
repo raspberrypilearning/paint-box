@@ -1,27 +1,27 @@
 ---
-title: पेंट बॉक्स
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: अपना स्वयं का पेंट प्रोजेक्ट बनाना सीखें।
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: पेंसिल बनाना
+    title: Make a pencil
   - 
-    title: रंगीन पेंसिलें
+    title: Coloured pencils
   - 
-    title: 'चुनौती: शॉर्टकट्स'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: पेंसिल की चौड़ाई में परिवर्तन करना
+    title: Undo mistakes
   - 
-    title: 'चुनौती: शॉर्टकट्स'
+    title: Change the pencil width
   - 
-    title: 'चुनौती: अधिक पेंसिल'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
