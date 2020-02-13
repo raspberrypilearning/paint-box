@@ -1,6 +1,6 @@
-## Thay đổi chiều rộng bút
+## Change the pen width
 
-Tiếp theo, bạn sẽ thêm mã để cho phép người sử dụng chương trình của bạn vẽ những thứ có độ rộng bút khác nhau.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -8,28 +8,28 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-khi cờ nhấp
-xóa tất cả
-trang phục chuyển sang (bút chì màu xanh v)
-đặt màu bút thành [# 0035FF]
-mãi mãi
-đi tới (con trỏ chuột v)
-+ đặt kích thước bút thành (width :: biến)
-nếu <<mouse down?> và <(chuột y) > [-120]>> rồi 
-  bút xuống
-  khác
-  bút lên
-kết thúc
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
-\--- /bài tập \---
+\--- /task \---
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
