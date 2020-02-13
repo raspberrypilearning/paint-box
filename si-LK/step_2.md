@@ -1,6 +1,6 @@
-## පැන්සලක් සෑදීම
+## Make a pencil
 
-වේදිකාව(stage එක) මත ඇඳීමට භාවිතා කළ හැකි පැන්සලක් සෑදීමෙන් ආරම්භ කරමු.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -65,7 +65,7 @@ forever
 + if <mouse down?> then
   pen down
   else
-  pen up 
+  pen up
 end
 ```
 
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: ඔබේ පැන්සල ඇදීම සිදුකරන්නේ එහි තුඩෙන්(tip) නොවේද?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
