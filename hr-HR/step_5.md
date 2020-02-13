@@ -1,6 +1,6 @@
-## Poništi pogreške
+## Undo mistakes
 
-Ponekad se dogode pogreške, pa dodajte gumb za 'čišćenje' i gumbu za brisanje.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
