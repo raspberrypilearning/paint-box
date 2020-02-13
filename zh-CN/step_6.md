@@ -1,6 +1,6 @@
-## 更改笔宽
+## Change the pen width
 
-接下来，您将添加代码以允许使用您的程序的人绘制具有不同笔宽的内容。
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -8,7 +8,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /任务\---
+\--- /task \---
 
 \--- task \---
 
@@ -29,7 +29,7 @@ if <<mouse down?> and <(mouse y) > [-120]>> then
 end
 ```
 
-\--- /任务\---
+\--- /task \---
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
