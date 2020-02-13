@@ -1,27 +1,27 @@
 ---
-title: Kutija za boju
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: U ovom ćeš projektu izraditi vlastiti program za bojanje
+description: Make your own paint program
 version: 4.1.0
-last_tested: 2018-30-01
+last_tested: 2018-11-30
 steps:
   - 
-    title: Sretan rođendan
+    title: Introduction
   - 
-    title: Napravite olovku
+    title: Make a pencil
   - 
-    title: Bojice
+    title: Coloured pencils
   - 
-    title: 'Izazov: prečice'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: Poništi pogreške
+    title: Undo mistakes
   - 
-    title: Promijenite širinu olovke
+    title: Change the pencil width
   - 
-    title: 'Izazov: više olovaka'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
-    title: 'Što dalje?'
+    title: 'What next?'
