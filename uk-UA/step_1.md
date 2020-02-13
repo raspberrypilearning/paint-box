@@ -31,7 +31,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Що ви вивчите
+## title: What you will learn
 
 + Add the pen extension in Scratch
 + Use broadcasts to control a sprite in Scratch
@@ -41,7 +41,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Що вам знадобиться
+## title: What you will need
 
 ### Обладнання
 
@@ -51,7 +51,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Завантаження
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
