@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 Make your own paint program!
 
-### നിങ്ങൾ എന്ത് ഉണ്ടാക്കും
+### What you will make
 
 \--- no-print \---
 
