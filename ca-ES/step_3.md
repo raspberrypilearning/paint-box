@@ -1,6 +1,6 @@
-## Llapis de colors
+## Coloured pencils
 
-Ara afegirem llapis de colors diferents al vostre projecte i permetreu que l'usuari esculli entre ells.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
@@ -49,8 +49,8 @@ Add some code to the 'green' sprite so that when this sprite is clicked, it `bro
 ![green square](images/green_square.png)
 
 ```blocks3
-quan aquest sprite va fer clic en
-difusió (verd v)
+when this sprite clicked
+broadcast (green v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Switch to your pencil sprite. Add some code so that when this sprite receives th
 ![pencil](images/pencil.png)
 
 ```blocks3
-quan rebo [v v]
-canvi de vestit a (llapis-verd v)
-establir color de llapis a [# 00CC44]
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
@@ -84,8 +84,8 @@ Click on the blue square sprite and add this code:
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-quan aquest sprite va fer clic en
-emissió (v blau)
+when this sprite clicked
+broadcast (blue v)
 ```
 
 Then click on the pencil sprite and add this code:
@@ -93,9 +93,9 @@ Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
 
 ```blocks3
-quan rebo [v blau] canvia el vestit de
-a (llapis blau v)
-configureu el color del llapis a [# 0000ff]
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
 ```
 
 \--- /task \---
@@ -107,17 +107,17 @@ Finally, add this code to tell the pencil sprite which colour to start with, and
 ![pencil](images/pencil.png)
 
 ```blocks3
-quan pressionar la bandera
-+ esborrar tot
-+ commutador de vestuari a (v llapis blau)
-+ set color del llapis a [# 0035FF]
-per sempre
-  Anar a (punter v ratolí)
-si <mouse down?> a continuació,
-  ploma
-  persona
-  ploma de dalt
-final
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
