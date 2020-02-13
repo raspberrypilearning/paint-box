@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Toto je verzia projektu pre **Scratch 3**. K dispozícii je tiež verzia projektu pre [Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## Úvod
+## Introduction
 
-Vytvor si svoj vlastný program na kreslenie!
+Make your own paint program!
 
-### Čo vytvoríš
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Čo sa naučíš
+## title: What you will learn
 
-+ Pridať rozšírenie pero
-+ Používať vysielanie správ na ovládanie postáv
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Čo budeš potrebovať
+## title: What you will need
 
-### Hardvér
+### Hardware
 
-+ Počítač, na ktorom je možné spustiť aplikáciu Scratch 3
++ A computer capable of running Scratch 3
 
-### Softvér
+### Software
 
-+ Scratch 3 (buď [online](http://rpf.io/scratchon){:target="_blank"} alebo [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Súbory na stiahnutie
+### Downloads
 
-+ [Offline štartovací projekt](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Doplňujúce informácie pre vyučujúcich
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
