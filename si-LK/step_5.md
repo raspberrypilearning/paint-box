@@ -1,6 +1,6 @@
-## වැරදි(mistakes) නිවැරදි(undo) කිරීම
+## Undo mistakes
 
-සමහර විට වැරදීම් සිදු වේ, එබැවින් 'අස්කරන්න'('clear') බොත්තමක්(button එකක්) සහ මකන්න(eraser) බොත්තමක් එක් කරන්න.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -114,7 +114,7 @@ switch costume to (pencil-blue v)
 set pen color to [#0035FF]
 forever
   go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then
++if <<mouse down?> and <(mouse y) > [-120]>> then 
   pen down
   else
   pen up
