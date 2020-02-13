@@ -1,6 +1,6 @@
-## 間違いを元に戻す
+## Undo mistakes
 
-時々起きる間違いのために、「クリア」ボタンと消しゴムボタンを追加します。
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -19,8 +19,8 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 
 ```blocks3
-このスプライトが押されたとき
-全部消す
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -48,8 +48,8 @@ Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3even
 ![eraser](images/eraser.png)
 
 ```blocks3
-このスプライトが押されたとき
-(消しゴム v) を送る
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -69,10 +69,10 @@ Add some code to the pencil sprite: `When I receive`{:class="block3events"} the 
 Here are all the blocks you need:
 
 ```blocks3
-ペンの色を [#FFFFFF] にする
-[消しゴム v] を受け取ったとき
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-コスチュームを (消しゴム v) にする
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -82,9 +82,9 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 
 ```blocks3
-[消しゴム v] を受け取ったとき
-コスチュームを (消しゴム v) にする
-ペンの色を [#FFFFFF] にする
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -108,17 +108,16 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 
 ```blocks3
-⚑ が押されたとき
-全部消す
-コスチュームを (鉛筆-青 v) にする
-ペンの色を [#0035FF] にする
-ずっと 
-  (マウスのポインター v) へ行く
-  +もし <<mouse down?> かつ <(マウスのy座標) > [-120]>> なら 
-    ペンを下ろす
-  でなければ 
-    ペンを上げる
-  end
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 
