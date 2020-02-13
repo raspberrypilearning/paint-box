@@ -1,6 +1,6 @@
-## Promijenite širinu olovke
+## Change the pen width
 
-Zatim ćete dodati kôd kako biste omogućili osobi koja koristi vaš program da crta stvari različite širine olovke.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
