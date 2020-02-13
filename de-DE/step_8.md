@@ -1,18 +1,27 @@
---- challenge ---
+## Wie geht es weiter?
 
-## Zusatzaufgabe: mehr Stifte
+Nachdem du das Projekt "Malkasten" fertiggestellt hast, könntest du das Projekt [Bootsrennen](https://projects.raspberrypi.org/de-DE/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) versuchen. Dabei machst du ein Spiel, bei dem du ein Boot durch Hindernisse steuern musst.
 
-Kannst du rote, gelbe und schwarze Stifte zu deinem Mal-Programm hinzufügen? Sieh nochmals bei Schritt 2 nach, wenn du vergessen hast, wie das geht. Vergiss nicht, für diese neuen Farbstifte ebenfalls Tastenkürzel anzulegen.
+--- no-print ---
 
-Kannst du mit deinen Stiften ein Bild malen?
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/333254274/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/boat_race_demo.png">
+</div>
 
-![screenshot](images/paint-final.png)
+--- /no-print ---
 
---- /challenge ---
+--- print-only ---
+
+![Bootsrennen Demo](images/boat_race_demo.png)
+
+--- /print-only ---
+
 
 ***
-
 Dieses Projekt wurde von freiwilligen Helfern übersetzt:
+
+Holger Wittmann
 
 Karl Schuh
 
