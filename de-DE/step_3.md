@@ -109,7 +109,7 @@ Zum Schluss fügst du noch Code ein, um der Bleistift Figur zu sagen mit welcher
 ```blocks3
 Wenn die grüne Flagge angeklickt
 +lösche alles
-+wechsle zu Kostüm (Buntstift-blau v)
++wechsle zu Kostüm (Stift-blau v)
 +setze Stiftfarbe auf [#0035FF]
 wiederhole fortlaufend 
   gehe zu (Mauszeiger v)
