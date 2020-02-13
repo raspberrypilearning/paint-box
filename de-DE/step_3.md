@@ -4,23 +4,23 @@ Laß uns deinem Projekt verschiedene Buntstifte hinzufügen, die der Anwender an
 
 \--- task \---
 
-Rename the `pencil` sprite to `pencil-blue`
+Ändere den Namen des `Buntstift-` Kostüms zu `Stift-blau`
 
-![rename-pencil](images/rename-pencil.png)
-
-\--- /task \---
-
-\--- task \---
-
-Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
-
-![screenshot](images/paint-blue-duplicate.png)
+![Buntstift-umbenennen](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Name the new costume 'pencil-green', and colour the pencil green.
+Klicke mit der rechten Maustaste im Reiter Kostüme auf das Stift-blau-Kostüm und dupliziere es.
+
+![Screenshot](images/paint-blue-duplicate.png)
+
+\--- /task \---
+
+\--- task \---
+
+Ändere den Namen des neuen Kostüms in 'Stift-grün' und färbe den Buntstift grün.
 
 ![screenshot](images/paint-pencil-green.png)
 
@@ -28,15 +28,15 @@ Name the new costume 'pencil-green', and colour the pencil green.
 
 \--- task \---
 
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+Zeichne zwei neue Figuren: ein blaues Quadrat und ein grünes Quadrat. Diese sind für die Auswahl einer Malfarbe für den dem blauen oder grünen Buntstift.
 
-![screenshot](images/paint-selectors.png)
+![Screenshot](images/paint-selectors.png)
 
 \--- /task \---
 
 \--- task \---
 
-Rename the new sprites so that they are called 'blue' and 'green'
+Ändere den Namen der neuen Figuren, so dass diese 'blau' und 'grün' heißen
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,9 +44,9 @@ Rename the new sprites so that they are called 'blue' and 'green'
 
 \--- task \---
 
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+Füge nun Code zur ‘grün’-Figur hinzu, so dass sie, wenn sie geklickt wird, die Nachricht 'grün' `an alle sendet`{:class="block3events"}.
 
-![green square](images/green_square.png)
+![gruenes_Quadrat](images/green_square.png)
 
 ```blocks3
 when this sprite clicked
@@ -57,13 +57,13 @@ broadcast (grün v)
 
 \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Die Buntstift-Figur soll auf die 'grün' Nachricht hören und seine Kostüm-Farbe und Buntstift-Farbe entsprechend ändern.
 
 \--- task \---
 
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie die Nachricht `grün`{:class='blockevents':} empfängt, zum Kostum Buntstift-grün wechselt und die Stiftfarbe zu grün ändert.
 
-![pencil](images/pencil.png)
+![Buntstift](images/pencil.png)
 
 ```blocks3
 when I receive [grün v]
@@ -71,26 +71,26 @@ switch costume to (Stift-grün v)
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Feld in `setze Stiftfarbe auf`{:class="block3extensions"} an, und wähle die entsprechende Farbe aus.
 
 \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Nun kannst du das Gleiche machen, um den Buntstift auf blau zu schalten.
 
 \--- task \---
 
-Click on the blue square sprite and add this code:
+Klicke auf das blaue Quadrat und füge diesen Code hinzu:
 
-![blue_square](images/blue_square.png)
+![blaues_Quadrat](images/blue_square.png)
 
 ```blocks3
 when this sprite clicked
 broadcast (blau v)
 ```
 
-Then click on the pencil sprite and add this code:
+Anschließend klicke auf die Buntstift-Figur und füge diesen Code hinzu:
 
-![pencil](images/pencil.png)
+![Buntstift](images/pencil.png)
 
 ```blocks3
 when I receive [blau v]
@@ -102,9 +102,9 @@ set pen color to [#0000ff]
 
 \--- task \---
 
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+Zum Schluss fügst du noch Code ein, um der Bleistift Figur zu sagen mit welcher Farbe sei anfangen soll uns stell sicher, dass das Programm mit einem leeren Bildschirm beginnt.
 
-![pencil](images/pencil.png)
+![Buntstift](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -122,12 +122,12 @@ end
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Wir haben hier blau gewählt, aber du kannst mit jeder anderen Stiftfarbe beginnen, wenn du willst.
 
 \--- task \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+Teste deinen Code. Kannst du zwischen den blauen und grünen Buntstiften wechseln, indem du das blaue bzw. grüne Quadrat anklickst?
 
-![screenshot](images/paint-pens-test.png)
+![Screenshot](images/paint-pens-test.png)
 
 \--- /task \---
