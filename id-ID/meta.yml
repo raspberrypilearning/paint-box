@@ -1,5 +1,5 @@
 ---
-title: Kotak Lukis
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
@@ -10,18 +10,18 @@ steps:
   - 
     title: Pengantar
   - 
-    title: Apa yang kamu butuhkan
+    title: Make a pencil
   - 
     title: Pensil berwarna
   - 
     title: 'Tantangan: pintasan'
     challenge: true
   - 
-    title: Membuat kesalahan
+    title: Undo mistakes
   - 
-    title: Mengubah lebar pensil
+    title: Change the pencil width
   - 
     title: 'Tantangan: pensil tambahan'
     challenge: true
   - 
-    title: 'Tantangan: pensil tambahan'
+    title: 'What next?'
