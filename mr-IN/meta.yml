@@ -1,27 +1,27 @@
 ---
-title: पेंट बॉक्स
-hero_image: images / banner.png
+title: Paint box
+hero_image: images/banner.png
 listed: true
 copyedit: false
-description: आपला स्वतःचा पेंट प्रोग्राम बनवा
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: परिचय
+    title: Introduction
   - 
-    title: एक पेन्सिल बनवा
+    title: Make a pencil
   - 
-    title: रंगीत पेन्सिल
+    title: Coloured pencils
   - 
-    title: 'आव्हानः शॉर्टकट्स'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: चुका पूर्ववत करा
+    title: Undo mistakes
   - 
-    title: पेन्सिलची रुंदी बदला
+    title: Change the pencil width
   - 
-    title: 'आव्हानः अधिक पेन्सिल'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
