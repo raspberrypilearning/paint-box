@@ -1,6 +1,6 @@
-## Kalem genişliğini değiştirin
+## Change the pen width
 
-Sırada, programınızı kullanan kişinin nesneleri farklı kalem genişlikleriyle çizmesine izin veren kodu ekleyeceksiniz.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -15,18 +15,18 @@ First, add a new variable called `width`{:class="block3variables"}.
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-yeşil bayrak tıklandığında
-tümünü sil
-(mavi-kalem) kılığına geç
-kalem rengini [#0035FF] yap
-sürekli tekrarla 
-  (fare imleci) 'e git
-  kalem kalınlığını (genişlik) yap
-  eğer <<mouse down?> ve <(fare y) > [-120]>> ise 
-    kalemi bastır
-  değilse 
-    kalemi kaldır
- end
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
