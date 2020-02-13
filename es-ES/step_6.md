@@ -1,6 +1,6 @@
-## Cambiar el ancho del marcador
+## Change the pen width
 
-Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores de marcador.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -15,18 +15,18 @@ First, add a new variable called `width`{:class="block3variables"}.
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-cuando se hace clic en la bandera
-borrar todo
-cambiar disfraz a (lápiz-azul v)
-fijar color de marcador a [#0035FF]
-siempre
-ir a (cursor del ratón v)
-+ fijar grosor del marcador a (ancho:: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then
-marcador abajo
-o
-marcador arriba
-fin
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
