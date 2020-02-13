@@ -4,25 +4,25 @@ Beginnen wir mit einem Buntstift, mit dem wir auf der Bühne zeichnen können.
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+Öffne das Scratch-Projekt 'Malkasten'.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online:** Öffne das Projekt zum Starten [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: Öffne das [Start-Projekt](http://rpf.io/p/en/paint-box-go){:target="_blank"} im Offline-Editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, findest du es unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Im Start-Projekt solltest du eine Buntstift- und eine Radierer-Figur sehen:
 
-![screenshot](images/paint-starter.png)
+![Bildschirmfoto](images/paint-starter.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Hinzufügen der Erweiterung Malstift zu deinem Projekt.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,9 +30,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Füge dem Stift folgenden Code hinzu, damit er dem Mauszeiger `ständig`{:class="blockcontrol"} folgt und du mit ihm malen kannst:
 
-![pencil](images/pencil.png)
+![Buntstift](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -45,17 +45,17 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+Klicke auf die Flagge und bewege die Maus über die Bühne. Sieh, ob der Code richtig arbeitet.
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Als nächstes versuchen wir den Stift nur dann zeichnen zu lassen, `falls`{:class="blockcontrol"} die Maustaste gedrückt wird.
 
 \--- task \---
 
-Add this code to your pencil sprite:
+Füge diesen Code deiner Stift-Figur hinzu:
 
-![pencil](images/pencil.png)
+![Buntstift](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -73,9 +73,9 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+Teste deinen Code nochmals. Halte diesmal die Maustaste gedrückt, wenn du die Maus über die Bühne bewegst. Kannst du mit deinem Stift zeichnen?
 
-![screenshot](images/paint-draw.png)
+![Bildschirmfoto](images/paint-draw.png)
 
 \--- /task \---
 
@@ -83,14 +83,14 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## title: Zeichnet dein Buntstift nicht mit der Spitze?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Wenn dein Buntstift nicht mit der Spitze zu zeichnen scheint, sondern mit der Mitte, musst du den Buntstift im Kostüm verschieben.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Klicke auf dei Buntstift-Figur und anschließend auf den **Kostüme** Reiter.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Bewege das Kostüm so, dass die Spitze des Buntstifts **knapp über** dem Zentrum liegt.
 
-![Costume center](images/costume-center-annotated.png)
+![Kostüm-Mitte](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Bewege nun den Buntstift auf der Bühne und zeichne. Der Buntstift sollte jetzt eine Linie von seiner Spitze aus zeichnen.
 
 \--- /collapse \---
