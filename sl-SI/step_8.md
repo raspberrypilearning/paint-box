@@ -1,6 +1,6 @@
-## Kaj sledi?
+## What next?
 
-Sedaj, ko si končal projekt 'Barvice', preizkusi še projekt [Dirka s čolnom](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), ki ti pomaga ustvariti igro, v kateri moraš krmariti s čolnom okoli ovir.
+Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
 
 \--- no-print \---
 
