@@ -1,7 +1,7 @@
-## Väljakutse: rohkem pliiatsid
+## Challenge: more pencils
 
-Kas saate oma värviprogrammile lisada punased, kollased ja mustad pliiatsid? Vaadake varasemaid samme, kui soovite meeldetuletust selle kohta, kuidas seda teha.
+Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Kas te saate oma pliiatsid pildi tegemiseks kasutada?
+Can you use your pencils to draw a picture?
 
-![ekraanipilt](images/paint-final.png)
+![screenshot](images/paint-final.png)
