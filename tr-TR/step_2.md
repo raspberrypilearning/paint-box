@@ -1,6 +1,6 @@
-## Kalem yapmak
+## Make a pencil
 
-Sahne Alanı'nda çizim için kullanabileceğiniz bir kalem yaparak başlayın.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,9 +35,9 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-yeşil bayrak tıklandığında
-sürekli tekrarla 
-  (fare imleci) 'e git
+when flag clicked
+forever
+  go to (mouse pointer v)
 end
 ```
 
@@ -58,14 +58,14 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-yeşil bayrak tıklandığında
-sürekli tekrarla 
-  (fare imleci) 'e git
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-  eğer <mouse down?> ise 
-  kalemi bastır
-  değilse 
-  kalemi kaldır
++ if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: Kalemin ucundan çizmiyor mu?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
