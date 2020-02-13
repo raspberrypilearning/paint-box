@@ -1,6 +1,6 @@
-## पेंसिल बनाना
+## Make a pencil
 
-चलिए ऐसी पेंसिल बनाने से आंरभ करें, जिसे स्टेज पर चित्र बनाने के लिए उपयोग किया जा सकता है।
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: क्या आपकी पेंसिल इसकी नोक से नहीं निकलती है?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
