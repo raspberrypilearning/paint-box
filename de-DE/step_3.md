@@ -61,7 +61,7 @@ Die Buntstift-Figur soll auf die 'grün' Nachricht hören und seine Kostüm-Farb
 
 --- task ---
 
-Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie die Nachricht `grün`{:class='blockevents':} empfängt, zum Kostum Buntstift-grün wechselt und die Stiftfarbe zu grün ändert.
+Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie die Nachricht `grün`{:class="block3events"} empfängt, zum Kostum Buntstift-grün wechselt und die Stiftfarbe zu grün ändert.
 
 ![Buntstift](images/pencil.png)
 
@@ -94,7 +94,7 @@ Anschließend klicke auf die Buntstift-Figur und füge diesen Code hinzu:
 
 ```blocks3
 Wenn ich [blau v] empfange
-wechsle zu Kostüm (Buntstift-blau v)
+wechsle zu Kostüm (Stift-blau v)
 setze Stiftfarbe auf [#0000ff]
 ```
 

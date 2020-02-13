@@ -112,7 +112,7 @@ Um das zu beheben, ändere den Code, damit der Stift nur dann unten ist, wenn di
 ```blocks3
 Wenn die grüne Flagge angeklickt
 lösche alles
-wechsle zu Kostüm (Buntstift-blau v)
+wechsle zu Kostüm (Stift-blau v)
 setze Stiftfarbe auf [#0035FF]
 wiederhole fortlaufend 
   gehe zu (Mauszeiger v)
