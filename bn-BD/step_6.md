@@ -8,7 +8,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
@@ -29,7 +29,7 @@ if <<mouse down?> and <(mouse y) > [-120]>> then
 end
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
