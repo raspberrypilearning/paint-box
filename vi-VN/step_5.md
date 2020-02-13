@@ -1,6 +1,6 @@
-## Hoàn tác sai lầm
+## Undo mistakes
 
-Đôi khi xảy ra lỗi, vì vậy hãy thêm nút 'xóa' và nút xóa.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -19,8 +19,8 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 
 ```blocks3
-Khi sprite này nhấp
-xóa tất cả
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -48,8 +48,8 @@ Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3even
 ![eraser](images/eraser.png)
 
 ```blocks3
-khi sprite này nhấp
-phát (eraser v)
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -69,10 +69,10 @@ Add some code to the pencil sprite: `When I receive`{:class="block3events"} the 
 Here are all the blocks you need:
 
 ```blocks3
-đặt màu bút thành [#FFFFFF]
-khi tôi nhận được [eraser v]
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-trang phục chuyển sang (tẩy v
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -82,9 +82,9 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 
 ```blocks3
-khi tôi nhận được [eraser v]
-trang phục chuyển sang (eraser v)
-đặt màu bút thành [#FFFFFF]
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -108,17 +108,17 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 
 ```blocks3
-khi cờ nhấp
-xóa tất cả
-trang phục chuyển sang (bút chì màu xanh v)
-đặt màu bút thành [# 0035FF]
-mãi mãi
-  đi tới (con trỏ chuột v)
-+ nếu <<mouse down?> và <(chuột y) > [-120]>> sau đó 
-  bút xuống
-  khác
-  bút lên
-đầu
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
