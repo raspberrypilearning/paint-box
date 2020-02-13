@@ -1,14 +1,14 @@
 ---
-title: תיבת צביעה
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: בפרויקט זה, אתה תיצור תוכנת צייר משלך.
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - 
-    title: תיבת צביעה
+    title: Introduction
   - 
     title: Make a pencil
   - 
