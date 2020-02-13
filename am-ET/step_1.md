@@ -1,14 +1,14 @@
-\--- አትም \---
+\--- no-print \---
 
-ይህ የ **ፕሮጀክቱ 3 ክሶርድ** ነው. በተጨማሪም የፕሮጀክቱ [ቧንቧ 2 ቅጂ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## መግቢያ
+## Introduction
 
-የራስዎ ቀለም ፕሮግራም ይስሩ!
+Make your own paint program!
 
-### የምትሰሩት ነገር
+### What you will make
 
 \--- no-print \---
 
@@ -31,7 +31,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## ርእሱ: ምን ይማራሉ
+## title: What you will learn
 
 + Add the pen extension in Scratch
 + Use broadcasts to control a sprite in Scratch
@@ -41,25 +41,25 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: ምን እንደሚያስፈልግ
+## title: What you will need
 
-### ሃርድ ዌር
+### Hardware
 
-+ Scratch 3 ማሄድ የሚችል ኮምፒውተር
++ A computer capable of running Scratch 3
 
-### ሶፍትዌር
+### Software
 
-+ በጥግ 3 (ወይ [መስመር](http://rpf.io/scratchon){: target = "_ blank"} ወይም [ከመስመር](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### የወረዱ
+### Downloads
 
-+ [ከመስመር ውጭ ጀማሪ ፕሮጀክት](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## ርእስ-ለአስተማሪዎች ተጨማሪ መረጃ
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
