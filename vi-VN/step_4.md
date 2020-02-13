@@ -1,7 +1,7 @@
-## Thử thách: thêm bút chì
+## Challenge: more pencils
 
-Bạn có thể thêm bút chì đỏ, vàng và đen vào chương trình vẽ của bạn không? Hãy xem các bước trước nếu bạn muốn nhắc nhở về cách thực hiện việc này.
+Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Bạn có thể sử dụng bút chì của bạn để vẽ một bức tranh?
+Can you use your pencils to draw a picture?
 
-![ảnh chụp màn hình](images/paint-final.png)
+![screenshot](images/paint-final.png)
