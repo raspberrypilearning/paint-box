@@ -1,27 +1,27 @@
 ---
-title: Skicár
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: V tomto projekte si vytvoríš svoj vlastný program na kreslenie!
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Úvod
+    title: Introduction
   - 
-    title: Vytvorenie ceruzky
+    title: Make a pencil
   - 
-    title: Farebné ceruzky
+    title: Coloured pencils
   - 
-    title: 'Výzva: viac ceruziek'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: Mazanie a gumovanie
+    title: Undo mistakes
   - 
-    title: Zmena hrúbky ceruzky
+    title: Change the pencil width
   - 
-    title: 'Výzva: klávesové skratky'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
-    title: 'Čo ďalej?'
+    title: 'What next?'
