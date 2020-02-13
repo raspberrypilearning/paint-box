@@ -4,7 +4,7 @@ Als nächstes fügst du Code hinzu, um dem Amwender die Möglichkeit zu geben, m
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+Füge zuerst eine neue Variable namens `Dicke`{:class='blockvariable':} hinzu.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Füge diese Zeile **innerhalb** der `wiederhole fortlaufend`{:class='blockcontrol':} Schleife vom Buntstift ein:
 
 ```blocks3
 when flag clicked
@@ -31,24 +31,24 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+Die Stift-Dicke wird nun immer auf den Wert der Variablen `Dicke` {: class = "block3variables"} gesetzt.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Klicke mit der rechten Maustaste auf die Variablen-Anzeige `Dicke`{:class="block3variables"} auf der Bühne und anschließend auf die Auswahl **Schieberegler**.
 
 ![screenshot](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Jetzt kannst du den Schieberegler unter der Variablen nach rechts und links ziehen, um den Wert zu verändern.
 
-![screenshot](images/paint-slider-change.png)
+![Screenshot](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Teste dein Projekt und schau, ob dein Code mit der Änderung der Stiftdicke funktioniert.
 
-![screenshot](images/paint-width-test.png)
+![Screenshot](images/paint-width-test.png)
 
 \--- /task \---
