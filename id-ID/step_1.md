@@ -51,7 +51,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 + Scratch 3 (baik [online](http://rpf.io/scratchon){:target="_blank"} atau [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Unduh
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
