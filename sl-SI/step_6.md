@@ -1,6 +1,6 @@
-## Spremeni širino pisala
+## Change the pen width
 
-Dodaj kodo, ki omogoča osebi, ki uporablja tvoj program, da riše s pisali različnih debelin.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -15,18 +15,18 @@ First, add a new variable called `width`{:class="block3variables"}.
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-ko kliknemo na zastavico
-izbriši vse
-zamenja videz na (svinčnik-moder v)
-nastavi barvo peresa na [#0035FF]
-ponavljaj
-  pojdi na (kazalec miške v)
-  +nastavi velikost peresa na (širina :: variables)
-  if <(je miškin gumb pritisnjen?) in <(miškin y) > [-120]>> potem
-    spusti pero
-  sicer
-    dvigni pero
-konec
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
