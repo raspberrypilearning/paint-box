@@ -10,9 +10,9 @@ steps:
   - 
     title: Introducción
   - 
-    title: Hacer un lápiz
+    title: Make a pencil
   - 
-    title: Lápices de colores
+    title: Coloured pencils
   - 
     title: 'Challenge: shortcuts'
     challenge: true
@@ -21,7 +21,7 @@ steps:
   - 
     title: Change the pencil width
   - 
-    title: 'Reto: más lápices'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
