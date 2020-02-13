@@ -14,14 +14,14 @@ steps:
   - 
     title: Кольорові олівці
   - 
-    title: 'Завдання: клавіші швидкого доступу'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
     title: Undo mistakes
   - 
     title: Change the pencil width
   - 
-    title: 'Завдання: більше олівців'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
