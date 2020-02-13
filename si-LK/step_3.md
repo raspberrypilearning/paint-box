@@ -1,6 +1,6 @@
-## වර්ණ පැන්සල්
+## Coloured pencils
 
-දැන් ඔබ ඔබේ ව්‍යාපෘතියට(project එකට) විවිධ වර්ණ වලින් යුතු පැන්සල් එකතු කර, පරිශීලකයාට(user ට) ඒවා අතරින් තෝරා ගැනීමට ඉඩදෙනු ඇත.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
