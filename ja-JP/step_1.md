@@ -1,14 +1,14 @@
 \--- no-print \---
 
-これはプロジェクトの**Scratch 3**バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/paint-box-scratch2)もあります。
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## はじめに
+## Introduction
 
-お絵かきするプログラムを作りましょう！
+Make your own paint program!
 
-### 作るもの
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: 学習すること
+## title: What you will learn
 
-+ Scratchのペン拡張機能を追加する
-+ Scratchのメッセージを使ってスプライトを制御する
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: 必要なもの
+## title: What you will need
 
-### ハードウェア
+### Hardware
 
-+ Scratch 3を実行できるコンピュータ
++ A computer capable of running Scratch 3
 
-### ソフトウェア
+### Software
 
-+ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### ダウンロード
+### Downloads
 
-+ [オフラインスタータープロジェクト](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title：教育者向けの追加情報
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
