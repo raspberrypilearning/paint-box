@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Bu, projenin **Scratch 3** versiyonudur. Ayrıca projenin bir de [Scratch 2 versiyonu](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) bulunmaktadır.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
 ## Giriş
 
-Kendi boyama programınızı yapın!
+Make your own paint program!
 
-### Ne yapacaksınız
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Ne öğreneceksiniz
+## title: What you will learn
 
-+ Kalem uzantısını Scratch'a ekleme
-+ Scratch'te bir kuklayı kontrol etmek için yayınları kullanma
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Nelere ihtiyacınız var
+## title: What you will need
 
-### Donanım
+### Hardware
 
-+ Scratch 3 çalıştırabilen bir bilgisayar
++ A computer capable of running Scratch 3
 
-### Yazılım
+### Software
 
-+ Scratch 3 ([çevrimiçi](http://rpf.io/scratchon){:target="_blank"} veya [çevrimdışı](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### İndirilenler
+### Downloads
 
-+ [Çevrimdışı başlangıç projesi](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Eğitimciler için ek bilgiler
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
