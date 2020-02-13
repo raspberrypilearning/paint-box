@@ -1,44 +1,133 @@
-## Einen Stift machen
+## Buntstifte
 
-Beginnen wir mit einem Stift, mit dem wir auf der Bühne zeichnen können.
+Laß uns deinem Projekt verschiedene Buntstifte hinzufügen, die der Anwender anschließend auswählen kann.
 
-+ Öffne das 'Paintbox'-Projekt in Scratch entweder online bei [jumpto.cc/paint-go-de-DE](https://scratch.mit.edu/projects/227798520/#editor){:target="_blank"} oder lade es unter [http://jumpto.cc/paint-get-de-DE](https://github.com/raspberrypilearning/paint-box/raw/master/de-DE/resources/PaintBox.sb2) herunter wenn du den Offline-Editor benutzt.
+--- task ---
 
-Bei den Figuren siehst du einen Stift und einen Radierer:
+Ändere den Namen des `Buntstift-` Kostüms zu `Stift-blau`
 
-![screenshot](images/paint-starter.png)
+![Buntstift-umbenennen](images/rename-pencil.png)
 
-+ Füge dem Stift folgenden Code hinzu, damit er der Maus `ständig`{:class="blockcontrol"} folgt und du mit ihm malen kannst:
+--- /task ---
 
-```blocks
-    Wenn die grüne Flagge angeklickt
+--- task ---
+
+Klicke mit der rechten Maustaste im Reiter Kostüme auf das Stift-blau-Kostüm und dupliziere es.
+
+![Screenshot](images/paint-blue-duplicate.png)
+
+--- /task ---
+
+--- task ---
+
+Ändere den Namen des neuen Kostüms in 'Stift-grün' und färbe den Buntstift grün.
+
+![screenshot](images/paint-pencil-green.png)
+
+--- /task ---
+
+--- task ---
+
+Zeichne zwei neue Figuren: ein blaues Quadrat und ein grünes Quadrat. Diese sind für die Auswahl einer Malfarbe für den dem blauen oder grünen Buntstift.
+
+![Screenshot](images/paint-selectors.png)
+
+--- /task ---
+
+--- task ---
+
+Ändere den Namen der neuen Figuren, so dass diese 'blau' und 'grün' heißen
+
+[[[generic-scratch3-rename-sprite]]]
+
+--- /task ---
+
+--- task ---
+
+Füge nun Code zur ‘grün’-Figur hinzu, so dass sie, wenn sie geklickt wird, die Nachricht 'grün' `an alle sendet`{:class="block3events"}.
+
+![gruenes_Quadrat](images/green_square.png)
+
+```blocks3
+Wenn diese Figur angeklickt wird
+sende (grün v) an alle
+```
+
+[[[generic-scratch3-broadcast-message]]]
+
+--- /task ---
+
+Die Buntstift-Figur soll auf die 'grün' Nachricht hören und seine Kostüm-Farbe und Buntstift-Farbe entsprechend ändern.
+
+--- task ---
+
+Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie die Nachricht `grün`{:class="block3events"} empfängt, zum Kostum Buntstift-grün wechselt und die Stiftfarbe zu grün ändert.
+
+![Buntstift](images/pencil.png)
+
+```blocks3
+Wenn ich [grün v] empfange
+wechsle zu Kostüm (Stift-grün v)
+setze Stiftfarbe auf [#00CC44]
+```
+
+Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Feld in `setze Stiftfarbe auf`{:class="block3extensions"} an, und wähle die entsprechende Farbe aus.
+
+--- /task ---
+
+Nun kannst du das Gleiche machen, um den Buntstift auf blau zu schalten.
+
+--- task ---
+
+Klicke auf das blaue Quadrat und füge diesen Code hinzu:
+
+![blaues_Quadrat](images/blue_square.png)
+
+```blocks3
+Wenn diese Figur angeklickt wird
+sende (blau v) an alle
+```
+
+Anschließend klicke auf die Buntstift-Figur und füge diesen Code hinzu:
+
+![Buntstift](images/pencil.png)
+
+```blocks3
+Wenn ich [blau v] empfange
+wechsle zu Kostüm (Stift-blau v)
+setze Stiftfarbe auf [#0000ff]
+```
+
+--- /task ---
+
+--- task ---
+
+Zum Schluss fügst du noch Code ein, um der Bleistift Figur zu sagen mit welcher Farbe sei anfangen soll uns stell sicher, dass das Programm mit einem leeren Bildschirm beginnt.
+
+![Buntstift](images/pencil.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
++lösche alles
++wechsle zu Kostüm (Stift-blau v)
++setze Stiftfarbe auf [#0035FF]
 wiederhole fortlaufend 
-  gehe zu [mouse pointer v]
+  gehe zu (Mauszeiger v)
+falls <Maustaste gedrückt?> , dann 
+  schalte Stift ein
+  sonst 
+  schalte Stift aus
 end
 ```
 
-+ Klicke auf die Flagge und bewege die Maus über die Bühne. Sieh, ob der Code richtig arbeitet.
+--- /task ---
 
-Als nächstes versuchen wir, den Stift nur dann zeichnen zu lassen, `wenn`{:class="blockcontrol"} die Maus geklickt wird.
+Wir haben hier blau gewählt, aber du kannst mit jeder anderen Stiftfarbe beginnen, wenn du willst.
 
-+ Füge diesen Code deiner Stift-Figur hinzu:
+--- task ---
 
-![screenshot](images/paint-pencil-draw-code.png)
+Teste deinen Code. Kannst du zwischen den blauen und grünen Buntstiften wechseln, indem du das blaue bzw. grüne Quadrat anklickst?
 
-+ Teste deinen Code nochmals. Halte diesmal die Maustaste gedrückt, wenn du die Maus über die Bühne bewegst. Kannst du mit deinem Stift zeichnen?
+![Screenshot](images/paint-pens-test.png)
 
-![screenshot](images/paint-draw.png)
-
---- collapse ---
----
-title: Wenn du Probleme hast...
----
-Wenn dein Stift nicht mit der Spitze zu zeichnen scheint, sondern mit der Mitte, dann musst du die Kostüm-Mitte ändern.
-
-![Kostüm-Mitte](images/costume-center.png)
-
-Du musst das Fadenkreuz für den Stift **knapp unter** der Spitze des Stifts platzieren, nicht genau auf der Spitze.
-
-Die Änderungen der Kostüm-Mitte einer Figur werden erst wirksam, wenn etwas Anderes angeklickt wird. Klicke also auf ein anderes Kostüm oder auf den 'Skripte'-Reiter um deine Änderungen abzuschließen.
-
---- /collapse ---
+--- /task ---

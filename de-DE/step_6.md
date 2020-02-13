@@ -1,33 +1,54 @@
 ## Die Stiftdicke ändern
 
-Geben wir dem Anwender die Möglichkeit verschieden dicke Stifte zu benutzen.
+Als nächstes fügst du Code hinzu, um dem Amwender die Möglichkeit zu geben, mit verschiedenen Stiftdicken zu malen.
 
-+ Füge zuerst eine neue Variable namens `Dicke`{:class="blockvariable"} hinzu.
+--- task ---
 
-[[[generic-scratch-add-variable]]]
+Füge zuerst eine neue Variable namens `Dicke`{:class='blockvariable':} hinzu.
 
-+ Füge diese Zeile *innerhalb* der `wiederhole fortlaufend`{:class="blockcontrol"} Schleife vom Stift ein:
+[[[generic-scratch3-add-variable]]]
 
-```blocks
-    setze Stiftdicke auf (Dicke)
+--- /task ---
+
+--- task ---
+
+Füge diese Zeile **innerhalb** der `wiederhole fortlaufend`{:class="block3control"} Schleife vom Buntstift ein:
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+lösche alles
+wechsle zu Kostüm (Stift-blau v)
+setze Stiftfarbe auf [#0035FF]
+wiederhole fortlaufend 
+gehe zu (Mauszeiger v)
++setze Stiftdicke auf (Dicke :: variables)
+falls <<Maustaste gedrückt?> und <(Maus y-Position) > [-120]>> , dann 
+  schalte Stift ein
+  sonst 
+  schalte Stift aus
+end
 ```
 
-Die Stift-Dicke wird nun immer wieder auf den Wert der 'Dicke'-Variablen gesetzt.
+--- /task ---
 
-+ Klicke mit der rechten Maustaste auf die Variablen-Anzeige auf der Bühne und klicke auf 'Schieberegler'.
+Die Stift-Dicke wird nun immer auf den Wert der Variablen `Dicke`{:class="block3variables"} gesetzt.
+
+--- task ---
+
+Klicke mit der rechten Maustaste auf die Variablen-Anzeige `Dicke`{:class="block3variables"} auf der Bühne und anschließend auf die Auswahl **Schieberegler**.
 
 ![screenshot](images/paint-slider.png)
 
-Jetzt kannst du den Schieberegler unter der Variablen ziehen, um den Wert zu verändern.
+--- /task ---
 
-![screenshot](images/paint-slider-change.png)
+Jetzt kannst du den Schieberegler unter der Variablen nach rechts und links ziehen, um den Wert zu verändern.
 
-+ Teste dein Projekt und sieh, ob du die Stift-Dicke verändern kannst.
+![Screenshot](images/paint-slider-change.png)
 
-![screenshot](images/paint-width-test.png)
+--- task ---
 
-Wenn du möchtest, kannst du die erlaubten Mindest- und Maximal-Werte für 'Dicke' festlegen. Dazu klickst du nochmals mit der rechten Maustaste auf die Variable und klickst auf 'Reglerbereich festlegen'. Setze die Mindest- und Maximal-Werte auf etwas passenderes, wie 1 und 20.
+Teste dein Projekt und schau, ob dein Code mit der Änderung der Stiftdicke funktioniert.
 
-![screenshot](images/paint-slider-max.png)
+![Screenshot](images/paint-width-test.png)
 
-Teste deine Dicken-Variable bis du zufrieden bist.
+--- /task ---
