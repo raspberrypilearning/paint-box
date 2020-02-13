@@ -1,6 +1,6 @@
-## Поништи грешке
+## Undo mistakes
 
-Понекад се дешавају грешке, па хајде да додамо дугме 'обриши' и дугме за гумицу.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -19,8 +19,8 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 
 ```blocks3
-када је кликнуто на овај лик
-обриши све
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -48,8 +48,8 @@ Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3even
 ![eraser](images/eraser.png)
 
 ```blocks3
-када је кликнуто на овај лик
-разгласи (гумица v)
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -69,11 +69,10 @@ Add some code to the pencil sprite: `When I receive`{:class="block3events"} the 
 Here are all the blocks you need:
 
 ```blocks3
-нека боја оловке буде [#FFFFFF]
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-када примим [гумица v]
-
-замени костим са (гумица v)
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -83,9 +82,9 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 
 ```blocks3
-када примим [гумица v]
-замени костим са (гумица v)
-нека боја оловке буде [#FFFFFF]
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -109,17 +108,16 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 
 ```blocks3
-када је кликнуто на ⚑
-обриши све
-замени костим са (бојица-плава v)
-нека боја оловке буде [#0035FF]
-понављај заувек 
-  иди до (показивач миша v)
-  + ако је <<mouse down?> и <(миш y) > [-120]>> онда
-  +   спусти оловку
-  + у супротном 
-  +   подигни оловку
-  + end
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 
