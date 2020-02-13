@@ -1,6 +1,6 @@
-## 色鉛筆
+## Coloured pencils
 
-次にプロジェクトに異なる色の鉛筆を加えて、ユーザーがそれらの中から選ぶことができるようにしましょう。
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
@@ -49,8 +49,8 @@ Add some code to the 'green' sprite so that when this sprite is clicked, it `bro
 ![green square](images/green_square.png)
 
 ```blocks3
-このスプライトが押されたとき
-(緑 v) を送る
+when this sprite clicked
+broadcast (green v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Switch to your pencil sprite. Add some code so that when this sprite receives th
 ![pencil](images/pencil.png)
 
 ```blocks3
-[緑 v] を受け取ったとき
-コスチュームを (鉛筆-緑 v) にする
-ペンの色を [#00CC44] にする
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
@@ -84,8 +84,8 @@ Click on the blue square sprite and add this code:
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-このスプライトが押されたとき
-(青 v) を送る
+when this sprite clicked
+broadcast (blue v)
 ```
 
 Then click on the pencil sprite and add this code:
@@ -93,9 +93,9 @@ Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
 
 ```blocks3
-[青 v] を受け取ったとき
-コスチュームを (鉛筆-青 v) にする
-ペンの色を [#0000ff] にする
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
 ```
 
 \--- /task \---
@@ -107,17 +107,16 @@ Finally, add this code to tell the pencil sprite which colour to start with, and
 ![pencil](images/pencil.png)
 
 ```blocks3
-⚑ が押されたとき
-+全部消す
-+コスチュームを (鉛筆-青 v) にする
-+ペンの色を [#0035FF] にする
-ずっと 
-  (マウスのポインター v) へ行く
-  もし <mouse down?> なら 
-    ペンを下ろす
-  でなければ 
-    ペンを上げる
-  end
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 
