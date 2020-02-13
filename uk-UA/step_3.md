@@ -1,4 +1,4 @@
-## Кольорові олівці
+## Coloured pencils
 
 Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
