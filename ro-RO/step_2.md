@@ -1,6 +1,6 @@
-## Creează un creion
+## Make a pencil
 
-Începe prin a crea un creion pe care să îl poți folosi pentru a desena pe Scenă.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,10 +35,10 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-când se dă click pe steguleț
-la infinit
-  mergi la (cursorul mouse-ului v)
-sfârșit
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
@@ -58,15 +58,15 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-când se dă click pe steguleț
-la infinit
-  mergi la (cursorul mouse-ului v)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+ dacă <butonul mouse-ului e apăsat?> atunci
-  stilou jos
-  altfel
-  stilou sus
-sfârșit
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: Creionul tău nu desenează cu vârful?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
