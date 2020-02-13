@@ -1,27 +1,27 @@
 ---
-title: Boya kutusu
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Kendi boyama programınızı yapın
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Giriş
+    title: Introduction
   - 
-    title: Kalem yapmak
+    title: Make a pencil
   - 
-    title: Renkli kalemler
+    title: Coloured pencils
   - 
-    title: 'Challenge: kısayollar'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: Hataları geri al
+    title: Undo mistakes
   - 
-    title: Kalem genişliğini değiştirin
+    title: Change the pencil width
   - 
-    title: 'Challenge: daha fazla kalem'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
-    title: 'Sırada ne var?'
+    title: 'What next?'
