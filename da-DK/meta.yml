@@ -1,14 +1,14 @@
 ---
-title: Tegnekasse
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: I dette projekt skal du lave dit eget tegneprogram!
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - 
-    title: Tegnekasse
+    title: Introduction
   - 
     title: Make a pencil
   - 
