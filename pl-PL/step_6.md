@@ -1,6 +1,6 @@
-## Zmień szerokość ołówka
+## Change the pen width
 
-Następnie dodasz kod, aby umożliwić osobie korzystającej z programu rysowanie rzeczy o różnej grubości pisania.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -15,18 +15,18 @@ First, add a new variable called `width`{:class="block3variables"}.
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-kiedy kliknięto
-usuń wszystkie
-zmień kostium na (ołówek-niebieski v)
-ustaw kolor pisaka na [#0035FF]
-zawsze
-idź do (wskaźnik myszy v)
-+ustaw rozmiar pisaka na (szerokość :: zmienne)
-jeśli <<mouse down?> i <(mysza) > [-120]>> a następnie 
-  Połóż pisak
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
   else
-  Podnieś pisak
-koniec
+  pen up
+end
 ```
 
 \--- /task \---
