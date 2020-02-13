@@ -1,6 +1,6 @@
-## Napravite olovku
+## Make a pencil
 
-Započnite izradom olovke koju možete koristiti za crtanje na pozornici.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## naslov: Crta li vaša olovka sa svog vrha?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
