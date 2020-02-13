@@ -1,7 +1,7 @@
-## आव्हानः अधिक पेन्सिल
+## Challenge: more pencils
 
-आपण आपल्या पेंट प्रोग्राममध्ये लाल, पिवळे आणि काळा पेन्सिल जोडू शकता? आपण हे कसे करावे याचे स्मरणपत्र हवे असल्यास सुरुवातीच्या चरणावर लक्ष द्या.
+Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-चित्र काढण्यासाठी आपण आपले पेन्सिल वापरू शकता का?
+Can you use your pencils to draw a picture?
 
-![स्क्रीनशॉट](images/paint-final.png)
+![screenshot](images/paint-final.png)
