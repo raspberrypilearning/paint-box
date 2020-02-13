@@ -1,6 +1,6 @@
 ---
 title: Paint box
-hero_image: Kuvien / banner.png
+hero_image: images/banner.png
 listed: true
 copyedit: false
 description: Make your own paint program
@@ -8,7 +8,7 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: esittely
+    title: Introduction
   - 
     title: Make a pencil
   - 
