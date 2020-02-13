@@ -1,27 +1,27 @@
 ---
-title: තීන්ත(paint) කොටුව(box)
-hero_image: images / banner.png
+title: Paint box
+hero_image: images/banner.png
 listed: true
 copyedit: false
-description: ඔබේම තීන්ත(paint) වැඩසටහනක්(program එකක්) සාදන්න
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: හැදින්වීම
+    title: Introduction
   - 
-    title: පැන්සලක් සාදන්න
+    title: Make a pencil
   - 
-    title: වර්ණ පැන්සල්
+    title: Coloured pencils
   - 
-    title: 'Challenge: කෙටිමං(shortcuts)'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: වැරදීම්(mistakes) අහෝසි(undo) කරන්න
+    title: Undo mistakes
   - 
-    title: පැන්සල් තුඩේ පළල වෙනස් කරන්න
+    title: Change the pencil width
   - 
-    title: 'Challenge: තවත් පැන්සල්'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
