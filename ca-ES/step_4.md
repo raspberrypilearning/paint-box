@@ -1,7 +1,7 @@
-## Repte: més llapis
+## Challenge: more pencils
 
-Podeu afegir llapis vermells, grocs i negres al vostre programa de pintura? Mireu els passos anteriors si voleu un recordatori de com fer-ho.
+Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-Es pot utilitzar els llapis per fer un dibuix?
+Can you use your pencils to draw a picture?
 
 ![screenshot](images/paint-final.png)
