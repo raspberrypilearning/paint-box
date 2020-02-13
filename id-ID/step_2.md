@@ -47,7 +47,7 @@ end
 
 Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
-\--- /tugas \---
+\--- /task \---
 
 Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
