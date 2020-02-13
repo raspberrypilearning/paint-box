@@ -13,6 +13,6 @@ Nachdem du das Projekt "Malkasten" fertiggestellt hast, könntest du das Projekt
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![Bootsrennen Demo](images/boat_race_demo.png)
 
 \--- /print-only \---
