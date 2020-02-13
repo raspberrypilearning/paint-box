@@ -1,6 +1,6 @@
-## Feu un llapis
+## Make a pencil
 
-Comenceu fent un llapis que podeu fer servir per dibuixar a l’escenari.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,10 +35,10 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-quan es fa clic a la bandera
-per sempre
-  aneu a (punter del ratolí v)
-final
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
@@ -58,15 +58,15 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-quan es fa clic a la bandera
-per sempre
-  aneu a (punter del ratolí v)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+ si <mouse down?> llavors
-  llapis cap avall
-  llapis
-  fins al final
-
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: El seu llapis no es dibuixa de la seva punta?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
