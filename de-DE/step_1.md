@@ -12,7 +12,7 @@ Mach dein eigenes Malprogramm!
 
 \--- no-print \---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+Klicke zum Starten auf die grüne Flagge. Verwende die Maus, um den Stift zu bewegen und halte die linke Maustaste gedrückt, um zu zeichnen. Klicke auf eine Farbe, um die Malfarbe des Stiftes zu wechseln. Klicke auf den Radiergummi, um ihn zu verwenden und deine Zeichnung zu löschen. Um die ganze Seite zu löschen, klicke auf das rote Kreuz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,9 +23,9 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+Klicke auf die grüne Flagge um zu starten, und verwende die Computermaus, um den Stift zu bewegen, und halte die linke Maustaste gedrückt, um zu zeichnen. Wenn du auf eine der Farben unten klickst, ändert sich die Farbe des Stiftes, und wenn du du auf den Radierer klickst, kannst du ihn verwenden, um zu löschen!
 
-![showcase](images/showcase.png)
+![Vorschau](images/showcase.png)
 
 \--- /print-only \---
 
@@ -35,7 +35,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 + Hinzufügen der Erweiterung Malstift zu deinem Scratch
 + Verwendung von Broadcast, um eine Figur in Scratch zu steuern
-+ Recall how to respond to mouse events in Scratch
++ Wiederholung, wie man Ereignisse der Maus in Scratch verarbeitet
 
 \--- /collapse \---
 
@@ -61,8 +61,8 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## title: Zusätzliche Informationen für Pädagogen
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
