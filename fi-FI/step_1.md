@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## esittely
+## Introduction
 
 Make your own paint program!
 
-### Mitä teet
+### What you will make
 
 \--- no-print \---
 
