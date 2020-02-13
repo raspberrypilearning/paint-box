@@ -1,6 +1,6 @@
-## የግራ ጠርዝ ቀይር
+## Change the pen width
 
-በመቀጠሌ, ፕሮግራሞች በተሇያዩ የስሌዝ ስፋቶች ስሊሳዎችን እንዱስለጥፉ ሇማዴረግ የሚፇሌጉትን ኮዶችን ያካትታለ.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -8,28 +8,28 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-ባንዲራ ጠቅ ጊዜ
-ደምስስ ሁሉንም
-(እርሳስ-ሰማያዊ v) ይቀይሩ የሚኖሩት
-[# 0035FF] ወደ ስብስብ ብዕር ቀለም
-ለዘላለም
-እየተጓዙ (የመዳፊት ጠቋሚ v) ወደ
-+ ማዘጋጀት ብዕር መጠን (ስፋት :: ተለዋዋጮች) ወደ
-ከሆነ <<mouse down?> እና <(መዳፊት y) > [-120]>> እና 
-  ወደ ታች
-  ይጣሉ
-  መሀል ወደ
-
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
-\--- / task \---
+\--- /task \---
 
 The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
