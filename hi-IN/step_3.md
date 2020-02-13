@@ -1,6 +1,6 @@
-## रंगीन पेंसिलें
+## Coloured pencils
 
-अब आप कई अलग रंगो के पेंसिल आपने प्रोजेक्ट में जोड़ेंगे और आप अब यूजर को उन में से एक चुननेका अनुमति देंगे।
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
