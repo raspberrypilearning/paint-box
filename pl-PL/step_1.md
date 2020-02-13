@@ -1,14 +1,14 @@
 \--- no-print \---
 
-To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## Wprowadzenie
+## Introduction
 
-Stwórz swój własny program do malowania!
+Make your own paint program!
 
-### Co będziesz robił
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Czego się nauczysz
+## title: What you will learn
 
-+ Dodaj rozszerzenie do ołówka w Scratch
-+ Użyj transmisji, aby kontrolować duszka w Scratchu
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Czego będziesz potrzebować
+## title: What you will need
 
-### Sprzęt
+### Hardware
 
-+ Komputer, na którym można uruchomić Scratch 3
++ A computer capable of running Scratch 3
 
-### Oprogramowanie
+### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Pobrane
+### Downloads
 
-+ [Projekt startowy offline](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Dodatkowe informacje dla nauczycieli
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
