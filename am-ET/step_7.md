@@ -1,10 +1,10 @@
-## ግጥሚያ: የቁልፍ ሰሌዳ ትዕዛዞች
+## Challenge: keyboard commands
 
-በሽግግር ላይ ያሉትን ቀለሞች ወይም አዝራሮች ላይ ከመጫን ይልቅ, የቁልፍ ሰሌዳ ቁልፎችን በመጫን ነገሮች እንዲከሰቱ ለማድረግ ኮዱን ማከል ይችላሉ? ለምሳሌ:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-+ <kbd>b</kbd> = ወደ ሰማያዊ እርሳስ ቀይር
-+ <kbd>ግ</kbd> = ወደ አረንጓዴ እርሳስ ይቀይሩ
-+ <kbd>e</kbd> = ወደ ድምጸ-ከል ለመቀየር
-+ <kbd>c</kbd> = ማያ ማያ ገጽ
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-ከፈለጉ እንዲሁም ኮዱን ማከል እንዲሁም የቀስት ቁልፎችን መጫን የባለቤት ስፋትን ይቀይረዋል.
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
