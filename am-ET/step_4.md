@@ -1,7 +1,7 @@
-## ፈተና: ተጨማሪ እርሳሶች
+## Challenge: more pencils
 
-ወደ ቀለም ፕሮግራምዎ ቀይ, ቢጫ እና ጥቁር እርሳሶችን ማከል ይችላሉ? እንዴት ይህን ማድረግ እንደሚችሉ ማስታወሻ እንዲፈልጉ ከፈለጉ ቀደም ብሎ ደረጃዎቹን ይመልከቱ.
+Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
 
-ፎቶግራፍ ለመሳል እርሶዎን ተጠቅመዋል?
+Can you use your pencils to draw a picture?
 
-![ቅጽበታዊ ገጽ እይታ](images/paint-final.png)
+![screenshot](images/paint-final.png)
