@@ -1,14 +1,14 @@
 \--- no-print \---
 
-To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
-Ustvari svoj risarski program!
+Make your own paint program!
 
-### Kaj boš naredil-a
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Kaj se boš naučil-a?
+## title: What you will learn
 
-+ V Scratch dodaj razširitev za svinčnik
-+ Uporabi sporočila za upravljanje figure v Scratchu
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Kaj potrebuješ?
+## title: What you will need
 
-### Strojna oprema
+### Hardware
 
-+ Računalnik, ki lahko poganja Scratch 3
++ A computer capable of running Scratch 3
 
-### Programska oprema
+### Software
 
-+ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Prenosi
+### Downloads
 
-+ [Začetni projekt brez povezave](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Dodatne informacije za izobraževalce
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
