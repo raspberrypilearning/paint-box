@@ -1,6 +1,6 @@
-## Làm bút chì
+## Make a pencil
 
-Bắt đầu bằng cách làm một cây bút chì mà bạn có thể sử dụng để vẽ trên Sân khấu.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,10 +35,10 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-khi cờ nhấp
-mãi mãi
-  đi đến (con trỏ chuột v)
-kết thúc
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
@@ -47,7 +47,7 @@ kết thúc
 
 Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
-\--- /bài tập \---
+\--- /task \---
 
 Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
 
@@ -58,15 +58,15 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-khi cờ nhấp
-mãi mãi
-  đi tới (con trỏ chuột v)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+ nếu <mouse down?> thì
-  bút xuống
-  khác
-  bút lên
-kết thúc
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
@@ -79,9 +79,9 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 \--- /task \---
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-## tiêu đề: Bút chì của bạn không rút ra từ đầu của nó?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
