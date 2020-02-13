@@ -1,6 +1,6 @@
-## Utwórz ołówek
+## Make a pencil
 
-Zacznij od zaprogramowania ołówka, którego możesz użyć do rysowania na scenie.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,10 +35,10 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-po kliknięciu flagi
-zawsze
-  przejdź do (wskaźnik myszy v)
-koniec
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
@@ -58,15 +58,15 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-kiedy flaga kliknięta
-zawsze
-  idź do (wskaźnik myszy v)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+ jeśli <mouse down?> to
-  Przyłóż pisak
++ if <mouse down?> then
+  pen down
   else
-  Podnieś pisak
-koniec
+  pen up
+end
 ```
 
 \--- /task \---
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: Dlaczego Twój ołówek z wskazówki nie rysuje?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
