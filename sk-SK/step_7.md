@@ -1,10 +1,10 @@
-## Výzva: klávesové skratky
+## Challenge: keyboard commands
 
-Vieš upraviť scenár tak, aby si namiesto klikania myšou na farebné štvorce, alebo tlačidlá na scéne mohol/-a vykonávať rovnaké veci stlačením klávesov na klávesnici? Napríklad:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-+ <kbd>b</kbd> = zmeniť na modrú ceruzku
-+ <kbd>g</kbd> = zmeniť na zelenú ceruzku
-+ <kbd>e</kbd> = zmeniť na gumu
-+ <kbd>c</kbd> = vymazať scénu
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-Ak chceš, môžeš tiež pridať do scenára možnosť ovládať zmenu hrúbky ceruzky šípkami na klávesnici.
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
