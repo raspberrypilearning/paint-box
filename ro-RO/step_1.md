@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o versiune de [Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## Introducere
+## Introduction
 
-Creează-ți propriul program de desenat!
+Make your own paint program!
 
-### Ce vei face
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Ce vei învăța
+## title: What you will learn
 
-+ Adăugarea în Scratch a extensiei pentru creion
-+ Utilizarea difuzărilor pentru a controla un personaj în Scratch
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: De ce vei avea nevoie
+## title: What you will need
 
 ### Hardware
 
-+ Un computer capabil să ruleze Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (fie [online](http://rpf.io/scratchon){:target="_blank"}, fie [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Fișiere descărcabile
+### Downloads
 
-+ [Proiect de bază offline](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Informații suplimentare pentru educatori
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
