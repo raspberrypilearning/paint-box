@@ -1,6 +1,6 @@
-## Cofnij błędy
+## Undo mistakes
 
-Czasami zdarzają się błędy, więc dodaj przycisk „wyczyść” oraz przycisk gumki.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -19,8 +19,8 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 
 ```blocks3
-kiedy duszek kliknął
-usuń wszystko
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -48,8 +48,8 @@ Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3even
 ![eraser](images/eraser.png)
 
 ```blocks3
-kiedy duszek kliknął
-nadaj (gumka v)
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -69,10 +69,10 @@ Add some code to the pencil sprite: `When I receive`{:class="block3events"} the 
 Here are all the blocks you need:
 
 ```blocks3
-ustaw kolor pióra na [#FFFFFF]
-gdy otrzymam [gumka v]
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-zmień kostium na (gumka v)
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -82,9 +82,9 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 
 ```blocks3
-kiedy otrzymam [gumka v]
-zmień kostium na (gumka v)
-ustaw kolor pióra na [#FFFFFF]
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -108,18 +108,17 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 
 ```blocks3
-kiedy kliknięto
-usuń wszystkie
-zmień kostium na (ołówek-niebieski v)
-ustaw kolor pisaka na [#0035FF]
-zawsze
-idź do (wskaźnik myszy v)
-+ustaw rozmiar pisaka na (szerokość: zmienne)
-jeśli <<mouse down?> i <(mysza) > [-120]>> a następnie 
-  Połóż pisak
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
   else
-  Podnieś pisak
-koniec
+  pen up
+end
 ```
 
 \--- /task \---
