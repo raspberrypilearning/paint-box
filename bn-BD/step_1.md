@@ -1,14 +1,14 @@
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
-## পরিচিতি
+## Introduction
 
 Make your own paint program!
 
-### যা তৈরি করতে হবে
+### What you will make
 
 \--- no-print \---
 
@@ -31,7 +31,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## যা শিখতে পারবেন
+## title: What you will learn
 
 + Add the pen extension in Scratch
 + Use broadcasts to control a sprite in Scratch
@@ -41,13 +41,13 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## যা যা প্রয়োজন
+## title: What you will need
 
-### হার্ডওয়্যার
+### Hardware
 
-+ একটি কম্পিউটার যেথানে স্ক্র্যাচ ২.০ (Scratch 3) চালানো যাবে
++ A computer capable of running Scratch 3
 
-### সফটওয়্যার
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
