@@ -8,7 +8,7 @@ Rename the `pencil` sprite to `pencil-blue`
 
 ![rename-pencil](images/rename-pencil.png)
 
-\--- / tarea \---
+\--- /task \---
 
 \--- task \---
 
@@ -24,7 +24,7 @@ Name the new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
-\--- / tarea \---
+\--- /task \---
 
 \--- task \---
 
