@@ -1,6 +1,6 @@
-## Bút chì màu
+## Coloured pencils
 
-Bây giờ bạn sẽ thêm bút chì màu khác nhau vào dự án của bạn và cho phép người dùng lựa chọn giữa chúng.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
@@ -8,7 +8,7 @@ Rename the `pencil` sprite to `pencil-blue`
 
 ![rename-pencil](images/rename-pencil.png)
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
@@ -24,7 +24,7 @@ Name the new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
@@ -49,8 +49,8 @@ Add some code to the 'green' sprite so that when this sprite is clicked, it `bro
 ![green square](images/green_square.png)
 
 ```blocks3
-khi sprite này nhấp
-phát (green v)
+when this sprite clicked
+broadcast (green v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Switch to your pencil sprite. Add some code so that when this sprite receives th
 ![pencil](images/pencil.png)
 
 ```blocks3
-khi tôi nhận được [xanh v]
-trang phục chuyển sang (bút chì xanh v)
-đặt màu bút thành [# 00CC44]
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
@@ -84,8 +84,8 @@ Click on the blue square sprite and add this code:
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-khi sprite này nhấp
-phát (màu xanh v)
+when this sprite clicked
+broadcast (blue v)
 ```
 
 Then click on the pencil sprite and add this code:
@@ -93,9 +93,9 @@ Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
 
 ```blocks3
-khi tôi nhận được [blue v]
-trang phục chuyển sang (bút chì màu xanh v)
-đặt màu bút thành [# 0000ff]
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
 ```
 
 \--- /task \---
@@ -107,17 +107,17 @@ Finally, add this code to tell the pencil sprite which colour to start with, and
 ![pencil](images/pencil.png)
 
 ```blocks3
-khi lá cờ nhấp
-+ xóa tất cả
-+ chuyển trang phục để (v bút chì màu xanh)
-+ thiết bút màu để [# 0035FF]
-mãi mãi
-  đi tới (con trỏ chuột v)
-nếu <mouse down?> sau đó
-  bút xuống
-  khác
-  bút lên
-kết thúc
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
