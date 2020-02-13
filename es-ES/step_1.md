@@ -1,6 +1,6 @@
 \--- no-print \---
 
-Esta es la versión del proyecto para **Scratch 3**. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+Esta es la versión del proyecto para **Scratch 3**. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -33,8 +33,8 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## title: Lo que aprenderás
 
-+ Añadir la extensión de lápiz en Scratch
-+ Usar transmisiones para controlar un sprite en Scratch
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
@@ -51,7 +51,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 + Scratch 3 ([en línea](http://rpf.io/scratchon){:target="_blank"} o [sin conexión](http://rpf.io/scratchoff){:target="_blank"})
 
-### Descargas
+### Downloads
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
@@ -59,7 +59,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: Información adicional para educadores
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
