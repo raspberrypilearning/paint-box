@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) 版本。
 
 \--- /no-print \---
 
-## Introduction
+## 介紹
 
-Make your own paint program!
+做個你自己的繪圖工具程式！
 
-### What you will make
+### 你會做出的玩意兒
 
 \--- no-print \---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+點擊綠旗開始， 用滑鼠移動鉛筆，按住滑鼠左鍵就可以開始畫圖， 點擊色塊改變鉛筆顏色， 點擊擦子就可以用它來擦掉筆跡， 要清空頁面的話就點一下叉叉圖案。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+點擊綠旗開始， 用滑鼠移動鉛筆，按住滑鼠左鍵就可以開始畫圖， 點擊色塊改變鉛筆顏色， 點擊擦子就可以用它來擦掉筆跡， 要清空頁面的話就點一下叉叉圖案。
 
 ![showcase](images/showcase.png)
 
@@ -31,7 +31,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你會學到
 
 + Add the pen extension in Scratch
 + Use broadcasts to control a sprite in Scratch
@@ -41,17 +41,17 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你會用到
 
-### Hardware
+### 硬體
 
-+ A computer capable of running Scratch 3
++ 可運行 Scratch 3 的電腦
 
-### Software
+### 軟體
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
 
-### Downloads
+### 下載
 
 + [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
