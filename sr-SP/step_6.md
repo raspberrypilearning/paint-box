@@ -1,6 +1,6 @@
-## Промени дебљину оловке
+## Change the pen width
 
-Сада ћеш додати код, који ће омогућити кориснику; да црта ствари са оловкама разних величина.
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -15,18 +15,17 @@ First, add a new variable called `width`{:class="block3variables"}.
 Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
 
 ```blocks3
-када је кликнуто на ⚑
-обриши све
-замени костим са (бојица-плава v)
-нека боја оловке буде [#0035FF]
-понављај заувек 
-  иди до (показивач миша v)
-  + нека дебљина оловке буде (дебљина :: variables)
-  ако је <<mouse down?> и <(миш y) > [-120]>> онда 
-    спусти оловку
-  у супротном 
-    подигни оловку
-  end
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (width :: variables)
+if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 
