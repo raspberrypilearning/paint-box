@@ -1,10 +1,10 @@
-## Izazov: naredbe tipkovnice
+## Challenge: keyboard commands
 
-Možete li dodati kôd tako da umjesto klika na obojene kvadratiće ili gumbe na sceni, stvari možete dogoditi pritiskom na tipke na tipkovnici? Na primjer:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-+ <kbd>b</kbd> = Prebacite na plavu olovku
-+ <kbd>g</kbd> = Prebacite na zelenu olovku
-+ <kbd>e</kbd> = Prebacite na gumicu
-+ <kbd>c</kbd> = očisti ekran
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-Ako želite, možete dodati i kôd tako da pritiskom tipki sa strelicama promijenite širinu olovke.
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
