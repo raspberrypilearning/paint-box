@@ -1,10 +1,10 @@
-## Izziv: ukazi na tipkovnici
+## Challenge: keyboard commands
 
-Ali lahko dodaš kodo, ki poskrbi, da lahko uporabnik namesto klikanja z miško po obarvanih kvadratih in gumbih na odru, uporabi tipke na tipkovnici, da izvede iste stvari? Na primer:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-+ <kbd>m</kbd> = preklopi na moder svinčnik
-+ <kbd>z</kbd> = preklopi na zelen svinčnik
-+ <kbd>r</kbd> = preklopi na radirko
-+ <kbd>p</kbd> = počisti zaslon
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-Če želiš, lahko dodaš tudi kodo, ki spreminja širino svinčnika s pomočjo puščic na tipkovnici.
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
