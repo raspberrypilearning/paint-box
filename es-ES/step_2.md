@@ -1,6 +1,6 @@
 ## Lo que necesitarás
 
-Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,10 +35,10 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-cuando se haga clic en la bandera
-siempre
-ir a (cursor del ratón v)
-fin
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
@@ -58,15 +58,15 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-cuando se haga clic en la bandera
-siempre
-ir a (cursor del ratón v)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+if<mouse down?>then
-marcador abajo
-o
-marcador arriba
-fin
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
@@ -81,7 +81,7 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: ¿Tu lápiz no dibuja desde la punta?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
