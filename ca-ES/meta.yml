@@ -1,27 +1,27 @@
 ---
-title: Caixa de pintura
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Fes el teu propi programa de pintura
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Introducció
+    title: Introduction
   - 
-    title: Feu un llapis
+    title: Make a pencil
   - 
-    title: Llapis de colors
+    title: Coloured pencils
   - 
-    title: 'Repte: dreceres'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: Desfés els errors
+    title: Undo mistakes
   - 
-    title: Canvieu l'amplada del llapis
+    title: Change the pencil width
   - 
-    title: 'Repte: més llapis'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 'What next?'
