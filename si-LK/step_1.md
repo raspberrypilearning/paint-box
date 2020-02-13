@@ -1,14 +1,14 @@
 \--- no-print \---
 
-මෙය **Scratch 3** අනුවාදයේ ව්‍යාපෘතියක් වේ . මෙම ව්‍යාපෘතියේ [Scratch 2 අනුවාදයක් ද ඇත](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## හැදින්වීම
+## Introduction
 
-ඔබේම තීන්ත(paint) වැඩසටහනක්(program එකක්) සාදන්න!
+Make your own paint program!
 
-### ඔබ සාදන්නට යන දේ
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## title: ඔබ ඉගෙන ගන්නා දේ
+## title: What you will learn
 
-+ Scratch වලට පෑන්(pen) දිගුව(extension) එක් කිරීම
-+ Scratch වල sprite එක පාලනය(control) කිරීමට විකාශන(broadcasts) භාවිතා කිරීම
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: ඔබට අවශ්‍ය දේ
+## title: What you will need
 
-### දෘඩාංග(Hardware)
+### Hardware
 
-+ Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
++ A computer capable of running Scratch 3
 
-### මෘදුකාංග(Software)
+### Software
 
-+ Scratch 3 ([අන්තර්ජාල ගතව(online)](http://rpf.io/scratchon){:target="_blank"} හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### බාගන්න(Downloads)
+### Downloads
 
-+ [නොබැඳි(offline) ආරම්භක(starter) ව්‍යාපෘතිය(project)](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
