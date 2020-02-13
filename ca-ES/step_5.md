@@ -1,6 +1,6 @@
-## Desfés els errors
+## Undo mistakes
 
-De vegades es produeixen errors, de manera que afegiu un botó "netejar" i un botó d'esborrany.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -19,8 +19,8 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 
 ```blocks3
-quan aquest sprite va fer clic a
-esborrar-ho tot
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -48,8 +48,8 @@ Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3even
 ![eraser](images/eraser.png)
 
 ```blocks3
-quan aquest sprite va fer clic en
-difusió (esborrany v)
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -69,10 +69,10 @@ Add some code to the pencil sprite: `When I receive`{:class="block3events"} the 
 Here are all the blocks you need:
 
 ```blocks3
-estableix el color del llapis a [#FFFFFF]
-quan rebi [eraser v]
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-canvia el vestit (eraser v)
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -82,9 +82,9 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 
 ```blocks3
-quan rebo [eraser v]
-canvi de vestit a (borrador v)
-establir color de llapis a [#FFFFFF]
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -108,17 +108,17 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 
 ```blocks3
-quan es fa clic a la bandera
-esborrar tots els
-vestit de canvi a (llapis blau v)
-establir el color del llapis a [# 0035FF]
-per sempre
-  aneu a (punter del ratolí v)
-+ si <<mouse down?> i <(i el ratolí) > [-120]>> a continuació, 
-  la ploma cap avall
-  més
-  de la ploma fins
-final
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
