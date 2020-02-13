@@ -1,14 +1,14 @@
 ---
-title: Kreslící program
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: V této lekci se naučíš vytvořit si vlastní kreslící program!
-version: 3
-last_tested: 2017-01-01
+description: Make your own paint program
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - 
-    title: Kreslící program
+    title: Introduction
   - 
     title: Make a pencil
   - 
