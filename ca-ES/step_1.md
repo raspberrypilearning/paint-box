@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Aquesta és la versió del projecte **Scratch 3**. També hi ha un [versió de Scratch 2 del projecte](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Introducció
+## Introduction
 
-Fes el teu propi programa de pintura!
+Make your own paint program!
 
-### Què faràs
+### What you will make
 
 \--- no-print \---
 
@@ -31,35 +31,35 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## \--- collapse \---
 
-## títol: Què aprendràs
+## title: What you will learn
 
-+ Afegiu l’extensió del llapis Scratch
-+ Utilitzeu les emissions per controlar un sprite a Scratch
++ Add the pen extension in Scratch
++ Use broadcasts to control a sprite in Scratch
 + Recall how to respond to mouse events in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## títol: què necessitaràs
+## title: What you will need
 
-### Maquinari
+### Hardware
 
-+ Un ordinador capaç d'executar Scratch 3
++ A computer capable of running Scratch 3
 
-### Programari
+### Software
 
-+ Scratch 3 (tant [en línia](http://rpf.io/scratchon){: target = "_ blank"} o [fora de línia](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Baixades
+### Downloads
 
-+ [Projecte inicial sense connexió](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
++ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## títol: Informació addicional per educadors
+## title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
