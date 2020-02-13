@@ -1,6 +1,6 @@
-## रंगीत पेन्सिल
+## Coloured pencils
 
-आता आपण आपल्या प्रोजेक्टमध्ये भिन्न रंगीत पेन्सिल जोडणार आहात आणि वापरकर्त्यास त्या दरम्यान निवडण्याची परवानगी देऊ शकता.
+Now you're going to add different coloured pencils to your project and allow the user to choose between them.
 
 \--- task \---
 
@@ -49,8 +49,8 @@ Add some code to the 'green' sprite so that when this sprite is clicked, it `bro
 ![green square](images/green_square.png)
 
 ```blocks3
-जेव्हा या स्प्राइटने
-प्रसारण (हिरव्या v) क्लिक केले
+when this sprite clicked
+broadcast (green v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Switch to your pencil sprite. Add some code so that when this sprite receives th
 ![pencil](images/pencil.png)
 
 ```blocks3
-जेव्हा मी [हिरवे व्ही]
-स्विच कॉस्च्यूम (पेन्सिल-ग्रीन व्ही)
-सेट पेन रंग [# 00CC44] प्राप्त करतो
+when I receive [green v]
+switch costume to (pencil-green v)
+set pen color to [#00CC44]
 ```
 
 To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
@@ -84,8 +84,8 @@ Click on the blue square sprite and add this code:
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-जेव्हा या स्प्राइटने
-प्रसारण (निळा वी) क्लिक केले
+when this sprite clicked
+broadcast (blue v)
 ```
 
 Then click on the pencil sprite and add this code:
@@ -93,9 +93,9 @@ Then click on the pencil sprite and add this code:
 ![pencil](images/pencil.png)
 
 ```blocks3
-जेव्हा मी [निळा व्ही]
-स्विच कॉस्च्युम (पेन्सिल-ब्लू व्ही)
-सेट पेन रंग [# 0000ff] वर प्राप्त करते
+when I receive [blue v]
+switch costume to (pencil-blue v)
+set pen color to [#0000ff]
 ```
 
 \--- /task \---
@@ -107,17 +107,17 @@ Finally, add this code to tell the pencil sprite which colour to start with, and
 ![pencil](images/pencil.png)
 
 ```blocks3
-जेव्हा ध्वज
-क्लिक केले तेव्हा सर्व
-+ स्विच कॉस्च्यूम (पेन्सिल-ब्लू व्ही)
-+ सेट पेन कलर [# 0035FF]
-कायमचे काढावे
-  (माउस पॉइंटर विरुद्ध)
- <mouse down?> असल्यास
-  पेन डाउन
-
-  पेन अप
-अंत
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
