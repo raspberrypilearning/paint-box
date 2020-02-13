@@ -1,6 +1,6 @@
-## चुका पूर्ववत करा
+## Undo mistakes
 
-कधीकधी चुका होत असतात, म्हणून 'स्पष्ट' बटण आणि इरेज़र बटण जोडा.
+Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 \--- task \---
 
@@ -19,8 +19,8 @@ Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
 ![cross](images/cross.png)
 
 ```blocks3
-जेव्हा हे स्पिट क्लिक केले
-सर्व मिटवा
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -48,8 +48,8 @@ Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3even
 ![eraser](images/eraser.png)
 
 ```blocks3
-जेव्हा हे स्पिट
-ब्रॉडकास्ट (इरेजर विरुद्ध) क्लिक केले
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -69,10 +69,10 @@ Add some code to the pencil sprite: `When I receive`{:class="block3events"} the 
 Here are all the blocks you need:
 
 ```blocks3
-जेव्हा मी [इरेज़र व्ही]
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-स्विच कॉस्च्युम (इरेजर व्ही) वर प्राप्त करतो तेव्हा पेन रंग [#FFFFFF]
-सेट करा
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -82,9 +82,9 @@ Here is what the code should look like:
 ![pencil](images/pencil.png)
 
 ```blocks3
-जेव्हा मी [इरेज़र व्ही]
-स्विच कॉस्च्युम (इरेजर व्ही)
-सेट पेन रंग [# एफएफएफएफएफएफ] वर प्राप्त करते
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -108,17 +108,17 @@ To fix this, change the code so that the pen is only down if the mouse is clicke
 ![pencil](images/pencil.png)
 
 ```blocks3
-ध्वज क्लिक केले तेव्हा
-मिटवा सर्व
-(पेन्सिल-निळा v) स्विच पोशाख
-[# 0035FF] संच पेन रंग
-कायमचे
-  जाता (माउस पॉईंटर v) पर्यंत
-+ तर <<mouse down?> आणि <(माउस y) > [-120]>> 
-  कलम खाली
-
-  कलम
-अंतरावर
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
