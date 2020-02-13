@@ -1,6 +1,6 @@
-## एक पेन्सिल बनवा
+## Make a pencil
 
-स्टेज वर काढण्यासाठी आपण वापरू शकाल अशी पेन्सिल तयार करा.
+Start by making a pencil that you can use to draw on the Stage.
 
 \--- task \---
 
@@ -35,10 +35,10 @@ Add some code to the pencil sprite to make the sprite follow the mouse pointer `
 ![pencil](images/pencil.png)
 
 ```blocks3
-जेव्हा ध्वज
-कायमचे क्लिक करेल
-  (माऊस पॉइंटर विरुद्ध)
-अंतरावर जाईल
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
@@ -58,15 +58,15 @@ Add this code to your pencil sprite:
 ![pencil](images/pencil.png)
 
 ```blocks3
-जेव्हा ध्वज
-कायमचे क्लिक केले जाते
-  (माउस पॉइंटर विरुद्ध)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+ <mouse down?> असल्यास
-  पेन पेन
-
-  पेन अप
-अंत
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
@@ -79,9 +79,9 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 \--- /task \---
 
-## \--- पडणे \---
+## \--- collapse \---
 
-## शीर्षक: आपला पेन्सिल त्याच्या टिप पासून काढत नाही?
+## title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
