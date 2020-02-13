@@ -1,6 +1,6 @@
-## පැන්සල් තුඩේ පළල වෙනස් කිරීම
+## Change the pen width
 
-ඊළඟට ඔබේ වැඩසටහන භාවිතා කරන පුද්ගලයාට විවිධ පළල(widths) සහිත පෑන් තුඩවල් වලින් දේවල් ඇඳීමට ඉඩ සැලසීමට කේතයක්(code එකක්) එකතු කරන්න. 
+Next you will add code to allow the person using your program to draw things with different pen widths.
 
 \--- task \---
 
@@ -22,7 +22,7 @@ set pen color to [#0035FF]
 forever
 go to (mouse pointer v)
 +set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then
+if <<mouse down?> and <(mouse y) > [-120]>> then 
   pen down
   else
   pen up
