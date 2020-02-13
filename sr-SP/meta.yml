@@ -1,27 +1,27 @@
 ---
-title: Програм за цртање
+title: Paint box
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Направи сопствени програм за цртање
+description: Make your own paint program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Увод
+    title: Introduction
   - 
-    title: Направи оловку
+    title: Make a pencil
   - 
-    title: Бојице
+    title: Coloured pencils
   - 
-    title: 'Изазов: Пречице'
+    title: 'Challenge: shortcuts'
     challenge: true
   - 
-    title: Поништи грешке
+    title: Undo mistakes
   - 
-    title: Промени дебљину оловке
+    title: Change the pencil width
   - 
-    title: 'Изазов: Више бојица'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
-    title: 'Шта даље?'
+    title: 'What next?'
