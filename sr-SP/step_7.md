@@ -1,10 +1,10 @@
-## Изазов: Пречице
+## Challenge: keyboard commands
 
-Можеш ли да додаш код, тако да не мораш да користиш обојене квадрате или дугмад на Позорници, већ да можеш да мењаш боје уз помоћ тастера са стрелицама? На пример:
+Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-+ <kbd>п</kbd> = Промени у плаву бојицу
-+ <kbd>з</kbd> = промени у зелену бојицу
-+ <kbd>г</kbd> = промени у гумицу
-+ <kbd>о</kbd> = очисти екран
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
-Ако желиш, можеш да додаш код, који ће притиском на тастере са стрелицама променити дебљину оловке.
+If you want to, you can also add code so that pressing the arrow keys changes the pen width.
