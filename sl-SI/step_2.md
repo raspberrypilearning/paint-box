@@ -1,28 +1,28 @@
-## Make a pencil
+## Ustvari svinčnik
 
-Start by making a pencil that you can use to draw on the Stage.
+Začni z izdelavo svinčnika, ki ga lahko uporabiš za risanje po odru.
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+Odpri začetni projekt 'Barvice'
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**S povezavo:** odpri nov spletni Scratch projekt na [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+** Brez povezave ** : odpri začetni projekt [ ](http://rpf.io/p/en/paint-box-go) {: target = "_ blank"} v namiznem urejevalniku.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+V začetnem projektu bi moral videti figuri svinčnika in radirke:
 
-![screenshot](images/paint-starter.png)
+![posnetek zaslona](images/paint-starter.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Projektu dodaj razširitev Svinčnik.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,67 +30,67 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Figuri svinčnika dodaj kodo, ki bo omogočila, da figura sledi kazalcu miške in da se to `ponavlja` {:class="block3control"}, tako da lahko rišeš:
 
-![pencil](images/pencil.png)
+![svinčnik](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
-end
+ko kliknemo na zastavico
+ponavljaj
+pojdi na (kazalcu miške v)
+konec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+Klikni zastavico in premikaj kazalec miške po odru, da vidiš ali tvoja koda deluje.
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Nato poskrbi, da bo tvoj svničnik risal le, `če`{:class="block3control"} je pritisnjena tipka na miški.
 
 \--- task \---
 
-Add this code to your pencil sprite:
+Figuri svinčnika dodaj to kodo:
 
-![pencil](images/pencil.png)
+![svinčnik](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+ko kliknemo na zastavico
+ponavljaj
+  pojdi na (kazalcu miške v)
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
-end
++ če <je miškin gumb pritsnjen?> potem
+  spusti pero
+  sicer
+  dvigni pero
+konec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+Ponovno preizkusi kodo. Tokrat premikaj svinčnik po odru in hkrati drži pritisnjeno tipko miške. Ali lahko s svojim svinčnikom sedaj rišeš?
 
-![screenshot](images/paint-draw.png)
+![posnetek zaslona](images/paint-draw.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: Ali tvoj svinčnik ne riše s konico?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Če je videti, da tvoj svinčnik ne riše s konico, temveč črta prihaja iz sredine svinčnika, moraš figuri svinčnika določiti, da bo konica središče figure.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Klini na figuro svinčnika, nato pa klikni na zavihek **Videzi**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Premakni videz, tako da bo konica svinčnika **tik nad vrhom** centra.
 
-![Costume center](images/costume-center-annotated.png)
+![Sredina videza](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Sedaj premikaj svinčnik po odru in riši. Svinčnik bi sedaj moral risati črto iz konice.
 
 \--- /collapse \---
