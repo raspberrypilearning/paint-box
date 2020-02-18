@@ -1,27 +1,27 @@
 ---
-title: Paint box
-hero_image: images/banner.png
+title: Barvice
+hero_image: images / banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: Ustvari svoj risarski program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Introduction
+    title: Uvod
   - 
-    title: Make a pencil
+    title: Ustvari svinčnik
   - 
-    title: Coloured pencils
+    title: Barvice
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Izziv: bližnjice'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Razveljavitev napak
   - 
-    title: Change the pencil width
+    title: Spremeni širino pisala
   - 
-    title: 'Challenge: more pencils'
+    title: 'Izziv: več svinčnikov'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'Kaj sledi?'
