@@ -1,10 +1,10 @@
-## Change the pen width
+## Spremeni širino pisala
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Dodaj kodo, ki omogoča osebi, ki uporablja tvoj program, da riše s pisali različnih debelin.
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+Najprej dodaj novo spremenljjivko z imenom `širina`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,43 +12,43 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Dodaj to vrstico **znotraj** zanke `ponavljaj`{:class="block3control"}, v kodo figure svinčnika:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+ko kliknemo na zastavico
+izbriši vse
+zamenja videz na (svinčnik-moder v)
+nastavi barvo peresa na [#0035FF]
+ponavljaj
+  pojdi na (kazalec miške v)
+  +nastavi velikost peresa na (širina :: variables)
+  if <(je miškin gumb pritisnjen?) in <(miškin y) > [-120]>> potem
+    spusti pero
+  sicer
+    dvigni pero
+konec
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+Širina peresa se sedaj ponavljajoče nastavlja na vrednost spremenljivke `širina`{:class="block3variables"}.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Z desno tipko klikni na spremenljivko `širina`{:class="block3variables"}, ki je prikazana na odru in nato klikni na **drsnik**.
 
-![screenshot](images/paint-slider.png)
+![posnetek zaslona](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Zdaj lahko premikaš drsnik pod spremenljivko in s tem spreminjaš vrednost spremenljivke.
 
-![screenshot](images/paint-slider-change.png)
+![posnetek zaslona](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Preizkusi svoj projekt. Ali lahko dodaš kodo, ki spreminja širino pisala.
 
-![screenshot](images/paint-width-test.png)
+![posnetek zaslona](images/paint-width-test.png)
 
 \--- /task \---
