@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) različica projekta.
 
 \--- /no-print \---
 
-## Introduction
+## Uvod
 
-Make your own paint program!
+Ustvari svoj risarski program!
 
-### What you will make
+### Kaj boš naredil-a
 
 \--- no-print \---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+Za začetek klikni na zeleno zastavico. Uporabi miško za premikanje svinčnika in drži levo tipko miške za risanje. Klikni na barvo, da zamenjaš barvo. Klikni na radirko, da jo izbereš in jo uporabiš za brisanje. Če želiš pobrisati cel list, klikni na križec.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,46 +23,46 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+Zaženi program s klikom na zeleno zastavico in uporabi miško za premikanje svinčnika. Drži levo tipko miške za risanje. Če klikneš na barvo, se bo spremenila barva svinčnika, klik na radirko pa bo izbral radirko!
 
-![showcase](images/showcase.png)
+![vitrina](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Kaj se boš naučil-a?
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ V Scratch dodaj razširitev za svinčnik
++ Uporabi sporočila za upravljanje figure v Scratchu
++ Obnovi znanje o tem, kako se odzivati na dogodke z miško
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Kaj potrebuješ?
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+### Strojna oprema
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
++ Računalnik, ki lahko poganja Scratch 3
+
+### Programska oprema
+
++ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
+
+### Prenosi
+
++ [Začetni projekt brez povezave](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Dodatne informacije za izobraževalce
+
+Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+
+Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/paint-box-get)"}.
 
 \--- /collapse \---
