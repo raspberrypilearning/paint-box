@@ -1,0 +1,19 @@
+---
+title: Barvice
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: Ustvari svoj risarski program
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - title: Uvod
+  - title: Ustvari svinčnik
+  - title: Barvice
+  - title: 'Izziv: bližnjice'
+    challenge: true
+  - title: Razveljavitev napak
+  - title: Spremeni širino pisala
+  - title: 'Izziv: več svinčnikov'
+    challenge: true
+  - title: 'Kaj sledi?'
