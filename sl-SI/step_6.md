@@ -15,18 +15,19 @@ Najprej dodaj novo spremenljjivko z imenom `širina`{:class="block3variables"}.
 Dodaj to vrstico **znotraj** zanke `ponavljaj`{:class="block3control"}, v kodo figure svinčnika:
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 izbriši vse
-zamenja videz na (svinčnik-moder v)
+zamenjaj videz na (svinčnik-moder v)
 nastavi barvo peresa na [#0035FF]
-ponavljaj
-  pojdi na (kazalec miške v)
-  +nastavi velikost peresa na (širina :: variables)
-  if <(je miškin gumb pritisnjen?) in <(miškin y) > [-120]>> potem
+ponavljaj 
+  pojdi na (mouse pointer v)
+  + nastavi velikost peresa na (širina :: variables)
+  če <<je miškin gumb pritisnjen?> in <(miškin y) > [-120]>> potem 
     spusti pero
-  sicer
+  sicer 
     dvigni pero
-konec
+  end
+end
 ```
 
 --- /task ---

@@ -53,7 +53,7 @@ title: Kaj potrebuješ?
 
 ### Prenosi
 
-+ [Začetni projekt brez povezave](http://rpf.io/p/en/paint-box-go){:target="_ blank"}
++ [Začetni projekt brez povezave](http://rpf.io/p/sl-SI/paint-box-go){:target="_ blank"}
 
 --- /collapse ---
 

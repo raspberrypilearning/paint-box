@@ -35,7 +35,7 @@ Figuri svinčnika dodaj kodo, ki bo omogočila, da figura sledi kazalcu miške i
 ![svinčnik](images/pencil.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 ponavljaj
 pojdi na (kazalcu miške v)
 konec
@@ -58,11 +58,10 @@ Figuri svinčnika dodaj to kodo:
 ![svinčnik](images/pencil.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 ponavljaj
   pojdi na (kazalcu miške v)
-
-+ če <je miškin gumb pritsnjen?> potem
++ če <je miškin gumb pritisnjen?> potem 
   spusti pero
   sicer
   dvigni pero

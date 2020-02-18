@@ -107,9 +107,9 @@ Na koncu dodaj kodo, ki pove svinčniku, katera naj bo začetna barva in poskrbi
 ![svinčnik](images/pencil.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 + izbriši vse
-+ zamenja videz na (svinčnik-moder v)
++ zamenjaj videz na (svinčnik-moder v)
 + nastavi barvo peresa na [#0035FF]
 ponavljaj
   pojdi na (kazalec miške v)

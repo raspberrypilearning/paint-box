@@ -108,13 +108,13 @@ Da bi to popravil, spremeni kodo na tak način, da je pero spuščeno le kadar j
 ![svinčnik](images/pencil.png)
 
 ```blocks3
-ko kliknemo na zastavico
+ko je kliknjena zelena zastavica
 izbriši vse
-zamenja videz na (svinčnik-moder v)
+zamenjaj videz na (svinčnik-moder v)
 nastavi barvo peresa na [#0035FF]
 ponavljaj
   pojdi na (kazalec miške v)
-  +if <(je miškin gumb pritisnjen?) in <(miškin y) > [-120]>> potem
+  +če <<je miškin gumb pritisnjen?> in <(miškin y) > [-120]>> potem
     spusti pero
   sicer
     dvigni pero
