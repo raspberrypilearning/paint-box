@@ -1,42 +1,42 @@
-## Coloured pencils
+## Lápices de colores
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Ahora vas a añadir diferentes lápices de colores a tu proyecto y permitir que el usuario elija entre los mismos.
 
 \--- task \---
 
-Rename the `pencil` sprite to `pencil-blue`
+Cambia el nombre del objeto `lápiz` a ` lápiz-azul `
 
-![rename-pencil](images/rename-pencil.png)
+![renombrar-lápiz](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+Haz clic en el botón derecho del objeto lápiz-azul y duplica su disfraz.
 
-![screenshot](images/paint-blue-duplicate.png)
-
-\--- /task \---
-
-\--- task \---
-
-Name the new costume 'pencil-green', and colour the pencil green.
-
-![screenshot](images/paint-pencil-green.png)
+![captura de pantalla](images/paint-blue-duplicate.png)
 
 \--- /task \---
 
 \--- task \---
 
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+Cambia el nombre de tu nuevo disfraz a 'lápiz-verde' y cambia su color a verde.
 
-![screenshot](images/paint-selectors.png)
+![captura de pantalla](images/paint-pencil-green.png)
 
 \--- /task \---
 
 \--- task \---
 
-Rename the new sprites so that they are called 'blue' and 'green'
+Dibuja dos objetos más - un cuadrado azul y un cuadrado verde. Estos sirven para elegir entre el lápiz azul y el verde.
+
+![captura de pantalla](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Renombra los nuevos objetos para que se llamen 'azul' y 'verde'
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,90 +44,90 @@ Rename the new sprites so that they are called 'blue' and 'green'
 
 \--- task \---
 
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+Añade algún código al objeto ‘verde’, de modo que cuando se haga clic en este objeto, se `envie`{:class="block3events"} el mensaje “verde”.
 
-![green square](images/green_square.png)
+![cuadrado verde](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+al hacer clic en este objeto
+enviar (verde v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
 
 \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+El objeto lápiz debería 'escuchar' el mensaje "verde" y cambiar su disfraz y color de lápiz como respuesta.
 
 \--- task \---
 
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+Cambia al objeto lápiz. Añade algún código de modo que cuando este objeto reciba el envio `verde`{:class="block3events"}, cambie al disfraz de lápiz verde y cambie el color de lápiz a verde.
 
-![pencil](images/pencil.png)
+![lápiz](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+al recibir [verde v]
+cambiar disfraz a (lápiz-verde v)
+fijar color de lápiz a [#00C44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+Para poner el color de lápiz en verde, haz clic en el pequeño ovalo que está a la derecha, dentro, en el bloque `fijar color de lápiz a`{:class="block3extensions"}, luego haz clic en el cuentagotas y selecciona el objeto cuadrado verde.
 
 \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Luego del mismo modo puedes cambiar el color de lápiz a azul.
 
 \--- task \---
 
-Click on the blue square sprite and add this code:
+Haz clic sobre el objeto cuadrado azul y añade este código:
 
-![blue_square](images/blue_square.png)
+![cuadrado azul](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+al hacer clic en este objeto
+enviar (azul v)
 ```
 
-Then click on the pencil sprite and add this code:
+Luego, haz clic sobre el objeto lápiz y añade este código:
 
-![pencil](images/pencil.png)
-
-```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
-```
-
-\--- /task \---
-
-\--- task \---
-
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
-
-![pencil](images/pencil.png)
+![lápiz](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
-end
+al recibir [azul v]
+cambiar disfraz a (lápiz-azul v)
+fijar color de lápiz a [#0000ff]
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+\--- task \---
+
+Finalmente, añade este código para indicarle al objeto lápiz con qué color comenzar, y asegurarte de que la pantalla esté limpia cuando comiences.
+
+![lápiz](images/pencil.png)
+
+```blocks3
+al hacer clic en la bandera
++borrar todo
++cambiar disfraz a (lápiz-azul v)
++fijar color de lápiz a [#0035FF]
+por siempre
+  ir a (puntero del ratón v)
+si<mouse down?>entonces
+  bajar lápiz
+  si no 
+  subir lápiz
+fin
+```
+
+\--- /task \---
+
+Si prefieres, puedes comenzar con un lápiz de color diferente.
 
 \--- task \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+Prueba tu código. ¿Puedes cambiar entre el color de lápiz verde y el azul al cliquear en los objetos cuadrado azul o verde?
 
-![screenshot](images/paint-pens-test.png)
+![captura de pantalla](images/paint-pens-test.png)
 
 \--- /task \---
