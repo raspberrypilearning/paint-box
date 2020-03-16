@@ -1,123 +1,123 @@
-## Undo mistakes
+## 清空與擦除
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+有時候我們會畫錯些東西，有個「清空」和「擦除」的工具會很方便的。
 
 \--- task \---
 
-Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+加入一個有叉叉樣式的角色，你可以用英文字母 X 來代表。 把角色的造型塗成紅色，然後變小一些。 這個角色用來當作「清空」按鈕。
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png)
+![截圖](images/paint-x.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+為清空按鈕編寫程式，在點擊角色時，把舞台上的所有筆跡都清除。
 
-![cross](images/cross.png)
+![叉叉](images/cross.png)
 
 ```blocks3
-when this sprite clicked
-erase all
+當角色被點擊
+筆跡全部清除
 ```
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+在這裡，你不需要用`廣播`{:class="block3events"}的方式，因為`筆跡全部清除`{:class="block3extensions"}這個程式積木就可以完成這件工作。
 
-Do you see that the pencil sprite includes an eraser costume?
+你觀察到了嗎？鉛筆角色裡頭，是不是有個橡皮擦的造型。
 
-![screenshot](images/paint-eraser-costume.png)
+![截圖](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+然後，你的專案也有角色的造型是橡皮擦，名稱叫做「擦除」。
 
 \--- task \---
 
-Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+選取「擦除」這個角色，然後把它從隱藏切換成**顯示**。 這樣一來，舞台上就會看到這個角色了：
 
-![screenshot](images/paint-eraser-stage.png)
+![截圖](images/paint-eraser-stage.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+為「擦除」這個角色編程，讓它在被點擊時發送一個`換成橡皮擦`{:class="block3events"}的廣播訊息。
 
-![eraser](images/eraser.png)
+![橡皮擦](images/eraser.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (eraser v)
+當角色被點擊
+廣播訊息 (換成橡皮擦 v)
 ```
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+當鉛筆收到了「換成橡皮擦」的訊息後，它應該要把造型改變成橡皮擦的樣子，而且筆跡的顏色變成和舞台背景相同的顏色，也就是白色，這樣在使用時就會有擦除的效果了！
 
 \--- task \---
 
-Add some code to create the eraser.
+編寫一個橡皮擦效果的程式。
 
 \--- hints \--- \--- hint \---
 
-Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+在鉛筆角色裡添加一些程式： `當收到訊息`{:class="block3events"}`換成橡皮擦`{:class="block3events"} `造型換成鉛筆-橡皮擦`{:class="block3looks"} `筆跡顏色設為`{:class="block3extensions"}白色
 
 \--- /hint \--- \--- hint \---
 
-Here are all the blocks you need:
+這裡是你需要的程式積木：
 
 ```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
+筆跡顏色設為 [#ffffff]
+當收到訊息 (換成橡皮擦 v)
 
-switch costume to (eraser v)
+造型換成 (鉛筆-橡皮擦 v)
 ```
 
 \--- /hint \--- \--- hint \---
 
-Here is what the code should look like:
+你的程式看起來應該像這樣：
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
-set pen color to [#FFFFFF]
+當收到訊息 (換成橡皮擦 v)
+造型換成 (鉛筆-橡皮擦 v)
+筆跡顏色設為 [#ffffff]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
 
 \--- task \---
 
-Test your project to see if you can clear the Stage and erase pencil lines.
+測試你的專案，看看這個程式是否可以有擦除舞台上筆跡的效果。
 
-![screenshot](images/paint-erase-test.png)
+![截圖](images/paint-erase-test.png)
 
 \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+鉛筆的部分還有一個問題：你可以在舞台的任何地方畫圖，包含「清空」和「擦除」按鈕兩個區塊！
 
-![screenshot](images/paint-draw-problem.png)
+![截圖](images/paint-draw-problem.png)
 
 \--- task \---
 
-To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+要修復這個錯誤的方式，就是修改可以畫畫的程式，除了滑鼠左鍵按住之外，**同時**滑鼠游標的 `y` 座標必須要大於 `-120`：
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-+if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+當 @greenflag 被點擊
+筆跡全部清除
+造型換成 (鉛筆-藍色 v)
+筆跡顏色設為 [#0035FF]
+重複無限次
+  定位到 (鼠標 v) 位置
++ 如果<滑鼠鍵被按下？> 且 <(鼠標的 y) > (120)>那麼
+  下筆
+  否則
+  停筆
 end
 ```
 
@@ -125,8 +125,8 @@ end
 
 \--- task \---
 
-Test your project. You now should not be able to draw near the buttons.
+測試你的專案。 現在你應該沒有辦法在按鈕附近畫畫了。
 
-![screenshot](images/paint-fixed.png)
+![截圖](images/paint-fixed.png)
 
 \--- /task \---
