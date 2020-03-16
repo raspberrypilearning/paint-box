@@ -4,7 +4,7 @@ Next you will add code to allow the person using your program to draw things wit
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+首先，添加一个名为 `width`{:class="block3variables"}的新变量。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+将此行 **添加到** `永久的`{:class="block3control"}循环的铅笔精灵的代码中：
 
 ```blocks3
 when flag clicked
@@ -35,7 +35,7 @@ The pen width now repeatedly gets set to the value of the `width`{:class="block3
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+右键单击舞台上显示的 `宽`{:class="block3variables"}变量，然后单击 **滑块**。
 
 ![screenshot](images/paint-slider.png)
 
@@ -47,7 +47,7 @@ You can now drag the slider that is visible below the variable to change the var
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+测试你的项目，看看你是否可以添加代码来调整笔的宽度。
 
 ![screenshot](images/paint-width-test.png)
 
