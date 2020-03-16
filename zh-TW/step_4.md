@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## 挑戰：更多色鉛筆
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+你可以加入紅色、黃色、黑色鉛筆到你的畫圖工具箱嗎？ 如果你不大知道怎麼開始，不妨回過上個步驟，看看藍色和綠色鉛筆是怎麼做的。
 
-Can you use your pencils to draw a picture?
+現在，用你發明的畫圖工具箱來畫張圖吧！
 
-![screenshot](images/paint-final.png)
+![截圖](images/paint-final.png)
