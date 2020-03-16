@@ -1,10 +1,10 @@
-## Change the pen width
+## Cambia el grosor del lápiz
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores del lápiz.
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,43 +12,43 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Añade esta línea **dentro** del bloque `por siempre` del código del objeto lápiz:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
+al hacer clic en la bandera
+borrar todo
+cambiar disfraz a (lápiz-azul v)
+fijar color de lápiz a [#0035FF]
+por siempre
+ir a (puntero del ratón v)
++ fijar tamaño del lápiz a (ancho:: variables)
+si <<mouse down?> and <(mouse y) > [-120]>> entonces
+bajar lápiz
+si no
+subir lápiz
+fin
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+El grosor del lápiz ahora se establece repetidamente en el valor de la variable `ancho` {: class = "block3variables"}.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Haz clic con el botón derecho del ratón sobre la variable `ancho` {:class="block3variables"} que se muestra en el recuadro del Escenario, y luego selecciona la opción **deslizador**.
 
-![screenshot](images/paint-slider.png)
+![captura de pantalla](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Ahora puedes arrastrar el deslizador que ves debajo de la variable para cambiar el valor de la misma.
 
-![screenshot](images/paint-slider-change.png)
+![captura de pantalla](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Prueba tu programa y mira si puedes añadir código para ajustar el grosor del lápiz.
 
-![screenshot](images/paint-width-test.png)
+![captura de pantalla](images/paint-width-test.png)
 
 \--- /task \---
