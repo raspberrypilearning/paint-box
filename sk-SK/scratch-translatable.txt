@@ -3,3 +3,9 @@ blue
 green
 
 width
+
+pencil-blue
+
+pencil-green
+
+eraser
