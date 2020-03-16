@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: Caja de lápices
 hero_image: images / banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
-version: 4.1.0
+description: Aprende a hacer tu propio programa de dibujo.
+version: 3
 last_tested: 2018-30-01
 steps:
   - 
     title: Introducción
   - 
-    title: Make a pencil
+    title: Haz un lápiz
   - 
-    title: Coloured pencils
+    title: Lápices de colores
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Desafío: atajos de teclado'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Corrige errores
   - 
-    title: Change the pencil width
+    title: Cambia el grosor del lápiz
   - 
-    title: 'Challenge: more pencils'
+    title: 'Desafío: más lápices'
     challenge: true
   - 
-    title: 'What next?'
+    title: '¿Qué hacer a continuación?'
