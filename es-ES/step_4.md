@@ -1,6 +1,6 @@
 ## Desafío: más colores
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+¿Puedes añadir lápices rojo, amarillo y negro a tu programa de dibujo? Observa los pasos previos si quieres un recordatorio de cómo hacer esto.
 
 ¿Puedes usar tus nuevos colores para hacer un dibujo?
 
