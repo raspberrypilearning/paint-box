@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## 挑戰：鍵盤快捷鍵
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+寫個程式，讓使用者不需要點擊舞台上的顏色方塊，只要按下對應的鍵盤按鍵，就可以切換鉛筆的顏色。如何，你能寫出這個程式嗎？ 例如：
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ 按下 <kbd>b</kbd> 鍵：切換成藍色（blue）的鉛筆
++ 按下 <kbd>g</kbd> 鍵：切換成綠色（green）的鉛筆
++ 按下 <kbd>e</kbd> 鍵：切換成橡皮擦（eraser）
++ 按下 <kbd>c</kbd> 鍵：畫面全部清空（clear）
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+難不倒你？那你能讓使用者用方向鍵來控制鉛筆筆跡的寬度嗎？！
