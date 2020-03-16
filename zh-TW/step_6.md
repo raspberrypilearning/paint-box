@@ -1,10 +1,10 @@
-## Change the pen width
+## 改變鉛筆的寬度
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+接著，你將編寫一個程式，讓使用你的繪圖工具的人，能夠自己決定鉛筆筆跡的粗細。
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+首先，先建立一個新的變數，名稱叫`自訂寬度`{:class="block3variables"}。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,43 +12,43 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+在鉛筆角色的程式，找到`重複無限次`{:class="block3control"}這個迴圈，**在迴圈裡頭**添加一些程式：
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+當 @greenflag 被點擊
+筆跡全部清除
+造型換成 (鉛筆-藍色 v)
+筆跡顏色設為 [#0035FF]
+重複無限次
+定位到 (鼠標 v) 位置
++ 筆跡寬度設為 (自訂寬度 :: variables)
+如果<滑鼠鍵被按下？> 且 <(鼠標的 y) > (120)>那麼
+  下筆
+  否則
+  停筆
 end
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+現在鉛筆筆畫的粗細就可以透過`自訂寬度`{:class="block3variables"}這個變數來設定了。
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+在舞台上找到`自訂寬度`{:class="block3variables"}，滑鼠游標停在這個變數上並點擊右鍵，然後選取**滑桿**。
 
-![screenshot](images/paint-slider.png)
+![截圖](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+這樣一來，拖曳變數下方的滑桿，就可以設定變數的值了。
 
-![screenshot](images/paint-slider-change.png)
+![截圖](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+測試你的專案，試試看你能不能修改筆跡的寬度。
 
-![screenshot](images/paint-width-test.png)
+![截圖](images/paint-width-test.png)
 
 \--- /task \---
