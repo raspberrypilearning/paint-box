@@ -1,42 +1,42 @@
-## Coloured pencils
+## 不同顏色的鉛筆
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+現在，你將添加不同顏色的鉛筆到專案裡，使用的人可以選擇這些顏色來畫畫。
 
 \--- task \---
 
-Rename the `pencil` sprite to `pencil-blue`
+點擊`鉛筆`這個角色，切換到造型頁籤，將造型名稱重新命名成`鉛筆-藍色`。
 
-![rename-pencil](images/rename-pencil.png)
+![重新命名鉛筆](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+在「鉛筆-藍色」造型上按下滑鼠右鍵，複製這個造型。
 
-![screenshot](images/paint-blue-duplicate.png)
-
-\--- /task \---
-
-\--- task \---
-
-Name the new costume 'pencil-green', and colour the pencil green.
-
-![screenshot](images/paint-pencil-green.png)
+![截圖](images/paint-blue-duplicate.png)
 
 \--- /task \---
 
 \--- task \---
 
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+將造型名稱修改為「鉛筆-綠色」，然後把鉛筆塗成綠色。
 
-![screenshot](images/paint-selectors.png)
+![截圖](images/paint-pencil-green.png)
 
 \--- /task \---
 
 \--- task \---
 
-Rename the new sprites so that they are called 'blue' and 'green'
+接著創建兩個角色：一個是藍色的正方形，一個是綠色的正方形。 這是使用者用來選擇筆的顏色的工具方塊。
+
+![截圖](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+把這兩個角色分別命名成「藍色」和「綠色」。
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,90 +44,90 @@ Rename the new sprites so that they are called 'blue' and 'green'
 
 \--- task \---
 
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+為「綠色」角色編寫程式，在點擊角色時`廣播`{:class="block3events"}「換成綠色」的訊息。
 
-![green square](images/green_square.png)
+![綠色正方形](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+當角色被點擊
+廣播訊息 (換成綠色 v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
 
 \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+鉛筆角色要在接收到「換成綠色」這個廣播訊息後，應該要把造型換成綠色的鉛筆。
 
 \--- task \---
 
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+點擊鉛筆角色， 添加一些程式，讓角色在收到訊息`換成綠色`{:class="block3events"}時，角色會切換成綠色鉛筆的造型，然後筆跡的顏色也變成綠色。
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+當收到訊息 (換成綠色 v)
+造型換成 (鉛筆-綠色 v)
+筆跡顏色設為 [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+要設定筆跡成綠色的方式是，在`筆跡設為…`{:class="block3extensions"}積木上的色塊上點一下，接著點擊顏色工具底部的揀色工具（滴管圖示），然後再選綠色正方形，就可以揀到一模一樣的綠色。
 
 \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+在藍色鉛筆上的程式和綠色鉛筆的很像。
 
 \--- task \---
 
-Click on the blue square sprite and add this code:
+選取藍色這個角色，添加這個程式：
 
-![blue_square](images/blue_square.png)
+![藍色正方形](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+當角色被點擊
+廣播訊息 (換成藍色 v)
 ```
 
-Then click on the pencil sprite and add this code:
+然後選取鉛筆角色，加入這個程式：
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+當收到訊息 (換成藍色 v)
+造型換成 (鉛筆-藍色 v)
+筆跡顏色設為 [#0035FF]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+最後，添加這個程式，告訴鉛筆角色開始時要用的顏色，還有確保程式啟動時畫面是清空的。
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
+當 @greenflag 被點擊
++ 筆跡全部清除
++ 造型換成 (鉛筆-藍色 v)
++ 筆跡顏色設為 [#0035FF]
+重複無限次
+  定位到 (鼠標 v) 位置
+如果 <滑鼠鍵被按下？> 那麼
+  下筆
+  否則
+  停筆
 end
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+如果你可以的話，你可以加入更多不同顏色的鉛筆。
 
 \--- task \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+測試你的程式。 你可以在藍色和綠色鉛筆之間來回切換並畫出不同顏色的筆跡嗎？
 
-![screenshot](images/paint-pens-test.png)
+![截圖](images/paint-pens-test.png)
 
 \--- /task \---
