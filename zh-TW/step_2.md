@@ -1,28 +1,28 @@
-## Make a pencil
+## 做個鉛筆
 
-Start by making a pencil that you can use to draw on the Stage.
+首先製作一支可以在舞台上畫畫的鉛筆。
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+打開畫圖工具盒這個專案的材料包。
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**線上版**：你可以連結 [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"} 以新建專案。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**離線版**：在離線編輯器裡開啟[材料包](http://rpf.io/p/en/paint-box-go){:target="_blank"}。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
 
-In the starter project, you should see pencil and eraser sprites:
+在材料包中，你應該會看到「鉛筆」和「擦除」兩個角色：
 
-![screenshot](images/paint-starter.png)
+![截圖](images/paint-starter.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+把畫筆這個擴充功能添加到專案裡。
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,14 +30,14 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+為鉛筆角色編寫一個程式，讓角色`重複不停`{:class="block3control"}的跟著滑鼠游標，這樣你才可以在舞台上任何地方畫圖：
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+當 @greenflag 被點擊
+重複無限次
+  定位到 (鼠標 v) 位置
 end
 ```
 
@@ -45,27 +45,27 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+點擊綠旗，然後移動滑鼠，測試一下你的程式是否正常運作。
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+接著，`如果`{:class="block3control"}滑鼠按鍵的話，那麼就下筆畫畫；否則就停筆不畫。
 
 \--- task \---
 
-Add this code to your pencil sprite:
+添加程式到鉛筆角色裡：
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when flag clicked
-forever
-  go to (mouse pointer v)
+當 @greenflag 被點擊
+重複無限次
+  定位到 (鼠標 v) 位置
 
-+ if <mouse down?> then
-  pen down
-  else
-  pen up
++ 如果 <滑鼠鍵被按下？> 那麼
+  下筆
+  否則
+  停筆
 end
 ```
 
@@ -73,24 +73,24 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+再試試你的程式。 這次，在舞台隨意的移動鉛筆，然後按住滑鼠按鍵。 你可以用鉛筆畫圖了嗎？
 
-![screenshot](images/paint-draw.png)
+![截圖](images/paint-draw.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: 筆跡不是從鉛筆筆尖上畫出來的嗎？
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+如果不像是從鉛筆筆尖畫出來的感覺，那你可以去修改角色的造型，把鉛筆尖端的部分移動到繪圖畫布的中心點。
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+點擊鉛筆這個角色，然後換到**造型**頁籤。
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+移動造型的位置，把筆尖放到畫布的中心點位置上。
 
-![Costume center](images/costume-center-annotated.png)
+![造型中心點](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+現在再畫畫看。 筆跡應該會從鉛筆的尖端出現了。
 
 \--- /collapse \---
