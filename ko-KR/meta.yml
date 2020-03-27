@@ -21,7 +21,7 @@ steps:
   - 
     title: 연필 두께 변경하기
   - 
-    title: '도전 과제: 더 많은 연필들'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'What next?'
