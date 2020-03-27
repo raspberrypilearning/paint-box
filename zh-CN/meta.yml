@@ -21,7 +21,7 @@ steps:
   - 
     title: 改变铅笔宽度
   - 
-    title: '挑战: 更多铅笔'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'What next?'
