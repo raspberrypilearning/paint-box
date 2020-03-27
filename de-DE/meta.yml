@@ -21,7 +21,7 @@ steps:
   - 
     title: Die Stiftdicke ändern
   - 
-    title: 'Zusatzaufgabe: mehr Stifte'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'Wie geht es weiter?'
