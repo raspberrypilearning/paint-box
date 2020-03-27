@@ -1,40 +1,54 @@
-## Cambiar el ancho del marcador
+## Cambia el grosor del lápiz
 
-Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores de marcador.
+Luego vas a añadir código para permitir que el usuario de tu programa dibuje cosas con diferentes grosores del lápiz.
 
---- task --- Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
+--- task ---
 
-[[[generic-scratch3-add-variable]]] --- /task ---
+Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 
---- task --- Añade esta línea **dentro** del bucle `forever`{:class="block3control"} del código del objeto lápiz:
+[[[generic-scratch3-add-variable]]]
+
+--- /task ---
+
+--- task ---
+
+Añade esta línea **dentro** del bloque `por siempre` del código del objeto lápiz:
 
 ```blocks3
-cuando se hace clic en la bandera
+when flag clicked
 borrar todo
 cambiar disfraz a (lápiz-azul v)
-fijar color de marcador a [#0035FF]
-siempre
-ir a (cursor del ratón v)
-+ fijar grosor del marcador a (ancho:: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then
-marcador abajo
-o
-marcador arriba
+fijar color de lápiz a [#0035FF]
+por siempre
+ir a (puntero del ratón v)
++set pen size to (ancho :: variables)
+si <<¿ratón presionado?> and <(posición y del ratón) > [-120]>> entonces
+bajar lápiz
+si no
+subir lápiz
 fin
 ```
 
 --- /task ---
 
-El ancho del marcador ahora se vuelve repetidamente del valor de la variable `ancho`{:class="block3variables"}.
+El grosor del lápiz ahora se establece repetidamente en el valor de la variable `ancho`{:class="block3variables"}.
 
---- task --- Haz clic a la derecha de la variable `ancho`{:class="block3variables"} que se muestra en el Escenario, y luego haz clic en **deslizador**.
+--- task ---
 
-![screenshot](images/paint-slider.png) --- /task ---
+Haz clic con el botón derecho del ratón sobre la variable `ancho`{:class="block3variables"} que se muestra en el recuadro del Escenario, y luego selecciona la opción **deslizador**.
 
-Ahora puedes arrastrar el deslizador que se ve debajo de la variable para cambiar el valor de la misma.
+![captura de pantalla](images/paint-slider.png)
 
-![screenshot](images/paint-slider-change.png)
+--- /task ---
 
---- task --- Prueba tu proyecto y mira si puedes añadir código para ajustar el ancho del marcador.
+Ahora puedes arrastrar el deslizador que ves debajo de la variable para cambiar el valor de la misma.
 
-![screenshot](images/paint-width-test.png) --- /task ---
+![captura de pantalla](images/paint-slider-change.png)
+
+--- task ---
+
+Prueba tu programa y mira si puedes añadir código para ajustar el grosor del lápiz.
+
+![captura de pantalla](images/paint-width-test.png)
+
+--- /task ---

@@ -2,21 +2,27 @@
 
 Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 
---- task --- Abre la 'caja de pintura' del proyecto de inicio de Scratch.
+--- task ---
 
-**Online**: abre el proyecto de inicio en[rpf.io/caja de pintura](http://rpf.io/paint-box-on){:target="_blank"}
+Abre el proyecto inicial de Scratch 'Caja de lápices'.
 
-**Offline**: abre el [proyecto de inicio](http://rpf.io/p/es-ES/paint-box-go){:target=_blank"} en el editor offline.
+**Online**: abre el proyecto de inicio en [scratch.mit.edu/projects/380107552](https://scratch.mit.edu/projects/380107552){:target="_blank"}
 
-Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-En el proyecto de inicio, deberías ver los objetos lápiz y borrador:
+**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/es-ES/paint-box-go){:target="_blank"} en el editor sin conexión.
 
-![screenshot](images/paint-starter.png) --- /task ---
+Si necesita descargar e instalar el editor sin conexión de Scratch, puede encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+
+En el proyecto de inicio, deberías ver los objetos lápiz y gomadeborrar:
+
+![captura de pantalla](images/paint-starter.png)
+
+--- /task ---
 
 --- task ---
 
-Añade la extensión de marcador a tu proyecto.
+Añade la extensión de lápiz a tu proyecto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -24,57 +30,66 @@ Añade la extensión de marcador a tu proyecto.
 
 --- task ---
 
-Añade algo de código al objeto lápiz para hacer que el objeto siga al cursor `forever`{:class="block3control"} así puedes dibujar:
+Añade algo de código al objeto lápiz para hacer que siga al ratón `siempre`{:class="block3control"} y así puedas dibujar:
 
 ![lápiz](images/pencil.png)
 
 ```blocks3
-cuando se haga clic en la bandera
-siempre
-ir a (cursor del ratón v)
+when flag clicked
+por siempre
+ ir a (puntero del ratón v)
 fin
 ```
 
 --- /task ---
 
---- /task--- Haz clic en la bandera y luego mueve el cursor alrededor del Escenario para comprobar si tu código funciona. --- /task ---
+--- task ---
 
-Luego, haz que tu lápiz sólo dibuje `if`{:class="block3control"} si se mantiene presionado el botón del ratón.
+Haz clic en la bandera y luego mueve el puntero del ratón alrededor del Escenario para probar si tu código funciona.
 
---- task --- Añade este código al objeto de tu lápiz:
+--- /task ---
+
+Luego, haz que tu lápiz sólo dibuje `si`{:class="block3control"} si se mantiene presionado el botón del ratón.
+
+--- task ---
+
+Añade este código a tu objeto lápiz:
 
 ![lápiz](images/pencil.png)
 
 ```blocks3
-cuando se haga clic en la bandera
-siempre
-ir a (cursor del ratón v)
-
-+if<mouse down?>then
-marcador abajo
-o
-marcador arriba
+when flag clicked
+por siempre
+ir a (puntero del ratón v)
++si<¿ratón presionado?>entonces
+bajar lápiz
+si no
+subir lápiz
 fin
 ```
 
 --- /task ---
 
---- task --- Comprueba tu código nuevamente. Esta vez, mueve el lápiz alrededor del Escenario y mantiene presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
+--- task ---
 
-![screenshot](images/paint-draw.png) --- /task ---
+Vuelve a probar tu código. Esta vez, mueve el lápiz alrededor del Escenario y mantén presionado el botón del ratón. ¿Puedes dibujar con tu lápiz?
+
+![captura de pantalla](images/paint-draw.png)
+
+--- /task ---
 
 --- collapse ---
 ---
 title: ¿Tu lápiz no dibuja desde la punta?
 ---
 
-Si la línea que tu lápiz dibuja parece que saliera del medio de tu lápiz, necesitas cambiar el sprite de tu lápiz para que la punta sea el centro del sprite.
+Si la línea que tu lápiz dibuja parece que saliera del medio de tu lápiz, necesitas cambiar el objeto lápiz para que la punta sea el centro del objeto.
 
-Haz clic el sprite de lápiz, y luego haz clic sobre la pestaña **Disfraces**.
+Haz clic el objetoe lápiz, y luego haz clic sobre la pestaña **Disfraces**.
 
 Mueve la pestaña de disfraces para que la punta del lápiz esté **justo encima** del centro.
 
-![Centro del disfraz](images/costume-center-annotated.png)
+![Centro de disfraces](images/costume-center-annotated.png)
 
 Ahora mueve el lápiz alrededor del Escenario y dibuja. El lápiz ahora debería dibujar una línea desde su punta.
 
