@@ -1,6 +1,6 @@
-## Reto: Otro disfraz
+## ¿Qué hacer a continuación?
 
-Ahora que has completado el proyecto 'Caja de lápices', trata[con el proyecto 'Carrera de barcos'](https://projects.raspberrypi.org/es-ES/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), que te ayuda a armar un juego donde tienes que pilotar un barco y esquivar obstáculos.
+Ahora que has completado el proyecto 'Caja de lápices', intenta el proyecto [ 'Carrera de barcos'](https://projects.raspberrypi.org/es-ES/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), que te ayuda a hacer un juego donde tienes que pilotar un barco esquivando obstáculos.
 
 --- no-print ---
 
@@ -11,10 +11,22 @@ Ahora que has completado el proyecto 'Caja de lápices', trata[con el proyecto '
 
 --- /no-print ---
 
---- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
+--- print-only ---
 
-Traducción aportada por la comunidad
+![demo de carrera de barcos](images/boat_race_demo.png)
 
-Este proyecto fue traducido por Helmut Schlimper y revisado por Pablo Collado.
+--- /print-only ---
 
-Nuestros increíbles voluntarios de traducción nos ayudan a dar a los niños de todo el mundo la oportunidad de aprender a programar. Puedes ayudarnos a llegar a más niños traduciendo nuestros proyectos. Consigue más información en [rpf.io/translators](https://rpf.io/translators).
+
+***
+Este proyecto fue traducido por voluntarios:
+
+José María Honrado
+
+Laura Lurati
+
+Helmut Schlimper
+
+Pablo Collado
+
+Gracias a los voluntarios, podemos dar a las personas de todo el mundo la oportunidad de aprender en su propio idioma. Puede ayudarnos a llegar a más personas ofreciéndose como voluntario para traducir; más información en [rpf.io/translate](https://rpf.io/translate).
