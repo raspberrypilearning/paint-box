@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## チャレンジ: 鉛筆を増やす
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+赤、黄、黒の鉛筆をお絵描きプログラムに追加できますか？ これを行う方法を思い出すには前の手順を見てみてください。
 
-Can you use your pencils to draw a picture?
+これらの鉛筆を使って絵を描けますか？
 
-![screenshot](images/paint-final.png)
+![スクリーンショット](images/paint-final.png)
