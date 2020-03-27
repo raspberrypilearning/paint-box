@@ -21,7 +21,7 @@ steps:
   - 
     title: Cambia lo spessore della matita
   - 
-    title: 'Sfida: Più matite'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'What next?'
