@@ -105,7 +105,7 @@ Hay un problema más con el lápiz: puedes dibujar en cualquier lugar del Escena
 
 Para arreglar esto, cambia el código de modo que el lápiz esté abajo sólo si se hace clic en el ratón **y** la posición `y` del cursor sea mayor que `-120`:
 
-![pencil](images/pencil.png)
+![lápiz](images/pencil.png)
 
 ```blocks3
 al hacer clic en la bandera
