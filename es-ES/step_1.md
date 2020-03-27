@@ -66,6 +66,6 @@ title: Información adicional para educadores
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/paint-box/print){:target="_blank"}.
 
-Puedes [encontrar el proyecto completo aquí](http://rpf.io/p/es-ES/paint-box-get){:target ="_blank"}.
+Puedes [encontrar el proyecto completo aquí](http://rpf.io/p/es-ES/paint-box-get){:target="_blank"}.
 
 --- /collapse ---

@@ -61,7 +61,7 @@ title: 必要なもの
 
 --- collapse ---
 ---
-title：教育者向けの追加情報
+title: 教育者向けの追加情報
 ---
 
 このプロジェクトを印刷する必要がある場合は[印刷用バージョン](https://projects.raspberrypi.org/ja-JP/projects/paint-box/print){:target="_blank"}を使用してください。

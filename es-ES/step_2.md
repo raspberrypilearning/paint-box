@@ -12,7 +12,7 @@ Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinve
 
 **Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/es-ES/paint-box-go){:target="_blank"} en el editor sin conexión.
 
-Si necesita descargar e instalar el editor sin conexión de Scratch, puede encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"}
+Si necesita descargar e instalar el editor sin conexión de Scratch, puede encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
 En el proyecto de inicio, deberías ver los objetos lápiz y gomadeborrar:
 
@@ -35,7 +35,7 @@ Añade algo de código al objeto lápiz para hacer que siga al ratón `siempre`{
 ![lápiz](images/pencil.png)
 
 ```blocks3
-al hacer click en la bandera
+when flag clicked
 por siempre
  ir a (puntero del ratón v)
 fin
@@ -58,10 +58,10 @@ Añade este código a tu objeto lápiz:
 ![lápiz](images/pencil.png)
 
 ```blocks3
-al hacer clic en la bandera
+when flag clicked
 por siempre
 ir a (puntero del ratón v)
-+si<mouse down?>entonces
++si<¿ratón presionado?>entonces
 bajar lápiz
 si no
 subir lápiz

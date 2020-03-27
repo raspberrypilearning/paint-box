@@ -84,7 +84,7 @@ Así es como debería verse tu código:
 
 ```blocks3
 al recibir [borrador v]
-cambia disfraz a (gomadeborrar v)
+cambiar disfraz a (gomadeborrar v)
 fijar color de lápiz a [#FFFFFF]
 ```
 
@@ -109,13 +109,13 @@ Para arreglar esto, cambia el código de modo que el lápiz esté abajo sólo si
 ![lápiz](images/pencil.png)
 
 ```blocks3
-al hacer clic en la bandera
+when flag clicked
 borrar todo
-cambia disfraz a (lápiz-azul v)
+cambiar disfraz a (lápiz-azul v)
 fijar color de lápiz a [#0035FF]
 por siempre
 ir a (puntero del ratón v)
-+si <<mouse down?> y <(mouse y) > [-120]>> entonces 
++si <<¿ratón presionado?> y <(posición y del ratón) > [-120]>> entonces 
 bajar lápiz
 si no
 subir lápiz

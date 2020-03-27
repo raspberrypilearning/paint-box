@@ -68,7 +68,7 @@ Cambia al objeto lápiz. Añade algún código de modo que cuando este objeto re
 ```blocks3
 al recibir [verde v]
 cambiar disfraz a (lápiz-verde v)
-fijar color de lápiz a [#00C44]
+fijar color de lápiz a [#00CC44]
 ```
 
 Para poner el color de lápiz en verde, haz clic en el pequeño ovalo que está a la derecha, dentro, en el bloque `fijar color de lápiz a`{:class="block3extensions"}, luego haz clic en el cuentagotas y selecciona el objeto cuadrado verde.
@@ -107,13 +107,13 @@ Finalmente, añade este código para indicarle al objeto lápiz con qué color c
 ![lápiz](images/pencil.png)
 
 ```blocks3
-al hacer clic en la bandera
+when flag clicked
 +borrar todo
 +cambiar disfraz a (lápiz-azul v)
 +fijar color de lápiz a [#0035FF]
 por siempre
   ir a (puntero del ratón v)
-si<mouse down?>entonces
+si<¿ratón presionado?>entonces
   bajar lápiz
   si no 
   subir lápiz
