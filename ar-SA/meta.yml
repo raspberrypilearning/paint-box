@@ -21,7 +21,7 @@ steps:
   - 
     title: تغيير عرض قلم الرصاص
   - 
-    title: 'التحدي: المزيد من أقلام الرصاص'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'What next?'
