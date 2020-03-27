@@ -21,7 +21,7 @@ steps:
   - 
     title: Измени ширину карандаша
   - 
-    title: 'Задача: больше карандашей'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'Что дальше?'
