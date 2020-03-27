@@ -1,6 +1,6 @@
-## What next?
+## 次は何？
 
-Now that you have completed the 'Paint box' project, try [the 'Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make a game where you have to stir a boat around obstacles.
+「ペイントボックス」プロジェクトを完了したら、障害物を避けてボートを動かすゲームを作るのに役立つ、[「ボートレース」プロジェクト](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)を試してみてください。
 
 \--- no-print \---
 
@@ -13,6 +13,6 @@ Now that you have completed the 'Paint box' project, try [the 'Boat race' projec
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![ボートレースデモ](images/boat_race_demo.png)
 
 \--- /print-only \---
