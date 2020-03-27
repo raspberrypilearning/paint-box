@@ -21,7 +21,7 @@ steps:
   - 
     title: Változtasd a ceruza vastagságát
   - 
-    title: 'Kihívás: billentyűzet parancsok'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'What next?'
