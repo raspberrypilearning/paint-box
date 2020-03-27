@@ -21,7 +21,7 @@ steps:
   - 
     title: Changer l'épaisseur du trait
   - 
-    title: 'Défi : plus de crayons'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'What next?'
