@@ -1,10 +1,10 @@
-## Change the pen width
+## ペン幅を変える
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+次に、コードを追加して、このプログラムを使用する人がそれぞれのペン幅で描画できるようにします。
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+まず最初に、`幅`{:class="block3variables"}という新しい変数を追加します。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,43 +12,44 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+鉛筆スプライトコードの`ずっと`{:class="block3control"}ループの**内部に**この行を追加します。
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+⚑ が押されたとき
+全部消す
+コスチュームを (鉛筆-青 v) にする
+ペンの色を [#0035FF] にする
+ずっと 
+  (マウスのポインター v) へ行く
+  +ペンの太さを (幅:: variables) にする
+  もし <<mouse down?> かつ <(マウスのy座標) > [-120]>> なら 
+    ペンを下ろす
+  でなければ 
+    ペンを上げる
+  end
 end
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+ペンの幅は`幅`{:class="block3variables"}変数の値に繰り返し設定されます。
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+ステージに表示された`幅`{:class="block3variables"}変数を右クリックし、**スライダー**をクリックします。
 
-![screenshot](images/paint-slider.png)
+![スクリーンショット](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+変数の下に表示されているスライダーをドラッグして変数の値を変更できます。
 
-![screenshot](images/paint-slider-change.png)
+![スクリーンショット](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+プロジェクトをテストして、ペン幅を調整するコードを追加できたかどうか確認します。
 
-![screenshot](images/paint-width-test.png)
+![スクリーンショット](images/paint-width-test.png)
 
 \--- /task \---
