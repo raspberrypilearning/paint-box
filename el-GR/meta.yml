@@ -21,7 +21,7 @@ steps:
   - 
     title: Άλλαξε το πάχος του μολυβιού
   - 
-    title: 'Πρόκληση: περισσότερα μολύβια'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'Και τώρα;'
