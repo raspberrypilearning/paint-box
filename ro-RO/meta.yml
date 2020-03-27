@@ -21,7 +21,7 @@ steps:
   - 
     title: Change the pencil width
   - 
-    title: 'Challenge: more pencils'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'What next?'
