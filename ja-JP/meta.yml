@@ -1,27 +1,27 @@
 ---
-title: Paint box
+title: ペイントボックス
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: お絵かきができるプログラムを作りましょう
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Make a pencil
+    title: 鉛筆を作る
   - 
-    title: Coloured pencils
+    title: 色鉛筆
   - 
-    title: 'Challenge: shortcuts'
+    title: 'チャレンジ: キーボードコマンド'
     challenge: true
   - 
-    title: Undo mistakes
+    title: 間違いを元に戻す
   - 
-    title: Change the pencil width
+    title: 鉛筆の幅を変える
   - 
-    title: 'Challenge: more pencils'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'What next?'
+    title: '次は何？'
