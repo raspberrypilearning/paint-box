@@ -1,42 +1,42 @@
-## Coloured pencils
+## 色鉛筆
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+次にプロジェクトに異なる色の鉛筆を加えて、ユーザーがそれらの中から選ぶことができるようにしましょう。
 
 \--- task \---
 
-Rename the `pencil` sprite to `pencil-blue`
+`鉛筆`スプライトの名前を`鉛筆-青`に変更します
 
-![rename-pencil](images/rename-pencil.png)
+![名前変更-鉛筆](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+鉛筆スプライトを右クリックして、「鉛筆-青」コスチュームを複製します。
 
-![screenshot](images/paint-blue-duplicate.png)
-
-\--- /task \---
-
-\--- task \---
-
-Name the new costume 'pencil-green', and colour the pencil green.
-
-![screenshot](images/paint-pencil-green.png)
+![スクリーンショット](images/paint-blue-duplicate.png)
 
 \--- /task \---
 
 \--- task \---
 
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+新しいコスチュームに「鉛筆-緑」と名前を付け、鉛筆の色を緑にします。
 
-![screenshot](images/paint-selectors.png)
+![スクリーンショット](images/paint-pencil-green.png)
 
 \--- /task \---
 
 \--- task \---
 
-Rename the new sprites so that they are called 'blue' and 'green'
+青い四角と緑の四角の、2つの新しいスプライトを描きます。 これらは青または緑の鉛筆を選ぶのに使います。
+
+![スクリーンショット](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+新しいスプライトの名前を変更して、「青」と「緑」と呼ぶようにします
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,90 +44,91 @@ Rename the new sprites so that they are called 'blue' and 'green'
 
 \--- task \---
 
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+「緑」のスプライトにコードを追加して、スプライトがクリックされたら「緑」というメッセージを`送る`{:class="block3events"}ようにします。
 
-![green square](images/green_square.png)
+![緑の四角](images/green_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (green v)
+このスプライトが押されたとき
+(緑 v) を送る
 ```
 
 [[[generic-scratch3-broadcast-message]]]
 
 \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+鉛筆スプライトが「緑」のメッセージを受け取ったら、コスチュームと鉛筆の色を変える必要があります。
 
 \--- task \---
 
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+鉛筆スプライトに切り替えます。 コードを追加して、このスプライトが`緑`{:class="block3events"}のメッセージを受け取ったときに、コスチュームを緑色の鉛筆に切り替えて、ペンの色を緑に変更するようにします。
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
-set pen color to [#00CC44]
+[緑 v] を受け取ったとき
+コスチュームを (鉛筆-緑 v) にする
+ペンの色を [#00CC44] にする
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+鉛筆の色を緑に設定するには、`ペンの色を～にする` {:class="block3extensions"}ブロック内の色のついた四角をクリックし、そして緑色の四角のスプライトをクリックします。
 
 \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+次に、同じように鉛筆の色を青に切り替えます。
 
 \--- task \---
 
-Click on the blue square sprite and add this code:
+青い四角のスプライトをクリックしてこのコードを追加します。
 
-![blue_square](images/blue_square.png)
+![青の四角](images/blue_square.png)
 
 ```blocks3
-when this sprite clicked
-broadcast (blue v)
+このスプライトが押されたとき
+(青 v) を送る
 ```
 
-Then click on the pencil sprite and add this code:
+そして、鉛筆のスプライトをクリックしてこのコードを追加します。
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
-set pen color to [#0000ff]
+[青 v] を受け取ったとき
+コスチュームを (鉛筆-青 v) にする
+ペンの色を [#0000ff] にする
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+最後にこのコードを追加して、鉛筆のスプライトをどの色から始めるか決めて、プログラムの開始時に画面をクリアするようにします。
 
-![pencil](images/pencil.png)
+![鉛筆](images/pencil.png)
 
 ```blocks3
-when flag clicked
-+erase all
-+switch costume to (pencil-blue v)
-+set pen color to [#0035FF]
-forever
-  go to (mouse pointer v)
-if <mouse down?> then
-  pen down
-  else
-  pen up
+⚑ が押されたとき
++全部消す
++コスチュームを (鉛筆-青 v) にする
++ペンの色を [#0035FF] にする
+ずっと 
+  (マウスのポインター v) へ行く
+  もし <mouse down?> なら 
+    ペンを下ろす
+  でなければ 
+    ペンを上げる
+  end
 end
 ```
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+もしそうしたければ、別の色の鉛筆から始めることもできます。
 
 \--- task \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+コードをテストしましょう。 青または緑の四角のスプライトをクリックして、鉛筆の色を青と緑に切り替えることはできますか？
 
-![screenshot](images/paint-pens-test.png)
+![スクリーンショット](images/paint-pens-test.png)
 
 \--- /task \---
