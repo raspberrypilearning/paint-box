@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## チャレンジ: キーボードコマンド
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+コードを追加して、ステージ上の色付きの四角やボタンをクリックする代わりに、キーボードのキーを押すことで操作するようにできますか？ 例）
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = 青鉛筆に切り替える
++ <kbd>g</kbd> = 緑鉛筆に切り替える
++ <kbd>e</kbd> = 消しゴムに切り替える
++ <kbd>c</kbd> = 画面をクリアする
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+必要に応じて、矢印キーを押すとペン幅が変わるようにコードを追加することもできます。
