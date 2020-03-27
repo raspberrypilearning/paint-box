@@ -21,7 +21,7 @@ steps:
   - 
     title: Spremeni širino pisala
   - 
-    title: 'Izziv: več svinčnikov'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: 'Kaj sledi?'
