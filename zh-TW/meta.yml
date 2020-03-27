@@ -21,7 +21,7 @@ steps:
   - 
     title: 改變鉛筆的寬度
   - 
-    title: '挑戰：更多色鉛筆'
+    title: 'Challenge: keyboard commands'
     challenge: true
   - 
     title: '然後呢？'
