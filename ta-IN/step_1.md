@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+இது திட்டத்தின் ** ஸ்க்ராட்ச் 3 ** பதிப்பு. மேலும், திட்டத்தின் [வரைவு 2ம் பதிப்பும் உள்ளது](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## முன்னுரை
 
-Make your own paint program!
+உங்கள் சொந்த வரைவு திட்டத்தை உருவாக்குங்கள்!
 
-### What you will make
+### நீங்கள் என்ன செய்ய இருக்கிறீர்கள்
 
-\--- no-print \---
+\----- / அச்சு-இல்லை \---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+தொடங்க பச்சைக் கொடியைக் கிளிக் செய்க. பென்சிலை நகர்த்த சுட்டியைப் பயன்படுத்தவும், வரைய இடது சுட்டி பொத்தானை அழுத்தவும். பென்சில்களை மாற்ற வண்ணத்தில் சொடுக்கவும். அழிப்பான் மீது கிளிக் செய்து அதை மாற்றவும், உங்கள் வேலையை அழிக்க அதையேப் பயன்படுத்தவும். பக்கத்தை அழிக்க, குறுக்கு பொத்தானை சொடுக்கவும்.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,46 +23,46 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+தொடங்குவதற்கு நீங்கள் பச்சைக் கொடியைக் கிளிக் செய்வீர்கள், மேலும் நீங்கள் பென்சிலை நகர்த்த சுட்டியைப் பயன்படுத்தி, வரைய இடது மவுஸ் பொத்தானை அழுத்திப் பிடிக்கவும். ஒரு வண்ணத்தைக் கிளிக் செய்தால் பென்சில் வண்ணங்கள் மாறும், மற்றும் அழிப்பானை கிளிக் செய்வதன் மூலம் அழிப்பான் மாறுகிறது!
 
-![showcase](images/showcase.png)
+![காட்சி பெட்டி](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## தலைப்பு: நீங்கள் என்ன கற்றுக் கொள்வீர்கள்
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ ஸ்க்ராட்ச்-ல் பேனா நீட்டிப்பைச் சேர்க்க
++ ஸ்க்ராட்ச்-ல் உள்ள ஒரு ஸ்ப்ரைட்டை கட்டுப்படுத்த ஒளிபரப்புகளைப் பயன்படுத்தவும்
++ ஸ்க்ராட்ச்-ல் சுட்டி நிகழ்வுகளுக்கு எவ்வாறு பதிலளிக்க வேண்டும் என்பதை நினைவுகூருங்கள்
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## தலைப்பு: உங்களுக்கு என்ன தேவை
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+### வன்பொருள்
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
++ ஸ்க்ராட்ச் 3 ஐ இயக்கும் திறன் கொண்ட கணினி
+
+### மென்பொருள்
+
++ ஸ்க்ராட்ச் 3 ([ஆன்லைன்](http://rpf.io/scratchon){:target="_blank"} அல்லது [ஆஃப்லைன்](http://rpf.io/scratchoff){:target="_blank"})
+
+### பதிவிறக்கம்
+
++ [ஆஃப்லைன் ஸ்டார்டர் திட்டம் ](http://rpf.io/p/en/paint-box-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## தலைப்பு: கல்வியாளர்களுக்கான கூடுதல் தகவல்
+
+இந்த திட்டத்தை நீங்கள் அச்சிட வேண்டும் என்றால், தயவுசெய்து [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} ஐ பயன்படுத்தவும்.
+
+[நிறைவு செய்யப்பட்ட திட்டத்தை இங்கே காணலாம்](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
