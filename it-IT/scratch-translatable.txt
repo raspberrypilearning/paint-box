@@ -1,11 +1,11 @@
-blue
+blu
 
-green
+verde
 
-width
+spessore
 
-pencil-blue
+matita-blu
 
-pencil-green
+matita-verde
 
-eraser
+gomma
