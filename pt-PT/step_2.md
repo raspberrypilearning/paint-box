@@ -4,7 +4,7 @@ Vamos começar por criar um lápis que possa ser usado para desenhar no palco.
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+Abre o projeto inicial 'Caixa de Pintura' em Scratch.
 
 **Online:** abre o projeto Scratch inicial em [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
@@ -45,7 +45,7 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+Clica na bandeira e depois move o rato pelo palco para ver se o código funciona.
 
 \--- /task \---
 
