@@ -1,18 +1,18 @@
-## Change the pen width
+## பேனா அகலத்தை மாற்றவும்
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+அடுத்து உங்கள் நிரலைப் பயன்படுத்தும் நபர் வெவ்வேறு பேனா அகலங்களைக் கொண்டு வர அனுமதிக்க குறியீட்டைச் சேர்ப்பீர்கள்.
 
-\--- task \---
+\--- / பணி \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+முதலில், `width`{: class = "block3variables"} அகலம் எனப்படும் புதிய மாறியைச் சேர்க்கவும்.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+பென்சில் ஸ்ப்ரைட் குறியீட்டின் வளையம் **உள்ளே** இந்த வரியை சேர்க்கவும் `forever`{: class = "block3control"}:
 
 ```blocks3
 when flag clicked
@@ -29,26 +29,26 @@ if <<mouse down?> and <(mouse y) > [-120]>> then
 end
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+பேனா அகலம் இப்போது மீண்டும் மீண்டும் அகலத்தின் மாறி மதிப்புக்கு `width`{: class = "block3variables"} அமைக்கப்படுகிறது.
 
-\--- task \---
+\--- / பணி \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+அகலத்தில் வலது கிளிக் செய்யவும் `width`{: class = "block3variables"} மாறி மேடையில் காட்டப்படும், பின்னர் ஸ்லைடரைக் கிளிக் செய்க **slider**.
 
-![screenshot](images/paint-slider.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-slider.png)
 
-\--- /task \---
+\--- / பணி \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+மாறியின் மதிப்பை மாற்ற நீங்கள் இப்போது மாறிக்கு கீழே தெரியும் ஸ்லைடரை இழுக்கலாம்.
 
-![screenshot](images/paint-slider-change.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-slider-change.png)
 
-\--- task \---
+\--- / பணி \---
 
-Test your project and see if you can add code to adjust the pen width.
+உங்கள் திட்டத்தை சோதித்து, பேனா அகலத்தை சரிசெய்ய குறியீட்டைச் சேர்க்க முடியுமா என்று பாருங்கள்.
 
-![screenshot](images/paint-width-test.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-width-test.png)
 
-\--- /task \---
+\--- / பணி \---
