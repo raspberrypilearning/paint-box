@@ -4,19 +4,19 @@
 
 \--- task \---
 
-Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+Adiciona o ator 'X-block' a partir da secção de cartas da biblioteca. Pinta o traje do ator de vermelho e torna-o um pouco menor. Este actor vai ser o botão 'limpar'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png)
+![captura de ecrã](images/paint-x.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+Adiciona código ao ator 'X-block' para limpar o palco quando o ator for clicado.
 
-![cross](images/cross.png)
+![cruz](images/cross.png)
 
 ```blocks3
 quando alguém clicar em ti
@@ -25,27 +25,27 @@ apaga tudo do palco
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Não necessitas de usar uma mensagem ` ` {: class = "block3events"} para limpar o palco, porque o bloco ` apaga tudo ` {: class = "block3extensions"} faz esse trabalho.
 
-Do you see that the pencil sprite includes an eraser costume?
+Estás a ver que o ator lápis inclui um traje de borracha?
 
-![screenshot](images/paint-eraser-costume.png)
+![captura de ecrã](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+O teu projeto também inclui separadamente um actor borracha.
 
 \--- task \---
 
-Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+Clica com o botão direito do rato neste ator borracha e depois em ** mostra **. Aqui está o aspeto com que o teu palco deve ficar:
 
-![screenshot](images/paint-eraser-stage.png)
+![captura de ecrã](images/paint-eraser-stage.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+Adiciona código ao ator 'borracha' para difundir uma mensagem de ` 'borracha' ` {: class = "block3events"} quando esse ator é clicado.
 
-![eraser](images/eraser.png)
+![borracha](images/eraser.png)
 
 ```blocks3
 quando alguém clicar em ti
@@ -54,19 +54,19 @@ difunde a mensagem (eraser v)
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Quando o lápis recebe a mensagem "borracha", podes trocar o traje de lápis para a borracha e mudar a cor do lápis para branco - a mesma cor do palco!
 
 \--- task \---
 
-Add some code to create the eraser.
+Adiciona algum código para criar a borracha.
 
 \--- hints \--- \--- hint \---
 
-Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+Adiciona código ao ator 'lápis': ` Quando eu receber ` {: class = "block3events"} a mensagem ` 'borracha' ` {: class = "block3events"} ` Mudar para traje de borracha ` {: class = "block3looks"} ` Definir cor da caneta ` {: class = "block3extensions"} para branco
 
 \--- /hint \--- \--- hint \---
 
-Here are all the blocks you need:
+Aqui estão os blocos de que precisas:
 
 ```blocks3
 altera a cor da tua caneta para [#FFFFFF]
@@ -78,9 +78,9 @@ muda o teu traje para (eraser v)
 
 \--- /hint \--- \--- hint \---
 
-Here is what the code should look like:
+Aqui está o aspeto que o teu código deve ter:
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando receberes a mensagem [eraser v]
@@ -92,21 +92,21 @@ altera a cor da tua caneta para [#FFFFFF]
 
 \--- task \---
 
-Test your project to see if you can clear the Stage and erase pencil lines.
+Testa o teu projeto para ver se consegues limpar o Palco e apagar as linhas do lápis.
 
-![screenshot](images/paint-erase-test.png)
+![captura de ecrã](images/paint-erase-test.png)
 
 \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Há mais um problema com o lápis - consegues desenhar em qualquer lugar do palco, inclusive perto dos botões 'limpar' e ' borracha'!
 
-![screenshot](images/paint-draw-problem.png)
+![captura de ecrã](images/paint-draw-problem.png)
 
 \--- task \---
 
-To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+Para o corrigir, altera o código de forma a que a caneta fique em baixo apenas se o rato for clicado ** e ** o ` y ` da posição do ponteiro do rato for maior que ` -120 `:
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -127,8 +127,8 @@ end
 
 \--- task \---
 
-Test your project. You now should not be able to draw near the buttons.
+Testa o teu projeto. Agora já não deverás conseguir desenhar próximo dos botões.
 
-![screenshot](images/paint-fixed.png)
+![captura de ecrã](images/paint-fixed.png)
 
 \--- /task \---
