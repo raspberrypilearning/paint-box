@@ -1,0 +1,11 @@
+azul
+
+verde
+
+ancho
+
+lápiz-azul
+
+lápiz-verde
+
+borrador

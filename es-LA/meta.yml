@@ -1,19 +1,19 @@
+---
+title: Caja de pintar
 hero_image: images/banner.png
-theme: violet
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Caja de lápices
-description: ¡En este Proyecto, vas a crear tu propio programa para pintar!
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
-steps: 
-- title: Caja de lápices
+description: Haz tu propio programa para pintar
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - title: Introducción
+  - title: Haz un lápiz
+  - title: Lápices de colores
+  - title: 'Desafío: más lápices'
+    challenge: true
+  - title: Deshacer errores
+  - title: Cambia el ancho del lápiz
+  - title: 'Desafío: comandos del teclado'
+    challenge: true
+  - title: '¿Qué sigue?'
