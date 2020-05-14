@@ -4,17 +4,17 @@ Inizia creando la matita necessaria per disegnare sullo stage.
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+Aprire il progetto bozza di Scratch 'Paint box'.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: apri il progetto bozza su [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_ blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: apri il [progetto bozza](http://rpf.io/p/en/paint-box-go){:target="_ blank"} nell'editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+Nel progetto iniziale, dovresti vedere gli sprite di gomma e matita:
 
 ![screenshot](images/paint-starter.png)
 
@@ -22,7 +22,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 \--- task \---
 
-Add the Pen extension to your project.
+Aggiungi l'estensione Penna al tuo progetto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,9 +30,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Aggiungi del codice allo sprite matita per far sì che segua il puntatore del mouse `per sempre`{:class="block3control"} e riesca a disegnare:
 
-![pencil](images/pencil.png)
+![matita](images/pencil.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -45,17 +45,17 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+Fai click sulla bandierina e muovi il mouse sullo stage per verificare che il codice funzioni.
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Ora facciamo in modo che la matita disegni solo `se`{:class="blockcontrol"} il mouse è stato cliccato.
 
 \--- task \---
 
-Add this code to your pencil sprite:
+Aggiungi questo codice allo sprite della tua matita:
 
-![pencil](images/pencil.png)
+![matita](images/pencil.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -73,7 +73,7 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+Prova di nuovo il tuo codice. Questa volta, muovi la matita sul quadro tenendo premuto il tasto sinistro del mouse. Riesci a disegnare con la tua matita?
 
 ![screenshot](images/paint-draw.png)
 
@@ -83,14 +83,14 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## title: la tua matita non scrive dalla sua punta?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Se la linea che disegna la tua matita sembra provenire dal suo centro, devi modificare lo sprite in modo che la punta sia il il suo centro.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Fai clic sullo sprite matita e poi sulla scheda **Costumi**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Sposta il costume in modo che la punta della matita sia ** appena sopra ** il centro.
 
-![Costume center](images/costume-center-annotated.png)
+![Centro del costume](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Ora sposta la matita sullo stage e disegna. La matita dovrebbe ora tracciare una linea dalla sua punta.
 
 \--- /collapse \---
