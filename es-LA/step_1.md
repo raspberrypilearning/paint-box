@@ -12,7 +12,7 @@ Esta es la versión **Scratch 3** del proyecto. También hay una [versión del p
 
 \--- no-print \---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+Haz clic en la bandera verde para empezar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón de la izquierda para dibujar. Haz clic en un color para cambiar de lápiz. Haz clic en el borrador para seleccionarlo, y utilízalo para borrar lo que hayas hecho. Para borrar la página, haz clic en la equis.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,9 +23,9 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+Para comenzar, harás clic en la bandera verde y usarás el ratón para mover el lápiz y mantendrás presionado el botón izquierdo del ratón para dibujar. Hacer clic en el color cambiará el color del lápiz, y haciendo clic en el borrador, ¡cambiará la función a borrador!
 
-![showcase](images/showcase.png)
+![exposición](images/showcase.png)
 
 \--- /print-only \---
 
@@ -33,9 +33,9 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## title: Lo que vas a aprender
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch
++ Agrega la extensión de lápiz en Scratch
++ Usa transmisiones para controlar un objeto de Scratch
++ Recuerda cómo responder a los eventos del ratón en Scratch
 
 \--- /collapse \---
 
@@ -61,8 +61,8 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## title: Información adicional para educadores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+Puedes encontrar el [ proyecto completo aquí ](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
