@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## சவால்: அதிக பென்சில்கள்
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+உங்கள் வண்ணப்பூச்சு திட்டத்தில் சிவப்பு, மஞ்சள் மற்றும் கருப்பு பென்சில்களை சேர்க்க முடியுமா? இதை எப்படி செய்வது என்பதற்கான நினைவூட்டல் வேண்டுமானால் முந்தைய படிகளைப் பாருங்கள்.
 
-Can you use your pencils to draw a picture?
+படம் வரைய உங்கள் பென்சில்களைப் பயன்படுத்த முடியுமா?
 
-![screenshot](images/paint-final.png)
+![திரைப்பிடிப்பு](images/paint-final.png)
