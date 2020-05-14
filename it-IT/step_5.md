@@ -4,7 +4,7 @@ A volte capita di sbagliare, quindi aggiungi un pulsante "pulisci tutto" e un pu
 
 \--- task \---
 
-Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+Aggiungi lo sprite 'X-block' dalla sezione delle lettere della libreria. Colora il costume dello sprite in rosso e rimpiccioliscilo un po'. Questo sprite è il pulsante "pulisci tutto".
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,9 +14,9 @@ Add the 'X-block' sprite from the library's letters section. Colour the sprite's
 
 \--- task \---
 
-Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+Aggiungi il codice allo sprite 'X-block' per cancellare completamente lo stage quando lo si clicca.
 
-![cross](images/cross.png)
+![croce](images/cross.png)
 
 ```blocks3
 quando si clicca questo sprite
@@ -25,17 +25,17 @@ pulisci
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Non è necessario `inviare un messaggio`{:class="block3events"} per cancellare lo stage, perché il comando `pulisci`{:class="block3extensions"} svolge già questa funzione.
 
-Do you see that the pencil sprite includes an eraser costume?
+Hai visto che lo sprite matita include un costume "gomma"?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Il tuo progetto include anche uno sprite per selezionare la gomma.
 
 \--- task \---
 
-Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+Fare clic con il tasto sinistro sul costrume "gomma" per **visualizzarlo** nello stage. Il tuo stage dovrebbe apparire così:
 
 ![screenshot](images/paint-eraser-stage.png)
 
@@ -43,9 +43,9 @@ Right-click on this eraser sprite and then click on **show**. Here is how your S
 
 \--- task \---
 
-Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+Aggiungi il codice allo sprite gomma per inviare un `messaggio "gomma"`{:class="block3events"} quando si fa clic sullo sprite della gomma.
 
-![eraser](images/eraser.png)
+![gomma per cancellare](images/eraser.png)
 
 ```blocks3
 quando si clicca questo sprite
@@ -54,19 +54,19 @@ invia a tutti (gomma v)
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Quando lo sprite della matita riceverà il messaggio "gomma", passerà al costume "gomma" e cambiarà il colore della penna in bianco, che è lo stesso colore dello stage!
 
 \--- task \---
 
-Add some code to create the eraser.
+Aggiungi del codice per creare la gomma.
 
 \--- hints \--- \--- hint \---
 
-Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+Aggiungi del codice allo sprite matita: `Quando ricevo`{:class="block3events"} il messaggio `gomma`{:class="block3events"} `Passa al costume gomma`{:class="block3looks"} `Porta colore penna a`{:class="block3extensions"} bianco
 
 \--- /hint \--- \--- hint \---
 
-Here are all the blocks you need:
+Ecco tutti i blocchi di codice che ti serviranno:
 
 ```blocks3
 porta colore penna a [#FFFFFF]
@@ -78,9 +78,9 @@ passa al costume (gomma v)
 
 \--- /hint \--- \--- hint \---
 
-Here is what the code should look like:
+Ecco come dovrebbe apparire il risultato:
 
-![pencil](images/pencil.png)
+![matita](images/pencil.png)
 
 ```blocks3
 quando ricevo [eraser v]
@@ -92,21 +92,21 @@ imposta colore penna a [#FFFFFF]
 
 \--- task \---
 
-Test your project to see if you can clear the Stage and erase pencil lines.
+Metti alla prova il tuo progetto per vedere se è possibile ripulire lo stage e cancellare i tratti lasciati dalla matita.
 
-![screenshot](images/paint-erase-test.png)
+![schermata](images/paint-erase-test.png)
 
 \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+C’è ancora un problema con la matita: puoi disegnare dappertutto sul quadro, anche vicino ai pulsanti per pulire ad alla gomma!
 
 ![screenshot](images/paint-draw-problem.png)
 
 \--- task \---
 
-To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+Per sistemare il difetto, modifica il codice in modo che la penna sia abbassata solo se si fa clic con il mouse **e** la posizione `y` del puntatore del mouse è maggiore di `-120`:
 
-![pencil](images/pencil.png)
+![matita](images/pencil.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -127,7 +127,7 @@ end
 
 \--- task \---
 
-Test your project. You now should not be able to draw near the buttons.
+Prova il tuo progetto. Ora non dovresti essere in grado di disegnare vicino ai pulsanti.
 
 ![screenshot](images/paint-fixed.png)
 
