@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## சவால்: விசைப்பலகை கட்டளைகள்
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+மேடையில் உள்ள வண்ண சதுரங்கள் அல்லது பொத்தான்களைக் கிளிக் செய்வதற்குப் பதிலாக, விசைப்பலகை விசைகளை அழுத்துவதன் மூலம் விஷயங்களைச் செய்ய நீங்கள் குறியீட்டைச் சேர்க்க முடியுமா? உதாரணத்திற்கு:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = நீல பென்சிலுக்கு மாறவும்
++ <kbd>g</kbd> = பச்சை பென்சிலுக்கு மாறவும்
++ <kbd>e</kbd> = அழிப்பானுக்கு மாறவும்
++ <kbd>c</kbd> = தெளிவான திரைக்கு மாறவும்
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+நீங்கள் விரும்பினால், நீங்கள் குறியீட்டையும் சேர்க்கலாம், இதனால் அம்பு விசைகளை அழுத்தினால் பேனா அகலத்தை மாற்றும்.
