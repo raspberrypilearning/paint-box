@@ -1,38 +1,38 @@
-## Make a pencil
+## பென்சில் உருவாக்குதல்
 
-Start by making a pencil that you can use to draw on the Stage.
+நிலையில் வரைய நீங்கள் பயன்படுத்தக்கூடிய பென்சில் உருவாக்க தொடங்கவும்.
 
-\--- task \---
+\--- பணி \---
 
-Open the 'Paint box' Scratch starter project.
+'வண்ணப்பூச்சு பெட்டி' ஸ்க்ராட்ச் ஸ்டார்டர் திட்டத்தைத் திறக்கவும்.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: ஸ்டார்டர் திட்டத்தை [rpf.io/paint-box-on இல் திறக்கவும்](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+உங்களிடம் ஸ்க்ராட்ச் கணக்கு இருந்தால் **Remix** என்பதைக் கிளிக் செய்வதன் மூலம் நகலை உருவாக்கலாம்.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**ஆஃப்லைன்**: [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} ஆஃப்லைன் எடிட்டரில் திறக்கவும்.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+ஸ்க்ராட்ச் ஆஃப்லைன் எடிட்டரை நீங்கள் பதிவிறக்கி நிறுவ வேண்டும் என்றால், அதை [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} இல் காணலாம்
 
-In the starter project, you should see pencil and eraser sprites:
+ஸ்டார்டர் திட்டத்தில், நீங்கள் பென்சில் மற்றும் அழிப்பான் உருவங்களை பார்க்க வேண்டும்:
 
-![screenshot](images/paint-starter.png)
+![திரைப்பிடிப்பு](images/paint-starter.png)
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- பணி \---
 
-Add the Pen extension to your project.
+உங்கள் திட்டத்தில் பேனா நீட்டிப்பைச் சேர்க்கவும்.
 
 [[[generic-scratch3-add-pen-extension]]]
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+பென்சில் ஸ்ப்ரைட்டில் சில குறியீட்டைச் சேர்ப்பதன் மூலம், ஸ்பிரிட் எப்போதும் சுட்டிக்காட்டி ஐ பின்பற்றவைக்கலாம் இதனால் நீங்கள் வரையலாம் `forever`{:class="block3control"}:
 
-![pencil](images/pencil.png)
+![பென்சில்](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -41,21 +41,21 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+உங்கள் குறியீடு செயல்படுகிறதா என்பதை சோதிக்க கொடியைக் கிளிக் செய்து, மேடையை சுற்றி மவுஸ் சுட்டிக்காட்டியை நகர்த்தவும்.
 
-\--- /task \---
+\--- / பணி \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+அடுத்து, சுட்டி பொத்தான் கிளிக் `செய்யப்பட்டிருந்தால்`{:class = "block3control"} மட்டுமே பென்சிலை வரையவைக்கவும்.
 
-\--- task \---
+\--- / பணி \---
 
-Add this code to your pencil sprite:
+உங்கள் பென்சில் ஸ்ப்ரைட்டில் இந்த குறியீட்டைச் சேர்க்கவும்:
 
-![pencil](images/pencil.png)
+![பென்சில்](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -69,28 +69,28 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+உங்கள் குறியீட்டை மீண்டும் சோதிக்கவும். இந்த முறை, மேடையைச் சுற்றி பென்சிலை நகர்த்தி சுட்டி பொத்தானை பிடித்துக்கொள்ளவும். உங்கள் பென்சிலால் வரைய முடியுமா?
 
-![screenshot](images/paint-draw.png)
+![திரைப்பிடிப்பு](images/paint-draw.png)
 
-\--- /task \---
+\--- / பணி \---
 
-## \--- collapse \---
+## \--- சரிவு \---
 
-## title: Does your pencil not draw from its tip?
+## தலைப்பு: உங்கள் பென்சில் அதன் நுனியிலிருந்து வரையவில்லையா?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+உங்கள் பென்சில் வரைந்த கோடு பென்சிலின் நடுப்பகுதியில் இருந்து வருவது போல் தோன்றினால், உங்கள் பென்சில் ஸ்ப்ரைட்டை மாற்ற வேண்டும், எனவே முனை ஸ்ப்ரைட்டின் மையமாகும்.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+பென்சில் ஸ்ப்ரைட்டை கிளிக் செய்து, பின்னர் **Costumes tab** ஐ சொடுக்கவும்.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Costumes ஐ நகர்த்தினால் பென்சிலின் முனை மையத்துக்கு **சற்று மேலே** இருக்கும்.
 
-![Costume center](images/costume-center-annotated.png)
+![Costume மையம்](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+இப்போது மேடையில் பென்சிலை நகர்த்தி வரையவும். பென்சில் இப்போது அதன் நுனியிலிருந்து ஒரு கோட்டை வரைய வேண்டும்.
 
-\--- /collapse \---
+\--- / சரிவு \---
