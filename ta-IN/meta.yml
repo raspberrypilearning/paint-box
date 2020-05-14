@@ -1,27 +1,27 @@
 ---
-title: Paint box
-hero_image: images/banner.png
+title: பெயிண்ட் பெட்டி
+hero_image: படங்கள்/banner.png
 listed: true
 copyedit: false
-description: Make your own paint program
+description: உங்கள் சொந்த வரைவு திட்டத்தை உருவாக்குங்கள்
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
-    title: Introduction
+    title: முன்னுரை
   - 
-    title: Make a pencil
+    title: பென்சில் உருவாக்குதல்
   - 
-    title: Coloured pencils
+    title: வண்ண பென்சில்கள்
   - 
-    title: 'Challenge: shortcuts'
+    title: 'சவால்: குறுக்குவழிகள்'
     challenge: true
   - 
-    title: Undo mistakes
+    title: தவறுகளை தவிர்க்கவும்
   - 
-    title: Change the pencil width
+    title: பென்சில் அகலத்தை மாற்றவும்
   - 
-    title: 'Challenge: keyboard commands'
+    title: 'சவால்: விசைப்பலகை கட்டளைகள்'
     challenge: true
   - 
-    title: 'What next?'
+    title: 'அடுத்தது என்ன?'
