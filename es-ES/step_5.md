@@ -1,6 +1,6 @@
 ## Cometiendo errores
 
-A veces se comenten errores, así que añade un botón 'limpiar' y un botón gomadeborrar.
+A veces se comenten errores, así que añade un botón 'limpiar' y un botón 'gomadeborrar'.
 
 \--- task \---
 
