@@ -21,7 +21,7 @@ steps:
   - 
     title: Άλλαξε το πάχος του μολυβιού
   - 
-    title: 'Challenge: keyboard commands'
+    title: 'Πρόκληση: εντολές πληκτρολογίου'
     challenge: true
   - 
     title: 'Και τώρα;'
