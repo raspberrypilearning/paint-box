@@ -1,52 +1,52 @@
-## Coloured pencils
+## வண்ண பென்சில்கள்
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+இப்போது நீங்கள் உங்கள் திட்டத்தில் வெவ்வேறு வண்ண பென்சில்களைச் சேர்த்து, அவற்றில் பயனரைத் தேர்வுசெய்ய அனுமதிக்கப் போகிறீர்கள்.
 
-\--- task \---
+\--- / பணி \---
 
-Rename the `pencil` sprite to `pencil-blue`
+`பென்சிலின்` ஸ்ப்ரைட்டை `பென்சில்-நீலம்` என்று மறுபெயரிடுக
 
-![rename-pencil](images/rename-pencil.png)
+![பென்சில்-மறுபெயரிடுக](images/rename-pencil.png)
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+பென்சில் ஸ்ப்ரைட்டில் வலது கிளிக் செய்து, 'பென்சில்-நீலம்' Costume-ஐ நகலெடுக்கவும்.
 
-![screenshot](images/paint-blue-duplicate.png)
+![திரைப்பிடிப்பு](images/paint-blue-duplicate.png)
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Name the new costume 'pencil-green', and colour the pencil green.
+புதிய ஆடைக்கு 'பென்சில்-பச்சை' என்று பெயரிட்டு, பென்சிலுக்கு பச்சை நிற வண்ணம் பூசவும்.
 
-![screenshot](images/paint-pencil-green.png)
+![திரைப்பிடிப்பு](images/paint-pencil-green.png)
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+இரண்டு புதிய ஸ்ப்ரைட்டை வரையவும்: ஒரு நீல சதுரம் மற்றும் ஒரு பச்சை சதுரம். இவை நீல மற்றும் பச்சை பென்சிலுக்கு இடையில் தேர்ந்தெடுப்பதற்கானவை.
 
-![screenshot](images/paint-selectors.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-selectors.png)
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Rename the new sprites so that they are called 'blue' and 'green'
+புதிய ஸ்ப்ரைட்டை 'நீலம்' மற்றும் 'பச்சை' என்று அழைக்கப்படும்படி மறுபெயரிடுங்கள்
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+'பச்சை' ஸ்ப்ரைட்டில் சில குறியீட்டைச் சேர்க்கவும், இதனால் இந்த உருவங்களைக் கிளிக் செய்யும் போது, அது `செய்தியை பச்சையில் ஒளிபரப்பும்`{: class = "block3events"}.
 
-![green square](images/green_square.png)
+![பச்சை சதுரம்](images/green_square.png)
 
 ```blocks3
 when this sprite clicked
@@ -55,15 +55,15 @@ broadcast (green v)
 
 [[[generic-scratch3-broadcast-message]]]
 
-\--- /task \---
+\--- / பணி \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+பென்சில் ஸ்ப்ரைட் "பச்சை" செய்தியைக் கேட்டு, அதன் ஆடை மற்றும் பென்சில் நிறத்தை மாற்ற வேண்டும்.
 
-\--- task \---
+\--- / பணி \---
 
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+உங்கள் பென்சில் ஸ்ப்ரைட்டுக்கு மாறவும். சில குறியீட்டைச் சேர்க்கவும், இதனால் இந்த ஸ்பிரிட்டுக்கு `பச்சை` {: class = "block3events"} ஒளிபரப்பு கிடைக்கும், அதனால் இது பச்சை பென்சில் costume-ல் மாறுகிறது மற்றும் பேனா நிறத்தை பச்சை நிறமாக மாற்றுகிறது.
 
-![pencil](images/pencil.png)
+![பென்சில்](images/pencil.png)
 
 ```blocks3
 when I receive [green v]
@@ -71,26 +71,26 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+பென்சிலை பச்சை நிறமாக அமைக்க, `set pen-ல் உள்ள வண்ண நிற சதுரத்தைக் கிளிக் செய்க` {: class = "block3extensions"}, பின்னர் பச்சை சதுர ஸ்ப்ரைட்டைக் கிளிக் செய்க.
 
-\--- /task \---
+\--- / பணி \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+பின்னர் ஒத்த விஷயத்திற்கு, இதனால் பென்சில் நிறத்தை நீல நிறமாக நீங்கள் மாற்றலாம்.
 
-\--- task \---
+\--- / பணி \---
 
-Click on the blue square sprite and add this code:
+நீல சதுர ஸ்ப்ரைட்டைக் கிளிக் செய்து இந்த குறியீட்டைச் சேர்க்கவும்:
 
-![blue_square](images/blue_square.png)
+![நீல_சதுரம்](images/blue_square.png)
 
 ```blocks3
 when this sprite clicked
 broadcast (blue v)
 ```
 
-Then click on the pencil sprite and add this code:
+பின்னர் பென்சில் ஸ்ப்ரைட்டைக் கிளிக் செய்து இந்த குறியீட்டைச் சேர்க்கவும்:
 
-![pencil](images/pencil.png)
+![பென்சில்](images/pencil.png)
 
 ```blocks3
 when I receive [blue v]
@@ -98,13 +98,13 @@ switch costume to (pencil-blue v)
 set pen color to [#0000ff]
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+இறுதியாக, பென்சில் ஸ்ப்ரைட்டை எந்த நிறத்துடன் தொடங்க வேண்டும் என்பதைக் கூறவும், உங்கள் நிரல் தொடங்கும் போது திரை தெளிவாக இருப்பதை உறுதிப்படுத்தவும் இந்த குறியீட்டைச் சேர்க்கவும்.
 
-![pencil](images/pencil.png)
+![பென்சில்](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -120,14 +120,14 @@ if <mouse down?> then
 end
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-If you prefer, you can start with a different colour pencil.
+நீங்கள் விரும்பினால், நீங்கள் வேறு வண்ண பென்சிலுடன் தொடங்கலாம்.
 
-\--- task \---
+\--- / பணி \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+உங்கள் குறியீட்டை சோதிக்கவும். நீலம் அல்லது பச்சை சதுர உருவங்களைக் கிளிக் செய்வதன் மூலம் நீல மற்றும் பச்சை பென்சில் வண்ணங்களுக்கு இடையில் நீங்கள் மாற முடிகிறதா?
 
-![screenshot](images/paint-pens-test.png)
+![திரைப்பிடிப்பு](images/paint-pens-test.png)
 
-\--- /task \---
+\--- / பணி \---
