@@ -12,7 +12,7 @@ Esta es la versión del proyecto para **Scratch 3**. También hay una [versión 
 
 \--- no-print \---
 
-Haz clic en la bandera verde para empezar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón de la izquierda para dibujar. Haz clic en un color para cambiar de lápiz. Haz clic en la goma de borrar para cambiar de función, y utilízala para borrar lo que hayas hecho. Para limpiar la página, haz clic en la cruz.
+Haz clic en la bandera verde para empezar. Utiliza el ratón para mover el lápiz, y mantén presionado el botón izquierdo para dibujar. Haz clic en un color para cambiar de lápiz. Haz clic en la goma de borrar para cambiar de función, y utilízala para borrar lo que hayas hecho. Para limpiar la página, haz clic en la cruz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
