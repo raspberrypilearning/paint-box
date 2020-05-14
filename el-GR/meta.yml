@@ -1,27 +1,19 @@
 ---
-hero_image: images/banner.png
-theme: violet
-duration: 2
-listed: true
-ingredient: false
-copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Κουτί χρωμάτων
-description: Μάθε πώς να φτιάξεις το δικό σου πρόγραμμα χρωμάτων.
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: Κάνε το δικό σου πρόγραμμα ζωγραφικής
+version: 4.1.0
+last_tested: 2018-11-30
 steps:
   - title: Εισαγωγή
-  - title: Τι θα χρειαστείς
-  - title: Κάνοντας ένα μολύβι
+  - title: Δημιούργησε ένα μολύβι
   - title: Χρωματιστά μολύβια
-  - title: Κάνοντας λάθη
-  - title: Αλλαγή του πλάτους του μολυβιού
-  - title: 'Πρόκληση: συντομεύσεις'
   - title: 'Πρόκληση: περισσότερα μολύβια'
+    challenge: true
+  - title: Διόρθωσε λάθη
+  - title: Άλλαξε το πάχος του μολυβιού
+  - title: 'Πρόκληση: εντολές πληκτρολογίου'
+    challenge: true
+  - title: 'Και τώρα;'
