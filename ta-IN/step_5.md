@@ -1,72 +1,72 @@
-## Undo mistakes
+## தவறுகளை தவிர்க்கவும்
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+சில நேரங்களில் தவறுகள் நடக்கும், எனவே 'Clear' பொத்தானையும் அழிப்பான் பொத்தானையும் சேர்க்கவும்.
 
-\--- task \---
+\--- / பணி \---
 
-Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+நூலகத்தின் கடிதங்கள் பிரிவில் இருந்து 'எக்ஸ்-பிளாக்' ஸ்பிரைட்டைச் சேர்க்கவும். ஸ்ப்ரைட்டின் costume-க்கு சிவப்பு நிறத்தில் வண்ணம் பூசி, அதை கொஞ்சம் சிறியதாக ஆக்குங்கள். இந்த ஸ்ப்ரைட்தான் 'clear' பொத்தான்.
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-x.png)
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+ஸ்ப்ரைட் சொடுக்கும் போது கட்டத்தை அழிக்க 'எக்ஸ்-பிளாக்' ஸ்ப்ரைட்டுக்கு குறியீட்டைச் சேர்க்கவும்.
 
-![cross](images/cross.png)
+![குறுக்கு](படங்கள்/cross.png)
 
 ```blocks3
 when this sprite clicked
 erase all
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+மேடையை அழிக்க நீங்கள் `broadcast`{: class = "block3extensions"} பயன்படுத்தத் தேவையில்லை, ஏனெனில் `erase all`{: class = "block3extensions"} block அந்த வேலையைச் செய்கிறது.
 
-Do you see that the pencil sprite includes an eraser costume?
+பென்சில் ஸ்ப்ரைட் ஒரு அழிப்பான் உடையை உள்ளடக்கியிருப்பதைப் பார்க்கிறீர்களா?
 
-![screenshot](images/paint-eraser-costume.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+உங்கள் திட்டத்தில் தனி அழிப்பான் ஸ்ப்ரைட் உள்ளது.
 
-\--- task \---
+\--- / பணி \---
 
-Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+இந்த அழிப்பான் ஸ்ப்ரைட்டில் வலது கிளிக் செய்து, பின்னர் **show** என்பதைக் கிளிக் செய்க. உங்கள் மேடை இப்போது எப்படி இருக்க வேண்டும் என்பது இங்கே:
 
-![screenshot](images/paint-eraser-stage.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-eraser-stage.png)
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+அழிப்பான் ஸ்ப்ரைட் சொடுக்கும் போது `'அழிப்பான்' ஒளிபரப்பை அனுப்ப` {: class = "block3events"} அழிப்பான் ஸ்ப்ரைட்டில் குறியீட்டைச் சேர்க்கவும்.
 
-![eraser](images/eraser.png)
+![அழிப்பான்](படங்கள்/eraser.png)
 
 ```blocks3
 when this sprite clicked
 broadcast (eraser v)
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+பென்சில் ஸ்ப்ரைட் 'அழிப்பான்' செய்தியைப் பெறும்போது, அது அதன் costume அழிப்பான் மற்றும் பேனா நிறத்தை வெள்ளை நிறமாக மாற்ற வேண்டும், இது மேடையின் அதே நிறம்!
 
-\--- task \---
+\--- / பணி \---
 
-Add some code to create the eraser.
+அழிப்பான் உருவாக்க சில குறியீட்டைச் சேர்க்கவும்.
 
-\--- hints \--- \--- hint \---
+\--- குறிப்புகள் \--- \--- குறிப்பு \---
 
-Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+பென்சில் ஸ்பிரிட்டில் சில குறியீட்டைச் சேர்க்கவும்: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
 
-\--- /hint \--- \--- hint \---
+\--- / குறிப்பு \--- \--- குறிப்பு \---
 
-Here are all the blocks you need:
+உங்களுக்கு தேவையான குறியீடு தொகுதிகள் இங்கே:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -75,11 +75,11 @@ when I receive [eraser v]
 switch costume to (eraser v)
 ```
 
-\--- /hint \--- \--- hint \---
+\--- / குறிப்பு \--- \--- குறிப்பு \---
 
-Here is what the code should look like:
+குறியீடு எப்படி இருக்க வேண்டும் என்பது இங்கே:
 
-![pencil](images/pencil.png)
+![பென்சில்](படங்கள்/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
@@ -87,25 +87,25 @@ switch costume to (eraser v)
 set pen color to [#FFFFFF]
 ```
 
-\--- /hint \--- \--- /hints \--- \--- /task \---
+\--- / குறிப்பு \--- \--- / குறிப்புகள் \--- \--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Test your project to see if you can clear the Stage and erase pencil lines.
+நீங்கள் மேடையை அழிக்க மற்றும் பென்சில் வரிகளை அழிக்க முடியுமா என்று உங்கள் திட்டத்தை சோதிக்கவும்.
 
-![screenshot](images/paint-erase-test.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-erase-test.png)
 
-\--- /task \---
+\--- / பணி \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+பென்சிலுடன் இன்னும் ஒரு சிக்கல் உள்ளது: 'clear' மற்றும் அழிப்பான் பொத்தான்கள் உட்பட மேடையில் எங்கும் நீங்கள் வரையலாம்!
 
-![screenshot](images/paint-draw-problem.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-draw-problem.png)
 
-\--- task \---
+\--- / பணி \---
 
-To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+இதைச் சரிசெய்ய, குறியீட்டை மாற்றவும், இதனால் சுட்டியைக் கிளிக் செய்தால் மட்டுமே பேனா கீழே இருக்கும் **மற்றும்** சுட்டி சுட்டிக்காட்டியின் `y` நிலை `-120` ஐ விட அதிகமாக உள்ளது:
 
-![pencil](images/pencil.png)
+![பென்சில்](படங்கள்/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -121,12 +121,12 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / பணி \---
 
-\--- task \---
+\--- / பணி \---
 
-Test your project. You now should not be able to draw near the buttons.
+உங்கள் திட்டத்தை சோதிக்கவும். நீங்கள் இப்போது பொத்தான்களுக்கு அருகில் வரைய முடியாது.
 
-![screenshot](images/paint-fixed.png)
+![திரைப்பிடிப்பு](படங்கள்/paint-fixed.png)
 
-\--- /task \---
+\--- / பணி \---
