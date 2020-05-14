@@ -10,18 +10,18 @@ steps:
   - 
     title: Introducción
   - 
-    title: Make a pencil
+    title: Haz un lápiz
   - 
-    title: Coloured pencils
+    title: Lápices de colores
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Desafío: atajos'
     challenge: true
   - 
-    title: Undo mistakes
+    title: Deshacer errores
   - 
-    title: Change the pencil width
+    title: Cambia el grosor del lápiz
   - 
-    title: 'Challenge: keyboard commands'
+    title: 'Desafío: comandos del teclado'
     challenge: true
   - 
-    title: 'What next?'
+    title: '¿Qué sigue?'
