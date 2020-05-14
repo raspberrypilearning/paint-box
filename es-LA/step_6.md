@@ -15,18 +15,17 @@ Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 Añade esta linea **dentro** del bucle `por siempre`{:class="blockcontrol"} del código del lápiz:
 
 ```blocks3
-al presionar bandera
-borrar todo
-cambiar disfraz a (lápiz-azul v)
-establecer color de lápiz a [#0035FF]
-por siempre 
-  ir a (mouse pointer v)
-  + establecer color de lápiz a (ancho :: variables)
-  si <<mouse down?>  y <(posición y del ratón) > [-120]>> entonces 
-    lápiz abajo
-  si no 
-    lápiz arriba
-  end
+when flag clicked
+erase all
+switch costume to (lápiz-azul v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (ancho :: variables)
+if <<mouse down?> and <(posición y del ratón) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

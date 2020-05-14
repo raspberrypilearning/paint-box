@@ -35,7 +35,7 @@ Añade algo de código al objeto lápiz para hacer que el objeto siga al cursor 
 ![lápiz](images/pencil.png)
 
 ```blocks3
-al presionar bandera
+when flag clicked
 por siempre 
   ir a (mouse pointer v)
 end
@@ -58,14 +58,13 @@ Añade este código a tu objeto lápiz:
 ![lápiz](images/pencil.png)
 
 ```blocks3
-al presionar bandera
-por siempre 
-  ir a (mouse pointer v)
-  + si <mouse down?> entonces 
-  +   lápiz abajo
-  + si no 
-  +   lápiz arriba
-  + end
+when flag clicked
+forever
+  go to (mouse pointer v)
++ if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 

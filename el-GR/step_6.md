@@ -4,7 +4,7 @@
 
 --- task ---
 
-Αρχικά, πρόσθεσε μία νέα μεταβλητή που ονομάζεται `πάχος`{:class="blockvariable"}.
+Αρχικά, πρόσθεσε μία νέα μεταβλητή που ονομάζεται `πάχος`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -15,23 +15,23 @@
 Πρόσθεσε αυτή τη γραμμή **μέσα** στο βρόχο `για πάντα`{:class="blockcontrol"} του κώδικα του μολυβιού:
 
 ```blocks3
-όταν στην πράσινη σημαία γίνει κλικ
-καθάρισε τα πάντα
-άλλαξε ενδυμασία σε (μολύβι-μπλε v)
-όρισε χρώμα πένας σε [#0035FF]
-για πάντα 
-  πήγαινε σε (mouse pointer v)
-  + όρισε μέγεθος πένας σε (πάχος :: variables)
-  εάν <<mouse down?> και <(y ποντικιού) > [-120]>> τότε 
-    κατέβασε πένα
-  αλλιώς 
-    σήκωσε πένα
-  end
+when flag clicked
+erase all
+switch costume to (μολύβι-μπλε v)
+set pen color to [#0035FF]
+forever
+go to (mouse pointer v)
++set pen size to (πάχος :: variables)
+if <<mouse down?> and <(y ποντικιού) > [-120]>> then 
+  pen down
+  else
+  pen up
+end
 ```
 
 --- /task ---
 
-Τώρα το πάχος του μολυβιού επανειλημμένα ρυθμίζεται στην τιμή της μεταβλητής `πάχος` {:class="block3variables"}.
+Τώρα το πάχος του μολυβιού επανειλημμένα ρυθμίζεται στην τιμή της μεταβλητής `πάχος`{:class="block3variables"}.
 
 --- task ---
 

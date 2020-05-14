@@ -4,7 +4,7 @@
 
 --- task ---
 
-Άνοιξε το αρχικό έργο Scratch με την ονομασία: "Paint box".
+Άνοιξε το αρχικό έργο Scratch με την ονομασία: "Κουτί χρωμάτων".
 
 **Online:** άνοιξε το αρχικό έργο στο [scratch.mit.edu/projects/395323167](https://scratch.mit.edu/projects/395323167){:target="_blank"}
 
@@ -58,14 +58,13 @@ end
 ![μολύβι](images/pencil.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  πήγαινε σε (mouse pointer v)
-  + εάν <mouse down?> τότε 
-  +   κατέβασε πένα
-  + αλλιώς 
-  +   σήκωσε πένα
-  + end
+when flag clicked
+forever
+  go to (mouse pointer v)
++ if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 

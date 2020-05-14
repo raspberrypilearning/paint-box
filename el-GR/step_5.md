@@ -110,17 +110,16 @@ erase all
 ![μολύβι](images/pencil.png)
 
 ```blocks3
-όταν στην πράσινη σημαία γίνει κλικ
-καθάρισέ τα  όλα
-άλλαξε ενδυμασία σε (μολύβι-μπλε v)
-όρισε χρώμα πένας σε [#0035FF]
-για πάντα 
-  πήγαινε σε (mouse pointer v)
-  + εάν <<mouse down?> και <(y ποντικιού) > [-120]>>> τότε 
-  +   κατέβασε πένα
-  + αλλιώς 
-  +   σήκωσε πένα
-  + end
+when flag clicked
+erase all
+switch costume to (μολύβι-μπλε v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(y ποντικιού) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

@@ -68,7 +68,7 @@ Cambia al objeto lápiz. Añade algo de código de modo que cuando este objeto r
 ```blocks3
 al recibir [verde v]
 cambiar disfraz a (lápiz-verde v)
-fijar color de lápiz a [#00C44]
+fijar color de lápiz a [#00CC44]
 ```
 
 Para fijar el lápiz al color verde, haz clic en el cuadrado de color en el bloque `fijar color del marcador`{:class="block3extensions"}, y luego haz clic sobre el objeto cuadrado verde.
@@ -81,7 +81,7 @@ Luego del mismo modo puedes cambiar el color del lápiz a azul.
 
 Haz clic sobre el objeto cuadrado azul y añade este código:
 
-![cuadrado_azul](images /blue_square.png)
+![cuadrado_azul](images/blue_square.png)
 
 ```blocks3
 when this sprite clicked
