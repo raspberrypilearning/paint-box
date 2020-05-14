@@ -4,7 +4,7 @@ Luego vas a añadir código para permitir que la persona que use tu programa dib
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,43 +12,44 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Añade esta linea **dentro** del bucle `por siempre`{:class="blockcontrol"} del código del lápiz:
 
 ```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
+al presionar bandera
+borrar todo
+cambiar disfraz a (lápiz-azul v)
+establecer color de lápiz a [#0035FF]
+por siempre 
+  ir a (mouse pointer v)
+  + establecer color de lápiz a (ancho :: variables)
+  si <<mouse down?>  y <(posición y del ratón) > [-120]>> entonces 
+    lápiz abajo
+  si no 
+    lápiz arriba
+  end
 end
 ```
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+El ancho del lápiz ahora se vuelve repetidamente del valor de la variable `width`{:class="block3variables"}.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Haz clic con el botón derecho del ratón sobre la variable `ancho` {:class="block3variables"} que se muestra en el recuadro del Escenario, y luego selecciona la opción **deslizador**.
 
-![screenshot](images/paint-slider.png)
+![captura de pantalla](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Ahora puedes arrastrar el deslizador que se ve debajo de la variable para cambiar el valor de la misma.
 
-![screenshot](images/paint-slider-change.png)
+![captura de pantalla](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Prueba tu programa y mira si puedes añadir código para ajustar el grosor del lápiz.
 
-![screenshot](images/paint-width-test.png)
+![captura de pantalla](images/paint-width-test.png)
 
 \--- /task \---
