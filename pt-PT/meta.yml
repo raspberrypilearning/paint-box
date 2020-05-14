@@ -21,7 +21,7 @@ steps:
   - 
     title: Mudar a grossura do lápis
   - 
-    title: 'Challenge: keyboard commands'
+    title: 'Desafio: comandos do teclado'
     challenge: true
   - 
     title: 'O que se segue?'
