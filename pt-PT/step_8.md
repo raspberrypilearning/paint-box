@@ -13,6 +13,6 @@ Agora que concluiste o projeto 'Caixa de pintura', tenta [ o projeto 'Corrida de
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![demonstração da Corrida de Barcos](images/boat_race_demo.png)
 
 \--- /print-only \---
