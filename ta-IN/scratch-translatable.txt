@@ -1,11 +1,11 @@
-blue
+நீலம்
 
-green
+பச்சை
 
-width
+அகலம்
 
-pencil-blue
+பென்சில்-நீலம்
 
-pencil-green
+பென்சில்-பச்சை
 
-eraser
+அழிப்பான்
