@@ -85,7 +85,7 @@ Vuelve a probar tu código. Esta vez, mueve el lápiz alrededor del Escenario y 
 
 Si la línea que tu lápiz dibuja parece que saliera del medio de tu lápiz, necesitas cambiar el objeto lápiz para que la punta sea el centro del objeto.
 
-Haz clic el objetoe lápiz, y luego haz clic sobre la pestaña **Disfraces**.
+Haz clic en el objeto lápiz, y luego haz clic sobre la pestaña **Disfraces**.
 
 Mueve la pestaña de disfraces para que la punta del lápiz esté **justo encima** del centro.
 
