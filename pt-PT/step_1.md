@@ -23,7 +23,7 @@ Clica na bandeira verde para começar. Usa o rato para mover o lápis e mantém 
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicar numa cor vai mudar as cores do lápis, e clicar na borracha irá mudar para a borracha!
+Vais clicar na bandeira verde para começar, e vais usar o rato para mover o lápis e manter pressionado o botão esquerdo do rato para desenhar. Clicar numa cor vai mudar as cores do lápis, e clicar na borracha irá mudar para a borracha!
 
 ![galeria](images/showcase.png)
 
@@ -35,7 +35,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 + Adiciona a extensão da caneta no Scratch
 + Usa a difusão para controlar um sprite no Scratch
-+ Recall how to respond to mouse events in Scratch
++ Lembra-te de como responder a eventos do rato no Scratch
 
 \--- /collapse \---
 
