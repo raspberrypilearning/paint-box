@@ -1,11 +1,11 @@
-blue
+azul
 
-green
+verde
 
-width
+ancho
 
-pencil-blue
+lápiz-azul
 
-pencil-green
+lápiz-verde
 
-eraser
+borrador
