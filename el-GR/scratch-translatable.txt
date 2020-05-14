@@ -1,11 +1,11 @@
-blue
+μπλε
 
-green
+πράσινο
 
-width
+πάχος
 
-pencil-blue
+μπλε-μολύβι
 
-pencil-green
+πράσινο-μολύβι
 
-eraser
+γόμα
