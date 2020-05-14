@@ -12,7 +12,7 @@ Primero, añade una nueva variable llamada `ancho`{:class="block3variables"}.
 
 --- task ---
 
-Añade esta linea **dentro** del bucle `por siempre`{:class="blockcontrol"} del código del lápiz:
+Añade esta linea **dentro** del bucle `por siempre`{:class="block3control"} del código del lápiz:
 
 ```blocks3
 when flag clicked
