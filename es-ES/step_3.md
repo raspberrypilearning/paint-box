@@ -75,7 +75,7 @@ Para poner el color de lápiz en verde, haz clic en el pequeño ovalo que está 
 
 \--- /task \---
 
-Luego del mismo modo puedes cambiar el color de lápiz a azul.
+Luego, del mismo modo, puedes cambiar el color del lápiz a azul.
 
 \--- task \---
 
