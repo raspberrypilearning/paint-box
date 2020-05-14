@@ -4,7 +4,7 @@ Agora, vais acrescentar código para permitir que a pessoa que usa seu programa 
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+Primeiro, adiciona uma nova variável chamada `grossura` {: class = "blockvariable"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Adiciona esta linha ** dentro ** do bloco` repete para sempre ` {: class = "blockcontrol"} no código do lápis:
 
 ```blocks3
 quando alguém clicar na bandeira verde
@@ -32,24 +32,24 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+A largura da caneta é agora definida repetidamente para o valor da variável ` largura ` {: class = "block3variables"}.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Clica com o botão direito do rato na variável ` largura ` {: class = "block3variables"} exibida no palco e, a seguir clica no ** barra deslizante **.
 
-![screenshot](images/paint-slider.png)
+![captura de ecrã](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Agora já podes arrastar a barra deslizante que está por baixo do indicador da variável para alterar o seu valor.
 
-![screenshot](images/paint-slider-change.png)
+![captura de ecrã](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Testa o teu projeto e vê se consegues acrescentar código para ajustar a largura da caneta.
 
-![screenshot](images/paint-width-test.png)
+![captura de ecrã](images/paint-width-test.png)
 
 \--- /task \---
