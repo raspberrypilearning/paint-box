@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## Завдання: більше олівців
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Чи можеш ти додати червоний, жовтий та чорний олівці до своєї програми для малювання? Поглянь на попередній кроки, якщо тобі потрібно пригадати, як це зробити.
 
-Чи можете ви використати олівці, щоб намалювати малюнок?
+Чи можеш ти використати свої олівці, щоб намалювати малюнок?
 
-![скріншот](images/paint-final.png)
+![screenshot](images/paint-final.png)
