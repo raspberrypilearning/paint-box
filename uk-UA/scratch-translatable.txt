@@ -1,11 +1,11 @@
-blue
+синій
 
-green
+зелений
 
-width
+товщина
 
-pencil-blue
+олівець-синій
 
-pencil-green
+олівець-зелений
 
-eraser
+гумка
