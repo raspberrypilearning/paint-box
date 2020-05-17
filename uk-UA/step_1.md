@@ -25,44 +25,44 @@
 
 Ти клацнеш на зелений прапор для запуску, а потім використовуватимеш мишку, щоб переміщувати олівець, і затискатимеш ліву клавішу мишки для малювання. Натискання на кольори змінюватиме кольори олівців, а клацання на гумку вибиратиме натомість її!
 
-![showcase](images/showcase.png)
+![демонстрація](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Чого ти навчишся
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ Додавати розширення Олівець у Скретч
++ Використовувати оповіщення для керування спрайтами в Скретч
++ Пригадаєш, як реагувати на події мишки у Скретч
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Що тобі знадобиться
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+### Обладнання
 
-You can find the [completed project here](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
++ Комп'ютер, що підтримує Скретч 3
+
+### Програмне забезпечення
+
++ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_ blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_ blank"})
+
+### Завантаження
+
++ [Початковий офлайн-проєкт](http://rpf.io/p/en/paint-box-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Додаткова інформація для викладачів
+
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+
+Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
