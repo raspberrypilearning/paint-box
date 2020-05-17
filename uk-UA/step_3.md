@@ -71,7 +71,7 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+Щоб зелений став кольором малювання, клацни на зафарбований квадрат в блоці `надати олівцю колір`{:class="block3extensions"}, далі клацни піпетку, а потім — на зелений квадратний спрайт.
 
 \--- /task \---
 
