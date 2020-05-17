@@ -12,7 +12,7 @@
 
 \--- task \---
 
-Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+Клацни правою кнопкою мишки на образ олівця "олівець-синій" і продублюй його.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
@@ -20,7 +20,7 @@ Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
 
 \--- task \---
 
-Name the new costume 'pencil-green', and colour the pencil green.
+Назви новий образ "олівець-зелений" і зафарбуй олівець в зелений колір.
 
 ![screenshot](images/paint-pencil-green.png)
 
@@ -28,7 +28,7 @@ Name the new costume 'pencil-green', and colour the pencil green.
 
 \--- task \---
 
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+Намалюй два нових спрайти: один синій квадрат і один зелений. Вони будуть потрібні для вибору між синім та зеленим олівцями.
 
 ![screenshot](images/paint-selectors.png)
 
@@ -36,7 +36,7 @@ Draw two new sprites: one blue square and one green square. These are for choosi
 
 \--- task \---
 
-Rename the new sprites so that they are called 'blue' and 'green'
+Перейменуй нові спрайти так, щоб вони називалися "синій" і "зелений"
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,7 +44,7 @@ Rename the new sprites so that they are called 'blue' and 'green'
 
 \--- task \---
 
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+Додай код до спрайта "зелений", щоб коли на нього натискають, він `оповіщував`{:class="block3events"} повідомленням "зелений".
 
 ![green square](images/green_square.png)
 
@@ -57,11 +57,11 @@ broadcast (green v)
 
 \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+Олівець має чекати на повідомлення "зелений" і змінювати свій образ та колір у відповідь.
 
 \--- task \---
 
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+Перемкнися на свій спрайт олівця. Додай код, щоб коли цей спрайт отримував `повідомлення`{:class="block3events"} "зелений", він перемикався на образ зеленого олівця і змінював колір малювання на зелений.
 
 ![pencil](images/pencil.png)
 
