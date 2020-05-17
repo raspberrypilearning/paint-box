@@ -1,6 +1,6 @@
-## Coloured pencils
+## Кольорові олівці
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+Тепер ти додаси різнокольорові олівці до свого проєкту і дозволиш користувачеві вибирати між ними.
 
 \--- task \---
 
