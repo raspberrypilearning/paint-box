@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+Додай спрайт "Block-X" із розділу літер в бібліотеці. Зафарбуй образ спрайта в червоний колір і зроби його трохи меншим. Цей спрайт буде кнопкою очистки.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,7 +14,7 @@ Add the 'X-block' sprite from the library's letters section. Colour the sprite's
 
 \--- task \---
 
-Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+Додай код до спрайта "Block-X", щоб очищувати Сцену, коли на нього клацають.
 
 ![cross](images/cross.png)
 
@@ -25,7 +25,7 @@ erase all
 
 \--- /task \---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
+Тобі не треба використовувати `оповіщення`{:class="block3events"} для очищення сцени, тому що блока `очистити все`{:class="block3extensions"} достатньо.
 
 Do you see that the pencil sprite includes an eraser costume?
 
