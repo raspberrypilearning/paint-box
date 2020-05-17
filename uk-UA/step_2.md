@@ -1,20 +1,20 @@
-## Make a pencil
+## Створи олівець
 
-Start by making a pencil that you can use to draw on the Stage.
+Почнімо зі створення олівця, яким ти зможеш малювати на Сцені.
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+Відкрий початковий проєкт "Набір для малювання" у Скретч.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Онлайн**: відкрий початковий проєкт на [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Офлайн**: відкрий [початковий проєкт](http://rpf.io/p/en/paint-box-go){:target="_blank"} в офлайн-редакторі.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+В початковому проєкті ти маєш побачити спрайти олівця та гумки:
 
 ![screenshot](images/paint-starter.png)
 
@@ -22,7 +22,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 \--- task \---
 
-Add the Pen extension to your project.
+Додай розширення Олівець до свого проєкту.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,7 +30,7 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Додай код до спрайту олівця, щоб він `завжди`{:class="block3control"} рухався за вказівником мишки, і щоб таким чином можна було малювати:
 
 ![pencil](images/pencil.png)
 
@@ -45,7 +45,7 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+Клацни на прапорець і переміщуй вказівник мишки по Сцені для того, щоб перевірити чи працює твій код.
 
 \--- /task \---
 
