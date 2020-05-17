@@ -35,7 +35,7 @@ erase all
 
 \--- task \---
 
-Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+Вибери спрайт гумки і клацни **показати** (іконка із оком). Ось як тепер має виглядати твоя Сцена:
 
 ![screenshot](images/paint-eraser-stage.png)
 
@@ -43,7 +43,7 @@ Right-click on this eraser sprite and then click on **show**. Here is how your S
 
 \--- task \---
 
-Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+Додай код до спрайту гумки, щоб здійснювати `оповіщення "гумка"`{:class="block3events"}, коли на нього клацають.
 
 ![eraser](images/eraser.png)
 
@@ -54,11 +54,11 @@ broadcast (eraser v)
 
 \--- /task \---
 
-When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
+Коли спрайт олівця отримує повідомлення "гумка", він має змінювати свій образ на гумку і перемикати колір малювання на білий, який є кольором Сцени!
 
 \--- task \---
 
-Add some code to create the eraser.
+Додай код для програмування гумки.
 
 \--- hints \--- \--- hint \---
 
