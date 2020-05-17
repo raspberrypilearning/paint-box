@@ -10,18 +10,18 @@ steps:
   - 
     title: Вступ
   - 
-    title: Створюємо олівець
+    title: Створи олівець
   - 
     title: Кольорові олівці
   - 
-    title: 'Challenge: shortcuts'
+    title: 'Завдання: більше олівців'
     challenge: true
   - 
-    title: Виправлення помилок
+    title: Виправи помилки
   - 
-    title: Change the pencil width
+    title: Зміни товщину олівця
   - 
-    title: 'Challenge: keyboard commands'
+    title: 'Завдання: клавіатурні команди'
     challenge: true
   - 
     title: 'Що далі?'
