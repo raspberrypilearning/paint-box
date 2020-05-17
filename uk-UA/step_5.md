@@ -1,6 +1,6 @@
-## Undo mistakes
+## Виправ хиби
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Інколи трапляються хиби, тому додай кнопки очистки та гумки.
 
 \--- task \---
 
