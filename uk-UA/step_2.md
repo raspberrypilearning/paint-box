@@ -16,7 +16,7 @@
 
 В початковому проєкті ти маєш побачити спрайти олівця та гумки:
 
-![screenshot](images/paint-starter.png)
+![знімок екрана](images/paint-starter.png)
 
 \--- /task \---
 
@@ -32,7 +32,7 @@
 
 Додай код до спрайту олівця, щоб він `завжди`{:class="block3control"} рухався за вказівником мишки, і щоб таким чином можна було малювати:
 
-![pencil](images/pencil.png)
+![олівець](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -49,13 +49,13 @@ end
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+Далі зроби, щоб твій олівець малював, тільки `якщо`{:class="block3control"} клавішу мишки натиснуто.
 
 \--- task \---
 
-Add this code to your pencil sprite:
+Додай цей код до свого олівця:
 
-![pencil](images/pencil.png)
+![олівець](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -73,24 +73,24 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+Перевір свій код ще раз. Цього разу рухай олівець по Сцені, затиснувши клавішу мишки. Чи можеш ти малювати олівцем?
 
-![screenshot](images/paint-draw.png)
+![знімок екрана](images/paint-draw.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: Олівець малює не кінчиком?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+Якщо здається, що лінія, яку малює твій олівець, виходить з його середини, тобі треба буде змінити спрайт олівця так, щоб кінчик був у центрі.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+Клацни на спрайт олівця і перейди на вкладку **Образи**.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Перемісти образ так, щоб кінчик олівця був **просто над** центром.
 
-![Costume center](images/costume-center-annotated.png)
+![центр образу](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+Тепер рухай олівець по Сцені і помалюй. Зараз олівець має малювати лінію своїм кінчиком.
 
 \--- /collapse \---
