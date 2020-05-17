@@ -1,10 +1,10 @@
-## Change the pen width
+## Зміни товщину олівця
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Далі ти напишеш код, щоб користувач твоєї програми міг малювати з використанням ліній різної товщини.
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+По-перше, додай нову змінну з іменем `товщина`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Додай цей рядок **всередині** циклу `завжди`{:class="block3control"} у коді спрайта олівця:
 
 ```blocks3
 when flag clicked
@@ -31,17 +31,17 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+Тепер товщина олівця постійно встановлюється рівною значенню змінної `товщина`{:class="block3variables"}.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Клацни правою кнопкою мишки на відображення змінної `товщина`{:class="block3variables"} на Сцені та вибери **слайдер**.
 
 ![screenshot](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Тепер ти можеш перетягувати повзунок, що відображається під змінною, щоб встановлювати її значення.
 
 ![screenshot](images/paint-slider-change.png)
 
