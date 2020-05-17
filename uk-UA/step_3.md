@@ -6,7 +6,7 @@
 
 Перейменуй образ `олівець` на `олівець-синій`
 
-![rename-pencil](images/rename-pencil.png)
+![перейменування олівця](images/rename-pencil.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@
 
 Клацни правою кнопкою мишки на образ олівця "олівець-синій" і продублюй його.
 
-![screenshot](images/paint-blue-duplicate.png)
+![знімок екрана](images/paint-blue-duplicate.png)
 
 \--- /task \---
 
@@ -22,7 +22,7 @@
 
 Назви новий образ "олівець-зелений" і зафарбуй олівець в зелений колір.
 
-![screenshot](images/paint-pencil-green.png)
+![знімок екрана](images/paint-pencil-green.png)
 
 \--- /task \---
 
@@ -30,7 +30,7 @@
 
 Намалюй два нових спрайти: один синій квадрат і один зелений. Вони будуть потрібні для вибору між синім та зеленим олівцями.
 
-![screenshot](images/paint-selectors.png)
+![знімок екрана](images/paint-selectors.png)
 
 \--- /task \---
 
@@ -46,7 +46,7 @@
 
 Додай код до спрайта "зелений", щоб коли на нього натискають, він `оповіщував`{:class="block3events"} повідомленням "зелений".
 
-![green square](images/green_square.png)
+![зелений квадрат](images/green_square.png)
 
 ```blocks3
 when this sprite clicked
@@ -63,7 +63,7 @@ broadcast (green v)
 
 Перемкнися на свій спрайт олівця. Додай код, щоб коли цей спрайт отримував `повідомлення`{:class="block3events"} "зелений", він перемикався на образ зеленого олівця і змінював колір малювання на зелений.
 
-![pencil](images/pencil.png)
+![олівець](images/pencil.png)
 
 ```blocks3
 when I receive [green v]
@@ -75,22 +75,22 @@ set pen color to [#00CC44]
 
 \--- /task \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+Далі виконай аналогічні дії, щоб перемикати колір олівця на синій.
 
 \--- task \---
 
-Click on the blue square sprite and add this code:
+Клацни на спрайт синього квадрата і додай цей код:
 
-![blue_square](images/blue_square.png)
+![синій квадрат](images/blue_square.png)
 
 ```blocks3
 when this sprite clicked
 broadcast (blue v)
 ```
 
-Then click on the pencil sprite and add this code:
+Далі клацни на спрайт олівця і додай цей код:
 
-![pencil](images/pencil.png)
+![олівець](images/pencil.png)
 
 ```blocks3
 when I receive [blue v]
@@ -102,9 +102,9 @@ set pen color to [#0000ff]
 
 \--- task \---
 
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+Нарешті, додай наступний код, щоб задати початковий колір олівця і переконатися в тому, що екран чистий, коли програма запускається.
 
-![pencil](images/pencil.png)
+![олівець](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -122,12 +122,12 @@ end
 
 \--- /task \---
 
-If you prefer, you can start with a different colour pencil.
+Якщо хочеш, можеш починати з іншим кольором олівця.
 
 \--- task \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+Перевір свій код. Чи можеш ти перемикатися між синім та зеленим олівцями, клацаючи на спрайти синього та зеленого квадратів?
 
-![screenshot](images/paint-pens-test.png)
+![знімок екрана](images/paint-pens-test.png)
 
 \--- /task \---
