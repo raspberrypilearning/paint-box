@@ -4,4 +4,4 @@
 
 Чи можеш ти використати свої олівці, щоб намалювати малюнок?
 
-![screenshot](images/paint-final.png)
+![знімок екрана](images/paint-final.png)
