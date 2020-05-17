@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## Завдання: команди з клавіатури
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? Наприклад:
+Чи можеш ти додати код, щоб замість клацання по зафарбованим квадратам або кнопкам на Сцені, ти міг (могла) працювати, натискаючи на клавіші клавіатури? Наприклад:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> — вибрати синій (blue) олівець
++ <kbd>g</kbd> — вибрати зелений (green) олівець
++ <kbd>e</kbd> — вибрати гумку (eraser)
++ <kbd>c</kbd> — очистити (clear) екран
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+Якщо хочеш, можеш також додати код, щоб натискання клавіш зі стрілками змінювало товщину олівця.
