@@ -27,11 +27,11 @@ erase all
 
 Тобі не треба використовувати `оповіщення`{:class="block3events"} для очищення сцени, тому що блока `очистити все`{:class="block3extensions"} достатньо.
 
-Do you see that the pencil sprite includes an eraser costume?
+Ти помітив (-ла), що спрайт олівця містить образ гумки?
 
 ![screenshot](images/paint-eraser-costume.png)
 
-Your project also includes a separate eraser sprite.
+Твій проєкт також містить окремий спрайт гумки.
 
 \--- task \---
 
