@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Rename the `pencil` sprite to `pencil-blue`
+Перейменуй образ `олівець` на `олівець-синій`
 
 ![rename-pencil](images/rename-pencil.png)
 
