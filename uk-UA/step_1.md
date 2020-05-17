@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-Натисни на зелений прапор для запуску. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+Натисни на зелений прапор для запуску. Використовуй мишку, щоб переміщувати олівець, і затискай ліву клавішу мишки, щоб малювати. Клацай на кольори, щоб міняти олівці. Клацни на гумку, щоб вибрати її, і використовуй її для стирання своєї роботи. Для очищення сторінки натисни на хрест.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+Ти клацнеш на зелений прапор для запуску, а потім використовуватимеш мишку, щоб переміщувати олівець, і затискатимеш ліву клавішу мишки для малювання. Натискання на кольори змінюватиме кольори олівців, а клацання на гумку вибиратиме натомість її!
 
 ![showcase](images/showcase.png)
 
