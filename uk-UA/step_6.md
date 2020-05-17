@@ -37,18 +37,18 @@ end
 
 Клацни правою кнопкою мишки на відображення змінної `товщина`{:class="block3variables"} на Сцені та вибери **слайдер**.
 
-![screenshot](images/paint-slider.png)
+![знімок екрана](images/paint-slider.png)
 
 \--- /task \---
 
 Тепер ти можеш перетягувати повзунок, що відображається під змінною, щоб встановлювати її значення.
 
-![screenshot](images/paint-slider-change.png)
+![знімок екрана](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Протестуй свій код і перевір, чи можеш ти змінювати товщину ліній.
 
-![screenshot](images/paint-width-test.png)
+![знімок екрана](images/paint-width-test.png)
 
 \--- /task \---
