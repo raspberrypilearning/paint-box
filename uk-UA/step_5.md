@@ -8,7 +8,7 @@
 
 [[[generic-scratch3-sprite-from-library]]]
 
-![screenshot](images/paint-x.png)
+![знімок екрана](images/paint-x.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@
 
 Додай код до спрайта "Block-X", щоб очищувати Сцену, коли на нього клацають.
 
-![cross](images/cross.png)
+![хрест](images/cross.png)
 
 ```blocks3
 when this sprite clicked
@@ -29,7 +29,7 @@ erase all
 
 Ти помітив (-ла), що спрайт олівця містить образ гумки?
 
-![screenshot](images/paint-eraser-costume.png)
+![знімок екрана](images/paint-eraser-costume.png)
 
 Твій проєкт також містить окремий спрайт гумки.
 
@@ -37,7 +37,7 @@ erase all
 
 Вибери спрайт гумки і клацни **показати** (іконка із оком). Ось як тепер має виглядати твоя Сцена:
 
-![screenshot](images/paint-eraser-stage.png)
+![знімок екрана](images/paint-eraser-stage.png)
 
 \--- /task \---
 
@@ -45,7 +45,7 @@ erase all
 
 Додай код до спрайту гумки, щоб здійснювати `оповіщення "гумка"`{:class="block3events"}, коли на нього клацають.
 
-![eraser](images/eraser.png)
+![гумка](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
@@ -62,11 +62,11 @@ broadcast (eraser v)
 
 \--- hints \--- \--- hint \---
 
-Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+Додай код до спрайта олівця: `Коли я отримую`{:class="block3events"} повідомлення `"гумка"`{:class="block3events"} `Змінити образ на гумку`{:class="block3looks"} `Надати олівцю колір`{:class="block3extensions"} білий
 
 \--- /hint \--- \--- hint \---
 
-Here are all the blocks you need:
+Ось усі блоки, які тобі знадобляться:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -77,9 +77,9 @@ switch costume to (eraser v)
 
 \--- /hint \--- \--- hint \---
 
-Here is what the code should look like:
+Ось як має виглядати твій код:
 
-![pencil](images/pencil.png)
+![олівець](images/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
@@ -91,21 +91,21 @@ set pen color to [#FFFFFF]
 
 \--- task \---
 
-Test your project to see if you can clear the Stage and erase pencil lines.
+Протестуй свій проєкт, щоб перевірити, чи ти можеш очищувати Сцену і стирати лінії, зроблені олівцем.
 
-![screenshot](images/paint-erase-test.png)
+![знімок екрана](images/paint-erase-test.png)
 
 \--- /task \---
 
-There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
+Із олівцем є ще одна проблема: ти можеш малювати де завгодно на Сцені, в тому числі біля кнопок очищення та гумки!
 
-![screenshot](images/paint-draw-problem.png)
+![знімок екрана](images/paint-draw-problem.png)
 
 \--- task \---
 
-To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+Для того, щоб це виправити, зміни код так, щоб олівець опускався, тільки якщо клавіша мишки натиснута, **і** координата `y` вказівника мишки більша за `-120`:
 
-![pencil](images/pencil.png)
+![олівець](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -125,8 +125,8 @@ end
 
 \--- task \---
 
-Test your project. You now should not be able to draw near the buttons.
+Перевір свій проєкт. Тепер ти не зможеш малювати біля кнопок.
 
-![screenshot](images/paint-fixed.png)
+![знімок екрана](images/paint-fixed.png)
 
 \--- /task \---
