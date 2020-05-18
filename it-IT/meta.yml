@@ -1,0 +1,19 @@
+---
+title: Scatola dei Colori
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: Crea un programma per disegnare
+version: 4.1.0
+last_tested: 2018-30-01
+steps:
+  - title: Introduzione
+  - title: Crea una matita
+  - title: Matite colorate
+  - title: 'Sfida: Scorciatoie'
+    challenge: true
+  - title: Annulla gli errori
+  - title: Cambia lo spessore della matita
+  - title: 'Sfida: comandi da tastiera'
+    challenge: true
+  - title: 'E poi?'
