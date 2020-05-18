@@ -1,19 +1,19 @@
-hero_image: images/banner.png
-theme: violet
-duration: 2
-listed: true
-ingredient: false
-copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+---
 title: Набір для малювання
-description: У цьому проекті ви створите власну програму для малювання!
-original_url: https://codeclubprojects.org/en-GB/scratch/paint-box
-interests: art
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
-steps: 
-- title: Набір для малювання
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: Створи власну програму для малювання
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - title: Вступ
+  - title: Створи олівець
+  - title: Кольорові олівці
+  - title: 'Завдання: більше олівців'
+    challenge: true
+  - title: Виправ хиби
+  - title: Зміни товщину олівця
+  - title: 'Завдання: команди з клавіатури'
+    challenge: true
+  - title: 'Що далі?'

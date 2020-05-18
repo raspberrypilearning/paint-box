@@ -1,0 +1,11 @@
+blu
+
+verde
+
+spessore
+
+matita-blu
+
+matita-verde
+
+gomma
