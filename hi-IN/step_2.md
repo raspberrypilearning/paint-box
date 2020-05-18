@@ -1,28 +1,28 @@
-## Make a pencil
+## पेंसिल बनाना
 
-Start by making a pencil that you can use to draw on the Stage.
+चलिए ऐसी पेंसिल बनाने से आंरभ करें, जिसे स्टेज पर चित्र बनाने के लिए उपयोग किया जा सकता है।
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+'पेंट बॉक्स' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**ऑनलाइन**: [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"} पे से स्टार्टर प्रोजेक्ट खोलिये
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+यदि आपके पास एक Scratch खाता है, तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं।
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/paint-box-go){:target="_blank"} को ऑफलाइन एडिटर में खोलिये।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+अगर आपके पास Scratch ऑफलाइन एडिटर नहीं है, तो आप यहाँ से उसे डाउनलोड कर सकते है [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+स्टार्टर प्रोजेक्ट में, आपको पेंसिल और रबड़ स्प्राइट दिखाई देना चाहिए:
 
-![screenshot](images/paint-starter.png)
+![स्क्रीनशॉट](images/paint-starter.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+अपने प्रोजेक्ट में Pen एक्सटेंशन जोड़ें।
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,9 +30,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+आपके पेंसिल स्प्राइट पर कोड जोड़े ताकि आप माउस पॉइंटर के पीछे पीछे `हमेशा (forever)`{:class="block3control"} स्प्राइट को ले जा सके ताकि आप यह बना सके:
 
-![pencil](images/pencil.png)
+![पेंसिल](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -45,17 +45,17 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+झंडे पर क्लिक करें और फिर माउस को स्टेज के चारों ओर ले जाएं यह जांचने के लिए की कोड काम करता है या नहीं।
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+अभी, यह निश्चित कीजिये की आपका पेंसिल तभी लिख सकता है `जब (if)`{:class="block3control"} माउस क्लिक किया गया हो।
 
 \--- task \---
 
-Add this code to your pencil sprite:
+इस कोड को अपने पेंसिल स्प्राइट में जोड़ें:
 
-![pencil](images/pencil.png)
+![पेंसिल](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -73,24 +73,24 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+अपने कोड का फिर से परीक्षण करें। इस बार, स्टेज के चारों ओर पेंसिल को ले जाएं और माउस बटन दबाए रखें। क्या आप अपने पेंसिल से चित्र बना सकते हैं?
 
-![screenshot](images/paint-draw.png)
+![स्क्रीनशॉट](images/paint-draw.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: क्या आपकी पेंसिल इसकी नोक से रेखा नहीं निकलती है?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+अगर आपका पेंसिल बिच में से चित्र बना रहा है, तोह आपको अपनी पेंसिल स्प्राइट को बदलना पड़ेगा ताकि पेंसिल का नोक इस नए स्प्राइट के तीख बीच में है।
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+अब पेंसिल स्प्राइट पर क्लिक हरे, और फिर **Costumes** टैब पर क्लिक करे।
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+कॉस्ट्यूम को हटाइये ताकि आपकी पेंसिल की नोक पेंसिल के बीच से **सिर्फ तोड़ा ऊपर** रहे।
 
-![Costume center](images/costume-center-annotated.png)
+![पोशाक केंद्र](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+अब स्टेज पर पेंसिल को घुमाएँ और ड्रा करें। पेंसिल को अब अपने सिरे से एक रेखा खींचनी चाहिए।
 
 \--- /collapse \---
