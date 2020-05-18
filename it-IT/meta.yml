@@ -8,12 +8,12 @@ version: 4.1.0
 last_tested: 2018-30-01
 steps:
   - title: Introduzione
-  - title: Crea una matita
+  - title: Di cosa avrai bisogno
   - title: Matite colorate
-  - title: 'Sfida: Scorciatoie'
+  - title: 'Sfida: Più matite'
     challenge: true
-  - title: Annulla gli errori
-  - title: Cambia lo spessore della matita
+  - title: Fare errori
+  - title: Cambiare lo spessore della penna
   - title: 'Sfida: comandi da tastiera'
     challenge: true
   - title: 'E poi?'

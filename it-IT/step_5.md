@@ -29,7 +29,7 @@ Non è necessario `inviare un messaggio`{:class="block3events"} per cancellare l
 
 Hai visto che lo sprite matita include un costume "gomma"?
 
-![screenshot](images/paint-gomma-costume.png)
+![screenshot](images/paint-eraser-costume.png)
 
 Il tuo progetto include anche uno sprite per selezionare la gomma.
 
@@ -45,7 +45,7 @@ Fare clic con il tasto sinistro sul costrume "gomma" per **visualizzarlo** nello
 
 Aggiungi il codice allo sprite gomma per inviare un `messaggio "gomma"`{:class="block3events"} quando si fa clic sullo sprite della gomma.
 
-![gomma per cancellare](images/gomma.png)
+![gomma per cancellare](images/eraser.png)
 
 ```blocks3
 when this sprite clicked

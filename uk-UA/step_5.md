@@ -29,7 +29,7 @@ erase all
 
 Ти помітив (-ла), що спрайт олівця містить образ гумки?
 
-![знімок екрана](images/paint-гумка-costume.png)
+![знімок екрана](images/paint-eraser-costume.png)
 
 Твій проєкт також містить окремий спрайт гумки.
 
@@ -45,7 +45,7 @@ erase all
 
 Додай код до спрайту гумки, щоб здійснювати `оповіщення "гумка"`{:class="block3events"}, коли на нього клацають.
 
-![гумка](images/гумка.png)
+![гумка](images/eraser.png)
 
 ```blocks3
 when this sprite clicked

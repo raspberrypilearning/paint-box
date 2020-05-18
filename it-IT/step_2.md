@@ -86,7 +86,7 @@ Se la linea che disegna la tua matita sembra provenire dal suo centro, devi modi
 
 Fai clic sullo sprite matita e poi sulla scheda **Costumi**.
 
-Sposta il costume in modo che la punta della matita sia ** appena sopra ** il centro.
+Sposta il costume in modo che la punta della matita sia **appena sopra** il centro.
 
 ![Centro del costume](images/costume-center-annotated.png)
 

@@ -14,7 +14,7 @@ Rinomina lo sprite `matita` in `matita-blu`
 
 Fai clic con il tasto destro del mouse sullo sprite della matita e duplica il costume "matita-blu".
 
-![screenshot](images/paint-blu-duplicate.png)
+![screenshot](images/paint-blue-duplicate.png)
 
 --- /task ---
 
@@ -22,7 +22,7 @@ Fai clic con il tasto destro del mouse sullo sprite della matita e duplica il co
 
 Riomina il nuovo costume 'matita-verde' e colora la matita di verde.
 
-![screenshot](images/paint-matita-verde.png)
+![screenshot](images/paint-pencil-green.png)
 
 --- /task ---
 
