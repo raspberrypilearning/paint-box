@@ -13,6 +13,6 @@ Agora que você concluiu o projeto 'Lousa Mágica', tente [o projeto 'Corrida de
 
 \--- print-only \---
 
-![boat race demo](images/boat_race_demo.png)
+![demonstração da corrida de barcos](images/boat_race_demo.png)
 
 \--- /print-only \---
