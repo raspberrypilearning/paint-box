@@ -1,23 +1,23 @@
 ---
-title: பெயிண்ட் பெட்டி
+title: வண்ணப்பூச்சு பெட்டி
 hero_image: படங்கள்/banner.png
 listed: true
 copyedit: false
-description: உங்கள் சொந்த வரைவு திட்டத்தை உருவாக்குங்கள்
+description: உங்கள் சொந்த வண்ணப்பூச்சு நிரலை உருவாக்குங்கள்
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
     title: முன்னுரை
   - 
-    title: பென்சில் உருவாக்குதல்
+    title: ஒரு பென்சிலை உருவாக்குதல்
   - 
     title: வண்ண பென்சில்கள்
   - 
     title: 'சவால்: குறுக்குவழிகள்'
     challenge: true
   - 
-    title: தவறுகளை தவிர்க்கவும்
+    title: தவறுகளை திரும்பப் பெறவும்(undo)
   - 
     title: பென்சில் அகலத்தை மாற்றவும்
   - 
