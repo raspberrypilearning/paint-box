@@ -44,7 +44,7 @@
 
 --- task ---
 
-'সবুজ' sprite এ কিছু কোড যুক্ত করুন যাতে এই sprite টি ক্লিক করা হয়, তখন এটি `broadcast`{}:class="block3events"} বার্তাটি "সবুজ" করে দেবে.
+'সবুজ' sprite এ কিছু কোড যুক্ত করুন যাতে এই sprite টি ক্লিক করা হয়, তখন এটি `broadcast`{:class="block3events"} বার্তাটি "সবুজ" করে দেবে.
 
 ![green square](images/green_square.png)
 
