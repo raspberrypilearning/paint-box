@@ -1,0 +1,19 @@
+---
+title: পেইন্ট বক্স
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: আপনার নিজের পেইন্ট প্রোগ্রাম করুন
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - title: ভূমিকা
+  - title: একটি পেন্সিল তৈরি করুন
+  - title: রঙিন পেন্সিল
+  - title: 'Challenge: শর্টকাট'
+    challenge: true
+  - title: ভ্রম সংশোধন
+  - title: পেন্সিল প্রস্থ পরিবর্তন করুন
+  - title: 'Challenge: কীবোর্ড কমান্ড'
+    challenge: true
+  - title: 'এরপর কি?'
