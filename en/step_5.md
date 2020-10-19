@@ -35,7 +35,11 @@ Your project also includes a separate eraser sprite.
 
 --- task ---
 
-Right-click on this eraser sprite and then click on **show**. Here is how your Stage should look now:
+Click on this eraser sprite and then select **show**. 
+
+![screenshot](images/show-eraser.png)
+
+Here is how your Stage should look now:
 
 ![screenshot](images/paint-eraser-stage.png)
 
