@@ -4,7 +4,7 @@ Now you're going to add different coloured pencils to your project and allow the
 
 --- task ---
 
-Click on the **Costumes** tab of the 'pencil' sprite. 
+Click on the Costumes tab of the 'pencil' sprite. 
 
 Rename the `pencil-a` costume to `pencil-blue`
 
