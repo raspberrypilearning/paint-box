@@ -48,7 +48,7 @@ Ora puoi trascinare il cursore che è visibile sotto la variabile per cambiare i
 
 \--- task \---
 
-Testa il progetto e vedi se riesci a modificare lo spessore della matita.
+Test your project and see if you can change the pen width.
 
 ![screenshot](images/paint-width-test.png)
 
