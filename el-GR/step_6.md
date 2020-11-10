@@ -47,7 +47,7 @@
 
 \--- task \---
 
-Δοκίμασε το έργο σου και δες αν μπορείς να προσθέσεις κώδικα για να ρυθμίσεις το πάχος του μολυβιού.
+Test your project and see if you can change the pen width.
 
 ![screenshot](images/paint-width-test.png)
 
