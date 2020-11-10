@@ -35,17 +35,21 @@ Dein Projekt enthält auch eine eigene Radier-Figur.
 
 \--- task \---
 
-Klicke mit der rechten Maustaste auf diese Radierer-Figur und klicke anschließend auf **zeigen**. So sollte deine Bühne jetzt aussehen:
+Click on this eraser sprite and then select **show**.
 
-![Screenshot](images/paint-eraser-stage.png)
+![Screenshot](images/show-eraser.png)
+
+Here is how your Stage should look now:
+
+![screenshot](images/paint-eraser-stage.png)
 
 \--- /task \---
 
 \--- task \---
 
-Füge der Radierer-Figur Code hinzu, um die Nachricht `'radieren' an alle senden`{:class="block3events"} wenn sie angeklickt wird.
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-![Radierer](images/eraser.png)
+![eraser](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
@@ -54,19 +58,19 @@ broadcast (radieren v)
 
 \--- /task \---
 
-Wenn der Buntstift die 'radieren'-Nachricht empfängt, musst du das Buntstift-Kostüm zu “Radierer” ändern und die Buntstiftfarbe auf weiß ändern - die Farbe der Bühne!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
 \--- task \---
 
-Füge Code hinzu um den Radierer zu schaffen.
+Add some code to create the eraser.
 
 \--- hints \--- \--- hint \---
 
-Füge der Buntstift-Figur Code hinzu: `Wenn ich empfange` {: class = "block3events"} die `radieren` {: class = "block3events"} Nachricht `Wechsel zu Radierer Kostüm` {: class = "block3looks"} `Setze Stiftfarbe auf` {: class = "block3extensions"} weiß
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
 
 \--- /hint \--- \--- hint \---
 
-Hier sind alle Blöcke die du brauchst:
+Here are all the blocks you need:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -77,9 +81,9 @@ switch costume to (Radierer v)
 
 \--- /hint \--- \--- hint \---
 
-So sollte dein Code aussehen:
+Here is what the code should look like:
 
-![Buntstift](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [radieren v]
@@ -91,21 +95,21 @@ set pen color to [#FFFFFF]
 
 \--- task \---
 
-Teste dein Projekt und schau, ob du radieren kannst und die Bühne löschen.
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-![Screenshot](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png)
 
 \--- /task \---
 
-Es gibt noch ein Problem mit dem Buntstift - du kannst auf der ganzen Bühne zeichnen, auch im Bereich der Auswahlsymbole!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![Screenshot](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
 \--- task \---
 
-Um das zu beheben, ändere den Code, damit der Stift nur dann unten ist, wenn die Maus gedrückt wird **und** die `y` Position des Mauszeigers größer als `-120` ist:
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![Buntstift](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -125,8 +129,8 @@ end
 
 \--- task \---
 
-Teste dein Projekt. Du solltest jetzt nicht mehr in der Nähe der Auswahlsymbole zeichnen können.
+Test your project. You now should not be able to draw near the buttons.
 
-![Screenshot](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png)
 
 \--- /task \---
