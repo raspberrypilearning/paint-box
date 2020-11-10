@@ -14,7 +14,7 @@ steps:
   - 
     title: வண்ண பென்சில்கள்
   - 
-    title: 'சவால்: குறுக்குவழிகள்'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: தவறுகளை திரும்பப் பெறவும்(undo)
