@@ -47,7 +47,7 @@ Jetzt kannst du den Schieberegler unter der Variablen nach rechts und links zieh
 
 \--- task \---
 
-Teste dein Projekt und schau, ob dein Code mit der Änderung der Stiftdicke funktioniert.
+Test your project and see if you can change the pen width.
 
 ![Screenshot](images/paint-width-test.png)
 
