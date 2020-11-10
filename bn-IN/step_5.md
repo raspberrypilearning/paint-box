@@ -35,7 +35,11 @@ erase all
 
 \--- task \---
 
-এই ইরেজার sprite এ ডান ক্লিক করুন এবং তারপরে **show** ক্লিক করুন ।. আপনার কোডটি দেখতে কেমন হবে তা এখানে দেওয়া হলো:
+Click on this eraser sprite and then select **show**.
+
+![screenshot](images/show-eraser.png)
+
+Here is how your Stage should look now:
 
 ![screenshot](images/paint-eraser-stage.png)
 
@@ -43,7 +47,7 @@ erase all
 
 \--- task \---
 
-`'eraser' broadcast`{:class="block3events"} সম্প্রচার পাঠাতে ইরেজার sprite এ কোড যুক্ত করুন, যখন ইরেজার sprite ক্লিক করা হয়।.
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
 ![eraser](images/eraser.png)
 
@@ -54,19 +58,19 @@ broadcast (eraser v)
 
 \--- /task \---
 
-পেন্সিল sprite যখন 'ইরেজার/eraser' বার্তাটি গ্রহণ করবে, তখন এটির costume টি ইরেজারে স্যুইচ করা উচিত এবং পেনের রঙটি সাদাতে পরিবর্তন করা উচিত, যা স্টেজের মতো রঙ!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
 \--- task \---
 
-ইরেজার তৈরি করতে কিছু কোড যুক্ত করুন।.
+Add some code to create the eraser.
 
 \--- hints \--- \--- hint \---
 
-পেন্সিল sprite এ কিছু কোড যুক্ত করুন: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
 
 \--- /hint \--- \--- hint \---
 
-আপনার প্রয়োজনীয় কোড block গুলি এখানে রইল:
+Here are all the blocks you need:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -77,7 +81,7 @@ switch costume to (eraser v)
 
 \--- /hint \--- \--- hint \---
 
-আপনার কোডটি দেখতে এমন হওয়া উচিত:
+Here is what the code should look like:
 
 ![pencil](images/pencil.png)
 
@@ -91,19 +95,19 @@ set pen color to [#FFFFFF]
 
 \--- task \---
 
-আপনি পর্যায়/stage সাফ করতে এবং পেন্সিল লাইনগুলি মুছতে পারেন কিনা তা দেখতে আপনার প্রকল্পটি পরীক্ষা করুন।.
+Test your project to see if you can clear the Stage and erase pencil lines.
 
 ![screenshot](images/paint-erase-test.png)
 
 \--- /task \---
 
-পেন্সিল নিয়ে আরও একটি সমস্যা রয়েছে: আপনি ক্লিয়ার/clear এবং ইরেজার/eraser বোতামগুলির নিকটবর্তী স্টেজের যে কোনও জায়গায় আঁকতে পারেন!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
 ![screenshot](images/paint-draw-problem.png)
 
 \--- task \---
 
-এটি ঠিক করতে কোডটি পরিবর্তন করুন যাতে মাউস ক্লিক করলে তবেই কলমটি নীচে নামে ও **and** ` y ` মাউস পয়েন্টারের অবস্থান `-120` এর চাইতে বেশি হয়:
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
 ![pencil](images/pencil.png)
 
@@ -125,7 +129,7 @@ end
 
 \--- task \---
 
-আপনার প্রজেক্ট পরীক্ষা করুন. আপনি এখন বোতামগুলির কাছাকাছি আঁকতে সক্ষম হবেন না।.
+Test your project. You now should not be able to draw near the buttons.
 
 ![screenshot](images/paint-fixed.png)
 
