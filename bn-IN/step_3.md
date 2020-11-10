@@ -4,7 +4,9 @@
 
 \--- task \---
 
-নামকরণ করুন `pencil` sprite থেকে `pencil-blue`
+Click on the Costumes tab of the 'pencil' sprite.
+
+Rename the `pencil-a` costume to `pencil-blue`
 
 ![rename-pencil](images/rename-pencil.png)
 
@@ -12,7 +14,7 @@
 
 \--- task \---
 
-পেন্সিল sprite এ right click করুন, এবং 'pencil-blue' costume এর প্রতিলিপি করুন।.
+Right click on the pencil-blue costume and select **duplicate**.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
@@ -20,7 +22,7 @@
 
 \--- task \---
 
-নতুন Costume টির নাম দিন 'pencil-green', এবং পেন্সিলটি সবুজ রঙ করুন।.
+Name the new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
@@ -28,7 +30,7 @@
 
 \--- task \---
 
-দুটি নতুন Sprite আঁকুন: একটি blue square এবং একটি green square. এগুলি নীল এবং সবুজ পেন্সিলের মধ্যে চয়ন করার জন্য।.
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
 ![screenshot](images/paint-selectors.png)
 
@@ -36,7 +38,7 @@
 
 \--- task \---
 
-নতুন sprites এর নাম পরিবর্তন করুন যাতে তাদের 'নীল' এবং 'সবুজ' বলা যা
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,7 +46,7 @@
 
 \--- task \---
 
-'সবুজ' sprite এ কিছু কোড যুক্ত করুন যাতে এই sprite টি ক্লিক করা হয়, তখন এটি ` broadcast ` ।: class= "block3events"} বার্তাটি "সবুজ" করে দেবে.
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
 ![green square](images/green_square.png)
 
@@ -57,11 +59,11 @@ broadcast (green v)
 
 \--- /task \---
 
-পেন্সিল sprite "সবুজ" বার্তাটি নিয়ে, প্রতিক্রিয়া স্বরূপ costume এবং পেন্সিলের রঙটি পরিবর্তন করবে।.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
 \--- task \---
 
-পেন্সিল sprite এ চলে যান।. কিছু কোড যুক্ত করুন যাতে এই sprite `green`{:class="block3events"} সম্প্রচার বা broadcast পেলে, এটি সবুজ পেন্সিল costume এ পরিবর্তন করে এবং কলমের রঙকে সবুজ করে তোলে।.
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
 ![pencil](images/pencil.png)
 
@@ -71,15 +73,15 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-পেন্সিলটির রঙ সবুজ করতে, `set pen color`{:class="block3extensions"} ব্লকের রঙিন বর্গে ক্লিক করুন এবং তারপরে সবুজ বর্গাকার sprite ক্লিক করুন।.
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
 \--- /task \---
 
-তারপরে একেই ভাবে আপনি পেন্সিলের রঙটি নীলতে পরিবর্তন করতে পারেন।.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
 \--- task \---
 
-নীল বর্গাকার sprite ক্লিক করুন এবং এই কোডটি যুক্ত করুন:
+Click on the blue square sprite and add this code:
 
 ![blue_square](images/blue_square.png)
 
@@ -88,7 +90,7 @@ when this sprite clicked
 broadcast (blue v)
 ```
 
-তারপরে পেন্সিল sprite ক্লিক করুন এবং এই কোডটি যুক্ত করুন:
+Then click on the pencil sprite and add this code:
 
 ![pencil](images/pencil.png)
 
@@ -102,7 +104,7 @@ set pen color to [#0000ff]
 
 \--- task \---
 
-অবশেষে, কোন রঙটি পেন্সিল sprite এর সাথে শুরু হবে তা জানানোর জন্য এবং আপনার প্রোগ্রামটি শুরু হওয়ার পরে পর্দাটি পরিষ্কার হয় তা নিশ্চিত করার জন্য এই কোডটি যুক্ত করুন।.
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
 ![pencil](images/pencil.png)
 
@@ -122,11 +124,11 @@ end
 
 \--- /task \---
 
-আপনি যদি মনে করেন তবে একটি ভিন্ন রঙের পেন্সিল দিয়ে শুরু করতে পারেন।.
+If you prefer, you can start with a different colour pencil.
 
 \--- task \---
 
-আপনার কোড পরীক্ষা করুন।. আপনি কি নীল বা সবুজ বর্গাকার sprite গুলিতে ক্লিক করে পেন্সিলের রং নীল ও সবুজে পরিবর্তন করতে পারেন?
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
 ![screenshot](images/paint-pens-test.png)
 
