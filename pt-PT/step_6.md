@@ -48,7 +48,7 @@ Agora já podes arrastar a barra deslizante que está por baixo do indicador da 
 
 \--- task \---
 
-Testa o teu projeto e vê se consegues acrescentar código para ajustar a largura da caneta.
+Test your project and see if you can change the pen width.
 
 ![captura de ecrã](images/paint-width-test.png)
 
