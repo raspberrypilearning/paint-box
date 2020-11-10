@@ -48,7 +48,7 @@ Agora você pode arrastar o controle deslizante, que está visível abaixo da va
 
 \--- task \---
 
-Teste seu projeto e veja se você consegue adicionar código para ajustar a largura da caneta.
+Test your project and see if you can change the pen width.
 
 ![captura de tela](images/paint-width-test.png)
 
