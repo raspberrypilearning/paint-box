@@ -47,7 +47,7 @@ Variable এর মান পরিবর্তন করতে আপনি এ
 
 \--- task \---
 
-আপনার প্রকল্পটি পরীক্ষা করুন এবং দেখুন যে আপনি কলমের প্রস্থ সামঞ্জস্য করতে কোড যুক্ত করতে পারেন কিনা।.
+Test your project and see if you can change the pen width.
 
 ![screenshot](images/paint-width-test.png)
 
