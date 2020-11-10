@@ -48,7 +48,7 @@ Ahora puedes arrastrar el deslizador que se ve debajo de la variable para cambia
 
 \--- task \---
 
-Prueba tu programa y mira si puedes añadir código para ajustar el grosor del lápiz.
+Test your project and see if you can change the pen width.
 
 ![captura de pantalla](images/paint-width-test.png)
 
