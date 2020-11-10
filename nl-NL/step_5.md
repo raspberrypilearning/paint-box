@@ -35,7 +35,11 @@ Je project bevat ook een afzonderlijke gumsprite.
 
 \--- task \---
 
-Klik op de gum sprite en klik vervolgens op het oogje naast **Toon** om deze sprite weer te geven. Hier is hoe je speelveld eruit zou moeten zien:
+Click on this eraser sprite and then select **show**.
+
+![screenshot](images/show-eraser.png)
+
+Here is how your Stage should look now:
 
 ![screenshot](images/paint-eraser-stage.png)
 
@@ -43,9 +47,9 @@ Klik op de gum sprite en klik vervolgens op het oogje naast **Toon** om deze spr
 
 \--- task \---
 
-Voeg code toe aan de gum sprite om een `zend signaal`{:class="block3events"} 'gum' te verzenden wanneer op de gum sprite wordt geklikt.
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-![gum](images/eraser.png)
+![eraser](images/eraser.png)
 
 ```blocks3
 wanneer op deze sprite wordt geklikt
@@ -54,19 +58,19 @@ zend signaal (gum v)
 
 \--- /task \---
 
-Wanneer het potlood de "gum"-boodschap ontvangt, zou het potlood uiterlijk in de gum moeten veranderen en de potloodkleur in wit moeten veranderen - dezelfde kleur als de achtergrond van het speelveld!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
 \--- task \---
 
-Voeg een code toe om de gum te maken.
+Add some code to create the eraser.
 
 \--- hints \--- \--- hint \---
 
-Voeg wat code toe aan de potlood sprite: `Wanneer ik als signaal ontvang`{:class="block3events"} het `gum`{:class="block3events"} bericht `Verander uiterlijk naar gum`{:class="block3looks"} `Maak penkleur`{:class="block3extensions"} wit
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
 
 \--- /hint \--- \--- hint \---
 
-Dit zijn alle blokken die je nodig hebt:
+Here are all the blocks you need:
 
 ```blocks3
 maak penkleur [#FFFFFF]
@@ -77,9 +81,9 @@ verander uiterlijk naar (gum v)
 
 \--- /hint \--- \--- hint \---
 
-Dit is hoe je code eruit zou moeten zien:
+Here is what the code should look like:
 
-![potlood](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 wanneer ik signaal [gum v] ontvang
@@ -91,21 +95,21 @@ maak penkleur [#FFFFFF]
 
 \--- task \---
 
-Test je project om te zien of je het speelveld kunt wissen en potloodlijnen kunt wissen.
+Test your project to see if you can clear the Stage and erase pencil lines.
 
 ![screenshot](images/paint-erase-test.png)
 
 \--- /task \---
 
-Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, ook in de buurt van de selectie-pictogrammen voor kleur, wis en gum!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
 ![screenshot](images/paint-draw-problem.png)
 
 \--- task \---
 
-Om dit te verhelpen, wijzig je de code zodat de pen alleen naar beneden is (neer) als je op de muis **klikt** en de `y` positie van de muisaanwijzer groter is dan `-120`:
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![potlood](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -125,7 +129,7 @@ end
 
 \--- task \---
 
-Test je project. Je moet nu niet in staat zijn om te tekenen in de buurt van de knoppen.
+Test your project. You now should not be able to draw near the buttons.
 
 ![screenshot](images/paint-fixed.png)
 
