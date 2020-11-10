@@ -14,7 +14,7 @@ steps:
   - 
     title: Цветные карандаши
   - 
-    title: 'Задача: горячие клавиши'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: Отмена ошибочных действий
