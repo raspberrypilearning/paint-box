@@ -4,7 +4,9 @@ Agora vamos adicionar lápis de cores diferentes ao seu projeto e permitir que o
 
 \--- task \---
 
-Rename the `pencil` sprite to `pencil-blue`
+Click on the Costumes tab of the 'pencil' sprite.
+
+Rename the `pencil-a` costume to `pencil-blue`
 
 ![rename-pencil](images/rename-pencil.png)
 
@@ -12,7 +14,7 @@ Rename the `pencil` sprite to `pencil-blue`
 
 \--- task \---
 
-Right click on the pencil sprite, and duplicate the 'pencil-blue' costume.
+Right click on the pencil-blue costume and select **duplicate**.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
