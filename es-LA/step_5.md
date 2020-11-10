@@ -35,17 +35,21 @@ Tu proyecto también incluye un objeto borrador por separado.
 
 \--- task \---
 
-Haz clic derecho en este objeto borrador y luego haz clic en **mostrar**. Aquí está cómo debería quedar el Escenario ahora:
+Click on this eraser sprite and then select **show**.
 
-![captura de pantalla](images/paint-eraser-stage.png)
+![captura de pantalla](images/show-eraser.png)
+
+Here is how your Stage should look now:
+
+![screenshot](images/paint-eraser-stage.png)
 
 \--- /task \---
 
 \--- task \---
 
-Añade código al objeto borrador para mandar el mensaje `enviar 'borrador'`{:class="block3events"} cuando se haga clic en el objeto borrador.
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-![borrador](images/eraser.png)
+![eraser](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
@@ -54,19 +58,19 @@ broadcast (eraser v)
 
 \--- /task \---
 
-Cuando el objeto lápiz reciba el mensaje 'borrador', ¡debería cambiar su disfraz al de borrador y cambiar el color del marcador a blanco, ¡que es el mismo color que el Escenario!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
 \--- task \---
 
-Añade algo de código para crear el borrador.
+Add some code to create the eraser.
 
 \--- hints \--- \--- hint \---
 
-Añade algo de código al objeto lápiz: `al recibir`{:class="block3events"} el mensaje `borrador`{:class="block3events"} `cambiar disfraz a borrador`{:class="block3looks"} `Fijar color de lápiz`{:class="block3extensions"} a blanco
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
 
 \--- /hint \--- \--- hint \---
 
-Aquí están los bloques que necesitas:
+Here are all the blocks you need:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -77,9 +81,9 @@ switch costume to (eraser v)
 
 \--- /hint \--- \--- hint \---
 
-Así es como debe verse tu código:
+Here is what the code should look like:
 
-![lápiz](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
@@ -91,21 +95,21 @@ set pen color to [#FFFFFF]
 
 \--- task \---
 
-Prueba tu proyecto para ver si puedes borrar en el escenario y limpiarlo del todo.
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-![captura de pantalla](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png)
 
 \--- /task \---
 
-Hay otro problema más con el lápiz: puedes dibujar donde sea en el Escenario, incluyendo el espacio cerca de los botones 'limpiar' y borrar!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![captura de pantalla](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
 \--- task \---
 
-Para arreglar esto, cambia el código de modo que el lápiz esté abajo sólo si se hace clic en el ratón **y** la posición `y` del cursor sea mayor que `-120`:
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![lápiz](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -125,8 +129,8 @@ end
 
 \--- task \---
 
-Prueba tu proyecto. Ahora no deberías ser capaz de dibujar cerca de los botones.
+Test your project. You now should not be able to draw near the buttons.
 
-![captura de pantalla](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png)
 
 \--- /task \---
