@@ -14,7 +14,7 @@ steps:
   - 
     title: Buntstifte
   - 
-    title: 'Zusatzaufgabe: Tastenkürzel'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: Fehler rückgängig machen
