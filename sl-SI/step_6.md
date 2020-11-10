@@ -47,7 +47,7 @@ Zdaj lahko premikaš drsnik pod spremenljivko in s tem spreminjaš vrednost spre
 
 \--- task \---
 
-Preizkusi svoj projekt. Ali lahko dodaš kodo, ki spreminja širino pisala.
+Test your project and see if you can change the pen width.
 
 ![posnetek zaslona](images/paint-width-test.png)
 
