@@ -4,15 +4,17 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 
 \--- task \---
 
-Hernoem de `potlood` sprite naar `potlood-blauw`
+Click on the Costumes tab of the 'pencil' sprite.
 
-![hernoem-potlood](images/rename-pencil.png)
+Rename the `pencil-a` costume to `pencil-blue`
+
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Rechts-klik op de potlood sprite en dupliceer het '-potlood-blauw' uiterlijk.
+Right click on the pencil-blue costume and select **duplicate**.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
@@ -20,7 +22,7 @@ Rechts-klik op de potlood sprite en dupliceer het '-potlood-blauw' uiterlijk.
 
 \--- task \---
 
-Hernoem je nieuwe kostuum 'potlood-groen' en kleur het potlood groen.
+Name the new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
@@ -28,7 +30,7 @@ Hernoem je nieuwe kostuum 'potlood-groen' en kleur het potlood groen.
 
 \--- task \---
 
-Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn bedoeld om te kiezen tussen het blauwe en het groene potlood.
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
 ![screenshot](images/paint-selectors.png)
 
@@ -36,7 +38,7 @@ Teken twee nieuwe sprites - een blauw vierkant en een groen vierkant. Die zijn b
 
 \--- task \---
 
-Hernoem je sprites zodat ze 'blauw' en 'groen' heten
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,9 +46,9 @@ Hernoem je sprites zodat ze 'blauw' en 'groen' heten
 
 \--- task \---
 
-Voeg code toe aan de 'groene' sprite, zodat wanneer op de sprite wordt geklikt het een bericht `zend signaal`{:class="block3events"} "groen" geeft.
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![groen vierkant](images/green_square.png)
+![green square](images/green_square.png)
 
 ```blocks3
 wanneer op deze sprite wordt geklikt
@@ -57,13 +59,13 @@ zend signaal (groen v)
 
 \--- /task \---
 
-De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het uiterlijk en het potlood wijzigen in groen.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
 \--- task \---
 
-Schakel over op je potloodsprite. Voeg wat code toe zodat wanneer deze sprite het `groen` {:class= "block3events"} signaal ontvangt, deze moet overschakelen naar het groene potlooduiterlijk en de potloodkleur moet veranderen in groen.
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![potlood](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 wanneer ik signaal [groen v] ontvang
@@ -71,26 +73,26 @@ verander uiterlijk naar (potlood-groen v)
 maak penkleur [#00CC44]
 ```
 
-Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pen kleur`{:class="block3extensions"} blok, en klik dan op de groene vierkantsprite.
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
 \--- /task \---
 
-Doe vervolgend hetzelfde voor een potlood met de kleur blauw.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
 \--- task \---
 
-Klik op de blauwe vierkantsprite en voeg deze code toe:
+Click on the blue square sprite and add this code:
 
-![blauw_vierkant](images/blue_square.png)
+![blue_square](images/blue_square.png)
 
 ```blocks3
 wanneer op deze sprite wordt geklikt
 zend signaal (blauw v)
 ```
 
-Klik vervolgens op de potlood sprite en voeg deze code toe:
+Then click on the pencil sprite and add this code:
 
-![potlood](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 wanneer ik signaal [blauw v] ontvang
@@ -102,9 +104,9 @@ maak penkleur [#0000ff]
 
 \--- task \---
 
-Voeg ten slotte deze code toe om de sprite van het potlood te vertellen met welke kleur deze moet te beginnen en om ervoor te zorgen dat het scherm leeg is wanneer je programma start.
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![potlood](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -122,11 +124,11 @@ end
 
 \--- /task \---
 
-Als je wilt, kunt je met een ander kleurpotlood beginnen.
+If you prefer, you can start with a different colour pencil.
 
 \--- task \---
 
-Test je code. Kun je schakelen tussen het blauwe en groene potlood door op de blauwe of groene vierkant te klikken?
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
 ![screenshot](images/paint-pens-test.png)
 
