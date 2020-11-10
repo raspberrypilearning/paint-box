@@ -48,7 +48,7 @@ end
 
 \--- task \---
 
-プロジェクトをテストして、ペン幅を調整するコードを追加できたかどうか確認します。
+Test your project and see if you can change the pen width.
 
 ![スクリーンショット](images/paint-width-test.png)
 
