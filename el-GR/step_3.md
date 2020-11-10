@@ -4,39 +4,41 @@
 
 \--- task \---
 
-Μετονόμασε το αντικείμενο `μολύβι` σε`μπλε-μολύβι`
+Click on the Costumes tab of the 'pencil' sprite.
 
-![μετονόμασε το μολύβι](images/rename-pencil.png)
+Rename the `pencil-a` costume to `pencil-blue`
 
-\--- /task \---
-
-\--- task \---
-
-Κάνε δεξί κλικ στο αντικείμενο μολύβι και δημιούργησε ένα αντίγραφο της ενδυμασίας 'μπλε-μολύβι'.
-
-![στιγμιότυπο οθόνης](images/paint-blue-duplicate.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Μετονόμασε τη νέα ενδυμασία σε «πράσινο-μολύβι» και χρωμάτισε το μολύβι πράσινο.
+Right click on the pencil-blue costume and select **duplicate**.
 
-![στιγμιότυπο οθόνης](images/paint-pencil-green.png)
-
-\--- /task \---
-
-\--- task \---
-
-Σχεδίασε δύο νέα αντικείμενα - ένα μπλε τετράγωνο και ένα πράσινο τετράγωνο. Αυτά είναι για την επιλογή μεταξύ του μπλε και του πράσινου μολυβιού.
-
-![στιγμιότυπο οθόνης](images/paint-selectors.png)
+![screenshot](images/paint-blue-duplicate.png)
 
 \--- /task \---
 
 \--- task \---
 
-Μετονόμασε τα αντικείμενά σου έτσι ώστε να ονομάζονται 'μπλε' και 'πράσινο'
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,9 +46,9 @@
 
 \--- task \---
 
-Πρόσθεσε κώδικα στο πράσινο αντικείμενο, έτσι ώστε, όταν κάνεις κλικ σε αυτό τότε να `εκπέμπει`{:class="block3events"} το μήνυμα "πράσινο".
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![πράσινο τετράγωνο](images/green_square.png)
+![green square](images/green_square.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
@@ -57,13 +59,13 @@
 
 \--- /task \---
 
-Το αντικείμενο μολυβιού θα ακούσει το "πράσινο" μήνυμα και θα αλλάξει την ενδυμασία και το χρώμα του μολυβιού ως απόκριση.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
 \--- task \---
 
-Επίλεξε το αντικείμενο μολύβι. Πρόσθεσε κώδικα έτσι ώστε όταν λάβει την εκπομπή `πράσινο`{:class="block3events"}, να αλλάζει στην πράσινη ενδυμασία του και να αλλάζει το χρώμα του σε πράσινο.
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![μολύβι](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 όταν λάβω [πράσινο v]
@@ -71,26 +73,26 @@
 όρισε χρώμα πένας σε [#00CC44]
 ```
 
-Για να ρυθμίσεις το χρώμα μολυβιού στο πράσινο, κάνε κλικ στο έγχρωμο τετράγωνο στο μπλοκ `όρισε το χρώμα της πένας` {: class = "block3extensions"}, και στη συνέχεια κάνε κλικ στο αντικείμενο πράσινου τετραγώνου.
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
 \--- /task \---
 
-Στη συνέχεια, με παρόμοιο τρόπο, μπορείς να αλλάξεις το χρώμα του μολυβιού σε μπλε.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
 \--- task \---
 
-Κάνε κλικ στο αντικείμενο μπλε τετράγωνο και πρόσθεσε αυτόν τον κώδικα:
+Click on the blue square sprite and add this code:
 
-![μπλε_τετράγωνο](images/blue_square.png)
+![blue_square](images/blue_square.png)
 
 ```blocks3
 όταν γίνει κλικ σε αυτό το αντικείμενο
 μετάδωσε (μπλε v)
 ```
 
-Στη συνέχεια κάνε κλικ στο αντικείμενο μολυβιού και πρόσθεσε αυτόν τον κώδικα:
+Then click on the pencil sprite and add this code:
 
-![μολύβι](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 όταν λάβω [μπλε v]
@@ -102,9 +104,9 @@
 
 \--- task \---
 
-Τέλος, πρόσθεσε αυτόν τον κώδικα για να πεις στο αντικείμενο μολύβι με ποιο χρώμα πρέπει να ξεκινά και βεβαιώσου ότι η οθόνη είναι καθαρή όταν το πρόγραμμά σου ξεκινά.
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![μολύβι](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 όταν στην πράσινη σημαία γίνει κλικ
@@ -123,12 +125,12 @@ end
 
 \--- /task \---
 
-Εάν προτιμάς, μπορείς να ξεκινήσεις με ένα διαφορετικό χρωματιστό μολύβι.
+If you prefer, you can start with a different colour pencil.
 
 \--- task \---
 
-Δοκίμασε τον κώδικά σου. Μπορείς να αλλάζεις ανάμεσα στο μπλε και το πράσινο μολύβι κάνοντας κλικ στο μπλε ή το πράσινο τετράγωνο αντικείμενο;
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![στιγμιότυπο οθόνης](images/paint-pens-test.png)
+![screenshot](images/paint-pens-test.png)
 
 \--- /task \---
