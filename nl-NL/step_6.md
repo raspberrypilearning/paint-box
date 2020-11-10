@@ -47,7 +47,7 @@ Je kunt nu de schuifregelaar onder de variabele verslepen om de waarde te wijzig
 
 \--- task \---
 
-Test je project en kijk of je de penbreedte kunt aanpassen.
+Test your project and see if you can change the pen width.
 
 ![screenshot](images/paint-width-test.png)
 
