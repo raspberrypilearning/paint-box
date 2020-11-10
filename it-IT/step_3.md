@@ -4,15 +4,17 @@ Ora aggiungerai al tuo progetto matite di diversi colori e consentirai all'utent
 
 \--- task \---
 
-Rinomina lo sprite `matita` in `matita-blu`
+Click on the Costumes tab of the 'pencil' sprite.
 
-![rinomina-matita](images/rename-pencil.png)
+Rename the `pencil-a` costume to `pencil-blue`
+
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Fai clic con il tasto destro del mouse sullo sprite della matita e duplica il costume "matita-blu".
+Right click on the pencil-blue costume and select **duplicate**.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
@@ -20,7 +22,7 @@ Fai clic con il tasto destro del mouse sullo sprite della matita e duplica il co
 
 \--- task \---
 
-Riomina il nuovo costume 'matita-verde' e colora la matita di verde.
+Name the new costume 'pencil-green', and colour the pencil green.
 
 ![screenshot](images/paint-pencil-green.png)
 
@@ -28,7 +30,7 @@ Riomina il nuovo costume 'matita-verde' e colora la matita di verde.
 
 \--- task \---
 
-Crea due nuovi sprite: un quadrato blu e un quadrato verde. Questi sono per scegliere tra la matita blu e verde.
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
 
 ![screenshot](images/paint-selectors.png)
 
@@ -36,7 +38,7 @@ Crea due nuovi sprite: un quadrato blu e un quadrato verde. Questi sono per sceg
 
 \--- task \---
 
-Rinominare i nuovi sprite in modo che si chiamino 'blu' e 'verde'
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,9 +46,9 @@ Rinominare i nuovi sprite in modo che si chiamino 'blu' e 'verde'
 
 \--- task \---
 
-Aggiungi un po' di codice allo sprite "verde" in modo che, quando questo sprite viene cliccato, `invii il messaggio`{:class="block3events"} "verde".
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![quadrato verde](images/green_square.png)
+![green square](images/green_square.png)
 
 ```blocks3
 quando si clicca questo sprite
@@ -57,13 +59,13 @@ invia a tutti (verde v)
 
 \--- /task \---
 
-Lo sprite della matita dovrebbe sentire il messaggio "verde" e cambiare il proprio costume e colore in risposta.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
 \--- task \---
 
-Cambia sprite. Aggiungi del codice in modo che, quando questo sprite riceve il messaggio `verde`{:class="block3events"}, passi al costume della matita verde e cambi il colore della penna in verde.
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![matita](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [verde v]
@@ -71,26 +73,26 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-Per impostare la matita da colorare in verde, fai clic sul quadratino colorato nel blocco `porta colore penna a`{: class = "block3extensions"}, quindi fai clic sullo sprite quadrato verde.
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
 \--- /task \---
 
-Quindi procedi in modo simile per cambiare il colore della matita in blu.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
 \--- task \---
 
-Clicca sullo sprite quadrato blu e aggiungi questo codice:
+Click on the blue square sprite and add this code:
 
-![quadrato_blu](images/blue_square.png)
+![blue_square](images/blue_square.png)
 
 ```blocks3
 quando si clicca questo sprite
 invia a tutti (blu v)
 ```
 
-Quindi fare clic sullo sprite matita e aggiungere questo codice:
+Then click on the pencil sprite and add this code:
 
-![matita](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 quando ricevo [blu v]
@@ -102,9 +104,9 @@ porta colore penna a [#0000ff]
 
 \--- task \---
 
-Infine, aggiungi questo codice per dire allo sprite della matita con quale colore iniziare e per assicurarti che lo schermo sia pulito all'avvio del programma.
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![matita](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -123,12 +125,12 @@ end
 
 \--- /task \---
 
-Se preferisci, puoi iniziare con una matita di colore diverso.
+If you prefer, you can start with a different colour pencil.
 
 \--- task \---
 
-Prova di nuovo il tuo codice. Riesci a cambiare colore alla matita facendo clic sugli sprite quadrato blu o verde?
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![schermata](images/paint-pens-test.png)
+![screenshot](images/paint-pens-test.png)
 
 \--- /task \---
