@@ -47,7 +47,7 @@ You can now drag the slider that is visible below the variable to change the var
 
 \--- task \---
 
-Test your project and see if you can add code to adjust the pen width.
+Test your project and see if you can change the pen width.
 
 ![screenshot](images/paint-width-test.png)
 
