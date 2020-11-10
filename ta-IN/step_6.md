@@ -47,7 +47,7 @@ end
 
 \--- / பணி \---
 
-உங்கள் திட்டத்தை சோதித்து, பேனா அகலத்தை சரிசெய்ய குறியீட்டைச் சேர்க்க முடியுமா என்று பாருங்கள்.
+Test your project and see if you can change the pen width.
 
 ![திரைப்பிடிப்பு](படங்கள்/paint-width-test.png)
 
