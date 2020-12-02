@@ -43,11 +43,11 @@ title: O que você vai precisar
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ou [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ou [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Projeto inicial offline](http://rpf.io/p/pt-BR/paint-box-go){:target="_blank"}
++ [Projeto inicial offline](https://rpf.io/p/pt-BR/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -58,4 +58,4 @@ title: Informações adicionais para educadores
 
 Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/pt-BR/projects/paint-box/print){:target="_blank"}.
 
-Você pode encontrar o [projeto concluído aqui](http://rpf.io/p/pt-BR/paint-box-get){:target="_blank"}. --- /collapse ---
+Você pode encontrar o [projeto concluído aqui](https://rpf.io/p/pt-BR/paint-box-get){:target="_blank"}. --- /collapse ---

@@ -49,11 +49,11 @@ title: Kaj potrebuješ?
 
 ### Programska oprema
 
-+ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon){:target="_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon){:target="_blank"} ali [brez povezave](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Prenosi
 
-+ [Začetni projekt brez povezave](http://rpf.io/p/sl-SI/paint-box-go){:target="_ blank"}
++ [Začetni projekt brez povezave](https://rpf.io/p/sl-SI/paint-box-go){:target="_ blank"}
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: Dodatne informacije za izobraževalce
 ---
 Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/sl-SI/projects/paint-box/print){:target="_blank"}.
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/paint-box-get).
+Zaključen projekt lahko najdete [tukaj](https://rpf.io/p/sl-SI/paint-box-get).
 
 --- /collapse ---

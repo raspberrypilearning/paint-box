@@ -49,7 +49,7 @@ title: 俱乐部领导备注
 + 关系运算符和布尔运算符 (`>`{:class="blockoperators"} 和 `与`{:class="blockoperators"})；
 + 在子图之间进行广播。
 
-本项目包括 [Raspberry Pi 数字制作课程](http://rpf.io/curriculum) 以下几个部分的元素：
+本项目包括 [Raspberry Pi 数字制作课程](https://rpf.io/curriculum) 以下几个部分的元素：
 
 + [结合编程结构解决问题。](https://www.raspberrypi.org/curriculum/programming/builder)
 
