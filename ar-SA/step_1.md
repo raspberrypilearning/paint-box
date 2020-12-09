@@ -43,11 +43,11 @@ title: ما ستحتاج إليه
 
 ### البرامج
 
-+ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
++ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
 
 ### للتحميل
 
-+ [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/ar-SA/paint-box-go){:target="_blank"}
++ [للبدء بالمشروع دون الاتصال بالانترنت](https://rpf.io/p/ar-SA/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -58,4 +58,4 @@ title: معلومات إضافية للمعلمين
 
 إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/ar-SA/projects/paint-box/print){:target="_blank"}.
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/ar-SA/paint-box-get){:target="_blank"}. --- /collapse ---
+يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/ar-SA/paint-box-get){:target="_blank"}. --- /collapse ---

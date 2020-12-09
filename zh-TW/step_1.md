@@ -49,11 +49,11 @@ title: 你會用到
 
 ### 軟體
 
-+ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
++ Scratch 3（[線上版](https://rpf.io/scratchon){:target="_blank"} 或 [離線版](https://rpf.io/scratchoff){:target="_blank"}）
 
 ### 下載
 
-+ 材料包可[由此下載](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ 材料包可[由此下載](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: 給教師的其它資訊
 ---
 如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/zh-TW/projects/paint-box/print){:target="_blank"}。
 
-你可以在這裡找到[已經完成的專案](http://rpf.io/p/zh-TW/paint-box-get){:target="_blank"}。
+你可以在這裡找到[已經完成的專案](https://rpf.io/p/zh-TW/paint-box-get){:target="_blank"}。
 
 --- /collapse ---

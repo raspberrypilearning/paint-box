@@ -41,11 +41,11 @@ title: Beth fydd ei angen arno ti
 
 ### Meddalwedd
 
-+ Scratch 3 (unai [arlein](http://rpf.io/scratchon){:target="_blank"} neu [all-lein](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-lein](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Lawrlwythiadau
 
-+ [ Prosiect cychwyn all-lein ](http://rpf.io/p/cy-GB/paint-box-go){:target="_blank"}
++ [ Prosiect cychwyn all-lein ](https://rpf.io/p/cy-GB/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -55,4 +55,4 @@ title: Gwybodaeth ychwanegol i addysgwyr
 ---
 Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/paint-box/print){:target="_blank"}.
 
-Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/cy-GB/paint-box-get){:target="_blank"}. --- /collapse ---
+Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](https://rpf.io/p/cy-GB/paint-box-get){:target="_blank"}. --- /collapse ---

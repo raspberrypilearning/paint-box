@@ -49,11 +49,11 @@ title: Що тобі знадобиться
 
 ### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](https://rpf.io/scratchon){:target="_blank"}, або [офлайн](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-+ [Початковий офлайн-проєкт](http://rpf.io/p/uk-UA/paint-box-go){:target="_blank"}
++ [Початковий офлайн-проєкт](https://rpf.io/p/uk-UA/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: Додаткова інформація для викладачів
 ---
 Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/uk-UA/projects/paint-box/print){:target="_blank"}.
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/uk-UA/paint-box-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](https://rpf.io/p/uk-UA/paint-box-get){:target="_blank"}.
 
 --- /collapse ---

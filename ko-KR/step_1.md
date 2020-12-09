@@ -44,11 +44,11 @@ title: 준비물
 
 ### 소프트웨어
 
-+ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_blank"})
++ 스크래치 3 ( [온라인](https://rpf.io/scratchon){:target="_blank"} 또는 [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 다운로드
 
-+ [오프라인 스타터 프로젝트](http://rpf.io/p/ko-KR/paint-box-go){:target="_blank"}
++ [오프라인 스타터 프로젝트](https://rpf.io/p/ko-KR/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -59,5 +59,5 @@ title: 교육자를 위한 추가 정보
 
 이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/ko-KR/projects/paint-box/print){:target="_blank"}을 사용해 주십시오.
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/paint-box-get){:target="_blank"}. 
+여기서 [완료된 프로젝트를 확인할 수 있습니다](https://rpf.io/p/ko-KR/paint-box-get){:target="_blank"}. 
 --- /collapse ---
