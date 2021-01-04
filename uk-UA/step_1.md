@@ -49,11 +49,11 @@
 
 ### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_ blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-+ [Початковий офлайн-проєкт](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
