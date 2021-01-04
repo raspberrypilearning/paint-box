@@ -35,17 +35,21 @@
 
 \--- task \---
 
-選取「擦除」這個角色，然後把它從隱藏切換成**顯示**。 這樣一來，舞台上就會看到這個角色了：
+Click on this eraser sprite and then select **show**.
 
-![截圖](images/paint-eraser-stage.png)
+![截圖](images/show-eraser.png)
+
+Here is how your Stage should look now:
+
+![screenshot](images/paint-eraser-stage.png)
 
 \--- /task \---
 
 \--- task \---
 
-為「擦除」這個角色編程，讓它在被點擊時發送一個`換成橡皮擦`{:class="block3events"}的廣播訊息。
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-![橡皮擦](images/eraser.png)
+![eraser](images/eraser.png)
 
 ```blocks3
 當角色被點擊
@@ -54,19 +58,19 @@
 
 \--- /task \---
 
-當鉛筆收到了「換成橡皮擦」的訊息後，它應該要把造型改變成橡皮擦的樣子，而且筆跡的顏色變成和舞台背景相同的顏色，也就是白色，這樣在使用時就會有擦除的效果了！
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
 \--- task \---
 
-編寫一個橡皮擦效果的程式。
+Add some code to create the eraser.
 
 \--- hints \--- \--- hint \---
 
-在鉛筆角色裡添加一些程式： `當收到訊息`{:class="block3events"}`換成橡皮擦`{:class="block3events"} `造型換成鉛筆-橡皮擦`{:class="block3looks"} `筆跡顏色設為`{:class="block3extensions"}白色
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
 
 \--- /hint \--- \--- hint \---
 
-這裡是你需要的程式積木：
+Here are all the blocks you need:
 
 ```blocks3
 筆跡顏色設為 [#ffffff]
@@ -77,9 +81,9 @@
 
 \--- /hint \--- \--- hint \---
 
-你的程式看起來應該像這樣：
+Here is what the code should look like:
 
-![鉛筆](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 當收到訊息 (換成橡皮擦 v)
@@ -91,21 +95,21 @@
 
 \--- task \---
 
-測試你的專案，看看這個程式是否可以有擦除舞台上筆跡的效果。
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-![截圖](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png)
 
 \--- /task \---
 
-鉛筆的部分還有一個問題：你可以在舞台的任何地方畫圖，包含「清空」和「擦除」按鈕兩個區塊！
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![截圖](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
 \--- task \---
 
-要修復這個錯誤的方式，就是修改可以畫畫的程式，除了滑鼠左鍵按住之外，**同時**滑鼠游標的 `y` 座標必須要大於 `-120`：
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![鉛筆](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 當 @greenflag 被點擊
@@ -125,8 +129,8 @@ end
 
 \--- task \---
 
-測試你的專案。 現在你應該沒有辦法在按鈕附近畫畫了。
+Test your project. You now should not be able to draw near the buttons.
 
-![截圖](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png)
 
 \--- /task \---
