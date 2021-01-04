@@ -35,17 +35,21 @@ erase all
 
 \--- task \---
 
-इस eraser स्प्राइट पर राइट-क्लिक करें और फिर **show(दिखाइये)** पर क्लिक करें। यहां बताया गया है कि आपका स्टेज अब कैसा दिखना चाहिए:
+Click on this eraser sprite and then select **show**.
 
-![स्क्रीनशॉट](images/paint-eraser-stage.png)
+![स्क्रीनशॉट](images/show-eraser.png)
+
+Here is how your Stage should look now:
+
+![screenshot](images/paint-eraser-stage.png)
 
 \--- /task \---
 
 \--- task \---
 
-Eraser स्प्राइट में `'eraser' broadcast`{:class="block3events"} भेजने के लिए कोड जोड़ें ताकि जब eraser स्प्राइट पर क्लिक किया जाता है तब यह कोड चले।
+Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
 
-![रबड़](images/eraser.png)
+![eraser](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
@@ -54,19 +58,19 @@ broadcast (eraser v)
 
 \--- /task \---
 
-जब पेंसिल स्प्राइट से 'eraser' संदेश प्राप्त होता है, तो उसे अपनी कॉस्ट्यूम को eraser में बदलना चाहिए और पेन के रंग को सफेद रंग में बदलना चाहिए, जो कि स्टेज का ही रंग है!
+When the pencil sprite receives the 'eraser' message, it should switch its costume to the eraser and switch the pen colour to white, which is the same colour as the Stage!
 
 \--- task \---
 
-रबड़ बनाने के लिए कुछ कोड जोड़ें
+Add some code to create the eraser.
 
 \--- hints \--- \--- hint \---
 
-Pencil स्प्राइट में कुछ कोड जोड़ें: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
 
 \--- /hint \--- \--- hint \---
 
-यहां वे सभी ब्लॉक हैं जिनकी आपको आवश्यकता है:
+Here are all the blocks you need:
 
 ```blocks3
 set pen color to [#FFFFFF]
@@ -77,9 +81,9 @@ switch costume to (eraser v)
 
 \--- /hint \--- \--- hint \---
 
-आपका कोड ऐसा दिखना चाहिए:
+Here is what the code should look like:
 
-![पेंसिल](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [eraser v]
@@ -91,21 +95,21 @@ set pen color to [#FFFFFF]
 
 \--- task \---
 
-आपके प्रोजेक्ट का निरीक्षण करें यह देखने के लिए कि क्या आप स्टेज को खाली कर सकते हैं और पेंसिल लाइनों को मिटा सकते हैं।
+Test your project to see if you can clear the Stage and erase pencil lines.
 
-![स्क्रीनशॉट](images/paint-erase-test.png)
+![screenshot](images/paint-erase-test.png)
 
 \--- /task \---
 
-पेंसिल में एक और समस्या है – आप स्टेज पर कहीं भी चित्र बना सकते हैं, clear और eraser बटनों पर भी!
+There's one more problem with the pencil: you can draw anywhere on the Stage, including near the 'clear' and eraser buttons!
 
-![स्क्रीनशॉट](images/paint-draw-problem.png)
+![screenshot](images/paint-draw-problem.png)
 
 \--- task \---
 
-इसे ठीक करने के लिए, कोड को बदलें ताकि पेन केवल नीचे हो अगर माउस को क्लिक किया गया है ** और(and)** `y` माउस पॉइंटर की स्थिति ` -120` से अधिक हों।
+To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
 
-![पेंसिल](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -125,8 +129,8 @@ end
 
 \--- task \---
 
-अपने प्रोजेक्ट का परीक्षण करें। अब आप बटनों के पास ड्रा नही कर पाएंगे।
+Test your project. You now should not be able to draw near the buttons.
 
-![स्क्रीनशॉट](images/paint-fixed.png)
+![screenshot](images/paint-fixed.png)
 
 \--- /task \---
