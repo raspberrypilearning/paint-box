@@ -49,11 +49,11 @@
 
 ### ソフトウェア
 
-+ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ダウンロード
 
-+ [オフラインスタータープロジェクト](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 このプロジェクトを印刷する必要がある場合は[印刷用バージョン](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}を使用してください。
 
-[ここで完成したプロジェクト](http://rpf.io/p/en/paint-box-get){:target="_blank"}を見ることができます 。
+You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
