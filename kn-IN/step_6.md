@@ -1,10 +1,10 @@
-## Change the pen width
+## ಲೇಖನಿ ಅಗಲವನ್ನು ಬದಲಾಯಿಸಿ
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+ಮುಂದೆ ನೀವು ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ಬಳಸುವ ವ್ಯಕ್ತಿಗೆ ವಿಭಿನ್ನ ಲೇಖನಿ ಅಗಲಗಳನ್ನು ಸೆಳೆಯಲು ಅನುಮತಿಸಲು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸುತ್ತೀರಿ.
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+ಮೊದಲಿಗೆ, `width`{:class="block3variables"} ಎಂಬ ಹೊಸ ವೇರಿಯಬಲ್(variable) ಅನ್ನು ಸೇರಿಸಿ.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+ಪೆನ್ಸಿಲ್ ಸ್ಪ್ರೈಟ್‌ನ ಕೋಡ್‌ನ `forever`{:class="block3control"} ಲೂಪ್ **inside** ಈ ಸಾಲನ್ನು ಸೇರಿಸಿ:
 
 ```blocks3
 when flag clicked
@@ -31,23 +31,23 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+ಲೇಖನಿ ಅಗಲವು ಈಗ ಮತ್ತೆ ಮತ್ತೆ `width`{:class="block3variables"} ವೇರಿಯೇಬಲ್ ಮೌಲ್ಯಕ್ಕೆ ಹೊಂದಿಸಲ್ಪಡುತ್ತದೆ.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+ಹಂತದಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾದ `width`{:class="block3variables"} ವೇರಿಯೇಬಲ್ ಮೇಲೆ ಬಲ ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ **slider** ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 ![screenshot](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+ವೇರಿಯೇಬಲ್ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಲು ನೀವು ಈಗ ವೇರಿಯೇಬಲ್ ಕೆಳಗೆ ಗೋಚರಿಸುವ ಸ್ಲೈಡರ್ ಅನ್ನು ಎಳೆಯಬಹುದು.
 
 ![screenshot](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can change the pen width.
+ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ನೀವು ಲೇಖನಿ ಅಗಲವನ್ನು ಬದಲಾಯಿಸಬಹುದೇ ಎಂದು ನೋಡಿ.
 
 ![screenshot](images/paint-width-test.png)
 
