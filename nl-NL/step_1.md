@@ -49,11 +49,11 @@ Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te 
 
 ### Software
 
-+ Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:Target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [ Offline startproject ](http://rpf.io/p/en/paint-box-go){:target="_ blank"}
++ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@ Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te 
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/paint-box/print) {:target="_ blank"}.
 
-Je kunt het [voltooide project hier](http://rpf.io/p/en/paint-box-get)"{:target="_blank"} vinden.
+You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
