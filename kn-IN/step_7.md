@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## ಸವಾಲು: ಕೀಬೋರ್ಡ್ ಆಜ್ಞೆಗಳು(commands)
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+ನೀವು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಬಹುದೇ, ಆದ್ದರಿಂದ ಹಂತದ ಬಣ್ಣದ ಚೌಕಗಳು ಅಥವಾ ಗುಂಡಿಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವ ಬದಲು, ಕೀಬೋರ್ಡ್ ಕೀಲಿಗಳನ್ನು ಒತ್ತುವ ಮೂಲಕ ನೀವು ವಿಷಯಗಳನ್ನು ಆಗುವಂತೆ ಮಾಡಬಹುದು? ಉದಾಹರಣೆಗೆ:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = ನೀಲಿ ಪೆನ್ಸಿಲ್ಗೆ ಬದಲಿಸಿ
++ <kbd>g</kbd> = ಹಸಿರು ಪೆನ್ಸಿಲ್ಗೆ ಬದಲಾಯಿಸಿ
++ <kbd>e</kbd> = ಎರೇಸರ್‌ಗೆ ಬದಲಾಯಿಸಿ
++ <kbd>c</kbd> = ಸ್ಪಷ್ಟ ಪರದೆಯ
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+ನೀವು ಬಯಸಿದರೆ, ನೀವು ಕೋಡ್ ಅನ್ನು ಸಹ ಸೇರಿಸಬಹುದು ಇದರಿಂದ ಬಾಣದ ಕೀಲಿಗಳನ್ನು(arrow keys) ಒತ್ತುವುದರಿಂದ ಲೇಖನಿ ಅಗಲವನ್ನು ಬದಲಾಯಿಸಬಹುದು.
