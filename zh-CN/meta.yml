@@ -14,7 +14,7 @@ steps:
   - 
     title: 彩色铅笔
   - 
-    title: '挑战: 快捷方式'
+    title: 'Challenge: more pencils'
     challenge: true
   - 
     title: 撤消错误
