@@ -4,39 +4,41 @@
 
 \--- task \---
 
-Перейменуй образ `олівець` на `олівець-синій`
+Click on the Costumes tab of the 'pencil' sprite.
 
-![перейменування олівця](images/rename-pencil.png)
+Rename the `pencil-a` costume to `pencil-blue`
 
-\--- /task \---
-
-\--- task \---
-
-Клацни правою кнопкою мишки на образ олівця "олівець-синій" і продублюй його.
-
-![знімок екрана](images/paint-blue-duplicate.png)
+![rename-pencil](images/rename-pencil.png)
 
 \--- /task \---
 
 \--- task \---
 
-Назви новий образ "олівець-зелений" і зафарбуй олівець в зелений колір.
+Right click on the pencil-blue costume and select **duplicate**.
 
-![знімок екрана](images/paint-pencil-green.png)
-
-\--- /task \---
-
-\--- task \---
-
-Намалюй два нових спрайти: один синій квадрат і один зелений. Вони будуть потрібні для вибору між синім та зеленим олівцями.
-
-![знімок екрана](images/paint-selectors.png)
+![screenshot](images/paint-blue-duplicate.png)
 
 \--- /task \---
 
 \--- task \---
 
-Перейменуй нові спрайти так, щоб вони називалися "синій" і "зелений"
+Name the new costume 'pencil-green', and colour the pencil green.
+
+![screenshot](images/paint-pencil-green.png)
+
+\--- /task \---
+
+\--- task \---
+
+Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+
+![screenshot](images/paint-selectors.png)
+
+\--- /task \---
+
+\--- task \---
+
+Rename the new sprites so that they are called 'blue' and 'green'
 
 [[[generic-scratch3-rename-sprite]]]
 
@@ -44,9 +46,9 @@
 
 \--- task \---
 
-Додай код до спрайта "зелений", щоб коли на нього натискають, він `оповіщував`{:class="block3events"} повідомленням "зелений".
+Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
 
-![зелений квадрат](images/green_square.png)
+![green square](images/green_square.png)
 
 ```blocks3
 when this sprite clicked
@@ -57,13 +59,13 @@ broadcast (green v)
 
 \--- /task \---
 
-Олівець має чекати на повідомлення "зелений" і змінювати свій образ та колір у відповідь.
+The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
 
 \--- task \---
 
-Перемкнися на свій спрайт олівця. Додай код, щоб коли цей спрайт отримував `повідомлення`{:class="block3events"} "зелений", він перемикався на образ зеленого олівця і змінював колір малювання на зелений.
+Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
 
-![олівець](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [green v]
@@ -71,26 +73,26 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-Щоб зелений став кольором малювання, клацни на зафарбований квадрат в блоці `надати олівцю колір`{:class="block3extensions"}, далі клацни піпетку, а потім — на зелений квадратний спрайт.
+To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
 
 \--- /task \---
 
-Далі виконай аналогічні дії, щоб перемикати колір олівця на синій.
+Then to a similar thing so that you can switch the pencil colour to blue.
 
 \--- task \---
 
-Клацни на спрайт синього квадрата і додай цей код:
+Click on the blue square sprite and add this code:
 
-![синій квадрат](images/blue_square.png)
+![blue_square](images/blue_square.png)
 
 ```blocks3
 when this sprite clicked
 broadcast (blue v)
 ```
 
-Далі клацни на спрайт олівця і додай цей код:
+Then click on the pencil sprite and add this code:
 
-![олівець](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when I receive [blue v]
@@ -102,9 +104,9 @@ set pen color to [#0000ff]
 
 \--- task \---
 
-Нарешті, додай наступний код, щоб задати початковий колір олівця і переконатися в тому, що екран чистий, коли програма запускається.
+Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
 
-![олівець](images/pencil.png)
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -122,12 +124,12 @@ end
 
 \--- /task \---
 
-Якщо хочеш, можеш починати з іншим кольором олівця.
+If you prefer, you can start with a different colour pencil.
 
 \--- task \---
 
-Перевір свій код. Чи можеш ти перемикатися між синім та зеленим олівцями, клацаючи на спрайти синього та зеленого квадратів?
+Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
-![знімок екрана](images/paint-pens-test.png)
+![screenshot](images/paint-pens-test.png)
 
 \--- /task \---
