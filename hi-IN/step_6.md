@@ -47,7 +47,7 @@ end
 
 \--- task \---
 
-अपनी प्रोजेक्ट का परीक्षण करें और देखें कि क्या आप पेन की चौड़ाई को बदलने के लिए कोड जोड़ सकते हैं।
+Test your project and see if you can change the pen width.
 
 ![स्क्रीनशॉट](images/paint-width-test.png)
 
