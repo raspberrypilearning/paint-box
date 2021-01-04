@@ -49,11 +49,11 @@ Zaženi program s klikom na zeleno zastavico in uporabi miško za premikanje svi
 
 ### Programska oprema
 
-+ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Prenosi
 
-+ [Začetni projekt brez povezave](http://rpf.io/p/en/paint-box-go){: target = "_ blank"}
++ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@ Zaženi program s klikom na zeleno zastavico in uporabi miško za premikanje svi
 
 Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/paint-box-get)"}.
+You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
