@@ -47,7 +47,7 @@ You can now drag the slider that is visible below the variable to change the var
 
 \--- task \---
 
-测试你的项目，看看你是否可以添加代码来调整笔的宽度。
+Test your project and see if you can change the pen width.
 
 ![screenshot](images/paint-width-test.png)
 
