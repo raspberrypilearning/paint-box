@@ -47,7 +47,7 @@ end
 
 \--- task \---
 
-測試你的專案，試試看你能不能修改筆跡的寬度。
+Test your project and see if you can change the pen width.
 
 ![截圖](images/paint-width-test.png)
 
