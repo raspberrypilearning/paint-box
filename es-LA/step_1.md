@@ -49,11 +49,11 @@ Para comenzar, harás clic en la bandera verde y usarás el ratón para mover el
 
 ### Programa
 
-+ Scratch 3 (ya sea [con Internet](http://rpf.io/scratchon){:target="_blank"} o [sin Internet](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
-+ [Iniciar proyecto sin Internet](http://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@ Para comenzar, harás clic en la bandera verde y usarás el ratón para mover el
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Puedes encontrar el [ proyecto completo aquí ](http://rpf.io/p/en/paint-box-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
