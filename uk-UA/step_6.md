@@ -47,7 +47,7 @@ end
 
 \--- task \---
 
-Протестуй свій код і перевір, чи можеш ти змінювати товщину ліній.
+Test your project and see if you can change the pen width.
 
 ![знімок екрана](images/paint-width-test.png)
 
