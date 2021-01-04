@@ -1,7 +1,7 @@
-## Challenge: more pencils
+## ಸವಾಲು: ಹೆಚ್ಚು ಸೀಸಕಡ್ಡಿ‌ಗಳು
 
-Can you add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+ನಿಮ್ಮ ಬಣ್ಣದ ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ನೀವು ಕೆಂಪು, ಹಳದಿ ಮತ್ತು ಕಪ್ಪು ಸೀಸಕಡ್ಡಿ‌ಗಳನ್ನು ಸೇರಿಸಬಹುದೇ? ಇದನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂಬುದರ ಜ್ಞಾಪನೆ ನಿಮಗೆ ಬೇಕಾದರೆ ಹಿಂದಿನ ಹಂತಗಳನ್ನು ನೋಡೋಣ.
 
-Can you use your pencils to draw a picture?
+ಚಿತ್ರವನ್ನು ಸೆಳೆಯಲು ನಿಮ್ಮ ಸೀಸಕಡ್ಡಿ‌ಗಳನ್ನು ಬಳಸಬಹುದೇ?
 
 ![screenshot](images/paint-final.png)
