@@ -1,52 +1,52 @@
-## Coloured pencils
+## ಬಣ್ಣದ ಸೀಸಕಡ್ಡಿ‌ಗಳು
 
-Now you're going to add different coloured pencils to your project and allow the user to choose between them.
+ಈಗ ನೀವು ನಿಮ್ಮ ಯೋಜನೆಗೆ ವಿಭಿನ್ನ ಬಣ್ಣದ ಸೀಸಕಡ್ಡಿ‌ಗಳನ್ನು ಸೇರಿಸಲು ಹೊರಟಿದ್ದೀರಿ ಮತ್ತು ಅವುಗಳ ನಡುವೆ ಆಯ್ಕೆ ಮಾಡಲು ಬಳಕೆದಾರರಿಗೆ ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತೀರಿ.
 
 \--- task \---
 
-Click on the Costumes tab of the 'pencil' sprite.
+'ಸೀಸಕಡ್ಡಿ' sprite ‌ನ ವೇಷಭೂಷಣಗಳ ಟ್ಯಾಬ್ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-Rename the `pencil-a` costume to `pencil-blue`
+`pencil-a` ಉಡುಪನ್ನು `pencil-blue` ಎಂದು ಮರುಹೆಸರಿಸಿ
 
 ![rename-pencil](images/rename-pencil.png)
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Right click on the pencil-blue costume and select **duplicate**.
+ಪೆನ್ಸಿಲ್-ಬ್ಲೂ ಉಡುಪಿನ ಮೇಲೆ ಬಲ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು **duplicate** ಆಯ್ಕೆಮಾಡಿ.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Name the new costume 'pencil-green', and colour the pencil green.
+ಹೊಸ ಉಡುಪಿಗೆ 'pencil-blue' ಎಂದು ಹೆಸರಿಸಿ, ಮತ್ತು ಸೀಸಕಡ್ಡಿ ಹಸಿರು ಬಣ್ಣ ಮಾಡಿ.
 
 ![screenshot](images/paint-pencil-green.png)
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
+ಎರಡು ಹೊಸ sprite ಗಳನ್ನು ರಚಿಸಿ: ಒಂದು ನೀಲಿ ಚೌಕ ಮತ್ತು ಒಂದು ಹಸಿರು ಚೌಕ. ನೀಲಿ ಮತ್ತು ಹಸಿರು ಸೀಸಕಡ್ಡಿ ನಡುವೆ ಆಯ್ಕೆ ಮಾಡಲು ಇವು.
 
 ![screenshot](images/paint-selectors.png)
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Rename the new sprites so that they are called 'blue' and 'green'
+ಹೊಸ sprite ‌ಗಳನ್ನು ಮರುಹೆಸರಿಸಿ ಇದರಿಂದ ಅವುಗಳನ್ನು 'blue' ಮತ್ತು 'green' ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ
 
 [[[generic-scratch3-rename-sprite]]]
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Add some code to the 'green' sprite so that when this sprite is clicked, it `broadcasts`{:class="block3events"} the message "green".
+'ಹಸಿರು' sprite ಗೆ ಕೆಲವು ಕೋಡ್ ಸೇರಿಸಿ ಆದ್ದರಿಂದ ಈ sprite ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಅದು "green" ಎಂಬ ಸಂದೇಶವನ್ನು `broadcasts`{:class="block3events"} ಮಾಡುತ್ತದೆ.
 
 ![green square](images/green_square.png)
 
@@ -57,13 +57,13 @@ broadcast (green v)
 
 [[[generic-scratch3-broadcast-message]]]
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+ಸೀಸಕಡ್ಡಿ sprite "ಹಸಿರು" ಸಂದೇಶವನ್ನು ಆಲಿಸಬೇಕು ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಯಾಗಿ ಅದರ ವೇಷಭೂಷಣ ಮತ್ತು ಸೀಸಕಡ್ಡಿ ಬಣ್ಣವನ್ನು ಬದಲಾಯಿಸಬೇಕು.
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Switch to your pencil sprite. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+ನಿಮ್ಮ ಸೀಸಕಡ್ಡಿsprite ಗೆ ಬದಲಿಸಿ. ಕೆಲವು ಕೋಡ್ ಸೇರಿಸಿ ಆದ್ದರಿಂದ ಈ ಸ್ಪ್ರೈಟ್ `green`{:class="block3events"} ಪ್ರಸಾರವನ್ನು ಪಡೆದಾಗ, ಅದು ಹಸಿರು ಪೆನ್ಸಿಲ್ ಉಡುಪಿಗೆ ಬದಲಾಗುತ್ತದೆ ಮತ್ತು ಪೆನ್ ಬಣ್ಣವನ್ನು ಹಸಿರು ಬಣ್ಣಕ್ಕೆ ಬದಲಾಯಿಸುತ್ತದೆ.
 
 ![pencil](images/pencil.png)
 
@@ -73,15 +73,15 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+ಸೀಸಕಡ್ಡಿ ಬಣ್ಣವನ್ನು ಹಸಿರು ಬಣ್ಣಕ್ಕೆ ಹೊಂದಿಸಲು, `set pen color`{:class="block3extensions"} ಬ್ಲಾಕ್‌ನಲ್ಲಿ ಬಣ್ಣದ ಚೌಕವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ ಹಸಿರು ಚದರ sprite ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-Then to a similar thing so that you can switch the pencil colour to blue.
+ನಂತರ ಇದೇ ರೀತಿಯ ವಿಷಯಕ್ಕೆ ನೀವು ಸೀಸಕಡ್ಡಿ ಬಣ್ಣವನ್ನು ನೀಲಿ ಬಣ್ಣಕ್ಕೆ ಬದಲಾಯಿಸಬಹುದು.
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Click on the blue square sprite and add this code:
+ನೀಲಿ ಚದರ sprite ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಈ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ![blue_square](images/blue_square.png)
 
@@ -90,7 +90,7 @@ when this sprite clicked
 broadcast (blue v)
 ```
 
-Then click on the pencil sprite and add this code:
+ನಂತರ ಸೀಸಕಡ್ಡಿ sprite ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಈ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ![pencil](images/pencil.png)
 
@@ -100,11 +100,11 @@ switch costume to (pencil-blue v)
 set pen color to [#0000ff]
 ```
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Finally, add this code to tell the pencil sprite which colour to start with, and to make sure that the screen is clear when your program starts.
+ಅಂತಿಮವಾಗಿ, ಸೀಸಕಡ್ಡಿ sprite ‌ಗೆ ಯಾವ ಬಣ್ಣದಿಂದ ಪ್ರಾರಂಭಿಸಬೇಕು ಎಂದು ಹೇಳಲು ಮತ್ತು ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂ ಪ್ರಾರಂಭವಾದಾಗ ಪರದೆಯು ಸ್ಪಷ್ಟವಾಗಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಈ ಕೋಡ್ ಸೇರಿಸಿ.
 
 ![pencil](images/pencil.png)
 
@@ -122,14 +122,14 @@ if <mouse down?> then
 end
 ```
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
 
-If you prefer, you can start with a different colour pencil.
+ನೀವು ಬಯಸಿದರೆ, ನೀವು ಬೇರೆ ಬಣ್ಣದ ಸೀಸಕಡ್ಡಿ‌ಯೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಬಹುದು.
 
-\--- task \---
+\--- ಕಾರ್ಯ \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ನೀಲಿ ಅಥವಾ ಹಸಿರು ಚದರ sprite ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡುವುದರ ಮೂಲಕ ನೀವು ನೀಲಿ ಮತ್ತು ಹಸಿರು ಸೀಸಕಡ್ಡಿ ಬಣ್ಣಗಳ ನಡುವೆ ಬದಲಾಯಿಸಬಹುದೇ?
 
 ![screenshot](images/paint-pens-test.png)
 
-\--- /task \---
+\--- /ಕಾರ್ಯ \---
