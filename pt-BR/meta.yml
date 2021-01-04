@@ -3,7 +3,7 @@ title: Lousa Mágica
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Faça o seu próprio programa de pintura
+description: Crie o seu próprio programa de pintura
 version: 4.1.0
 last_tested: 2018-30-01
 steps:
@@ -14,7 +14,7 @@ steps:
   - 
     title: Lápis coloridos
   - 
-    title: 'Challenge: more pencils'
+    title: 'Desafio: mais lápis'
     challenge: true
   - 
     title: Desfazer erros
