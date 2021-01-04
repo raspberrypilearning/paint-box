@@ -1,20 +1,20 @@
-## Make a pencil
+## ಸೀಸಕಡ್ಡಿಅನ್ನು ತಯಾರಿಸಿ
 
-Start by making a pencil that you can use to draw on the Stage.
+ವೇದಿಕೆಯಲ್ಲಿ ಸೆಳೆಯಲು ನೀವು ಬಳಸಬಹುದಾದ ಸೀಸಕಡ್ಡಿ ತಯಾರಿಸುವ ಮೂಲಕ ಪ್ರಾರಂಭಿಸಿ.
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+'ಬಣ್ಣದ ಪೆಟ್ಟಿಗೆ' Scratch starter ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**:[rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"} ನಲ್ಲಿ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ನೀವು **Remix** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನಕಲನ್ನು ಮಾಡಬಹುದು.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**Offline**: [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕದಲ್ಲಿ ತೆರೆಯಿರಿ.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+ನೀವು Scratch ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} ನಲ್ಲಿ ಕಾಣಬಹುದು
 
-In the starter project, you should see pencil and eraser sprites:
+Scratch ಯೋಜನೆಯಲ್ಲಿ, ನೀವು ಸೀಸಕಡ್ಡಿ ಮತ್ತು eraser ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ನೋಡಬೇಕು:
 
 ![screenshot](images/paint-starter.png)
 
@@ -22,7 +22,7 @@ In the starter project, you should see pencil and eraser sprites:
 
 \--- task \---
 
-Add the Pen extension to your project.
+ನಿಮ್ಮ ಯೋಜನೆಗೆ ಲೇಖನಿ ವಿಸ್ತರಣೆಯನ್ನು ಸೇರಿಸಿ.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,7 +30,7 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+ಸ್ಪ್ರೈಟ್ ಮೌಸ್ ಪಾಯಿಂಟರ್ `forever`{:class="block3control"} ಅನ್ನು ಅನುಸರಿಸುವಂತೆ ಮಾಡಲು ಸೀಸಕಡ್ಡಿ ಸ್ಪ್ರೈಟ್‌ಗೆ ಕೆಲವು ಕೋಡ್ ಸೇರಿಸಿ ಇದರಿಂದ ನೀವು ಸೆಳೆಯಬಹುದು:
 
 ![pencil](images/pencil.png)
 
@@ -45,15 +45,15 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+ನಿಮ್ಮ ಕೋಡ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆಯೇ ಎಂದು ಪರೀಕ್ಷಿಸಲು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನಂತರ ಮೌಸ್ ಪಾಯಿಂಟರ್ ಅನ್ನು ಹಂತದ ಸುತ್ತಲೂ ಸರಿಸಿ.
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+ಮುಂದೆ, ಮೌಸ್ ಗುಂಡಿಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡುತ್ತಿದ್ದರೆ ನಿಮ್ಮ ಸೀಸಕಡ್ಡಿ ಅನ್ನು `if`{:class="block3control"} ಮಾತ್ರ ಸೆಳೆಯುವಂತೆ ಮಾಡಿ.
 
 \--- task \---
 
-Add this code to your pencil sprite:
+ನಿಮ್ಮ ಸೀಸಕಡ್ಡಿ ಸ್ಪ್ರೈಟ್‌ಗೆ ಈ ಕೋಡ್ ಸೇರಿಸಿ:
 
 ![pencil](images/pencil.png)
 
@@ -73,7 +73,7 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷಿಸಿ. ಈ ಸಮಯದಲ್ಲಿ, ಸೀಸಕಡ್ಡಿ ಅನ್ನು ಹಂತದ ಸುತ್ತಲೂ ಸರಿಸಿ ಮತ್ತು ಮೌಸ್ ಗುಂಡಿಯನ್ನು ಒತ್ತಿಹಿಡಿಯಿರಿ. ನಿಮ್ಮ ಸೀಸಕಡ್ಡಿನೊಂದಿಗೆ ನೀವು ಸೆಳೆಯಬಹುದೇ?
 
 ![screenshot](images/paint-draw.png)
 
@@ -81,16 +81,16 @@ Test your code again. This time, move the pencil around the Stage and hold down 
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: ನಿಮ್ಮ ಸೀಸಕಡ್ಡಿ ಅದರ ತುದಿಯಿಂದ ಸೆಳೆಯುವುದಿಲ್ಲವೇ?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+ನಿಮ್ಮ ಸೀಸಕಡ್ಡಿಯ ರೇಖೆಯು ಅದರ ಮಧ್ಯದಿಂದ ಬರುತ್ತಿರುವಂತೆ ತೋರುತ್ತಿದ್ದರೆ, ನಿಮ್ಮ ಪೆನ್ಸಿಲ್ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ನೀವು ಬದಲಾಯಿಸಬೇಕಾಗಿದೆ ಆದ್ದರಿಂದ ತುದಿ ಸ್ಪ್ರೈಟ್‌ನ ಕೇಂದ್ರವಾಗಿದೆ.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+ಪೆನ್ಸಿಲ್ ಸ್ಪ್ರೈಟ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ **Costumes** ಟ್ಯಾಬ್ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+ವೇಷಭೂಷಣವನ್ನು ಸರಿಸಿ ಆದ್ದರಿಂದ ಪೆನ್ಸಿಲ್‌ನ ತುದಿ ಮಧ್ಯದ **just above** ಇರುತ್ತದೆ.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+ಈಗ ವೇದಿಕೆಯಲ್ಲಿ ಸೀಸಕಡ್ಡಿ ಅನ್ನು ಸರಿಸಿ ಮತ್ತು ಎಳೆಯಿರಿ. ಸೀಸಕಡ್ಡಿ ಈಗ ಅದರ ತುದಿಯಿಂದ ಒಂದು ರೇಖೆಯನ್ನು ಸೆಳೆಯಬೇಕು.
 
 \--- /collapse \---
