@@ -49,11 +49,11 @@
 
 ### ಸಾಫ್ಟ್ವೇರ್ (Software)
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ಎರಡೂ [online](https://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [ಆಫ್‌ಲೈನ್ Scratch ಯೋಜನೆ](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -63,6 +63,6 @@
 
 ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} ಬಳಸಿ.
 
-You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
+ನೀವು ಕಾಣಬಹುದು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
