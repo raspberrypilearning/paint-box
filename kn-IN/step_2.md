@@ -10,7 +10,7 @@
 
 ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ನೀವು **Remix** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನಕಲನ್ನು ಮಾಡಬಹುದು.
 
-**Offline**: [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕದಲ್ಲಿ ತೆರೆಯಿರಿ.
+**Offline**: [ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು](http://rpf.io/p/en/paint-box-go){:target="_blank"} ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕದಲ್ಲಿ ತೆರೆಯಿರಿ.
 
 ನೀವು Scratch ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} ನಲ್ಲಿ ಕಾಣಬಹುದು
 
