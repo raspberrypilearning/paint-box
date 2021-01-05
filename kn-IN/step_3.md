@@ -10,15 +10,15 @@
 
 ![rename-pencil](images/rename-pencil.png)
 
-\--- /ಕಾರ್ಯ \---
+\--- /task \---
 
-\--- ಕಾರ್ಯ \---
+\--- task \---
 
 ಪೆನ್ಸಿಲ್-ಬ್ಲೂ ಉಡುಪಿನ ಮೇಲೆ ಬಲ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು **duplicate** ಆಯ್ಕೆಮಾಡಿ.
 
 ![screenshot](images/paint-blue-duplicate.png)
 
-\--- /ಕಾರ್ಯ \---
+\--- /task \---
 
 \--- ಕಾರ್ಯ \---
 
