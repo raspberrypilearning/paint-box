@@ -1,6 +1,6 @@
 ## ಮುಂದೆ ಏನು?
 
-ಈಗ ನೀವು 'paint box' ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೀರಿ, [''Boat race' project](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ, ಇದು ನೀವು ಅಡೆತಡೆಗಳ ಸುತ್ತಲೂ ದೋಣಿ ಬೆರೆಸಬೇಕಾದ ಆಟವನ್ನು ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
+ಈಗ ನೀವು 'ಬಣ್ಣದ ಪೆಟ್ಟಿಗೆ' ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೀರಿ, ['ದೋಣಿ ಓಟದ ಸ್ಪರ್ಧೆ' ಪ್ರಾಜೆಕ್ಟ್](https://projects.raspberrypi.org/en/projects/boat-race?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ, ಇದು ನೀವು ಅಡೆತಡೆಗಳ ಸುತ್ತಲೂ ದೋಣಿ ಬೆರೆಸಬೇಕಾದ ಆಟವನ್ನು ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
 
 \--- no-print \---
 
