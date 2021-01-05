@@ -33,7 +33,7 @@
 
 ## title: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 
-+ scratch ‌ನಲ್ಲಿ ಲೇಖನಿ ವಿಸ್ತರಣೆಯನ್ನು ಸೇರಿಸಿ
++ Scratch ‌ನಲ್ಲಿ ಲೇಖನಿ ವಿಸ್ತರಣೆಯನ್ನು ಸೇರಿಸಿ
 + Scratch ‌ನಲ್ಲಿ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಲು ಪ್ರಸಾರಗಳನ್ನು ಬಳಸಿ
 + Scratch ನಲ್ಲಿ ಮೌಸ್ ಈವೆಂಟ್‌ಗಳಿಗೆ ಹೇಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಬೇಕು ಎಂಬುದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಿ
 
@@ -47,7 +47,7 @@
 
 + ಸ್ಕ್ರ್ಯಾಚ್ 3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
 
-### ಸಾಫ್ಟ್ವೇರ್ (Software)
+### ಸಾಫ್ಟ್ವೇರ್ (software)
 
 + Scratch 3 (ಎರಡೂ [online](https://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [offline](https://rpf.io/scratchoff){:target="_blank"})
 
@@ -61,7 +61,7 @@
 
 ## title: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} ಬಳಸಿ.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} ಬಳಸಿರಿ.
 
 ನೀವು ಕಾಣಬಹುದು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
