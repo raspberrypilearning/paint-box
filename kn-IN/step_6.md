@@ -12,7 +12,7 @@
 
 \--- task \---
 
-ಪೆನ್ಸಿಲ್ ಸ್ಪ್ರೈಟ್‌ನ ಕೋಡ್‌ನ `forever`{:class="block3control"} ಲೂಪ್ **inside** ಈ ಸಾಲನ್ನು ಸೇರಿಸಿ:
+ಪೆನ್ಸಿಲ್ ಸ್ಪ್ರೈಟ್‌ನ ಕೋಡ್‌ನ `forever`{:class="block3control"} ಲೂಪ್ **ಒಳಗೆ** ಈ ಸಾಲನ್ನು ಸೇರಿಸಿ:
 
 ```blocks3
 when flag clicked
