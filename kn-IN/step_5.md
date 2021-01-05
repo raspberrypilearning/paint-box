@@ -47,7 +47,7 @@ erase all
 
 \--- ಕಾರ್ಯ \---
 
-eraser sprite ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ `'eraser broadcast`{:class="block3events"} ಕಳುಹಿಸಲು eraser sprite ‌ಗೆ ಕೋಡ್ ಸೇರಿಸಿ.
+eraser sprite ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ `eraser broadcast`{:class="block3events"} ಕಳುಹಿಸಲು eraser sprite ‌ಗೆ ಕೋಡ್ ಸೇರಿಸಿ.
 
 ![eraser](images/eraser.png)
 
@@ -107,7 +107,7 @@ set pen color to [#FFFFFF]
 
 \--- ಕಾರ್ಯ \---
 
-ಇದನ್ನು ಸರಿಪಡಿಸಲು, ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಿ ಇದರಿಂದ ಮೌಸ್ ಕ್ಲಿಕ್ ಮಾಡಿದರೆ ಮಾತ್ರ ಪೆನ್ ಡೌನ್ ಆಗುತ್ತದೆ **and** ಮೌಸ್ ಪಾಯಿಂಟರ್‌ನ `y` ಸ್ಥಾನವು `-120` ಗಿಂತ ಹೆಚ್ಚಿದ್ದರೆ:
+ಇದನ್ನು ಸರಿಪಡಿಸಲು, ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಿ ಇದರಿಂದ ಮೌಸ್ ಕ್ಲಿಕ್ ಮಾಡಿದರೆ ಮಾತ್ರ ಪೆನ್ ಡೌನ್ ಆಗುತ್ತದೆ **ಮತ್ತು** ಮೌಸ್ ಪಾಯಿಂಟರ್‌ನ `y` ಸ್ಥಾನವು `-120` ಗಿಂತ ಹೆಚ್ಚಿದ್ದರೆ:
 
 ![pencil](images/pencil.png)
 
