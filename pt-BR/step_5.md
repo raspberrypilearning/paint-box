@@ -1,6 +1,6 @@
-## Undo mistakes
+## Desfazer erros
 
-Sometimes mistakes happen, so add a 'clear' button and an eraser button.
+Às vezes, erros acontecem, então vamos adicionar um botão 'limpar' e uma borracha.
 
 \--- task \---
 
@@ -35,11 +35,11 @@ O seu projeto também inclui separadamente um ator borracha.
 
 \--- task \---
 
-Click on this eraser sprite and then select **show**.
+Clique neste ator de borracha e selecione **mostrar**.
 
 ![captura de tela](images/show-eraser.png)
 
-Here is how your Stage should look now:
+Esta é a aparência que seu Palco deve ter agora:
 
 ![captura de tela](images/paint-eraser-stage.png)
 
@@ -47,9 +47,9 @@ Here is how your Stage should look now:
 
 \--- task \---
 
-Add code to the eraser sprite to send an `'eraser' broadcast`{:class="block3events"} when the eraser sprite is clicked.
+Adicione código ao ator borracha para enviar um `'eraser' broadcast`{: class = "block3events"} quando o sprite borracha for clicado.
 
-![eraser](images/eraser.png)
+![borracha](images/eraser.png)
 
 ```blocks3
 quando este ator for clicado
@@ -62,15 +62,15 @@ Quando o ator lápis recebe a mensagem 'borracha', deveria trocar a fantasia par
 
 \--- task \---
 
-Add some code to create the eraser.
+Adicione algum código para criar a borracha.
 
 \--- hints \--- \--- hint \---
 
-Add some code to the pencil sprite: `When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message `Switch to costume eraser`{:class="block3looks"} `Set pen color`{:class="block3extensions"} to white
+Adicione algum código ao sprite de lápis: `Quando eu receber`{: class = "block3events"} a `borracha`{: class = "block3events"} mensagem `Mudar para borracha de traje`{: class = "block3looks"} `Defina a cor da caneta`{: class = "block3extensions"} para branco
 
 \--- /hint \--- \--- hint \---
 
-Here are all the blocks you need:
+Aqui estão todos os blocos que você precisa:
 
 ```blocks3
 mude a cor da caneta para [#FFFFFF]
@@ -82,7 +82,7 @@ mude para a fantasia (eraser v)
 
 \--- /hint \--- \--- hint \---
 
-Here is what the code should look like:
+É assim que seu código deve estar:
 
 ![lápis](images/pencil.png)
 
@@ -96,7 +96,7 @@ mude a cor da caneta para [#FFFFFF]
 
 \--- task \---
 
-Test your project to see if you can clear the Stage and erase pencil lines.
+Teste seu projeto para ver se você consegue limpar o Palco e apagar as linhas do lápis.
 
 ![capturas de tela](images/paint-erase-test.png)
 
@@ -108,7 +108,7 @@ Há mais um problema com o lápis: você pode desenhar em qualquer lugar do Palc
 
 \--- task \---
 
-To fix this, change the code so that the pen is only down if the mouse is clicked **and** the `y` position of the mouse pointer is greater than `-120`:
+Para corrigir isso, altere o código para que a caneta fique para baixo somente se o mouse for clicado em **e** a posição `y` do ponteiro do mouse é maior que `-120`:
 
 ![lápis](images/pencil.png)
 
