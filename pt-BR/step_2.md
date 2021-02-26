@@ -35,17 +35,17 @@ Adicione algum código ao ator lápis para que ele siga o mouse `sempre`{:class=
 ![lápis](images/pencil.png)
 
 ```blocks3
-quando clicar em bandeira
-sempre
- vá para (ponteiro do mouse v)
-fim
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-\--- task \--- Clique na bandeira então mova o ponteiro do mouse no Palco para testar se seu código funciona.
+Clique na bandeira então mova o ponteiro do mouse no Palco para testar se seu código funciona.
 
 \--- /task \---
 
@@ -58,15 +58,15 @@ Adicione este código ao seu pincel (ator):
 ![lápis](images/pencil.png)
 
 ```blocks3
-quando a bandeira for clicada
-para sempre
-  vá para (ponteiro do mouse v)
+when flag clicked
+forever
+  go to (mouse pointer v)
 
-+ se <mouse down?> então
-  use o lápis
-  senão
-  levante o lápis
-  fim
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 \--- /task \---
