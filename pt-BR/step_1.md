@@ -59,7 +59,7 @@ Você vai clicar na bandeira verde para começar, e vai usar o mouse para mover 
 
 ## \--- collapse \---
 
-## informações adicionais para educadores
+## title: Informações adicionais para educadores
 
 Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
