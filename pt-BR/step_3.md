@@ -6,7 +6,7 @@ Agora vamos adicionar lápis de cores diferentes ao seu projeto e permitir que o
 
 Clique na aba Fantasias do ator 'lápis'.
 
-Rename the `pencil-a` costume to `pencil-blue`
+Renomeie a fantasia `lápis-a` para `lápis-azul`
 
 ![renomear lápis](images/rename-pencil.png)
 
@@ -16,7 +16,7 @@ Rename the `pencil-a` costume to `pencil-blue`
 
 Clique com o botão direito na fantasia azul-lápis e selecione **duplicado**.
 
-![screenshot](images/paint-blue-duplicate.png)
+![captura de tela](images/paint-blue-duplicate.png)
 
 \--- /task \---
 
@@ -24,15 +24,15 @@ Clique com o botão direito na fantasia azul-lápis e selecione **duplicado**.
 
 Nomeie a nova fantasia 'verde-lápis' e pinte-o de verde-lápis.
 
-![screenshot](images/paint-pencil-green.png)
+![captura de tela](images/paint-pencil-green.png)
 
 \--- /task \---
 
 \--- task \---
 
-Draw two new sprites: one blue square and one green square. Estes são para escolher entre o lápis azul e o verde.
+\--- task \--- Desenhe dois novos atores: um quadrado azul e um quadrado verde. Estes são para escolher entre o lápis azul e o verde.
 
-![screenshot](images/paint-selectors.png)
+![captura de tela](images/paint-selectors.png)
 
 \--- /task \---
 
@@ -59,13 +59,13 @@ transmita (verde v)
 
 \--- /task \---
 
-The pencil sprite should listen for the "green" message and change its costume and pencil colour in response.
+O ator lápis deve ouvir a mensagem "verde", mudar sua fantasia e cor do lápis em resposta.
 
 Se preferir, você pode começar com um lápis de cor diferente.
 
-\--- task \--- Mude para o seu ator lápis. Add some code so that when this sprite receives the `green`{:class="block3events"} broadcast, it switchs to the green pencil costume and changes the pen colour to green.
+\--- task \--- Mude para o seu ator lápis. Adicione algum código para que quando este ator receba a transmissão `verde`{:class="blockevents"}, ele mude para a fantasia de lápis verde e a cor do lápis para verde.
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando eu receber [verde v]
@@ -73,7 +73,7 @@ mude para a fantasia (pencil-green v)
 mude a cor da caneta para [#00CC44]
 ```
 
-To set the pencil to colour to green, click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square sprite.
+Para definir a cor do lápis como verde, clique no quadrado colorido no bloco `definir cor da caneta`{:class="block3extensions"}, e depois clique no ator quadrado verde.
 
 \--- /task \---
 
@@ -81,18 +81,18 @@ Depois, faça o mesmo para mudar a cor do lápis para azul.
 
 \--- task \---
 
-Click on the blue square sprite and add this code:
+Clique no ator quadrado azul e adicione este código:
 
-![blue_square](images/blue_square.png)
+![quadrado_azul](images/blue_square.png)
 
 ```blocks3
 quando este ator for clicado
 transmita (azul v)
 ```
 
-Then click on the pencil sprite and add this code:
+Em seguida, clique no ator lápis e adicione este código:
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando eu receber [azul v]
@@ -106,7 +106,7 @@ mude a cor da caneta para [#0000ff]
 
 \--- task \--- Por fim, adicione este código para informar ao ator do lápis qual cor começar e para garantir que a tela esteja limpa quando o programa for iniciado.
 
-![pencil](images/pencil.png)
+![lápis](images/pencil.png)
 
 ```blocks3
 quando ⚑ for clicado
@@ -129,8 +129,8 @@ Se preferir, você pode começar com um lápis de cor diferente.
 
 \--- task \---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+\--- task \--- Teste seu código. Você consegue alternar entre as cores do lápis azul e verde clicando nos quadrados azuis ou verdes?
 
-![screenshot](images/paint-pens-test.png)
+![captura de tela](images/paint-pens-test.png)
 
 \--- /task \---
