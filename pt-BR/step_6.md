@@ -1,10 +1,10 @@
-## Change the pen width
+## Mude a espessura do lápis
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+Em seguida, você adicionará código para permitir que a pessoa usando o seu programa desenhe coisas com diferentes larguras de caneta.
 
 \--- task \---
 
-First, add a new variable called `width`{:class="block3variables"}.
+Primeiro, adicione uma nova variável chamada `espessura`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@ First, add a new variable called `width`{:class="block3variables"}.
 
 \--- task \---
 
-Add this line **inside** the `forever`{:class="block3control"} loop of the pencil sprite's code:
+Adicione esta linha **dentro** do loop `sempre`{:class="block3control"} do código do ator lápis:
 
 ```blocks3
 quando flag for clicado
@@ -32,23 +32,23 @@ end
 
 \--- /task \---
 
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
+A espessura da da caneta agora é ajustada repetidamente pra o valor da variável `espessura`{:class="block3variables"}.
 
 \--- task \---
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
+Clique com o botão direito na variável `largura`{:class="block3variables"} visível no Palco, e depois clique no **controle deslizante**.
 
-![screenshot](images/paint-slider.png)
+![captura de tela](images/paint-slider.png)
 
 \--- /task \---
 
-You can now drag the slider that is visible below the variable to change the variable's value.
+Agora você pode arrastar o controle deslizante que está visível abaixo da variável para alterar o seu valor.
 
-![screenshot](images/paint-slider-change.png)
+![captura de tela](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can change the pen width.
+Teste seu projeto e veja se você consegue mudar a largura da caneta.
 
 ![captura de tela](images/paint-width-test.png)
 
