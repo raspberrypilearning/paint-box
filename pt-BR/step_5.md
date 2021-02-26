@@ -4,7 +4,7 @@
 
 \--- task \---
 
-\--- task \--- Adicione o ator 'X-block' da seção de letras da biblioteca. Pinte a fantasia do ator de vermelho e torne-o um pouco menor. Este ator vai ser o botão 'limpar'.
+Adicione o ator 'X-block' da seção de letras da biblioteca. Pinte a fantasia do ator de vermelho e torne-o um pouco menor. Este ator vai ser o botão 'limpar'.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -19,8 +19,8 @@ Adicione código ao 'bloco-X' para limpar o palco quando clicar no ator.
 ![cruz](images/cross.png)
 
 ```blocks3
-quando este ator for clicado
-apague tudo
+when this sprite clicked
+erase all
 ```
 
 \--- /task \---
@@ -52,8 +52,8 @@ Adicione código ao ator borracha para enviar um `'eraser' broadcast`{: class = 
 ![borracha](images/eraser.png)
 
 ```blocks3
-quando este ator for clicado
-transmita (eraser v)
+when this sprite clicked
+broadcast (eraser v)
 ```
 
 \--- /task \---
@@ -73,11 +73,10 @@ Adicione algum código ao sprite de lápis: `Quando eu receber`{: class = "block
 Aqui estão todos os blocos que você precisa:
 
 ```blocks3
-mude a cor da caneta para [#FFFFFF]
+set pen color to [#FFFFFF]
+when I receive [eraser v]
 
-quando eu receber [eraser v]
-
-mude para a fantasia (eraser v)
+switch costume to (eraser v)
 ```
 
 \--- /hint \--- \--- hint \---
@@ -87,9 +86,9 @@ mude para a fantasia (eraser v)
 ![lápis](images/pencil.png)
 
 ```blocks3
-quando eu receber [eraser v]
-mude para a fantasia (eraser v)
-mude a cor da caneta para [#FFFFFF]
+when I receive [eraser v]
+switch costume to (eraser v)
+set pen color to [#FFFFFF]
 ```
 
 \--- /hint \--- \--- /hints \--- \--- /task \---
@@ -113,16 +112,16 @@ Para corrigir isso, altere o código para que a caneta fique para baixo somente 
 ![lápis](images/pencil.png)
 
 ```blocks3
-quando flag for clicado
-apague tudo
-mude para a fantasia (pencil-blue v)
-mude a cor da caneta para [#0035FF]
-sempre 
- vá para (mouse pointer v)
-+se <<mouse down?> e <(posição y do mouse) > [-120]>> então 
- use a caneta
- senão 
- levante a caneta
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 
@@ -130,7 +129,7 @@ end
 
 \--- task \---
 
-\--- task \--- Teste seu projeto. Agora você não deve conseguir desenhar perto dos botões.
+Teste seu projeto. Agora você não deve conseguir desenhar perto dos botões.
 
 ![captura de tela](images/paint-fixed.png)
 
