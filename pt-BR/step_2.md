@@ -81,7 +81,7 @@ Teste seu código novamente. Dessa vez, mova o lápis pelo palco e mantenha pres
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## title: O seu lápis não desenha pela ponta?
 
 Se a linha que seu lápis desenha parece que está vindo do meio do lápis, você precisa mudar seu ator de lápis para que a ponta seja o centro do ator.
 
