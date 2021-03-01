@@ -2,9 +2,11 @@
 
 Comece criando um lápis que você pode usar para desenhar no palco.
 
---- task --- Abra o projeto inicial do Scratch 'Lousa Mágica'.
+--- task ---
 
-**Online:** Abra o projeto inicial em [scratch.mit.edu/projects/346037543](https://scratch.mit.edu/projects/346037543){:target="_blank"}
+Abre o projeto inicial 'Caixa de Pintura' em Scratch.
+
+**Online:** Abra o projeto inicial em [scratch.mit.edu/projects/494492255](https://scratch.mit.edu/projects/494492255){:target="_blank"}
 
 Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em **Remix**.
 
@@ -14,7 +16,9 @@ Se você precisar baixar e instalar o editor offline do Scratch, você pode enco
 
 No projeto inicial, você deve ver os atores lápis e borracha:
 
-![captura de tela](images/paint-starter.png) --- /task ---
+![captura de tela](images/paint-starter.png)
+
+--- /task ---
 
 --- task ---
 
@@ -31,39 +35,48 @@ Adicione algum código ao ator lápis para que ele siga o mouse `sempre`{:class=
 ![lápis](images/pencil.png)
 
 ```blocks3
-quando clicar em bandeira
-sempre
- vá para (ponteiro do mouse v)
-fim
+when flag clicked
+forever
+  go to (mouse pointer v)
+end
 ```
 
 --- /task ---
 
---- task --- Clique na bandeira então mova o ponteiro do mouse no Palco para testar se seu código funciona. --- /task ---
+--- task ---
+
+Clique na bandeira então mova o ponteiro do mouse no Palco para testar se seu código funciona.
+
+--- /task ---
 
 Em seguida, faça seu lápis desenhar apenas `se`{:class="block3control"} o botão do mouse está sendo clicado.
 
---- task --- Adicione este código ao seu ator lápis:
+--- task ---
+
+Adicione este código ao seu pincel (ator):
 
 ![lápis](images/pencil.png)
 
 ```blocks3
-quando a bandeira for clicada
-para sempre
-  vá para (ponteiro do mouse v)
-
-+ se <mouse down?> então
-  use o lápis
-  senão
-  levante o lápis
-  fim
+when flag clicked
+forever
+  go to (mouse pointer v)
++ if <mouse down?> then
+  pen down
+  else
+  pen up
+end
 ```
 
 --- /task ---
 
---- task --- Teste seu código novamente. Dessa vez, mova o lápis pelo palco e mantenha pressionado o botão do mouse. Você consegue desenhar com o seu lápis?
+--- task ---
 
-![captura de tela](images/paint-draw.png) --- /task ---
+Teste seu código novamente. Dessa vez, mova o lápis pelo palco e mantenha pressionado o botão do mouse. Você consegue desenhar com o seu lápis?
+
+![captura de tela](images/paint-draw.png)
+
+--- /task ---
 
 --- collapse ---
 ---

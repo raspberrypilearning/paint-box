@@ -5,17 +5,32 @@ Agora que você concluiu o projeto 'Lousa Mágica', tente [o projeto 'Corrida de
 --- no-print ---
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/346346853/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
 
 --- /no-print ---
 
---- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
+--- print-only ---
+
+![demonstração da corrida de barcos](images/boat_race_demo.png)
+
+--- /print-only ---
 
 
-**Tradução Contribuída pela Comunidade**
+***
+Este projeto foi traduzido por voluntários:
 
-Este projeto foi traduzido por **Artur Licks** e revisado por **Miguel Nunes**.
+Flavio Silva
 
-Nossos incríveis voluntários de tradução nos ajudam a dar as crianças em todo o mundo a oportunidade de aprender a programar. Você pode nos ajudar a alcançar mais crianças traduzindo nossos projetos - leia mais em [rpf.io/translate](https://rpf.io/translate).
+Caetano Souto-Maior
+
+Adriel Freire
+
+Thiago Alvoravel
+
+Artur Licks
+
+Miguel Nunes
+
+Graças a voluntários, podemos dar às pessoas de todo o mundo a chance de aprender em seu próprio idioma. Você pode nos ajudar a alcançar mais pessoas oferecendo-se para traduzir - mais informações em rpf.io/translate.

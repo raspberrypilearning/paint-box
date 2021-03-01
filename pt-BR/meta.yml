@@ -3,9 +3,9 @@ title: Lousa Mágica
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: Faça o seu próprio programa de pintura
+description: Crie o seu próprio programa de pintura
 version: 4.1.0
-last_tested: 2018-30-01
+last_tested: 2018-11-30
 steps:
   - title: Introdução
   - title: Crie um lápis

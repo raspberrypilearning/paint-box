@@ -1,0 +1,11 @@
+azul
+
+verde
+
+largura
+
+lápis-azul
+
+lápis-verde
+
+borracha
