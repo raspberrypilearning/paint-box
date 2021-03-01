@@ -22,7 +22,7 @@ Clique com o botão direito na fantasia azul-lápis e selecione **duplicado**.
 
 --- task ---
 
-Nomeie a nova fantasia 'verde-lápis' e pinte-o de verde-lápis.
+Nomeie a nova fantasia 'lápis-verde' e pinte-o de lápis-verde.
 
 ![captura de tela](images/paint-pencil-green.png)
 
@@ -52,7 +52,7 @@ Adicione algum código ao ator 'verde' para que quando este ator for clicado, el
 
 ```blocks3
 when this sprite clicked
-broadcast (green v)
+broadcast (verde v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -68,8 +68,8 @@ Mude para o seu ator lápis. Adicione algum código para que quando este ator re
 ![lápis](images/pencil.png)
 
 ```blocks3
-when I receive [green v]
-switch costume to (pencil-green v)
+when I receive [verde v]
+switch costume to (lápis-verde v)
 set pen color to [#00CC44]
 ```
 
@@ -87,7 +87,7 @@ Clique no ator quadrado azul e adicione este código:
 
 ```blocks3
 when this sprite clicked
-broadcast (blue v)
+broadcast (azul v)
 ```
 
 Em seguida, clique no ator lápis e adicione este código:
@@ -95,8 +95,8 @@ Em seguida, clique no ator lápis e adicione este código:
 ![lápis](images/pencil.png)
 
 ```blocks3
-when I receive [blue v]
-switch costume to (pencil-blue v)
+when I receive [azul v]
+switch costume to (lápis-azul v)
 set pen color to [#0000ff]
 ```
 
@@ -111,7 +111,7 @@ Por fim, adicione este código para informar ao ator do lápis qual cor começar
 ```blocks3
 when flag clicked
 +erase all
-+switch costume to (pencil-blue v)
++switch costume to (lápis-azul v)
 +set pen color to [#0035FF]
 forever
   go to (mouse pointer v)

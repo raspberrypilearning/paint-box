@@ -17,11 +17,11 @@ Adicione esta linha **dentro** do loop `sempre`{:class="block3control"} do códi
 ```blocks3
 when flag clicked
 erase all
-switch costume to (pencil-blue v)
+switch costume to (lápis-azul v)
 set pen color to [#0035FF]
 forever
 go to (mouse pointer v)
-+set pen size to (width :: variables)
++set pen size to (espessura :: variables)
 if <<mouse down?> and <(mouse y) > [-120]>> then 
   pen down
   else
@@ -35,7 +35,7 @@ A espessura da da caneta agora é ajustada repetidamente pra o valor da variáve
 
 --- task ---
 
-Clique com o botão direito na variável `largura`{:class="block3variables"} visível no Palco, e depois clique no **controle deslizante**.
+Clique com o botão direito na variável `espessura`{:class="block3variables"} visível no Palco, e depois clique no **controle deslizante**.
 
 ![captura de tela](images/paint-slider.png)
 

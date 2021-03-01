@@ -14,7 +14,7 @@ Adicione o ator 'X-block' da seção de letras da biblioteca. Pinte a fantasia d
 
 --- task ---
 
-Adicione código ao 'bloco-X' para limpar o palco quando clicar no ator.
+Adicione código ao 'X-block' para limpar o palco quando clicar no ator.
 
 ![cruz](images/cross.png)
 
@@ -47,13 +47,13 @@ Esta é a aparência que seu Palco deve ter agora:
 
 --- task ---
 
-Adicione código ao ator borracha para enviar um `'eraser' broadcast`{:class="block3events"} quando o sprite borracha for clicado.
+Adicione código ao ator borracha para enviar um `'borracha' broadcast`{:class="block3events"} quando o sprite borracha for clicado.
 
 ![borracha](images/eraser.png)
 
 ```blocks3
 when this sprite clicked
-broadcast (eraser v)
+broadcast (borracha v)
 ```
 
 --- /task ---
@@ -75,8 +75,8 @@ Aqui estão todos os blocos que você precisa:
 
 ```blocks3
 set pen color to [#FFFFFF]
-when I receive [eraser v]
-switch costume to (eraser v)
+when I receive [borracha v]
+switch costume to (borracha v)
 ```
 
 --- /hint --- --- hint ---
@@ -86,8 +86,8 @@ switch costume to (eraser v)
 ![lápis](images/pencil.png)
 
 ```blocks3
-when I receive [eraser v]
-switch costume to (eraser v)
+when I receive [borracha v]
+switch costume to (borracha v)
 set pen color to [#FFFFFF]
 ```
 
@@ -114,7 +114,7 @@ Para corrigir isso, altere o código para que a caneta fique para baixo somente 
 ```blocks3
 when flag clicked
 erase all
-switch costume to (pencil-blue v)
+switch costume to (lápis-azul v)
 set pen color to [#0035FF]
 forever
   go to (mouse pointer v)
