@@ -63,7 +63,7 @@ O ator lápis deve ouvir a mensagem "verde", mudar sua fantasia e cor do lápis 
 
 --- task ---
 
-Mude para o seu ator lápis. Adicione algum código para que quando este ator receba a transmissão `verde`{:class="blockevents"}, ele mude para a fantasia de lápis verde e a cor do lápis para verde.
+Mude para o seu ator lápis. Adicione algum código para que quando este ator receba a transmissão `verde`{:class="block3events"}, ele mude para a fantasia de lápis verde e a cor do lápis para verde.
 
 ![lápis](images/pencil.png)
 

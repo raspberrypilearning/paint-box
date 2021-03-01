@@ -75,7 +75,9 @@ Aqui estão todos os blocos que você precisa:
 
 ```blocks3
 set pen color to [#FFFFFF]
+
 when I receive [borracha v]
+
 switch costume to (borracha v)
 ```
 
