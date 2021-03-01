@@ -2,7 +2,7 @@ azul
 
 verde
 
-largura
+espessura
 
 lápis-azul
 
