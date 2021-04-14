@@ -1,11 +1,11 @@
-blue
+निळा
 
-green
+हिरवा
 
-width
+रुंदी
 
-pencil-blue
+पेन्सिल निळा
 
-pencil-green
+पेन्सिल हिरवा
 
-eraser
+इरेजर
