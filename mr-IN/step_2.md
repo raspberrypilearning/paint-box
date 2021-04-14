@@ -1,28 +1,28 @@
-## Make a pencil
+## एक पेन्सिल बनवा
 
-Start by making a pencil that you can use to draw on the Stage.
+स्टेज वर काढण्यासाठी आपण वापरू शकाल अशी पेन्सिल तयार करा.
 
 \--- task \---
 
-Open the 'Paint box' Scratch starter project.
+'पेंट बॉक्स' नवशिक्या स्क्रॅच प्रोजेक्ट उघडा.
 
-**Online**: open the starter project at [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**ऑनलाइन**: नवशिक्या प्रोजेक्ट ईथे उघडा[rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+आपल्याकडे स्क्रॅच खाते असल्यास आपण ** Remix** वर क्लिक करून एक प्रत बनवू शकता.
 
-**Offline**: open the [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+** ऑफलाइन **: [ नवशिक्या प्रोजेक्ट ](http://rpf.io/p/en/paint-box-go){:target="_blank"} उघडा ऑफलाइन संपादकात.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+आपल्याला स्क्रॅच ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [ rpf.io/scratchoff येथे शोधू शकता ](http://rpf.io/scratchoff) {:target = "_ blank"}
 
-In the starter project, you should see pencil and eraser sprites:
+नवशिक्या प्रोजेक्टमध्ये आपणास पेन्सिल आणि खोडरबर स्प्राइट्स दिसायला पाहिजेत:
 
-![screenshot](images/paint-starter.png)
+![स्क्रीनशॉट](images/paint-starter.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+आपल्या प्रोजेक्ट मघे पेन इक्स्टेन्शन जोडा.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -30,9 +30,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+पेन्सिल स्प्राइटमध्ये असा कोड जोडा जेणेकरून स्प्राइट माउस पॉईंटरचे अनुसरण ` कायमचे ` {:class= "block3control"} करून आपण चित्र बनवू शकाल:
 
-![pencil](images/pencil.png)
+![पेन्सिल](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -45,17 +45,17 @@ end
 
 \--- task \---
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+आपला कोड काम करतो की नाही हे तपासण्यासाठी ध्वजांकनावर क्लिक करा आणि नंतर माउस पॉईंटरला हलवा.
 
 \--- /task \---
 
-Next, make your pencil only draw `if`{:class="block3control"} the mouse button is being clicked.
+पुढे, आपली पेन्सिल फक्त `if`{:class="block3control"} माउस बटण क्लिक केलेले असल्यास वापरा.
 
 \--- task \---
 
-Add this code to your pencil sprite:
+आपल्या पेन्सिल स्प्राईटमध्ये हा कोड जोडा:
 
-![pencil](images/pencil.png)
+![पेन्सिल](images/pencil.png)
 
 ```blocks3
 when flag clicked
@@ -73,24 +73,24 @@ end
 
 \--- task \---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+आपल्या कोडची पुन्हा चाचणी घ्या. यावेळी स्टेजच्या भोवती पेन्सिल हलवा आणि माउस बटण दाबून ठेवा. आपण आपल्या पेन्सिलने चित्र काढू शकता?
 
-![screenshot](images/paint-draw.png)
+![स्क्रीनशॉट](images/paint-draw.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Does your pencil not draw from its tip?
+## शीर्षक: आपली पेन्सिल टिप पासून चित्र काढत नाही?
 
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
+जर आपली पेन्सिल रेखा लाइन पेन्सिलच्या मध्यभागी येत असल्यासारखी दिसत असेल तर आपल्याला आपला पेन्सिल स्प्राइट बदलणे आवश्यक आहे जेणेकरून टीप हे स्प्राइटचे केंद्र आहे.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+पेन्सिल स्प्राइटवर क्लिक करा आणि नंतर **Costumes** अर्थात पोशाख टॅब वर क्लिक करा.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+Costume अर्थात पोशाख हलवा जेणेकरून पेन्सिलची टीप **अगदी ** मध्यबिंदू वर आहे.
 
-![Costume center](images/costume-center-annotated.png)
+![Costume केंद्र](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+आता पेन्सिल सगळिकडे हलवा आणि चित्र काढा. पेन्सिलने आता त्याच्या टीपवरून एक रेषा काढावी.
 
 \--- /collapse \---
