@@ -55,7 +55,7 @@ title: आपल्याला काय लागणार
 
 ### डाउनलोड्स
 
-+ [ऑफलाइन स्टार्टर प्रोजेक्ट प्रकल्प](https://rpf.io/p/mr-IN/paint-box-go) {:target="_blank"}
++ [ऑफलाइन स्टार्टर प्रोजेक्ट प्रकल्प](https://rpf.io/p/mr-IN/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
