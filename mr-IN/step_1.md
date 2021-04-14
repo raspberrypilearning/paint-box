@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+ही प्रोजेक्टची **स्क्रॅच 3** आवृत्ती आहे. प्रोजेक्टची [ स्क्रॅच 2 आवृत्ती देखील आहे ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
 ## परिचय
 
-Make your own paint program!
+आपले स्वतःचे पेंट प्रोग्राम बनवा!
 
 ### आपण काय तयार करणार
 
 \--- no-print \---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+प्रारंभ करण्यासाठी हिरव्या ध्वजावर क्लिक करा. पेन्सिल हलवण्यासाठी माउस वापरा आणि चित्र काढण्यासाठी माउस चे डावे बटण दाबून ठेवा. पेन्सिल बदलण्यासाठी रंगावर क्लिक करा. आपले कार्य बदलण्यासाठी खोडरबरवर क्लिक करा, आणि मिटविण्यासाठी त्याचा वापर करा. पृष्ठ साफ करण्यासाठी क्रॉस वर क्लिक करा.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,46 +23,46 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+सुरू करण्यासाठी आपण हिरव्या ध्वजावर क्लिक कराल आणि आपण पेन्सिल हलविण्यासाठी माउस वापराल आणि चित्र काढण्यासाठी माउस चे डावे बटण दाबून ठेवाल. रंग क्लिक केल्याने पेन्सिल रंग बदलेल आणि खोडरबरवर क्लिक केल्यास ती खोडरबरमघ्ये बदलू शकेल!
 
-![showcase](images/showcase.png)
+![शोकेस](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## शीर्षकः आपण काय शिकाल
 
-+ Add the pen extension in Scratch
-+ Use broadcasts to control a sprite in Scratch
-+ Recall how to respond to mouse events in Scratch
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
++ स्क्रॅचमध्ये पेन इक्स्टेन्शन वापरा
++ स्क्रॅचमधील broadcasts अर्थात प्रसारण स्प्राइट नियंत्रित करायला वापरा
++ स्क्रॅचमधील माउस इव्हेंट अर्थात घटनेला कसा प्रतिसाद द्यायचा ते आठवा
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## शीर्षकः आपल्याला काय लागणार
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+### हार्डवेअर
 
-You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
++ स्क्रॅच 3 चालवण्यास सक्षम असलेले संगणक
+
+### सॉफ्टवेअर
+
++ स्क्रॅच 3 ([ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} अथवा [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
+
+### डाउनलोड्स
+
++ [ ऑफलाइन स्टार्टर प्रोजेक्ट प्रकल्प ](https://rpf.io/p/en/paint-box-go) {:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## शीर्षक: शिक्षकांसाठी अतिरिक्त माहिती
+
+आपल्यला हा प्रोजेक्ट प्रिंट करणे आवश्यक असल्यास, कृपया [छपाईयंत्र अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/paint-box/print){: target = "_ blank"} वापरा.
+
+आपण येथे [ पूर्ण केलेला प्राजेक्ट शोधू शकता ](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
