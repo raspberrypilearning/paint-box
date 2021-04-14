@@ -1,0 +1,19 @@
+---
+title: पेंट बॉक्स
+hero_image: images/banner.png
+listed: true
+copyedit: false
+description: आपला स्वतःचा पेंट प्रोग्राम बनवा
+version: 4.1.0
+last_tested: 2018-11-30
+steps:
+  - title: परिचय
+  - title: एक पेन्सिल बनवा
+  - title: रंगीत पेन्सिल
+  - title: 'आव्हान: अधिक पेन्सिल'
+    challenge: true
+  - title: चुका पूर्ववत करा
+  - title: पेन्सिलची रुंदी बदला
+  - title: 'आव्हान: कीबोर्ड आदेश'
+    challenge: true
+  - title: 'पुढे काय?'
