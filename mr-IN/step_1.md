@@ -1,6 +1,6 @@
 \--- no-print \---
 
-ही प्रोजेक्टची **स्क्रॅच 3** आवृत्ती आहे. प्रोजेक्टची [ स्क्रॅच 2 आवृत्ती देखील आहे ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
+ही प्रोजेक्टची **Scratch 3** आवृत्ती आहे. प्रोजेक्टची [ Scratch 2 आवृत्ती देखील आहे ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
 
 \--- /no-print \---
 
@@ -45,11 +45,11 @@
 
 ### हार्डवेअर
 
-+ स्क्रॅच 3 चालवण्यास सक्षम असलेले संगणक
++ Scracth 3 चालवण्यास सक्षम असलेले संगणक
 
 ### सॉफ्टवेअर
 
-+ स्क्रॅच 3 ([ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} अथवा [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([ऑनलाइन](https://rpf.io/scratchon){:target="_blank"} अथवा [ऑफलाइन](https://rpf.io/scratchoff){:target="_blank"})
 
 ### डाउनलोड्स
 
