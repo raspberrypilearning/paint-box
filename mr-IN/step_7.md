@@ -1,10 +1,10 @@
-## Challenge: keyboard commands
+## आव्हानः कीबोर्ड कमांड
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+आपण असा कोड जोडू शकता का जेणेकरून, रंगीत स्क्वेअर किंवा स्टेजवरील बटणावर क्लिक करण्याऐवजी आपण कीबोर्ड दाबून गोष्टी बनवू शकता? उदाहरणार्थ:
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
++ <kbd>b</kbd> = निळ्या पेन्सिलवर स्विच करा
++ <kbd>g</kbd> = हिरव्या पेन्सिलवर स्विच करा
++ <kbd>e</kbd> = इरेजरवर अर्थात खोडरबर वर स्विच करा
++ <kbd>c</kbd> = स्क्रीन क्लिर अर्थात स्पष्ट
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+आपण इच्छित असल्यास, आपण असा कोड देखील जोडू शकता जेणेकरून बाण की दाबून पेन कलम रूंदी बदलेल.
