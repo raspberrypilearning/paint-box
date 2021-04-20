@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Ez a projekt **Scratch 3**-as verziója. A projekt [Scratch 2 változata](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) is elérhető.
-
-\--- /no-print \---
-
 ## Bevezetés
 
-Készítsd el a saját rajzoló programod!
+Make your own paint program!
 
 ### Mit fogsz elkészíteni
 
