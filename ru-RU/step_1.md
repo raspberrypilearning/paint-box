@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Это версия проекта для **Скретч 3**. Есть также [версия для Скретч 2](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
-
-\--- /no-print \---
-
 ## Введение
 
-Сделай свою собственную программу для рисования!
+Make your own paint program!
 
 ### Что ты сделаешь
 
