@@ -1,9 +1,3 @@
-\--- no-print \---
-
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
-
-\--- /no-print \---
-
 ## Giriş
 
 Make your own paint program!
