@@ -1,18 +1,12 @@
-\--- no-print \---
-
-இது திட்டத்தின் ** Scratch 3 ** (ஸ்க்ராட்ச் 3) பதிப்பாகும். மேலும், [ திட்டத்தின் Scratch 2 பதிப்பும் ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2) உள்ளது.
-
-\--- /no-print \---
-
 ## முன்னுரை
 
-உங்கள் சொந்த வண்ணப்பூச்சு நிரலை உருவாக்குங்கள்!
+Make your own paint program!
 
 ### நீங்கள் என்ன செய்ய இருக்கிறீர்கள்
 
-\----- / அச்சு-இல்லை \---
+\--- no-print \---
 
-தொடங்க பச்சைக் கொடியைக் கிளிக் செய்க. பென்சிலை(pencil-கரிக்கோல்) நகர்த்த சுட்டியைப் பயன்படுத்தவும், மற்றும் வரைய இடது சுட்டி பொத்தானை அழுத்தவும். பென்சில்களை மாற்ற, ஒரு வண்ணத்தில் கிளிக் செய்யவும். அழிப்பான்(Eraser) மீது கிளிக் செய்து அதை தேர்ந்தெடுக்கவும், நீங்கள் செய்த வேலையை அழிக்க அதைப் பயன்படுத்தவும். பக்கத்தில் உள்ள அனைத்தையும் அழிக்க, குறுக்கு(cross) பொத்தானை கிளிக் செய்யவும்.
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,9 +17,9 @@
 
 \--- print-only \---
 
-தொடங்குவதற்கு நீங்கள் பச்சைக் கொடியைக் கிளிக் செய்யவும், மேலும் நீங்கள் பென்சிலை நகர்த்த சுட்டியைப் பயன்படுத்தவும், வரைய இடது சுட்டி(மவுஸ்-mouse) பொத்தானை அழுத்திப் பிடிக்கவும். ஒரு வண்ணத்தின் மேல் கிளிக் செய்தால், பென்சில் வண்ணங்கள் மாறும், மற்றும் அழிப்பான் பணிக்குறி(icon) மேல் கிளிக் செய்வதன் மூலம் பென்சில், அழிப்பானாக மாறும்!
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
-![காட்சி பெட்டி](images/showcase.png)
+![showcase](images/showcase.png)
 
 \--- /print-only \---
 
@@ -61,7 +55,7 @@
 
 ## title: கல்வியாளர்களுக்கான கூடுதல் தகவல்
 
-இந்த திட்டத்தை நீங்கள் அச்சிட வேண்டுமானால், தயவுசெய்து [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target = "_ blank"} ஐப் பயன்படுத்தவும்.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
 You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
