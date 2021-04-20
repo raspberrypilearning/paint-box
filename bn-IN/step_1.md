@@ -1,18 +1,12 @@
-\--- no-print \---
-
-এটি ** scratch 3 ** প্রকল্পের একটি সংস্করণ।. এই প্রকল্পের একটি [ scratch 2 সংস্করণও রয়েছে ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
-
-\--- /no-print \---
-
 ## ভূমিকা
 
-আপনার নিজস্ব পেইন্ট প্রোগ্রাম তৈরী করুন!
+Make your own paint program!
 
 ### আপনি যা বানাবেন
 
 \--- no-print \---
 
-শুরু করতে সবুজ পতাকাটিতে ক্লিক করুন।. পেন্সিলটি সরাতে মাউস ব্যবহার করুন এবং আঁকতে বাম মাউস বোতামটি ধরে রাখুন।. পেন্সিল পরিবর্তন করতে একটি রঙে ক্লিক করুন।. এটি পরিবর্তন করতে ইরেজারে ক্লিক করুন এবং আপনার কাজ মুছতে এটি ব্যবহার করুন।. পৃষ্ঠাটি সাফ করতে, ক্রসে ক্লিক করুন।.
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-আপনি শুরু করতে সবুজ পতাকাটিতে ক্লিক করবেন এবং আপনি পেন্সিলটি সরাতে মাউসটি ব্যবহার করবেন এবং আঁকতে বাম মাউস বোতামটি ধরে রাখবেন।. কোনও রঙে ক্লিক করা হলে পেন্সিলের রঙও বদলে যাবে এবং ইরেজারে ক্লিক করলে ইরেজারে পরিবর্তন হবে!
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
 ![showcase](images/showcase.png)
 
@@ -61,7 +55,7 @@
 
 ## title: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
-আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"} ব্যবহার করুন ।.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
 You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
