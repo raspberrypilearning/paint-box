@@ -1,12 +1,6 @@
-\--- no-print \---
-
-这是该项目的 **Scratch 3** 版本。 项目</a>还有一个 Scratch 2版本。</p> 
-
-\--- /no-print \---
-
 ## 简介
 
-制作你自己的绘画程序！
+Make your own paint program!
 
 ### 学习成果
 
