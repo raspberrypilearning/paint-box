@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
-
-\--- /no-print \---
-
 ## Introduction
 
-Dans ce projet, Tu vas créer ton propre programme de dessin !
+Make your own paint program!
 
 ### Ce que tu feras
 
