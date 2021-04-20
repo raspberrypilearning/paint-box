@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Version des Projekts](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
-
-\--- /no-print \---
-
 ## Einleitung
 
-Mach dein eigenes Malprogramm!
+Make your own paint program!
 
 ### Was du machen wirst
 
 \--- no-print \---
 
-Klicke zum Starten auf die grüne Flagge. Verwende die Maus, um den Stift zu bewegen und halte die linke Maustaste gedrückt, um zu zeichnen. Klicke auf eine Farbe, um die Malfarbe des Stiftes zu wechseln. Klicke auf den Radiergummi, um ihn zu verwenden und deine Zeichnung zu löschen. Um die ganze Seite zu löschen, klicke auf das rote Kreuz.
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,9 +17,9 @@ Klicke zum Starten auf die grüne Flagge. Verwende die Maus, um den Stift zu bew
 
 \--- print-only \---
 
-Klicke auf die grüne Flagge um zu starten, und verwende die Computermaus, um den Stift zu bewegen, und halte die linke Maustaste gedrückt, um zu zeichnen. Wenn du auf eine der Farben unten klickst, ändert sich die Farbe des Stiftes, und wenn du du auf den Radierer klickst, kannst du ihn verwenden, um zu löschen!
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
-![Vorschau](images/showcase.png)
+![showcase](images/showcase.png)
 
 \--- /print-only \---
 
@@ -61,7 +55,7 @@ Klicke auf die grüne Flagge um zu starten, und verwende die Computermaus, um de
 
 ## title: Zusätzliche Informationen für Pädagogen
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
 You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
