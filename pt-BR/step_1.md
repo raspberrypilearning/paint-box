@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Esta é a versão **Scratch 3** do projeto. Há também uma [versão Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
-
-\--- /no-print \---
-
 ## Introdução
 
-Faça o seu próprio programa de pintura!
+Make your own paint program!
 
 ### O que você vai fazer
 
 \--- no-print \---
 
-Clique na bandeira verde para começar. Use o mouse para mover o lápis e segure o botão esquerdo do mouse para desenhar. Clique em uma cor para mudar de lápis. Clique na borracha para mudar para ela e usa-a para apagar o seu trabalho. Para limpar a página, clique na cruz.
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,9 +17,9 @@ Clique na bandeira verde para começar. Use o mouse para mover o lápis e segure
 
 \--- print-only \---
 
-Você vai clicar na bandeira verde para começar, e vai usar o mouse para mover o lápis e manter pressionado o botão esquerdo do mouse para desenhar. Clicar em uma cor vai mudar as cores do lápis, e clicar na borracha irá mudar para a borracha!
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
-![galeria](images/showcase.png)
+![showcase](images/showcase.png)
 
 \--- /print-only \---
 
@@ -61,8 +55,8 @@ Você vai clicar na bandeira verde para começar, e vai usar o mouse para mover 
 
 ## title: Informações adicionais para educadores
 
-Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-Você pode encontrar o [projeto concluído aqui](https://rpf.io/p/pt-BR/paint-box-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
