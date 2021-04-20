@@ -1,12 +1,6 @@
-\--- no-print \---
-
-이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/paint-box-scratch2)도 있습니다.
-
-\--- /no-print \---
-
 ## 들어가며
 
-자신만의 색칠하기 프로그램을 만들어봐요!
+Make your own paint program!
 
 ### 만들게 될 것
 
