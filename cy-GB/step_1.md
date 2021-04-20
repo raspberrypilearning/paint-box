@@ -1,12 +1,6 @@
-\--- no-print \---
-
-Dyma'r fersiwn ** Scratch 3 ** y prosiect. Mae yna hefyd fersiwn [ Scratch 2 y prosiect ](https://projects.raspberrypi.org/en/projects/paint-box-scratch2).
-
-\--- /no-print \---
-
 ## Cyflwyniad
 
-Gwna dy raglen peintio dy hunan!
+Make your own paint program!
 
 ### Yr hyn byddi di'n ei greu
 
