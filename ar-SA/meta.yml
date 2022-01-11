@@ -7,13 +7,15 @@ description: اصنع برنامج الرسام الخاص بك
 version: 4.1.0
 last_tested: 2018-30-01
 steps:
-  - title: المقدمة
-  - title: إنشاء قلم رصاص
-  - title: أقلام ملونة
-  - title: 'التحدي: الإختصارات'
-    challenge: true
-  - title: التراجع عن الاخطاء
-  - title: تغيير عرض قلم الرصاص
-  - title: 'التحدي: المزيد من أقلام الرصاص'
-    challenge: true
-  - title: 'ما التالي؟'
+- title: المقدمة
+  completion: engaged
+- title: إنشاء قلم رصاص
+- title: أقلام ملونة
+- title: 'التحدي: الإختصارات'
+  challenge: true
+- title: التراجع عن الاخطاء
+  completion: internal
+- title: تغيير عرض قلم الرصاص
+- title: 'التحدي: المزيد من أقلام الرصاص'
+  challenge: true
+- title: ما التالي؟

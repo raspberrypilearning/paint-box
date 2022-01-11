@@ -17,11 +17,13 @@ software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Uvod
-  - title: Šta će ti biti potrebno
-  - title: Pravljenje olovke
-  - title: Olovke u bojama
-  - title: Greške
-  - title: Promjena debljine olovke
-  - title: 'Izazov: prečice'
-  - title: 'Izazov: više olovaka'
+- title: Uvod
+  completion: engaged
+- title: Šta će ti biti potrebno
+- title: Pravljenje olovke
+- title: Olovke u bojama
+- title: Greške
+  completion: internal
+- title: Promjena debljine olovke
+- title: 'Izazov: prečice'
+- title: 'Izazov: više olovaka'

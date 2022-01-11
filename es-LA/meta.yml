@@ -7,13 +7,15 @@ description: Haz tu propio programa para pintar
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
-  - title: Introducción
-  - title: Haz un lápiz
-  - title: Lápices de colores
-  - title: 'Desafío: más lápices'
-    challenge: true
-  - title: Deshacer errores
-  - title: Cambia el ancho del lápiz
-  - title: 'Desafío: comandos del teclado'
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Haz un lápiz
+- title: Lápices de colores
+- title: 'Desafío: más lápices'
+  challenge: true
+- title: Deshacer errores
+  completion: internal
+- title: Cambia el ancho del lápiz
+- title: 'Desafío: comandos del teclado'
+  challenge: true
+- title: "¿Qué sigue?"

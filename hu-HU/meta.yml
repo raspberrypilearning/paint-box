@@ -7,13 +7,15 @@ description: Készítsd el a saját rajzoló programod
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
-  - title: Bevezetés
-  - title: Készíts egy ceruzát
-  - title: Színes ceruzák
-  - title: 'Kihívás:  több ceruza'
-    challenge: true
-  - title: A hibák visszavonása
-  - title: Módosítsd a vonal vastagságát
-  - title: 'Kihívás: billentyűzet parancsok'
-    challenge: true
-  - title: 'Mi a következő lépés?'
+- title: Bevezetés
+  completion: engaged
+- title: Készíts egy ceruzát
+- title: Színes ceruzák
+- title: 'Kihívás:  több ceruza'
+  challenge: true
+- title: A hibák visszavonása
+  completion: internal
+- title: Módosítsd a vonal vastagságát
+- title: 'Kihívás: billentyűzet parancsok'
+  challenge: true
+- title: Mi a következő lépés?

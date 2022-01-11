@@ -7,13 +7,15 @@ description: お絵かきができるプログラムを作りましょう
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
-  - title: はじめに
-  - title: 鉛筆を作る
-  - title: 色鉛筆
-  - title: 'チャレンジ: キーボードコマンド'
-    challenge: true
-  - title: 間違いを元に戻す
-  - title: 鉛筆の幅を変える
-  - title: 'チャレンジ: キーボードコマンド'
-    challenge: true
-  - title: '次は何？'
+- title: はじめに
+  completion: engaged
+- title: 鉛筆を作る
+- title: 色鉛筆
+- title: 'チャレンジ: キーボードコマンド'
+  challenge: true
+- title: 間違いを元に戻す
+  completion: internal
+- title: 鉛筆の幅を変える
+- title: 'チャレンジ: キーボードコマンド'
+  challenge: true
+- title: 次は何？

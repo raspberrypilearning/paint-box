@@ -7,13 +7,15 @@ description: Mach dein eigenes Malprogramm
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
-  - title: Einleitung
-  - title: Erzeuge einen Stift
-  - title: Buntstifte
-  - title: 'Aufgabe: mehr Stifte'
-    challenge: true
-  - title: Fehler ausbessern
-  - title: Die Stiftdicke ändern
-  - title: 'Aufgabe: Tasten-Kürzel'
-    challenge: true
-  - title: 'Wie geht es weiter?'
+- title: Einleitung
+  completion: engaged
+- title: Erzeuge einen Stift
+- title: Buntstifte
+- title: 'Aufgabe: mehr Stifte'
+  challenge: true
+- title: Fehler ausbessern
+  completion: internal
+- title: Die Stiftdicke ändern
+- title: 'Aufgabe: Tasten-Kürzel'
+  challenge: true
+- title: Wie geht es weiter?
