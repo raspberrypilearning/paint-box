@@ -51,11 +51,11 @@ title: আপনার যা প্রয়োজন হবে
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline starter project](http://rpf.io/p/bn-IN/paint-box-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/bn-IN/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: শিক্ষাবিদদের জন্য অতিরিক্�
 
 আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/bn-IN/projects/paint-box/print){:target="_blank"} ব্যবহার করুন ।.
 
-আপনি সমাপ্ত প্রকল্প সমূহ [completed project here](http://rpf.io/p/bn-IN/paint-box-get){:target="_blank"} এ সন্ধান করতে পারেন।.
+আপনি সমাপ্ত প্রকল্প সমূহ [completed project here](https://rpf.io/p/bn-IN/paint-box-get){:target="_blank"} এ সন্ধান করতে পারেন।.
 
 --- /collapse ---

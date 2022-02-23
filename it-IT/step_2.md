@@ -10,9 +10,9 @@ Aprire il progetto bozza di Scratch 'Paint box'.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline**: apri il [progetto bozza](http://rpf.io/p/it-IT/paint-box-go){:target="_blank"} nell'editor offline.
+**Offline**: apri il [progetto bozza](https://rpf.io/p/it-IT/paint-box-go){:target="_blank"} nell'editor offline.
 
-Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 Nel progetto iniziale, dovresti vedere gli sprite di gomma e matita:
 

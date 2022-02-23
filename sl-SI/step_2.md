@@ -6,13 +6,13 @@ Začni z izdelavo svinčnika, ki ga lahko uporabiš za risanje po odru.
 
 Odpri začetni projekt 'Barvice'
 
-**S povezavo:** odpri nov spletni Scratch projekt na [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**S povezavo:** odpri nov spletni Scratch projekt na [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-**Brez povezave** : odpri začetni projekt [ ](http://rpf.io/p/sl-SI/paint-box-go){:target="_blank"} v namiznem urejevalniku.
+**Brez povezave** : odpri začetni projekt [ ](https://rpf.io/p/sl-SI/paint-box-go){:target="_blank"} v namiznem urejevalniku.
 
-Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 V začetnem projektu bi moral videti figuri svinčnika in radirke:
 

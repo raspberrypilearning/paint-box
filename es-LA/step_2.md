@@ -10,9 +10,9 @@ Abre el proyecto inicial de Scratch 'Caja de lápices'.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Offline**: abre el [proyecto de inicio](http://rpf.io/p/es-LA/paint-box-go){:target=_blank"} en el editor offline.
+**Offline**: abre el [proyecto de inicio](https://rpf.io/p/es-LA/paint-box-go){:target=_blank"} en el editor offline.
 
-Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 En el proyecto de inicio, deberías ver los objetos lápiz y borrador:
 

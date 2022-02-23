@@ -2,7 +2,7 @@
 
 Mari kita mulai dengan membuat pensil yang bisa digunakan untuk menggambar pada stage.
 
-+ Buka proyek Scratch 'Paintbox' secara online di [rpf.io/paint-go-id-ID](http://rpf.io/paint-go-id-ID){:target="_blank"} atau unduh dari <http://rpf.io/paint-get-id-ID>{:target="_blank"} kemudian buka menggunakan editor offline.
++ Buka proyek Scratch 'Paintbox' secara online di [rpf.io/paint-go-id-ID](https://rpf.io/paint-go-id-ID){:target="_blank"} atau unduh dari <https://rpf.io/paint-get-id-ID>{:target="_blank"} kemudian buka menggunakan editor offline.
 
 Kamu akan melihat sprite pensil dan penghapus:
 

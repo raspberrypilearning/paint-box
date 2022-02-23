@@ -4,13 +4,13 @@ Készítsünk egy ceruzát, amellyel rajzolhatunk.
 
 --- task --- Nyisd meg a 'Paint box' Scratch kezdő projektet.
 
-**Online:** nyisd meg az kezdő projektet innen: [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online:** nyisd meg az kezdő projektet innen: [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Ha van Scratch fiókod, készíthetsz egy másolatot a **@ Remixelés** gombbal.
 
-**Offline**: nyisd meg a [kezdő projektet](http://rpf.io/p/hu-HU/paint-box-go){:target="_blank"} az offline szerkesztőben.
+**Offline**: nyisd meg a [kezdő projektet](https://rpf.io/p/hu-HU/paint-box-go){:target="_blank"} az offline szerkesztőben.
 
-Ha le szeretnéd tölteni és telepíteni a Scratch offline szerkesztőt, akkor azt itt találod: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Ha le szeretnéd tölteni és telepíteni a Scratch offline szerkesztőt, akkor azt itt találod: [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 Az kezdő projektben egy ceruzát és egy radírt kell látnod:
 
