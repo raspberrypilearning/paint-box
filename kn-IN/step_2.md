@@ -6,13 +6,13 @@
 
 'ಬಣ್ಣದ ಪೆಟ್ಟಿಗೆ' Scratch starter ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**Online**:[rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"} ನಲ್ಲಿ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ
+**Online**:[rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"} ನಲ್ಲಿ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ
 
 ನೀವು Scratch ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ನೀವು **Remix** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನಕಲನ್ನು ಮಾಡಬಹುದು.
 
-**Offline**: [ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು](http://rpf.io/p/kn-IN/paint-box-go){:target="_blank"} ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕದಲ್ಲಿ ತೆರೆಯಿರಿ.
+**Offline**: [ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು](https://rpf.io/p/kn-IN/paint-box-go){:target="_blank"} ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕದಲ್ಲಿ ತೆರೆಯಿರಿ.
 
-ನೀವು Scratch ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} ನಲ್ಲಿ ಕಾಣಬಹುದು
+ನೀವು Scratch ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} ನಲ್ಲಿ ಕಾಣಬಹುದು
 
 Scratch ಯೋಜನೆಯಲ್ಲಿ, ನೀವು ಸೀಸಕಡ್ಡಿ ಮತ್ತು eraser ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ನೋಡಬೇಕು:
 

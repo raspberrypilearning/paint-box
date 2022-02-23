@@ -4,13 +4,13 @@
 
 --- task --- افتح مشروع Scratch المبدئي 'صندوق الرسم'.
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 اذا كنت تملك حساب على منصة سكراتش Scratch فيمكنك عمل نسخة بالنقر على **Remix**.
 
-**دون اتصال بالانترنت**: افتح [المشروع المبدئي](http://rpf.io/p/ar-SA/paint-box-go){:target="_blank"} عبر المحرر الموجود على جهازك.
+**دون اتصال بالانترنت**: افتح [المشروع المبدئي](https://rpf.io/p/ar-SA/paint-box-go){:target="_blank"} عبر المحرر الموجود على جهازك.
 
-اذا كنت تحتاج تنزيل و تركيب محرر Scratch للعمل دون اتصال بالانترنت, فيمكنك ايجاده على الرابط [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+اذا كنت تحتاج تنزيل و تركيب محرر Scratch للعمل دون اتصال بالانترنت, فيمكنك ايجاده على الرابط [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 في المشروع المبدئي، سترى كائنات القلم الرصاص و الممحاة:
 

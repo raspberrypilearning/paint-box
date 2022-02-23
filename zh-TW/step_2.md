@@ -10,9 +10,9 @@
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版**：在離線編輯器裡開啟[材料包](http://rpf.io/p/zh-TW/paint-box-go){:target="_blank"}。
+**離線版**：在離線編輯器裡開啟[材料包](https://rpf.io/p/zh-TW/paint-box-go){:target="_blank"}。
 
-如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
 
 在材料包中，你應該會看到「鉛筆」和「擦除」兩個角色：
 

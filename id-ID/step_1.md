@@ -13,7 +13,7 @@ Klik pada bendera hijau untuk memulai. Gunakan mouse untuk menggerakkan pensil d
 
 ### Apa yang akan kamu pelajari
 
-Proyek ini mencakup unsur-unsur dari rangkaian [Kurikulum Digital Making Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+Proyek ini mencakup unsur-unsur dari rangkaian [Kurikulum Digital Making Raspberry Pi](https://rpf.io/curriculum){:target="_blank"}:
 
 + [Gabungkan konstruksi pemrograman untuk memecahkan masalah.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 

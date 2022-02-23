@@ -6,13 +6,13 @@
 
 'पेंट बॉक्स' नवशिक्या Scratch प्रोजेक्ट उघडा.
 
-**ऑनलाइन**: नवशिक्या प्रोजेक्ट ईथे उघडा[rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**ऑनलाइन**: नवशिक्या प्रोजेक्ट ईथे उघडा[rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 आपल्याकडे Scratch खाते असल्यास आपण **Remix** वर क्लिक करून एक प्रत बनवू शकता.
 
-**ऑफलाइन**: [नवशिक्या प्रोजेक्ट](http://rpf.io/p/mr-IN/paint-box-go){:target="_blank"} उघडा ऑफलाइन संपादकात.
+**ऑफलाइन**: [नवशिक्या प्रोजेक्ट](https://rpf.io/p/mr-IN/paint-box-go){:target="_blank"} उघडा ऑफलाइन संपादकात.
 
-आपल्याला Scratch ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [rpf.io/scratchoff येथे शोधू शकता](http://rpf.io/scratchoff){:target="_blank"}
+आपल्याला Scratch ऑफलाइन संपादक डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [rpf.io/scratchoff येथे शोधू शकता](https://rpf.io/scratchoff){:target="_blank"}
 
 नवशिक्या प्रोजेक्टमध्ये आपणास पेन्सिल आणि खोडरबर स्प्राइट्स दिसायला पाहिजेत:
 

@@ -43,11 +43,11 @@ title: Mire lesz szükséged?
 
 ### Szoftver
 
-+ Scratch 3 (vagy [online](http://rpf.io/scratchon){:target="_ blank"} vagy [offline](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (vagy [online](https://rpf.io/scratchon){:target="_ blank"} vagy [offline](https://rpf.io/scratchoff){:target="_ blank"})
 
 ### Letöltések
 
-+ [Offline kezdőprojekt](http://rpf.io/p/hu-HU/paint-box-go){:target="_blank"}
++ [Offline kezdőprojekt](https://rpf.io/p/hu-HU/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -58,4 +58,4 @@ title: További információk oktatóknak
 
 Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verziót](https://projects.raspberrypi.org/hu-HU/projects/paint-box/print){:target="_blank"}.
 
-Itt található a [befejezett projekt](http://rpf.io/p/hu-HU/paint-box-get){:target="_blank"}. --- /collapse ---
+Itt található a [befejezett projekt](https://rpf.io/p/hu-HU/paint-box-get){:target="_blank"}. --- /collapse ---

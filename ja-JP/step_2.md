@@ -10,9 +10,9 @@
 
 Scratchアカウントをお持ちの場合は、 **リミックス** ボタンをクリックしてコピーできます。
 
-**オフライン**: オフラインエディターで[スタータープロジェクト](http://rpf.io/p/ja-JP/paint-box-go){:target="_blank"}を開きます。
+**オフライン**: オフラインエディターで[スタータープロジェクト](https://rpf.io/p/ja-JP/paint-box-go){:target="_blank"}を開きます。
 
-Scratchオフラインエディターが必要ならば、[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}からダウンロードしてインストールできます。
+Scratchオフラインエディターが必要ならば、[rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}からダウンロードしてインストールできます。
 
 スタータープロジェクトには鉛筆と消しゴムのスプライトが含まれています。
 

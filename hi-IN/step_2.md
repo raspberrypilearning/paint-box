@@ -6,13 +6,13 @@
 
 'पेंट बॉक्स' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन**: [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"} पे से स्टार्टर प्रोजेक्ट खोलिये
+**ऑनलाइन**: [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"} पे से स्टार्टर प्रोजेक्ट खोलिये
 
 यदि आपके पास एक Scratch खाता है, तो आप **Remix** पर क्लिक करके प्रतिलिपि बना सकते हैं।
 
-**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](http://rpf.io/p/hi-IN/paint-box-go){:target="_blank"} को ऑफलाइन एडिटर में खोलिये।
+**ऑफलाइन**: [स्टार्टर प्रोजेक्ट](https://rpf.io/p/hi-IN/paint-box-go){:target="_blank"} को ऑफलाइन एडिटर में खोलिये।
 
-अगर आपके पास Scratch ऑफलाइन एडिटर नहीं है, तो आप यहाँ से उसे डाउनलोड कर सकते है [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+अगर आपके पास Scratch ऑफलाइन एडिटर नहीं है, तो आप यहाँ से उसे डाउनलोड कर सकते है [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 स्टार्टर प्रोजेक्ट में, आपको पेंसिल और रबड़ स्प्राइट दिखाई देना चाहिए:
 

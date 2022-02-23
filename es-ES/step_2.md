@@ -10,9 +10,9 @@ Abre el proyecto inicial de Scratch 'Caja de lápices'.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/es-ES/paint-box-go){:target="_blank"} en el editor sin conexión.
+**Sin conexión**: abre el [proyecto de inicio](https://rpf.io/p/es-ES/paint-box-go){:target="_blank"} en el editor sin conexión.
 
-Si necesita descargar e instalar el editor sin conexión de Scratch, puede encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Si necesita descargar e instalar el editor sin conexión de Scratch, puede encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 En el proyecto de inicio, deberías ver los objetos lápiz y gomadeborrar:
 

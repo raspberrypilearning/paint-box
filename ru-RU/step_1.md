@@ -43,11 +43,11 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-+ Скретч 3 ([онлайн](http://rpf.io/scratchon){:target="_blank"} или [оффлайн](http://rpf.io/scratchoff){:target="_blank"} версия)
++ Скретч 3 ([онлайн](https://rpf.io/scratchon){:target="_blank"} или [оффлайн](https://rpf.io/scratchoff){:target="_blank"} версия)
 
 ### Загрузки
 
-+ [Автономный стартовый проект](http://rpf.io/p/ru-RU/paint-box-go){:target="_blank"}
++ [Автономный стартовый проект](https://rpf.io/p/ru-RU/paint-box-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -58,4 +58,4 @@ title: Дополнительная информация для преподав
 
 Если тебе нужно распечатать страницу данного проекта, то используй [версию для печати](https://projects.raspberrypi.org/ru-RU/projects/paint-box/print){:target="_blank"}.
 
-Здесь ты можешь найти [завершённый проект](http://rpf.io/p/ru-RU/paint-box-get){:target="_blank"}. --- /collapse ---
+Здесь ты можешь найти [завершённый проект](https://rpf.io/p/ru-RU/paint-box-get){:target="_blank"}. --- /collapse ---

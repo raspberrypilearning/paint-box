@@ -4,13 +4,13 @@ Fe wnawn ni ddechrau trwy greu pensil mae modd ei ddefnyddio i arlunio ar y llwy
 
 --- task --- Agora prosiect cychwynol 'Bocs Paentio'.
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein:** agor y [prosiect cychwynnol](http://rpf.io/p/cy-GB/paint-box-go){:target="_blank"} yn y golygydd all-lein.
+**All-lein:** agor y [prosiect cychwynnol](https://rpf.io/p/cy-GB/paint-box-go){:target="_blank"} yn y golygydd all-lein.
 
-Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 Yn y prosiect cychwynnol, fe ddylet ti weld corlun pensil a dileuwr:
 
