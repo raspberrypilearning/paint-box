@@ -7,13 +7,17 @@ description: 자신만의 색칠하기 프로그램을 만들어봐요
 version: 4.1.0
 last_tested: 2018-30-01
 steps:
-  - title: 소개
-  - title: 준비물
-  - title: 색연필
-  - title: '도전과제: 연필 추가하기'
-    challenge: true
-  - title: 실수를 되돌리기
-  - title: 펜의 두께 변경하기
-  - title: '도전과제: 단축키 만들기'
-    challenge: true
-  - title: '더 나아가기'
+- title: 소개
+- title: 준비물
+- title: 색연필
+  completion:
+  - engaged
+- title: '도전과제: 연필 추가하기'
+  challenge: true
+- title: 실수를 되돌리기
+- title: 펜의 두께 변경하기
+  completion:
+  - internal
+- title: '도전과제: 단축키 만들기'
+  challenge: true
+- title: 더 나아가기

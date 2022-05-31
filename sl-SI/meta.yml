@@ -7,13 +7,17 @@ description: Ustvari svoj risarski program
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
-  - title: Uvod
-  - title: Ustvari svinčnik
-  - title: Barvice
-  - title: 'Izziv: več svinčnikov'
-    challenge: true
-  - title: Razveljavitev napak
-  - title: Spremeni širino pisala
-  - title: 'Izziv: ukazi na tipkovnici'
-    challenge: true
-  - title: 'Kaj sledi?'
+- title: Uvod
+- title: Ustvari svinčnik
+- title: Barvice
+  completion:
+  - engaged
+- title: 'Izziv: več svinčnikov'
+  challenge: true
+- title: Razveljavitev napak
+- title: Spremeni širino pisala
+  completion:
+  - internal
+- title: 'Izziv: ukazi na tipkovnici'
+  challenge: true
+- title: Kaj sledi?

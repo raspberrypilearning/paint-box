@@ -7,13 +7,17 @@ description: Crea un programma per disegnare
 version: 4.1.0
 last_tested: 2018-30-01
 steps:
-  - title: Introduzione
-  - title: Di cosa avrai bisogno
-  - title: Matite colorate
-  - title: 'Sfida: Più matite'
-    challenge: true
-  - title: Fare errori
-  - title: Cambiare lo spessore della penna
-  - title: 'Sfida: comandi da tastiera'
-    challenge: true
-  - title: 'E poi?'
+- title: Introduzione
+- title: Di cosa avrai bisogno
+- title: Matite colorate
+  completion:
+  - engaged
+- title: 'Sfida: Più matite'
+  challenge: true
+- title: Fare errori
+- title: Cambiare lo spessore della penna
+  completion:
+  - internal
+- title: 'Sfida: comandi da tastiera'
+  challenge: true
+- title: E poi?

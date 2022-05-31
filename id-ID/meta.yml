@@ -17,11 +17,15 @@ software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Pengantar
-  - title: Apa yang kamu butuhkan
-  - title: Membuat pensil
-  - title: Pensil berwarna
-  - title: Membuat kesalahan
-  - title: Mengubah lebar pensil
-  - title: 'Tantangan: pintasan'
-  - title: 'Tantangan: pensil tambahan'
+- title: Pengantar
+- title: Apa yang kamu butuhkan
+- title: Membuat pensil
+  completion:
+  - engaged
+- title: Pensil berwarna
+- title: Membuat kesalahan
+- title: Mengubah lebar pensil
+  completion:
+  - internal
+- title: 'Tantangan: pintasan'
+- title: 'Tantangan: pensil tambahan'

@@ -7,14 +7,18 @@ description: Dysga sut i greu rhaglen paentio dy hunan.
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Cyflwyniad
-  - title: Creu pensil
-  - title: Pensiliau lliw
-  - title: 'Her: mwy o bensiliau'
-    challenge: true
-  - title: Dadwneud camgymeriadau
-  - title: Newid lled y pensil
-  - title: 'Her: gorchmynion y bysellfwrdd'
-    challenge: true
-  - title: Profwch eich hun
-  - title: 'Beth nesaf?'
+- title: Cyflwyniad
+- title: Creu pensil
+- title: Pensiliau lliw
+  completion:
+  - engaged
+- title: 'Her: mwy o bensiliau'
+  challenge: true
+- title: Dadwneud camgymeriadau
+- title: Newid lled y pensil
+  completion:
+  - internal
+- title: 'Her: gorchmynion y bysellfwrdd'
+  challenge: true
+- title: Profwch eich hun
+- title: Beth nesaf?

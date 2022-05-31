@@ -7,13 +7,17 @@ description: Aprende a hacer tu propio programa de dibujo.
 version: 3
 last_tested: 2018-30-01
 steps:
-  - title: Introducción
-  - title: Haz un lápiz
-  - title: Lápices de colores
-  - title: 'Desafío: más lápices'
-    challenge: true
-  - title: Corrige errores
-  - title: Cambia el grosor del lápiz
-  - title: 'Desafío: comandos de teclado'
-    challenge: true
-  - title: '¿Qué hacer a continuación?'
+- title: Introducción
+- title: Haz un lápiz
+- title: Lápices de colores
+  completion:
+  - engaged
+- title: 'Desafío: más lápices'
+  challenge: true
+- title: Corrige errores
+- title: Cambia el grosor del lápiz
+  completion:
+  - internal
+- title: 'Desafío: comandos de teclado'
+  challenge: true
+- title: "¿Qué hacer a continuación?"

@@ -7,13 +7,17 @@ description: Crie o seu próprio programa de pintura
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
-  - title: Introdução
-  - title: Crie um lápis
-  - title: Lápis coloridos
-  - title: 'Desafio: mais lápis'
-    challenge: true
-  - title: Desfazer erros
-  - title: Mudando a espessura do lápis
-  - title: 'Desafio: comandos de teclado'
-    challenge: true
-  - title: 'E agora?'
+- title: Introdução
+- title: Crie um lápis
+- title: Lápis coloridos
+  completion:
+  - engaged
+- title: 'Desafio: mais lápis'
+  challenge: true
+- title: Desfazer erros
+- title: Mudando a espessura do lápis
+  completion:
+  - internal
+- title: 'Desafio: comandos de teclado'
+  challenge: true
+- title: E agora?
