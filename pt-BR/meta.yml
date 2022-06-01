@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Introdução
-  completion: engaged
 - title: Crie um lápis
 - title: Lápis coloridos
+  completion:
+  - engaged
 - title: 'Desafio: mais lápis'
   challenge: true
 - title: Desfazer erros
-  completion: internal
 - title: Mudando a espessura do lápis
+  completion:
+  - internal
 - title: 'Desafio: comandos de teclado'
   challenge: true
 - title: E agora?

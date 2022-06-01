@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Uvod
-  completion: engaged
 - title: Ustvari svinčnik
 - title: Barvice
+  completion:
+  - engaged
 - title: 'Izziv: več svinčnikov'
   challenge: true
 - title: Razveljavitev napak
-  completion: internal
 - title: Spremeni širino pisala
+  completion:
+  - internal
 - title: 'Izziv: ukazi na tipkovnici'
   challenge: true
 - title: Kaj sledi?

@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Pengantar
-  completion: engaged
 - title: Apa yang kamu butuhkan
 - title: Membuat pensil
+  completion:
+  - engaged
 - title: Pensil berwarna
 - title: Membuat kesalahan
-  completion: internal
 - title: Mengubah lebar pensil
+  completion:
+  - internal
 - title: 'Tantangan: pintasan'
 - title: 'Tantangan: pensil tambahan'

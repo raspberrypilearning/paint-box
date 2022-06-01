@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 30-11-2018
 steps:
 - title: Введение
-  completion: engaged
 - title: Сделай карандаш
 - title: Цветные карандаши
+  completion:
+  - engaged
 - title: 'Задача: больше карандашей'
   challenge: true
 - title: Отмена ошибочных действий
-  completion: internal
 - title: Измени ширину карандаша
+  completion:
+  - internal
 - title: 'Задача: команды на клавиатуре'
   challenge: true
 - title: Что дальше?

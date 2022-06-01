@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: முன்னுரை
-  completion: engaged
 - title: ஒரு பென்சிலை உருவாக்குதல்
 - title: வண்ண பென்சில்கள்
+  completion:
+  - engaged
 - title: 'சவால்: குறுக்குவழிகள்'
   challenge: true
 - title: தவறுகளை திரும்பப் பெறவும்(undo)
-  completion: internal
 - title: பென்சில் அகலத்தை மாற்றவும்
+  completion:
+  - internal
 - title: 'சவால்: விசைப்பலகை கட்டளைகள்'
   challenge: true
 - title: அடுத்தது என்ன?

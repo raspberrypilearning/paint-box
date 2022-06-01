@@ -8,14 +8,16 @@ version: 3
 last_tested: 2018-30-01
 steps:
 - title: Introducción
-  completion: engaged
 - title: Haz un lápiz
 - title: Lápices de colores
+  completion:
+  - engaged
 - title: 'Desafío: más lápices'
   challenge: true
 - title: Corrige errores
-  completion: internal
 - title: Cambia el grosor del lápiz
+  completion:
+  - internal
 - title: 'Desafío: comandos de teclado'
   challenge: true
 - title: "¿Qué hacer a continuación?"

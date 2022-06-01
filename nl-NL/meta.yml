@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Een potlood maken
 - title: Kleurpotloden
+  completion:
+  - engaged
 - title: 'Uitdaging: meer potloden'
   challenge: true
 - title: Fouten ongedaan maken
-  completion: internal
 - title: De potlooddikte wijzigen
+  completion:
+  - internal
 - title: 'Uitdaging: toetsenbord opdrachten'
   challenge: true
 - title: Test jezelf

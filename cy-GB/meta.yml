@@ -8,14 +8,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Creu pensil
 - title: Pensiliau lliw
+  completion:
+  - engaged
 - title: 'Her: mwy o bensiliau'
   challenge: true
 - title: Dadwneud camgymeriadau
-  completion: internal
 - title: Newid lled y pensil
+  completion:
+  - internal
 - title: 'Her: gorchmynion y bysellfwrdd'
   challenge: true
 - title: Profwch eich hun

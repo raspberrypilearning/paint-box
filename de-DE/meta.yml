@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Erzeuge einen Stift
 - title: Buntstifte
+  completion:
+  - engaged
 - title: 'Aufgabe: mehr Stifte'
   challenge: true
 - title: Fehler ausbessern
-  completion: internal
 - title: Die Stiftdicke ändern
+  completion:
+  - internal
 - title: 'Aufgabe: Tasten-Kürzel'
   challenge: true
 - title: Wie geht es weiter?

@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-30-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: إنشاء قلم رصاص
 - title: أقلام ملونة
+  completion:
+  - engaged
 - title: 'التحدي: الإختصارات'
   challenge: true
 - title: التراجع عن الاخطاء
-  completion: internal
 - title: تغيير عرض قلم الرصاص
+  completion:
+  - internal
 - title: 'التحدي: المزيد من أقلام الرصاص'
   challenge: true
 - title: ما التالي؟

@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Introduction
-  completion: engaged
 - title: Make a pencil
 - title: Coloured pencils
+  completion:
+  - engaged
 - title: 'Challenge: more pencils'
   challenge: true
 - title: Undo mistakes
-  completion: internal
 - title: Change the pencil width
+  completion:
+  - internal
 - title: 'Challenge: keyboard commands'
   challenge: true
 - title: What next?

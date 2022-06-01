@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: परिचय
-  completion: engaged
 - title: एक पेन्सिल बनवा
 - title: रंगीत पेन्सिल
+  completion:
+  - engaged
 - title: 'आव्हान: अधिक पेन्सिल'
   challenge: true
 - title: चुका मीटवा
-  completion: internal
 - title: पेन रुंदी बदला
+  completion:
+  - internal
 - title: आव्हानः कीबोर्ड कमांड
   challenge: true
 - title: पुढे काय?

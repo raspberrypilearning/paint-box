@@ -18,12 +18,14 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Šta će ti biti potrebno
 - title: Pravljenje olovke
+  completion:
+  - engaged
 - title: Olovke u bojama
 - title: Greške
-  completion: internal
 - title: Promjena debljine olovke
+  completion:
+  - internal
 - title: 'Izazov: prečice'
 - title: 'Izazov: više olovaka'

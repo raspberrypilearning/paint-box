@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Introduction
-  completion: engaged
 - title: Crée un crayon
 - title: Crayons de couleurs
+  completion:
+  - engaged
 - title: 'Défi : plus de crayons'
   challenge: true
 - title: Annule les erreurs
-  completion: internal
 - title: Change la largeur du stylo
+  completion:
+  - internal
 - title: 'Défi : commandes au clavier'
   challenge: true
 - title: Que faire ensuite ?

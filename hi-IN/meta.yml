@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: भूमिका
-  completion: engaged
 - title: पेंसिल बनाना
 - title: रंगीन पेंसिलें
+  completion:
+  - engaged
 - title: 'चुनौती: शॉर्टकट्स'
   challenge: true
 - title: गलतियों को पूर्ववत करें
-  completion: internal
 - title: पेन की चौड़ाई बदलें
+  completion:
+  - internal
 - title: 'चुनौती: कीबोर्ड कमांड्स'
   challenge: true
 - title: आगे क्या?

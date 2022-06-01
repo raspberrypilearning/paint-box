@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Bevezetés
-  completion: engaged
 - title: Készíts egy ceruzát
 - title: Színes ceruzák
+  completion:
+  - engaged
 - title: 'Kihívás:  több ceruza'
   challenge: true
 - title: A hibák visszavonása
-  completion: internal
 - title: Módosítsd a vonal vastagságát
+  completion:
+  - internal
 - title: 'Kihívás: billentyűzet parancsok'
   challenge: true
 - title: Mi a következő lépés?

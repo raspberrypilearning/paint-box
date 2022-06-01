@@ -14,11 +14,13 @@ technologies: scratch
 site_areas: codeclub, scratch
 steps:
 - title: 介绍
-  completion: engaged
 - title: 制作铅笔
 - title: 彩笔
+  completion:
+  - engaged
 - title: 出错
 - title: 更改笔尖宽度
-  completion: internal
 - title: 挑战：快捷键
+  completion:
+  - internal
 - title: 挑战：更多画笔

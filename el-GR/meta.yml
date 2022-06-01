@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Δημιούργησε ένα μολύβι
 - title: Χρωματιστά μολύβια
+  completion:
+  - engaged
 - title: 'Πρόκληση: περισσότερα μολύβια'
   challenge: true
 - title: Διόρθωσε λάθη
-  completion: internal
 - title: Άλλαξε το πάχος του μολυβιού
+  completion:
+  - internal
 - title: 'Πρόκληση: εντολές πληκτρολογίου'
   challenge: true
 - title: Και τώρα;

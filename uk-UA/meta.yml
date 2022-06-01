@@ -8,14 +8,16 @@ version: 4.1.0
 last_tested: 2018-11-30
 steps:
 - title: Вступ
-  completion: engaged
 - title: Створи олівець
 - title: Кольорові олівці
+  completion:
+  - engaged
 - title: 'Завдання: більше олівців'
   challenge: true
 - title: Виправ хиби
-  completion: internal
 - title: Зміни товщину олівця
+  completion:
+  - internal
 - title: 'Завдання: команди з клавіатури'
   challenge: true
 - title: Що далі?
