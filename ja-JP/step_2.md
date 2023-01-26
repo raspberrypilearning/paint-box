@@ -6,13 +6,13 @@
 
 「ペイントボックス」というScratchのスタータープロジェクトを開きます。
 
-**オンライン:** [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}にあるスタータープロジェクトを開きます。
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Scratchアカウントをお持ちの場合は、 **リミックス**ボタンをクリックしてコピーできます。
 
-**オフライン**: オフラインエディターで[スタータープロジェクト](http://rpf.io/p/en/paint-box-go){:target="_blank"}を開きます。
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Scratchオフラインエディターが必要ならば、[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}からダウンロードしてインストールできます。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 スタータープロジェクトには鉛筆と消しゴムのスプライトが含まれています。
 
