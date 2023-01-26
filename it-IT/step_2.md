@@ -6,13 +6,13 @@ Inizia creando la matita necessaria per disegnare sullo stage.
 
 Aprire il progetto bozza di Scratch 'Paint box'.
 
-**Online**: apri il progetto bozza su [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_ blank"}
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline**: apri il [progetto bozza](http://rpf.io/p/en/paint-box-go){:target="_ blank"} nell'editor offline.
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 Nel progetto iniziale, dovresti vedere gli sprite di gomma e matita:
 
