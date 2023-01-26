@@ -1,11 +1,11 @@
-blue
+أزرق
 
-green
+اخضر
 
-width
+عرض
 
-pencil-blue
+قلم رصاص أزرق
 
-pencil-green
+قلم رصاص أخضر
 
-eraser
+الممحاة
