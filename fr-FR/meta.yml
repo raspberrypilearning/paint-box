@@ -13,6 +13,8 @@ steps:
     title: Crée un crayon
   - 
     title: Crayons de couleurs
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Corrige des erreurs
   - 
     title: Changer l'épaisseur du trait
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'What next?'
+    title: What next?
