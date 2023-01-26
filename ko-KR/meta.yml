@@ -13,6 +13,8 @@ steps:
     title: 준비물
   - 
     title: 색연필
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: 실수 해보기
   - 
     title: 연필 두께 변경하기
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'What next?'
+    title: What next?
