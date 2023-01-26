@@ -6,13 +6,13 @@
 
 'வண்ணப்பூச்சு பெட்டி'(Paint box) Scratch தொடக்கநிலை திட்டத்தை திறக்கவும்.
 
-**நிகழ்நிலை (ஆன்லைன்):** நிகழ்நிலை தொடக்கநிலை திட்டத்தை(starter project) இங்கு [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target ="_ blank"} திறக்கவும்.
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 உங்களிடம் Scratch கணக்கு இருந்தால் **Remix**(ரீமிக்ஸ்) என்பதைக் கிளிக் செய்வதன் மூலம் ஒரு நகலை உருவாக்கலாம். 
 
-**அகல்நிலை(ஆஃப்லைன்)**: [தொடக்கநிலை திட்டத்தை](http://rpf.io/p/en/paint-box-go){:target ="_ blank"} அகல்நிலை பதிப்பானில் (ஆஃப்லைன் எடிட்டர்) திறக்கவும். 
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-நீங்கள் Scratch அகல்நிலை பதிப்பானை பதிவிறக்கி நிறுவ வேண்டும் என்றால், அதை [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} இங்கு காணலாம்
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 தொடக்கநிலை திட்டத்தில், நீங்கள் பென்சில்(pencil) மற்றும் அழிப்பான்(eraser) sprite-களை பார்க்கலாம்:
 
