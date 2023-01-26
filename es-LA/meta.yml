@@ -13,6 +13,8 @@ steps:
     title: Haz un lápiz
   - 
     title: Lápices de colores
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,6 +22,8 @@ steps:
     title: Deshacer errores
   - 
     title: Cambia el grosor del lápiz
+    completion:
+      - internal
   - 
     title: 'Desafío: comandos del teclado'
     challenge: true
