@@ -6,13 +6,13 @@ Beginnen wir mit einem Buntstift, mit dem wir auf der Bühne zeichnen können.
 
 Öffne das Scratch-Projekt 'Malkasten'.
 
-**Online:** Öffne das Projekt zum Starten [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: Öffne das [Start-Projekt](http://rpf.io/p/en/paint-box-go){:target="_blank"} im Offline-Editor.
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, findest du es unter diesem Link: [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 Im Start-Projekt solltest du eine Buntstift- und eine Radierer-Figur sehen:
 
