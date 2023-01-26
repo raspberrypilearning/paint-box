@@ -13,6 +13,8 @@ steps:
     title: 做個鉛筆
   - 
     title: 不同顏色的鉛筆
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: 清空與擦除
   - 
     title: 改變鉛筆的寬度
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: '然後呢？'
+    title: 然後呢？
