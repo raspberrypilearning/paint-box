@@ -3,25 +3,29 @@ title: पेंट बॉक्स
 hero_image: images/banner.png
 listed: true
 copyedit: false
-description: अपना स्वयं का पेंट प्रोजेक्ट बनाना सीखें।
+description: अपना खुद का पेंट प्रोग्राम बनाएं
 version: 4.1.0
 last_tested: 2018-11-30
 steps:
   - 
     title: भूमिका
   - 
-    title: पेंसिल बनाना
+    title: पेंसिल बनाएं
   - 
     title: रंगीन पेंसिलें
+    completion:
+      - engaged
   - 
-    title: 'Challenge: more pencils'
+    title: 'चुनौती: अधिक पेन्सिलें'
     challenge: true
   - 
-    title: गलतियों को पुर्ववत करना
+    title: गलतियों को पूर्ववत करें
   - 
     title: पेंसिल की चौड़ाई बदलें
+    completion:
+      - internal
   - 
-    title: 'चुनौती: कीबोर्ड कमांड'
+    title: 'चुनौती: कीबोर्ड कमांड्स'
     challenge: true
   - 
-    title: 'आगे क्या?'
+    title: आगे क्या?
