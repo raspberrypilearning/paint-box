@@ -13,6 +13,8 @@ steps:
     title: Δημιούργησε ένα μολύβι
   - 
     title: Χρωματιστά μολύβια
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Διόρθωσε λάθη
   - 
     title: Άλλαξε το πάχος του μολυβιού
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: εντολές πληκτρολογίου'
     challenge: true
   - 
-    title: 'Και τώρα;'
+    title: Και τώρα;
