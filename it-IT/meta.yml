@@ -13,6 +13,8 @@ steps:
     title: Crea una matita
   - 
     title: Matite colorate
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Annulla gli errori
   - 
     title: Cambia lo spessore della matita
+    completion:
+      - internal
   - 
     title: 'Sfida: comandi da tastiera'
     challenge: true
   - 
-    title: 'E poi?'
+    title: E poi?
