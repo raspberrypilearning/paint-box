@@ -13,6 +13,8 @@ steps:
     title: Створи олівець
   - 
     title: Кольорові олівці
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Виправ хиби
   - 
     title: Зміни товщину олівця
+    completion:
+      - internal
   - 
     title: 'Завдання: команди з клавіатури'
     challenge: true
   - 
-    title: 'Що далі?'
+    title: Що далі?
