@@ -13,6 +13,8 @@ steps:
     title: 制作铅笔
   - 
     title: 彩色铅笔
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: 撤消错误
   - 
     title: 改变铅笔宽度
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'What next?'
+    title: What next?
