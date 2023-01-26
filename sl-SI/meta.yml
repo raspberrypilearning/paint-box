@@ -13,6 +13,8 @@ steps:
     title: Ustvari svinčnik
   - 
     title: Barvice
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Razveljavitev napak
   - 
     title: Spremeni širino pisala
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'Kaj sledi?'
+    title: Kaj sledi?
