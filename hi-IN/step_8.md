@@ -13,6 +13,6 @@
 
 \--- print-only \---
 
-![बोट रेस का ‌‌‌डेमो](images/boat_race_demo.png)
+![बोट रेस डेमो](images/boat_race_demo.png)
 
 \--- /print-only \---
