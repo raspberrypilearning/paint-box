@@ -6,13 +6,13 @@ Laten we beginnen met het maken van een potlood dat kan worden gebruikt om op he
 
 Open het "Paint box" start project.
 
-**Online** open het start project op [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_ blank"}
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: open het [start project](http://rpf.io/p/en/paint-box-go){:target="_ blank"} in de offline editor.
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 In het start project zou je een potlood- en een gum-sprite moeten zien:
 
