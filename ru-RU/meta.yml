@@ -13,6 +13,8 @@ steps:
     title: Сделай карандаш
   - 
     title: Цветные карандаши
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Отмена ошибочных действий
   - 
     title: Измени ширину карандаша
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'Что дальше?'
+    title: Что дальше?
