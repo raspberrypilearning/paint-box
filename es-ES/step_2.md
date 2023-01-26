@@ -6,13 +6,13 @@ Comienza haciendo un lápiz que puedes utilizar para dibujar en un Escenario.
 
 Abre el proyecto inicial de Scratch 'Caja de lápices'.
 
-**Online**: abre el proyecto de inicio en [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/en/paint-box-go){:target="_blank"} en el editor sin conexión.
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-Si necesita descargar e instalar el editor sin conexión de Scratch, puede encontrarlo en [ rpf.io/scratchoff ](http://rpf.io/scratchoff) {: target = "_ blank"}
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 En el proyecto de inicio, deberías ver los objetos lápiz y gomadeborrar:
 
