@@ -1,6 +1,6 @@
-## Challenge: keyboard commands
+## Izazov: naredbe tipkovnice
 
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+Možete li dodati kôd tako da umjesto klika na obojene kvadratiće ili gumbe na sceni, stvari možete dogoditi pritiskom na tipke na tipkovnici? Naprimjer:
 
 + <kbd>b</kbd> = Switch to blue pencil
 + <kbd>g</kbd> = switch to green pencil
