@@ -1,12 +1,12 @@
 ## المقدمة
 
-Make your own paint program!
+اصنع برنامج الرسام الخاص بك!
 
 ### ما الذي ستصنعه
 
 \--- no-print \---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+انقر على العلم الأخضر للبدء. استخدم الماوس لتحريك قلم الرصاص واضغط باستمرار على زر الماوس الأيسر للرسم. انقر على لون لتغيير لون القلم الرصاص. انقر على الممحاة لتفعيل استخدامها ، واستخدمها لمحو عملك. لمسح الصفحة ، انقر فوق رمز التقاطع (علامة الاكس).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -17,9 +17,9 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 \--- print-only \---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+سوف تنقر على العلم الأخضر للبدء، وسوف تستخدم الفأرة لتحريك قلم الرصاص مع الضغط على زر الماوس الأيسر للرسم. النقر على لون سيغير لون قلم الرصاص، و النقر على أداة الممحاة سوف يجعل الممحاة تبدأ العمل!
 
-![showcase](images/showcase.png)
+![عرض](images/showcase.png)
 
 \--- /print-only \---
 
@@ -29,7 +29,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 + اضافة ملحق القلم في Scratch
 + استخدام عملية البث للتحكم بكائن في Scratch
-+ Recall how to respond to mouse events in Scratch
++ كيفية الاستجابة لأحداث الماوس في Scratch
 
 \--- /collapse \---
 
@@ -41,13 +41,13 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 + جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
 
-### البرامج
+### البرمجيات
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff){:target="_blank"})
 
 ### للتحميل
 
-+ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
++ [للبدء بالمشروع دون الاتصال بالانترنت](https://rpf.io/p/ar-SA/paint-box-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -55,8 +55,8 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ## title: معلومات إضافية للمعلمين
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
+إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/paint-box/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/ar-SA/paint-box-get){:target="_blank"}.
 
 \--- /collapse \---
