@@ -13,6 +13,8 @@ steps:
     title: Criar um lápis
   - 
     title: Lápis coloridos
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Desfazer erros
   - 
     title: Mudar a grossura do lápis
+    completion:
+      - internal
   - 
     title: 'Desafio: comandos do teclado'
     challenge: true
   - 
-    title: 'O que se segue?'
+    title: O que se segue?
