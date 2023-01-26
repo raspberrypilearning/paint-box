@@ -6,13 +6,13 @@
 
 'পেইন্ট বক্স/Paint box' Scratch starter project টি খুলুন।.
 
-**Online**: starter project টি খুলুন [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 আপনার যদি scratch অ্যাকাউন্ট থাকে তবে আপনি **Remix** ক্লিক করে এটির একটি অনুলিপি/copy তৈরি করতে পারেন ।.
 
-**offline**: অফলাইন এডিটরে [starter project](http://rpf.io/p/en/paint-box-go){:target="_blank"} খুলুন.
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-আপনার যদি scratch offline editor ডাউনলোড এবং ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 Starter project এ আপনার পেন্সিল এবং ইরেজার sprite গুলি দেখতে পাবেন:
 
