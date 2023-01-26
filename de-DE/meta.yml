@@ -13,6 +13,8 @@ steps:
     title: Erzeuge einen Stift
   - 
     title: Buntstifte
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Fehler rückgängig machen
   - 
     title: Die Stiftdicke ändern
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'Wie geht es weiter?'
+    title: Wie geht es weiter?
