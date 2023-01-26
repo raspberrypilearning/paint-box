@@ -13,6 +13,8 @@ steps:
     title: ಸೀಸಕಡ್ಡಿಅನ್ನು ತಯಾರಿಸಿ
   - 
     title: ಬಣ್ಣದ ಸೀಸಕಡ್ಡಿ‌ಗಳು
+    completion:
+      - engaged
   - 
     title: 'ಸವಾಲು: ಹೆಚ್ಚು ಸೀಸಕಡ್ಡಿ‌ಗಳು'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: ತಪ್ಪುಗಳನ್ನು ರದ್ದುಗೊಳಿಸಿ
   - 
     title: ಸೀಸಕಡ್ಡಿ ಅಗಲವನ್ನು ಬದಲಾಯಿಸಿ
+    completion:
+      - internal
   - 
     title: 'ಸವಾಲು: ಕೀಬೋರ್ಡ್ ಆಜ್ಞೆಗಳು(commands)'
     challenge: true
   - 
-    title: 'ಮುಂದೆ ಏನು?'
+    title: ಮುಂದೆ ಏನು?
