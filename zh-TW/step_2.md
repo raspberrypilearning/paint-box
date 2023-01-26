@@ -6,13 +6,13 @@
 
 打開畫圖工具盒這個專案的材料包。
 
-**線上版**：你可以連結 [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"} 以新建專案。
+**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版**：在離線編輯器裡開啟[材料包](http://rpf.io/p/en/paint-box-go){:target="_blank"}。
+**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
 
-如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 在材料包中，你應該會看到「鉛筆」和「擦除」兩個角色：
 
