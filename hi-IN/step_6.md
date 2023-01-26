@@ -4,7 +4,7 @@
 
 \--- task \---
 
-पहले, `width`{:class="blockvariable"} नामक नया वेरिएबल जोड़े।
+पहले, `width`{:class="block3variables"} नामक एक नया वेरिएबल जोड़े।
 
 [[[generic-scratch3-add-variable]]]
 
@@ -12,7 +12,7 @@
 
 \--- task \---
 
-इस लाइन को अपनी पेंसिल के कोड के `forever`{:class="blockcontrol"} लूप के **अंदर (inside)** जोड़ें:
+इस लाइन को अपनी पेंसिल के कोड के `forever`{:class="block3control"} लूप के **अंदर (inside)** जोड़ें:
 
 ```blocks3
 when flag clicked
@@ -35,19 +35,19 @@ end
 
 \--- task \---
 
-स्टेज पर प्रदर्शित `width`{:class="block3variables"} वेरिएबल पर राइट-क्लिक करें, और फिर **slider** पर क्लिक करें।
+स्टेज पर प्रदर्शित `width`{:class="block3variables"} वेरिएबल पर राइट-क्लिक करें, और फिर **स्लाइडर** पर क्लिक करें।
 
 ![स्क्रीनशॉट](images/paint-slider.png)
 
 \--- /task \---
 
-अब आप वैरिएबल के मान को बदलने के लिए उसके नीचे दिखाई देने वाले स्लाइडर को खींच सकते हैं।
+अब आप वेरिएबल के मान को बदलने के लिए उसके नीचे दिखाई देने वाले स्लाइडर को खींच सकते हैं।
 
 ![स्क्रीनशॉट](images/paint-slider-change.png)
 
 \--- task \---
 
-Test your project and see if you can change the pen width.
+अपने प्रोजेक्ट का परीक्षण करें, और देखें कि क्या आप पेन की चौड़ाई बदल सकते हैं।
 
 ![स्क्रीनशॉट](images/paint-width-test.png)
 
