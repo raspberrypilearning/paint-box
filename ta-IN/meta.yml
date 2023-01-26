@@ -13,6 +13,8 @@ steps:
     title: ஒரு பென்சிலை உருவாக்குதல்
   - 
     title: வண்ண பென்சில்கள்
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: தவறுகளை திரும்பப் பெறவும்(undo)
   - 
     title: பென்சில் அகலத்தை மாற்றவும்
+    completion:
+      - internal
   - 
     title: 'சவால்: விசைப்பலகை கட்டளைகள்'
     challenge: true
   - 
-    title: 'அடுத்தது என்ன?'
+    title: அடுத்தது என்ன?
