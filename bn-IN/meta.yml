@@ -13,6 +13,8 @@ steps:
     title: একটি পেন্সিল তৈরি করুন
   - 
     title: রঙিন পেন্সিল
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: ভ্রম সংশোধন
   - 
     title: পেন্সিল প্রস্থ পরিবর্তন করুন
+    completion:
+      - internal
   - 
     title: 'Challenge: কীবোর্ড কমান্ড'
     challenge: true
   - 
-    title: 'এরপর কি?'
+    title: এরপর কি?
