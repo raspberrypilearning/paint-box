@@ -13,6 +13,8 @@ steps:
     title: Een potlood maken
   - 
     title: Kleurpotloden
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Fouten ongedaan maken
   - 
     title: De potlooddikte wijzigen
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'Wat kun je verder nog doen?'
+    title: Wat kun je verder nog doen?
