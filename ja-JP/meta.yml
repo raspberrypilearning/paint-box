@@ -13,6 +13,8 @@ steps:
     title: 鉛筆を作る
   - 
     title: 色鉛筆
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: 間違いを元に戻す
   - 
     title: 鉛筆の幅を変える
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: '次は何？'
+    title: 次は何？
