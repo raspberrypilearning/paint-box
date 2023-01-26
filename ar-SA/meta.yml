@@ -13,6 +13,8 @@ steps:
     title: إنشاء قلم رصاص
   - 
     title: أقلام ملونة
+    completion:
+      - engaged
   - 
     title: 'التحدي: مزيد من أقلام الرصاص'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: التراجع عن الاخطاء
   - 
     title: تغيير عرض قلم الرصاص
+    completion:
+      - internal
   - 
     title: 'التحدي: أوامر لوحة المفاتيح'
     challenge: true
   - 
-    title: 'ما التالي؟'
+    title: ما التالي؟
