@@ -13,6 +13,8 @@ steps:
     title: एक पेन्सिल बनवा
   - 
     title: रंगीत पेन्सिल
+    completion:
+      - engaged
   - 
     title: 'आव्हान: अधिक पेन्सिल'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: चुका मीटवा
   - 
     title: पेन रुंदी बदला
+    completion:
+      - internal
   - 
     title: 'आव्हानः कीबोर्ड कमांड'
     challenge: true
   - 
-    title: 'पुढे काय?'
+    title: पुढे काय?
