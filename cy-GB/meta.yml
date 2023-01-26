@@ -13,6 +13,8 @@ steps:
     title: Creu pensil
   - 
     title: Pensiliau lliw
+    completion:
+      - engaged
   - 
     title: 'Challenge: more pencils'
     challenge: true
@@ -20,8 +22,10 @@ steps:
     title: Dadwneud camgymeriadau
   - 
     title: Newid lled y pensil
+    completion:
+      - internal
   - 
     title: 'Challenge: keyboard commands'
     challenge: true
   - 
-    title: 'Beth nesaf?'
+    title: Beth nesaf?
