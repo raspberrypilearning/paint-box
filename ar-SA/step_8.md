@@ -5,13 +5,17 @@
 --- no-print ---
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276662533/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/402356659/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/boat_race_demo.png">
 </div>
 
 --- /no-print ---
 
---- print-only --- ![boat race demo](images/boat_race_demo.png) --- /print-only ---
+--- print-only ---
+
+![نموذج سباق قوارب](images/boat_race_demo.png)
+
+--- /print-only ---
 
 ***
 
@@ -24,5 +28,7 @@
 نادية علي قاسم
 
 صفاء الحربي
+
+Abdallah Ibrahim
 
 بفضل المتطوعين ، يمكننا إعطاء الناس في جميع أنحاء العالم فرصة للتعلم بلغتهم الخاصة. يمكنك مساعدتنا في الوصول إلى المزيد من الأشخاص من خلال التطوع للترجمة - مزيد من المعلومات على [rpf.io/translate](https://rpf.io/translate).
