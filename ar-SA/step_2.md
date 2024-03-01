@@ -6,13 +6,13 @@
 
 **بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/paint-box-on](http://rpf.io/paint-box-on){:target="_blank"}
 
-**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
+**دون اتصال بالانترنت**: افتح [المشروع المبدئي](https://rpf.io/p/ar-SA/paint-box-go){:target="_blank"} عبر المحرر الموجود على جهازك.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
+اذا كنت تحتاج تنزيل و تركيب محرر Scratch للعمل دون اتصال بالانترنت, فيمكنك ايجاده على الرابط [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
 
 في المشروع المبدئي، سترى كائنات القلم الرصاص و الممحاة:
 
