@@ -36,8 +36,8 @@ Añade algo de código al objeto lápiz para hacer que el objeto siga al cursor 
 
 ```blocks3
 when flag clicked
-por siempre 
-  ir a (mouse pointer v)
+forever
+  go to (puntero del ratón v)
 end
 ```
 
@@ -60,7 +60,7 @@ Añade este código a tu objeto lápiz:
 ```blocks3
 when flag clicked
 forever
-  go to (mouse pointer v)
+  go to (puntero del ratón v)
 + if <mouse down?> then
   pen down
   else

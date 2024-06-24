@@ -13,8 +13,8 @@ Parfois, des erreurs se produisent, alors ajoute un bouton "effacer" et un bouto
 ![traverser](images/cross.png)
 
 ```blocks3
-quand ce sprite est cliqué
-envoyer à tous (eraser v)
+when this sprite clicked
+erase all
 ```
 
 --- /task ---
@@ -36,8 +36,8 @@ Ton projet comprend également un sprite gomme séparé.
 ![gomme](images/eraser.png)
 
 ```blocks3
-lorsque ce sprite est cliqué
-envoyer à tous (gomme v)
+when this sprite clicked
+broadcast (gomme v)
 ```
 
 --- /task ---
@@ -52,18 +52,18 @@ Lorsque le sprite crayon reçoit le message "gomme", il devrait changer son cost
  --- hint --- Voici tous les blocs dont tu as besoin:
 
 ```blocks3
-mettre la couleur du stylo à [#FFFFFF]
-quand je reçois [gomme v]
+set pen color to [#FFFFFF]
+when I receive  [gomme v]
 
-basculer sur le costume (gomme v)
+switch costume to (gomme v)
 ```
 
 --- /hint --- --- hint --- Voici à quoi devrait ressembler le code: ![crayon](images/pencil.png)
 
 ```blocks3
-quand je reçois [gomme v]
-basculer sur le costume (gomme v)
-mettre la couleur du stylo à [#FFFFFF]
+when I receive [gomme v]
+switch costume to (gomme v)
+set pen color to [#FFFFFF]
 ```
 
 --- /hint ------ /hints --- --- /task ---
@@ -81,17 +81,16 @@ Il y a encore un problème avec le crayon: tu peux dessiner n’importe où sur 
 ![crayon](images/pencil.png)
 
 ```blocks3
-quand le drapeau vert pressé
-effacer tout
-basculer sur le costume (pencil-blue v)
-mettre la couleur du stylo à [#0035FF]
-répéter indéfiniment 
-  aller à (pointeur de la souris v)
-+ si <<souris pressée ?> et <(souris y) > [-120]>> alors 
-  tylo en position d'écriture
-  +sinon 
-  relever le stylo
-  end
+when flag clicked
+erase all
+switch costume to (pencil-blue v)
+set pen color to [#0035FF]
+forever
+  go to (pointeur de la souris v)
++if <<mouse down?> and <(souris y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

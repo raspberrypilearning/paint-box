@@ -31,8 +31,8 @@ Awn ati i ychwanegu pensiliau lliw gwahanol i dy brosiect, a gadael i’r defnyd
 ![sgwâr gwyrdd](images/green_square.png)
 
 ```blocks3
-pan gaiff y ciplun yma ei glicio
-darlledu (gwyrdd v)
+when this sprite clicked
+broadcast (gwyrdd v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] --- /task ---
@@ -44,9 +44,9 @@ Fe ddylai'r corlun pensil wrando ar y neges "gwyrdd" a newid ei wisg a lliw mewn
 ![pensil](images/pencil.png)
 
 ```blocks3
-pan rwy'n derbyn [gwyrdd v]
-newid gwisg i (pencil-gwyrdd v)
-gosod lliw pin i [#00CC44]
+when I receive [gwyrdd v]
+switch costume to (pencil-gwyrdd v)
+set pen color to [#00CC44]
 ```
 
 I newid lliw y pensil i wyrdd, clicia'r sgwâr wedi lliwio yn y bloc `gosod lliw pin`{:class="block3extensions"}, yna chlicio ar y corlun gwyrdd sgwâr. --- /task ---
@@ -58,16 +58,16 @@ Yna gwna'r un peth fel dy fod yn gallu newid lliw dy bensil i las.
 ![blue_square](images/blue_square.png)
 
 ```blocks3
-pan gaiff y ciplun yma ei glicio
-darlledu (glas v)
+when this sprite clicked
+broadcast (glas v)
 ```
 
 Yna clicia ar gorlun y pensil ac ychwanegu'r côd yma: ![pensil](images/pencil.png)
 
 ```blocks3
-pan rwy'n derbyn [glas v]
-newid gwisg i (pencil-glas v)
-gosod lliw pin i [#0000ff]
+when I receive [glas v]
+switch costume to (pencil-glas v)
+set pen color to [#0000ff]
 ```
 
 --- /task ---
@@ -77,17 +77,16 @@ gosod lliw pin i [#0000ff]
 ![pensil](images/pencil.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-+dileu popeth
-+newid gwisg i (pencil-glas v)
-+gosod lliw pin i [#0035FF]
-am byth 
-  mynd i (pwyntydd llygoden v)
-  os <llygoden i lawr?> yna 
-    pin i lawr
-  fel arall 
-    pin i fyny
-  end
+when flag clicked
++erase all
++switch costume to (pencil-glas v)
++set pen color to [#0035FF]
+forever
+  go to (pwyntydd llygoden v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 

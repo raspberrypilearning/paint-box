@@ -9,18 +9,17 @@ Ensuite, tu ajouteras du code pour permettre à la personne utilisant ton progra
 --- task --- Ajoute cette ligne **à intérieur** de la boucle `répéter indéfiniment`{:class="block3control"} du code du sprite crayon:
 
 ```blocks3
-quand le drapeau vert pressé
-effacer tout
-basculer sur le costume (pencil-blue v)
-mettre la couleur du stylo à [#0035FF]
-répéter indéfiniment 
-  aller à (mouse pointer v)
-+ mettre la taille du stylo à (largeur :: variables)
-  si <<souris pressée ?> et <(souris y) > [-120]>> alors 
-    stylo en position d'écriture
-  sinon 
-    relever le stylo
-  end
+when flag clicked
+erase all
+switch costume to (crayon-bleu v)
+set pen color to [#0035FF]
+forever
+go to (pointeur de souris v)
++set pen size to (largeur :: variables)
+if <<mouse down?> and <(souris y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

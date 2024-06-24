@@ -13,8 +13,8 @@ Soms maak je fouten, dus laten we een knop 'wissen' en een gum toevoegen.
 ![kruis](images/cross.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-wis alles
+when this sprite clicked
+erase all
 ```
 
 --- /task ---
@@ -36,8 +36,8 @@ Je project bevat ook een afzonderlijke gumsprite.
 ![gum](images/eraser.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-zend signaal (gum v)
+when this sprite clicked
+broadcast (gum v)
 ```
 
 --- /task ---
@@ -52,18 +52,18 @@ Wanneer het potlood de "gum"-boodschap ontvangt, zou het potlood uiterlijk in de
  --- hint --- Hier zijn alle blokken die je nodig hebt:
 
 ```blocks3
-maak penkleur [#FFFFFF]
-wanneer ik signaal [gum v] ontvang
+set pen color to [#FFFFFF]
+when I receive [gum v]
 
-verander uiterlijk naar (gum v)
+switch costume to (gum v)
 ```
 
 --- /hint --- --- hint --- Hier is hoe je code eruit zou moeten zien: ![potlood](images/pencil.png)
 
 ```blocks3
-wanneer ik signaal [gum v] ontvang
-verander uiterlijk naar (gum v)
-maak penkleur [#FFFFFF]
+when I receive [gum v]
+switch costume to (gum v)
+set pen color to [#FFFFFF]
 ```
 
 --- /hint --- --- /hints --- --- /task ---
@@ -81,16 +81,16 @@ Er is nog een probleem met het potlood - je kunt overal op het podium tekenen, o
 ![potlood](images/pencil.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-wis alles
-verander uiterlijk naar (potlood-blauw v)
-maak penkleur [#0035FF]
-herhaal
- ga naar (muisaanwijzer v)
-+if <<mouse down?> en <(mouse y) > [-120]>> then 
-pen neer
-anders
-pen op
+when flag clicked
+erase all
+switch costume to  (potlood-blauw v)
+set pen color to [#0035FF]
+forever
+  go to  (muisaanwijzer v)
++if <<mouse down?> and <(mouse y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

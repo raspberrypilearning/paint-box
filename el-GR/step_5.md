@@ -48,8 +48,8 @@ erase all
 ![γόμα](images/eraser.png)
 
 ```blocks3
-όταν γίνει κλικ σε αυτό το αντικείμενο
-μετάδωσε (γόμα v)
+when this sprite clicked
+broadcast (γόμα v)
 ```
 
 --- /task ---
@@ -70,11 +70,10 @@ erase all
 Εδώ είναι τα μπλοκ που χρειάζεσαι:
 
 ```blocks3
-όρισε χρώμα πένας σε [#FFFFFF]
+set pen color to [#FFFFFF]
+when I receive [γόμα v]
 
-όταν λάβω [γόμα v]
-
-άλλαξε ενδυμασία σε (γόμα v)
+switch costume to (γόμα v)
 ```
 
 --- /hint --- --- hint ---
@@ -84,9 +83,9 @@ erase all
 ![μολύβι](images/pencil.png)
 
 ```blocks3
-όταν λάβω [γόμα v]
-άλλαξε ενδυμασία σε (γόμα v)
-όρισε χρώμα πένας σε [#FFFFFF]
+when I receive [γόμα v]
+switch costume to (γόμα v)
+set pen color to [#FFFFFF]
 ```
 
 --- /hint ------ /hints --- --- /task ---
@@ -115,7 +114,7 @@ erase all
 switch costume to (μολύβι-μπλε v)
 set pen color to [#0035FF]
 forever
-  go to (mouse pointer v)
+  go to (δείκτη ποντικιού v)
 +if <<mouse down?> and <(y ποντικιού) > [-120]>> then 
   pen down
   else

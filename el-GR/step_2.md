@@ -6,7 +6,7 @@
 
 Άνοιξε το αρχικό έργο Scratch με την ονομασία: "Κουτί χρωμάτων".
 
-**Online:** άνοιξε το αρχικό έργο στο [scratch.mit.edu/projects/395323167](https://scratch.mit.edu/projects/395323167){:target="_blank"}
+**Online:** άνοιξε το αρχικό έργο στο [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
@@ -35,9 +35,9 @@
 ![μολύβι](images/pencil.png)
 
 ```blocks3
-όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  πήγαινε σε (mouse pointer v)
+when flag clicked
+forever
+  go to (δείκτη ποντικιού v)
 end
 ```
 
@@ -60,7 +60,7 @@ end
 ```blocks3
 when flag clicked
 forever
-  go to (mouse pointer v)
+  go to (δείκτη ποντικιού v)
 + if <mouse down?> then
   pen down
   else

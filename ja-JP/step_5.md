@@ -19,8 +19,8 @@
 ![クロス](images/cross.png)
 
 ```blocks3
-このスプライトが押されたとき
-全部消す
+when this sprite clicked
+erase all
 ```
 
 --- /task ---
@@ -48,8 +48,8 @@
 ![消しゴム](images/eraser.png)
 
 ```blocks3
-このスプライトが押されたとき
-(消しゴム v) を送る
+when this sprite clicked
+broadcast (消しゴム v)
 ```
 
 --- /task ---
@@ -70,10 +70,10 @@
 必要なブロックは次のとおりです。
 
 ```blocks3
-ペンの色を [#FFFFFF] にする
-[消しゴム v] を受け取ったとき
+set pen color to [#FFFFFF]
+when I receive [消しゴム v]
 
-コスチュームを (消しゴム v) にする
+switch costume to (消しゴム v)
 ```
 
 --- /hint --- --- hint ---
@@ -83,9 +83,9 @@
 ![鉛筆](images/pencil.png)
 
 ```blocks3
-[消しゴム v] を受け取ったとき
-コスチュームを (消しゴム v) にする
-ペンの色を [#FFFFFF] にする
+when I receive [消しゴム v]
+switch costume to (消しゴム v)
+set pen color to [#FFFFFF]
 ```
 
 --- /hint ------ /hints --- --- /task ---
@@ -109,17 +109,16 @@
 ![鉛筆](images/pencil.png)
 
 ```blocks3
-⚑ が押されたとき
-全部消す
-コスチュームを (鉛筆-青 v) にする
-ペンの色を [#0035FF] にする
-ずっと 
-  (マウスのポインター v) へ行く
-+もし <<マウスがおされた> かつ <(マウスのyざひょう) > [-120]>> なら 
-  ペンを下ろす
-  でなければ 
-  ペンを上げる
-  end
+when flag clicked
+erase all
+switch costume to (鉛筆-青 v)
+set pen color to [#0035FF]
+forever
+  go to (マウスのポインター v)
++if <<mouse down?> and <(マウスのyざひょう) > [-120]>> then
+  pen down
+  else
+  pen up
 end
 ```
 

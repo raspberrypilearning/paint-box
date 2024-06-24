@@ -15,18 +15,17 @@
 鉛筆スプライトコードの`ずっと`{:class="block3control"}ループの**内部に**この行を追加します。
 
 ```blocks3
-⚑ が押されたとき
-全部消す
-コスチュームを (鉛筆-青 v) にする
-ペンの色を [#0035FF] にする
-ずっと 
-  (マウスのポインター v) へ行く
-+ペンの太さを (幅 :: variables) にする
-  もし <<マウスがおされた> かつ <(マウスのyざひょう) > [-120]>> なら 
-    ペンを下ろす
-  でなければ 
-    ペンを上げる
-  end
+when flag clicked
+erase all
+switch costume to (鉛筆-青 v)
+set pen color to [#0035FF]
+forever
+go to (マウスのポインター v)
++set pen size to (幅 :: variables)
+if <<mouse down?> and <(マウスのyざひょう) > [-120]>> then
+  pen down
+  else
+  pen up
 end
 ```
 

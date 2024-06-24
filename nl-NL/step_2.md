@@ -31,9 +31,9 @@ Voeg wat code toe aan de potlood-sprite om ervoor te zorgen dat deze de muis alt
 ![potlood](images/pencil.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal
-ga naar (muisaanwijzer v) 
+when flag clicked
+forever
+  go to (muisaanwijzer v) 
 end
 ```
 
@@ -48,14 +48,13 @@ Laat vervolgens je potlood alleen tekenen `als`{:class="block3control"} als de m
 ![potlood](images/pencil.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal
-ga naar (muisaanwijzer v)
-
-+ als <mouse down?> dan
-pen neer
-anders
-pen op
+when flag clicked
+forever
+  go to (muisaanwijzer v)
++ if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 

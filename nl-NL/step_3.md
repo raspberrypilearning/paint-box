@@ -31,8 +31,8 @@ Laten we verschillende kleurpotloden aan je project toevoegen en de gebruiker de
 ![groen vierkant](images/green_square.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-zend signaal (groen v)
+when this sprite clicked
+broadcast (groen v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] --- /task ---
@@ -44,9 +44,9 @@ De potlood sprite moet luisteren naar het "groen" bericht en de kleur van het ui
 ![potlood](images/pencil.png)
 
 ```blocks3
-wanneer ik signaal [groen v] ontvang
-verander uiterlijk naar (potlood-groen v)
-maak penkleur [#00CC44]
+when I receive [groen v]
+switch costume to (potlood-groen v)
+set pen color to [#00CC44]
 ```
 
 Om het potlood op groen te zetten, klik op het gekleurde vierkant in het `zet pen kleur`{:class="block3extensions"} blok, en klik dan op de groene vierkantsprite. --- /task ---
@@ -58,16 +58,16 @@ Doe vervolgend hetzelfde voor een potlood met de kleur blauw.
 ![blauw_vierkant](images/blue_square.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-zend signaal (blauw v)
+when this sprite clicked
+broadcast (blauw v)
 ```
 
 Klik vervolgens op de potlood sprite en voeg deze code toe: ![potlood](images/pencil.png)
 
 ```blocks3
-wanneer ik signaal [blauw v] ontvang
-verander uiterlijk naar (potlood-blauw v)
-maak penkleur [#0000ff]
+when I receive [blauw v]
+switch costume to (potlood-blauw v)
+set pen color to [#0000ff]
 ```
 
 --- /task ---
@@ -77,16 +77,16 @@ maak penkleur [#0000ff]
 ![potlood](images/pencil.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-+wis alles
-+verander uiterlijk naar (potlood-blauw v)
-+maak penkleur [#0035FF]
-herhaal
-ga naar (muisaanwijzer v)
-als <mouse down?> dan
-pen neer
-anders
-pen op
+when flag clicked
++erase all
++switch costume to (potlood-blauw v)
++set pen color to [#0035FF]
+forever
+  go to (muisaanwijzer v)
+if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 

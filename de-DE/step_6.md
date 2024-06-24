@@ -15,17 +15,17 @@ Füge zuerst eine neue Variable namens `Dicke`{:class='blockvariable':} hinzu.
 Füge diese Zeile **innerhalb** der `wiederhole fortlaufend`{:class="block3control"} Schleife vom Buntstift ein:
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-lösche alles
-wechsle zu Kostüm (Stift-blau v)
-setze Stiftfarbe auf [#0035FF]
-wiederhole fortlaufend 
-gehe zu (Mauszeiger v)
-+setze Stiftdicke auf (Dicke :: variables)
-falls <<Maustaste gedrückt?> und <(Maus y-Position) > [-120]>> , dann 
-  schalte Stift ein
-  sonst 
-  schalte Stift aus
+when flag clicked
+erase all
+switch costume to(Stift-blau v)
+set pen color to [#0035FF]
+forever
+go to (Mauszeiger v)
++set pen size to (Dicke :: variables)
+if <<mouse down?> and <(Maus y-Position) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

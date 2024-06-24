@@ -31,9 +31,9 @@ Ychwanega gôd i gorlun dy bensil i wneud i'r corlun ddilyn y llygoden `am byth`
 ![pensil](images/pencil.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  mynd i (pwyntydd llygoden v)
+when flag clicked
+forever
+  go to (pwyntydd llygoden v)
 end
 ```
 
@@ -48,13 +48,13 @@ Gwna dy bensil i dynnu llun `os`{:class="block3control"} yw'r llygoden yn cael e
 ![pensil](images/pencil.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  mynd i (pwyntydd llygoden v)
-+ os <llygoden i lawr?> yna 
-  pin i lawr
-  fel arall 
-  pin i fyny
+when flag clicked
+forever
+  go to (pwyntydd llygoden v)
++ if <mouse down?> then
+  pen down
+  else
+  pen up
 end
 ```
 
