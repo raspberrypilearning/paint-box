@@ -35,9 +35,9 @@ Scratchオフラインエディターが必要ならば、[rpf.io/scratchoff](ht
 ![鉛筆](images/pencil.png)
 
 ```blocks3
-⚑ が押されたとき
-ずっと 
-  (マウスのポインター v) へ行く
+when flag clicked
+forever
+  go to (マウスのポインター v)
 end
 ```
 
@@ -58,14 +58,13 @@ end
 ![鉛筆](images/pencil.png)
 
 ```blocks3
-⚑ が押されたとき
-ずっと 
-  (マウスのポインター v) へ行く
-+  もし <マウスがおされた> なら 
-    ペンを下ろす
-  でなければ 
-    ペンを上げる
-  end
+when flag clicked
+forever
+  go to (マウスのポインター v)
++ if <マウスがおされた> then
+  pen down
+  else
+  pen up
 end
 ```
 

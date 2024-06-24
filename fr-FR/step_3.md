@@ -31,8 +31,8 @@ Tu vas maintenant ajouter des crayons de couleurs différents à ton projet et p
 ![carré vert](images/green_square.png)
 
 ```blocks3
-quand ce sprite est cliqué 
-envoyer à tous (vert v)
+when this sprite clicked
+broadcast (vert v)
 ```
 
 [[[generic-scratch3-broadcast-message]]] --- /task ---
@@ -44,12 +44,12 @@ Le sprite crayon devrait écouter le message "vert" et modifier son costume et s
 ![crayon](images/pencil.png)
 
 ```blocks3
-quand je reçois [vert v]
-basculer sur le costume (crayon-vert v)
-mettre la couleur du stylo à [#00CC44]
+when I receive [vert v]
+switch costume to (crayon-vert v)
+set pen color to [#00CC44]
 ```
 
-Pour permettre au crayon de colorier en vert, clique sur le carré coloré dans le bloc `définir la couleur du crayon`{class:"block3extensions"}, et ensuite clique sur le sprite carré vert. --- /task ---
+Pour permettre au crayon de colorier en vert, clique sur le carré coloré dans le bloc `définir la couleur du crayon`{:class="block3extensions"}, et ensuite clique sur le sprite carré vert. --- /task ---
 
 Reproduis les mêmes étapes afin de pouvoir changer la couleur du crayon en bleu.
 
@@ -65,9 +65,9 @@ envoyer à tous (bleu v)
 Clique ensuite sur le sprite crayon et ajoute ce code: ![crayon](images/pencil.png)
 
 ```blocks3
-quand je reçois [bleu v]
-basculer sur le costume (crayon-bleu v)
-mettre la couleur du stylo à [#0000ff]
+when I receive [bleu v]
+switch costume to (crayon-bleu v)
+set pen color to [#0000ff]
 ```
 
 --- /task ---
@@ -77,17 +77,16 @@ mettre la couleur du stylo à [#0000ff]
 ![crayon](images/pencil.png)
 
 ```blocks3
-quand le drapeau vert pressé
-+effacer tout
-+basculer sur le costume (pencil-blue v)
-+mettre la couleur du stylo à [#0035FF]
-répéter indéfiniment 
-  aller à (pointeur de souris v)
-  si <souris pressée ?> alors 
-    stylo en position d'écriture
-  sinon 
-    relever le stylo
-  end
+when flag clicked
++erase all
++switch costume to (pencil-blue v)
++set pen color to [#0035FF]
+forever
+  go to (pointeur de souris v)
+if <souris pressée ?> then 
+  pen down
+  else
+  pen up
 end
 ```
 
@@ -95,6 +94,8 @@ end
 
 Si tu préfères, tu peux commencer avec un crayon de couleur différente.
 
---- task --- Teste ton code. Peux-tu basculer entre les couleurs de crayon bleu et vert en cliquant sur les sprites carrés bleus ou verts?
+--- task ---
+
+Teste ton code. Peux-tu basculer entre les couleurs de crayon bleu et vert en cliquant sur les sprites carrés bleus ou verts?
 
 ![capture d'écran](images/paint-pens-test.png) --- /task ---

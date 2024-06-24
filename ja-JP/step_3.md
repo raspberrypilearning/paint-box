@@ -49,8 +49,8 @@
 ![緑の四角](images/green_square.png)
 
 ```blocks3
-このスプライトが押されたとき
-(緑 v) を送る
+when this sprite clicked
+broadcast (緑 v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@
 ![鉛筆](images/pencil.png)
 
 ```blocks3
-[緑 v] を受け取ったとき
-コスチュームを (鉛筆-緑 v) にする
-ペンの色を [#00CC44] にする
+when I receive [緑 v]
+switch costume to (鉛筆-緑 v)
+set pen color to [#00CC44]
 ```
 
 鉛筆の色を緑に設定するには、`ペンの色を～にする`{:class="block3extensions"}ブロック内の色のついた四角をクリックし、そして緑色の四角のスプライトをクリックします。
@@ -84,8 +84,8 @@
 ![青の四角](images/blue_square.png)
 
 ```blocks3
-このスプライトが押されたとき
-(青 v) を送る
+when this sprite clicked
+broadcast (青 v)
 ```
 
 そして、鉛筆のスプライトをクリックしてこのコードを追加します。
@@ -93,9 +93,9 @@
 ![鉛筆](images/pencil.png)
 
 ```blocks3
-[青 v] を受け取ったとき
-コスチュームを (鉛筆-青 v) にする
-ペンの色を [#0000ff] にする
+when I receive [青 v]
+switch costume to (鉛筆-青 v)
+set pen color to [#0000ff]
 ```
 
 --- /task ---
@@ -107,17 +107,16 @@
 ![鉛筆](images/pencil.png)
 
 ```blocks3
-⚑ が押されたとき
-+全部消す
-+コスチュームを (鉛筆-青 v) にする
-+ペンの色を [#0035FF] にする
-ずっと 
-  (マウスのポインター v) へ行く
-  もし <マウスがおされた> なら 
-    ペンを下ろす
-  でなければ 
-    ペンを上げる
-  end
+when flag clicked
++erase all
++switch costume to (鉛筆-青 v)
++set pen color to [#0035FF]
+forever
+  go to (マウスのポインター v)
+if <マウスがおされた> then
+  pen down
+  else
+  pen up
 end
 ```
 

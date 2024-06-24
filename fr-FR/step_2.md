@@ -2,7 +2,8 @@
 
 Commence par fabriquer un crayon que tu pourras utiliser pour dessiner sur la scène.
 
---- task --- Ouvre le projet de démarrage Scratch 'Palette de peinture'.
+--- task ---
+Ouvre le projet de démarrage Scratch 'Palette de peinture'.
 
 **En ligne**: ouvre le projet de démarrage à [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
@@ -14,7 +15,8 @@ Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le 
 
 Dans le projet de démarrage, tu devrais voir des sprites crayon et gomme:
 
-![capture d'écran](images/paint-starter.png) --- /task ---
+![capture d'écran](images/paint-starter.png)
+--- /task ---
 
 --- task ---
 
@@ -31,32 +33,36 @@ Ajoute un peu de code au sprite crayon pour que celle-ci suive le pointeur de la
 ![crayon](images/pencil.png)
 
 ```blocks3
-
-quand le drapeau vert pressé
-répéter indéfiniment 
-  aller à (pointeur de souris v)
+when flag clicked
+forever
+  go to (pointeur de souris v)
 end
 ```
 
 --- /task ---
 
---- task --- Clique sur le drapeau, puis déplace le pointeur de la souris sur la scène pour vérifier si ton code fonctionne. --- /task ---
+--- task ---
+
+Clique sur le drapeau, puis déplace le pointeur de la souris sur la scène pour vérifier si ton code fonctionne.
+
+--- /task ---
 
 Ensuite, fait que ton crayon ne dessine que `si`{:class="block3control"} le bouton de la souris est cliqué.
 
---- task --- Ajoute ce code à ton sprite crayon:
+--- task ---
+
+Ajoute ce code à ton sprite crayon:
 
 ![crayon](images/pencil.png)
 
 ```blocks3
-quand le drapeau vert pressé
-répéter indéfiniment 
-  aller à (pointeur de la souris v)
-+ si <souris pressée ?> alors 
-  stylo en position d'écriture
-  sinon 
-  relever le stylo
-  end
+when flag clicked
+forever
+  go to (pointeur de la souris v)
++ if <souris pressée ?> then 
+  pen down
+  else
+  pen up
 end
 ```
 
