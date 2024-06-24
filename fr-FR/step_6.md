@@ -16,7 +16,7 @@ set pen color to [#0035FF]
 forever
 go to (pointeur de souris v)
 +set pen size to (largeur :: variables)
-if <<souris pressée?> and <(souris y) > [-120]>> then 
+if <<mouse down?> and <(souris y) > [-120]>> then 
   pen down
   else
   pen up

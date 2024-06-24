@@ -20,7 +20,7 @@ erase all
 switch costume to (lápiz-azul v)
 set pen color to [#0035FF]
 forever
-go to (mouse pointer v)
+go to (puntero del ratón v)
 +set pen size to (ancho :: variables)
 if <<mouse down?> and <(posición y del ratón) > [-120]>> then 
   pen down

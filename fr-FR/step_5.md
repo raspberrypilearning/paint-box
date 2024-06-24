@@ -87,7 +87,7 @@ switch costume to (pencil-blue v)
 set pen color to [#0035FF]
 forever
   go to (pointeur de la souris v)
-+if <<souris pressée ?> and <(souris y) > [-120]>> then 
++if <<mouse down?> and <(souris y) > [-120]>> then 
   pen down
   else
   pen up

@@ -49,8 +49,8 @@ Añade algo de código al objeto ‘verde’, de modo que cuando se haga clic en
 ![cuadrado verde](images/green_square.png)
 
 ```blocks3
-al hacer clic en este objeto
-enviar (verde v)
+when this sprite clicked
+broadcast (verde v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Cambia al objeto lápiz. Añade algo de código de modo que cuando este objeto r
 ![lápiz](images/pencil.png)
 
 ```blocks3
-al recibir [verde v]
-cambiar disfraz a (lápiz-verde v)
-fijar color de lápiz a [#00CC44]
+when I receive [verde v]
+switch costume to (lápiz-verde v)
+set pen color to [#00CC44]
 ```
 
 Para fijar el lápiz al color verde, haz clic en el cuadrado de color en el bloque `fijar color del marcador`{:class="block3extensions"}, y luego haz clic sobre el objeto cuadrado verde.
@@ -112,7 +112,7 @@ when flag clicked
 +switch costume to (lápiz-azul v)
 +set pen color to [#0035FF]
 forever
-  go to (mouse pointer v)
+  go to (puntero del ratón v)
 if <mouse down?> then
   pen down
   else

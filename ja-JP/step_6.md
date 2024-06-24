@@ -22,7 +22,7 @@ set pen color to [#0035FF]
 forever
 go to (マウスのポインター v)
 +set pen size to (幅 :: variables)
-if <<マウスがおされた> and <(マウスのyざひょう) > [-120]>> then
+if <<mouse down?> and <(マウスのyざひょう) > [-120]>> then
   pen down
   else
   pen up

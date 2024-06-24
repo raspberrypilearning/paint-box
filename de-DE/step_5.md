@@ -19,8 +19,8 @@ Füge Code zur 'Block-X' Figur hinzu, um die Bühne zu löschen, wenn die Figur 
 ![Kreuz](images/cross.png)
 
 ```blocks3
-Wenn diese Figur angeklickt wird
-lösche alles
+when this sprite clicked
+erase all
 ```
 
 --- /task ---
@@ -48,8 +48,8 @@ Füge der Radierer-Figur Code hinzu, um die Nachricht `'radieren' an alle senden
 ![Radierer](images/eraser.png)
 
 ```blocks3
-Wenn diese Figur angeklickt wird
-sende (radieren v) an alle
+when this sprite clicked
+broadcast(radieren v)
 ```
 
 --- /task ---
@@ -70,11 +70,10 @@ Füge der Buntstift-Figur Code hinzu: `Wenn ich empfange`{:class="block3events"}
 Hier sind alle Blöcke die du brauchst:
 
 ```blocks3
-setze Stiftfarbe auf [#FFFFFF]
+set pen color to [#FFFFFF]
+when I receive [radieren v]
 
-Wenn ich [radieren v] empfange
-
-wechsle zu Kostüm (Radierer v)
+switch costume to  (Radierer v)
 ```
 
 --- /hint --- --- hint ---
@@ -84,9 +83,9 @@ So sollte dein Code aussehen:
 ![Buntstift](images/pencil.png)
 
 ```blocks3
-Wenn ich [radieren v] empfange
-wechsle zu Kostüm (Radierer v)
-setze Stiftfarbe auf [#FFFFFF]
+when I receive [radieren v]
+switch costume to  (Radierer v)
+set pen color to [#FFFFFF]
 ```
 
 --- /hint ------ /hints --- --- /task ---
@@ -110,16 +109,16 @@ Um das zu beheben, ändere den Code, damit der Stift nur dann unten ist, wenn di
 ![Buntstift](images/pencil.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-lösche alles
-wechsle zu Kostüm (Stift-blau v)
-setze Stiftfarbe auf [#0035FF]
-wiederhole fortlaufend 
-  gehe zu (Mauszeiger v)
-+falls <<Maustaste gedrückt?> und <(Maus y-Position) > [-120]>> , dann 
-  schalte Stift ein
-  sonst 
-  schalte Stift aus
+when flag clicked
+erase all
+switch costume to (Stift-blau v)
+set pen color to [#0035FF]
+forever
+  go to (Mauszeiger v)
++if <<mouse down?> and <(Maus y-Position) > [-120]>> then
+  pen down
+  else
+  pen up
 end
 ```
 

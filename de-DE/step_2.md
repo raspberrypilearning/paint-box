@@ -6,7 +6,7 @@ Beginnen wir mit einem Buntstift, mit dem wir auf der Bühne zeichnen können.
 
 Öffne das Scratch-Projekt 'Malkasten'.
 
-**Online:** Öffne das Projekt zum Starten [scratch.mit.edu/projects/367782713](https://scratch.mit.edu/projects/367782713){:target="_blank"}
+**Online:** Öffne das Projekt zum Starten [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
@@ -35,9 +35,9 @@ Füge dem Stift folgenden Code hinzu, damit er dem Mauszeiger `ständig`{:class=
 ![Buntstift](images/pencil.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  gehe zu (Mauszeiger v)
+when flag clicked
+forever
+  go to (Mauszeiger v)
 end
 ```
 
@@ -58,13 +58,13 @@ Füge diesen Code deiner Stift-Figur hinzu:
 ![Buntstift](images/pencil.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  gehe zu (Mauszeiger v)
-+ falls <Maustaste gedrückt?> , dann 
-  schalte Stift ein
-  sonst 
-  schalte Stift aus
+when flag clicked
+forever
+  go to (Mauszeiger v)
++ if <mouse down?> then 
+  pen down
+  else
+  pen up
 end
 ```
 

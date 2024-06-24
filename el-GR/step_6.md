@@ -12,7 +12,7 @@
 
 --- task ---
 
-Πρόσθεσε αυτή τη γραμμή **μέσα** στο βρόχο `για πάντα`{:class="blockcontrol"} του κώδικα του μολυβιού:
+Πρόσθεσε αυτή τη γραμμή **μέσα** στο βρόχο `για πάντα`{:class="block3control"} του κώδικα του μολυβιού:
 
 ```blocks3
 when flag clicked
@@ -20,7 +20,7 @@ erase all
 switch costume to (μολύβι-μπλε v)
 set pen color to [#0035FF]
 forever
-go to (mouse pointer v)
+go to (δείκτη ποντικιού v)
 +set pen size to (πάχος :: variables)
 if <<mouse down?> and <(y ποντικιού) > [-120]>> then 
   pen down

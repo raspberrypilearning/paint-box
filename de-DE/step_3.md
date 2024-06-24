@@ -49,8 +49,8 @@ Füge nun Code zur ‘grün’-Figur hinzu, so dass sie, wenn sie geklickt wird,
 ![gruenes_Quadrat](images/green_square.png)
 
 ```blocks3
-Wenn diese Figur angeklickt wird
-sende (grün v) an alle
+when this sprite clicked
+broadcast (grün v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@ Schalte zu deiner Stift-Figur. Füge Code hinzu, so dass diese Figur, wenn sie d
 ![Buntstift](images/pencil.png)
 
 ```blocks3
-Wenn ich [grün v] empfange
-wechsle zu Kostüm (Stift-grün v)
-setze Stiftfarbe auf [#00CC44]
+when I receive [grün v]
+switch costume to  (Stift-grün v)
+set pen color to [#00CC44]
 ```
 
 Um die Zeichenfarbe auf das gleiche Grün wie das Auswahlfeld zu setzen, klicke das farbige Feld in `setze Stiftfarbe auf`{:class="block3extensions"} an, und wähle die entsprechende Farbe aus.
@@ -84,8 +84,8 @@ Klicke auf das blaue Quadrat und füge diesen Code hinzu:
 ![blaues_Quadrat](images/blue_square.png)
 
 ```blocks3
-Wenn diese Figur angeklickt wird
-sende (blau v) an alle
+when this sprite clicked
+broadcast (blau v)
 ```
 
 Anschließend klicke auf die Buntstift-Figur und füge diesen Code hinzu:
@@ -93,9 +93,9 @@ Anschließend klicke auf die Buntstift-Figur und füge diesen Code hinzu:
 ![Buntstift](images/pencil.png)
 
 ```blocks3
-Wenn ich [blau v] empfange
-wechsle zu Kostüm (Stift-blau v)
-setze Stiftfarbe auf [#0000ff]
+when I receive [blau v]
+switch costume to (Stift-blau v)
+set pen color to [#0000ff]
 ```
 
 --- /task ---
@@ -107,16 +107,16 @@ Zum Schluss fügst du noch Code ein, um der Bleistift Figur zu sagen mit welcher
 ![Buntstift](images/pencil.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-+lösche alles
-+wechsle zu Kostüm (Stift-blau v)
-+setze Stiftfarbe auf [#0035FF]
-wiederhole fortlaufend 
-  gehe zu (Mauszeiger v)
-falls <Maustaste gedrückt?> , dann 
-  schalte Stift ein
-  sonst 
-  schalte Stift aus
+when flag clicked
++erase all
++switch costume to(Stift-blau v)
++set pen color to [#0035FF]
+forever
+  go to(Mauszeiger v)
+if <mouse down?> then 
+  pen down
+  else
+  pen up
 end
 ```
 

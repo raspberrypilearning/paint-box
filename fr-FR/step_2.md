@@ -59,7 +59,7 @@ Ajoute ce code à ton sprite crayon:
 when flag clicked
 forever
   go to (pointeur de la souris v)
-+ if <souris pressée ?> then 
++ if <mouse down?> then 
   pen down
   else
   pen up

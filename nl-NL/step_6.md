@@ -9,17 +9,17 @@ Vervolgens kun je code toevoegen om de persoon die jouw programma gebruikt, toe 
 --- task --- Voeg deze regel **binnen** de `herhaal`{:class="block3control"} lus van de code van de potlood sprint toe:
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-wis alles
-verander uiterlijk naar (potlood-blauw v)
-maak penkleur [#0035FF]
-herhaal
-ga naar (muisaanwijzer v)
-maak pendikte (breedte :: variables)
-als <<mouse down?> en <(muis y) > [-120]>> dan
-pen neer
-anders
-pen op
+when flag clicked
+erase all
+switch costume to(potlood-blauw v)
+set pen color to [#0035FF]
+forever
+go to (muisaanwijzer v)
++set pen size to (breedte :: variables)
+if <<mouse down?> and <(muis y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

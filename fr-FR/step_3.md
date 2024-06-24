@@ -83,7 +83,7 @@ when flag clicked
 +set pen color to [#0035FF]
 forever
   go to (pointeur de souris v)
-if <souris pressée ?> then 
+if <mouse down?> then 
   pen down
   else
   pen up

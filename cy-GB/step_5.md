@@ -13,8 +13,8 @@ Weithiau mae camgymeriadau'n digwydd, felly ychwanega fotwm 'clirio' a botwm dil
 ![croes](images/cross.png)
 
 ```blocks3
-pan gaiff y ciplun yma ei glicio
-dileu popeth
+when this sprite clicked
+erase all
 ```
 
 --- /task ---
@@ -36,8 +36,8 @@ Mae dy brosiect hefyd yn cynnwys corlun dileuwr ar wahân.
 ![dileuwr](images/eraser.png)
 
 ```blocks3
-pan gaiff y ciplun yma ei glicio
-darlledu (dileuwr v)
+when this sprite clicked
+broadcast (dileuwr v)
 ```
 
 --- /task ---
@@ -52,19 +52,18 @@ Pan fo'r corlun pensil yn derbyn neges 'dileuwr', fe ddylai newid gwisg i'r dile
  --- hint --- Dyma’r holl flociau byddwch angen:
 
 ```blocks3
-gosod lliw pin i [#FFFFFF]
+set pen color to [#FFFFFF]
+when I receive [dileuwr v]
 
-pan rwy'n derbyn [dileuwr v]
-
-newid gwisg i (dileuwr v)
+switch costume to (dileuwr v)
 ```
 
 --- /hint --- --- hint --- Dyma sut dylai dy gôd edrych: ![pensil](images/pencil.png)
 
 ```blocks3
-pan rwy'n derbyn [dileuwr v]
-newid gwisg i (dileuwr v)
-gosod lliw pin i [#FFFFFF]
+when I receive [dileuwr v]
+switch costume to (dileuwr v)
+set pen color to [#FFFFFF]
 ```
 
 --- /hint --- --- /hints --- --- /task ---
@@ -82,16 +81,16 @@ Mae un problem arall gyda'r pensil: rwyt ti'n gallu tynnu llun unrhywle ar y Llw
 ![pensil](images/pencil.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-dileu popeth
-newid gwisg i (pencil-glas v)
-gosod lliw pin i [#0035FF]
-am byth 
-  mynd i (mouse pointer v)
-+os <<llygoden i lawr?> a <(llygoden y) > [-120]>> yna 
-  pin i lawr
-  fel arall 
-  pin i fyny
+when flag clicked
+erase all
+switch costume to(pencil-glas v)
+set pen color to [#0035FF]
+forever
+  go to (mouse pointer v)
++if <<mouse down?> and <(llygoden y) > [-120]>> then 
+  pen down
+  else
+  pen up
 end
 ```
 

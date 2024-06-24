@@ -49,8 +49,8 @@
 ![πράσινο τετράγωνο](images/green_square.png)
 
 ```blocks3
-όταν γίνει κλικ σε αυτό το αντικείμενο
-μετάδωσε (πράσινο v)
+when this sprite clicked
+broadcast (πράσινο v)
 ```
 
 [[[generic-scratch3-broadcast-message]]]
@@ -66,9 +66,9 @@
 ![μολύβι](images/pencil.png)
 
 ```blocks3
-όταν λάβω [πράσινο v]
-άλλαξε ενδυμασία σε (μολύβι-πράσινο v)
-όρισε χρώμα πένας σε [#00CC44]
+when I receive [πράσινο v]
+switch costume to (μολύβι-πράσινο v)
+set pen color to [#00CC44]
 ```
 
 Για να ρυθμίσεις το χρώμα μολυβιού στο πράσινο, κάνε κλικ στο έγχρωμο τετράγωνο στο μπλοκ `όρισε το χρώμα της πένας`{:class="block3extensions"}, και στη συνέχεια κάνε κλικ στο αντικείμενο πράσινου τετραγώνου.
@@ -84,8 +84,8 @@
 ![μπλε_τετράγωνο](images/blue_square.png)
 
 ```blocks3
-όταν γίνει κλικ σε αυτό το αντικείμενο
-μετάδωσε (μπλε v)
+when this sprite clicked
+broadcast (μπλε v)
 ```
 
 Στη συνέχεια κάνε κλικ στο αντικείμενο μολυβιού και πρόσθεσε αυτόν τον κώδικα:
@@ -93,9 +93,9 @@
 ![μολύβι](images/pencil.png)
 
 ```blocks3
-όταν λάβω [μπλε v]
-άλλαξε ενδυμασία σε (μολύβι-μπλε v)
-όρισε χρώμα πένας σε [#0000ff]
+when I receive [μπλε v]
+switch costume to (μολύβι-μπλε v)
+set pen color to [#0000ff]
 ```
 
 --- /task ---
@@ -107,17 +107,16 @@
 ![μολύβι](images/pencil.png)
 
 ```blocks3
-όταν στην πράσινη σημαία γίνει κλικ
+when flag clicked
 +erase all
-+άλλαξε ενδυμασία σε (μολύβι-μπλε v)
-+όρισε χρώμα πένας σε [#0035FF]
-για πάντα 
-  πήγαινε σε (mouse pointer v)
-  εάν <mouse down?> τότε 
-    κατέβασε πένα
-  αλλιώς 
-    σήκωσε πένα
-  end
++switch costume to (μολύβι-μπλε v)
++set pen color to [#0035FF]
+forever
+  go to (δείκτη ποντικιού v)
+  if <mouse down?> then 
+  pen down
+  else
+  pen up
 end
 ```
 

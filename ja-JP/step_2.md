@@ -61,7 +61,7 @@ end
 when flag clicked
 forever
   go to (マウスのポインター v)
-+ if <マウスがおされた> then
++ if <mouse down?> then
   pen down
   else
   pen up

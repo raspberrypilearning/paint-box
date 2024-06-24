@@ -115,7 +115,7 @@ switch costume to (鉛筆-青 v)
 set pen color to [#0035FF]
 forever
   go to (マウスのポインター v)
-+if <<マウスがおされた> and <(マウスのyざひょう) > [-120]>> then
++if <<mouse down?> and <(マウスのyざひょう) > [-120]>> then
   pen down
   else
   pen up
