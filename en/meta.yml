@@ -12,8 +12,6 @@ steps:
 - title: Coloured pencils
   completion:
   - engaged
-- title: 'Challenge: more pencils'
-  challenge: true
 - title: Undo mistakes
 - title: Change the pencil width
   completion:

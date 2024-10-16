@@ -1,24 +1,18 @@
 ## Make a pencil
 
-Start by making a pencil that you can use to draw on the Stage.
+Start by making a pencil that you can use to draw.
 
 --- task ---
 
-Open the 'Paint box' Scratch starter project.
-
-**Online**: open the starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
+Open the 'Paint box' Scratch starter project at [rpf.io/paint-box-on](https://rpf.io/paint-box-on){:target="_blank"}
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline**: open the [starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"} in the offline editor.
-
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}
+--- /task ---
 
 In the starter project, you should see pencil and eraser sprites:
 
 ![screenshot](images/paint-starter.png)
-
---- /task ---
 
 --- task ---
 
@@ -85,12 +79,12 @@ title: Does your pencil not draw from its tip?
 
 If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
 
-Click on the pencil sprite, and then click on the **Costumes** tab.
+1. Click on the pencil sprite, and then click on the **Costumes** tab.
 
-Move the costume's so the tip of the pencil is **just above** the centre.
+2. Move the costume's so the tip of the pencil is **just above** the centre.
 
 ![Costume center](images/costume-center-annotated.png)
 
-Now move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
+3. Move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
 
 --- /collapse ---

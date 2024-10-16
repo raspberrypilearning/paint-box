@@ -1,9 +1,17 @@
-## Challenge: keyboard commands
-Can you add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
+## What next?
+Now that you have completed the 'Paint box' project, try [the 'Chatbot' project](https://projects.raspberrypi.org/en/projects/chatbot?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make character that can talk to you!
 
-+ <kbd>b</kbd> = Switch to blue pencil
-+ <kbd>g</kbd> = switch to green pencil
-+ <kbd>e</kbd> = switch to eraser
-+ <kbd>c</kbd> = clear screen
+--- no-print ---
 
-If you want to, you can also add code so that pressing the arrow keys changes the pen width.
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
+</div>
+
+--- /no-print ---
+
+--- print-only ---
+
+![boat race demo](images/boat_race_demo.png)
+
+--- /print-only ---
