@@ -21,6 +21,8 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 
 ![showcase](images/showcase.png)
 
+--- /print-only ---
+
 ## What you will need
 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
