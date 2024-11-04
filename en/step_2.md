@@ -24,7 +24,7 @@ Add the Pen extension to your project.
 
 --- task ---
 
-Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"} so that you can draw:
+Add some code to the pencil sprite to make the sprite follow the mouse pointer `forever`{:class="block3control"}:
 
 ![pencil](images/pencil.png)
 
@@ -38,6 +38,8 @@ end
 --- /task ---
 
 --- task ---
+
+Test your code.
 
 Click the flag and then move the mouse pointer around the Stage to test whether your code works.
 
@@ -66,7 +68,9 @@ end
 
 --- task ---
 
-Test your code again. This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
+Test your code again. 
+
+This time, move the pencil around the Stage and hold down the mouse button. Can you draw with your pencil?
 
 ![screenshot](images/paint-draw.png)
 

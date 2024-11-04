@@ -73,6 +73,10 @@ switch costume to (pencil-green v)
 set pen color to [#00CC44]
 ```
 
+--- /task ---
+
+---- task ---
+
 Click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square.
 
 --- /task ---
@@ -129,7 +133,9 @@ end
 
 --- task ---
 
-Test your code. Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
+Test your code. 
+
+Can you switch between the blue and green pencil colours by clicking on the blue or green square sprites?
 
 ![screenshot](images/paint-pens-test.png)
 

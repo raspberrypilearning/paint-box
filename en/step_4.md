@@ -25,8 +25,6 @@ erase all
 
 --- /task ---
 
-You don't need to use a `broadcast`{:class="block3events"} to clear the Stage, because the `erase all`{:class="block3extensions"} block does that job.
-
 Do you see that the pencil sprite includes an eraser costume?
 
 ![screenshot](images/paint-eraser-costume.png)
@@ -62,32 +60,7 @@ When the pencil sprite receives the 'eraser' message, it should switch its costu
 
 --- task ---
 
-Add some code to create the eraser.
-
---- hints ---
---- hint ---
-
-Add some code to the pencil sprite:
-`When I receive`{:class="block3events"} the `eraser`{:class="block3events"} message
-`Switch to costume eraser`{:class="block3looks"} 
-`Set pen color`{:class="block3extensions"} to white
-
---- /hint ---
---- hint ---
-
-Here are all the blocks you need:
-
-```blocks3
-set pen color to [#FFFFFF]
-when I receive [eraser v]
-
-switch costume to (eraser v)
-```
-
---- /hint ---
---- hint ---
-
-Here is what the code should look like:
+Add some code to the pencil sprite to create the eraser.
 
 ![pencil](images/pencil.png)
 
@@ -96,9 +69,6 @@ when I receive [eraser v]
 switch costume to (eraser v)
 set pen color to [#FFFFFF]
 ```
-
---- /hint ---
---- /hints ---
 --- /task ---
 
 --- task ---
