@@ -4,7 +4,7 @@ Make the lines you draw thicker or thinner.
 
 --- task ---
 
-Add a new variable called `width`{:class="block3variables"}.
+Add a new variable called `width`{:class="block3variables"}. Make sure it is se to 'all sprites'
 
 [[[generic-scratch3-add-variable]]]
 
@@ -13,6 +13,8 @@ Add a new variable called `width`{:class="block3variables"}.
 --- task ---
 
 Add this line __inside__ the `forever`{:class="block3control"} loop of the pencil sprite's code:
+
+![pencil](images/pencil.png)
 
 ```blocks3
 when flag clicked

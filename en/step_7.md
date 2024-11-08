@@ -1,4 +1,4 @@
-## What next?
+## What can you do now?
 Now that you have completed the 'Paint box' project, try [the 'Chatbot' project](https://projects.raspberrypi.org/en/projects/chatbot?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), which helps you make character that can talk to you!
 
 --- no-print ---

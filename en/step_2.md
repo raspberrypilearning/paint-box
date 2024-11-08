@@ -41,7 +41,7 @@ end
 
 Test your code.
 
-Click the flag and then move the mouse pointer around the Stage to test whether your code works.
+Click the flag and then move the mouse pointer around the Stage to test whether your code works. The pencil should move with the mouse.
 
 --- /task ---
 
@@ -75,20 +75,3 @@ This time, move the pencil around the Stage and hold down the mouse button. Can 
 ![screenshot](images/paint-draw.png)
 
 --- /task ---
-
---- collapse ---
----
-title: Does your pencil not draw from its tip?
----
-
-If the line your pencil draw looks like it is coming from the pencil's middle, you need to change your pencil sprite's so the tip is the sprite's centre.
-
-1. Click on the pencil sprite, and then click on the **Costumes** tab.
-
-2. Move the costume's so the tip of the pencil is **just above** the centre.
-
-![Costume center](images/costume-center-annotated.png)
-
-3. Move the pencil around on the Stage and draw. The pencil should now draw a line from its tip.
-
---- /collapse ---

@@ -22,25 +22,9 @@ Right click on the pencil-blue costume and select **duplicate**.
 
 --- task ---
 
-Name the new costume 'pencil-green', and colour the pencil green.
+Name the new costume 'pencil-green', and colour the pencil green using the 'fill' tool.
 
 ![screenshot](images/paint-pencil-green.png)
-
---- /task ---
-
---- task ---
-
-Draw two new sprites: one blue square and one green square. These are for choosing between the blue and green pencil.
-
-![screenshot](images/paint-selectors.png)
-
---- /task ---
-
---- task ---
-
-Rename the new sprites so that they are called 'blue' and 'green'
-
-[[[generic-scratch3-rename-sprite]]]
 
 --- /task ---
 
@@ -75,7 +59,7 @@ set pen color to [#00CC44]
 
 --- /task ---
 
----- task ---
+--- task ---
 
 Click the coloured square in the `set pen color`{:class="block3extensions"} block, and then click on the green square.
 
@@ -140,4 +124,3 @@ Can you switch between the blue and green pencil colours by clicking on the blue
 ![screenshot](images/paint-pens-test.png)
 
 --- /task ---
-

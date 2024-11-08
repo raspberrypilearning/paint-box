@@ -2,11 +2,11 @@
 --- challenge ---
 
 --- task ---
-Add red, yellow, and black pencils to your paint program? Take a look at the earlier steps if you want a reminder of how to do this.
+Add red, yellow, and black pencils to your paint program. Take a look at the earlier steps if you want a reminder of how to do this.
 --- /task ---
 
 --- task ---
-Can you use your pencils to draw a picture?
+Use your pencils to draw a picture!
 ![screenshot](images/paint-final.png)
 --- /task ---
 

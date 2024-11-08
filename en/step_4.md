@@ -4,7 +4,7 @@ Sometimes mistakes happen, so add a 'clear' button and an eraser button.
 
 --- task ---
 
-Add the 'X-block' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
+Add the 'block-X' sprite from the library's letters section. Colour the sprite's costume in red and make it a little smaller. This sprite is the 'clear' button.
 
 [[[generic-scratch3-sprite-from-library]]]
 
@@ -14,7 +14,7 @@ Add the 'X-block' sprite from the library's letters section. Colour the sprite's
 
 --- task ---
 
-Add code to the 'X-block' sprite to clear the Stage when the sprite clicked.
+Add code to the 'block-X' sprite to clear the Stage when the sprite clicked.
 
 ![cross](images/cross.png)
 
@@ -25,9 +25,13 @@ erase all
 
 --- /task ---
 
-Do you see that the pencil sprite includes an eraser costume?
+--- task ---
 
-![screenshot](images/paint-eraser-costume.png)
+Test your code.
+
+Draw something with the pencil, the click the X sprite to see if it clears.
+
+--- /task ---
 
 Your project also includes a separate eraser sprite. 
 

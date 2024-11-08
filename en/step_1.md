@@ -1,25 +1,24 @@
 ## Introduction
 
-Make your own paint program!
+Learn how to code your own musical instruments!
 
 ### What you will make
 
 --- no-print ---
 
-Click on the green flag to start. Can you work out how to draw, change colours and erase your picture?
-   
+Click the green flag to begin. Then, click on the singer or the drum to hear what they sound like.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/showcase.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/276872220/?autostart=false" frameborder="0" scrolling="no"></iframe>
 </div>
 
 --- /no-print ---
 
 --- print-only ---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser! 
+You will make a game where you can click on the singer or the drum to hear singing or drum sounds.
 
-![showcase](images/showcase.png)
+![game screenshot](images/demo.png)
 
 --- /print-only ---
 
@@ -28,7 +27,7 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
+[Offline starter project](https://rpf.io/p/en/paint-box-go){:target="_blank"}
 
 --- collapse ---
 ---
@@ -40,4 +39,3 @@ If you need to print this project, please use the [printer-friendly version](htt
 You can find the [completed project here](https://rpf.io/p/en/paint-box-get){:target="_blank"}.
 
 --- /collapse ---
-

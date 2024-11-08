@@ -16,6 +16,7 @@ steps:
 - title: Change the pencil width
   completion:
   - internal
-- title: 'Challenge: keyboard commands'
-  challenge: true
-- title: What next?
+- title: Challenge
+  completion:
+  - external
+- title: What can you do now?
