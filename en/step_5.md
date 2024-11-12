@@ -4,7 +4,7 @@ Make the lines you draw thicker or thinner.
 
 --- task ---
 
-Add a new variable called `width`{:class="block3variables"}. Make sure it is se to 'all sprites'
+Add a new variable called `width`{:class="block3variables"}. Make sure it is set to 'all sprites'
 
 [[[generic-scratch3-add-variable]]]
 
