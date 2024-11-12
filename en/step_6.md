@@ -1,54 +1,24 @@
-## Change the pen width
 
-Next you will add code to allow the person using your program to draw things with different pen widths.
+--- challenge ---
 
 --- task ---
-
-First, add a new variable called `width`{:class="block3variables"}.
-
-[[[generic-scratch3-add-variable]]]
-
+Add red, yellow, and black pencils to your paint program. Take a look at the earlier steps if you want a reminder of how to do this.
 --- /task ---
 
 --- task ---
-
-Add this line __inside__ the `forever`{:class="block3control"} loop of the pencil sprite's code:
-
-```blocks3
-when flag clicked
-erase all
-switch costume to (pencil-blue v)
-set pen color to [#0035FF]
-forever
-go to (mouse pointer v)
-+set pen size to (width :: variables)
-if <<mouse down?> and <(mouse y) > [-120]>> then 
-  pen down
-  else
-  pen up
-end
-```
-
+Use your pencils to draw a picture!
+![screenshot](images/paint-final.png)
 --- /task ---
-
-The pen width now repeatedly gets set to the value of the `width`{:class="block3variables"} variable.
 
 --- task ---
+Add code so that, instead of clicking on the coloured squares or buttons on the Stage, you can make things happen by pressing keyboard keys? For example:
 
-Right-click on the `width`{:class="block3variables"} variable displayed on the Stage, and then click on **slider**.
-
-![screenshot](images/paint-slider.png)
-
---- /task ---
-
-You can now drag the slider that is visible below the variable to change the variable's value.
-
-![screenshot](images/paint-slider-change.png)
-
---- task ---
-
-Test your project and see if you can change the pen width.
-
-![screenshot](images/paint-width-test.png)
++ <kbd>b</kbd> = Switch to blue pencil
++ <kbd>g</kbd> = switch to green pencil
++ <kbd>e</kbd> = switch to eraser
++ <kbd>c</kbd> = clear screen
 
 --- /task ---
+
+--- /challenge ---
+
