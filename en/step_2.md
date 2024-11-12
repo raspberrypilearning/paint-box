@@ -10,7 +10,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 --- /task ---
 
-In the starter project, you should see pencil and eraser sprites:
+In the starter project, you should see pencil, eraser and two square sprites:
 
 ![screenshot](images/paint-starter.png)
 
