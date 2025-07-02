@@ -20,4 +20,3 @@ steps:
       - internal
   - title: 'التحدي: أوامر لوحة المفاتيح'
     challenge: true
-  - title: ما التالي؟
