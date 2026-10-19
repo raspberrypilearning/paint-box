@@ -17,5 +17,6 @@ steps:
   completion:
   - internal
 - title: Challenge
+  challenge: true
   completion:
   - external
